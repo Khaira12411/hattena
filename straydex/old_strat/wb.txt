@@ -1,0 +1,265 @@
+class WB_MVPStrat:
+    gri = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Screech` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Zacian-Crowned**
+Equip: `Metronome`
+Moves: `Behemoth Blade` `Sword Dance`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 defense, then use 1x `Memento`.
+- With **Zacian-Crowned** use `Sword Dance` 3x.
+- After the set-up above, spam `Behemoth Blade`
+- Use `Max Potions` to heal."""
+
+    uss = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Gmax Hatterene**
+Equip: `Metronome`
+Moves: `Gmax Smite` `Draining Kiss` `Calm Mind`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **GMAX Hatterene** use `Calm Mind` 6x times.
+- After the set-up above, spam `Gmax Smite`.
+- Use `Draining Kiss` to heal."""
+
+    alc = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento` `Screech`
+EVs: `HP 252` `SPD 252`
+
+- **Zacian-Crowned**
+Equip: `Metronome`
+Moves: `Behemoth Blade` `Sword Dance`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Zacian-Crowned** use `Sword Dance` 3x.
+- After the set-up above, spam `Behemoth Blade`
+- Use `Max Potions` to heal."""
+
+    app_fla = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Golden Kyurem-White**
+Equip: `Choice Cloak` | `Choice Specs` | `Expert Belt` | `Metronome`
+Moves:  `Ice burn` `Roost`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **GKW** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, spam `Ice Burn`.
+- Use `Roost` to heal.
+- You can run `Choice Specs` instead of `Metronome` and heal using `Max Potions` instead of `Recover` - if you have alot of `Max Potions`."""
+
+    but = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Screech` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Golden Rhyperior**
+Equip: `Metronome` | `Choice Band`
+Moves: `Rock Wrecker` `Swords Dance`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 defense, then use 1x `Memento`.
+- With **Golden Rhyperior** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, spam `Rock Wrecker`.
+- Use `Max Potions` to heal."""
+
+    coa = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- *Gmax Inteleon**
+Equip: `Metronome` | `Choice Specs` | `Expert Belt` | `Choice Cloak`
+Moves: `Max Geyser`  `Max Quake` `Max Futterby` `Gmax Hydrosnipe`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Gmax Inteleon** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, use `Max Geyser` to get **Rain** while dealing damage.
+- Spam `Gmax Hydrosnipe`, and use `Max Geyser` again whenever **Rain** stops.
+- Use `Max Potions` to heal.
+- If you use any `Choice Items`, just spam `Max Geyser`."""
+
+    cop = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Screech` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Pangoro**
+Equip: `Metronome` | `Black Glasses` | `Choice Band` | `Choice Cloak`
+Moves: `Stored Power` `Recover` `Calm Mind` `Bulk Up`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 defense, then use 1x `Memento`.
+- With **Pangoro** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, spam `Power Trip`.
+- Use `Max Potions` to heal."""
+    cor = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento` `Screech`
+EVs: `HP 252` `SPD 252`
+
+- **Pangoro**
+Equip: `Metronome` | `Black Glasses` | `Choice Band` | `Choice Cloak`
+Moves: `Power Trip` `Bulk Up`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 5x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 defense, then use 1x `Memento`.
+- With **Pangoro** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, spam `Power Trip`.
+- Use `Max Potions` to heal."""
+    hat = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Screech` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Zacian-Crowned**
+Equip: `Metronome`
+Moves: `Behemoth Blade` `Sword Dance`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Screech` 3x times to get -6 defense, then use 1x `Memento`.
+- With **Zacian-Crowned** use `Sword Dance` 3x.
+- After the set-up above, spam `Behemoth Blade`
+- Use `Max Potions` to heal."""
+
+    mel = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Gmax Charizard**
+Equip: `Choice Specs` | `Expert Belt` | `Choice Cloak` | `Metronome`
+Moves: `Stored Power` `Recover` `Calm Mind` `Bulk Up`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Gmax Charizard** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- After the boost above, spam `Max Flare`.
+- Use `Roost` to heal.
+- You can run `Choice Specs` instead of `Metronome` and heal using `Max Potions` instead of `Recover` - if you have alot of `Max Potions`."""
+    mewtwo = """**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Muk**
+Equip: `Loaded Dice`
+Moves: `Acid Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Mewtwo Y**
+Equip: `Metronome`
+Moves: `Stored Power` `Recover` `Agility` `Double Team`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** 🌟
+- Must have 3x `Aux Powerguard`
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **MMY** use 3x `Aux Powerguard` in order to max ATK, SPA, DEF, & SPD.
+- Use Agility/Double Team depending on how fast the boss dies.
+- For Fast Boss, 3x Agility
+- For Long Boss, 3x Agility, and 6x Double Team
+- After the boost above, spam `Stored Power`.
+- Use `Recover` to heal.
+- You can run `Choice Specs` instead of `Metronome` and heal using `Max Potions` instead of `Recover` - if you have alot of `Max Potions`."""
