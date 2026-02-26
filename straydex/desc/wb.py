@@ -492,7 +492,7 @@ Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Mega Mewtwo Y**.
@@ -516,7 +516,7 @@ Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Necrozma-Ultra**.
@@ -540,7 +540,7 @@ Moves: `Power Trip`
 EVs: `ATK 252` `SPD 252` `HP 4`
 
 
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`, 3x `Screech`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Incineroar**.
@@ -565,7 +565,7 @@ Moves: `Max Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use 2x `Eerie Impulse`, 2x `Focus Energy`, `, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Inteleon**.
@@ -589,7 +589,7 @@ Moves: `Stored Power` `Miracle Eye` `Recover`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Mega Mewtwo Y**.
