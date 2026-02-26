@@ -63,7 +63,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-gmax.png"
         header_text = f"SHINY GMAX URSHIFU SINGLE STRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
-        
+
 
     # MMY METRONOME FOR URS AND GRI
     if boss_name == "urs":
@@ -80,9 +80,6 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     if boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
         strat = WB_MVPStrat.necorzma_ultra
-
-    if boss_name == "app" or "fla":
-        strat = WB_MVPStrat.app_fla
 
     if boss_name in ("cor", "cop", "orb"):
         strat = WB_MVPStrat.incineroar
