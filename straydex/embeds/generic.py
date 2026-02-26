@@ -3,6 +3,8 @@ from discord.ui import Button, View
 
 from constants.aesthetic import Dividers
 from constants.perks import perks
+from constants.straymons_constants import STRAYMONS_GUILD_ID
+from utils.logs.pretty_log import pretty_log
 
 # If you need main_cmd_list, import it inside the function that uses it:
 # def some_function(...):
@@ -51,7 +53,10 @@ ubg_sub_cmd_list = [
     "ubgtra",
 ]
 
-
+STRAYMONS_ONLY_COMMANDS = [
+    "straymon",
+    "ubg",
+]
 async def build_sd_main_embed(
     guild: discord.Guild,
     main_cmd: str,
@@ -61,9 +66,12 @@ async def build_sd_main_embed(
     cmd: str = None,
 ):
 
+
     if main_cmd == "h":
         # Remove this line from the description if not in Straymons guild
         line = "- **`!STRAYMON`**  Straymon Clan"
+        text = remove_line_from_desc(guild.id, line, text)
+        line = "- **`!UBG`**  Ultimate Beginner Guide"
         text = remove_line_from_desc(guild.id, line, text)
 
     # Determine header text
@@ -99,6 +107,10 @@ async def build_sd_two_embed(
     image_url_second: str = None,
     text_second: str = None,
 ):
+    #pretty_log("debug", f"Building embed for command: {main_cmd}")
+    if main_cmd in STRAYMONS_ONLY_COMMANDS and guild.id != STRAYMONS_GUILD_ID:
+        return None  # Don't build embed for Straymons-only commands in other guilds
+
     if main_cmd == "ubg":
         author_text = "ULTIMATE BEGINNER GUIDE"
     else:

@@ -64,14 +64,16 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         header_text = f"SHINY GMAX URSHIFU SINGLE STRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
 
-
     # MMY METRONOME FOR URS AND GRI
     if boss_name == "urs":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-rapid-strike-gmax.png"
         header_text = f"SHINY GMAX URSHIFU RAPID STRIKE #{dex_number}"
-        strat = WB_MVPStrat.mmy_metronome
+        strat = WB_MVPStrat.necorzma_ultra
 
     if boss_name == "gri":
+        strat = WB_MVPStrat.mmy_metronome
+
+    if boss_name == "uss":
         strat = WB_MVPStrat.mmy_metronome
 
     if boss_name == "coa":

@@ -6,9 +6,9 @@ from straydex.AR.h import straydex_ar
 from straydex.desc import type_info
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 
-enable_debug(f"{__name__}.send_response")
-enable_debug(f"{__name__}.handle_straydex_command")
-enable_debug(f"{__name__}.handle_exact_command")
+#enable_debug(f"{__name__}.send_response")
+#enable_debug(f"{__name__}.handle_straydex_command")
+#enable_debug(f"{__name__}.handle_exact_command")
 
 
 async def send_response(message_or_interaction, response):

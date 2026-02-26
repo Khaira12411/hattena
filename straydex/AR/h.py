@@ -281,7 +281,7 @@ for sub in fa_sub:
 
 # WB AR
 wb_bosses = [
-    "i"
+    "i",
     "gri",
     "uss",
     "alc",
