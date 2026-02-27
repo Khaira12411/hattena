@@ -144,6 +144,14 @@ straydex_ar = {
             "function": build_sd_main_embed,
         }
     },
+    "sz": {
+        "": {
+            "text": SD_MAIN_DESC.sz,
+            "image_url": SD_MAIN_IMAGES.SZ,
+            "function": build_sd_main_embed,
+        }
+    },
+
     "straymon": {
         "": {
             "text": SD_STRAYMON_DESC.sm1,
@@ -323,8 +331,9 @@ for boss in wb_bosses:
             "function": build_sd_main_embed,
             "image_url": SD_MAIN_IMAGES.WB,
         }
-    straydex_ar["wb"][boss] = {
-        "function": build_sd_wb_embed,
+    else:
+        straydex_ar["wb"][boss] = {
+            "function": build_sd_wb_embed,
     }
 # Achievement AR
 ac_sub = ["bat", "cat", "dex", "fis", "gen", "ite", "res"]

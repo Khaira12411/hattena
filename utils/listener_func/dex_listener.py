@@ -141,10 +141,7 @@ async def parse_stats_and_abilities_from_embed_and_update(
                     base_spe=stats.get("base_spe"),
                     ability=",".join(stats.get("abilities", [])),
                 )
-                pretty_log(
-                    "info",
-                    f"Updated stats and abilities for {pokemon_name} to {stats}.",
-                )
+                debug_log(f"Successfully updated stats for {pokemon_name}.")
             except Exception as e:
                 debug_log(
                     f"Failed to update stats for {pokemon_name} with {stats}: {e}",
@@ -252,20 +249,14 @@ async def dex_listener(bot, message: discord.Message):
         dex_number = int(dex_number)
         await update_dex_number(bot, pokemon_name, dex_number)
         debug_log(f"Updated dex number for {pokemon_name} to {dex_number}.")
-        pretty_log(
-            "info",
-            f"Updated dex number for {pokemon_name} to {dex_number}.",
-        )
+
     old_rarity = fetch_rarity_cache(pokemon_name)
     rarity = extract_rarity_from_embed(embed)
 
     if rarity and old_rarity != rarity:
         await update_rarity(bot, pokemon_name, rarity)
         debug_log(f"Updated rarity for {pokemon_name} to {rarity}.")
-        pretty_log(
-            "info",
-            f"Updated rarity for {pokemon_name} to {rarity}.",
-        )
+
 
     old_emoji_id = fetch_emoji_id_cache(pokemon_name)
     if not old_emoji_id:
@@ -274,15 +265,7 @@ async def dex_listener(bot, message: discord.Message):
             try:
                 await update_emoji_id(bot, pokemon_name, emoji_id)
                 debug_log(f"Updated emoji ID for {pokemon_name} to {emoji_id}.")
-                pretty_log(
-                    "info",
-                    f"Updated emoji ID for {pokemon_name} to {emoji_id}.",
-                )
             except Exception as e:
-                debug_log(
-                    f"Failed to update emoji ID for {pokemon_name} to {emoji_id}: {e}",
-                    exc=e,
-                )
                 pretty_log(
                     "warn",
                     f"⚠️ Failed to update emoji ID for {pokemon_name} to {emoji_id}: {e}",
@@ -290,10 +273,6 @@ async def dex_listener(bot, message: discord.Message):
                 )
 
     try:
-        pretty_log(
-            "info",
-            f"Parsing stats and abilities for {pokemon_name} from dex embed.",
-        )
 
         await parse_stats_and_abilities_from_embed_and_update(bot, embed, pokemon_name)
     except Exception as e:
