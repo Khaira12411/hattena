@@ -1,7 +1,7 @@
 from constants.paldea_galar_dict import dex, rarity_meta
 from constants.pokemons import *
 from constants.straymons_constants import STRAYMONS__EMOJIS
-from utils.db.market_value_db import (
+from utils.cache.market_value_cache import (
     fetch_dex_number_cache,
     fetch_market_value_cache,
     is_pokemon_exclusive_cache,

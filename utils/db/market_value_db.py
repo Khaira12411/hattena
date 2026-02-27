@@ -9,6 +9,104 @@ import discord
 from utils.cache.cache_list import market_value_cache
 from utils.logs.pretty_log import pretty_log
 
+
+async def update_pokemon_stats(bot: discord.Client, pokemon_name: str, base_atk: int, base_def: int, base_hp: int, base_spa: int, base_spd: int, base_spe: int, ability: str, weight: int = None):
+    """
+    Insert or update a Pokémon entry in the market_value table with its stats.
+    Expects pokemon_name and individual base stats and weight, ability.
+    """
+    pokemon_data = {
+        "base_atk": base_atk,
+        "base_def": base_def,
+        "base_hp": base_hp,
+        "base_spa": base_spa,
+        "base_spd": base_spd,
+        "base_spe": base_spe,
+        "weight": weight,
+        "ability": ability,
+    }
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            await conn.execute(
+                """
+                INSERT INTO market_value (pokemon_name, base_atk, base_def, base_hp, base_spa, base_spd, base_spe, weight, ability)
+                VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+                ON CONFLICT (pokemon_name) DO UPDATE SET
+                    base_atk = COALESCE(EXCLUDED.base_atk, market_value.base_atk),
+                    base_def = COALESCE(EXCLUDED.base_def, market_value.base_def),
+                    base_hp = COALESCE(EXCLUDED.base_hp, market_value.base_hp),
+                    base_spa = COALESCE(EXCLUDED.base_spa, market_value.base_spa),
+                    base_spd = COALESCE(EXCLUDED.base_spd, market_value.base_spd),
+                    base_spe = COALESCE(EXCLUDED.base_spe, market_value.base_spe),
+                    weight = COALESCE(EXCLUDED.weight, market_value.weight),
+                    ability = COALESCE(EXCLUDED.ability, market_value.ability);
+                """,
+                pokemon_name.lower(),
+                base_atk,
+                base_def,
+                base_hp,
+                base_spa,
+                base_spd,
+                base_spe,
+                weight,
+                ability,
+            )
+        pretty_log(
+            "db",
+            f"Upserted stats for Pokémon {pokemon_name} into database.",
+        )
+        # Update the cache as well
+        from utils.cache.market_value_cache import update_pokemon_stats_cache
+
+        update_pokemon_stats_cache(pokemon_name, pokemon_data)
+
+    except Exception as e:
+        pretty_log(
+            "error",
+            f"Failed to upsert stats for Pokémon {pokemon_name}: {e}",
+        )
+
+async def update_emoji_id(bot, pokemon_name: str, emoji_id: str):
+    """
+    Update the emoji_id for a Pokémon in the market value table.
+    """
+    pokemon_name = pokemon_name.lower()
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            # Only update if row exists
+            row = await conn.fetchrow(
+                "SELECT pokemon_name FROM market_value WHERE pokemon_name = $1",
+                pokemon_name,
+            )
+            if not row:
+                pretty_log(
+                    tag="db",
+                    message=f"No market value row found for {pokemon_name}, skipping emoji_id update.",
+                )
+                return
+            await conn.execute(
+                "UPDATE market_value SET emoji_id = $1, last_updated = $2 WHERE pokemon_name = $3",
+                emoji_id,
+                datetime.utcnow(),
+                pokemon_name,
+            )
+            # Update in cache as well
+            if pokemon_name in market_value_cache:
+                market_value_cache[pokemon_name]["emoji_id"] = emoji_id
+
+        pretty_log(
+            tag="db",
+            message=f"Updated emoji_id for {pokemon_name} to {emoji_id}",
+        )
+
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Failed to update emoji_id for {pokemon_name}: {e}",
+        )
+
+
+
 async def update_rarity(bot, pokemon_name: str, rarity: str):
     """
     Update the rarity for a Pokémon in the market value table.
@@ -34,8 +132,9 @@ async def update_rarity(bot, pokemon_name: str, rarity: str):
                 pokemon_name,
             )
             # Update in cache as well
-            if pokemon_name in market_value_cache:
-                market_value_cache[pokemon_name]["rarity"] = rarity
+            from utils.cache.market_value_cache import update_rarity_cache
+
+            update_rarity_cache(pokemon_name, rarity)
 
         pretty_log(
             tag="db",
@@ -47,78 +146,6 @@ async def update_rarity(bot, pokemon_name: str, rarity: str):
             tag="error",
             message=f"Failed to update rarity for {pokemon_name}: {e}",
         )
-
-def fetch_rarity_cache(pokemon_name: str):
-    """
-    Get rarity for a Pokémon from cache.
-    Returns 'unknown' if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("rarity", "unknown")
-    return "unknown"
-
-def fetch_dex_number_cache(pokemon_name: str):
-    """
-    Get dex number for a Pokémon from cache.
-    Returns 0 if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("dex_number", 0)
-    return 0
-
-
-def fetch_market_value_cache(pokemon_name: str):
-    """
-    Get market value data for a specific Pokémon from cache.
-    Returns dict with market data or None if not found.
-    """
-    return market_value_cache.get(pokemon_name.lower())
-
-
-def fetch_lowest_market_value_cache(pokemon_name: str):
-    """
-    Get lowest market value for a Pokémon from cache.
-    Returns 0 if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("lowest_market", 0)
-    return 0
-
-
-def fetch_pokemon_exclusivity_cache(pokemon_name: str):
-    """
-    Get exclusivity status for a Pokémon from cache.
-    Returns False if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("is_exclusive", False)
-    return False
-
-
-def is_pokemon_exclusive_cache(pokemon_name: str):
-    """
-    Check if a Pokémon is exclusive based on cache data.
-    Returns False if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("is_exclusive", False)
-    return False
-
-
-def fetch_image_link_cache(pokemon_name: str):
-    """
-    Get image link for a Pokémon from cache.
-    Returns None if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("image_link", None)
-    return None
 
 
 async def fetch_image_link_from_db(bot, pokemon_name: str):
@@ -221,17 +248,6 @@ async def set_market_value(
             tag="error",
             message=f"Failed to set market value for {pokemon_name}: {e}",
         )
-
-
-def fetch_image_link_cache(pokemon_name: str):
-    """
-    Get image link for a Pokémon from cache.
-    Returns None if not found or no data.
-    """
-    pokemon_data = market_value_cache.get(pokemon_name.lower())
-    if pokemon_data:
-        return pokemon_data.get("image_link", None)
-    return None
 
 
 async def update_market_value_via_listener(
@@ -404,8 +420,9 @@ async def update_dex_number(bot, pokemon_name: str, dex_number: int):
                 pokemon_name,
             )
             # Update in cache as well
-            if pokemon_name in market_value_cache:
-                market_value_cache[pokemon_name]["dex_number"] = dex_number
+            from utils.cache.market_value_cache import update_dex_number_cache
+
+            update_dex_number_cache(pokemon_name, dex_number)
 
         pretty_log(
             tag="db",
@@ -845,6 +862,14 @@ async def load_market_cache_from_db(bot) -> dict:
                     "listing_seen": row["listing_seen"],
                     "image_link": row.get("image_link", None),
                     "rarity": row.get("rarity", "unknown"),
+                    "base_atk": row.get("base_atk", 0),
+                    "base_def": row.get("base_def", 0),
+                    "base_hp": row.get("base_hp", 0),
+                    "base_spa": row.get("base_spa", 0),
+                    "base_spd": row.get("base_spd", 0),
+                    "base_spe": row.get("base_spe", 0),
+                    "weight": row.get("weight", 0),
+                    "ability": row.get("ability", ""),
                 }
 
         """pretty_log(
@@ -860,4 +885,5 @@ async def load_market_cache_from_db(bot) -> dict:
             tag="error",
             message=f"Failed to load market cache from database: {e}",
         )
+        return {}
         return {}

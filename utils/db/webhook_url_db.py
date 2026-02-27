@@ -11,7 +11,6 @@ from utils.logs.pretty_log import pretty_log
     PRIMARY KEY (bot_id, channel_id)
 );"""
 
-BOT_ID = 1324718838016770068
 
 
 async def upsert_webhook_url(
@@ -20,7 +19,7 @@ async def upsert_webhook_url(
     webhook_url: str,
 ):
     bot_name = bot.user.name if bot.user else "Unknown Bot"
-    bot_id = BOT_ID
+    bot_id = bot.user.id
     channel_id = channel.id
     channel_name = channel.name
     try:
@@ -59,7 +58,7 @@ async def upsert_webhook_url(
 
 
 async def fetch_all_webhook_urls(bot: discord.Client) -> dict[int, dict[str, str]]:
-    bot_id = BOT_ID
+    bot_id = bot.user.id
     webhook_url = {}
     try:
         async with bot.pg_pool.acquire() as conn:
@@ -88,7 +87,7 @@ async def fetch_all_webhook_urls(bot: discord.Client) -> dict[int, dict[str, str
 
 
 async def remove_webhook_url(bot: discord.Client, channel: discord.TextChannel):
-    bot_id = BOT_ID
+    bot_id = bot.user.id
     channel_id = channel.id
     channel_name = channel.name
     try:

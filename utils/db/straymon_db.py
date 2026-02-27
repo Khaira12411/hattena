@@ -57,7 +57,8 @@ async def update_patreon_status(bot, user_id: int, is_patreon: bool):
             f"Failed to update Patreon status for user_id {user_id}: {e}",
         )
 
-async def update_catch_rate(bot, user_id: int, catch_rate: int):
+
+async def update_catch_rate(bot, user_id: int, catch_rate_bonus: int):
     """
     Update the catch rate of a Straymon member in the database.
     """
@@ -66,19 +67,19 @@ async def update_catch_rate(bot, user_id: int, catch_rate: int):
             await conn.execute(
                 """
                 UPDATE straymons_members
-                SET catch_rate = $1
+                SET catch_rate_bonus = $1
                 WHERE user_id = $2;
                 """,
-                catch_rate,
+                catch_rate_bonus,
                 user_id,
             )
         pretty_log(
             "db",
-            f"Updated catch rate for user_id {user_id} to {catch_rate}.",
+            f"Updated catch rate for user_id {user_id} to {catch_rate_bonus}.",
         )
         from utils.cache.straymon_member_cache import update_catch_rate_in_cache
-        update_catch_rate_in_cache(user_id, catch_rate)
-        
+        update_catch_rate_in_cache(user_id, catch_rate_bonus)
+
     except Exception as e:
         pretty_log(
             "error",

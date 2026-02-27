@@ -37,7 +37,7 @@ async def perks_listener(
 
     # Get old values from cache for logging
     old_data = straymon_member_cache.get(user_id, {})
-    old_catch_rate = old_data.get("catch_rate", 0)
+    old_catch_rate = old_data.get("catch_rate_bonus", 0)
     old_patreon_status = old_data.get("is_patreon", False)
 
     if catchboost != old_catch_rate:

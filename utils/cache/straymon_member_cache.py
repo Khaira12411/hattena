@@ -12,7 +12,6 @@ async def load_straymon_member_cache(bot):
     Uses the fetch_all_straymon_members DB function.
     """
 
-
     straymon_member_cache.clear()
     rows = await fetch_all_straymon_members(bot)
     for row in rows:
@@ -20,7 +19,7 @@ async def load_straymon_member_cache(bot):
             "user_name": row.get("user_name"),
             "channel_id": row.get("channel_id"),
             "faction": row.get("faction"),
-            "catch_rate": row.get("catch_rate"),
+            "catch_rate_bonus": row.get("catch_rate_bonus"),
             "is_patreon": row.get("is_patreon"),
         }
 
@@ -110,13 +109,15 @@ def fetch_straymon_user_id_by_username(user_name: str) -> int | None:
 
     return None
 
-def update_catch_rate_in_cache(user_id: int, catch_rate: int):
+
+def update_catch_rate_in_cache(user_id: int, catch_rate_bonus: int):
     """
     Update the catch rate of a Straymon member in the cache.
     """
     if user_id in straymon_member_cache:
         if isinstance(straymon_member_cache[user_id], dict):
-            straymon_member_cache[user_id]["catch_rate"] = catch_rate
+            straymon_member_cache[user_id]["catch_rate_bonus"] = catch_rate_bonus
+
 
 def update_patreon_status_in_cache(user_id: int, is_patreon: bool):
     """

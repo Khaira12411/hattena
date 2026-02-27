@@ -444,8 +444,8 @@ class SD_MC_REG_STRAT:
 > Moves: `Noble Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus Grass**
-> Equip: `Miracle Seed`
-> Moves: `Giga Drain` `Recover` `Calm Mind` `Iron Defense`
+> Equip: `Miracle Seed | Leftovers`
+> Moves: `Giga Drain | Judgment` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gyarados**
 > Equip: `Luck Incense`
@@ -455,7 +455,7 @@ class SD_MC_REG_STRAT:
 - [Zacian] Noble Roar -6 or until it dies
 - [Arceus] Calm Mind +6
 - [Arceus] Iron Defense +6
-- [Arceus] Judgment spam
+- [Arceus] Giga Drain | Judgment spam
 - [Arceus] Recover on Low HP"""
 
     her = f"""**TEAM:**

@@ -10,12 +10,13 @@ from discord.ext import commands
 # 💙────────────────────────────────────────────
 from utils.roles.role_checks import *
 from utils.logs.pretty_log import pretty_log
+from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.functions.get_pokemeow_reply import get_pokemeow_reply_member
 from utils.functions.get_pokemeow_reply import get_pokemeow_command_user
 
 from utils.database.logic.channel_func_db import get_registered_personal_channel
 from utils.essentials.webhook_sender import send_webhook
-from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
+
 
 # 🩵────────────────────────────────────────────
 #                🧿 Constants 🧿

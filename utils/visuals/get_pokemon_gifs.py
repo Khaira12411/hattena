@@ -6,7 +6,8 @@ from constants.pokemon_gifs import *
 from utils.logs.pretty_log import pretty_log
 from utils.logs.debug_log import debug_log, enable_debug
 from utils.functions.pokemon_func import format_names_for_market_value_lookup
-from utils.db.market_value_db import fetch_image_link_cache
+from utils.cache.market_value_cache import fetch_image_link_cache
+
 # enable_debug(f"{__name__}.get_pokemon_gif")
 hyphen_mon_names = [
     "jangmo-o",

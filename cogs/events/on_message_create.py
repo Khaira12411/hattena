@@ -7,8 +7,21 @@ from constants.straymons_constants import POKEMEOW_APPLICATION_ID
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
-
+from utils.listener_func.dex_listener import dex_listener
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
+
+
+def embed_has_field_name(embed, name_to_match: str) -> bool:
+    """
+    Returns True if any field name in the embed matches the given string.
+    Returns False immediately if the embed has no fields.
+    """
+    if not hasattr(embed, "fields") or not embed.fields:
+        return False
+    for field in embed.fields:
+        if field.name == name_to_match:
+            return True
+    return False
 
 
 # 🐾────────────────────────────────────────────
@@ -83,7 +96,16 @@ class MessageCreateListener(commands.Cog):
                 pretty_log(
                     "error", f"Error handling perks listener: {e}", include_trace=True
                 )
-
+        # ————————————————————————————————
+        # 🩷 Dex Listener
+        # ————————————————————————————————
+        if first_embed:
+            if embed_has_field_name(first_embed, "Dex Number"):
+                pretty_log(
+                    "info",
+                    f"Detected dex command embed with 'Dex Number' field. Triggering dex listener.",
+                )
+                await dex_listener(self.bot, message)
 
 # 🌈────────────────────────────────────────────
 #        🛠️ Setup function to add cog to bot
