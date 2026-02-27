@@ -11,7 +11,37 @@ from utils.logs.pretty_log import pretty_log
     PRIMARY KEY (bot_id, channel_id)
 );"""
 
+async def fetch_webhook_url_for_channel(bot: discord.Client, channel_id: int) -> str | None:
+    bot_id = bot.user.id
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT url FROM webhook_url WHERE bot_id = $1 AND channel_id = $2;",
+                bot_id,
+                channel_id,
+            )
+            if row:
+                pretty_log(
+                    tag="db",
+                    message=f"Fetched webhook URL for bot_id '{bot_id}', channel_id '{channel_id}' from database",
 
+                )
+                return row["url"]
+            else:
+                pretty_log(
+                    tag="db",
+                    message=f"No webhook URL found for bot_id '{bot_id}', channel_id '{channel_id}' in database",
+                    
+                )
+                return None
+    except Exception as e:
+        pretty_log(
+            tag="warn",
+            message=f"⚠️ Failed to fetch webhook URL for bot_id '{bot_id}', channel_id '{channel_id}': {e}",
+            exc=e,
+
+        )
+        return None
 
 async def upsert_webhook_url(
     bot: discord.Client,
@@ -42,7 +72,7 @@ async def upsert_webhook_url(
             pretty_log(
                 tag="db",
                 message=f"Upserted webhook URL for bot '{bot_name}' (ID: {bot_id}), channel '{channel_name}' (ID: {channel_id})",
-                label="🌐 WEBHOOK URL DB",
+
             )
             # Update the cache as well
             from utils.cache.webhook_url_cache import upsert_webhook_url_in_cache
@@ -53,7 +83,7 @@ async def upsert_webhook_url(
             tag="warn",
             message=f"⚠️ Failed to upsert webhook URL for bot '{bot_name}' (ID: {bot_id}), channel '{channel_name}' (ID: {channel_id}): {e}",
             exc=e,
-            label="🌐 WEBHOOK URL DB",
+
         )
 
 
@@ -74,14 +104,14 @@ async def fetch_all_webhook_urls(bot: discord.Client) -> dict[int, dict[str, str
             pretty_log(
                 tag="db",
                 message=f"Fetched {len(webhook_url)} webhook URLs for bot_id {bot_id} from database",
-                label="🌐 WEBHOOK URL DB",
+
             )
     except Exception as e:
         pretty_log(
             tag="warn",
             message=f"⚠️ Failed to fetch webhook URLs for bot_id {bot_id}: {e}",
             exc=e,
-            label="🌐 WEBHOOK URL DB",
+
         )
     return webhook_url
 
@@ -100,7 +130,7 @@ async def remove_webhook_url(bot: discord.Client, channel: discord.TextChannel):
             pretty_log(
                 tag="db",
                 message=f"Removed webhook URL for bot_id '{bot_id}', channel '{channel_name}' (ID: {channel_id})",
-                label="🌐 WEBHOOK URL DB",
+
             )
             # Update the cache as well
             from utils.cache.webhook_url_cache import remove_webhook_url_from_cache
@@ -112,5 +142,5 @@ async def remove_webhook_url(bot: discord.Client, channel: discord.TextChannel):
             tag="warn",
             message=f"⚠️ Failed to remove webhook URL for bot_id '{bot_id}', channel '{channel_name}' (ID: {channel_id}): {e}",
             exc=e,
-            label="🌐 WEBHOOK URL DB",
+
         )

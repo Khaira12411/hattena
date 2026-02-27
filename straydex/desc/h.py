@@ -17,6 +17,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!MR`**  Meowrogue Codex
 - **`!PA`**  Patreon Codex
 - **`!PO`**  Pokemon Codex
+- **`!SZ`**  Safari Zone Codex
 - **`!TR`**  Trainer Codex
 - **`!TY`**  Types Codex
 - **`!WB`**  World Boss Codex
@@ -539,8 +540,8 @@ Server Owner: <@952071312124313611>
     sz = f"""# STRAYDEX: SAFARI ZONE
 **COMMANDS:**
 - **`!SZI`**  Safari Zone Info
-- **`!SZSE`**  Safari Zone Secrets"""
-    
+- **`!SZSE`** Safari Zone Secrets"""
+
 class SD_MAIN_IMAGES:
     SZ = "https://media.discordapp.net/attachments/1358029599463968798/1476921291754963134/UBG01_7.png?ex=69a2e1a3&is=69a19023&hm=be12b722e1e62aa22ec30c1ff5ba866a978c5eb6f81ca2d675a97ce4ed55c648&=&format=webp&quality=lossless"
     EVOI = "https://media.discordapp.net/attachments/1358029599463968798/1404412454825496786/329f3318010a59310baf2ba8336dc11231df684f87d552a05835c9d498c8a385.png?ex=689b1885&is=6899c705&hm=de6e166aaa64ed02c4c2d94483d9a78cf26a4db1080a1e9525dba0748377fd7b&=&format=webp&quality=lossless&width=708&height=321"

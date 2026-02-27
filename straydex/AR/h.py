@@ -170,6 +170,18 @@ straydex_ar = {
     },
 }
 
+# Safari Zone AR
+safari_zone_sub = ["i", "se"]
+for sub in safari_zone_sub:
+    if sub == "i":
+        straydex_ar["sz"][sub] = {
+            "function": build_sd_sz_main_info_embed,
+        }
+    else:
+        straydex_ar["sz"][sub] = {
+            "function": build_sd_sz_secrets_main_embed,
+        }
+
 # Pokemon AR
 po_sub_no_buttons = [
     "gro",
@@ -559,7 +571,6 @@ for sub in ic_sub:
         "text": getattr(SD_ICONS, sub),
         "function": build_sd_main_embed,
     }
-
 
 
 types_list = [
