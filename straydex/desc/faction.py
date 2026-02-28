@@ -481,7 +481,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK`
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking** [OPTIONAL]
 > Equip: `Black Belt` `Magnet` `Expert Belt`
@@ -502,7 +502,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
 > Equip: `Soft Sand` `Expert Belt`
@@ -519,7 +519,7 @@ class SD_FA_DESC:
     ga = f"""**TEAM:**
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking**
 > Equip: `Black Belt` `Magnet` `Expert Belt`
