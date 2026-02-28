@@ -52,7 +52,8 @@ class SD_EMOJIS:
     small_moonball = "<:small_moonball:1476965316327116863>"
     safari_ticket = "<:safari_ticket:1476966855594872876>"
     completionist = "<:completionist:1476966853439127725>"
-    
+    spiky_earred_pichu = "<:7979:1477115678426402839>"
+
 class SD_THUMBNAILS:
     bronze = "https://media.discordapp.net/attachments/1476377156308439041/1476377627504808121/1298631434390470707.png?ex=69a0e750&is=699f95d0&hm=3008d8e58ce11d303b42601f44b0b16d33958ad9147cafc5f2506079bb88793c&=&format=webp&quality=lossless"
     silver = "https://media.discordapp.net/attachments/1476377156308439041/1476377684488487002/1298631440749166683.png?ex=69a0e75d&is=699f95dd&hm=b9b9ad7c440a8d3eb07eb6393e7aba3e79b79bf230fb1f97bdd3066f78144cd0&=&format=webp&quality=lossless"

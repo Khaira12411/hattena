@@ -14,7 +14,6 @@ class SZ_DESC:
 
 - **What are the registration requirements?**
 > - *Must have voted in the past 12 hours.*
-> - *Must be using a non-default battle icon obtained from an NPC drop.*
 > - *Must be a member of the official PokéMeow server.*
 > - *Must have caught at least 1,000 Pokémon.*
 
@@ -27,10 +26,10 @@ class SZ_DESC:
 > **Using a <:safari_ticket:1476966855594872876> Safari Ticket bypasses all requirements and the entry fee.**
 
 - **How many runs can I do per day?**
-> - *All players: 1 run per day (500 steps)*
-> - *<:Rare:1142668430634393610> Patreon+ and <:completionist:1476966853439127725> Completionist: 2 runs per day (600 steps per run)*
-> - *<:Legendary:1090640224125718570> Patreon+: 3 runs per day (750 steps per run)*
-> - *<:Golden11:1147776276510281818> Patreon: 4 runs per day (1,000 steps per run)*"""
+> - *All players: 2 run per day (500 steps)*
+> - *<:Rare:1142668430634393610> Patreon+ and <:completionist:1476966853439127725> Completionist: 3 runs per day (600 steps per run)*
+> - *<:Legendary:1090640224125718570> Patreon+: 4 runs per day (750 steps per run)*
+> - *<:Golden11:1147776276510281818> Patreon: 5 runs per day (1,000 steps per run)*"""
 
     pe = f"""# SAFARI ZONE PERKS
 
@@ -39,16 +38,16 @@ class SZ_DESC:
 
 **Rare Spawns:**
 - <:SuperRare:1133025503067000852>
-> - Spiky-eared Pichu
+> - <:7979:1477115678426402839> Spiky-eared Pichu
 - <:Golden11:1147776276510281818>
 > - Tauros, Kangaskhan, Girafarig, Tropius
 - <:Shiny:1090640278999810079>
 > - Starters such as Bulbasaur, Charmander, Chikorita, Cyndaquil, Totodile, etc.
 - <:Legendary:1090640224125718570>
 
-**Rare Spawn Requirements:**
-> - *Must have defeated all Gyms, Elite Four members, and Champions at least once.*"""
-
+**Rare Spawn Info:**
+> - *Must have defeated all Gyms, Elite Four members, and Champions at least once.*
+> - *Using a non-default icon increases the spawn rates of <:Legendary:1090640224125718570>, <:Shiny:1090640278999810079>, <:Golden11:1147776276510281818>, and <:7979:1477115678426402839> Spiky-eared Pichu by 10%*"""
     se1 = f"""# SAFARI ZONE SECRETS
 **Command:** `;sz`
 
