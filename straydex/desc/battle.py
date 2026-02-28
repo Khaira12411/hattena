@@ -1,3 +1,4 @@
+from constants.straydex import SD_EMOJIS
 class SD_BATTLE_DESC:
     reg = f"""# BATTLE REGION
 
@@ -117,28 +118,20 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
     cma = f"""# CHALLENGER MASTER: PROFESSOR OAK
 **COMMAND:**  `;b npc 904`
 **REQ:** *Defeat all 78 NPCs and receive a Professor Oak battle invitation.*
+**OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618316129865769)
 
 **TEAM:**
-- **Dugtrio**
-> Equip: `Choice Scarf`
-> Moves: `Memento`
-> EVs: `SPE 252`
-- **Zekrom**
-> Equip: `Leftovers`
-> Moves: `Noble Roar` `Outrage` `Roost` `Dragon Dance`
-> EVs: `HP 252` `DEF 128` `SPD 128`
-- **Arceus**
-> Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Shedinja**
+> Ability: `Wonder Guard`
+> Equip: `Spell Tag`
+> Moves: `Hone Claw` `Heal Block` `Shadow Claw`
+> EVs: `ATK 252`
 
 **STRATEGY:**
-- [Dugtrio] Memento
-- [Zekrom] Noble Roar -6 or til it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Judgment Spam
-- [Arceus] Recover on Low Hp"""
+- [Shedinja] Use 6 Hone Claw
+- [Shedinja] Spam Shadow Claw until Venusaur dies
+- [Shedinja] Use Heal Block when Gyarados/Mewtwo first enters
+- [Shedinja] Spam Shadow Claw till Gyarados/Mewtwo dies"""
 
     cse = f"""# CHALLENGER BASIC & BOSS
 **COMMAND:**  `;b npc 200`to `;b npc 210`
@@ -255,7 +248,7 @@ __**2nd Position**__
 > Moves: `Moonblast` `Horn Leech` `Psychic`
 - **Mewtwo**
 > Moves: `Psychic` `Ice Beam`
-- **Kyogre**
+- **Kyogre**EVICE
 > Equip: `Mystic Water`
 > Moves: `Surf`
 
@@ -266,31 +259,35 @@ __**2nd Position**__
 - [Mewtwo] Ice Beam on Groudon
 - [Xerneas] Horn Leech on Groudon"""
 
-    cma2 = f"""# CHALLENGER MASTER: CIPHER HEAD EVICE
+    cma2 = f"""# CHALLENGER MASTER: CIPHER HEAD
 **COMMAND:**  `;b npc 998`
 **REQ:** *Defeat all 78 NPCs and receive a Cipher Head Evice battle invitation.*
+**OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618386053365770)
 
 **TEAM:**
-- **Dugtrio**
-> Equip: `Choice Scarf`
-> Moves: `Memento`
-> EVs: `SPE 252`
-- **Zekrom**
-> Equip: `Leftovers`
-> Moves: `Noble Roar` `Outrage` `Roost` `Dragon Dance`
-> EVs: `ATK 252` `SPE 252`
-- **Arceus**
-> Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Hawlucha**
+> Ability: `Limber`
+> Equip: `N/A`
+> Moves: `Tailwind` `Close Combat`
+> EVs: `DEF 180`
+- **Mienshao**
+> Ability `Inner Focus`
+> Equip: `N/A`
+> Moves: `Close Combat`
+> EVs: `ATK 252` `SPD 236`
+- **Shedinja**
+> Ability: `Wonder Guard`
+> Equip: `Silver Powder`
+> Moves: `Hone Claw` `Heal Block` `Shadow Claw` `Leech Life`
+> EVs: `ATK 252`
 
 **STRATEGY:**
-- [Dugtrio] Memento
-- [Zekrom] Noble Roar -6 or til it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Judgment Spam
-- [Arceus] Recover on Low Hp"""
+- [Hawlucha] Use Tailwind
+- [Hawlucha] Spam Close Combat til it dies or til Tyranitar dies then swap to Shedninja
+- [Mienshao] If Hawlucha dies to Tyranitar, swap to Mienshao and use Close Combat til Tyranitar dies,
+- [Shedninja] Swap to Shedninja when Tyranitar dies, then use 6 Hone Claw and 1 Heal block.
+- [Shedninja] Spam Shadow Claw til Salamence dies
+- [Shedninja] When Slaking enters, use Leech Life and Heal Block once, then spam Leech Life"""
     cse2 = f"""STRAYDEX: BATTLE
 # CHALLENGER MASTER: PROFESSOR OAK
 **COMMAND:**  `;b npc 904`
@@ -420,31 +417,32 @@ or
     cma3 = f"""# CHALLENGER MASTER: MYSTERY TRAINER
 **COMMAND:**  `;b npc 999`
 **REQ:** *Defeat all 78 NPCs and receive a Mystery Trainer battle invitation.*
+**OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1355279147156635778)
 
 **TEAM:**
-- **Dugtrio**
-> Equip: `Choice Scarf`
-> Moves: `Memento`
-> EVs: `SPE 252`
-- **Zekrom**
-> Equip: `Leftovers`
-> Moves: `Noble Roar` `Outrage` `Roost` `Dragon Dance`
-> EVs: `ATK 252` `SPE 252`
-- **Arceus**
-> Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Sneasel**
+> Ability `Inner Focus`
+> Equip: `N/A`
+> Moves: `Scary Face` `Fake Out`
+> EVs: `HP 252`
+- **Mienshao**
+> Ability `Inner Focus`
+> Equip: `N/A`
+> Moves: `Close Combat` `Swords Dance` `Vacuum Wave`
+> EVs: `ATK 252` `SPD 236`
+- **Shedinja**
+> Ability: `Wonder Guard`
+> Equip: `Silver Powder`
+> Moves: `Hone Claw` `Heal Block` `Shadow Claw` `Leech Life`
+> EVs: `ATK 252`
 
 **STRATEGY:**
-- [Dugtrio] Memento
-- [Zekrom] Noble Roar -6
-- [Zekrom] Dragon Dance +6
-- [Zekrom] Outrage Spam
-- [Zekrom] Roost on Low Hp
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Judgment Spam
-- [Arceus] Recover on Low Hp"""
+- Use Fake Out then Scary Face once.
+- If Sneasel dies after Scary Face, swap to Mienshao. Use Sword Dance and, then Close Combat.
+- If Darkrai uses Rest swap to Mienshao. Use Sword Dance, Vacuum Wave and, then Close Combat .
+- If Darkrai does not kill Sneasel and does not rest, use Fakeout then Focus Punch.
+- [Shedninja] Swap to Shedninja when Darkrai dies, then use 6 Hone Claw and 1 Heal block after Latios/Kyogre enters.
+- [Shedninja] Spam Shadow Claw til Latios/Kyogre dies."""
     cse3 = f"""# CHALLENGER MASTER: CIPHER HEAD EVICE
 **COMMAND:**  `;b npc 998`
 **REQ:** *Defeat all 78 NPCs and receive a Cipher Head Evice battle invitation.*
@@ -948,9 +946,9 @@ class SD_BATTLE_BUTTON_EMOJIS:
     cbo5 = "🌀"
     cbo6 = "🌹"
     # --- CMA ---
-    cma = "📚"
-    cma2 = "💼"
-    cma3 = "❓"
+    cma = SD_EMOJIS.professor_oak
+    cma2 = SD_EMOJIS.cipher_head_evice
+    cma3 = SD_EMOJIS.mystery_trainer
     # --- CSE ---
     cse = "⚔️"
     cse2 = "📖"

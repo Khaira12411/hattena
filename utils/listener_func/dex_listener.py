@@ -129,6 +129,10 @@ async def parse_stats_and_abilities_from_embed_and_update(
         )
         if stat_diff or abilities_diff or emoji_id_diff:
             debug_log(f"Updating stats for {pokemon_name} with {stats}")
+            pretty_log(
+                "info",
+                f"Updating stats for {pokemon_name} with {stats}",
+            )
             try:
                 await update_pokemon_stats(
                     bot,

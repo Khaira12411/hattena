@@ -40,6 +40,10 @@ async def send_sd_logs(
                 embed=embed,
                 bot=bot,
             )
+            pretty_log(
+                tag="straydex",
+                message=f"Sent Straydex log for command '{main_cmd}' by user '{user}' in channel '{channel.name}'",
+            )
         except Exception as e:
             pretty_log(
                 tag="error",

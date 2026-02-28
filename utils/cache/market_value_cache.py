@@ -38,6 +38,33 @@ def update_dex_number_cache(pokemon_name: str, dex_number: int):
 # 💠────────────────────────────────────────────
 # [📜 FETCH] Market Value Data for a Pokémon
 # 💠────────────────────────────────────────────
+def fetch_pokemon_base_stats_cache(pokemon_name: str):
+    """
+    Get base stats for a specific Pokémon from cache.
+    Returns dict with base stats or None if not found.
+    """
+    pokemon_data = market_value_cache.get(pokemon_name.lower())
+    if pokemon_data:
+        return {
+            "base_atk": pokemon_data.get("base_atk"),
+            "base_def": pokemon_data.get("base_def"),
+            "base_hp": pokemon_data.get("base_hp"),
+            "base_spa": pokemon_data.get("base_spa"),
+            "base_spd": pokemon_data.get("base_spd"),
+            "base_spe": pokemon_data.get("base_spe"),
+        }
+    return None
+
+def fetch_pokemon_weight_cache(pokemon_name: str):
+    """
+    Get weight for a specific Pokémon from cache.
+    Returns weight or None if not found.
+    """
+    pokemon_data = market_value_cache.get(pokemon_name.lower())
+    if pokemon_data:
+        return pokemon_data.get("weight")
+    return None
+
 def fetch_market_value_cache(pokemon_name: str):
     """
     Get market value data for a specific Pokémon from cache.

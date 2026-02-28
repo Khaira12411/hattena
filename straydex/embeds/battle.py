@@ -5,6 +5,11 @@ from constants.aesthetic import Dividers
 from straydex.config import SD_CONFIG
 from straydex.desc import sd_battle_dict
 from utils.logs.pretty_log import pretty_log
+from straydex.functions.main import (
+    remove_line_from_desc,
+    send_sd_logs,
+    get_default_footer,
+)
 
 
 # 💙────────────────────────────────────────────
@@ -54,7 +59,7 @@ async def build_sd_main_battle_embed(
     thumbnail_url: str = None,
     button_emoji: str = None,
 ):
-    print(sub_cmd)
+    #print(sub_cmd)
     # 📦 Reuse the standard battle embed builder
     embed = await build_sd_battle_embed(
         guild=guild,

@@ -27,7 +27,7 @@ PINK_TAGS = {
     "critical": "🚨 Critical",  # red for clarity
     "skip": "🩷 Skip",
     "sent": "📮 Sent",
-    "missing": "🐰 Missing Pokemon",
+    "straydex": "🐰 Straydex",
     "debug": "🍑 Debug",
     "cache": "🍥 Cache",
     "sync": "🌼 Sync",
