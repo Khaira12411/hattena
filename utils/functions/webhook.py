@@ -70,4 +70,4 @@ async def send_webhook(
     if webhook_url:
         webhook = discord.Webhook.from_url(webhook_url, client=bot)
         await webhook.send(content=content, embed=embed, wait=True)
-        await webhook.send(content=content, embed=embed, wait=True)
+
