@@ -481,7 +481,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK`
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Future Sight` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking** [OPTIONAL]
 > Equip: `Black Belt` `Magnet` `Expert Belt`
@@ -502,7 +502,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Future Sight` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
 > Equip: `Soft Sand` `Expert Belt`
@@ -512,14 +512,14 @@ class SD_FA_DESC:
 **STRATEGY:**
 - [Slaking] Focus Punch on Mightyena & Houndoom
 - [Slaking] Thunder Punch on Crobat
-- [Mewtwo] Future Sight on Swalot & Crobat
+- [Mewtwo] Psychic on Swalot & Crobat
 
 > <a:FidoughLove:1127656671590752387> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     ga = f"""**TEAM:**
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Future Sight` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic``Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking**
 > Equip: `Black Belt` `Magnet` `Expert Belt`
@@ -531,7 +531,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Mewtwo] Future Sight everything except Bronzong
+- [Mewtwo] Psychic everything except Bronzong
 - [Slaking] Focus Punch Purugly"""
 
     ma = f"""**TEAM:**
@@ -558,7 +558,7 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Future Sight` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
 > Equip: `Soft Sand` `Expert Belt`
@@ -570,7 +570,7 @@ class SD_FA_DESC:
     sk = f"""**TEAM:**
 - **Mewtwo**
 > Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Future Sight` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
 > Equip: `Soft Sand` `Expert Belt`
@@ -611,7 +611,7 @@ class SD_FA_DESC:
 > EVs: `Max HP` `Half SPE` `Half DEF`
 - **Mega Mewtwo X**
 > Equip: `Choice Band` `Expert Belt` `Soft Sand`
-> Moves: `Drain Punch` `Future Sight` `Earthquake`
+> Moves: `Drain Punch` `Psychic` `Earthquake`
 > EVs: `Max ATK` `Half HP` `Half SPE`
 - **Groudon**
 > Equip: `Soft Sand`
@@ -629,7 +629,7 @@ class SD_FA_DESC:
     aq2 = f"""**TEAM:**
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Xerneas**
 > Equip: `Expert Belt`
 > Moves: `Moonblast`
@@ -647,7 +647,7 @@ class SD_FA_DESC:
     fl2 = f"""**TEAM:**
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Groudon**
 > Equip: `Soft Sand` `Expert Belt`
 > Moves: `Earthquake`
@@ -655,7 +655,7 @@ class SD_FA_DESC:
 
 **STRATEGY:**
 - [Yveltal] Oblvion Wing against those weak to Flying
-- [Yveltal] Dream Eater against those weak to Psychic
+- [Yveltal] Psychic against those weak to Psychic
 - [Yveltal] Sucker Punch opponents when it has Low HP
 - [Groudon] Earthquake spam for Electric type
 - [Groudon] Earthquake for Houndoom
@@ -664,7 +664,7 @@ class SD_FA_DESC:
     ga2 = f"""**TEAM:**
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Xerneas**
 > Equip: `Expert Belt`
 > Moves: `Moonblast`
@@ -672,7 +672,7 @@ class SD_FA_DESC:
 
 **STRATEGY:**
 - [Yveltal] Oblvion Wing against those weak to Flying
-- [Yveltal] Dream Eater against those weak to Psychic
+- [Yveltal] Psychic against those weak to Psychic
 - [Yveltal] Sucker Punch opponents when it has Low HP
 - Sacrifice [3rd] on Absol & Tyranitar then use [Xerneas]"""
 
@@ -700,7 +700,7 @@ class SD_FA_DESC:
     pl2 = f"""**TEAM:**
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Reshiram**
 > Equip: `Expert Belt` `Charcoal`
 > Moves: `Fusion Flare`
@@ -720,10 +720,10 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 
 **STRATEGY:**
-- Sacrifice [3rd] if Lurantis or Toxapex lead then switch to [Yvental] Oblivion Wing or Dream Eater spam
+- Sacrifice [3rd] if Lurantis or Toxapex lead then switch to [Yvental] Oblivion Wing or Psychic spam
 - [Groudon] can kill Alolan-Muk & Salazzle easily"""
 
     ye2 = f"""**TEAM:**
@@ -754,14 +754,14 @@ class SD_FA_DESC:
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
 > Equip: `Sharp Beak` `Twisted Spoon` `Expert Belt`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Slaking**
 > Equip: `Black Belt` `Magnet` `Expert Belt`
 > Moves: `Focus Punch` `Thunder Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Yveltal] Oblivion Wing on Vileplume, Dream Eater on Poison Types
+- [Yveltal] Oblivion Wing on Vileplume, Psychic on Poison Types
 - [Slaking] Focus Punch Dark Types
 - [Groudon] Earthquake
 - [Yveltal]  Sucker Punch those who have less HP"""
@@ -774,7 +774,7 @@ Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
     ga3 = f"""**TEAM:**
 - **Yveltal**
 > Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Xerneas**
 > Equip: `Expert Belt`
 > Moves: `Moonblast`
@@ -782,7 +782,7 @@ Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
 
 **STRATEGY:**
 - [Yveltal] Oblvion Wing against those weak to Flying
-- [Yveltal] Dream Eater against those weak to Psychic
+- [Yveltal] Psychic against those weak to Psychic
 - [Yveltal] Sucker Punch opponents when it has Low HP
 - Sacrifice [3rd] on Absol & Tyranitar then use [Xerneas]"""
 
@@ -805,14 +805,14 @@ Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
 > Equip: `Sharp Beak` `Twisted Spoon` `Expert Belt`
-> Moves: `Dream Eater` `Oblivion Wing` `Sucker Punch`
+> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
 - **Slaking**
 > Equip: `Black Belt` `Magnet` `Expert Belt`
 > Moves: `Focus Punch` `Thunder Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Yveltal] Oblivion Wing on Vileplume, Dream Eater on Poison Types
+- [Yveltal] Oblivion Wing on Vileplume, Psychic on Poison Types
 - [Slaking] Focus Punch Dark Types
 - [Groudon] Earthquake
 - [Yveltal]  Sucker Punch those who have less HP"""

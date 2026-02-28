@@ -520,7 +520,7 @@ __**Normal Battle**__
 
 __**Normal Battle**__
 - **Moves:**
-> `Future Sight` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
+> `Psychic` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -596,7 +596,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **CALYREX-SHADOW**
 - **Moves:**
-> `Astral Barrage` `Future Sight` `Energy Ball` `Pollen Puff`
+> `Astral Barrage` `Psychic` `Energy Ball` `Pollen Puff`
 - **Equip:**
 > `Choice Specs | Choice Cloak`
 - **EVs:**
@@ -1014,7 +1014,7 @@ VARIANT: `GOLDEN KYUREM #9646`
 **LUGIA**
 VARIANT: `GOLDEN LUGIA #9249`
 - **Moves:**
-> `Future Sight` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
+> `Psychic` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1022,7 +1022,7 @@ VARIANT: `GOLDEN LUGIA #9249`
 
 **LUNALA**
 - **Moves:**
-> `Moongeist Beam` `Future Sight` `Ice Beam` `Thunderbolt | Heat Wave | Moonblast`
+> `Moongeist Beam` `Psychic` `Ice Beam` `Thunderbolt | Heat Wave | Moonblast`
 - **Equip:**
 > `Choice Scarf | Choice Cloak`
 - **EVs:**
@@ -1198,7 +1198,7 @@ __**World Boss**__
 
 __**Normal Battle**__
 - **Moves:**
-> `Future Sight` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
 > `Choice Specs | Choice Cloak`
 - **EVs:**
@@ -1372,7 +1372,7 @@ VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 **MEGA MEWTWO Y**
 VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 - **Moves:**
-> `Future Sight` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
 > `Choice Specs | Choice Cloak`
 - **EVs:**
@@ -1527,7 +1527,7 @@ VARIANTS: `GOLDEN METAGROSS #9376` | `MEGA METAGROSS #7136`
 **MEWTWO**
 VARIANT: `GOLDEN MEWTWO #9150`
 - **Moves:**
-> `Future Sight` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
 > `Choice Specs | Choice Cloak`
 - **EVs:**
@@ -1625,7 +1625,7 @@ __**World Boss**__
 
 __**Normal Battle**__
 - **Moves:**
-> `Future Sight` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
 > `Choice Specs | Choice Cloak`
 - **EVs:**

@@ -407,7 +407,7 @@ class SD_MC_REG_STRAT:
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Gengar**
 > Equip: `Choice Scarf`
-> Moves: `Icy Wind` `Zap Cannon` `Dream Eater` `Shadow Ball`
+> Moves: `Icy Wind` `Zap Cannon` `Psychic` `Shadow Ball`
 
 **STRATEGY:**
 - [Zacian] Noble Roar -6 or until it dies
@@ -862,7 +862,7 @@ __Or__
 > EVs: `SPE 252` `HP 252`
 - **Arceus Psychic**
 > Equip: `Leftovers`
-> Moves: `Dream Eater` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
 - **Sceptile**
 > Equip: `Luck Incense`
@@ -872,7 +872,7 @@ __Or__
 - [Zacian] Noble Roar -6 or until it dies
 - [Arceus] Calm Mind +6
 - [Arceus] Iron Defense +6
-- [Arceus] Dream Eater spam
+- [Arceus] Stored Power spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** There is no Dark type in this MC so don't worry!*"""

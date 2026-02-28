@@ -194,7 +194,7 @@ __**2nd Position**__
 ### TEAM A:
 - **Golden Mewtwo**
 > Equip: `Choice Cloak` or `Choice Specs`
-> Moves: `Dream Eater` `Ice Beam` `Energy Ball` `Shadow Ball`
+> Moves: `Psychic` `Ice Beam` `Energy Ball` `Shadow Ball`
 > EVs: `SPA 252` `SPE 128` `SPD 128`
 - **Golden Zacian**
 > Equip: `Choice Cloak` or `Choice Band`
@@ -365,11 +365,11 @@ OR
 > EVs: `HP 252` `DEF 130` `SPD 128`
 - ** Golden Mewtwo**
 > Equip: `Leftovers`
-> Moves: `Calm-Mind` `Bulk Up` `Dream Eater` `Earth Power`
+> Moves: `Calm-Mind` `Bulk Up` `Stored Power` `Earth Power`
 > EVs: `DEF 200` `SPD 200` `HP 110`
 **STRATEGY: **
 - [1st Pokemon] : Noble Roar -6
-- [Golden Mewtwo]: +6 Calm Mind, +6 Bulk Up, then Dream Eater Spam, Use Earth Power when Enemy is immune to Psychic attacks or  has Resistance to it.
+- [Golden Mewtwo]: +6 Calm Mind, +6 Bulk Up, then Stored Power Spam, Use Earth Power when Enemy is immune to Psychic attacks or  has Resistance to it.
 
 <a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Only use one Zacian for Noble Roar as the other would finish off dark type enemies when Golden Mewtwo couldn't.*"""
 
