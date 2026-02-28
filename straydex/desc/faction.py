@@ -514,7 +514,7 @@ class SD_FA_DESC:
 - [Slaking] Thunder Punch on Crobat
 - [Mewtwo] Psychic on Swalot & Crobat
 
-> <a:FidoughLove:1127656671590752387> ***FidNotes:** Use moves according to enemy weakness.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     ga = f"""**TEAM:**
 - **Mewtwo**
@@ -565,7 +565,7 @@ class SD_FA_DESC:
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
-> <a:FidoughLove:1127656671590752387> ***FidNotes:** Use moves according to enemy weakness.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     sk = f"""**TEAM:**
 - **Mewtwo**
@@ -584,7 +584,7 @@ class SD_FA_DESC:
 **STRATEGY:**
 - [Slaking] on Gengar to bait ghost move then use Earthquake & Sucker Punch combo
 
-> <a:FidoughLove:1127656671590752387> ***FidNotes:** Use moves according to enemy weakness.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     ye = f"""**TEAM:**
 - **Xerneas**
@@ -695,7 +695,7 @@ class SD_FA_DESC:
 - [Xerneas] on Mightyana
 - [Groudon] for the rest
 
-> <a:FidoughLove:1127656671590752387>  ***FidNotes:**  [Xerneas] is good if max SPA EV, others are good to go without it. You can train if you want to get better win-rate. All battles are doable without items, but your win-rate might go down. Remember they are meant to be as cheap as possible so better teams will work too.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:**  [Xerneas] is good if max SPA EV, others are good to go without it. You can train if you want to get better win-rate. All battles are doable without items, but your win-rate might go down. Remember they are meant to be as cheap as possible so better teams will work too.*"""
 
     pl2 = f"""**TEAM:**
 - **Yveltal**
@@ -745,7 +745,7 @@ class SD_FA_DESC:
 - [Xerneas] on Mightyana
 - [Groudon] for the rest
 
-> <a:FidoughLove:1127656671590752387> ***FidNotes:** [Xerneas] is good if max SPA EV, others are good to go without it. You can train if you want to get better win-rate. All battles are doable without items, but your win-rate might go down. Remember they are meant to be as cheap as possible so better teams will work too.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** [Xerneas] is good if max SPA EV, others are good to go without it. You can train if you want to get better win-rate. All battles are doable without items, but your win-rate might go down. Remember they are meant to be as cheap as possible so better teams will work too.*"""
 
     ro2 = f"""**TEAM:**
 - **Groudon**
