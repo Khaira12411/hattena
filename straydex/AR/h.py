@@ -328,6 +328,7 @@ wb_bosses = [
     "lap",
     "mac",
     "meo",
+    "orb",
     "pik",
     "ril",
     "san",
