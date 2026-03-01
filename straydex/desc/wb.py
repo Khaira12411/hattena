@@ -226,8 +226,8 @@ class WB_RegDex:
     san = "7208"
     sno = "7178"
     tox = "7196"
-    urs = "7232"
-    uss = "7235"
+    urs = "7235"
+    uss = "7232"
     ven = "7163"
 
 
@@ -337,8 +337,8 @@ class WB_REGEMOJI:
     san = "<:sandacondagmax3:1476450098828546190>"
     sno = "<:snorlaxgmax3:1476450094915260650>"
     tox = "<:toxtricitygmax3:1476450090943254639>"
-    urs = "<:urshifugmax3:1476450042822000703>"
-    uss = "<:urshifurapidstrikegmax3:1476450086857998439>"
+    uss = "<:urshifugmax3:1476450042822000703>"
+    urs = "<:urshifurapidstrikegmax3:1476450086857998439>"
     ven = "<:venusaurgmax3:1476450083217215609>"
 
 
