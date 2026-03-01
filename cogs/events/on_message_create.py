@@ -2,12 +2,13 @@ import asyncio
 
 import discord
 from discord.ext import commands
-
+from constants.ask_hattena.overall import STOPWORDS, TOPICS
 from constants.straymons_constants import POKEMEOW_APPLICATION_ID
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
 from utils.listener_func.dex_listener import dex_listener
+from utils.functions.ask_hattena import match_topic
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
 
 
@@ -81,6 +82,32 @@ class MessageCreateListener(commands.Cog):
                 pretty_log(
                     "error", f"Error handling Straydex command: {e}", include_trace=True
                 )
+        # ————————————————————————————————
+        # 🩷 Ask Hattena Topic Matching
+        # ————————————————————————————————
+        # if someone mentions Hattena or asks a question, try to match a topic and respond with the relevant embed
+        HATTENA_MENTION = f"<@{self.bot.user.id}>"
+        if HATTENA_MENTION in content:
+            topic = match_topic(content)
+            if topic:
+                pretty_log(
+                    "info",
+                    f"User message matched topic '{topic}'. Triggering Straydex handler with topic command.",
+                )
+                topic_cmd = TOPICS[topic]["cmd"]
+                topic_cmd = f"{PREFIX}{topic_cmd}"
+                try:
+                    await straydex_command_handler(
+                        bot=self.bot,
+                        message=message,
+                        cmd=topic_cmd,
+                    )
+                except Exception as e:
+                    pretty_log(
+                        "error",
+                        f"Error handling Straydex command for topic '{topic}': {e}",
+                        include_trace=True,
+                    )
         # ————————————————————————————————
         # 🩷 Perks Listener
         # ————————————————————————————————

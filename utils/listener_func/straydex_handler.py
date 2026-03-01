@@ -7,13 +7,20 @@ from straydex.functions.main import send_sd_logs
 async def straydex_command_handler(
     bot: discord.Client,
     message: discord.Message,
+    cmd: str = None,
 ):
     """Handles Straydex-related commands based on message content."""
     guild = message.guild
+    content = message.content
+    command = content if not cmd else cmd
+    pretty_log(
+        tag="info",
+        message=f"Received Straydex command: '{command}' from user: '{message.author}' in guild: '{guild.name}'",
+    )
     try:
         response = await handle_exact_command(
             guild=guild,
-            message_content=message.content,
+            message_content=command,
             bot=bot,
             user_display_name=message.author.display_name,
             user_id=message.author.id,
@@ -22,7 +29,7 @@ async def straydex_command_handler(
         if not response:
             response = await handle_straydex_command(
                 guild=guild,
-                message_content=message.content,
+                message_content=command,
                 bot=bot,
                 user_display_name=message.author.display_name,
                 user_id=message.author.id,
@@ -34,7 +41,7 @@ async def straydex_command_handler(
             include_trace=True,
         )
         response = None
-        
+
     if response:
         try:
             await send_response(message, response)
@@ -46,6 +53,7 @@ async def straydex_command_handler(
                 main_cmd=main_cmd,
                 user=message.author,
                 channel=message.channel,
+                cmd=cmd,
             )
 
         except Exception as e:

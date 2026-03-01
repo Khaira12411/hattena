@@ -5,10 +5,11 @@ import discord
 from straydex.AR.h import straydex_ar
 from straydex.desc import type_info
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
+from utils.logs.pretty_log import pretty_log
 
-#enable_debug(f"{__name__}.send_response")
-#enable_debug(f"{__name__}.handle_straydex_command")
-#enable_debug(f"{__name__}.handle_exact_command")
+# enable_debug(f"{__name__}.send_response")
+# enable_debug(f"{__name__}.handle_straydex_command")
+# enable_debug(f"{__name__}.handle_exact_command")
 
 
 async def send_response(message_or_interaction, response):
@@ -227,6 +228,10 @@ async def handle_straydex_command(
     debug_log(f"Calling handler function '{func.__name__}' with kwargs: {kwargs}")
     response = await func(**kwargs)
     debug_log(f"Handler function '{func.__name__}' returned response: {response}")
+    pretty_log(
+        "info",
+        f"Handled Straydex command: '{content}' | Response type: {type(response)} | Response content: {response}",
+    )
     return response
 
 
@@ -330,6 +335,10 @@ async def handle_exact_command(
     debug_log(f"Calling exact command function '{func.__name__}' with kwargs: {kwargs}")
     response = await func(**kwargs)
     debug_log(f"Exact command function '{func.__name__}' returned response: {response}")
+    pretty_log(
+        "info",
+        f"Handled exact command: '{content}' | Response type: {type(response)} | Response content: {response}",
+    )
     return response
 
 

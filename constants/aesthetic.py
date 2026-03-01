@@ -9,6 +9,9 @@ class Emojis:
     blue_star = "<:blue_star:1476392365114523739>"
     blue_ribbon = "<:blue_ribbon:1476391197353312378>"
     blue_sparkles = "<a:blue_sparkles:1476393332329676921>"
+    blue_flower_two = "<:BlueFlower:1477465347899523154>"
+
+
 class Dividers:
     blue_sun_star = "https://media.discordapp.net/attachments/1393740397905313912/1411603999551127602/image.png?ex=68b5422b&is=68b3f0ab&hm=984eb9560ccba76a153bd4a3eafce60412a36238f6841ff48c11cac57c4c3e44&=&format=webp&quality=lossless&width=1806&height=144"
     PURPLE_HEARTS_DIVIDER = "https://media.discordapp.net/attachments/1393740397905313912/1395569839438827642/image.png?ex=687aed32&is=68799bb2&hm=83ca1a2feae4b6c49595caef4301f5d0e416b7cd3c44667e6143ad82a564f12f&=&format=webp&quality=lossless&width=1350&height=113"

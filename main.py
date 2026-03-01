@@ -41,7 +41,7 @@ intents.guilds = True
 intents.message_content = True
 intents.members = True
 
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 set_hattena_bot(bot)
 
 

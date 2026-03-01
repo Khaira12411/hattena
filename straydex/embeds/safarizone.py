@@ -124,7 +124,7 @@ class SafariZoneInfoView(View):
         await self.switch_embed(interaction, "info")
 
     @discord.ui.button(
-        label="Perks", style=discord.ButtonStyle.secondary, custom_id="perks"
+        label="Perks and Rarespawns", style=discord.ButtonStyle.secondary, custom_id="perks"
     )
     async def perks_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "perks")
