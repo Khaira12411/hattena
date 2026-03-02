@@ -144,6 +144,7 @@ Members can show off their collections in <#1298114332583788597>
 - !honey
 - !incense
 - !incubator
+- !maxrepel
 - !mistylure
 - !pokelure
 - !pokeradar
@@ -162,71 +163,85 @@ Members can show off their collections in <#1298114332583788597>
 - !fluffytail
 - !pokedoll
 - !poketoy"""
-    it_two = """# STRAYDEX: BATTLE ITEMS
-**COMMANDS:**
-- **`;I INFO <ITEM_NAME>`** Items Description
-- **`;I INFO BATTLE`** Battle Items Description
-- **`;I INFO RESEARCH`** Research Items Description
 
-**BATTLE ITEM LIST:**
-- !abilityshield
-- !airballoon
-- !assaultvest
-- !auxguard
-- !auxpower
-- !auxpowerguard
-- !blackbelt
-- !blackglasses
-- !bigroot
-- !charcoal
-- !choiceband
-- !choicecloak
-- !choicescarf
-- !choicespecs
-- !clearamulet
-- !covertcloak
-- !dragonfang
-- !eviolite
-- !expertbelt
-- !fairyfeather
-- !flameorb
-- !focusband
-- !focussash
-- !fullrestore
-- !hardstone
-- !heavydutyboots
-- !kingsrock
-- !leftovers
-- !lifeorb
-- !lightball
-- !loadeddice
-- !luckincense
-- !luckyegg
-- !magnet
-- !maxpotion
-- !maxrepel
-- !maxrevive
-- !metalcoat
-- !metronome
-- !miracleseed
-- !mysticwater
-- !nevermeltice
-- !poisonbarb
-- !quickclaw
-- !rockyhelmet
-- !safetygoogles
-- !shadowwing
-- !sharpbeak
-- !silkscarf
-- !silverpowder
-- !sitrusberry
-- !softsand
-- !spelltag
-- !timegear
-- !toxicorb
-- !twistedspoon
-- !wiseglasses
-- !zoomlens"""
+    it_two = f"""# STRAYDEX: BATTLE ITEMS
+    **COMMANDS:**
+    - **`;I INFO <ITEM_NAME>`** Items Description
+    - **`;I INFO BATTLE`** Battle Items Description
+    - **`;I INFO RESEARCH`** Research Items Description
+
+    **BATTLE FRONTIER REWARDS:**
+    - !clearamulet
+
+    **BATTLE SHOP ITEMS:**
+    - !choiceband
+    - !choicecloak
+    - !choicescarf
+    - !choicespecs
+    - !expertbelt
+    - !focusband
+    - !focussash
+    - !leftovers
+    - !lifeorb
+    - !quickclaw
+    - !sitrusberry
+    - !zoomlens
+
+    **BATTLE TOWER REWARDS:**
+    - !airballoon
+    - !covertcloak
+
+    **ENCOUNTER ITEM LIST:**
+    - !assaultvest
+    - !blackbelt
+    - !blackglasses
+    - !charcoal
+    - !dragonfang
+    - !fairyfeather
+    - !hardstone
+    - !kingsrock
+    - !luckincense
+    - !luckyegg
+    - !magnet
+    - !metalcoat
+    - !miracleseed
+    - !mysticwater
+    - !nevermeltice
+    - !poisonbarb
+    - !sharpbeak
+    - !silkscarf
+    - !silverpowder
+    - !softsand
+    - !spelltag
+    - !twistedspoon
+
+    **MEGA CHAMBER REWARDS:**
+    - !eviolite
+    - !flameorb
+    - !toxicorb
+
+    **MISC BATTLE ITEMS:**
+    - !shadowing
+    - !timegear
+
+    **POWER STATION REWARDS:**
+    - !heavydutyboots
+    - !lightball
+    - !rockyhelmet
+    - !safetygoogles
+
+    **WORLD BOSS REWARDS:**
+    - !auxguard
+    - !auxpower
+    - !auxpowerguard
+    - !abilityshield
+    - !bigroot
+    - !fullrestore
+    - !loadeddice
+    - !maxrevive
+    - !maxpotion
+    - !metronome
+    - !wiseglasses"""
 
     it_three = """# STRAYDEX: EVOLUTION ITEMS
 **COMMANDS:**
@@ -541,6 +556,7 @@ Server Owner: <@952071312124313611>
 **COMMANDS:**
 - **`!SZI`**  Safari Zone Info
 - **`!SZSE`** Safari Zone Secrets"""
+
 
 class SD_MAIN_IMAGES:
     SZ = "https://media.discordapp.net/attachments/1358029599463968798/1476921291754963134/UBG01_7.png?ex=69a2e1a3&is=69a19023&hm=be12b722e1e62aa22ec30c1ff5ba866a978c5eb6f81ca2d675a97ce4ed55c648&=&format=webp&quality=lossless"
