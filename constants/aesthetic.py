@@ -10,6 +10,8 @@ class Emojis:
     blue_ribbon = "<:blue_ribbon:1476391197353312378>"
     blue_sparkles = "<a:blue_sparkles:1476393332329676921>"
     blue_flower_two = "<:BlueFlower:1477465347899523154>"
+    left_arrow = "<:left_arrow:1477607575787798590>"
+    right_arrow = "<:right_arrow:1477607388579102821>"
 
 
 class Dividers:

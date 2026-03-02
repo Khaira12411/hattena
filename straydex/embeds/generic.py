@@ -126,6 +126,7 @@ async def build_sd_two_embed(
     if main_cmd == "straymon":
         thumbnail = perks["diamond"]["thumbnail_url"]
         first_embed.set_thumbnail(url=thumbnail)
+        first_embed.set_footer(text="Secret Code: Dandadan")
         second_embed.set_thumbnail(url=thumbnail)
 
     return [first_embed, second_embed]
