@@ -36,6 +36,10 @@ class HATT_KEYWORDS:
     safari_zone_secrets = [
         "sz",
         "safari",
+        "waypoint",
+        "secret",
+        "teleport",
+        "waypoints"
         # 🏃 Movement / Unlockables
         "running shoes",
         "speed boost",

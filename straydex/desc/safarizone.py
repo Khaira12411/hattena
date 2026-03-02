@@ -5,7 +5,7 @@ class SZ_DESC:
 > - *Safari Zone is an interactive exploration feature where players can catch exclusive Pokémon using Safari Balls.*
 
 - **How does it work?**
-> - *All players are given 30 Safari Balls per run.*
+> - *All players are given <:safariball:1478161902281687090> Safari Balls per run.*
 > - *A run is consumed when the player either runs out of steps or Safari Balls.*
 > - *Players can use Bait and Rocks to influence the Pokémon they encounter.*
 > - *Bait makes Pokémon less likely to flee but also harder to catch.*
@@ -26,10 +26,10 @@ class SZ_DESC:
 > **Using a <:safari_ticket:1476966855594872876> Safari Ticket bypasses all requirements and the entry fee.**
 
 - **How many runs can I do per day?**
-> - *All players: 2 run per day (500 steps)*
-> - *<:Rare:1142668430634393610> Patreon+ and <:completionist:1476966853439127725> Completionist: 3 runs per day (600 steps per run)*
-> - *<:Legendary:1090640224125718570> Patreon+: 4 runs per day (750 steps per run)*
-> - *<:Golden11:1147776276510281818> Patreon: 5 runs per day (1,000 steps per run)*"""
+> - *All players: 2 run per day (500 steps and <:safariball:1478161902281687090> 30 balls per run)*
+> - *<:Rare:1142668430634393610> Patreon+ and <:completionist:1476966853439127725> Completionist: 3 runs per day (600 steps and <:safariball:1478161902281687090> 35 per run)*
+> - *<:Legendary:1090640224125718570> Patreon+: 4 runs per day (750 steps and <:safariball:1478161902281687090> 45 per run)*
+> - *<:Golden11:1147776276510281818> Patreon: 5 runs per day (1,000 steps and <:safariball:1478161902281687090> 60 per run)*"""
 
     pe = f"""# SAFARI ZONE PERKS
 
