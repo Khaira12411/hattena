@@ -31,17 +31,17 @@ class SD_MC_REG_STRAT:
 > EVs: `SPE 252` `HP 252`
 - **Arceus Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Absol**
+- **Houndoom**
 > Equip: `Luck Incense`
-> Moves: NA
+> Moves: `N/A`
 
 **STRATEGY:**
 - [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Judgment spam
+- [Arceus] Cosmic Power +6
+- [Arceus] Toxic for every enemy
+- [Arceus] Body Press spam
 - [Arceus] Recover on Low HP"""
 
     aer = f"""**TEAM:**
@@ -49,9 +49,9 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice Scarf`
 > Moves: `Noble Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Golden Arceus | Arceus Steel | Electric | Normal **
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Surf` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP2 52` `DEF 128` `SPD 128`
 - **Aerodactyl**
 > Equip: `Luck Incense`
@@ -61,7 +61,7 @@ class SD_MC_REG_STRAT:
 - [Zacian] Noble Roar -6 or until it dies
 - [Arceus] Calm Mind +6
 - [Arceus] Iron Defense +6
-- [Arceus] Judgment spam
+- [Arceus] Surf spam
 - [Arceus] Recover on Low HP"""
 
     agg = f"""**TEAM:**
@@ -69,7 +69,7 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice Scarf`
 > Moves: `Noble Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus Ghost**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -463,7 +463,7 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice Scarf`
 > Moves: `Noble Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Flying**
+- **Arceus Fire**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -503,7 +503,7 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice Scarf`
 > Moves: `Noble Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus Electric**
 > Equip: `Leftovers`
 > Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -1046,7 +1046,25 @@ class SD_MC_GOLD_STRAT:
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus Fire with Leftovers and Judgment.*"""
 
-    abs = None
+    abs = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Golden Arceus**
+> Equip: `Leftovers`
+> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Houndoom**
+> Equip: `Luck Incense`
+> Moves: `N/A`
+
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Cosmic Power +6
+- [Arceus] Toxic for every enemy
+- [Arceus] Body Press spam
+- [Arceus] Recover on Low HP"""
 
     aer = None
 
@@ -1100,7 +1118,25 @@ class SD_MC_GOLD_STRAT:
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus Fire/Ground/Normal/Golden.*"""
 
-    ban = None
+    ban = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Arceus Electric**
+> Equip: `Leftovers`
+> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Banette**
+> Equip: `Luck Incense`
+> Moves: `N/A`
+
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Calm Mind +6
+- [Arceus] Iron Defense +6
+- [Arceus] Stored Power spam
+- [Arceus] Recover on Low HP"""
 
     bee = None
 
@@ -1124,7 +1160,25 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Giga Drain spam
 - [Arceus] Recover on Low HP"""
 
-    blz = None
+    blz = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Arceus Fire**
+> Equip: `Leftovers`
+> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Blaziken**
+> Equip: `Luck Incense` | `Quick Claw` | `Focus Band`
+> Moves: `Feather Dance` `Confide` `Low Sweep`
+
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Calm Mind +6
+- [Arceus] Iron Defense +6
+- [Arceus] Stored Power spam
+- [Arceus] Recover on Low HP"""
 
     cam = None
 
@@ -1267,9 +1321,45 @@ class SD_MC_GOLD_STRAT:
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus Fairy with Leftovers and Judgment.*"""
 
-    her = None
+    her = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Arceus Fire**
+> Equip: `Leftovers`
+> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Heracross**
+> Equip: `Luck Incense`
+> Moves: `N/A`
 
-    hou = None
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Calm Mind +6
+- [Arceus] Iron Defense +6
+- [Arceus] Stored Power spam
+- [Arceus] Recover on Low HP"""
+
+    hou = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Arceus Water**
+> Equip: `Leftovers`
+> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Houndoom**
+> Equip: `Luck Incense`
+> Moves: `N/A`
+
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Cosmic Power +6
+- [Arceus] Toxic
+- [Arceus] Body Press spam
+- [Arceus] Recover on Low HP"""
 
     kan = None
 
@@ -1424,7 +1514,25 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body Press spam
 - [Arceus] Recover on Low HP"""
 
-    sce = None
+    sce = f"""**TEAM:**
+- **Golden Zacian**
+> Equip: `Choice Scarf`
+> Moves: `Noble Roar`
+> EVs: `SPE 252` `HP 252`
+- **Golden Arceus**
+> Equip: `Leftovers`
+> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Sceptile**
+> Equip: `Luck Incense`
+> Moves: `N/A`
+
+**STRATEGY:**
+- [Zacian] Noble Roar -6 or until it dies
+- [Arceus] Calm Mind +6
+- [Arceus] Iron Defense +6
+- [Arceus] Stored Power spam
+- [Arceus] Recover on Low HP"""
 
     sci = f"""**TEAM:**
 - **Golden Zacian**
@@ -1627,9 +1735,9 @@ class SD_MC_GOLD_THUMBNAIL:
     gla = None
 
     gya = GOLDEN_MEGA_POKEMON_URL.mega_gyarados
-    her = None
+    her = GOLDEN_MEGA_POKEMON_URL.mega_heracross
 
-    hou = None
+    hou = GOLDEN_MEGA_POKEMON_URL.mega_houndoom
 
     kan = None
 
@@ -1659,7 +1767,7 @@ class SD_MC_GOLD_THUMBNAIL:
     sab = None
 
     sal = GOLDEN_MEGA_POKEMON_URL.mega_salamence
-    sce = None
+    sce = GOLDEN_MEGA_POKEMON_URL.mega_sceptile
 
     sci = GOLDEN_MEGA_POKEMON_URL.mega_scizor
     sha = None
@@ -1731,4 +1839,3 @@ mc_dict = {
         "whole_name": SD_MC_WHOLE_NAME,
     },
 }
-
