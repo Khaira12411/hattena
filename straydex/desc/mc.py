@@ -1718,7 +1718,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     bla = GOLDEN_MEGA_POKEMON_URL.mega_blastoise
 
-    blz = None
+    blz = GOLDEN_MEGA_POKEMON_URL.mega_blaziken
 
     cam = None
 
