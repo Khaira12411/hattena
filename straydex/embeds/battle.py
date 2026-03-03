@@ -38,7 +38,7 @@ async def build_sd_battle_embed(
 
     # 🐾 Footer setup
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
 
     # 🌈 Decorative divider image
     embed.set_image(url=image_url)

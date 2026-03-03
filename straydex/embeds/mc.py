@@ -106,7 +106,7 @@ async def build_sd_reg_mc_embed(
     embed.set_image(url=Dividers.SD_Alternate)
     footer_text = get_default_footer(user_display_name)
 
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
 
     return embed
 
@@ -186,7 +186,9 @@ async def build_sd_golden_mc_embed(
         try:
             embed.set_image(url=Dividers.SD_Alternate)
             footer_text = get_default_footer(user_display_name)
-            embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+            embed.set_footer(
+                text=footer_text, icon_url=guild.icon.url if guild.icon else None
+            )
             debug_log(f"Set image and footer for embed")
         except Exception as footer_err:
             debug_log(

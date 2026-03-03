@@ -1,12 +1,13 @@
 import discord
+from discord.ui import Button, View
+
 from straydex.config import SD_CONFIG
+from straydex.desc.wb import *
 from straydex.functions.main import (
+    get_default_footer,
     remove_line_from_desc,
     send_sd_logs,
-    get_default_footer,
 )
-from discord.ui import Button, View
-from straydex.desc.wb import *
 from utils.logs.pretty_log import pretty_log
 
 wb_map["alc"]
@@ -45,7 +46,7 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
     embed.set_author(name=header_text, icon_url=header_icon_url)
     embed.set_image(url=image_url)
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     return embed
 
 
@@ -97,7 +98,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     embed.set_author(name=header_text, icon_url=header_icon_url)
     embed.set_image(url=image_url)
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     return embed
 
 

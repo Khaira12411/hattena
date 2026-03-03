@@ -68,7 +68,7 @@ async def build_sd_tre_embed(
     )
 
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     embed.set_thumbnail(url=SD_CONFIG.default_thumbnail)
     embed.set_image(url=Dividers.SD_Alternate)
     embed.set_author(name="STRAYDEX")
@@ -113,7 +113,7 @@ __Remember to EV train your mons before leveling them up__"""
 
     embed.set_author(name="STRAYDEX")
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     embed.set_thumbnail(url=SD_CONFIG.default_thumbnail)
     embed.set_image(url=Dividers.SD_Alternate)
     return embed
@@ -128,7 +128,7 @@ async def build_sd_tref_embed(
     embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
 
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     embed.set_thumbnail(url=SD_CONFIG.default_thumbnail)
     embed.set_image(url=Dividers.SD_Alternate)
     embed.set_author(name="STRAYDEX")

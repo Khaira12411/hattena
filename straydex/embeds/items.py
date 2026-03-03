@@ -16,11 +16,12 @@ CANT_BE_HELD_ITEM_LIST = [
     "largepack",
     "pokeradar",
     "scubagear",
-
 ]
-def add_can_be_held_info(text: str, item_name:str) -> str:
+
+
+def add_can_be_held_info(text: str, item_name: str) -> str:
     """Appends a note about the item being holdable if not already present."""
-    held_line = ("- ✅ Yes\n- `;team give <item> <mon>`")
+    held_line = "- ✅ Yes\n- `;team give <item> <mon>`"
 
     if "**CAN BE HELD BY POKEMON?**" not in text:
         if item_name not in CANT_BE_HELD_ITEM_LIST:
@@ -41,7 +42,9 @@ async def build_sd_item_embed(
 
     author_text = "STRAYDEX: ITEM"
     footer_text = "Type !it to view the complete item list."
-    pretty_log("debug", f"Building item embed for {main_cmd} with text length {len(text)}")
+    pretty_log(
+        "debug", f"Building item embed for {main_cmd} with text length {len(text)}"
+    )
     text = add_can_be_held_info(text, main_cmd)
 
     embed = discord.Embed(description=text, color=SD_CONFIG.default_color)
@@ -49,7 +52,7 @@ async def build_sd_item_embed(
 
     if image_url:
         embed.set_thumbnail(url=image_url)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     embed.set_author(name=author_text)
 
     return embed

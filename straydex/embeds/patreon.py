@@ -25,7 +25,7 @@ async def build_sd_patreon_embed(
     embed.set_author(name="STRAYDEX")
     embed.set_thumbnail(url=thumbnail)
     footer_text = get_default_footer(user_display_name)
-    embed.set_footer(text=footer_text, icon_url=guild.icon.url)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
 
     return embed
 
