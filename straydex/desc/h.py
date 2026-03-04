@@ -562,7 +562,7 @@ Server Owner: <@952071312124313611>
 
 
 class SD_MAIN_IMAGES:
-    RPS = "https://media.discordapp.net/attachments/1358029599463968798/1478664403531337789/UBG01_9.png?ex=69a9390a&is=69a7e78a&hm=9b8d9424a524f6d275e9e18f30037db54ab22d5048c9a07c8893d0b7b728afdc&=&format=webp&quality=lossless"
+    RPS = "https://media.discordapp.net/attachments/1358029599463968798/1478729622978957423/UBG01_9_1.png?ex=69a975c7&is=69a82447&hm=eb2de51f384a9b23efeda44caaf764034a62326bed86ff7c8c6701d1610e8018&=&format=webp&quality=lossless"
     POWERSTATION = "https://media.discordapp.net/attachments/1358029599463968798/1478596096568852701/Power_Plant_exterior_FRLG.webp?ex=69a8f96c&is=69a7a7ec&hm=46481d033745e3e5523e31b6083cfd25abe35eec10dc0c26a71b8f15e37abbae&=&format=webp"
     TCG = "https://media.discordapp.net/attachments/1358029599463968798/1478558379638001685/UBG01_8.png?ex=69a8d64b&is=69a784cb&hm=765ca4afffbb76883b43555818a4d32749d4b1f6f9403583d616babb1c259d21&=&format=webp&quality=lossless"
     SZ = "https://media.discordapp.net/attachments/1358029599463968798/1476921291754963134/UBG01_7.png?ex=69a2e1a3&is=69a19023&hm=be12b722e1e62aa22ec30c1ff5ba866a978c5eb6f81ca2d675a97ce4ed55c648&=&format=webp&quality=lossless"
