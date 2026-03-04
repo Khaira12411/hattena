@@ -167,7 +167,7 @@ Members can show off their collections in <#1298114332583788597>
 - !pokedoll
 - !poketoy"""
 
-it_two = """# STRAYDEX: BATTLE ITEMS
+    it_two = """# STRAYDEX: BATTLE ITEMS
 **COMMANDS:**
 - `;I INFO <ITEM_NAME>` — Items Description
 - `;I INFO BATTLE` — Battle Items Description
