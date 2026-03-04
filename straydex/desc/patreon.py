@@ -21,6 +21,11 @@ class SD_PAT_DESC:
 - 3ea MasterBalls
 > ***NOTE:** Monthly rewards are distributed on the last day of every month!*
 
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 2 Runs daily
+- <:safariball:1478161902281687090> 30 Safariballs per run
+- 👣 500 Steps per run
+
 **OTHER PERKS**
 - <:PokeCoin:1166253401546436648>  Double PokeCoins from  `;daily`. Applies to daily streaks too!
 - 🗡️  In-game perk - **Ninja**: +5% increased catch rates!
@@ -41,6 +46,11 @@ class SD_PAT_DESC:
 **DAILY PERKS:**
 - <:patreon_token:1296818113735819405>  6 Patreon Token per day
 - <:PokeCoin:1166253401546436648> 30,000 PokeCoins
+
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 2 Runs daily
+- <:safariball:1478161902281687090> 30 Safariballs per run
+- 👣 500 Steps per run
 
 **OTHER PERKS**
 - ❗  +1 additional  `;quest`  slot for a total of 4.
@@ -72,6 +82,11 @@ class SD_PAT_DESC:
 - 1ea Incense
 > ***NOTE:** Monthly rewards are given out on the last day of every month!*
 
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 3 Runs daily
+- <:safariball:1478161902281687090> 35 Safariballs per run
+- 👣 600 Steps per run
+
 **OTHER PERKS**
 - ⏱️  Quest timers reduced by 50%.
 - ❗  +1 additional  `;quest`  slot for a total of 5.
@@ -92,6 +107,11 @@ class SD_PAT_DESC:
 **DAILY PERKS:**
 - <:patreon_token:1296818113735819405>  38 Patreon Token per day
 - <:PokeCoin:1166253401546436648> 200,000 PokeCoins
+
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 3 Runs daily
+- <:safariball:1478161902281687090> 35 Safariballs per run
+- 👣 600 Steps per run
 
 **OTHER PERKS**
 - 💎  10% cheaper items in the shop bought with PokeCoins!
@@ -123,6 +143,11 @@ class SD_PAT_DESC:
 - 5ea Incubators
 > ***NOTE:** Monthly rewards are given out on the last day of every month!*
 
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 4 Runs daily
+- <:safariball:1478161902281687090> 45 Safariballs per run
+- 👣 750 Steps per run
+
 **OTHER PERKS**
 - 🎁  10% increased odds for items in lootboxes (including Eggs, Rare Candies, and Masterballs).
 - <:Shiny:1090640278999810079>  +25% increased Shiny Rate (both full-odds & event shiny rate).
@@ -142,10 +167,16 @@ class SD_PAT_DESC:
 **DAILY PERKS:**
 - <:patreon_token:1296818113735819405>  150 Patreon Token per day
 - <:PokeCoin:1166253401546436648> 1,000,000 PokeCoins
+- <:tcg_card:1478654848617676820> 1 `;tcg` pack from `;daily`.
 
 **MONTHLY PERKS**
 - <:patreon_token:1296818113735819405>  1,500 Patreon Tokens
 > ***NOTE:** Monthly rewards are given out at the last day of every month!*
+
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 4 Runs daily
+- <:safariball:1478161902281687090> 45 Safariballs per run
+- 👣 750 Steps per run
 
 **OTHER PERKS**
 - ✨  Custom role in the PokeMeow Discord Server.
@@ -169,11 +200,17 @@ class SD_PAT_DESC:
 **DAILY PERKS:**
 - <:patreon_token:1296818113735819405>  500 Patreon Token per day
 - <:PokeCoin:1166253401546436648> 3,000,000 PokeCoins
+- <:tcg_card:1478654848617676820> 5 `;tcg` packs from `;daily`.
 
 **MONTHLY PERKS**
 - <:patreon_token:1296818113735819405>  6,000 Patreon Tokens
 - <:world_boss_spawned:1300794324887535656>  1ea Boss Coin
 > ***NOTE:** Monthly rewards are given out at the last day of every month!*
+
+**SAFARI ZONE**
+- <:safari_zone:1478652031722983424> 5 Runs daily
+- <:safariball:1478161902281687090> 60 Safariballs per run
+- 👣 1,000 Steps per run
 
 **OTHER PERKS**
 - <:Golden11:1147776276510281818>  +25% increased Promo rates.

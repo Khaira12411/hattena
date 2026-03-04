@@ -19,7 +19,7 @@ class TCG_DESC:
 > - *Earn 1 free pack every 3 `;votes`.*
 > - *Participate in [TCG Giveaways](https://discord.com/channels/664509279251726363/1394128056624611478).*
 > - *Patreon rewards via `;daily`:*
->   - *<:Shiny:1348638393554178129> Shiny Patreons: 1 free pack*
+>   - *<:Shiny:1090640278999810079> Shiny Patreons: 1 free pack*
 >   - *<:Golden11:1147776276510281818> Golden Patreons: 5 free packs*
 
 - **Card & Pack Conditions**
@@ -28,7 +28,7 @@ class TCG_DESC:
 > - *Condition/quality drops every 3 months if unprotected.*
 
 - **Protection Options**
-> - *Use Acrylic Box Cases, Pack Sleeves, or Toploaders.*
+> - *Use <:acrylic_box_case:1478547550742122632> Acrylic Box Cases, <:acrylic_box_case:1478547550742122632> Pack Sleeves, or <:toploader:1478547546992410747> Toploaders.*
 > - *Commands: `;tcg protect <item-id>` or `;tcg protect all_<itemtype>`.*
 > - *Auto-protect toggle available (`;tcg toggle auto-protect`).*
 
