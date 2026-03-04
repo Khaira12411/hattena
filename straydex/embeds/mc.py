@@ -300,6 +300,14 @@ class MCStrat(View):
         # 🟦 Start with Regular button disabled, Golden enabled
         self.regular.disabled = True
         self.golden.disabled = False
+        # 🟦 Set emoji for Golden button dynamically
+        golden_emoji = getattr(MC_GOLD_BUTTON_EMOJI, self.sub_cmd, None)
+        if golden_emoji:
+            self.golden.emoji = golden_emoji
+        # Set for regular button dynamically if needed
+        regular_emoji = getattr(MC_REGULAR_BUTTON_EMOJI, self.sub_cmd, None)
+        if regular_emoji:
+            self.regular.emoji = regular_emoji
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
         # 🟦 Check if the user is allowed to press this button
@@ -324,7 +332,7 @@ class MCStrat(View):
             return False
         return True
 
-    @discord.ui.button(label="Regular", style=discord.ButtonStyle.primary)
+    @discord.ui.button(label="Regular", style=discord.ButtonStyle.secondary)
     async def regular(self, interaction: discord.Interaction, button: Button):
         # 📘 Pretty log for button press
         pretty_log(
@@ -382,7 +390,7 @@ class MCStrat(View):
 
     #
 
-    @discord.ui.button(label="Golden", style=discord.ButtonStyle.success)
+    @discord.ui.button(label="Golden", style=discord.ButtonStyle.secondary)
     async def golden(self, interaction: discord.Interaction, button: Button):
         # 📘 Pretty log: button pressed
         pretty_log(
