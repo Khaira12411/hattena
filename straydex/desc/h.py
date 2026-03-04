@@ -167,84 +167,85 @@ Members can show off their collections in <#1298114332583788597>
 - !pokedoll
 - !poketoy"""
 
-    it_two = f"""# STRAYDEX: BATTLE ITEMS
-    **COMMANDS:**
-    - **`;I INFO <ITEM_NAME>`** Items Description
-    - **`;I INFO BATTLE`** Battle Items Description
-    - **`;I INFO RESEARCH`** Research Items Description
+it_two = """# STRAYDEX: BATTLE ITEMS
+**COMMANDS:**
+- `;I INFO <ITEM_NAME>` — Items Description
+- `;I INFO BATTLE` — Battle Items Description
+- `;I INFO RESEARCH` — Research Items Description
 
-    **BATTLE FRONTIER REWARDS:**
-    - !clearamulet
+**BATTLE FRONTIER REWARDS:**
+- !clearamulet
 
-    **BATTLE SHOP ITEMS:**
-    - !choiceband
-    - !choicecloak
-    - !choicescarf
-    - !choicespecs
-    - !expertbelt
-    - !focusband
-    - !focussash
-    - !leftovers
-    - !lifeorb
-    - !quickclaw
-    - !sitrusberry
-    - !zoomlens
+**BATTLE SHOP ITEMS:**
+- !choiceband
+- !choicecloak
+- !choicescarf
+- !choicespecs
+- !expertbelt
+- !focusband
+- !focussash
+- !leftovers
+- !lifeorb
+- !quickclaw
+- !sitrusberry
+- !zoomlens
 
-    **BATTLE TOWER REWARDS:**
-    - !airballoon
-    - !covertcloak
+**BATTLE TOWER REWARDS:**
+- !airballoon
+- !covertcloak
 
-    **ENCOUNTER ITEM LIST:**
-    - !assaultvest
-    - !blackbelt
-    - !blackglasses
-    - !charcoal
-    - !dragonfang
-    - !fairyfeather
-    - !hardstone
-    - !kingsrock
-    - !luckincense
-    - !luckyegg
-    - !magnet
-    - !metalcoat
-    - !miracleseed
-    - !mysticwater
-    - !nevermeltice
-    - !poisonbarb
-    - !sharpbeak
-    - !silkscarf
-    - !silverpowder
-    - !softsand
-    - !spelltag
-    - !twistedspoon
+**ENCOUNTER ITEM LIST:**
+- !assaultvest
+- !blackbelt
+- !blackglasses
+- !charcoal
+- !dragonfang
+- !fairyfeather
+- !hardstone
+- !kingsrock
+- !luckincense
+- !luckyegg
+- !magnet
+- !metalcoat
+- !miracleseed
+- !mysticwater
+- !nevermeltice
+- !poisonbarb
+- !sharpbeak
+- !silkscarf
+- !silverpowder
+- !softsand
+- !spelltag
+- !twistedspoon
 
-    **MEGA CHAMBER REWARDS:**
-    - !eviolite
-    - !flameorb
-    - !toxicorb
+**MEGA CHAMBER REWARDS:**
+- !eviolite
+- !flameorb
+- !toxicorb
 
-    **MISC BATTLE ITEMS:**
-    - !shadowing
-    - !timegear
+**MISC BATTLE ITEMS:**
+- !shadowing
+- !timegear
 
-    **POWER STATION REWARDS:**
-    - !heavydutyboots
-    - !lightball
-    - !rockyhelmet
-    - !safetygoogles
+**POWER STATION REWARDS:**
+- !heavydutyboots
+- !lightball
+- !rockyhelmet
+- !safetygoogles
 
-    **WORLD BOSS REWARDS:**
-    - !auxguard
-    - !auxpower
-    - !auxpowerguard
-    - !abilityshield
-    - !bigroot
-    - !fullrestore
-    - !loadeddice
-    - !maxrevive
-    - !maxpotion
-    - !metronome
-    - !wiseglasses"""
+**WORLD BOSS REWARDS:**
+- !auxguard
+- !auxpower
+- !auxpowerguard
+- !abilityshield
+- !bigroot
+- !fullrestore
+- !loadeddice
+- !maxrevive
+- !maxpotion
+- !metronome
+- !wiseglasses
+"""
 
     it_three = """# STRAYDEX: EVOLUTION ITEMS
 **COMMANDS:**
