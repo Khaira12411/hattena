@@ -72,10 +72,10 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.necorzma_ultra
 
     if boss_name == "gri":
-        strat = WB_MVPStrat.mmy_metronome
+        strat = WB_MVPStrat.gri
 
     if boss_name == "uss":
-        strat = WB_MVPStrat.mmy_metronome
+        strat = WB_MVPStrat.gri
 
     if boss_name == "coa":
         strat = WB_MVPStrat.inteleon

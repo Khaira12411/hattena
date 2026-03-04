@@ -571,10 +571,10 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Inteleon**.
 - With **Gmax Inteleon** spam `Max Geyser`, and use Max Potions to heal."""
 
-    mmy_metronome = f"""**TEAM:**
+    gri = f"""**TEAM:**
 - **Mew**
 Equip: Loaded Dice
-Moves: `Eerie Impulse` `Focus Energy` `Screech` `Baton Pass`
+Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
@@ -583,14 +583,14 @@ Equip: Loaded Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Mewtwo Y**
+- **Gmax Hatterene**
 Equip: `Metronome`
-Moves: `Stored Power` `Miracle Eye` `Recover`
-EVs: `SPA 252` `SPD 252` `HP 4`
+Moves: `Max Starfall` `Draining Kiss` `Calm Mind` `Max Darkness`
+EVs: `SPA 252` `SPD 252` `HP 6`
 
 
-**MVP STRATEGY:** 🌟
+**STRATEGY:**
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Mega Mewtwo Y**.
-- With **Mega Mewtwo Y**, use 1x `Miracle Eye`, spam `Store Power`, and use `Recover` to heal."""
+- With **Mew** use  2x `Focus Energy`, 3x `Fake Tears`, then `Baton Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
+- With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining Kiss` and if enemy sp def went up use `Max Darkness`."""
