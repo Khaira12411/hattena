@@ -20,3 +20,5 @@ from .ubg import SD_UBG, SD_UBG_IMAGES
 from .achievement import SD_AC
 from .wb import *
 from .faction import *
+from  .tcg import TCG_DESC, TCG_EMOJIS
+from .powerstation import PS_EMOJIS, PS_DESC

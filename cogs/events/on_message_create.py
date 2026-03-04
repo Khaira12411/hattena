@@ -128,10 +128,6 @@ class MessageCreateListener(commands.Cog):
         # ————————————————————————————————
         if first_embed:
             if embed_has_field_name(first_embed, "Dex Number"):
-                pretty_log(
-                    "info",
-                    f"Detected dex command embed with 'Dex Number' field. Triggering dex listener.",
-                )
                 await dex_listener(self.bot, message)
 
 # 🌈────────────────────────────────────────────

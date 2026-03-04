@@ -12,6 +12,8 @@ class Emojis:
     blue_flower_two = "<:BlueFlower:1477465347899523154>"
     left_arrow = "<:left_arrow:1477607575787798590>"
     right_arrow = "<:right_arrow:1477607388579102821>"
+    info = "<:info:1478555278323486740>"
+    rewards = "<:rewards:1478595374901104641>"
 
 
 class Dividers:

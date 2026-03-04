@@ -118,6 +118,11 @@ straydex_ar = {
             "function": build_sd_main_embed,
         }
     },
+    "ps": {
+        "": {
+            "function": build_sd_ps_main_info_embed,
+        }
+    },
     "tr": {
         "": {
             "function": build_sd_main_trainer_embed,
@@ -149,6 +154,11 @@ straydex_ar = {
             "text": SD_MAIN_DESC.sz,
             "image_url": SD_MAIN_IMAGES.SZ,
             "function": build_sd_main_embed,
+        }
+    },
+    "tcg": {
+        "": {
+            "function": build_sd_tcg_main_info_embed,
         }
     },
 
