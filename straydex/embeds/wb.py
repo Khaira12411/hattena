@@ -63,31 +63,28 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     if boss_name == "uss":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-gmax.png"
         header_text = f"SHINY GMAX URSHIFU SINGLE STRIKE #{dex_number}"
-        strat = WB_MVPStrat.necorzma_ultra
+        strat = WB_MVPStrat.gri
 
     # MMY METRONOME FOR URS AND GRI
-    if boss_name == "urs":
+    elif boss_name == "urs":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-rapid-strike-gmax.png"
         header_text = f"SHINY GMAX URSHIFU RAPID STRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
 
-    if boss_name == "gri":
+    elif boss_name == "gri":
         strat = WB_MVPStrat.gri
 
-    if boss_name == "uss":
-        strat = WB_MVPStrat.gri
-
-    if boss_name == "coa":
+    elif boss_name == "coa":
         strat = WB_MVPStrat.inteleon
 
-    if boss_name == "eet":
+    elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
         strat = WB_MVPStrat.necorzma_ultra
 
-    if boss_name in ("cor", "cop", "orb"):
+    elif boss_name in ("cor", "cop", "orb"):
         strat = WB_MVPStrat.incineroar
 
-    if boss_name in ("ven", "mac", "gen", "gab", "tox"):
+    elif boss_name in ("ven", "mac", "gen", "gab", "tox"):
         strat = WB_MVPStrat.necorzma_ultra
 
     else:

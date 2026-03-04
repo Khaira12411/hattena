@@ -491,7 +491,6 @@ Equip: `Choice Specs`
 Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-
 **MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
@@ -515,7 +514,6 @@ Equip: `Choice Specs`
 Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-
 **MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
@@ -538,7 +536,6 @@ EVs: `HP 252` `SPD 252`
 Equip: `Choice Band`
 Moves: `Power Trip`
 EVs: `ATK 252` `SPD 252` `HP 4`
-
 
 **MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
@@ -564,7 +561,6 @@ Equip: `Choice Specs`
 Moves: `Max Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-
 **MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use 2x `Eerie Impulse`, 2x `Focus Energy`, `, then `Baton Pass` to **Malamar**.
@@ -588,8 +584,7 @@ Equip: `Metronome`
 Moves: `Max Starfall` `Draining Kiss` `Calm Mind` `Max Darkness`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
-
-**STRATEGY:**
+**MVP STRATEGY:** 🌟
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Focus Energy`, 3x `Fake Tears`, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
