@@ -123,6 +123,11 @@ straydex_ar = {
             "function": build_sd_ps_main_info_embed,
         }
     },
+    "rps": {
+        "": {
+            "function": build_sd_rps_main_info_embed,
+        }
+    },
     "tr": {
         "": {
             "function": build_sd_main_trainer_embed,

@@ -12,3 +12,4 @@ from .pokemon import build_sd_po_embed, build_sd_po_main_embed
 from .safarizone import build_sd_sz_main_info_embed, build_sd_sz_secrets_main_embed
 from .tcg import build_sd_tcg_main_info_embed, build_sd_tcg_info_embed
 from .powerstation import build_sd_ps_main_info_embed, build_sd_ps_info_embed
+from .rps import build_sd_rps_main_info_embed
