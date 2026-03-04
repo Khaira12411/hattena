@@ -151,7 +151,7 @@ class TCG_DESC:
 > - *Other ways via of obtaining:*
 >   - *Opening <:booster_box:1478547544803115171> Booster Boxes*
 >   - *Voting (1 pack every 3 votes)*
->   - *<:Shiny:1348638393554178129> Shiny Patreons: 1 free pack from `;daily`*
+>   - *<:Shiny:1090640278999810079> Shiny Patreons: 1 free pack from `;daily`*
 >   - *<:Golden11:1147776276510281818> Golden Patreons: 5 free packs `;daily`*"""
 
     quality_conditions = f"""# TCG Qualities & Conditions
@@ -183,7 +183,7 @@ class TCG_DESC:
     trading = f"""# TCG TRADING AND GIFTING
 
 - **Starting a Trade**
-> - *Use `!tcg trade @user` to begin a trade.*
+> - *Use `;tcg trade @user` to begin a trade.*
 > - *Receiver must accept to start.*
 > - *Limit: 10 items per user per trade.*
 
@@ -197,23 +197,23 @@ class TCG_DESC:
 > - *Example: `--remove bs1-4-5 ju-9-1 100 toks`.*
 
 - **Fast Trading**
-> - *Command: `!tcg trade @user <your-items> for <their-items>`.*
-> - *Example: `!tcg trade @user bs1-pack 3 4 5 100 toks for bs1-box 2 3`.*
+> - *Command: `;tcg trade @user <your-items> for <their-items>`.*
+> - *Example: `;tcg trade @user bs1-pack 3 4 5 100 toks for bs1-box 2 3`.*
 > - *Can set up trade fully in one command.*
 
 - **Gifting Items**
-> - *Command: `!tcg gift @user <items>`.*
+> - *Command: `;tcg gift @user <items>`.*
 > - *Send up to 20 items with no return required.*
-> - *Example: `!tcg gift user_id bs1-pack-1 bs1-box-1`.*
+> - *Example: `;tcg gift user_id bs1-pack-1 bs1-box-1`.*
 > - *Confirmation required before sending.*
-> - *Receiver gets a DM, and gift history can be viewed with `!tcg gift`.*"""
+> - *Receiver gets a DM, and gift history can be viewed with `;tcg gift`.*"""
 
     market = f"""# TCG Market
 
 - **Overview**
 > - *You can list all TCG items for <:pokecoin:1477168709305892874> PokeCoins or <:patreon_token:1477168705338081340> Patreon Tokens.*
 > - *Sellers are automatically sent coins/tokens and notified via DM when items are bought.*
-> - *Note: 5% fee on sales (waived for Patron+ supporters).*
+> - *Note: 5% fee on sales (waived for <:Shiny:1090640278999810079> Patreon+ supporters).*
 
 - **View Recent Listings**
 > - *Command: `;tcg market recent`.*
