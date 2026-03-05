@@ -1678,7 +1678,15 @@ __**NORMAL BATTLE**__
 - **Equip:**
 > `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
-> `SPA 252` `HP 252` `SPE 4`"""
+> `SPA 252` `HP 252` `SPE 4`
+
+__**WORLD BOSS**__
+- **Moves:**
+> `Stored-Power`
+- **Equip:**
+> `Choice_Specs
+- **EVs:**
+> `SPA 252` `SPD 252` `HP 4`"""
 
     # -------------------------------
     nor5 = f"""# BATTLEMON: NORMAL BATTLE
