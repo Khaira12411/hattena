@@ -86,8 +86,7 @@ async def build_sd_main_embed(
     embed = discord.Embed(description=text, color=SD_CONFIG.default_color)
     embed.set_image(url=image_url if image_url else Dividers.SD_Alternate)
     embed.set_footer(
-        text=get_default_footer(user_display_name), icon_url=guild.icon.url
-    )
+        text=get_default_footer(user_display_name), icon_url=guild.icon.url if guild.icon else None)
 
     # Thumbnail or author logic
     if cmd in main_cmd_list and main_cmd == "h":
