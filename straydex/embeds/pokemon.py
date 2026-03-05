@@ -5,12 +5,64 @@ from discord.ui import Button, View
 
 from straydex.config import SD_CONFIG
 from straydex.desc.pokemon import *
-from straydex.functions.main import (
-    get_default_footer,
-    remove_line_from_desc,
-    send_sd_logs,
-)
+from straydex.functions.main import get_default_footer
 from utils.logs.pretty_log import pretty_log
+from utils.visuals.type_embed import build_weakness_embed_from_input
+
+no_weakness_embed_list = [
+    "deb",
+    "nor",
+    "set",
+    "wor",
+    "deb2",
+    "nor2",
+    "set2",
+    "wor2",
+    "nor3",
+    "set3",
+    "nor4",
+    "arc4",
+    "nor5",
+]
+pokemon_map = {
+    "mew": "mew",
+    "nec": "necrozma",
+    "cor": "gigantamax-corviknight",
+    "ete": "eternamax-eternatus",
+    "gro": "groudon",
+    "hat": "gigantamax-hatterene",
+    "kyo": "kyogre",
+    "inc": "incineroar",
+    "lao": "latios",
+    "met": "metagross",
+    "ray": "rayquaza",
+    "tyr": "tyranitar",
+    "yve": "yveltal",
+    "sol": "solgaleo",
+    "zek": "zekrom",
+    "res": "reshiram",
+    "lug": "lugia",
+    "gar": "gardevoir",
+    "xer": "xerneas",
+    "gir": "giratina",
+    "arc": "arceus",
+    "zac": "zacian",
+    "pal": "palkia",
+    "dia": "dialga",
+    "kyu": "kyurem",
+    "arc2": "arceus-fairy",
+    "zac2": "zacian-crowned",
+    "pal2": "palkia-origin",
+    "mew2": "mewtwo",
+    "nec2": "necrozma-dawnwings",
+    "dia2": "dialga-origin",
+    "kyu3": "kyurem-white",
+    "arc3": "arceus-steel",
+    "mew3": "mega-mewtwo-x",
+    "mew4": "mega-mewtwo-y",
+    "nec3": "necrozma-duskmane",
+    "kyu2": "kyurem-black",
+}
 
 
 async def build_sd_po_embed(
@@ -27,6 +79,16 @@ async def build_sd_po_embed(
 
     # [🤍 FETCH VALUES] ─────────────────────────────────
     desc = getattr(SD_PO_DESC, sub_cmd, None)
+    full_name = pokemon_map.get(sub_cmd, sub_cmd)
+
+    if sub_cmd not in no_weakness_embed_list:
+        # Add WEAKNESS CHART section with blockquote style and blank lines exactly as screenshot
+        _, weakness_desc, _ = build_weakness_embed_from_input(full_name)
+        if weakness_desc:
+            # All lines in a single >>> blockquote, blank lines between groups
+            weakness_block = "**__WEAKNESS CHART__**\n>>> " + "\n\n".join(weakness_desc)
+            desc = f"{desc}\n\n{weakness_block}" if desc else weakness_block
+
     thumbnail_url = getattr(SD_PO_THUMBNAIL, sub_cmd, None)
     image_url = getattr(SD_PO_IMAGE_URL, sub_cmd, None)
 
@@ -142,7 +204,6 @@ class SDPokemonView(View):
         except Exception as e:
             pretty_log(
                 message=f"🔥 Error initializing SDFactionView for '{sub_cmd}': {e}",
-                
             )
 
     def make_callback(self, key: str):
@@ -174,7 +235,6 @@ class SDPokemonView(View):
             except Exception as e:
                 pretty_log(
                     message=f"🔥 Error updating faction view for '{key}': {e}",
-
                 )
                 await interaction.response.send_message(
                     "⚠️ Something went wrong while updating the faction.",

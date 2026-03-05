@@ -13,7 +13,6 @@ from straydex.config import SD_CONFIG
 from straydex.functions.main import (
     get_default_footer,
     remove_line_from_desc,
-    send_sd_logs,
 )
 from utils.logs.pretty_log import pretty_log
 
@@ -124,7 +123,7 @@ async def build_sd_two_embed(
     second_embed = discord.Embed(description=text_second, color=SD_CONFIG.default_color)
     second_embed.set_footer(
         text=footer_text, icon_url=guild.icon.url if guild.icon else None)
-    
+
     second_embed.set_image(url=image_url_second)
     if main_cmd == "straymon":
         thumbnail = perks["diamond"]["thumbnail_url"]

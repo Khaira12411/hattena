@@ -7,7 +7,6 @@ from straydex.desc import sd_battle_dict
 from utils.logs.pretty_log import pretty_log
 from straydex.functions.main import (
     remove_line_from_desc,
-    send_sd_logs,
     get_default_footer,
 )
 

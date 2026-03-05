@@ -146,7 +146,6 @@ def get_pokemon_from_input(pokemon_input: str):
     )
     return None, None, None
 
-
 # -------------------- Embed Builder --------------------
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     variant_name, shiny_golden_tag, base_dex = get_pokemon_from_input(pokemon_input)
@@ -193,4 +192,4 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         description="\n\n".join(description_lines),
         color=embed_color,
     )
-    return embed
+    return embed, description_lines, embed_title

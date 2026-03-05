@@ -13,6 +13,7 @@ async def send_sd_logs(
     user: discord.User,
     channel: discord.TextChannel,
     cmd: str = None,
+    message: discord.Message = None,
 ):
     if TESTING:
         return  # Skip logging in testing mode
@@ -22,9 +23,11 @@ async def send_sd_logs(
         question = main_cmd.replace(f"<@{bot.user.id}>", "").title().strip()
         question_str = f"- **Question:** `{question}`\n"
         commands_str = f"- **Command:** `{cmd}`\n"
+        title_str = f"Question Asked"
     else:
         commands_str = f"- **Command:** `{main_cmd}`\n"
-
+        title_str = f"Command Used"
+    url = message.jump_url if message else None
     # Build and return your embed here (example)
     text = (
         f"- **User:** {user.mention} (ID: {user.id})\n"
@@ -33,7 +36,7 @@ async def send_sd_logs(
         f"- **Guild:** {channel.guild.name} (ID: {channel.guild.id})\n"
         f"- **Channel:** {channel.mention} (ID: {channel.id})"
     )
-    embed = discord.Embed(description=text, color=SD_CONFIG.default_color)
+    embed = discord.Embed(title=title_str,url=url,  description=text, color=SD_CONFIG.default_color)
     embed.set_author(name=user.name, icon_url=user.avatar.url if user.avatar else None)
     straymon_guild = bot.get_guild(STRAYMONS_GUILD_ID)
     if not straymon_guild:

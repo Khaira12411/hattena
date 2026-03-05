@@ -3,8 +3,6 @@ import logging
 import discord
 from discord.ui import Button, View
 from straydex.functions.main import (
-    remove_line_from_desc,
-    send_sd_logs,
     get_default_footer,
 )
 from utils.logs.pretty_log import pretty_log

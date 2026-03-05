@@ -54,6 +54,7 @@ async def straydex_command_handler(
                 user=message.author,
                 channel=message.channel,
                 cmd=cmd,
+                message=message,
             )
 
         except Exception as e:

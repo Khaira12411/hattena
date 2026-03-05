@@ -3,8 +3,7 @@ import discord
 from straydex.desc import SD_TYPE_DESC
 from straydex.functions.main import (
     get_default_footer,
-    remove_line_from_desc,
-    send_sd_logs,
+
 )
 from utils.logs.pretty_log import pretty_log
 

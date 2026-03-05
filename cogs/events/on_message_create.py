@@ -2,14 +2,27 @@ import asyncio
 
 import discord
 from discord.ext import commands
+
 from constants.ask_hattena.overall import STOPWORDS, TOPICS
 from constants.straymons_constants import POKEMEOW_APPLICATION_ID
+from utils.functions.ask_hattena import match_topic
+from utils.listener_func.dex_listener import dex_listener
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
-from utils.listener_func.dex_listener import dex_listener
-from utils.functions.ask_hattena import match_topic
+
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
+ignore_prefix_commands = [
+    "!pray",
+    "!daily",
+    "!rps",
+    "!dice",
+    "!claw",
+    "!roulette",
+    "!guess",
+    "!eat",
+    "!items",
+]
 
 
 def embed_has_field_name(embed, name_to_match: str) -> bool:
@@ -72,7 +85,10 @@ class MessageCreateListener(commands.Cog):
         # 🩷 Straydex Handler
         # ————————————————————————————————
         PREFIX = "!"
-        if message.content.startswith(PREFIX):
+        cmd_word = message.content.split()[0] if message.content else ""
+        if cmd_word.startswith(PREFIX) and cmd_word.lower() not in [
+            c.lower() for c in ignore_prefix_commands
+        ]:
             try:
                 await straydex_command_handler(
                     bot=self.bot,
@@ -129,6 +145,7 @@ class MessageCreateListener(commands.Cog):
         if first_embed:
             if embed_has_field_name(first_embed, "Dex Number"):
                 await dex_listener(self.bot, message)
+
 
 # 🌈────────────────────────────────────────────
 #        🛠️ Setup function to add cog to bot

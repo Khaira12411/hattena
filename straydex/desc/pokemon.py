@@ -1,3 +1,4 @@
+from constants.straydex import SD_EMOJIS
 class SD_PO_IMAGE_URL:
     deb2 = "https://media.discordapp.net/attachments/1383696040930316329/1383696085200932954/1938ab375c070004285b8a6a1629c7874fdd362d77283b4aa5d643c10dfd53b7.png?ex=689f7da6&is=689e2c26&hm=49e8fba04fc1c990afb59337e21dc12cbda0eaf116a2c003f5dbdac8dc87d668&=&format=webp&quality=lossless&width=845&height=311"
 
@@ -283,8 +284,9 @@ VARIANT: `LATIOS #381`
 > `HP 252` `SPE 252`"""
 
     cor = f"""# BATTLEMON: GMAX CORVIKNIGHT
+**TYPE:** {SD_EMOJIS.flyingtype}{SD_EMOJIS.steeltype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Bulk Up` `Roost` `Power Trip` `Max Quake | Max Airstream`
 - **Equip:**
@@ -293,8 +295,9 @@ __**Setup Sweeper**__
 > `HP 252` `SPD 252` `DEF 4`"""
 
     ete = f"""# BATTLEMON: ETERNAMAX-ETERNATUS
+**TYPE:** {SD_EMOJIS.poisontype}{SD_EMOJIS.dragontype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Cosmic Power` `Max Ooze | Dragon Dance` `Recover` `Max Wyrmwind | Max Darkness | Outrage`
 - **Equip:**
@@ -302,7 +305,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `SPA 252` `SPD 4` or `HP 252` `ATK 252` `SPD 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Max Ooze` `Max Wyrmwind` `Max Darkness` `Max Flare`
 - **Equip:**
@@ -311,9 +314,10 @@ __**Normal Battle**__
 > `SPA 252` `SPE 252` `HP 4`"""
 
     gro = f"""# BATTLEMON: GROUDON
-**VARIANTS:**  `Primal Groudon #7573`  |  `Golden Groudon #9383`
+****VARIANTS:****  `Primal Groudon #7573`  |  `Golden Groudon #9383`
+**TYPE:** {SD_EMOJIS.groundtype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Earthquake | Precipice Blades` `Fire Punch | Eruption` `Thunder Punch` `Stone Edge | Iron Head | Focus Punch`
 - **Equip:**
@@ -330,8 +334,9 @@ __**World Boss**__
 > `ATK 252` `SPD 252` `HP 4`"""
 
     hat = f"""# BATTLEMON: GMAX HATTERENE
+**TYPE:** {SD_EMOJIS.fairytype}{SD_EMOJIS.psychictype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Gmax Smite` `Draining Kiss` `Max Darkness` `Max Phantasm`
 - **Equip:**
@@ -348,10 +353,10 @@ __**World Boss**__
 > `SPA 252` `SPD 252` `HP 4`"""
 
     kyo = f"""# BATTLEMON: KYOGRE
+**VARIANTS:** `GOLDEN KYOGRE #9382` | `PRIMAL-KYOGRE #7583`
+**TYPE:** {SD_EMOJIS.watertype}
 
-VARIANTS: `GOLDEN KYOGRE #9382` | `PRIMAL-KYOGRE #7583`
-
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Surf | Water Spout` `Earthquake` `Ice Beam` `Thunderbolt`
 - **Equip:**
@@ -360,6 +365,7 @@ __**Normal Battle**__
 > `SPA 252` `SPE 252` `HP 4`"""
 
     inc = f"""# BATTLEMON: INCINEROAR
+**TYPE:** {SD_EMOJIS.firetype}{SD_EMOJIS.darktype}
 
 __**World Boss**__
 - **Moves:**
@@ -371,8 +377,9 @@ __**World Boss**__
 
     lao = f"""# BATTLEMON: LATIOS
 **VARIANT**: `Mega Latios #7142`
+**TYPE:** {SD_EMOJIS.dragontype}{SD_EMOJIS.psychictype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Memento` `Mystical Fire`
 - **Equip:**
@@ -380,7 +387,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Luster Purge | Psyshock` `Surf | Thunderbolt` `Ice Beam`
 - **Equip:**
@@ -390,8 +397,9 @@ __**Normal Battle**__
 
     met = f"""# BATTLEMON: METAGROSS
 **VARIANTS:**  `Mega Metagross #7136`  |  `Golden Metagross #9376`
+**TYPE:** {SD_EMOJIS.steeltype}{SD_EMOJIS.psychictype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Earthquake` `Steel Power` `Body Slam` `Psychic Fangs`
 - **Equip:**
@@ -402,7 +410,7 @@ __**Normal Battle**__
     sla = f"""# BATTLEMON: SLAKING
 **VARIANT:** `Golden Slaking #9289`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Sucker Punch` `Earthquake` `Focus Punch | Drain Punch` `Play Rough | Ice Punch | Thunder Punch`
 - **Equip:**
@@ -411,9 +419,10 @@ __**Normal Battle**__
 > `ATK 252` `SPD 128` `HP 128`"""
 
     ray = f"""# BATTLEMON: MEGA RAYQUAZA
-**VARIANTS: `GOLDEN RAYQUAZA #9384` | `GOLDEN MEGA RAYQUAZA #7120`**
+**VARIANTS:** `GOLDEN RAYQUAZA #9384` | `GOLDEN MEGA RAYQUAZA #7120`
+**TYPE:** {SD_EMOJIS.dragontype}{SD_EMOJIS.flyingtype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Dragon Ascent` `Earthquake` `V Create | Rock Slide | Ice Beam`
 - **Equip:**
@@ -423,8 +432,9 @@ __**Normal Battle**__
 
     tyr = f"""# BATTLEMON: MEGA TYRANITAR
 **VARIANT:**  `Golden Mega Tyranitar #7090`
+**TYPE:** {SD_EMOJIS.rocktype}{SD_EMOJIS.darktype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Rock Slide` `Ice Punch` `Focus Punch` `Iron Head | Dig`
 - **Equip:**
@@ -434,8 +444,9 @@ __**Normal Battle**__
 
     yve = f"""# BATTLEMON: YVELTAL
 **VARIANT:** `Golden Yveltal  #9717`
+**TYPE:** {SD_EMOJIS.darktype}{SD_EMOJIS.flyingtype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Sucker Punch` `Oblvion Wing` `Dark Pulse` `Heat Wave | Psychic`
 - **Equip:**
@@ -444,8 +455,9 @@ __**Normal Battle**__
 > `SPA 252` `HP 252` `SPE 4`"""
 
     sol = f"""# BATTLEMON: SOLGALEO
+**TYPE:** {SD_EMOJIS.steeltype}{SD_EMOJIS.psychictype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -453,7 +465,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Steel Roller` `Earthquake` `Outrage` `Flare Blitz | Close Combat | Wild Charge`
 - **Equip:**
@@ -463,8 +475,9 @@ __**Normal Battle**__
 
     zek = f"""# BATTLEMON: ZEKROM
 **VARIANT:** `Golden Zekrom   #9644`
+**TYPE:** {SD_EMOJIS.electrictype}{SD_EMOJIS.dragontype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -472,7 +485,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Outrage` `Fusion Bolt` `Roost` `Dragon Dance`
 - **Equip:**
@@ -480,7 +493,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `SPD 252` `DEF 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Fusion Bolt` `Crunch` `Earth Power`
 - **Equip:**
@@ -490,8 +503,9 @@ __**Normal Battle**__
 
     res = f"""# BATTLEMON: RESHIRAM
 **VARIANT**: `GOLDEN RESHIRAM #9643`
+**TYPE:** {SD_EMOJIS.firetype}{SD_EMOJIS.dragontype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -499,7 +513,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` DEF `4` or HP `252` DEF `128` SPD `128`
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Outrage` `Crunch` `Roost` `Dragon Dance`
 - **Equip:**
@@ -507,7 +521,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `DEF 252` `SPD 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Fusion Flare` `Earth Power` `Shadow Ball | Psychic | Blue Flare`
 - **Equip:**
@@ -517,8 +531,9 @@ __**Normal Battle**__
 
     lug = f"""# BATTLEMON: LUGIA
 **VARIANT:** `Golden Lugia #9249`
+**TYPE:** {SD_EMOJIS.psychictype}{SD_EMOJIS.flyingtype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Psychic` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
 - **Equip:**
@@ -527,7 +542,8 @@ __**Normal Battle**__
 > `SPA 252` `HP 252` `DEF 4`"""
 
     gar = f"""# BATTLEMON: GARDEVOIR
-**VARIANTS:**  `Gardevoir #282`  |  `Mega Gardevoir #7022`  |  `Golden Gardevoir #9282`
+**VARIANTS:**  `Gardevoir #282`  |  `Mega Gardevoir #7022`  |  `Golden Gardevoir #9282` `Golden Mega Gardevoir #7024`
+**TYPE:** {SD_EMOJIS.fairytype}{SD_EMOJIS.psychictype}
 
 __**World Boss**__
 - **Moves:**
@@ -539,6 +555,7 @@ __**World Boss**__
 
     xer = f"""# BATTLEMON: XERNEAS
 **VARIANT:** `Golden Xerneas #9716`
+**TYPE:** {SD_EMOJIS.fairytype}
 
 __**World Boss**__
 - **Moves:**
@@ -548,7 +565,7 @@ __**World Boss**__
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Moonblast` `Draining Kiss` `Thunderbolt` `Psychic`
 - **Equip:**
@@ -558,8 +575,9 @@ __**Normal Battle**__
 
     gir = f"""# BATTLEMON: GIRATINA
 **VARIANTS:** `Giratina Origin #7136`  |  `Golden Giratina #9487`
+**TYPE:** {SD_EMOJIS.ghosttype}{SD_EMOJIS.dragontype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Shadow Force` `Shadow Sneak` `Psychic`
 - **Equip:**
@@ -611,7 +629,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 > `SPA 252` `SPE 252` `HP 4`
 
 **DIALGA**
-VARIANTS: `GOLDEN DIALGA #9483` | `PRIMAL-DIALGA #7705`
+**VARIANTS:** `GOLDEN DIALGA #9483` | `PRIMAL-DIALGA #7705`
 - **Moves:**
 > `Outrage` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
 - **Equip:**
@@ -628,7 +646,7 @@ VARIANTS: `GOLDEN DIALGA #9483` | `PRIMAL-DIALGA #7705`
 > `SPA 252` `SPE 252` `HP 4`
 
 **GIRATINA**
-VARIANTS: `GOLDEN GIRATINA #9487` | `GIRATINA-ORIGIN #7579`
+**VARIANTS:** `GOLDEN GIRATINA #9487` | `GIRATINA-ORIGIN #7579`
 - **Moves:**
 > `Outrage` `Shadow Force` `Shadow Sneak` `Psychic`
 - **Equip:**
@@ -729,8 +747,9 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
     arc = f"""# BATTLEMON: ARCEUS
 **VERSIONS:**  `Golden Arceus #9493`
+**TYPE:** {SD_EMOJIS.normaltype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Iron Defense` `Recover` `Stored Power`
 - **Equip:**
@@ -738,7 +757,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Extreme Speed` `Last Resort` `Earthquake` `Recover | Outrage | Foul Play`
 - **Equip:**
@@ -748,8 +767,9 @@ __**Normal Battle**__
 
     zac = f"""# BATTLEMON: ZACIAN
 **VARIANT:**  `Golden Zacian #9888`
+**TYPE:** {SD_EMOJIS.fairytype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -757,7 +777,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Play Rough` `Crunch` `Close Combat` `Wild Charge | Iron Head` `
 - **Equip:**
@@ -767,8 +787,9 @@ __**Normal Battle**__
 
     pal = f"""# BATTLEMON: PALKIA
 **VARIANT:**  `Golden Palkia #9484`
+**TYPE:** {SD_EMOJIS.watertype}{SD_EMOJIS.dragontype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Surf` `Earth Power` `Thunderbolt`
 - **Equip:**
@@ -778,8 +799,9 @@ __**Normal Battle**__
 
     mew = f"""# BATTLEMON: MEW
 **VARIANT:**  `Golden Mew #9151`
+**TYPE:** {SD_EMOJIS.psychictype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Iron Defense` `Roost` `Dragon Pulse`
 - **Equip:**
@@ -797,8 +819,9 @@ __**World Boss**__
 
     nec = f"""# BATTLEMON: NECROZMA
 VARIANT: `Golden Necrozma #9800`
+**TYPE:**  <:psychictype:1476563629330661496> `Psychic`
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Iron Defense` `Moonlight` `Stored Power`
 - **Equip:**
@@ -808,8 +831,9 @@ __**Setup Sweeper**__
 
     dia = f"""# BATTLEMON: DIALGA
 **VARIANTS:**  `Dialga #483`  |  `Primal Dialga #7705`  |  `Golden Dialga #9483`
+**TYPE:** {SD_EMOJIS.steeltype}{SD_EMOJIS.dragontype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
 - **Equip:**
@@ -819,8 +843,9 @@ __**Normal Battle**__
 
     kyu = f"""# BATTLEMON: KYUREM
 **VERSION:**  `Golden Kyurem #9646`
+**TYPE:** {SD_EMOJIS.icetype}{SD_EMOJIS.dragontype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -828,7 +853,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Freeze Dry` `Ice Beam` `Earth Power`
 - **Equip:**
@@ -839,7 +864,7 @@ __**Normal Battle**__
     wor = f"""# BATTLEMON: WORLD BOSS
 
 **GARDEVOIR**
-VARIANTS:  `GARDEVOIR #282`  |  `Mega GARDEVOIR #7022`  |  `Golden GARDEVOIR #9282`
+**VARIANTS:**  `GARDEVOIR #282`  |  `Mega GARDEVOIR #7022`  |  `Golden GARDEVOIR #9282`
 - **Moves:**
 > `Moonblast` `Draining Kiss` `Calm Mind`
 - **Equip:**
@@ -976,7 +1001,7 @@ VARIANT: `GOLDEN HO-OH #9250`
 > `ATK 252` `SPE 252` `HP 4`
 
 **KYOGRE**
-VARIANTS: `GOLDEN KYOGRE #9382` | `PRIMAL-KYOGRE #7583`
+**VARIANTS:** `GOLDEN KYOGRE #9382` | `PRIMAL-KYOGRE #7583`
 - **Moves:**
 > `Surf | Water Spout` `Earthquake` `Ice Beam` `Thunderbolt`
 - **Equip:**
@@ -1124,8 +1149,9 @@ VARIANT: GOLDEN RESHIRAM #9643
 > `HP 252` `DEF 128` `SPD 128`"""
 
     arc2 = f"""# BATTLEMON: ARCEUS-FAIRY
+**TYPE:** {SD_EMOJIS.fairytype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Iron Defense` `Recover` `Judgment`
 - **Equip:**
@@ -1133,7 +1159,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Judgment` `Earth Power` `Dark Pulse` `Recover | Ice Beam | Thunderbolt`
 - **Equip:**
@@ -1143,8 +1169,9 @@ __**Normal Battle**__
 """
 
     zac2 = f"""# BATTLEMON: ZACIAN-CROWNED
+**TYPE:** {SD_EMOJIS.fairytype}{SD_EMOJIS.steeltype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -1152,7 +1179,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 > `Play Rough` `Behemoth Blade` `Close Combat` `Wild Charge | Crunch`
 - **Equip:**
 > `Choice Scarf | Choice Cloak`
@@ -1168,8 +1195,9 @@ __**World Boss**__
 > `ATK 252` `SPD 252` `HP 4`"""
 
     pal2 = f"""# BATTLEMON: PALKIA-ORIGIN
+**TYPE:** {SD_EMOJIS.watertype}{SD_EMOJIS.dragontype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Thunderbolt`
 - **Equip:**
@@ -1180,7 +1208,8 @@ __**Normal Battle**__
     mew2 = f"""# BATTLEMON: MEWTWO
 **VARIANT:**  `Golden Mewtwo #9150`
 
-__**Setup Sweeper**__
+**TYPE:** {SD_EMOJIS.psychictype}
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Bulk Up` `Recover` `Stored Power`
 - **Equip:**
@@ -1196,7 +1225,7 @@ __**World Boss**__
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
@@ -1206,8 +1235,9 @@ __**Normal Battle**__
 """
 
     nec2 = f"""# BATTLEMON: NECROZMA-DAWNWINGS
+**TYPE:** {SD_EMOJIS.psychictype}{SD_EMOJIS.ghosttype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Photon Geyser` `Moongeist Beam` `Power Gem` `Dark Pulse | Prismatic Laser | Flash Cannon`
 - **Equip:**
@@ -1217,8 +1247,9 @@ __**Normal Battle**__
 """
 
     dia2 = f"""# BATTLEMON: DIALGA-ORIGIN
+**TYPE:** {SD_EMOJIS.steeltype}{SD_EMOJIS.dragontype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
 - **Equip:**
@@ -1229,8 +1260,9 @@ __**Normal Battle**__
 
     kyu3 = f"""# BATTLEMON: KYUREM-WHITE
 **VERSION:**  `Golden Kyurem-White #7515`
+**TYPE:** {SD_EMOJIS.icetype}{SD_EMOJIS.dragontype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -1238,7 +1270,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Dragon Pulse | Outrage` `Ice Beam | Freeze Dry` `Fusion Flare` `Earth Power`
 - **Equip:**
@@ -1279,7 +1311,7 @@ VARIANT: `ALOLAN MUK #7702`
 - **EVs:**
 > `HP 252` `SPD 252` `DEF 4`
 - **WBs used in:**
-> `In all worldboss as a Debuffer`
+> `In all worldboss as a DEBUFFER`
 
 **PANGORO**
 - **Moves:**
@@ -1379,7 +1411,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 > `SPA 252` `HP 252` `DEF 4`
 
 **MEGA RAYQUAZA**
-VARIANTS: `GOLDEN RAYQUAZA #9384` | `GOLDEN MEGA RAYQUAZA #7120`
+**VARIANTS:** `GOLDEN RAYQUAZA #9384` | `GOLDEN MEGA RAYQUAZA #7120`
 - **Moves:**
 > `Outrage` `Dragon Ascent` `Earthquake` `V Create | Rock Slide | Ice Beam`
 - **Equip:**
@@ -1431,8 +1463,9 @@ VARIANT: `GOLDEN ZEKROM #9644`
 > `HP 252` `SPD 252` `DEF 4`"""
 
     arc3 = f"""# BATTLEMON: ARCEUS-STEEL
+**TYPE:** {SD_EMOJIS.steeltype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Iron Defense` `Recover` `Stored Power | Judgment`
 - **Equip:**
@@ -1440,7 +1473,7 @@ __**Setup Sweeper**__
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Steel Roller` `Flare Blitz` `Outrage` `Recover | Earthquake | Foul Play`
 - **Equip:**
@@ -1450,8 +1483,9 @@ __**Normal Battle**__
 
     mew3 = f"""# BATTLEMON: MEGA MEWTWO X
 **VARIANT:**  `Golden Mega Mewtwo X #7111`
+**TYPE:** {SD_EMOJIS.psychictype}{SD_EMOJIS.fightingtype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Bulk Up` `Drain Punch` `Earthquake`
 - **Equip:**
@@ -1467,7 +1501,7 @@ __**World Boss**__
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Drain Punch` `Earthquake` `Ice Punch` `Focus Punch | Stone Edge`
 - **Equip:**
@@ -1476,8 +1510,9 @@ __**Normal Battle**__
 > `ATK 252` `HP 252` `SPE 4`"""
 
     nec3 = f"""# BATTLEMON: NECROZMA-DUSKMANE
+**TYPE:** {SD_EMOJIS.psychictype}{SD_EMOJIS.steeltype}
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Sunsteel Strike` `Earthquake` `Stone Edge` `Shadow Claw`
 - **Equip:**
@@ -1487,8 +1522,9 @@ __**Normal Battle**__
 
     kyu2 = f"""# BATTLEMON: KYUREM-BLACK
 **VERSION:**  `Golden Kyurem-Black #7512`
+**TYPE:** {SD_EMOJIS.icetype}{SD_EMOJIS.dragontype}
 
-__**Debuffer**__
+__**DEBUFFER**__
 - **Moves:**
 > `Noble Roar`
 - **Equip:**
@@ -1496,7 +1532,7 @@ __**Debuffer**__
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Outrage` `Fusion Bolt` `Iron Head` `Ice Beam | Roost (with Life Orb) | Stone Edge`
 - **Equip:**
@@ -1516,7 +1552,7 @@ VARIANT: `GOLDEN MEGA TYRANITAR #7090`
 > `ATK 252` `SPD 252` `HP 4`
 
 **METAGROSS**
-VARIANTS: `GOLDEN METAGROSS #9376` | `MEGA METAGROSS #7136`
+**VARIANTS:** `GOLDEN METAGROSS #9376` | `MEGA METAGROSS #7136`
 - **Moves:**
 > `Earthquake` `Steel Power` `Body Slam` `Psychic Fangs`
 - **Equip:**
@@ -1584,9 +1620,9 @@ VARIANT: `GOLDEN RESHIRAM #9643`
 > `SPA 252` `SPE 252` `HP 4`"""
 
     arc4 = f"""# BATTLEMON: ARCEUS-GROUND
-**VARIANTS:**  `Arceus-Electric #7588` | `Arceus-Ghost #7627` | `Arceus-Dark #7576` | `Arceus-Grass #7570`
+****VARIANTS:****  `Arceus-Electric #7588` | `Arceus-Ghost #7627` | `Arceus-Dark #7576` | `Arceus-Grass #7570`
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Arceus-Ground Moves:**
 > `Calm Mind` `Iron Defense` `Recover` `Stored Power`
 
@@ -1606,8 +1642,9 @@ __**Setup Sweeper**__
 
     mew4 = f"""# BATTLEMON: MEGA MEWTWO Y
 **VARIANT:**  `Golden Mega Mewtwo Y #7122`
+**TYPE:** {SD_EMOJIS.psychictype}
 
-__**Setup Sweeper**__
+__**SETUP SWEEPER**__
 - **Moves:**
 > `Calm Mind` `Bulk Up` `Recover` `Stored Power`
 - **Equip:**
@@ -1623,7 +1660,7 @@ __**World Boss**__
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
 - **Equip:**
@@ -1633,7 +1670,7 @@ __**Normal Battle**__
 
     nec4 = f"""# BATTLEMON: NECROZMA-ULTRA
 
-__**Normal Battle**__
+__**NORMAL BATTLE**__
 - **Moves:**
 > `Photon Geyser` `Outrage` `Power Gem` `Earth Power | Flash Cannon`
 - **Equip:**
@@ -1645,7 +1682,7 @@ __**Normal Battle**__
     nor5 = f"""# BATTLEMON: NORMAL BATTLE
 
 **SALAMENCE**
-VARIANTS: `GOLDEN SALAMENCE #9373` | `MEGA SALAMENCE #7133`
+**VARIANTS:** `GOLDEN SALAMENCE #9373` | `MEGA SALAMENCE #7133`
 - **Moves:**
 > `Outrage` `Earthquake` `Iron Head | Crunch` `Body Slam`
 - **Equip:**
@@ -1680,7 +1717,7 @@ VARIANT: `GOLDEN XERNEAS #9716`
 > `SPA 252` `SPE 252` `HP 4`
 
 **YVELTAL**
-VARIANTS: `GOLDEN YVELTAL #9717`
+**VARIANTS:** `GOLDEN YVELTAL #9717`
 - **Moves:**
 > `Sucker Punch` `Oblvion Wing` `Dark Pulse` `Heat Wave | Psychic`
 - **Equip:**

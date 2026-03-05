@@ -49,3 +49,17 @@ webhook_url_cache: dict[int, dict] = {}
 #       "url": str,
 #   },
 #   ...
+
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+#       🌸 Processed IDS Cache
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+# Cache to store pokemon name, and message_id
+processed_dex_message_ids_cache: set[str] = set()
+# Structure:
+# {
+#   "pokemon_name, message_id",
+#   ...
+
+def clear_processed_ids_cache():
+    processed_dex_message_ids_cache.clear()
+    

@@ -28,7 +28,7 @@ from utils.functions.pokemon_func import (
 )
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
-
+from utils.cache.cache_list import processed_dex_message_ids_cache
 #enable_debug(f"{__name__}.dex_listener")
 #enable_debug(f"{__name__}.parse_stats_and_abilities_from_embed_and_update")
 # enable_debug(f"{__name__}.extract_emoji_id_from_evolution_line")
@@ -232,6 +232,12 @@ async def dex_listener(bot, message: discord.Message):
         )
         return
     pokemon_name = format_names_for_market_value_lookup(pokemon_name)
+    key = f"{pokemon_name}, {message.id}"
+    if key in processed_dex_message_ids_cache:
+        debug_log(f"Message ID {message.id} for {pokemon_name} already processed. Skipping.")
+        return
+    processed_dex_message_ids_cache.add(key)
+    
     embed_image_url = embed.image.url if embed.image else None
     image_link_cache = fetch_image_link_cache(pokemon_name)
     existing_exclusive_status = fetch_pokemon_exclusivity_cache(pokemon_name)

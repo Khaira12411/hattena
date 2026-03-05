@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 from utils.cache.central_cache_loader import load_all_caches
 from utils.db.get_pg_pool import *
 from utils.logs.pretty_log import pretty_log, set_hattena_bot
-
+from utils.cache.cache_list import clear_processed_ids_cache
 # ❀───────────────────────────────❀
 #       💖  Suppress Logs  💖
 # ❀───────────────────────────────❀
@@ -53,6 +53,9 @@ async def refresh_all_caches():
 
     # Removed first-run skip logic so cache loads immediately
     await load_all_caches(bot)
+
+    # Clear processed IDs cache every hour to prevent unbounded growth
+    clear_processed_ids_cache()
 
 
 # ❀───────────────────────────────❀
