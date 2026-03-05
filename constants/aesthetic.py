@@ -18,6 +18,7 @@ class Emojis:
     battle = "<:battle:1478908213939408947>"
     general = "<:general:1478908152752640060>"
     star = "<:star:1478908975335346320>"
+    toggle = "<:toggle:1479041594156908574>"
 
 
 class Dividers:

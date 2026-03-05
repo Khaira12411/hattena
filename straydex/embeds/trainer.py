@@ -197,19 +197,19 @@ class TrainerInfoView(View):
                 pass
 
     # ───────────── Buttons ─────────────
-    @discord.ui.button(label="Levels", style=discord.ButtonStyle.primary, disabled=True)
+    @discord.ui.button(label="Levels", style=discord.ButtonStyle.secondary, disabled=True, emoji=Emojis.star)
     async def levels_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Levels")
 
-    @discord.ui.button(label="EV Training", style=discord.ButtonStyle.secondary)
+    @discord.ui.button(label="EV Training", style=discord.ButtonStyle.secondary, emoji=Emojis.battle)
     async def ev_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "EV Training")
 
     @discord.ui.button(label="EV Reset", style=discord.ButtonStyle.secondary)
-    async def ev_reset_button(self, interaction: discord.Interaction, button: Button):
+    async def ev_reset_button(self, interaction: discord.Interaction, button: Button, emoji=Emojis.evolution):
         await self.switch_embed(interaction, "EV Reset")
 
-    @discord.ui.button(label="Toggle Iphone Copy", style=discord.ButtonStyle.secondary)
+    @discord.ui.button(label="Toggle Iphone Copy", style=discord.ButtonStyle.secondary, emoji=Emojis.toggle)
     async def toggle_iphone_copy(
         self, interaction: discord.Interaction, button: Button
     ):
