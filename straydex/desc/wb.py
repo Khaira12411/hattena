@@ -37,6 +37,7 @@ wb_map = {
     "ven": "venusaur",
 }
 
+
 class WBEmojis:
     Gmax = "<:gmax:1394991557802983535>"
     Sgmax = "<:sgmax:1394991584411516980>"
@@ -412,21 +413,21 @@ Moves: `Memento`
 EVs: -
 
 - **Muk**
-Equip: `Loaded Dice`
-Moves: `Acid Spray` `Memento`
+Equip: `Loaded_Dice`
+Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir**
-Equip: `Metronome` | `Fairy Feather` | `Expert Belt`
-Moves: `Moonblast` `Calm Mind` ` Draining Kiss`
+Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
+Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
-- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
-- With **Mega Gardevoir** use `Calm Mind` 6x.
+- With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Mega Gardevoir** use `Calm-Mind` 6x.
 - After the set-up above, spam `Moonblast`
-- Use `Draining Kiss` to heal."""
+- Use `Draining-Kiss` to heal."""
 
     uss = f"""**TEAM:**
 - **Grimer**
@@ -435,21 +436,21 @@ Moves: `Memento`
 EVs: -
 
 - **Muk**
-Equip: `Loaded Dice`
-Moves: `Acid Spray` `Memento`
+Equip: `Loaded_Dice`
+Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir**
 Equip: `Metronome`
-Moves: `Moonblast` `Draining Kiss` `Calm Mind`
+Moves: `Moonblast` `Draining-Kiss` `Calm-Mind`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
-- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
-- With **Mega Gardevoir** use `Calm Mind` 6x times.
+- With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Mega Gardevoir** use `Calm-Mind` 6x times.
 - After the set-up above, spam `Moonblast`.
-- Use `Draining Kiss` to heal."""
+- Use `Draining-Kiss` to heal."""
 
     mewtwo_strat = f"""**TEAM:**
 - **Grimer**
@@ -458,136 +459,136 @@ Moves: `Memento`
 EVs: -
 
 - **Muk**
-Equip: `Loaded Dice`
-Moves: `Acid Spray` `Memento`
+Equip: `Loaded_Dice`
+Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y**
 Equip: `Metronome`
-Moves: `Stored Power` `Recover` `Calm Mind` `Bulk Up`
+Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
-- With **Muk**, use `Acid Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
-- With **Mega Mewtwo Y** use `Calm Mind` 6x then `Bulk Up` atleast once. The amount of `Bulk Ups` may change depending on how many people participate and how fast the boss dies.
-- After the set-up above, spam `Stored Power`
+- With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Mega Mewtwo Y** use `Calm-Mind` 6x then `Bulk-Up` atleast once. The amount of `Bulk-Ups` may change depending on how many people participate and how fast the boss dies.
+- After the set-up above, spam `Stored-Power`
 - Use `Recover` to heal."""
 
 
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
 - **Mew**
-Equip: Loaded Dice
-Moves: `Eerie Impulse` `Focus Energy` `Screech` `Baton Pass`
+Equip: Loaded_Dice
+Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
 *Remove Contrary Ability*
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y**
-Equip: `Choice Specs`
-Moves: `Stored Power`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Mega Mewtwo Y**.
 - With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
 
     necorzma_ultra = f"""**TEAM:**
 - **Mew**
-Equip: Loaded Dice
-Moves: `Eerie Impulse` `Focus Energy` `Screech` `Baton Pass`
+Equip: Loaded_Dice
+Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
 *Remove Contrary Ability*
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Necrozma-Ultra**
-Equip: `Choice Specs`
-Moves: `Stored Power`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Necrozma-Ultra**.
 - With **Necrozma-Ultra**, spam `Store Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
 - **Mew**
-Equip: Loaded Dice
-Moves: `Eerie Impulse` `Focus Energy` `Screech` `Baton Pass`
+Equip: Loaded_Dice
+Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
 *Remove Contrary Ability*
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Incineroar**
-Equip: `Choice Band`
-Moves: `Power Trip`
+Equip: `Choice_Band`
+Moves: `Power-Trip`
 EVs: `ATK 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`, 3x `Screech`,  then `Baton Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus Energy`, 3x `Screech`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Incineroar**.
-- With **Incineroar**, spam `Power Trip`, and use Max Potions to heal."""
+- With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
     inteleon = f"""**TEAM:**
 - **Mew**
-Equip: Loaded Dice
-Moves: `Eerie Impulse` `Focus Energy` `Screech` `Baton Pass`
+Equip: Loaded_Dice
+Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
 *Remove Contrary Ability*
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Gmax Inteleon**
 *Needs Sniper Ability*
-Equip: `Choice Specs`
+Equip: `Choice_Specs`
 Moves: `Max Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use 2x `Eerie Impulse`, 2x `Focus Energy`, `, then `Baton Pass` to **Malamar**.
+- With **Mew** use 2x `Eerie-Impulse`, 2x `Focus Energy`, `, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Inteleon**.
 - With **Gmax Inteleon** spam `Max Geyser`, and use Max Potions to heal."""
 
     gri = f"""**TEAM:**
 - **Mew**
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar**
 *Remove Contrary Ability*
-Equip: Loaded Dice
+Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Gmax Hatterene**
 Equip: `Metronome`
-Moves: `Max Starfall` `Draining Kiss` `Calm Mind` `Max Darkness`
+Moves: `Max Starfall` `Draining-Kiss` `Calm-Mind` `Max-Darkness`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Focus Energy`, 3x `Fake Tears`, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
-- With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining Kiss` and if enemy sp def went up use `Max Darkness`."""
+- With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining-Kiss` and if enemy sp def went up use `Max-Darkness`."""

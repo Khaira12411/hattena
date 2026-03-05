@@ -2,17 +2,17 @@ class SD_MR_DESC:
     beg = f"""# MEOWROGUE: BEGINNER GUIDE
 **STARTER TEAM:**
 - **Fuecoco**
-> Power Moves: `Torch Song` `Shadow Ball` `Blast Burn`
+> Power Moves: `Torch Song` `Shadow-Ball` `Blast Burn`
 > Status Moves: `Sunny Day`
 - **Chimchar**
 > Power Moves: `Fire Punch` `Earthquake` `Rock Tomb`
-> Status Moves: `Swords Dance`
+> Status Moves: `Swords-Dance`
 - **Cyndaquil**
-> Power Moves: `Burning Jealousy` `Shadow Ball`
-> Status Moves: `Calm Mind`
+> Power Moves: `Burning-Jealousy` `Shadow-Ball`
+> Status Moves: `Calm-Mind`
 - **Mudkip**
-> Power Moves: `Ice Punch` `Earthquake`
-> Status Moves: `Amnesia` `Bulk Up`
+> Power Moves: `Ice-Punch` `Earthquake`
+> Status Moves: `Amnesia` `Bulk-Up`
 - **Charmander**
 > Power Moves: `Fire Punch` `Metal Claw` `Solar Beam`
 > Status Moves: `Roost`
@@ -56,7 +56,7 @@ class SD_MR_DESC:
 
     cha = f"""## Classic Challenges
 1. Complete Classic Mode without using any Healing Items
-> - Use **Xerneas** (heal with `Draining Kiss`) or **Arceus** (heal with `Recover`)
+> - Use **Xerneas** (heal with `Draining-Kiss`) or **Arceus** (heal with `Recover`)
 > - Avoid picking up healing items or triggering Glutton passive
 
 2. Complete Classic Mode using Just 1 Pokémon
@@ -76,14 +76,14 @@ class SD_MR_DESC:
 > - Shiny variants **do not count**
  - Recommended Moveset (farm in Endless):
 >  - `Solar Beam` / `Max Overgrowth`
->  - `Max Wildfire` / `Max Flare` / `Max Darkness`
->  - `Max Airstream`
+>  - `Max Wildfire` / `Max-Flare` / `Max-Darkness`
+>  - `Max-Airstream`
 >  - `Roost`
 
 5. Complete Classic Mode with ONLY Water-Type Pokémon
 > - Use **Arceus** with **Splash Plate**
 > - Alternatively, use any **Water-type Legendary**
-> - Equip setup moves like `Cosmic Power` or `Calm Mind`
+> - Equip setup moves like `Cosmic-Power` or `Calm-Mind`
 
 6. Complete Classic Mode with ONLY Dragon-Type Pokémon
 > - Use **Arceus** with **Draco Plate**
@@ -102,13 +102,13 @@ class SD_MR_DESC:
 
     cur = f"""# MEOWROGUE: CURRENT META
  - **Arceus Electric**
-> Power Moves: `Meteor Beam` `Stored Power`
-> Status Moves: `Cosmic Power` `Recover`
+> Power Moves: `Meteor Beam` `Stored-Power`
+> Status Moves: `Cosmic-Power` `Recover`
  - **Gmax Corviknight**
-> Power Moves: `Power Trip` `Max Quake`
-> Status Moves: `Bulk Up` `Roost`
+> Power Moves: `Power-Trip` `Max-Quake`
+> Status Moves: `Bulk-Up` `Roost`
  - **Xermeas**
-> Power Moves: `Moonblast` `Draining Kiss` `Psychic (If solo)` / `Thunderbolt (If using complete team)`
+> Power Moves: `Moonblast` `Draining-Kiss` `Psychic (If solo)` / `Thunderbolt (If using complete team)`
 > Status Moves: `Geomancy`
 
 **Other Useful Mons: **

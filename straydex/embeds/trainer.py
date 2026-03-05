@@ -165,7 +165,6 @@ class TrainerInfoView(View):
     async def switch_embed(self, interaction: discord.Interaction, embed_name: str):
         """Handle switching embeds safely and update button states."""
         try:
-            # Update button states first
             for child in self.children:
                 if isinstance(child, Button):
                     if child.label == "Levels":
@@ -174,6 +173,8 @@ class TrainerInfoView(View):
                         child.disabled = embed_name == "EV Training"
                     elif child.label == "EV Reset":
                         child.disabled = embed_name == "EV Reset"
+                    elif child.label in ["Toggle Iphone Copy", "Toggle Android Copy"]:
+                        child.disabled = embed_name not in ["Levels", "EV Training"]
 
             # Then edit the message with the new embed and updated buttons
             if embed_name == "Levels":
@@ -205,8 +206,12 @@ class TrainerInfoView(View):
     async def ev_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "EV Training")
 
-    @discord.ui.button(label="EV Reset", style=discord.ButtonStyle.secondary)
-    async def ev_reset_button(self, interaction: discord.Interaction, button: Button, emoji=Emojis.evolution):
+    @discord.ui.button(
+        label="EV Reset", style=discord.ButtonStyle.secondary, emoji=Emojis.evolution
+    )
+    async def ev_reset_button(
+        self, interaction: discord.Interaction, button: Button
+    ):
         await self.switch_embed(interaction, "EV Reset")
 
     @discord.ui.button(label="Toggle Iphone Copy", style=discord.ButtonStyle.secondary, emoji=Emojis.toggle)

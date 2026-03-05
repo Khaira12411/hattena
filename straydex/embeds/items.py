@@ -8,6 +8,7 @@ from utils.logs.pretty_log import pretty_log
 CANT_BE_HELD_ITEM_LIST = [
     "shinycharm",
     "amuletcoin",
+    "catchingcharm",
     "expcharm",
     "expshare",
     "dowsingmachine",
@@ -21,7 +22,7 @@ CANT_BE_HELD_ITEM_LIST = [
 
 def add_can_be_held_info(text: str, item_name: str) -> str:
     """Appends a note about the item being holdable if not already present."""
-    held_line = "- ✅ Yes\n- `;team give <item> <mon>`"
+    held_line = f"- ✅ Yes\n- `;team give {item_name} <mon>`"
 
     if "**CAN BE HELD BY POKEMON?**" not in text:
         if item_name not in CANT_BE_HELD_ITEM_LIST:

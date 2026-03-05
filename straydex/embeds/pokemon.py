@@ -194,7 +194,7 @@ class SDPokemonView(View):
                 # 💙 Create and add button
                 button = Button(
                     label=label,
-                    style=discord.ButtonStyle.primary,
+                    style=discord.ButtonStyle.secondary,
                     custom_id=key,
                     disabled=(idx == 0),  # disable first button initially
                 )

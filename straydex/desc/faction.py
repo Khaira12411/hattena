@@ -476,92 +476,92 @@ class SD_FA_DESC:
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:** There is also a role for you to claim once you have chosen your Faction. To do this type  `;fac claim_role`. You will be granted access to a private channel to talk to your team members.*"""
     aq = f"""**TEAM:**
 - **Zekrom**
-> Equip: `Magnet` `Dragon Fang` `Expert Belt`
-> Moves: `Fusion Bolt` `Outrage` `Roost`
+> Equip: `Magnet` `Dragon_Fang` `Expert_Belt`
+> Moves: `Fusion-Bolt` `Outrage` `Roost`
 > EVs: `Max ATK`
 - **Mewtwo**
-> Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Equip: `Twisted_Spoon` `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Psychic` `Aura-Sphere` `Thunderbolt` `Earth-Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking** [OPTIONAL]
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 
 **STRATEGY:**
-- [Zekrom] Fusion Bolt on Carvanha & Sharpedo
+- [Zekrom] Fusion-Bolt on Carvanha & Sharpedo
 - [Zekrom] Outrage against Mightyena
-- [Mewtwo] Aura Sphere on Mightyena
+- [Mewtwo] Aura-Sphere on Mightyena
 - [Mewtwo] Thunderbolt on Carvanha & Sharpedo to finish them off"""
 
     fl = f"""**TEAM:**
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Mewtwo**
-> Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Equip: `Twisted_Spoon` `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Psychic` `Aura-Sphere` `Thunderbolt` `Earth-Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Slaking] Focus Punch on Mightyena & Houndoom
-- [Slaking] Thunder Punch on Crobat
+- [Slaking] Focus-Punch on Mightyena & Houndoom
+- [Slaking] Thunder-Punch on Crobat
 - [Mewtwo] Psychic on Swalot & Crobat
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     ga = f"""**TEAM:**
 - **Mewtwo**
-> Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Equip: `Twisted_Spoon` `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Psychic` `Aura-Sphere` `Thunderbolt` `Earth-Power`
 > EVs: `Max SPA` `Max DEF`
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Groudon** [OPTIONAL]
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
 - [Mewtwo] Psychic everything except Bronzong
-- [Slaking] Focus Punch Purugly"""
+- [Slaking] Focus-Punch Purugly"""
 
     ma = f"""**TEAM:**
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Kyogre**
-> Equip: `Mystic Water` `Expert Belt`
-> Moves: `Water Spout`
+> Equip: `Mystic_Water` `Expert_Belt`
+> Moves: `Water-Spout`
 
 **STRATEGY:**
-- [Slaking] Focus Punch only for Mightyena
+- [Slaking] Focus-Punch only for Mightyena
 - Then just spam the moves suggested above"""
 
     pl = f"""**TEAM:**
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Mewtwo**
-> Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Equip: `Twisted_Spoon` `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Psychic` `Aura-Sphere` `Thunderbolt` `Earth-Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
@@ -569,34 +569,34 @@ class SD_FA_DESC:
 
     sk = f"""**TEAM:**
 - **Mewtwo**
-> Equip: `Twisted Spoon` `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Psychic` `Aura Sphere` `Thunderbolt` `Earth Power`
+> Equip: `Twisted_Spoon` `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Psychic` `Aura-Sphere` `Thunderbolt` `Earth-Power`
 > EVs: `Max SPA` `Max DEF`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Slaking] on Gengar to bait ghost move then use Earthquake & Sucker Punch combo
+- [Slaking] on Gengar to bait ghost move then use Earthquake & Sucker-Punch combo
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** Use moves according to enemy weakness.*"""
 
     ye = f"""**TEAM:**
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max SPA` `Max HP`
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
@@ -606,15 +606,15 @@ class SD_FA_DESC:
 
     ro = f"""**TEAM:**
 - **Arceus Fairy**
-> Equip: `Expert Belt` `Leftovers` `Soft Sand`
-> Moves: `Judgment` `Earthquake` `Dark Pulse` `Recover`
+> Equip: `Expert_Belt` `Leftovers` `Soft_Sand`
+> Moves: `Judgment` `Earthquake` `Dark-Pulse` `Recover`
 > EVs: `Max HP` `Half SPE` `Half DEF`
 - **Mega Mewtwo X**
-> Equip: `Choice Band` `Expert Belt` `Soft Sand`
-> Moves: `Drain Punch` `Psychic` `Earthquake`
+> Equip: `Choice_Band` `Expert_Belt` `Soft_Sand`
+> Moves: `Drain-Punch` `Psychic` `Earthquake`
 > EVs: `Max ATK` `Half HP` `Half SPE`
 - **Groudon**
-> Equip: `Soft Sand`
+> Equip: `Soft_Sand`
 > Moves: `Earthquake`
 > EVs: `Max SPD` `Max ATK`
 
@@ -628,14 +628,14 @@ class SD_FA_DESC:
     # ---------------------------
     aq2 = f"""**TEAM:**
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max ATK` `Max HP`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
@@ -646,43 +646,43 @@ class SD_FA_DESC:
 
     fl2 = f"""**TEAM:**
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Yveltal] Oblvion Wing against those weak to Flying
+- [Yveltal] Oblvion-Wing against those weak to Flying
 - [Yveltal] Psychic against those weak to Psychic
-- [Yveltal] Sucker Punch opponents when it has Low HP
+- [Yveltal] Sucker-Punch opponents when it has Low HP
 - [Groudon] Earthquake spam for Electric type
 - [Groudon] Earthquake for Houndoom
-- [Groudon] Body Press spam for Mightyana"""
+- [Groudon] Body-Press spam for Mightyana"""
 
     ga2 = f"""**TEAM:**
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max ATK` `Max HP`
 
 **STRATEGY:**
-- [Yveltal] Oblvion Wing against those weak to Flying
+- [Yveltal] Oblvion-Wing against those weak to Flying
 - [Yveltal] Psychic against those weak to Psychic
-- [Yveltal] Sucker Punch opponents when it has Low HP
+- [Yveltal] Sucker-Punch opponents when it has Low HP
 - Sacrifice [3rd] on Absol & Tyranitar then use [Xerneas]"""
 
     ma2 = f"""**TEAM:**
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max ATK` `Max HP`
 
@@ -699,40 +699,40 @@ class SD_FA_DESC:
 
     pl2 = f"""**TEAM:**
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Reshiram**
-> Equip: `Expert Belt` `Charcoal`
-> Moves: `Fusion Flare`
+> Equip: `Expert_Belt` `Charcoal`
+> Moves: `Fusion-Flare`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max ATK` `Max HP`
 
 **STRATEGY:**
-- If Bisharp locks to steel move switch to [Reshiram] Fusion Flare
+- If Bisharp locks to steel move switch to [Reshiram] Fusion-Flare
 - If Bisharp locks to foul play switch to [Xerneas] Moonblast"""
 
     sk2 = f"""**TEAM:**
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 
 **STRATEGY:**
-- Sacrifice [3rd] if Lurantis or Toxapex lead then switch to [Yvental] Oblivion Wing or Psychic spam
+- Sacrifice [3rd] if Lurantis or Toxapex lead then switch to [Yvental] Oblivion-Wing or Psychic spam
 - [Groudon] can kill Alolan-Muk & Salazzle easily"""
 
     ye2 = f"""**TEAM:**
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max SPA` `Max HP`
 
@@ -749,22 +749,22 @@ class SD_FA_DESC:
 
     ro2 = f"""**TEAM:**
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake` `Thunderbolt`
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
-> Equip: `Sharp Beak` `Twisted Spoon` `Expert Belt`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Sharp Beak` `Twisted_Spoon` `Expert_Belt`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Yveltal] Oblivion Wing on Vileplume, Psychic on Poison Types
-- [Slaking] Focus Punch Dark Types
+- [Yveltal] Oblivion-Wing on Vileplume, Psychic on Poison Types
+- [Slaking] Focus-Punch Dark Types
 - [Groudon] Earthquake
-- [Yveltal]  Sucker Punch those who have less HP"""
+- [Yveltal]  Sucker-Punch those who have less HP"""
     aq3 = f"""⚠️ Under Construction
 Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
 
@@ -773,17 +773,17 @@ Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
 
     ga3 = f"""**TEAM:**
 - **Yveltal**
-> Equip: `Expert Belt` `Sharp Beak` `Twisted Spoon`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Expert_Belt` `Sharp Beak` `Twisted_Spoon`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Xerneas**
-> Equip: `Expert Belt`
+> Equip: `Expert_Belt`
 > Moves: `Moonblast`
 > EVs: `Max ATK` `Max HP`
 
 **STRATEGY:**
-- [Yveltal] Oblvion Wing against those weak to Flying
+- [Yveltal] Oblvion-Wing against those weak to Flying
 - [Yveltal] Psychic against those weak to Psychic
-- [Yveltal] Sucker Punch opponents when it has Low HP
+- [Yveltal] Sucker-Punch opponents when it has Low HP
 - Sacrifice [3rd] on Absol & Tyranitar then use [Xerneas]"""
 
     ma3 = f"""⚠️ Under Construction
@@ -800,22 +800,22 @@ Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""
 
     ro3 = f"""**TEAM:**
 - **Groudon**
-> Equip: `Soft Sand` `Expert Belt`
+> Equip: `Soft_Sand` `Expert_Belt`
 > Moves: `Earthquake` `Thunderbolt`
 > EVs: `Max ATK` `Max SPD`
 - **Yveltal**
-> Equip: `Sharp Beak` `Twisted Spoon` `Expert Belt`
-> Moves: `Psychic` `Oblivion Wing` `Sucker Punch`
+> Equip: `Sharp Beak` `Twisted_Spoon` `Expert_Belt`
+> Moves: `Psychic` `Oblivion-Wing` `Sucker-Punch`
 - **Slaking**
-> Equip: `Black Belt` `Magnet` `Expert Belt`
-> Moves: `Focus Punch` `Thunder Punch` `Earthquake`
+> Equip: `Black_Belt` `Magnet` `Expert_Belt`
+> Moves: `Focus-Punch` `Thunder-Punch` `Earthquake`
 > EVs: `Max ATK` `Max SPD`
 
 **STRATEGY:**
-- [Yveltal] Oblivion Wing on Vileplume, Psychic on Poison Types
-- [Slaking] Focus Punch Dark Types
+- [Yveltal] Oblivion-Wing on Vileplume, Psychic on Poison Types
+- [Slaking] Focus-Punch Dark Types
 - [Groudon] Earthquake
-- [Yveltal]  Sucker Punch those who have less HP"""
+- [Yveltal]  Sucker-Punch those who have less HP"""
     # ---------------------------
     ga4 = f"""⚠️ Under Construction
 Send your strategy in #🌱﹢gard-helpdesk﹐❀﹒"""

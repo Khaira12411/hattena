@@ -1,99 +1,100 @@
 from constants.straydex import SD_EMOJIS
 
+
 class SD_EVOI_DESC:
     auspiciousarmor = f"""# AUSPICIOUS ARMOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Charcadet to Armarogue`"""
 
     deepseascale = f"""# DEEP SEA SCALE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Clamperl to Gorebyss`"""
 
     deepseatooth = f"""# DEEP SEA TOOTH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Clamperl to Huntail`"""
 
     dubicousdisc = f"""# DUBIOUS DISC
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Porygon2 to Porygon-Z`"""
 
     galaricacuff = f"""# GALARICA CUFF
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Galarian Slowpoke to Galarian Slowbro`"""
 
     galaricawreath = f"""# GALARICA WREATH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Galarian Slowpoke to Galarian Slowking`"""
 
     maliciousarmor = f"""# MALICIOUS ARMOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Charcadet to Ceruledge`"""
 
     prismscale = f"""# PRISM SCALE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Feebas to Milotic`"""
 
     protector = f"""# PROTECTOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Rhydon to Rhyperior`"""
 
     reapercloth = f"""# REAPER CLOTH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Dusclops to Dusknoir`"""
 
     sachet = f"""# SACHET
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Spritzee to Aromatisse`"""
 
     upgrade = f"""# UPGRADE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Porygon to Porygon2`"""
 
     whippeddream = f"""# WHIPPED DREAM
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Swirlix to Slurpuff`"""
 
     dawnstone = f"""# DAWN STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 - Only available during dawn in Pokemeow. Check ;time
 
@@ -103,7 +104,7 @@ class SD_EVOI_DESC:
 - `Snorunt to Frosslass `"""
 
     duskstone = f"""# DUSK STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 - Only available during dusk in Pokemeow. Check ;time
 
@@ -114,7 +115,7 @@ class SD_EVOI_DESC:
 - `Doublade to Aegislash`"""
 
     firestone = f"""# FIRE STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -126,7 +127,7 @@ class SD_EVOI_DESC:
 - `Capscakid to Scovillain`"""
 
     icestone = f"""# ICE STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -137,7 +138,7 @@ class SD_EVOI_DESC:
 - `Crabrawler to Crabominable`"""
 
     leafstone = f"""# LEAF STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -149,7 +150,7 @@ class SD_EVOI_DESC:
 - `Pansage to Simisage`"""
 
     moonstone = f"""# MOON STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -162,14 +163,14 @@ class SD_EVOI_DESC:
 - `Munna to Musharna`"""
 
     opalstone = f"""# OPAL STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
 - `Rhyhorn to Rhydon`"""
 
     shinystone = f"""# SHINY STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -180,7 +181,7 @@ class SD_EVOI_DESC:
 - `Floette to Florges`"""
 
     sunstone = f"""# SUN STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -192,7 +193,7 @@ class SD_EVOI_DESC:
 - `Helioptile to Heliolisk`"""
 
     thunderstone = f"""# THUNDERSTONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -204,7 +205,7 @@ class SD_EVOI_DESC:
 - `Tadbulb to Bellibolt`"""
 
     waterstone = f"""# WATER STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -217,7 +218,7 @@ class SD_EVOI_DESC:
 
     dragonscale = f"""# DRAGON SCALE
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Seadra` `Horsea` `Dragonair` `Dratini`
 
@@ -225,7 +226,7 @@ class SD_EVOI_DESC:
 - `Seadra to Kingdra`"""
 
     electirizer = f"""# ELECTIRIZER
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Electabuzz` `Elekid`
 
@@ -233,9 +234,9 @@ class SD_EVOI_DESC:
 - `Electabuzz to Electivire` """
 
     kingsrock = f"""# KING's ROCK
-> *10% chance to make the target flinch with any move.*
+- 10% chance to make the target flinch with any move.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - Collect & exchange all 4 relics to unlock
 - `;p`  held item spawns from
 `Hawlucha` `Makuhita` `Hariyama` `Poliwrath` `Slowpoke` `Slaking` `Psyduck`
@@ -246,7 +247,7 @@ class SD_EVOI_DESC:
 
     magmarizer = f"""# MAGMARIZER
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Magmar` `Magby`
 
@@ -254,9 +255,9 @@ class SD_EVOI_DESC:
 - `Magmar to Magmortar` """
 
     metalcoat = f"""# METAL COAT
-> *Boost damage of Steel-type moves by 20%.*
+- Boost damage of Steel-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Beldum` `Metang` `Bronzor` `Bronzong` `Skarmory` `Magnemite`
 
@@ -265,7 +266,7 @@ class SD_EVOI_DESC:
 - `Scyther to Scizor`"""
 
     razorclaw = f"""# RAZOR CLAW
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Hakamo-o` `Jangmo-o` `Sneasel`
 
@@ -275,7 +276,7 @@ class SD_EVOI_DESC:
 
     razorfang = f"""# RAZOR FANG
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Gligar` `Bruxish`
 
@@ -526,98 +527,98 @@ class SD_IT_IMAGES:
 
 class SD_IT:
     auspiciousarmor = f"""# AUSPICIOUS ARMOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Charcadet to Armarogue`"""
 
     deepseascale = f"""# DEEP SEA SCALE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Clamperl to Gorebyss`"""
 
     deepseatooth = f"""# DEEP SEA TOOTH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Clamperl to Huntail`"""
 
     dubicousdisc = f"""# DUBIOUS DISC
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Porygon2 to Porygon-Z`"""
 
     galaricacuff = f"""# GALARICA CUFF
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Galarian Slowpoke to Galarian Slowbro`"""
 
     galaricawreath = f"""# GALARICA WREATH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Galarian Slowpoke to Galarian Slowking`"""
 
     maliciousarmor = f"""# MALICIOUS ARMOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Charcadet to Ceruledge`"""
 
     prismscale = f"""# PRISM SCALE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;fish quest (1/50 for a specific item on ;f quest)
 
 **EVOLUTION POKEMON:**
 - `Feebas to Milotic`"""
 
     protector = f"""# PROTECTOR
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Rhydon to Rhyperior`"""
 
     reapercloth = f"""# REAPER CLOTH
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
 
 **EVOLUTION POKEMON:**
 - `Dusclops to Dusknoir`"""
 
     sachet = f"""# SACHET
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Spritzee to Aromatisse`"""
 
     upgrade = f"""# UPGRADE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Porygon to Porygon2`"""
 
     whippeddream = f"""# WHIPPED DREAM
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;pokemon quest (1/100 for a specific item on ;p quest)
 
 **EVOLUTION POKEMON:**
 - `Swirlix to Slurpuff`"""
 
     dawnstone = f"""# DAWN STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 - Only available during dawn in Pokemeow. Check ;time
 
@@ -626,7 +627,7 @@ class SD_IT:
 - `Snorunt to Frosslass `"""
 
     duskstone = f"""# DUSK STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 - Only available during dusk in Pokemeow. Check ;time
 
@@ -637,7 +638,7 @@ class SD_IT:
 - `Doublade to Aegislash`"""
 
     firestone = f"""# FIRE STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -649,7 +650,7 @@ class SD_IT:
 - `Capscakid to Scovillain`"""
 
     icestone = f"""# ICE STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -660,7 +661,7 @@ class SD_IT:
 - `Crabrawler to Crabominable`"""
 
     leafstone = f"""# LEAF STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -672,7 +673,7 @@ class SD_IT:
 - `Pansage to Simisage`"""
 
     moonstone = f"""# MOON STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -685,14 +686,14 @@ class SD_IT:
 - `Munna to Musharna`"""
 
     opalstone = f"""# OPAL STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
 - `Rhyhorn to Rhydon`"""
 
     shinystone = f"""# SHINY STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -703,7 +704,7 @@ class SD_IT:
 - `Floette to Florges`"""
 
     sunstone = f"""# SUN STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -715,7 +716,7 @@ class SD_IT:
 - `Helioptile to Heliolisk`"""
 
     thunderstone = f"""# THUNDERSTONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -727,7 +728,7 @@ class SD_IT:
 - `Tadbulb to Bellibolt`"""
 
     waterstone = f"""# WATER STONE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
 **EVOLUTION POKEMON:**
@@ -739,7 +740,7 @@ class SD_IT:
 - `Panpour to Simipour`"""
 
     dragonscale = f"""# DRAGON SCALE
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Seadra` `Horsea` `Dragonair` `Dratini`
 
@@ -747,7 +748,7 @@ class SD_IT:
 - `Seadra to Kingdra`"""
 
     electirizer = f"""# ELECTIRIZER
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Electabuzz` `Elekid`
 
@@ -755,9 +756,9 @@ class SD_IT:
 - `Electabuzz to Electivire` """
 
     kingsrock = f"""# KING's ROCK
-> *10% chance to make the target flinch with any move.*
+- 10% chance to make the target flinch with any move.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - Collect & exchange all 4 relics to unlock
 - `;p`  held item spawns from
 `Hawlucha` `Makuhita` `Hariyama` `Poliwrath` `Slowpoke` `Slaking` `Psyduck`
@@ -767,7 +768,7 @@ class SD_IT:
 - `Slowpoke to Slowking`"""
 
     magmarizer = f"""# MAGMARIZER
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Magmar` `Magby`
 
@@ -775,9 +776,9 @@ class SD_IT:
 - `Magmar to Magmortar` """
 
     metalcoat = f"""# METAL COAT
-> *Boost damage of Steel-type moves by 20%.*
+- Boost damage of Steel-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Beldum` `Metang` `Bronzor` `Bronzong` `Skarmory` `Magnemite`
 
@@ -786,688 +787,779 @@ class SD_IT:
 - `Scyther to Scizor`"""
 
     razorclaw = f"""# RAZOR CLAW
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Hakamo-o` `Jangmo-o` `Sneasel`
 
 **EVOLUTION POKEMON:**
 - `Sneasel to Weavile`
-- `Hisuian Sneasel to Sneasler` """
+- `Hisuian Sneasel to Sneasler`"""
 
     razorfang = f"""# RAZOR FANG
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Gligar` `Bruxish`
 
 **EVOLUTION POKEMON:**
-- `Gligar to Gliscor` """
-
+- `Gligar to Gliscor`"""
 
     amuletcoin = f"""# AMULET COIN
-**PASSIVE EFFECT:**  `Permanent Boost`
-> *Boost coin output from Pokemon catches by +5%. Max 10 purchaseable for a +50% boost.*
-> *Gold Clan perks add the effect of 1 amulet coin when unlocked  `;clan purchase gold`.*
-> *Shiny Patreon Perk +4 passive boost.*
+**PASSIVE EFFECT:** `Permanent Boost`
+**INFO:**
+- Boost coin output from Pokemon catches by +5%.
+- Max 10 purchaseable for a +50% boost.
 
-**OBTAINABLE:**
-- `;s`  Shop (<:PokeCoin:1166253401546436648> 150,000)
-- `;exp`  Explore Treasure Box
-- `;perk`  Patreon Subscription
-"""
+**METHOD TO OBTAIN:**
+- `;s` → Shop  for <:pokecoin:1477168709305892874> 150,000 each (+10)
+- `;exp` → <:treasurebox:1476564756809781328> Explore Treasure Box (+1)
+- `;perk` → <:Shiny:1090640278999810079> Patreon Subscription (+4)
+- `;clan purchase gold` → <a:gold:1476382221182173254> Gold Clan Perk (+1)
+- `;clan purchase amethyst` → <a:amethyst:1476378658754138386> Amethyst Clan Perk (+1)"""
 
     assaultvest = f"""# ASSAULT VEST
-> *Increase Special Defense by 50%, but restricts use of non-damaging moves.*
+**INFO:**
+- Increase Special Defense by 50%, but restricts use of non-damaging moves.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - Collect & exchange all 4 relics to unlock
 - `;p`  held item spawns from
 `Aggron`  `Shuckle`"""
 
     auxguard = f"""# AUX GUARD
 **COMMAND:**  `World Boss Only`
-> *Boost defensive stats.*
-> *Can only be used during World Boss battles.*
+**INFO:**
+- Boost defensive stats.
+- Can only be used during World Boss battles.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (50,000 Faction Points)
 - Requires Faction Rank: Recruit to unlock"""
 
     auxpower = f"""# AUX POWER
 **COMMAND:**  `World Boss Only`
-> *Boost offensive stats.*
-> *Can only be used during World Boss battles.*
+**INFO:**
+- Boost offensive stats.
+- Can only be used during World Boss battles.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (50,000 Faction Points)
 - Requires Faction Rank: Recruit to unlock"""
 
     auxpowerguard = f"""# AUX POWERGUARD
 **COMMAND:**  `World Boss Only`
-> *Boost offensive and defensive stats.*
+- Boost offensive and defensive stats.
+**INFO:**
+- Can only be used during World Boss battles.
 
-> *Can only be used during World Boss battles.*
-
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (250,000 Faction Points)
 - Requires Faction Rank: Recruit to unlock"""
 
     blackbelt = f"""# BLACK BELT
-> *Boost damage of Fighting-type moves by 20%.*
+**INFO:**
+- Boost damage of Fighting-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Makuhita`  `Hariyama`  `Throh`  `Sawk`"""
 
     blackglasses = f"""# BLACK GLASSES
-> *Boost damage of Dark-type moves by 20%.*
+**INFO:**
+- Boost damage of Dark-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Poochyena`  `Mightyena`  `Sandile`  `Krokorok`"""
 
     bosscoin = f"""# BOSS COIN
 **COMMAND:**  `;wb spawn`
-> *Used to spawn a Waorld Boss for anyone to fight and receive rewards.*
+**INFO:**
+- Used to spawn a World Boss for anyone to fight and receive rewards.
 
-**OBTAINABLE:**
-- `;s`  Patreon Shop ( <:patreon_token:1296818113735819405> 1,000)
-- `;perk`  Patreon Subscription Reward"""
+**METHOD TO OBTAIN:**
+- `;s`  Patreon Shop ( <:patreon_token:1477168705338081340> 1,000)
+- `;perk`  <:Golden11:1147776276510281818> Patreon Subscription Reward"""
 
     catchingcharm = f"""# CATCHING CHARM
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Boost chances of getting a Critical Catch by 0.1% up to a max of 1%. Max 10 purchaseable from faction shop.*
-> *Critical Catches result in a 100% chance to catch the Pokemon, regardless of ball type, Pokemon rarity, or other perks.*
+**INFO:**
+- Boost chances of getting a Critical Catch by 0.1% up to a max of 1%. Max 10 purchaseable from faction shop.
+- Critical Catches result in a 100% chance to catch the Pokemon, regardless of ball type, Pokemon rarity, or other perks.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (10,000,000 Faction Points)
 - Requires Faction Rank: Captain to unlock"""
 
     charcoal = f"""# CHARCOAL
-> *Boost damage of Fire-type moves by 20%.*
+**INFO:**
+- Boost damage of Fire-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;q` Quest Help
 - `;p`  held item spawns from
 `Numel`  `Camerupt`  `Vulpix`  `Ninetales`  `Torkoal`"""
 
     choiceband = f"""# CHOICE BAND
-> *Holder's Attack is 1.5x, but it can only select the first move it executes.*
+**INFO:**
+- Holder's Attack is 1.5x, but it can only select the first move it executes.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 50)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 50)"""
 
     choicecloak = f"""# CHOICE CLOAK
-> *Holder's Attack, Speed, & Special Attack are 1.5x, but it can only use the first move selected.*
+**INFO:**
+- Holder's Attack, Speed, & Special Attack are 1.5x, but it can only use the first move selected.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - World Boss"""
 
     choicescarf = f"""# CHOICE SCARF
-> *Holder's Speed is 1.5x, but it can only select the first move it executes.*
+**INFO:**
+- Holder's Speed is 1.5x, but it can only select the first move it executes.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 50)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 50)"""
 
     choicespecs = f"""# CHOICE SPECS
-> *Holder's Special Attack is 1.5x, but it can only select the first move it executes.*
+**INFO:**
+- Holder's Special Attack is 1.5x, but it can only select the first move it executes.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 50)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 50)"""
 
     dowsingmachine = f"""# DOWSING MACHINE
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Alerts you when an items has spawned on the map, as well as when an item is about to de-spawn from the map.*
+**INFO:**
+- Alerts you when an items has spawned on the map, as well as when an item is about to de-spawn from the map.
 
-**OBTAINABLE:**
-- `;exp`  Explore Treasure Box"""
+**METHOD TO OBTAIN:**
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     dragonfang = f"""# DRAGON FANG
-> *Boost damage of Dragon-type moves by 20%.*
+**INFO:**
+- Boost damage of Dragon-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Horsea`  `Seadra`  `Kingdra`  `Dratini`  `Dragonair`  `Bagon`  `Shelgon`  `Druddigon`"""
 
     dxp = f"""# DOUBLE XP TICKET
 **COMMAND:**  `;dxp <amount>`
-> *Doubles XP from all sources for 30 minutes per ticket used. Type `;stats` to see how much time you have left.*
+- Doubles XP from all sources for 30 minutes per ticket used. Type `;stats` to see how much time you have left.
 
-**OBTAINABLE:**
-- Vote Shop (<:votecoin:1385388495408730283> 3)"""
+**METHOD TO OBTAIN:**
+- Vote Shop (<:votecoin:1476557282535014420> 3)"""
 
     evostone = f"""# EVOLUTION STONE
 **COMMAND:**  `;evo <pokemon>`
-> *Is required for certain Pokemon to evolve.*
+**INFO:**
+- Is required for certain Pokemon to evolve.
 
-**OBTAINABLE:**
-- `;s`  Shop (<:PokeCoin:1166253401546436648> 25,000)
+**METHOD TO OBTAIN:**
+- `;s`  Shop (<:pokecoin:1477168709305892874> 25,000)
 - `;b` Battling NPC"""
 
     expcharm = f"""# EXP CHARM
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Boost XP earned from all activities by +1%. Max 10 obtainable for a +10% boost.*
+**INFO:**
+- Boost XP earned from all activities by +1%. Max 10 obtainable for a +10% boost.
 
-**OBTAINABLE:**
-- `;exp`  Explore Treasure Box
+**METHOD TO OBTAIN:**
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box
 - Can only obtain one per map type (1 in Grass Map, 1 in Fire map, and so on)"""
 
     expertbelt = f"""# EXPERT BELT
-> *Holder's attacks that are super effective against the target do 1.2x damange.*
+**INFO:**
+- Holder's attacks that are super effective against the target do 1.2x damange.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 25)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 25)"""
 
     expshare = f"""# EXP SHARE
-**COMMAND:**  `Permanent`
-> *Duplicates buddy's exp gain and distributes 1/3 of the duplicated exp to each member of the current team  `;t`.*
+**COMMAND:**  `;t enable-expshare` or `;t disable-expshare`
+**INFO:**
+- Duplicates buddy's exp gain and distributes 1/3 of the duplicated exp to each member of the current team  `;t`.
+- Distributes Effort Value (EV) points to the whole team as well.
 
-**OBTAINABLE:**
-- `;s`  Shop ( <:PokeCoin:1166253401546436648> 2,500,000)"""
+**METHOD TO OBTAIN:**
+- `;s`  Shop ( <:pokecoin:1477168709305892874> 2,500,000)"""
 
     fairyfeather = f"""# FAIRY FEATHER
-> *Boost damage of Fairy-type moves by 20%.*
+**INFO:**
+- Boost damage of Fairy-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Ralts` `Cleffa` `Clefairy` `Togepi` """
 
     fluffytail = f"""# FLUFFY TAIL
 **COMMAND:**  `;s b 34 <amount>`
-> *Increase chance to find Valuables and Damage-Boosting held items from all Pokemon encounters by 30%.*
-> *Automatically applied on purchase. Each Pokemon encounter has a small chance for the active fluffy tail to lose its effect until another fluffy tail is purchased.*
+**INFO:**
+- Increase chance to find Valuables and Damage-Boosting held items from all Pokemon encounters by 30%.
+- Automatically applied on purchase. Each Pokemon encounter has a small chance for the active fluffy tail to lose its effect until another fluffy tail is purchased.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;s`  Research Shop (<:res_point:1385394741465845843> 125)"""
 
     focusband = f"""# FOCUS BAND
-> *10% chance of the user to endure a KO attack with 1HP.*
+**INFO:**
+- 10% chance of the user to endure a KO attack with 1HP.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - Collect & exchange all 4 relics to unlock
 - `;p`  held item spawns from
 `Machop`  `Machoke`  `Machamp`"""
 
     focussash = f"""# FOCUS SASH
-> *If the holder has full HP, it will endure a KO attack with 1HP. Single use.*
+**INFO:**
+- If the holder has full HP, it will endure a KO attack with 1HP. Single use.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 10)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 10)"""
 
     fullrestore = f"""# FULL RESTORE
 **COMMAND:**  `World Boss Only`
-> *Heals the user's Pokemon to max HP and removes all status conditions.*
-> *Can only be used during World Boss battles.*
+**INFO:**
+- Heals the user's Pokemon to max HP and removes all status conditions.
+- Can only be used during World Boss battles.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (250,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     grazz = f"""# GRAZZ BERRY
 **COMMAND:**  `;grazz <amount>`
-> *For 50 encounters, increase the spawn rate of  <:Legendary:1090640224125718570>  Pokemon from 1/666 to 1/500.*
-> *Grazz Berry does not affect the following Pokemon, including their Shiny counterpart: `Phione`  `Manaphy`  `Darkrai`  `Shaymin`  `Arceus`  `Victini`*
+**INFO:**
+- For 50 encounters, increase the spawn rate of  <:Legendary:1090640224125718570>  Pokemon from 1/666 to 1/500.
+- Grazz Berry does not affect the following Pokemon, including their Shiny counterpart: `Phione`  `Manaphy`  `Darkrai`  `Shaymin`  `Arceus`  `Victini`*
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;lb`  Lootbox
 - `;v`  Voting (20% Chance)
 - `;h`  Completing Hunts
 - `;q`  Quest Reward
 - `;b`  Battling NPC
-- `;exp`  Explore Treasure Box"""
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     grepaberry = f"""# GREPA BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the SPD EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the SPD EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     hardstone = f"""# HARD STONE
-> *Boost damage of Rock-type moves by 20%.*
+**INFO:**
+- Boost damage of Rock-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Aron`  `Lairon`  `Aggron`  `Corsola`  `Geodude`  `Graveler`  `Golem`  `Onix`  `Steelix`  `Crustle`  `Dwebble`  `Roggenrola`  `Boldore`"""
 
     hondewberry = f"""# HOWDEW BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the SPA EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the SPA EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     honey = f"""# HONEY
 **COMMAND:**  `;honey <amount>`
-> *For 30 encounters, significantly increase the spawn rate of  <:Common:1186968566063435786>  and in turn drastically decreases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.*
+**INFO:**
+- For 30 encounters, significantly increase the spawn rate of  <:Common:1186968566063435786>  and in turn drastically decreases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.
 
-**OBTAINABLE:**
-- `;q`  Special Event Quest Reward"""
+**METHOD TO OBTAIN:**
+- `;q`  Special Event Quest Reward
+- `;ab honey gather` 0.2% Chance per `;p` or 1/3000 chance per step in `;exp`.
+- `;exchange` Exchanging special items."""
 
     incense = f"""# INCENSE
 **COMMAND:**  `;inc <amount>`
-> *Depending on your Patreon Subscription, for 100-400 shared server encounters, boost the  <:Shiny:1090640278999810079>  and promo rates for the current server by 10%.*
+**INFO:**
+- Depending on your Patreon Subscription, for 100-400 shared server encounters, boost the  <:Shiny:1090640278999810079>  and promo rates for the current server by 10%.
 > - No Patreon: 100 Server Encounters
 > - Common: 115 Server Encounters
 > - Uncommon: 130 Server Encounters
 > - Rare: 150 Server Encounters
 > - Super Rare: 200 Server Encounters
 > - Legendary: 235 Server Encounters
->  - Shiny: 300 Server Encounters
+> - Shiny: 300 Server Encounters
 > - Golden: 400 Server Encounters
 
-**OBTAINABLE:**
-- `;s`  Patreon Shop (<:patreon_token:1296818113735819405> 100)
+**METHOD TO OBTAIN:**
+- `;s`  Patreon Shop (<:patreon_token:1477168705338081340> 100)
 - `;perk` Patreon Subscription"""
 
     incubator = f"""# INCUBATOR
 **COMMAND:**  `;egg use i <amount>`
-> *Uses an egg and acts as an extra egg slot. Only 2 incubbators can bbe used at any time.*
+**INFO:**
+- Uses an egg and acts as an extra egg slot. Only 2 incubators can be used at any time.
 
-**OBTAINABLE:**
-- `;s`  Vote Shop (<:votecoin:1385388495408730283> 10)
-- `;q` Quest Reward
-- `;wb` World Boss Reward"""
+**METHOD TO OBTAIN:**
+- `;s`  Vote Shop (<:votecoin:1476557282535014420> 10)
+- `;q` Event Quest Reward
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
+- `;ab pickup` 0.1% chance per `;p` or 1/2000 chance per step in `;exp`.
+- `;exchange` Exchanging special items."""
 
     itemring = f"""# ITEM RING
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Permanently boost item spawn rate across all maps.*
+**INFO:**
+- Permanently boost item spawn rate across all maps.
 
-**OBTAINABLE:**
-- `;exp`  Explore Treasure Box"""
+**METHOD TO OBTAIN:**
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     kelpsyberry = f"""# KELPSY BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the ATK EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the ATK EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     largepack = f"""# LARGE PACK
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Keep items on the map for more steps before they de-spawn.*
+**INFO:**
+- Keep items on the map for more steps before they de-spawn.
 
-**OBTAINABLE:**
-- `;exp`  Explore Treasure Box"""
+**METHOD TO OBTAIN:**
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     leftovers = f"""# LEFTOVERS
-> *At the end of every turn, holder restores 1/16 of its max HP.*
+**INFO:**
+- At the end of every turn, holder restores 1/16 of its max HP.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 25)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 25)
+- `;p`  held item spawns from
+`Snorlax`"""
 
     lifeorb = f"""# LIFE ORB
-> *Holder's attacks do 1.3x damage, and it loses 1/10 of its max HP after the attack.*
+**INFO:**
+- Holder's attacks do 1.3x damage, and it loses 1/10 of its max HP after the attack.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 25)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 25)"""
 
     loadeddice = f"""# LOADED DICE
-> *Changes the rate at which your Pokemon is hit by a world boss from 1/3 (33%) to 1/4 (25%). If held by a Golden Pokemon, changes the rate from 1/2 (50%) to 1/3 (33%). Only works in world boss battles.*
+**INFO:**
+- Changes the rate at which your Pokemon is hit by a world boss from 1/3 (33%) to 1/4 (25%). If held by a Golden Pokemon, changes the rate from 1/2 (50%) to 1/3 (33%). Only works in world boss battles.
 
-**OBTAINABLE:**
-- World Boss"""
+**METHOD TO OBTAIN:**
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward"""
 
     luckincense = f"""# LUCK INCENSE
-> *Doubles the coin earned from battle (does not stack).*
+**INFO:**
+- Doubles the coin earned from battle (does not stack).
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;q` Battle Icon Quest"""
 
     luckyegg = f"""# LUCKY EGG
-> *1.5x EXP from battling. Must KO a Pokemon to activate, boost increases with # of KOs.*
+**INFO:**
+- 1.5x EXP from battling. Must KO a Pokemon to activate, boost increases with # of KOs.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
-`Chansey`  `Blissey`"""
+`Blissey`"""
 
     magnet = f"""# MAGNET
-> *Boost damage of Electric-type moves by 20%.*
+**INFO:**
+- Boost damage of Electric-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Pikachu`  `Raichu`  `Magnemite`  `Magneton`  `Nosepass`"""
 
     maxpotion = f"""# MAX POTION
 **COMMAND:**  `World Boss Only`
-> *Heals the user's Pokemon to max HP.*
-> *Can only be used during World Boss battles.*
+**INFO:**
+- Heals the user's Pokemon to max HP.
+- Can only be used during World Boss battles.
 
-**OBTAINABLE:**
-- `;wb`  World Boss Drop"""
+**METHOD TO OBTAIN:**
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward"""
 
     maxrepel = f"""# MAX REPEL
 **COMMAND:**  `;mre <amount>`
-> *For 30 encounters, significantly reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.*
+**INFO:**
+- For 30 encounters, significantly reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;q`  Quest Reward"""
 
     maxrevive = f"""# MAX REVIVE
 **COMMAND:**  `World Boss Only`
-> *Brings the selected Pokemon back from fainting and restores full HP to that Pokemon.*
-> *Can only be used during World Boss battles.*
+**INFO:**
+- Brings the selected Pokemon back from fainting and restores full HP to that Pokemon.
+- Can only be used during World Boss battles.
 
-**OBTAINABLE:**
-- `;wb`  World Boss Drop
-- `;fa`  Faction Shop (500,000 Faction Points)
+**METHOD TO OBTAIN:**
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
+- `;fa` Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     metronome = f"""# METRONOME
-> *Deals 35% more damage to World Bosses. Only works in world boss battles.*
+**INFO:**
+- Deals 35% more damage to World Bosses. Only works in world boss battles.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - World Boss"""
 
     miracleseed = f"""# MIRACLE SEED
-> *Boost damage of Grass-type moves by 20%.*
+**INFO:**
+- Boost damage of Grass-type moves by 20%.
 
-**OBTAINABLE:**
-- `;p`  held item spawns from
+**METHOD TO OBTAIN:**
+- `;p` held item spawns from
 `Cherubi`  `Cherrim`  `Sunkernn`  `Sunflora`  `Formantis`  `Lurantis`  `Maractus`"""
 
     mistylure = f"""# MISTY'S LURE
-**COMMAND:**  `;ml <amount>`
-> *For 50 fishing encounters, +10% chance to get a Pokemon on the line. It also significantly increases the timer for PULL (more time before the fish escapes). *
+**COMMAND:** `;ml <amount>`
+**INFO:**
+- For 50 fishing encounters, +10% chance to get a Pokemon on the line. It also significantly increases the timer for PULL (more time before the fish escapes). *
 
-**OBTAINABLE:**
-- `;s`  Fish Shop (<:fish_token:1385408898172981289> 150)
+**METHOD TO OBTAIN:**
+- `;s`  Fish Shop (<:fish_coin:1477168707250819216> 150)
 - `;q`  Fishing Quest"""
 
     mysticwater = f"""# MYSTIC WATER
-> *Boost damage of Water-type moves by 20%.*
+- Boost damage of Water-type moves by 20%.
 
-**OBTAINABLE:**
-- `;q` Quest Help
+**METHOD TO OBTAIN:**
+- `;q`  Quest Help
 - `;p`  held item spawns from
 `Castform`  `Goldeen`  `Seaking`  `Dewpider`  `Araquanid`  `Lapras`"""
 
     nevermeltice = f"""# NEVERMELTICE
-> *Boost damage of Water-type moves by 20%.*
+**INFO:**
+- Boost damage of Water-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Seel`  `Dewgong`  `Snover`  `Abomasnow`  `Lapras`  `Cryogonal`  `Vanilite`"""
 
     poisonbarb = f"""# POISON BARB
-> *Boost damage of Poison-type moves by 20%.*
+**INFO:**
+- Boost damage of Poison-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Tentacool`  `Tentacruel`  `Skorupi`  `Drapion`  `Qwilfish`  `Weedle`  `Beedrill`  `Budew`  `Roselia`  `Ekans`  `Arbok`  `Cacnea`  `Cacturne`"""
 
     pokedoll = f"""# POKEDOLL
 **COMMAND:**  `;s b 35 <amount>`
-> *Increases the chance to find Relic Pieces and Special Battle Items from all Pokemon encounters by 30%.*
-> *Automatically applied on purchase. Each Pokemon encounter has a small chance for the active pokedoll to lose its effect until another pokedoll is purchased.*
+**INFO:**
+- Increases the chance to find Relic Pieces and Special Battle Items from all Pokemon encounters by 30%.
+- Automatically applied on purchase. Each Pokemon encounter has a small chance for the active pokedoll to lose its effect until another pokedoll is purchased.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;s`  Research Shop (<:res_point:1385394741465845843> 150)"""
 
     pokelure = f"""# POKELURE
 **COMMAND:**  `;pl <amount>`
-> *For 50 fishing encounters, +5% chance to get a Pokemon on the line. It also increases the timer for PULL (more time before the fish escapes). *
+**INFO:**
+- For 50 fishing encounters, +5% chance to get a Pokemon on the line. It also increases the timer for PULL (more time before the fish escapes). *
 
-**OBTAINABLE:**
-- `;s`  Fish Shop (<:fish_token:1385408898172981289> 50)
+**METHOD TO OBTAIN:**
+- `;s`  Fish Shop (<:fish_coin:1477168707250819216> 50)
 - `;q`  Fishing Quest"""
 
     pokeradar = f"""# POKERADAR
 **COMMAND:**  `;pokeradar <amount>`
-> *For 30 encounters, boost  <:Shiny:1090640278999810079>  rate by 10%.*
+**INFO:**
+- For 30 encounters, boost  <:Shiny:1090640278999810079>  rate by 10%.
 
-**OBTAINABLE:**
-- `;s`  Vote Shop (<:votecoin:1385388495408730283> 10)"""
+**METHOD TO OBTAIN:**
+- `;s`  Vote Shop (<:votecoin:1476557282535014420> 10)
+- `;perks`  <:Legendary:1090640224125718570>+ Patreon Subscription"""
 
     poketoy = f"""# POKETOY
 **COMMAND:**  `;s b 36 <amount>`
-> *Increases the chance to find Fossils from all Pokemon encounters by 30%.*
-> *Automatically applied on purchase. Each Pokemon encounter has a small chance for the active poketoiy to lose its effect until another poketoy is purchased.*
+**INFO:**
+- Increases the chance to find Fossils from all Pokemon encounters by 30%.
+- Automatically applied on purchase. Each Pokemon encounter has a small chance for the active poketoiy to lose its effect until another poketoy is purchased.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;s`  Research Shop (<:res_point:1385394741465845843> 200)"""
 
     pomegberry = f"""# POMEG BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the HP EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the HP EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     poweranklet = f"""# POWER ANKLET
-> *Gives 8 extra SPE EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra SPE EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     powerband = f"""# POWER BAND
-> *Gives 8 extra SPD EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra SPD EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     powerbelt = f"""# POWER BELT
-> *Gives 8 extra DEF EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra DEF EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     powerbracer = f"""# POWER BRACER
-> *Gives 8 extra ATK EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra ATK EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     powerlens = f"""# POWER LENS
-> *Gives 8 extra SPA EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra SPA EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     powerweight = f"""# POWER WEIGHT
-> *Gives 8 extra HP EVs regardless of any condition.*
+**INFO:**
+- Gives 8 extra HP EVs regardless of any condition.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (100,000,000 Faction Points)
 - Requires Faction Rank: Commander to unlock"""
 
     qrs = f"""# QUEST RESET SCROLL
 **COMMAND:**  `;q r <quest #>`
-> *Resets one quest upon use & replaces it with a random one (can be the same quest).*
+**INFO:**
+- Resets one quest upon use & replaces it with a random one (can be the same quest).
 
-**OBTAINABLE:**
-- `;s`  Shop (<:PokeCoin:1166253401546436648> 10,000)
+**METHOD TO OBTAIN:**
+- `;s`  Shop (<:pokecoin:1477168709305892874> 10,000)
 - `;lb`  Lootbox (8% Chance)
 - `;b`  Battling NPC"""
 
     qualotberry = f"""# QUALOT BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the DEF EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the DEF EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     quickclaw = f"""# QUICK CLAW
-> *Each turn, holder has a 20% chance to move first in its priority bracket..*
+**INFO:**
+- Each turn, holder has a 20% chance to move first in its priority bracket..
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 25)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 25)"""
 
     rarecandy = f"""# RARE CANDY
 **COMMAND:**  `;rc <amount>`
-> *Increase buddy  `;bud set <pokemon>`  level by 1 per candy.*
+**INFO:**
+- Increase buddy `;bud set <pokemon>` level by 1 per candy.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;b`  Battling NPC
 - `;h`  Completing Hunts
-- `;lb`  Lootbox
+- `;lb` Lootbox
 - `;v`  Vote Streaks
 - `;q`  Quest Help Reward
 - `;p`  Held Item (1/150 Chance)
-- `;perk`  Patreon Subcription"""
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
+- `;perk`   Patreon Subcription"""
 
     repel = f"""# REPEL
-**COMMAND:**  `;repel <amount>`
-> *For 30 encounters, slightly reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.*
+**COMMAND:** `;repel <amount>`
+**INFO:**
+- For 30 encounters, slightly reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.
 
-**OBTAINABLE:**
-- `;s`  Shop (<:PokeCoin:1166253401546436648> 5,000)
+**METHOD TO OBTAIN:**
+- `;s`  Shop (<:pokecoin:1477168709305892874> 5,000)
 - `;q`  Quest Reward
-- `;lb`  Lootbox
-- `;exp`  Explore Treasure Box"""
+- `;lb` Lootbox
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     scanner = f"""# SCANNER
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Displays the seconds you have left until your explore session ends.*
+**INFO:**
+- Displays the seconds you have left until your explore session ends.
 
-**OBTAINABLE:**
-- `;exp`  Explore Treasure Box"""
+**METHOD TO OBTAIN:**
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     seaflute = f"""# SEA FLUTE
 **COMMAND:**  `;seaflute`
-> *Tells when the next <@&1232861519012958300> hour will occur (if it hasn't already).*
+**INFO:**
+- Tells when the next <@&1232861519012958300> hour will occur (if it hasn't already).
 
-**OBTAINABLE:**
-- `;s`  Fish Shop (<:fish_token:1385408898172981289> 500)
+**METHOD TO OBTAIN:**
+- `;s`  Fish Shop (<:fish_coin:1477168707250819216> 500)
 - `;q`  Fishing Quest"""
 
     sharpbeak = f"""# SHARP BEAK
-> *Boost damage of Flying-type moves by 20%.*
+**INFO:**
+- Boost damage of Flying-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Doduo`  `Dodrio`  `Spearow`  `Fearow`"""
 
     shinycharm = f"""# SHINY CHARM
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Boost Shiny spawn chance by +1%. Max 5 purchaseable for a +5% boost.*
+**INFO:**
+- Boost Shiny spawn chance by +1%. Max 5 purchaseable for a +5% boost.
+- <:Shiny:1090640278999810079> Patreon Perk +1 passive boost ;perk.
 
-> *Clan perks added effect:*
-> - *Bronze: +1% total Shiny Rate & +1% Event Shiny Rate*
-> - *Silver: +3% total Shiny Rate & +3% Event Shiny Rate*
-> - *Gold: +5% total Shiny Rate & +10% Event Shiny Rate*
-> - *Diamond: +10% total Shiny Rate & +20% Event Shiny Rate*
+- Clan perks added effect:*
+> - <:bronze:1476378616655908935> Bronze: +1% total Shiny Rate & +1% Event Shiny Rate
+> - <:silver:1476378630274809996> Silver: +3% total Shiny Rate & +3% Event Shiny Rate
+> - <a:gold:1476382221182173254> Gold: +5% total Shiny Rate & +10% Event Shiny Rate
+> - <a:diamond:1476378642563989525> Diamond: +10% total Shiny Rate & +20% Event Shiny Rate
 
-> *Shiny Patreon Perk +1 passive boost ;perk.*
-
-**OBTAINABLE:**
-- `;s`  Shop (<:votecoin:1385388495408730283> 50)
-- `;exp`  Explore Treasure Box
+**METHOD TO OBTAIN:**
+- `;s`  Shop (<:votecoin:1476557282535014420> 50)
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box
 - `;perk`  Patreon Subscription"""
 
     silkscarf = f"""# SILK SCARF
-> *Boost damage of Normal-type moves by 20%.*
+**INFO:**
+- Boost damage of Normal-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Trubbish`  `Garbodor` `Zigzagoon` `Linoone` `Skitty` `Delcatty`"""
 
     silverpowder = f"""# SILVER POWDER
-> *Boost damage of Bug-type moves by 20%.*
+**INFO:**
+- Boost damage of Bug-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Butterfree`  `Venonat`  `Venomoth`  `Surskit`  `Masquerain`"""
 
     sitrusberry = f"""# SITRUS BERRY
-> *Automatically restores 1/4 max HP when at 1/2 max HP or less. Single use.*
+**INFO:**
+- Automatically restores 1/4 max HP when at 1/2 max HP or less. Single use.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 5)"""
+**METHOD TO OBTAIN:**
+- `;q`  Quest Reward
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
+- Battle Shop (<:votecoin:1476557282535014420> 5)"""
 
     softsand = f"""# SOFT SAND
-> *Boost damage of Ground-type moves by 20%.*
+**INFO:**
+- Boost damage of Ground-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Diglett`  `Dugtrio`  `Nincada`  `Trapinch`  `Sandshrew`  `Sandslash`"""
 
     soothebell = f"""# SOOTHE BELL
-> *2x Friendship gain from all sources. `;p` being the best source.*
+**INFO:**
+- 2x Friendship gain from all sources. `;p` being the best source.
 
-**OBTAINABLE:**
-- Patreon Shop (<:patreon_token:1296818113735819405> 250)"""
+**METHOD TO OBTAIN:**
+- Patreon Shop (<:patreon_token:1477168705338081340> 250)"""
 
     spelltag = f"""# SPELL TAG
-> *Boost damage of Ghost-type moves by 20%.*
+**INFO:**
+- Boost damage of Ghost-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Gastly`  `Haunter`  `Gengar`  `Duskull`  `Dusclops`  `Shuppet`  `Banette`  `Misdreavus`  `Sandygast` `Yamask`"""
 
     superincubator = f"""# SUPER INCUBATOR
 **COMMAND:**  `;egg use si <amount>`
-> *Similar to regular incubators except it hatches eggs 10% faster. Up to 6 super incubator can be used at any time.*
+**INFO:**
+- Similar to regular incubators except it hatches eggs 10% faster. Up to 6 super incubator can be used at any time.
 
-**OBTAINABLE:**
-- `;s`  Patreon Shop (<:patreon_token:1296818113735819405> 50)
+**METHOD TO OBTAIN:**
+- `;s`  Patreon Shop (<:patreon_token:1477168705338081340> 50)
 - `;perk` Patreon Subscription"""
 
     superrepel = f"""# SUPER REPEL
 **COMMAND:**  `;sr <amount>`
-> *For 30 encounters, reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.*
+**INFO:**
+- For 30 encounters, reduce the spawn rate of  <:Common:1186968566063435786>  and in turn increases the spawn rate of <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;q`  Quest Reward
-- `;exp`  Explore Treasure Box"""
+- `;exp` <:treasurebox:1476564756809781328> Explore Treasure Box"""
 
     tamatoberry = f"""# TAMATO BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
-> *Reduce the SPE EV of your buddy Pokemon by 10, or 100 if EV is above 100.*
+**INFO:**
+- Reduce the SPE EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
 - Requires Faction Rank: Admin to unlock"""
 
     teamboost = f"""# TEAM BOOST
 **PASSIVE EFFECT:**  `Permanent Boost`
-> *Boost individual team points earned by +5% from all activities. Max 10 purchaseable for a +50% boost.*
+**INFO:**
+- Boost individual team points earned by +5% from all activities. Max 10 purchaseable for a +50% boost.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (1,000,000 Faction Points)
 - Requires Faction Rank: Grunt to unlock"""
 
     teammedallion = f"""# TEAM MEDALLION
 **COMMAND:**  `;s b 69`
-> *Allows user to switch from one faction to another.*
-> ***IMPORTANT!** This will reset faction points and rank.*
+**INFO:**
+- Allows user to switch from one faction to another.
+- **IMPORTANT!** This will reset faction points and rank.
 
-**OBTAINABLE:**
-- `;s`  Patreon Shop (<:patreon_token:1296818113735819405> 1,000)"""
+**METHOD TO OBTAIN:**
+- `;s`  Patreon Shop (<:patreon_token:1477168705338081340> 1,000)"""
 
     twistedspoon = f"""# TWISTED SPOON
-> *Boost damage of Psychic-type moves by 20%.*
+**INFO:**
+- Boost damage of Psychic-type moves by 20%.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - `;p`  held item spawns from
 `Abra`  `Kadabra`  `Alakazam`"""
 
     wiseglasses = f"""# WISE GLASSES
-> *Sets move accuracy to 100%. Only works in world boss battles.*
+**INFO:**
+- Sets move accuracy to 100%. Only works in world boss battles.
 
-**OBTAINABLE:**
+**METHOD TO OBTAIN:**
 - World Boss"""
 
     zoomlens = f"""# ZOOM LENS
-> *The accuracy of attacks by the holder is 1.2x if it moves after its target.*
+**INFO:**
+- The accuracy of attacks by the holder is 1.2x if it moves after its target.
 
-**OBTAINABLE:**
-- Battle Shop (<:votecoin:1385388495408730283> 25)"""
+**METHOD TO OBTAIN:**
+- Battle Shop (<:votecoin:1476557282535014420> 25)"""
 
     quickball = f"""# QUICKBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
--  Works best if used quickly after encountering a wild Pokemon.
+- Works best if used quickly after encountering a wild Pokemon.
 - Every second that passes after a wild Pokemon spawns reduces this ball's effectiveness.
 
 **METHOD TO OBTAIN:**
@@ -1475,40 +1567,36 @@ class SD_IT:
 - Was also obtainable for a brief period as a limited-time `;claim code` (`;claim new_ball_update`) in November 2025."""
 
     heavyball = f"""# HEAVYBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
--  It is a specialized ball type, with a base catch rate of 10%, increasing to:
+- It is a specialized ball type, with a base catch rate of 10%, increasing to:
 > - 55% if the target has a base Weight of 100kg or more
 > - 75% if the target has a base Weight of 200kg or more
 > - 95% if the target has a base Weight of 300kg or more.
 
 **METHOD TO OBTAIN:**
-- Obtainable as an item reward from Worldboss battles (`;wb`)."""
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward"""
 
     fastball = """# FASTBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
--  It is a specialized ball type, with a base catch rate of 10%, increasing to:
+- It is a specialized ball type, with a base catch rate of 10%, increasing to:
 > -   70% if the target has a base Speed stat of 75 or higher.
 > -   90% if the target has a base Speed stat of 100 or higher.
 
 **METHOD TO OBTAIN:**
-- Obtainable as an item reward from Worldboss battles (`;wb`)."""
+- `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward"""
 
     friendball = """# FRIENDBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
--  It is a specialized ball type, with a base catch rate of 10%
+- It is a specialized ball type, with a base catch rate of 10%
 - Pokemon contained in this ball receive 4x friendship gain.
 
 **METHOD TO OBTAIN:**
 - Obtainable from specific fun quests only."""
 
     duskball = """# DUSKBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
 - It is a specialized ball type, with a base catch rate of 10%, increasing to 58% if used during night time.
@@ -1517,16 +1605,14 @@ class SD_IT:
 - Obtainable as a Held item from ;pokemon during night time (check `;time` for server time)."""
 
     netball = """# NETBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
 - It is a specialized ball type with a base catch rate of 10%, increasing to 66% if the target is a Water or Bug-type Pokemon.
 
 **METHOD TO OBTAIN:**
-- Obtainable only from opening Explore chests on the Water maps."""
+- Obtainable only from opening <:treasurebox:1476564756809781328> Explore chests on the Water maps."""
 
     lureball = """# LUREBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;fish`.
 - It is a specialized ball type, usable only in `;fish`, with a base catch rate of 90%
@@ -1535,7 +1621,6 @@ class SD_IT:
 - Obtainable only from purchasing  Diveballs from the `;fish shop`. There is a 1/100 chance to receive a Lure Ball alongside each Diveball purchased."""
 
     luxuryball = """# LUXURYBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
 - It is a specialized ball type, with a base catch rate of 10% (same as Pokeball)
@@ -1543,11 +1628,10 @@ class SD_IT:
 - It is designed to be cozy and comfortable for the captured Pokemon.
 
 **METHOD TO OBTAIN:**
-- Obtainable only from `;patreon shop` for <:patreon_token:1296818113735819405> 500 each.
+- Obtainable only from `;patreon shop` for <:patreon_token:1477168705338081340> 500 each.
 - Obtainable from special event quests (Christmas, Halloween, Easter)"""
 
     moonball = """# MOONBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
 - It is a specialized ball type, with a base catch rate of 10%, increasing to 74% if used during midnight (12:00 - 12:59am EST).
@@ -1556,18 +1640,16 @@ class SD_IT:
 - Obtainable as a Held item from `;p` during midnight (12:00 - 12:59am EST) (check `;time` for server time)."""
 
     loveball = """# LOVEBALL
-
 **INFO:**
 - An item used to capture Pokemon in `;p` and `;fish`.
 -  It is a specialized ball type, with a base catch rate of 10%.
 - It is a purely cosmetic ball, designed to celebrate the bond between Trainer and Pokemon.
 
 **METHOD TO OBTAIN:**
-- Purchasable in the `;event` shop during the month of February only for <:PokeCoin:1166253401546436648> 50,000 each.
+- Purchasable in the `;event` shop during the month of February only for <:pokecoin:1477168709305892874> 50,000 each.
 - Was also obtainable for a brief period as a limited-time `;claim code` (`;claim new_ball_update`) in November 2025"""
 
     abilitycapsule = f"""# ABILITY CAPSULE
-
 **INFO:**
 - A consumable item that switches a Pokémon's ability to its other Standard or Secondary ability.
 - Has no effect if the Pokémon only has one non-hidden ability.
@@ -1585,7 +1667,6 @@ class SD_IT:
 - `;team give abilitycapsule <mon>`"""
 
     abilitypatch = f"""# ABILITY PATCH
-
 **INFO:**
 - A consumable item that switches a Pokémon's ability to its Hidden ability.
 - Has no effect if the Pokémon is already on its hidden ability or has no hidden ability.
@@ -1602,7 +1683,6 @@ class SD_IT:
 - `;team give abilitypatch <mon>`"""
 
     shadowwing = f"""# SHADOW WING
-
 **INFO:**
 - A special item that enables Shadow Lugia encounters during certain events.
 - This item is kept forever if obtained during the May/June 2025 Shadow Lugia event.
@@ -1621,7 +1701,6 @@ class SD_IT:
 - `;team give shadowwing <mon>`"""
 
     timegear = f"""# TIME GEAR
-
 **INFO:**
 - A special item that enables Primal-Dialga encounters during certain events.
 - This item is kept forever if obtained during the June 2025 Primal-Dialga event.
@@ -1640,7 +1719,6 @@ class SD_IT:
 - `;team give timegear <mon>`"""
 
     scubagear = f"""# SCUBA GEAR
-
 **INFO:**
 - Enables diving on the water maps.
 - To dive on a map (currently only on WM3),
@@ -1657,7 +1735,6 @@ class SD_IT:
 **CAN BE HELD BY POKEMON?**
 - ❌ No"""
     abilityshield = f"""# ABILITY SHIELD
-
 **INFO:**
 - Prevents the holder's Ability from being ignored, suppressed, replaced, or changed by opponents (e.g., blocks Mold Breaker ignoring it, Gastro Acid suppression, Skill Swap swapping it).
 
@@ -1672,7 +1749,6 @@ class SD_IT:
 - `;team give abilityshield <mon>`"""
 
     airballoon = f"""# AIR BALLOON
-
 **INFO:**
 - Grants immunity to Ground-type moves until the holder is hit by a damaging move; pops after taking damage.
 
@@ -1687,7 +1763,6 @@ class SD_IT:
 - `;team give airballoon <mon>`"""
 
     bigroot = f"""# BIG ROOT
-
 **INFO:**
 - Increases HP recovered from draining moves, Leech Seed, and similar effects by 30%.
 
@@ -1701,7 +1776,6 @@ class SD_IT:
 - ✅ Yes
 - `;team give bigroot <mon>`"""
     clearamulet = f"""# CLEAR AMULET
-
 **INFO:**
 - Prevents the holder's stats from being lowered by opponents' moves or abilities (does not block self-inflicted stat drops).
 
@@ -1715,7 +1789,6 @@ class SD_IT:
 - ✅ Yes
 - `;team give clearamulet <mon>`"""
     covertcloak = f"""# COVERT CLOAK
-
 **INFO:**
 - Prevents additional/secondary effects of opposing moves (e.g., flinch, burn chance, stat drops), but does not prevent damage.
 
@@ -1730,7 +1803,6 @@ class SD_IT:
 - `;team give covertcloak <mon>`"""
 
     eviolite = f"""# EVIOLITE
-
 **INFO:**
 - If the Pokémon can still evolve, increases its Defense and Special Defense by 50%.
 
@@ -1747,7 +1819,6 @@ class SD_IT:
 - `;team give eviolite <mon>`"""
 
     flameorb = f"""# FLAME ORB
-
 **INFO:**
 - Burns the holder at the end of the first turn it is active; commonly used to activate Guts or similar abilities.
 
@@ -1764,9 +1835,8 @@ class SD_IT:
 - `;team give flameorb <mon>`"""
 
     heavydutyboots = f"""# HEAVY DUTY BOOTS
-
 **INFO:**
-- Prevents damage and effects from entry hazards (e.g., Stealth Rock, Spikes, Toxic Spikes, Sticky Web).
+- Prevents damage and effects from entry hazards (e.g., Stealth-Rock, Spikes, Toxic Spikes, Sticky Web).
 
 **USAGE:**
 - Give to a Pokemon on your team to use.
@@ -1778,7 +1848,6 @@ class SD_IT:
 - ✅ Yes
 - `;team give heavydutyboots <mon>`"""
     lightball = f"""# LIGHT BALL
-
 **INFO:**
 - When held by Pikachu, doubles its Attack and Special Attack.
 
@@ -1793,7 +1862,6 @@ class SD_IT:
 - `;team give lightball <mon>`"""
 
     rockyhelmet = f"""# ROCKY HELMET
-
 **INFO:**
 - When hit by a contact move, the attacker loses 1/6 of its maximum HP.
 
@@ -1808,7 +1876,6 @@ class SD_IT:
 - `;team give rockyhelmet <mon>`"""
 
     safetygoogles = f"""# SAFETY GOOGLES
-
 **INFO:**
 - Grants immunity to weather damage (Sandstorm, Hail/Snow) and powder moves (e.g., Spore, Sleep Powder).
 
@@ -1823,7 +1890,6 @@ class SD_IT:
 - `;team give safetygoogles <mon>`"""
 
     toxicorb = f"""# TOXIC ORB
-
 **INFO:**
 - Badly poisons the holder at the end of the first turn it is active; commonly used with Poison Heal.
 
@@ -1838,3 +1904,4 @@ class SD_IT:
 **CAN BE HELD BY POKEMON?**
 - ✅ Yes
 - `;team give toxicorb <mon>`"""
+

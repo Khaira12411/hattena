@@ -4,96 +4,96 @@ from constants.pokemon_gifs import GOLDEN_MEGA_POKEMON_URL
 class SD_MC_REG_STRAT:
     abo = f"""**TEAM:**
 - **Zacian Crowned**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar` `Behemoth Blade`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar` `Behemoth-Blade`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Abomasnow**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Golden Arceus with Leftovers and Stored Power. But use Close Combat/Behemoth Blade if you encountered a Weavile with Zacian.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Golden Arceus with Leftovers and Stored-Power. But use Close-Combat/Behemoth-Blade if you encountered a Weavile with Zacian.*"""
 
     abs = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Houndoom**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic for every enemy
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     aer = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus | Arceus Steel | Electric | Normal **
 > Equip: `Leftovers`
-> Moves: `Surf` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Surf` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP2 52` `DEF 128` `SPD 128`
 - **Aerodactyl**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Surf spam
 - [Arceus] Recover on Low HP"""
 
     agg = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus-Ghost**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Aggron**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
     ala = f"""**TEAM:**
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Dark or Ghost**
+- **Arceus-Dark or Ghost**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Alakazam**
 > Equip: `Luck Incense`
@@ -101,318 +101,318 @@ class SD_MC_REG_STRAT:
 
 **STRATEGY:**
 - [Dugtrio] Memento -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     alt = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Altaria**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: Crowned Zacian, and Arceus-Electric/Tapu-Koko are best for finals. Since C Zacian is neutral to Steel Wing and Electric/Tapu-Koko is neutral to thunderbolt's paralyze*"""
 
     amp = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Electric | Arceus Ground**
+- **Arceus-Electric | Arceus-Ground**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Ampharos**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     aud = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Audino**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     ban = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Dark**
+- **Arceus-Dark**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Banette**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     bee = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Beedrill**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     bla = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Electric**
+- **Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Blastoise**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** Arceus Electric is better for warm up as it is immune to Paralyze. Arceus Grass for final.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** Arceus Electric is better for warm up as it is immune to Paralyze. Arceus-Grass for final.*"""
 
     blz = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Blaziken**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     cam = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Camerupt**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     chx = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Charizard**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Water/Fire as replacement for Golden Arceus.*"""
 
     chy = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Charizard**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
 
     dia = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Diancie**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     gal = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gallade**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     gar = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Garchomp**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Bulldoze`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus Fairy/Regular Arceus with Leftovers and Stored Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gardevoir**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     gen = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar` `Dig` `Crunch` `Iron Head`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar` `Dig` `Crunch` `Iron-Head`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Gengar**
-> Equip: `Choice Scarf`
-> Moves: `Icy Wind` `Zap Cannon` `Psychic` `Shadow Ball`
+> Equip: `Choice_Scarf`
+> Moves: `Icy Wind` `Zap Cannon` `Psychic` `Shadow-Ball`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
@@ -420,152 +420,152 @@ class SD_MC_REG_STRAT:
 
     gla = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Glalie**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     gya = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Grass**
+- **Arceus-Grass**
 > Equip: `Miracle Seed | Leftovers`
-> Moves: `Giga Drain | Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Giga-Drain | Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gyarados**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Giga Drain | Judgment spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Giga-Drain | Judgment spam
 - [Arceus] Recover on Low HP"""
 
     her = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Heracross**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     hou = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Houndoom**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     kan = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Electric**
+- **Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Kangaskhan**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     laa = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Gmax Corviknight**
 > Equip: `Leftovers`
-> Moves: `Power Trip` `Roost` `Bulk Up` `Max Quake`
+> Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
 - **Latias**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Corvi] Max Quake +6
-- [Corvi] Bulk Up +6
-- [Corvi] Power Trip spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Corvi] Max-Quake +6
+- [Corvi] Bulk-Up +6
+- [Corvi] Power-Trip spam
 - [Corvi] Roost on Low HP"""
 
     lao = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Dark**
+- **Arceus-Dark**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Latios**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     lop = f"""**TEAM:**
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus-Ghost**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Lopunny**
 > Equip: `Luck Incense`
@@ -573,30 +573,30 @@ class SD_MC_REG_STRAT:
 
 **STRATEGY:**
 - [Dugtrio] Memento -2 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You will only lose if `Scrafty` is in the line-up because Dark is immune to  `Stored Power`  which is a Psychic move. You can replace  `Stored Power`  with  `Flamethrower`. Arceus Ghost is immune to Fighting & Normal moves.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** You will only lose if `Scrafty` is in the line-up because Dark is immune to  `Stored-Power`  which is a Psychic move. You can replace  `Stored-Power`  with  `Flamethrower`. Arceus-Ghost is immune to Fighting & Normal moves.*"""
 
     luc = f"""**TEAM:**
 **__1st Position__**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 
 **__2nd Position__**
-- **Arceus Fire | Arceus Water | Arceus Ground**
+- **Arceus-Fire | Arceus-Water | Arceus-Ground**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 __Or__
 - **Gmax Corviknight**
 > Equip: `Leftovers`
-> Moves: `Power Trip` `Bulk Up` `Max Quake` `Roost`
+> Moves: `Power-Trip` `Bulk-Up` `Max-Quake` `Roost`
 > EVs: `DEF 252` `HP 252` `SPD 4`
 
 **__3rd Position__**
@@ -605,73 +605,73 @@ __Or__
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus | Corvi] Calm Mind +6 | Bulk Up +6
-- [Arceus | Corvi]  Iron Defense +6 | Max Quake +6
-- [Arceus | Corvi] Judgment | Power Trip spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus | Corvi] Calm-Mind +6 | Bulk-Up +6
+- [Arceus | Corvi]  Iron-Defense +6 | Max-Quake +6
+- [Arceus | Corvi] Judgment | Power-Trip spam
 - [Arceus | Corvi] Recover | Roost on low hp
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : Arceus Ground is the best option for finals!.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes** : Arceus-Ground is the best option for finals!.*"""
 
     man = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Stored-Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Manectric**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Golden Arceus/Arceus-Ground with Leftovers and Stored Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Golden Arceus/Arceus-Ground with Leftovers and Stored-Power.*"""
 
     maw = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Mawile**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     med = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Medicham**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
@@ -679,168 +679,168 @@ __Or__
 
     met = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Metagross**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     mmx = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus-Ghost**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Mewtwo**
 > Equip: `Zap Cannon` `Bulldoze`
-> Moves: `Choice Scarf`
+> Moves: `Choice_Scarf`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> If you encounter any normal type with Arceus Ghost.. Congrats! You're cooked. Worry not *dough* since this still has the highest win rate.*"""
+> <a:fidough_wow:1283739703140679703> If you encounter any normal type with Arceus-Ghost.. Congrats! You're cooked. Worry not *dough* since this still has the highest win rate.*"""
 
     mmy = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **GMAX-Corviknight**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
 - **Golden Mewtwo**
-> Equip: `Warmups: Choice-Scarf` `Finals: Assault Vest`
+> Equip: `Warmups: Choice-Scarf` `Finals: Assault_Vest`
 > Moves: `Zap-Cannon` `Bulldoze` `Self-Destruct` `Icy-Wind`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **STRATEGY:**
 - [Mewtwo] (Finals Only) Put Mewtwo in 1st Slot, Icy wind until it dies
-- [Zacian] Noble Roar -6 or until it dies
-- [Corvi] Bulk Up +6
-- [Corvi] Max Quake +6
-- [Corvi] Power Trip spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Corvi] Bulk-Up +6
+- [Corvi] Max-Quake +6
+- [Corvi] Power-Trip spam
 - [Corvi] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus Fire with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     pid = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Pidgeot**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     pin = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Electric**
+- **Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Flamethrower` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Flamethrower` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Pinsir**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Flamethrower spam
 - [Arceus] Recover on Low HP"""
 
     ray = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Cloak`
-> Moves: `Noble Roar` `Play Rough`
+> Equip: `Choice_Cloak`
+> Moves: `Noble-Roar` `Play-Rough`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Ice Beam` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Ice-Beam` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Rayquaza**
-> Equip: `Choice Scarf`
-> Moves: `Thunder Wave` `Breaking Swipe` `Confide` `Icy Wind`
+> Equip: `Choice_Scarf`
+> Moves: `Thunder-Wave` `Breaking Swipe` `Confide` `Icy Wind`
 > EVs: `SPE 252`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Ice Beam spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Ice-Beam spam
 - [Arceus] Recover on Low HP"""
 
     sab = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Sableye**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     sal = f"""**TEAM:**
 **__1st Position__**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 
 **__2nd Position__**
 - **Arceus | Golden Arceus**
 > Equip: `Leftovers` | `Silk Scarf`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 __Or__
-- **Arceus Electric** (Finals Only)
+- **Arceus-Electric** (Finals Only)
 > Equip: `Leftovers`
-> Moves: `Power Gem` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Power-Gem` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **__3rd Position__**
@@ -849,246 +849,246 @@ __Or__
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Judgment | Power Gem spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Judgment | Power-Gem spam
 - [Arceus] Recover on Low HP"""
 
     sce = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Psychic**
+- **Arceus-Psychic**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
 - **Sceptile**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** There is no Dark type in this MC so don't worry!*"""
 
     sci = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
 - **Scizor**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     sha = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Sharpedo**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     slo = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Dark**
+- **Arceus-Dark**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Slowbro**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     ste = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Steelix**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble Roar for G Zacian, and Arceus-Grass for slot 2.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus-Grass for slot 2.*"""
 
     swa = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Grass**
+- **Arceus-Grass**
 > Equip: `Leftovers`
-> Moves: `Giga Drain` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Swampert**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Giga Drain spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Giga-Drain spam
 - [Arceus] Recover on Low HP"""
 
     tyr = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Tyranitar**
-> Equip: `Assault Vest`
-> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body Slam`
+> Equip: `Assault_Vest`
+> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body-Slam`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     ven = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Venusaur**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** G Mewtwo will be better than Arceus Fire if it's in the budget.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** G Mewtwo will be better than Arceus-Fire if it's in the budget.*"""
 
 
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
 - **Zacian Crowned**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar` `Behemoth Blade`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar` `Behemoth-Blade`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Abomasnow**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Zacian] Behemoth Blade against Golden Weavile
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Zacian] Behemoth-Blade against Golden Weavile
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus Fire with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     abs = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Houndoom**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic for every enemy
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     aer = None
 
     agg = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Aggron**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
     ala = None
 
@@ -1098,130 +1098,130 @@ class SD_MC_GOLD_STRAT:
 
     aud = """**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Steel**
+- **Arceus-Steel**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Audino**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus Fire/Ground/Normal/Golden.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground/Normal/Golden.*"""
 
     ban = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Electric**
+- **Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Banette**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     bee = None
 
     bla = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Grass**
+- **Arceus-Grass**
 > Equip: `Miracle Seed` `Leftovers`
-> Moves: `Giga Drain` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Blastoise**
-> Equip: `Assault Vest`
+> Equip: `Assault_Vest`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Giga Drain spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Giga-Drain spam
 - [Arceus] Recover on Low HP"""
 
     blz = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Blaziken**
-> Equip: `Luck Incense` | `Quick Claw` | `Focus Band`
+> Equip: `Luck Incense` | `Quick Claw` | `Focus_Band`
 > Moves: `Feather Dance` `Confide` `Low Sweep`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     cam = None
 
     chx = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Charizard**
 > Equip: `Luck Incense`
-> Moves: `Breaking Swipe` `Mystical Fire`
+> Moves: `Breaking Swipe` `Mystical-Fire`
 
 **STRATEGY:**
 - [Charizard] Use Breaking Swipe to lower attack or Mystical Fire to lower sp. attack til it dies
-- [Zacian] Noble Roar -6 or til it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or til it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     chy = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Cosmic Power` `Body Press`
+> Moves: `Toxic` `Recover` `Cosmic-Power` `Body-Press`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Charizard**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Will o Wisp`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
+- [Zacian] Noble-Roar -6 or until it dies
 - [Charizard] Use Will o Wisp against Gmax Corviknight before you setup with Arceus
-- [Arceus] Cosmic Power +6
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
@@ -1230,70 +1230,70 @@ class SD_MC_GOLD_STRAT:
 
     gal = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Psychic**
+- **Arceus-Psychic**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gallade**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Ghost for slot 2.*"""
 
     gar = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Garchomp**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Mud Slap`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power  spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power  spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus Fairy/Regular Arceus with Leftovers and Stored Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = None
 
     gen = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ground**
+- **Arceus-Ground**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Gengar**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Zap Cannon` `Icy Wind`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
+- [Zacian] Noble-Roar -6 or until it dies
 - [Gengar] Icy Wind on GMax Toxtricity
 - [Gengar] Zap Cannon on everything else except G Marsh, Giratina, Gengar.
 - For G Marsh, Giratina, Gengar run the setup
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
@@ -1301,112 +1301,112 @@ class SD_MC_GOLD_STRAT:
 
     gya = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Grass**
+- **Arceus-Grass**
 > Equip: `Miracle Seed`
-> Moves: `Giga Drain` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gyarados**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus Fairy with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus-Fairy with Leftovers and Judgment.*"""
 
     her = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Heracross**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     hou = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Houndoom**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     kan = None
 
     laa = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Gmax Corviknight**
 > Equip: `Leftovers`
-> Moves: `Power Trip` `Roost` `Bulk Up` `Max Quake`
+> Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
 - **Golden Latias**
-> Equip: `Choice Scarf`
-> Moves: `Charm` `Mystical Fire` `Thunder Wave`
+> Equip: `Choice_Scarf`
+> Moves: `Charm` `Mystical-Fire` `Thunder-Wave`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
+- [Zacian] Noble-Roar -6 or until it dies
 - [Latias] Thunder-Wave
-- [Corvi] Max Quake +6
-- [Corvi] Bulk Up +6
-- [Corvi] Power Trip spam
+- [Corvi] Max-Quake +6
+- [Corvi] Bulk-Up +6
+- [Corvi] Power-Trip spam
 - [Corvi] Roost on Low HP"""
 
     lao = None
 
     lop = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar` `Psychic Fangs`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar` `Psychic-Fangs`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus-Ghost**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Lopunny**
-> Equip: `Choice Scarf`
-> Moves: `Thunder Wave`
+> Equip: `Choice_Scarf`
+> Moves: `Thunder-Wave`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus Fairy/Psychic with the same moveset.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus-Fairy/Psychic with the same moveset.*"""
 
     luc = None
 
@@ -1420,32 +1420,32 @@ class SD_MC_GOLD_STRAT:
 
     mmx = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Ghost**
+- **Arceus-Ghost**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Mewtwo**
 > Equip: `Zap Cannon` `Bulldoze`
-> Moves: `Choice Scarf`
+> Moves: `Choice_Scarf`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     mmy = f"""**TEAM:**
 - **Golden Mewtwo**
-> Equip: `Assault Vest`
+> Equip: `Assault_Vest`
 > Moves: `Zap-Cannon` `Bulldoze` `Self-Destruct` `Icy-Wind`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **GMAX-Corviknight**
 > Equip: `Leftovers`
@@ -1454,10 +1454,10 @@ class SD_MC_GOLD_STRAT:
 
 **STRATEGY:**
 - [Mewtwo] Bulldoze spam
-- [Zacian] Noble Roar -6 or until it dies
-- [Corvi] Bulk Up +6
-- [Corvi] Max Quake +6
-- [Corvi] Power Trip spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Corvi] Bulk-Up +6
+- [Corvi] Max-Quake +6
+- [Corvi] Power-Trip spam
 - [Corvi] Recover on Low HP
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: When using Golden Mewtwo, If you are against run ending threats, use zap cannon instead then self destruct.*"""
@@ -1468,23 +1468,23 @@ class SD_MC_GOLD_STRAT:
 
     ray = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Cloak`
-> Moves: `Noble Roar` `Play Rough`
+> Equip: `Choice_Cloak`
+> Moves: `Noble-Roar` `Play-Rough`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Rayquaza**
-> Equip: `Choice Scarf`
-> Moves: `Thunder Wave` `Breaking Swipe` `Confide` Icy Wind`
+> Equip: `Choice_Scarf`
+> Moves: `Thunder-Wave` `Breaking Swipe` `Confide` Icy Wind`
 > EVs: `SPE 252`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     sab = None
@@ -1492,14 +1492,14 @@ class SD_MC_GOLD_STRAT:
     sal = f"""**TEAM:**
 **__1st Position__**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 
 **__2nd Position__**
-- **Arceus | Arceus Fairy | Golden Arceus**
+- **Arceus | Arceus-Fairy | Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Body Press` `Recover` `Toxic` `Cosmic Power`
+> Moves: `Body-Press` `Recover` `Toxic` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **__3rd Position__**
@@ -1508,49 +1508,49 @@ class SD_MC_GOLD_STRAT:
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     sce = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Sceptile**
 > Equip: `Luck Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
-- [Arceus] Stored Power spam
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP"""
 
     sci = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fire**
+- **Arceus-Fire**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
 - **Scizor**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
@@ -1558,86 +1558,86 @@ class SD_MC_GOLD_STRAT:
 
     slo = """**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Dark**
+- **Arceus-Dark**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Audino**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
     ste = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Stored Power` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Steelix**
 > Equip: `Quick Claw`
 > Moves: `Confide` `Breaking Swipe` `Dragon Breath`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble Roar for G Zacian, and Arceus/Arceus-Flying for slot 2.*
+> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus/Arceus-Flying for slot 2.*
 """
 
     swa = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 - **Golden Arceus**
 > Equip: `Leftovers`
-> Moves: `Toxic` `Recover` `Body Press` `Cosmic Power`
+> Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Swampert**
 > Equip: `Luck Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Cosmic Power +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
->  <a:fidough_wow:1283739703140679703> ***FidNotes**: If you are using Arceus Grass just use the setup strat!!*"""
+>  <a:fidough_wow:1283739703140679703> ***FidNotes**: If you are using Arceus-Grass just use the setup strat!!*"""
 
     tyr = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Fairy**
+- **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm Mind` `Iron Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Golden Tyranitar**
-> Equip: `Assault Vest`
-> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body Slam`
+> Equip: `Assault_Vest`
+> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body-Slam`
 
 **STRATEGY:**
-- [Zacian] Noble Roar -6 or until it dies
-- [Arceus] Calm Mind +6
-- [Arceus] Iron Defense +6
+- [Zacian] Noble-Roar -6 or until it dies
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
@@ -1775,7 +1775,7 @@ class SD_MC_GOLD_THUMBNAIL:
     slo = GOLDEN_MEGA_POKEMON_URL.mega_slowbro
     ste = GOLDEN_MEGA_POKEMON_URL.mega_steelix
     swa = GOLDEN_MEGA_POKEMON_URL.mega_swampert
-    tyr =GOLDEN_MEGA_POKEMON_URL.mega_tyranitar
+    tyr = GOLDEN_MEGA_POKEMON_URL.mega_tyranitar
     ven = None
 
 
@@ -1880,6 +1880,7 @@ class MC_REGULAR_BUTTON_EMOJI:
     tyr = "<:7088:1478741606050955485>"
     ven = "<:7001:1478741675512696882>"
 
+
 class MC_GOLD_BUTTON_EMOJI:
     abo = "<:7072:1478741682068525169>"
     abs = "<:7129:1478741677723226133>"
@@ -1929,7 +1930,6 @@ class MC_GOLD_BUTTON_EMOJI:
     swa = "<:7021:1478741560731504732>"
     tyr = "<:7090:1478741536387629117>"
     ven = None
-
 
 
 mc_dict = {

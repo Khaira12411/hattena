@@ -1,25 +1,49 @@
 class SD_EX:
     i = f"""# EXPLORE INFO
 **COMMAND:** `;exp`
-f
 **ITEMS YOU CAN FIND**
 `Ultraball`  `Masterball`  `Repel`  `Super Repel`  `Grazz`  `Rare Candy`  `Lootbox`  `Eggs`
 
-**TREASURE BOX ITEMS (ONE-TIME UNLOCK)**
-- **ITEM RING**
+<:treasurebox:1476564756809781328> **TREASURE BOX ITEMS (ONE-TIME UNLOCK)**
+- <:amuletcoin:1479054871914352786> **AMULET COIN**
+> *Boost coin output from Pokemon catches by +5%*
+- <:shinycharm:1479054875940749322> **SHINY CHARM**
+> *Boost Shiny spawn chance by +1%.*
+- <:item_ring:1479054888498368532> **ITEM RING**
 > *Permanently boosts your item spawn rate across all maps.*
-- **DOWSING MACHINE**
+- <:dowsing_machine:1479054885982048367> **DOWSING MACHINE**
 > *Alerts you when an item has spawned on the map, and also when an item is about to despawn from the map.*
-- **LARGE PACK**
+- <:large_pack:1479054883851075765> **LARGE PACK**
 > *Keeps items on maps for more steps before they despawn.*
-- **SCANNER**
+- <:scanner:1479054880944689225> **SCANNER**
 > *Displays seconds left for session. Two ❗ are shown when the session timer falls below 15 seconds.*
-- **EXP CHARMS** (Max 10 obtainable)
+- <:exp_charm:1479054873826824384> **EXP CHARMS** (Max 10 obtainable)
 > *Can obtain one per map type such as grass, fire, water. Boosts exp earned from activities by 1%.*
-- **SCUBA GEAR**
+- <:scuba_gear:1479054878515920897> **SCUBA GEAR**
 > *Can only be found in water map chests. Allows you to access the underwater map.*
-- **NETBALL**
+- <:netball:1476965344546652302> **NETBALL**
 > *It is a specialized ball type used to catch pokemons in `;p` and `;f`, with a base catch rate of 10%, increasing to 66% if the target is a Water or Bug-type Pokemon.*
+
+🌟 **EXPLORE OVERWORLD ABILITIES**
+**COMMAND:** `;ab overworld`
+- **COMPOUND EYES**
+> *Boosts wild Pokémon held-item rates by 30% and improves treasure chests while exploring.*
+> - *Butterfree, Venonat, Galvantula*
+- **FLAME BODY / MAGMA ARMOR**
+> *Doubles egg & incubator hatch speed while exploring.*
+> - *Flame Body → Magmar, Volcarona*
+> - *Magma Armor → Camerupt, Magcargo, Slugma*
+- **INTIMIDATE / KEEN EYE**
+> *30% chance to repel Common spawns in `;exp`, making rare Pokémon and items easier to find.*
+> - *Intimidate → Gyarados, Arcanine, Arbok*
+> - *Keen Eye → Pidgeot, Skarmory, Spearow*
+- **NO GUARD / ARENA TRAP**
+> *+10% encounter rate while exploring.*
+> - *No Guard → Honedge, Doublade, Mega Pidgeot*
+> - *Arena Trap → Diglett, Dugtrio, Trapinch*
+
+
+✅ **Set the Pokémon as your buddy to access these perks while exploring.**
 """
 
     rs = f"""# EXPLORE RARE SPAWN

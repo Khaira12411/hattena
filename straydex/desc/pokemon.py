@@ -1,4 +1,6 @@
 from constants.straydex import SD_EMOJIS
+
+
 class SD_PO_IMAGE_URL:
     deb2 = "https://media.discordapp.net/attachments/1383696040930316329/1383696085200932954/1938ab375c070004285b8a6a1629c7874fdd362d77283b4aa5d643c10dfd53b7.png?ex=689f7da6&is=689e2c26&hm=49e8fba04fc1c990afb59337e21dc12cbda0eaf116a2c003f5dbdac8dc87d668&=&format=webp&quality=lossless&width=845&height=311"
 
@@ -190,15 +192,15 @@ class SD_PO_DESC:
 - **Moves:**
 > `Nuzzle`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **CINDERACE**
 - **Moves:**
-> `Burning Jealousy`
+> `Burning-Jealousy`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
@@ -206,31 +208,31 @@ class SD_PO_DESC:
 - **Moves:**
 > `Memento` `Charm` `Confide`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **FLUTTER MANE**
 - **Moves:**
-> `Memento``Charm` `Thunder Wave` `Mystical Fire`
+> `Memento` `Charm` `Thunder-Wave` `Mystical-Fire`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **GMAX RILLABOOM**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `SPD 252` `SPE 252` `HP 4` or  `SPD 252` `HP 220` `DEF 36`
 
 **GOLDEN EMOLGA**
 - **Moves:**
-> `Nuzzle` `Eerie Impulse` `Charm`
+> `Nuzzle` `Eerie-Impulse` `Charm`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
@@ -238,48 +240,48 @@ class SD_PO_DESC:
 - **Moves:**
 > `Memento` `Confide`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **GOLDEN JOLTEON**
 - **Moves:**
-> `Charm` `Eerie Impulse`
+> `Charm` `Eerie-Impulse`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **KYUREM-WHITE/KYUREM-BLACK**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
 **KYUREM**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 **MEGA LATIOS**
 VARIANT: `LATIOS #381`
 - **Moves:**
-> `Memento` `Mystical Fire`
+> `Memento` `Mystical-Fire`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
 **REGIELEKI**
 - **Moves:**
-> `Eerie Impulse` `Thunder Wave`
+> `Eerie-Impulse` `Thunder-Wave`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`"""
 
@@ -288,7 +290,7 @@ VARIANT: `LATIOS #381`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Bulk Up` `Roost` `Power Trip` `Max Quake | Max Airstream`
+> `Bulk-Up` `Roost` `Power-Trip` `Max-Quake | Max-Airstream`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -299,37 +301,37 @@ __**SETUP SWEEPER**__
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Cosmic Power` `Max Ooze | Dragon Dance` `Recover` `Max Wyrmwind | Max Darkness | Outrage`
+> `Cosmic-Power` `Max-Ooze | Dragon-Dance` `Recover` `Max-Wyrmwind | Max-Darkness | Outrage`
 - **Equip:**
-> `Dragon Fang | Black Glasses | Leftovers`
+> `Dragon_Fang | Black_Glasses | Leftovers`
 - **EVs:**
 > `HP 252` `SPA 252` `SPD 4` or `HP 252` `ATK 252` `SPD 4`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Max Ooze` `Max Wyrmwind` `Max Darkness` `Max Flare`
+> `Max-Ooze` `Max-Wyrmwind` `Max-Darkness` `Max-Flare`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
     gro = f"""# BATTLEMON: GROUDON
-****VARIANTS:****  `Primal Groudon #7573`  |  `Golden Groudon #9383`
+****VARIANTS:****  `Primal-Groudon #7573`  |  `Golden Groudon #9383`
 **TYPE:** {SD_EMOJIS.groundtype}
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Earthquake | Precipice Blades` `Fire Punch | Eruption` `Thunder Punch` `Stone Edge | Iron Head | Focus Punch`
+> `Earthquake | Precipice-Blades` `Fire-Punch | Eruption` `Thunder-Punch` `Stone-Edge | Iron-Head | Focus-Punch`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Earthquake` `Sword Dance`
+> `Earthquake` `Sword-Dance`
 - **Equip:**
-> `Choice Band | Metronome | Soft Sand`
+> `Choice_Band | Metronome | Soft_Sand`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`"""
 
@@ -338,17 +340,17 @@ __**World Boss**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Gmax Smite` `Draining Kiss` `Max Darkness` `Max Phantasm`
+> `Gmax-Smite` `Draining-Kiss` `Max-Darkness` `Max-Phantasm`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Gmax Smite` `Draining Kiss` `Calm Mind`
+> `Gmax-Smite` `Draining-Kiss` `Calm-Mind`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`"""
 
@@ -358,20 +360,20 @@ __**World Boss**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Surf | Water Spout` `Earthquake` `Ice Beam` `Thunderbolt`
+> `Surf | Water-Spout` `Earthquake` `Ice-Beam` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
     inc = f"""# BATTLEMON: INCINEROAR
 **TYPE:** {SD_EMOJIS.firetype}{SD_EMOJIS.darktype}
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Power Trip` `Leech Life` `Bulk Up` `Nasty Plot`
+> `Power-Trip` `Leech-Life` `Bulk-Up` `Nasty-Plot`
 - **Equip:**
-> `Choice Band | Metronome | Black Glasses`
+> `Choice_Band | Metronome | Black_Glasses`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`"""
 
@@ -381,17 +383,17 @@ __**World Boss**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Memento` `Mystical Fire`
+> `Memento` `Mystical-Fire`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Luster Purge | Psyshock` `Surf | Thunderbolt` `Ice Beam`
+> `Outrage` `Luster-Purge | Psyshock` `Surf | Thunderbolt` `Ice-Beam`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -401,9 +403,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Earthquake` `Steel Power` `Body Slam` `Psychic Fangs`
+> `Earthquake` `Steel-Power` `Body-Slam` `Psychic-Fangs`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`"""
 
@@ -412,9 +414,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Sucker Punch` `Earthquake` `Focus Punch | Drain Punch` `Play Rough | Ice Punch | Thunder Punch`
+> `Sucker-Punch` `Earthquake` `Focus-Punch | Drain-Punch` `Play-Rough | Ice-Punch | Thunder-Punch`
 - **Equip:**
-> `Assault Vest | Expert Belt | Choice Band | Choice Cloak`
+> `Assault_Vest | Expert_Belt | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 128` `HP 128`"""
 
@@ -424,9 +426,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Dragon Ascent` `Earthquake` `V Create | Rock Slide | Ice Beam`
+> `Outrage` `Dragon-Ascent` `Earthquake` `V-Create | Rock-Slide | Ice-Beam`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`"""
 
@@ -436,9 +438,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Rock Slide` `Ice Punch` `Focus Punch` `Iron Head | Dig`
+> `Rock-Slide` `Ice-Punch` `Focus-Punch` `Iron-Head | Dig`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`"""
 
@@ -448,9 +450,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Sucker Punch` `Oblvion Wing` `Dark Pulse` `Heat Wave | Psychic`
+> `Sucker-Punch` `Oblvion-Wing` `Dark-Pulse` `Heat-Wave | Psychic`
 - **Equip:**
-> `Life Orb | Choice Specs | Choice Cloak`
+> `Life_Orb | Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`"""
 
@@ -459,17 +461,17 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Steel Roller` `Earthquake` `Outrage` `Flare Blitz | Close Combat | Wild Charge`
+> `Steel-Roller` `Earthquake` `Outrage` `Flare-Blitz | Close-Combat | Wild-Charge`
 - **Equip:**
-> `Choice Scarf | Choice Band | Choice Cloak`
+> `Choice_Scarf | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `SPD 4`"""
 
@@ -479,15 +481,15 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Outrage` `Fusion Bolt` `Roost` `Dragon Dance`
+> `Outrage` `Fusion-Bolt` `Roost` `Dragon-Dance`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -495,9 +497,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Fusion Bolt` `Crunch` `Earth Power`
+> `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`"""
 
@@ -507,15 +509,15 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` DEF `4` or HP `252` DEF `128` SPD `128`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Outrage` `Crunch` `Roost` `Dragon Dance`
+> `Outrage` `Crunch` `Roost` `Dragon-Dance`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -523,9 +525,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Fusion Flare` `Earth Power` `Shadow Ball | Psychic | Blue Flare`
+> `Outrage` `Fusion-Flare` `Earth-Power` `Shadow-Ball | Psychic | Blue-Flare`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -535,7 +537,7 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Psychic` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
+> `Psychic` `Aeroblast` `Recover` `Ice-Beam | Shadow-Ball`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -545,11 +547,11 @@ __**NORMAL BATTLE**__
 **VARIANTS:**  `Gardevoir #282`  |  `Mega Gardevoir #7022`  |  `Golden Gardevoir #9282` `Golden Mega Gardevoir #7024`
 **TYPE:** {SD_EMOJIS.fairytype}{SD_EMOJIS.psychictype}
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Moonblast` `Draining Kiss` `Calm Mind`
+> `Moonblast` `Draining-Kiss` `Calm-Mind`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`"""
 
@@ -557,19 +559,19 @@ __**World Boss**__
 **VARIANT:** `Golden Xerneas #9716`
 **TYPE:** {SD_EMOJIS.fairytype}
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Draining Kiss` `Geomancy` `Moonblast`
+> `Draining-Kiss` `Geomancy` `Moonblast`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Moonblast` `Draining Kiss` `Thunderbolt` `Psychic`
+> `Moonblast` `Draining-Kiss` `Thunderbolt` `Psychic`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -579,9 +581,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Shadow Force` `Shadow Sneak` `Psychic`
+> `Outrage` `Shadow-Force` `Shadow-Sneak` `Psychic`
 - **Equip:**
-> `Choice Band | Choice Scarf | Choice Cloak`
+> `Choice_Band | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`"""
 
@@ -589,76 +591,76 @@ __**NORMAL BATTLE**__
 
 **ARCEUS-FAIRY**
 - **Moves:**
-> `Judgment` `Earth Power` `Dark Pulse` `Recover | Ice Beam | Thunderbolt`
+> `Judgment` `Earth-Power` `Dark-Pulse` `Recover | Ice-Beam | Thunderbolt`
 - **Equip:**
-> `Choice Specs | Choice Cloak | Leftovers (If Recover)`
+> `Choice_Specs | Choice_Cloak | Leftovers (If Recover)`
 - **EVs:**
 > `SPA 252` `HP 252` `SPD 4`
 
 **ARCEUS-STEEL**
 - **Moves:**
-> `Steel Roller` `Flare Blitz` `Outrage` `Recover | Earthquake | Foul Play`
+> `Steel-Roller` `Flare-Blitz` `Outrage` `Recover | Earthquake | Foul-Play`
 - **Equip:**
-> `Choice Specs | Choice Cloak | Leftovers (If Recover)`
+> `Choice_Specs | Choice_Cloak | Leftovers (If Recover)`
 - **EVs:**
 > `ATK 252` `HP 252` `SPD 4`
 
 **ARCEUS**
 VARIANT: `GOLDEN ARCEUS #9493`
 - **Moves:**
-> `Extreme Speed` `Last Resort` `Earthquake` `Recover | Outrage | Foul Play`
+> `Extreme-Speed` `Last-Resort` `Earthquake` `Recover | Outrage | Foul-Play`
 - **Equip:**
-> `Silk Scarf | Life Orb | Choice Band | Choice Cloak`
+> `Silk Scarf | Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `DEF 4`
 
 **CALYREX-SHADOW**
 - **Moves:**
-> `Astral Barrage` `Psychic` `Energy Ball` `Pollen Puff`
+> `Astral-Barrage` `Psychic` `Energy-Ball` `Pollen-Puff`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`
 
 **DIALGA-ORIGIN**
 - **Moves:**
-> `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
+> `Outrage | Dragon-Pulse` `Earth-Power` `Flash-Cannon` `Ice-Beam | Thunderbolt | Flamethrower`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **DIALGA**
 **VARIANTS:** `GOLDEN DIALGA #9483` | `PRIMAL-DIALGA #7705`
 - **Moves:**
-> `Outrage` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
+> `Outrage` `Earth-Power` `Flash-Cannon` `Ice-Beam | Thunderbolt | Flamethrower`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **ETERNAMAX-ETERNATUS**
 - **Moves:**
-> `Max Ooze` `Max Wyrmwind` `Max Darkness` `Max Flare`
+> `Max-Ooze` `Max-Wyrmwind` `Max-Darkness` `Max-Flare`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **GIRATINA**
 **VARIANTS:** `GOLDEN GIRATINA #9487` | `GIRATINA-ORIGIN #7579`
 - **Moves:**
-> `Outrage` `Shadow Force` `Shadow Sneak` `Psychic`
+> `Outrage` `Shadow-Force` `Shadow-Sneak` `Psychic`
 - **Equip:**
-> `Choice Band | Choice Scarf | Choice Cloak`
+> `Choice_Band | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **GMAX HATTERENE**
 - **Moves:**
-> `Gmax Smite` `Draining Kiss` `Max Darkness` `Max Phantasm`
+> `Gmax-Smite` `Draining-Kiss` `Max-Darkness` `Max-Phantasm`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`"""
 
@@ -666,7 +668,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-DARK**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -674,7 +676,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-ELECTRIC**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power | Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power | Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -682,7 +684,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-FAIRY**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -690,7 +692,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-GHOST**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -698,7 +700,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-GRASS**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Giga Drain`
+> `Calm-Mind` `Iron-Defense` `Recover` `Giga-Drain`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -706,7 +708,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-GROUND**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -714,7 +716,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ARCEUS-STEEL**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power | Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power | Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -723,7 +725,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 **ARCEUS**
 VARIANT: `GOLDEN ARCEUS #9493`
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -731,15 +733,15 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 **ETERNAMAX-ETERNATUS**
 - **Moves:**
-> `Cosmic Power` `Max Ooze | Dragon Dance` `Recover` `Max Wyrmwind | Max Darkness | Outrage`
+> `Cosmic-Power` `Max-Ooze | Dragon-Dance` `Recover` `Max-Wyrmwind | Max-Darkness | Outrage`
 - **Equip:**
-> `Dragon Fang | Black Glasses | Leftovers`
+> `Dragon_Fang | Black_Glasses | Leftovers`
 - **EVs:**
 > `HP 252` `SPA 252` `SPD 4` or `HP 252` `ATK 252` `SPD 4`
 
 **GMAX ALCREMIE**
 - **Moves:**
-> `Calm Mind` `Gmax Finale` `Recover` `Acid Armor`
+> `Calm-Mind` `Gmax-Finale` `Recover` `Acid-Armor`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -751,7 +753,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -759,9 +761,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Extreme Speed` `Last Resort` `Earthquake` `Recover | Outrage | Foul Play`
+> `Extreme-Speed` `Last-Resort` `Earthquake` `Recover | Outrage | Foul-Play`
 - **Equip:**
-> `Silk Scarf | Life Orb | Choice Band | Choice Cloak`
+> `Silk Scarf | Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `DEF 4`"""
 
@@ -771,17 +773,17 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Play Rough` `Crunch` `Close Combat` `Wild Charge | Iron Head` `
+> `Play-Rough` `Crunch` `Close-Combat` `Wild-Charge | Iron-Head` `
 - **Equip:**
-> `Choice Band | Choice Scarf | Choice Cloak`
+> `Choice_Band | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`"""
 
@@ -791,9 +793,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Surf` `Earth Power` `Thunderbolt`
+> `Outrage` `Surf` `Earth-Power` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -803,17 +805,17 @@ __**NORMAL BATTLE**__
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Roost` `Dragon Pulse`
+> `Calm-Mind` `Iron-Defense` `Roost` `Dragon-Pulse`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Metronome | Twisted Spoon`
+> `Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`"""
 
@@ -823,7 +825,7 @@ VARIANT: `Golden Necrozma #9800`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Moonlight` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Moonlight` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -835,9 +837,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
+> `Outrage` `Earth-Power` `Flash-Cannon` `Ice-Beam | Thunderbolt | Flamethrower`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -847,17 +849,17 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Freeze Dry` `Ice Beam` `Earth Power`
+> `Outrage` `Freeze-Dry` `Ice-Beam` `Earth-Power`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -866,9 +868,9 @@ __**NORMAL BATTLE**__
 **GARDEVOIR**
 **VARIANTS:**  `GARDEVOIR #282`  |  `Mega GARDEVOIR #7022`  |  `Golden GARDEVOIR #9282`
 - **Moves:**
-> `Moonblast` `Draining Kiss` `Calm Mind`
+> `Moonblast` `Draining-Kiss` `Calm-Mind`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -876,9 +878,9 @@ __**NORMAL BATTLE**__
 
 **GMAX ALCREMIE**
 - **Moves:**
-> `Calm Mind` `Gmax Finale`
+> `Calm-Mind` `Gmax-Finale`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -886,9 +888,9 @@ __**NORMAL BATTLE**__
 
 **GMAX HATTERENE**
 - **Moves:**
-> `Gmax Smite` `Draining Kiss` `Calm Mind`
+> `Gmax-Smite` `Draining-Kiss` `Calm-Mind`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -896,9 +898,9 @@ __**NORMAL BATTLE**__
 
 **INCINEROAR**
 - **Moves:**
-> `Power Trip` `Leech Life` `Bulk Up` `Nasty Plot`
+> `Power-Trip` `Leech-Life` `Bulk-Up` `Nasty-Plot`
 - **Equip:**
-> `Choice Band | Metronome | Black Glasses`
+> `Choice_Band | Metronome | Black_Glasses`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -906,9 +908,9 @@ __**NORMAL BATTLE**__
 
 **MEGA GARCHOMP**
 - **Moves:**
-> `Earthquake` `Sword Dance`
+> `Earthquake` `Sword-Dance`
 - **Equip:**
-> `Choice Band | Metronome | Soft Sand`
+> `Choice_Band | Metronome | Soft_Sand`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -917,9 +919,9 @@ __**NORMAL BATTLE**__
 **MEGA MEWTWO X**
 VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 - **Moves:**
-> `Drain Punch` `Focus Punch` `Power Up Punch` `Amnesia`
+> `Drain-Punch` `Focus-Punch` `Power-Up-Punch` `Amnesia`
 - **Equip:**
-> `Choice Band | Metronome | Black Belt`
+> `Choice_Band | Metronome | Black_Belt`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -928,9 +930,9 @@ VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 **MEGA MEWTWO Y**
 VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Choice Specs | Metronome | Twisted Spoon`
+> `Choice_Specs | Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -941,17 +943,17 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 
 **RESHIRAM**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` DEF `4` or HP `252` DEF `128` SPD `128`
 
 **SOLGALEO**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
@@ -959,24 +961,24 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 - **Moves:**
 > `Memento` `Charm` `Confide`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252`
 
 **ZACIAN**
 VARIANT: `ZACIAN-CROWNED #7891`
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 **ZEKROM**
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`"""
 
@@ -985,61 +987,61 @@ VARIANT: `ZACIAN-CROWNED #7891`
 **GROUDON**
 VARIANT: `PRIMAL-GROUDON #7573`
 - **Moves:**
-> `Earthquake | Precipice Blades` `Fire Punch | Eruption` `Thunder Punch` `Stone Edge | Iron Head | Focus Punch`
+> `Earthquake | Precipice-Blades` `Fire-Punch | Eruption` `Thunder-Punch` `Stone-Edge | Iron-Head | Focus-Punch`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **HO-OH**
 VARIANT: `GOLDEN HO-OH #9250`
 - **Moves:**
-> `Brave Bird` `Iron Head` `Sacred Fire` `Earthquake`
+> `Brave-Bird` `Iron-Head` `Sacred-Fire` `Earthquake`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **KYOGRE**
 **VARIANTS:** `GOLDEN KYOGRE #9382` | `PRIMAL-KYOGRE #7583`
 - **Moves:**
-> `Surf | Water Spout` `Earthquake` `Ice Beam` `Thunderbolt`
+> `Surf | Water-Spout` `Earthquake` `Ice-Beam` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **KYUREM-BLACK**
 VARIANT: `GOLDEN KYUREM-BLACK #7512`
 - **Moves:**
-> `Outrage` `Fusion Bolt` `Iron Head` `Ice Beam | Roost (with Life Orb) | Stone Edge`
+> `Outrage` `Fusion-Bolt` `Iron-Head` `Ice-Beam | Roost (with Life_Orb) | Stone-Edge`
 - **Equip:**
-> `Life Orb | Choice Band | Choice Cloak`
+> `Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`
 
 **KYUREM-WHITE**
 VARIANT: `GOLDEN KYUREM-WHITE #7515`
 - **Moves:**
-> `Dragon Pulse | Outrage` `Ice Beam | Freeze Dry` `Fusion Flare` `Earth Power`
+> `Dragon-Pulse | Outrage` `Ice-Beam | Freeze-Dry` `Fusion-Flare` `Earth-Power`
 - **Equip:**
-> `Choice Specs | Choice Scarf | Choice Cloak`
+> `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **KYUREM**
 VARIANT: `GOLDEN KYUREM #9646`
 - **Moves:**
-> `Outrage` `Freeze Dry` `Ice Beam` `Earth Power`
+> `Outrage` `Freeze-Dry` `Ice-Beam` `Earth-Power`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **LUGIA**
 VARIANT: `GOLDEN LUGIA #9249`
 - **Moves:**
-> `Psychic` `Aeroblast` `Recover` `Ice Beam | Shadow Ball`
+> `Psychic` `Aeroblast` `Recover` `Ice-Beam | Shadow-Ball`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1047,17 +1049,17 @@ VARIANT: `GOLDEN LUGIA #9249`
 
 **LUNALA**
 - **Moves:**
-> `Moongeist Beam` `Psychic` `Ice Beam` `Thunderbolt | Heat Wave | Moonblast`
+> `Moongeist-Beam` `Psychic` `Ice-Beam` `Thunderbolt | Heat-Wave | Moonblast`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **MAGEARNA**
 - **Moves:**
-> `Fleur Cannon` `Ice Beam` `Thunderbolt` `Flash Cannon`
+> `Fleur Cannon` `Ice-Beam` `Thunderbolt` `Flash-Cannon`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPD 4`"""
 
@@ -1065,7 +1067,7 @@ VARIANT: `GOLDEN LUGIA #9249`
 
 **GMAX CORVIKNIGHT**
 - **Moves:**
-> `Bulk Up` `Roost` `Power Trip` `Max Quake | Max Airstream`
+> `Bulk-Up` `Roost` `Power-Trip` `Max-Quake | Max-Airstream`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1074,7 +1076,7 @@ VARIANT: `GOLDEN LUGIA #9249`
 **MEGA MEWTWO X**
 VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Drain Punch` `Earthquake`
+> `Calm-Mind` `Bulk-Up` `Drain-Punch` `Earthquake`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1083,7 +1085,7 @@ VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 **MEGA MEWTWO Y**
 VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1091,7 +1093,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 
 **MEGA SWAMPERT**
 - **Moves:**
-> `Ice Punch` `Earthquake` `Bulk Up` `Amnesia`
+> `Ice-Punch` `Earthquake` `Bulk-Up` `Amnesia`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1100,7 +1102,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 **MEW**
 VARIANT: `GOLDEN MEW #9151`
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Roost` `Dragon Pulse`
+> `Calm-Mind` `Iron-Defense` `Roost` `Dragon-Pulse`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1109,7 +1111,7 @@ VARIANT: `GOLDEN MEW #9151`
 **MEWTWO**
 VARIANT: `GOLDEN MEWTWO #9150`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1117,7 +1119,7 @@ VARIANT: `GOLDEN MEWTWO #9150`
 
 **NECROZMA**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Moonlight` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Moonlight` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1126,7 +1128,7 @@ VARIANT: `GOLDEN MEWTWO #9150`
 **RESHIRAM**
 VARIANT: GOLDEN RESHIRAM #9643
 - **Moves:**
-> `Outrage` `Crunch` `Roost` `Dragon Dance`
+> `Outrage` `Crunch` `Roost` `Dragon-Dance`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1134,7 +1136,7 @@ VARIANT: GOLDEN RESHIRAM #9643
 
 **REUNICLUS**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1142,7 +1144,7 @@ VARIANT: GOLDEN RESHIRAM #9643
 
 **SHAYMIN**
 - **Moves:**
-> `Calm Mind` `Defense Curl` `Recover | Roost` `Giga Drain`
+> `Calm-Mind` `Defense-Curl` `Recover | Roost` `Giga-Drain`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1153,7 +1155,7 @@ VARIANT: GOLDEN RESHIRAM #9643
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1161,9 +1163,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Judgment` `Earth Power` `Dark Pulse` `Recover | Ice Beam | Thunderbolt`
+> `Judgment` `Earth-Power` `Dark-Pulse` `Recover | Ice-Beam | Thunderbolt`
 - **Equip:**
-> `Choice Specs | Choice Cloak | Leftovers (If Recover)`
+> `Choice_Specs | Choice_Cloak | Leftovers (If Recover)`
 - **EVs:**
 > `SPA 252` `HP 252` `SPD 4`
 """
@@ -1173,24 +1175,24 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
-> `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128
+> `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
-> `Play Rough` `Behemoth Blade` `Close Combat` `Wild Charge | Crunch`
+> `Play-Rough` `Behemoth-Blade` `Close-Combat` `Wild-Charge | Crunch`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Behemoth Blade` `Sword Dance`
+> `Behemoth-Blade` `Sword-Dance`
 - **Equip:**
-> `Choice Band | Metronome | Metal Coat`
+> `Choice_Band | Metronome | Metal_Coat`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`"""
 
@@ -1199,9 +1201,9 @@ __**World Boss**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Thunderbolt`
+> `Outrage | Dragon-Pulse` `Earth-Power` `Flash-Cannon` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -1211,25 +1213,25 @@ __**NORMAL BATTLE**__
 **TYPE:** {SD_EMOJIS.psychictype}
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Metronome | Twisted Spoon`
+> `Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice-Beam` `Aura-Sphere` `Shadow-Ball | Thunderbolt  | Energy-Ball`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`
 """
@@ -1239,9 +1241,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Photon Geyser` `Moongeist Beam` `Power Gem` `Dark Pulse | Prismatic Laser | Flash Cannon`
+> `Photon-Geyser` `Moongeist-Beam` `Power-Gem` `Dark-Pulse | Prismatic-Laser | Flash-Cannon`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `DEF 4`
 """
@@ -1251,9 +1253,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Ice Beam | Thunderbolt | Flamethrower`
+> `Outrage | Dragon-Pulse` `Earth-Power` `Flash-Cannon` `Ice-Beam | Thunderbolt | Flamethrower`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 """
@@ -1264,17 +1266,17 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Dragon Pulse | Outrage` `Ice Beam | Freeze Dry` `Fusion Flare` `Earth Power`
+> `Dragon-Pulse | Outrage` `Ice-Beam | Freeze-Dry` `Fusion-Flare` `Earth-Power`
 - **Equip:**
-> `Choice Specs | Choice Scarf | Choice Cloak`
+> `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -1283,9 +1285,9 @@ __**NORMAL BATTLE**__
 **MEW**
 VARIANT: `GOLDEN MEW #9151`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Metronome | Twisted Spoon`
+> `Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1294,9 +1296,9 @@ VARIANT: `GOLDEN MEW #9151`
 **MEWTWO**
 VARIANT: `GOLDEN MEWTWO #9150`
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Metronome | Twisted Spoon`
+> `Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1305,9 +1307,9 @@ VARIANT: `GOLDEN MEWTWO #9150`
 **MUK**
 VARIANT: `ALOLAN MUK #7702`
 - **Moves:**
-> `Memento` `Acid Spray` `Screech`
+> `Memento` `Acid-Spray` `Screech`
 - **Equip:**
-> `Loaded Dice | Focus Band`
+> `Loaded_Dice | Focus_Band`
 - **EVs:**
 > `HP 252` `SPD 252` `DEF 4`
 - **WBs used in:**
@@ -1315,9 +1317,9 @@ VARIANT: `ALOLAN MUK #7702`
 
 **PANGORO**
 - **Moves:**
-> `Power Trip` `Bulk Up`
+> `Power-Trip` `Bulk-Up`
 - **Equip:**
-> `Choice Band | Metronome | Black Glasses`
+> `Choice_Band | Metronome | Black_Glasses`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1326,9 +1328,9 @@ VARIANT: `ALOLAN MUK #7702`
 **RHYPERIOR**
 VARIANT: `GOLDEN RHYPERIOR #9464`
 - **Moves:**
-> `Rock Wrecker` `Sword Dance`
+> `Rock-Wrecker` `Sword-Dance`
 - **Equip:**
-> `Choice Band | Metronome | Hard Stone`
+> `Choice_Band | Metronome | Hard_Stone`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1337,9 +1339,9 @@ VARIANT: `GOLDEN RHYPERIOR #9464`
 **XERNEAS**
 VARIANT: `Golden Xerneas #9716`
 - **Moves:**
-> `Draining Kiss` `Geomancy` `Moonblast`
+> `Draining-Kiss` `Geomancy` `Moonblast`
 - **Equip:**
-> `Choice Specs | Metronome | Fairy Feather | Expert Belt`
+> `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1347,9 +1349,9 @@ VARIANT: `Golden Xerneas #9716`
 
 **ZACIAN-CROWNED**
 - **Moves:**
-> `Behemoth Blade` `Sword Dance`
+> `Behemoth-Blade` `Sword-Dance`
 - **Equip:**
-> `Choice Band | Metronome | Metal Coat`
+> `Choice_Band | Metronome | Metal_Coat`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
@@ -1362,76 +1364,76 @@ VARIANT: `Golden Xerneas #9716`
 **MARSHADOW**
 VARIANT: `GOLDEN MARSHADOW #9802`
 - **Moves:**
-> `Close Combat | Drain Punch` `Spectral Thief` `Ice Punch` `Poison Jab | Iron Head | Sucker Punch`
+> `Close-Combat | Drain-Punch` `Spectral-Thief` `Ice-Punch` `Poison-Jab | Iron-Head | Sucker-Punch`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `DEF 4`
 
 **MEGA DIANCIE**
 - **Moves:**
-> `Diamond Storm` `Moonblast` `Earth Power` `Flash Cannon`
+> `Diamond-Storm` `Moonblast` `Earth-Power` `Flash-Cannon`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **MEGA GARCHOMP**
 - **Moves:**
-> `Outrage` `Earthquake` `Iron Head` `Crunch | Poison Jab`
+> `Outrage` `Earthquake` `Iron-Head` `Crunch | Poison-Jab`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **MEGA LATIOS**
 - **Moves:**
-> `Outrage` `Luster Purge | Psyshock` `Surf | Thunderbolt` `Ice Beam`
+> `Outrage` `Luster-Purge | Psyshock` `Surf | Thunderbolt` `Ice-Beam`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **MEGA MEWTWO X**
 VARIANT: `GOLDEN MEGA MEWTWO X #7111`
 - **Moves:**
-> `Drain Punch` `Earthquake` `Ice Punch` `Focus Punch | Stone Edge`
+> `Drain-Punch` `Earthquake` `Ice-Punch` `Focus-Punch | Stone-Edge`
 - **Equip:**
-> `Life Orb | Choice Band | Choice Cloak`
+> `Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`
 
 **MEGA MEWTWO Y**
 VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 - **Moves:**
-> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice-Beam` `Aura-Sphere` `Shadow-Ball | Thunderbolt  | Energy-Ball`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `DEF 4`
 
 **MEGA RAYQUAZA**
 **VARIANTS:** `GOLDEN RAYQUAZA #9384` | `GOLDEN MEGA RAYQUAZA #7120`
 - **Moves:**
-> `Outrage` `Dragon Ascent` `Earthquake` `V Create | Rock Slide | Ice Beam`
+> `Outrage` `Dragon-Ascent` `Earthquake` `V-Create | Rock-Slide | Ice-Beam`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`
 
 **MEGA SCEPTILE**
 - **Moves:**
-> `Dragon Pulse` `Energy Ball` `Giga Drain` `Frenzy Plant`
+> `Dragon-Pulse` `Energy-Ball` `Giga-Drain` `Frenzy Plant`
 - **Equip:**
-> `Choice Specs | Choice Scarf | Choice Cloak`
+> `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `DEF 4`
 
 **MEGA STEELIX**
 - **Moves:**
-> `Earthquake` `Iron Head` `Crunch` `Aqua Tail | Rock Slide`
+> `Earthquake` `Iron-Head` `Crunch` `Aqua-Tail | Rock-Slide`
 - **Equip:**
-> `Choice Band | Assault Vest`
+> `Choice_Band | Assault_Vest`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`"""
 
@@ -1439,7 +1441,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 
 **TAPU-KOKO**
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power | Dazzling Gleam`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power | Dazzling-Gleam`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1447,7 +1449,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 
 **TOGEKISS**
 - **Moves:**
-> `Calm Mind` `Defense Curl` `Recover | Roost | Moonlight` `Moonblast`
+> `Calm-Mind` `Defense-Curl` `Recover | Roost | Moonlight` `Moonblast`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1456,7 +1458,7 @@ VARIANT: `GOLDEN MEGA MEWTWO Y #7123`
 **ZEKROM**
 VARIANT: `GOLDEN ZEKROM #9644`
 - **Moves:**
-> `Outrage` `Fusion Bolt` `Roost` `Dragon Dance`
+> `Outrage` `Fusion-Bolt` `Roost` `Dragon-Dance`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1467,7 +1469,7 @@ VARIANT: `GOLDEN ZEKROM #9644`
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power | Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power | Judgment`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
@@ -1475,9 +1477,9 @@ __**SETUP SWEEPER**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Steel Roller` `Flare Blitz` `Outrage` `Recover | Earthquake | Foul Play`
+> `Steel-Roller` `Flare-Blitz` `Outrage` `Recover | Earthquake | Foul-Play`
 - **Equip:**
-> `Choice Specs | Choice Cloak | Leftovers (If Recover)`
+> `Choice_Specs | Choice_Cloak | Leftovers (If Recover)`
 - **EVs:**
 > `ATK 252` `HP 252` `SPD 4`"""
 
@@ -1487,25 +1489,25 @@ __**NORMAL BATTLE**__
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Drain Punch` `Earthquake`
+> `Calm-Mind` `Bulk-Up` `Drain-Punch` `Earthquake`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Drain Punch` `Focus Punch` `Power Up Punch` `Amnesia`
+> `Drain-Punch` `Focus-Punch` `Power-Up-Punch` `Amnesia`
 - **Equip:**
-> `Choice Band | Metronome | Black Belt`
+> `Choice_Band | Metronome | Black_Belt`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Drain Punch` `Earthquake` `Ice Punch` `Focus Punch | Stone Edge`
+> `Drain-Punch` `Earthquake` `Ice-Punch` `Focus-Punch | Stone-Edge`
 - **Equip:**
-> `Life Orb | Choice Band | Choice Cloak`
+> `Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`"""
 
@@ -1514,9 +1516,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Sunsteel Strike` `Earthquake` `Stone Edge` `Shadow Claw`
+> `Sunsteel-Strike` `Earthquake` `Stone-Edge` `Shadow-Claw`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 192` `HP 64`"""
 
@@ -1526,17 +1528,17 @@ __**NORMAL BATTLE**__
 
 __**DEBUFFER**__
 - **Moves:**
-> `Noble Roar`
+> `Noble-Roar`
 - **Equip:**
-> `Choice Scarf`
+> `Choice_Scarf`
 - **EVs:**
 > `HP 252` `SPE 252` `DEF 4` or `HP 252` `DEF 128` `SPD 128`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Outrage` `Fusion Bolt` `Iron Head` `Ice Beam | Roost (with Life Orb) | Stone Edge`
+> `Outrage` `Fusion-Bolt` `Iron-Head` `Ice-Beam | Roost (with Life_Orb) | Stone-Edge`
 - **Equip:**
-> `Life Orb | Choice Band | Choice Cloak`
+> `Life_Orb | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`"""
     # -------------------------------
@@ -1545,77 +1547,77 @@ __**NORMAL BATTLE**__
 **MEGA TYRANITAR**
 VARIANT: `GOLDEN MEGA TYRANITAR #7090`
 - **Moves:**
-> `Rock Slide` `Ice Punch` `Focus Punch` `Iron Head | Dig`
+> `Rock-Slide` `Ice-Punch` `Focus-Punch` `Iron-Head | Dig`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 252` `HP 4`
 
 **METAGROSS**
 **VARIANTS:** `GOLDEN METAGROSS #9376` | `MEGA METAGROSS #7136`
 - **Moves:**
-> `Earthquake` `Steel Power` `Body Slam` `Psychic Fangs`
+> `Earthquake` `Steel-Power` `Body-Slam` `Psychic-Fangs`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **MEWTWO**
 VARIANT: `GOLDEN MEWTWO #9150`
 - **Moves:**
-> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice-Beam` `Aura-Sphere` `Shadow-Ball | Thunderbolt  | Energy-Ball`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`
 
 **NECROZMA-DAWNWINGS**
 - **Moves:**
-> `Photon Geyser` `Moongeist Beam` `Power Gem` `Dark Pulse | Prismatic Laser | Flash Cannon`
+> `Photon-Geyser` `Moongeist-Beam` `Power-Gem` `Dark-Pulse | Prismatic-Laser | Flash-Cannon`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `DEF 4`
 
 **NECROZMA-DUSKMANE**
 - **Moves:**
-> `Sunsteel Strike` `Earthquake` `Stone Edge` `Shadow Claw`
+> `Sunsteel-Strike` `Earthquake` `Stone-Edge` `Shadow-Claw`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 192` `HP 64`
 
 **NECROZMA-ULTRA**
 - **Moves:**
-> `Photon Geyser` `Outrage` `Power Gem` `Earth Power | Flash Cannon`
+> `Photon-Geyser` `Outrage` `Power-Gem` `Earth-Power | Flash-Cannon`
 - **Equip:**
-> `Choice Specs | Choice Scarf | Choice Cloak`
+> `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`
 
 **PALKIA-ORIGIN**
 - **Moves:**
-> `Outrage | Dragon Pulse` `Earth Power` `Flash Cannon` `Thunderbolt`
+> `Outrage | Dragon-Pulse` `Earth-Power` `Flash-Cannon` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **PALKIA**
 VARIANT: `GOLDEN PALKIA #9484`
 - **Moves:**
-> `Outrage` `Surf` `Earth Power` `Thunderbolt`
+> `Outrage` `Surf` `Earth-Power` `Thunderbolt`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **RESHIRAM**
 VARIANT: `GOLDEN RESHIRAM #9643`
 - **Moves:**
-> `Outrage` `Fusion Flare` `Earth Power` `Shadow Ball | Psychic | Blue Flare`
+> `Outrage` `Fusion-Flare` `Earth-Power` `Shadow-Ball | Psychic | Blue-Flare`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`"""
 
@@ -1624,16 +1626,16 @@ VARIANT: `GOLDEN RESHIRAM #9643`
 
 __**SETUP SWEEPER**__
 - **Arceus-Ground Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 
 - **Arceus-Electric Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Stored Power | Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power | Judgment`
 
 - **Arceus-Ghost | Arceus-Dark Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Judgment`
+> `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 
 - **Arceus-Grass Moves:**
-> `Calm Mind` `Iron Defense` `Recover` `Giga Drain`
+> `Calm-Mind` `Iron-Defense` `Recover` `Giga-Drain`
 
 - **Equip:**
 > `Leftovers`
@@ -1646,25 +1648,25 @@ __**SETUP SWEEPER**__
 
 __**SETUP SWEEPER**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
 > `HP 252` `DEF 252` `SPD 4`
 
-__**World Boss**__
+__**WORLD BOSS**__
 - **Moves:**
-> `Calm Mind` `Bulk Up` `Recover` `Stored Power`
+> `Calm-Mind` `Bulk-Up` `Recover` `Stored-Power`
 - **Equip:**
-> `Choice Specs | Metronome | Twisted Spoon`
+> `Choice_Specs | Metronome | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Psychic` `Ice Beam` `Aura Sphere` `Shadow Ball | Thunderbolt  | Energy Ball`
+> `Psychic` `Ice-Beam` `Aura-Sphere` `Shadow-Ball | Thunderbolt  | Energy-Ball`
 - **Equip:**
-> `Choice Specs | Choice Cloak`
+> `Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `DEF 4`"""
 
@@ -1672,9 +1674,9 @@ __**NORMAL BATTLE**__
 
 __**NORMAL BATTLE**__
 - **Moves:**
-> `Photon Geyser` `Outrage` `Power Gem` `Earth Power | Flash Cannon`
+> `Photon-Geyser` `Outrage` `Power-Gem` `Earth-Power | Flash-Cannon`
 - **Equip:**
-> `Choice Specs | Choice Scarf | Choice Cloak`
+> `Choice_Specs | Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`"""
 
@@ -1684,51 +1686,51 @@ __**NORMAL BATTLE**__
 **SALAMENCE**
 **VARIANTS:** `GOLDEN SALAMENCE #9373` | `MEGA SALAMENCE #7133`
 - **Moves:**
-> `Outrage` `Earthquake` `Iron Head | Crunch` `Body Slam`
+> `Outrage` `Earthquake` `Iron-Head | Crunch` `Body-Slam`
 - **Equip:**
-> `Choice Band | Choice Cloak`
+> `Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `HP 4`
 
 **SLAKING**
 VARIANT: `GOLDEN SLAKING #9289`
 - **Moves:**
-> `Sucker Punch` `Earthquake` `Focus Punch | Drain Punch` `Play Rough | Ice Punch | Thunder Punch`
+> `Sucker-Punch` `Earthquake` `Focus-Punch | Drain-Punch` `Play-Rough | Ice-Punch | Thunder-Punch`
 - **Equip:**
-> `Assault Vest | Expert Belt | Choice Band | Choice Cloak`
+> `Assault_Vest | Expert_Belt | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPD 128` `HP 128`
 
 **SOLGALEO**
 - **Moves:**
-> `Steel Roller` `Earthquake` `Outrage` `Flare Blitz | Close Combat | Wild Charge`
+> `Steel-Roller` `Earthquake` `Outrage` `Flare-Blitz | Close-Combat | Wild-Charge`
 - **Equip:**
-> `Choice Scarf | Choice Band | Choice Cloak`
+> `Choice_Scarf | Choice_Band | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `SPE 252` `SPD 4`
 
 **XERNEAS**
 VARIANT: `GOLDEN XERNEAS #9716`
 - **Moves:**
-> `Moonblast` `Draining Kiss` `Thunderbolt` `Psychic`
+> `Moonblast` `Draining-Kiss` `Thunderbolt` `Psychic`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `SPE 252` `HP 4`
 
 **YVELTAL**
 **VARIANTS:** `GOLDEN YVELTAL #9717`
 - **Moves:**
-> `Sucker Punch` `Oblvion Wing` `Dark Pulse` `Heat Wave | Psychic`
+> `Sucker-Punch` `Oblvion-Wing` `Dark-Pulse` `Heat-Wave | Psychic`
 - **Equip:**
-> `Life Orb | Choice Specs | Choice Cloak`
+> `Life_Orb | Choice_Specs | Choice_Cloak`
 - **EVs:**
 > `SPA 252` `HP 252` `SPE 4`
 
 **ZACIAN-CROWNED**
 - **Moves:**
-> `Play Rough` `Behemoth Blade` `Close Combat` `Wild Charge | Crunch`
+> `Play-Rough` `Behemoth-Blade` `Close-Combat` `Wild-Charge | Crunch`
 - **Equip:**
-> `Choice Scarf | Choice Cloak`
+> `Choice_Scarf | Choice_Cloak`
 - **EVs:**
 > `ATK 252` `HP 252` `SPE 4`"""

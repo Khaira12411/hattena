@@ -1,4 +1,6 @@
 from constants.straydex import SD_EMOJIS
+
+
 class SD_BATTLE_DESC:
     reg = f"""# BATTLE REGION
 
@@ -29,11 +31,11 @@ class SD_BATTLE_DESC:
 
 **TEAM:**
 - **Mewtwo**
-  Moves: `Psychic`  `Ice Beam`  `Aura Sphere`  `Shadow Ball`
+  Moves: `Psychic`  `Ice-Beam`  `Aura-Sphere`  `Shadow-Ball`
 - **Yveltal**
-  Moves: `Oblivion Wing`  `Sucker Punch`  `Rock Slide`  `Heat Wave`
+  Moves: `Oblivion-Wing`  `Sucker-Punch`  `Rock-Slide`  `Heat-Wave`
 - **Xerneas**
-  Moves: `Moonblast`  `Close Combat`  `Horn Leech`
+  Moves: `Moonblast`  `Close-Combat`  `Horn-Leech`
 
 ---
 
@@ -85,13 +87,13 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 - **Mewtwo**
 > Moves: `Psychic`
 - **Yveltal**
-> Moves: `Oblivion Wing`
+> Moves: `Oblivion-Wing`
 - **Groudon**
 > Moves: `Earthquake`
 
 **STRATEGY:**
 - [Mewtwo] spam Psychic until it dies
-- [Yveltal] spam Oblivion Wing
+- [Yveltal] spam Oblivion-Wing
 - First two mons can wipe out the whole team"""
 
     cbo = f"""# CHALLENGER BOSS: GIOVANNI
@@ -100,20 +102,20 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 
 **TEAM:**
 - **Mewtwo**
-> Equip: `Twisted Spoon`
-> Moves: `Psychic` `Energy Ball` `Dark Pulse`
+> Equip: `Twisted_Spoon`
+> Moves: `Psychic` `Energy-Ball` `Dark-Pulse`
 - **Yveltal**
-> Moves: `Psychic` `Sucker Punch`
+> Moves: `Psychic` `Sucker-Punch`
 - **Golisopod**
-> Moves: `First Impression`
+> Moves: `First-Impression`
 
 **STRATEGY:**
 - [Mewtwo] Psychic on Nidoking
-- [Mewtwo] Energy Ball on Rhyperior
+- [Mewtwo] Energy-Ball on Rhyperior
 - [Yveltal] Psychic on Rhyperior
-- [Yveltal] Sucker Punch on Mewtwo
-- [Mewtwo] Dark Pulse on Mewtwo
-- [Golisopod] First Impression on Mewtwo"""
+- [Yveltal] Sucker-Punch on Mewtwo
+- [Mewtwo] Dark-Pulse on Mewtwo
+- [Golisopod] First-Impression on Mewtwo"""
 
     cma = f"""# CHALLENGER MASTER: PROFESSOR OAK
 **COMMAND:**  `;b npc 904`
@@ -123,15 +125,15 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **TEAM:**
 - **Shedinja**
 > Ability: `Wonder Guard`
-> Equip: `Spell Tag`
-> Moves: `Hone Claw` `Heal Block` `Shadow Claw`
+> Equip: `Spell_Tag`
+> Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw`
 > EVs: `ATK 252`
 
 **STRATEGY:**
-- [Shedinja] Use 6 Hone Claw
-- [Shedinja] Spam Shadow Claw until Venusaur dies
-- [Shedinja] Use Heal Block when Gyarados/Mewtwo first enters
-- [Shedinja] Spam Shadow Claw till Gyarados/Mewtwo dies"""
+- [Shedinja] Use 6 Hone-Claw
+- [Shedinja] Spam Shadow-Claw until Venusaur dies
+- [Shedinja] Use Heal-Block when Gyarados/Mewtwo first enters
+- [Shedinja] Spam Shadow-Claw till Gyarados/Mewtwo dies"""
 
     cse = f"""# CHALLENGER BASIC & BOSS
 **COMMAND:**  `;b npc 200`to `;b npc 210`
@@ -139,29 +141,29 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 
 **TEAM:**
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252`
 - **Whimsicott** | **Latios**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252`
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Iron Defense` `Calm Mind` `Judgment` `Recover`
+> Moves: `Iron-Defense` `Calm-Mind` `Judgment` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 or
 - **Mew**
 > Equip: `Leftovers`
-> Moves: `Iron Defense` `Calm Mind` `Dragon Pulse` `Roost`
+> Moves: `Iron-Defense` `Calm-Mind` `Dragon-Pulse` `Roost`
 > EVs: `HP 150` `DEF 180` `SPD 180`
 
 **STRATEGY:**
 - [Dugtrio] Memento
 - [Whimsicott | Latios] Memento
-- [Arceus | Mew] Iron Defense +6
-- [Arceus | Mew] Calm Mind +6
-- [Arceus | Mew] Judgment | Dragon Pulse spam
+- [Arceus | Mew] Iron-Defense +6
+- [Arceus | Mew] Calm-Mind +6
+- [Arceus | Mew] Judgment | Dragon-Pulse spam
 - [Arceus | Mew] Recover | Roost when low hp
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: Choice Scarf isn't required but you need atleast one scarf against NPC 208*"""
@@ -173,19 +175,19 @@ or
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Cosmic Power`  `Toxic`  `Body Press`  `Recover`
+> Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Cosmic Power +6
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover when low hp
 """
 
@@ -193,29 +195,29 @@ __**2nd Position**__
 ## NON-SETUP TEAM
 ### TEAM A:
 - **Golden Mewtwo**
-> Equip: `Choice Cloak` or `Choice Specs`
-> Moves: `Psychic` `Ice Beam` `Energy Ball` `Shadow Ball`
+> Equip: `Choice_Cloak` or `Choice_Specs`
+> Moves: `Psychic` `Ice-Beam` `Energy-Ball` `Shadow-Ball`
 > EVs: `SPA 252` `SPE 128` `SPD 128`
 - **Golden Zacian**
-> Equip: `Choice Cloak` or `Choice Band`
-> Moves: `Play Rough` `Close Combat` `Crunch` `Wild Charge`
+> Equip: `Choice_Cloak` or `Choice_Band`
+> Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
 > EVs: `ATK 252` `HP 252` `SPE 6`
 - **Golden Zekrom**
-> Equip: `Choice Cloak` or `Choice Scarf`
-> Moves: `Outrage` `Fusion Bolt` `Crunch` `Earth Power`
+> Equip: `Choice_Cloak` or `Choice_Scarf`
+> Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
 > EVs: `ATK 252` `HP 128` `SPE 130`
 ### TEAM B:
 - **Golden Zekrom**
-> Equip: `Choice Cloak` or `Choice Scarf`
-> Moves: `Outrage` `Fusion Bolt` `Crunch` `Earth Power`
+> Equip: `Choice_Cloak` or `Choice_Scarf`
+> Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
 > EVs: `ATK 252` `HP 128` `SPE 130`
 - **Golden Zacian**
-> Equip: `Choice Cloak` or `Choice Band`
-> Moves: `Play Rough` `Close Combat` `Crunch` `Wild Charge`
+> Equip: `Choice_Cloak` or `Choice_Band`
+> Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
 > EVs: `ATK 252` `HP 252` `SPE 6`
 - **Golden Yveltal**
-> Equip: `Choice Band`
-> Moves: `Sucker Punch` `Oblivion Wing` `Foul Play` `Knock Off`
+> Equip: `Choice_Band`
+> Moves: `Sucker-Punch` `Oblivion-Wing` `Foul-Play` `Knock-Off`
 > EVs: `ATK 252` `SPA 128` `SPD 128`
 
 <a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Non Setup Strats are the fastest to clear Battle Tower Floors but would require you to pay extra attention to every battle, memorize the enemies' weakness, do smart switching, and lots of thinking.*"""
@@ -230,13 +232,13 @@ __**2nd Position**__
 - **Mewtwo**
 > Moves: `Psychic`
 - **Yveltal**
-> Moves: `Oblivion Wing`
+> Moves: `Oblivion-Wing`
 - **Groudon**
 > Moves: `Earthquake`
 
 **STRATEGY:**
 - [Mewtwo] spam Psychic until it dies
-- [Yveltal] spam Oblivion Wing
+- [Yveltal] spam Oblivion-Wing
 - First two mons can wipe out the whole team"""
 
     cbo2 = f"""# CHALLENGER BOSS: MAXIE
@@ -245,19 +247,19 @@ __**2nd Position**__
 
 **TEAM:**
 - **Xerneas**
-> Moves: `Moonblast` `Horn Leech` `Psychic`
+> Moves: `Moonblast` `Horn-Leech` `Psychic`
 - **Mewtwo**
-> Moves: `Psychic` `Ice Beam`
-- **Kyogre**EVICE
-> Equip: `Mystic Water`
+> Moves: `Psychic` `Ice-Beam`
+- **Kyogre**
+> Equip: `Mystic_Water`
 > Moves: `Surf`
 
 **STRATEGY:**
 - [Xerneas] Moonblast on Mightyena
 - [Xerneas] Psychic on Crobat
 - [Mewtwo] Psychic on Crobat
-- [Mewtwo] Ice Beam on Groudon
-- [Xerneas] Horn Leech on Groudon"""
+- [Mewtwo] Ice-Beam on Groudon
+- [Xerneas] Horn-Leech on Groudon"""
 
     cma2 = f"""# CHALLENGER MASTER: CIPHER HEAD
 **COMMAND:**  `;b npc 998`
@@ -268,26 +270,26 @@ __**2nd Position**__
 - **Hawlucha**
 > Ability: `Limber`
 > Equip: `N/A`
-> Moves: `Tailwind` `Close Combat`
+> Moves: `Tailwind` `Close-Combat`
 > EVs: `DEF 180`
 - **Mienshao**
 > Ability `Inner Focus`
 > Equip: `N/A`
-> Moves: `Close Combat`
+> Moves: `Close-Combat`
 > EVs: `ATK 252` `SPD 236`
 - **Shedinja**
 > Ability: `Wonder Guard`
-> Equip: `Silver Powder`
-> Moves: `Hone Claw` `Heal Block` `Shadow Claw` `Leech Life`
+> Equip: `Silver_Powder`
+> Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw` `Leech-Life`
 > EVs: `ATK 252`
 
 **STRATEGY:**
 - [Hawlucha] Use Tailwind
-- [Hawlucha] Spam Close Combat til it dies or til Tyranitar dies then swap to Shedninja
-- [Mienshao] If Hawlucha dies to Tyranitar, swap to Mienshao and use Close Combat til Tyranitar dies,
-- [Shedninja] Swap to Shedninja when Tyranitar dies, then use 6 Hone Claw and 1 Heal block.
-- [Shedninja] Spam Shadow Claw til Salamence dies
-- [Shedninja] When Slaking enters, use Leech Life and Heal Block once, then spam Leech Life"""
+- [Hawlucha] Spam Close-Combat til it dies or til Tyranitar dies then swap to Shedninja
+- [Mienshao] If Hawlucha dies to Tyranitar, swap to Mienshao and use Close-Combat til Tyranitar dies,
+- [Shedninja] Swap to Shedninja when Tyranitar dies, then use 6 Hone-Claw and 1 Heal block.
+- [Shedninja] Spam Shadow-Claw til Salamence dies
+- [Shedninja] When Slaking enters, use Leech-Life and Heal-Block once, then spam Leech-Life"""
     cse2 = f"""STRAYDEX: BATTLE
 # CHALLENGER MASTER: PROFESSOR OAK
 **COMMAND:**  `;b npc 904`
@@ -296,12 +298,12 @@ __**2nd Position**__
 **TEAM:**
 - **Corviknight**
 > Equip: `Leftovers`
-> Moves: `Bulk Up` `Agility` `Roost` `Power Trip`
+> Moves: `Bulk-Up` `Agility` `Roost` `Power-Trip`
 
 **STRATEGY:**
-- [Corviknight] Bulk Up +6
+- [Corviknight] Bulk-Up +6
 - [Corviknight] Agility +6
-- [Corviknight] Power Trip spam
+- [Corviknight] Power-Trip spam
 - [Corviknight] Roost when low hp"""
 
     leg2 = f"""# LEGEND: LANCE
@@ -311,19 +313,19 @@ __**2nd Position**__
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
 - **Arceus Fairy**
 > Equip: `Leftovers`
-> Moves: `Iron Defense`  `Calm Mind`  `Judgment`  `Recover`
+> Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
 
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Iron Defense +6
-- [Arceus] Calm Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Calm-Mind +6
 - [Arceus] Judgment spam
 - [Arceus] Recover when low hp
 """
@@ -331,47 +333,47 @@ __**2nd Position**__
     ts2 = f"""## SETUP TEAMS
 ### TEAM A:
 - **Zacian-Crowned / Golden Zacian / Zekrom**
-> Equip: `Choice Cloak` or `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Cloak` or `Choice_Scarf`
+> Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 - **Gigantamax-Corviknight**
 > Equip: `Leftovers`
-> Moves: `Bulk Up` `Max Airstream` `Power Trip` `Roost`
+> Moves: `Bulk-Up` `Max-Airstream` `Power-Trip` `Roost`
 > EVs: `HP 252` `SPD 252` `DEF 6`
 OR
 - ** Golden Arceus / Arceus-Ground / Arceus-Electric**
 > Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron Defense` `Recover` `Stored Power`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 > EVs: `HP 252` `SPD 130` `DEF 128`
 - **Arceus-Fairy**
 > Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron Defense` `Recover` `Judgment`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 > EVs: `HP 252` `SPD 130` `DEF 128`
 **STRATEGY: **
-- [1st Pokemon]: Noble Roar -6
-- [GMAX Corviknight]: +6 Bulk Up, +6 Max Airstream, Spam Power Trip, Roost when low hp.
-- [Arceus/Arceus-Forms] : +6 Calm Mind, +6 Iron Defense, then Stored Power/Judgment Spam, Recover when low hp.
+- [1st Pokemon] Noble-Roar -6
+- [GMAX Corviknight] +6 Bulk-Up, +6 Max-Airstream, Spam Power-Trip, Roost when low hp.
+- [Arceus/Arceus-Forms] +6 Calm-Mind, +6 Iron-Defense, then Stored-Power/Judgment Spam, Recover when low hp.
 
 <a:fidough_wow:1283739703140679703> ***Fidnotes:*** *When using Arceus and you see a dark type on the enemy's team, set up the fairy type pokemon and let it be your attacking mon.*
 
 ### TEAM B:
 - **Zacian-Crowned**
-> Equip: `Choice Cloak` or `Choice Scarf`
-> Moves: `Noble Roar` `Behemoth Blade` `Play Rough` `Crunch`
+> Equip: `Choice_Cloak` or `Choice_Scarf`
+> Moves: `Noble-Roar` `Behemoth-Blade` `Play-Rough` `Crunch`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 - **Golden Zacian**
-> Equip: `Choice Cloak` or `Choice Scarf`
-> Moves: `Noble Roar` `Wild Charge` `Play Rough` `Crunch`
+> Equip: `Choice_Cloak` or `Choice_Scarf`
+> Moves: `Noble-Roar` `Wild-Charge` `Play-Rough` `Crunch`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 - ** Golden Mewtwo**
 > Equip: `Leftovers`
-> Moves: `Calm-Mind` `Bulk Up` `Stored Power` `Earth Power`
+> Moves: `Calm-Mind` `Bulk-Up` `Stored-Power` `Earth-Power`
 > EVs: `DEF 200` `SPD 200` `HP 110`
 **STRATEGY: **
-- [1st Pokemon] : Noble Roar -6
-- [Golden Mewtwo]: +6 Calm Mind, +6 Bulk Up, then Stored Power Spam, Use Earth Power when Enemy is immune to Psychic attacks or  has Resistance to it.
+- [1st Pokemon] Noble-Roar -6
+- [Golden Mewtwo] +6 Calm-Mind, +6 Bulk-Up, then Stored-Power Spam, Use Earth-Power when Enemy is immune to Psychic attacks or  has Resistance to it.
 
-<a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Only use one Zacian for Noble Roar as the other would finish off dark type enemies when Golden Mewtwo couldn't.*"""
+<a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Only use one Zacian for Noble-Roar as the other would finish off dark type enemies when Golden Mewtwo couldn't.*"""
 
     # ---------------------------
     cba3 = f"""# CHALLENGER BASIC: WES
@@ -380,17 +382,17 @@ OR
 
 **TEAM:**
 - **Yveltal**
-> Moves: `Sucker Punch` `Rock Slide`
+> Moves: `Sucker-Punch` `Rock-Slide`
 - **Xerneas**
 > Moves: `Moonblast`
 - **Tyranitar**
-> Moves: `Rock Slide`
+> Moves: `Rock-Slide`
 or
 - **Zekrom**  |  **Mewtwo**
-> Moves: `Fusion Bolt`  |  `Power Gem`
+> Moves: `Fusion-Bolt`  |  `Power-Gem`
 
 **STRATEGY:**
-- [Yveltal] Super Punch on Espeon
+- [Yveltal] Sucker Punch on Espeon
 - [Xerneas] Moonblast on Umbreon
 - Spam Moonblast until it dies and finish with [3rd Mon]"""
 
@@ -400,19 +402,19 @@ or
 
 **TEAM:**
 - **Xerneas**
-> Moves: `Moonblast` `Horn Leech` `Psychic`
+> Moves: `Moonblast` `Horn-Leech` `Psychic`
 - **Mewtwo**
 > Moves: `Psychic` `Thunderbolt`
 - **Zekrom**
-> Moves: `Fusion Bolt`
+> Moves: `Fusion-Bolt`
 
 **STRATEGY:**
 - [Xerneas] Moonblast on Mightyena
 - [Xerneas] Psychic on Muk
 - [Mewtwo] Psychic on Muk
 - [Mewtwo] Thunderbolt on Kyogre
-- [Zekrom] Fusion Bolt on Kyogre
-- [Xerneas] Horn Leech on Kyogre"""
+- [Zekrom] Fusion-Bolt on Kyogre
+- [Xerneas] Horn-Leech on Kyogre"""
 
     cma3 = f"""# CHALLENGER MASTER: MYSTERY TRAINER
 **COMMAND:**  `;b npc 999`
@@ -423,26 +425,26 @@ or
 - **Sneasel**
 > Ability `Inner Focus`
 > Equip: `N/A`
-> Moves: `Scary Face` `Fake Out`
+> Moves: `Scary-Face` `Fake-Out`
 > EVs: `HP 252`
 - **Mienshao**
 > Ability `Inner Focus`
 > Equip: `N/A`
-> Moves: `Close Combat` `Swords Dance` `Vacuum Wave`
+> Moves: `Close-Combat` `Swords-Dance` `Vacuum-Wave`
 > EVs: `ATK 252` `SPD 236`
 - **Shedinja**
 > Ability: `Wonder Guard`
-> Equip: `Silver Powder`
-> Moves: `Hone Claw` `Heal Block` `Shadow Claw` `Leech Life`
+> Equip: `Silver_Powder`
+> Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw` `Leech-Life`
 > EVs: `ATK 252`
 
 **STRATEGY:**
-- Use Fake Out then Scary Face once.
-- If Sneasel dies after Scary Face, swap to Mienshao. Use Sword Dance and, then Close Combat.
-- If Darkrai uses Rest swap to Mienshao. Use Sword Dance, Vacuum Wave and, then Close Combat .
-- If Darkrai does not kill Sneasel and does not rest, use Fakeout then Focus Punch.
-- [Shedninja] Swap to Shedninja when Darkrai dies, then use 6 Hone Claw and 1 Heal block after Latios/Kyogre enters.
-- [Shedninja] Spam Shadow Claw til Latios/Kyogre dies."""
+- Use Fake-Out then Scary-Face once.
+- If Sneasel dies after Scary-Face, swap to Mienshao. Use Sword-Dance and, then Close-Combat.
+- If Darkrai uses Rest swap to Mienshao. Use Sword-Dance, Vacuum-Wave and, then Close-Combat .
+- If Darkrai does not kill Sneasel and does not rest, use Fakeout then Focus-Punch.
+- [Shedninja] Swap to Shedninja when Darkrai dies, then use 6 Hone-Claw and 1 Heal block after Latios/Kyogre enters.
+- [Shedninja] Spam Shadow-Claw til Latios/Kyogre dies."""
     cse3 = f"""# CHALLENGER MASTER: CIPHER HEAD EVICE
 **COMMAND:**  `;b npc 998`
 **REQ:** *Defeat all 78 NPCs and receive a Cipher Head Evice battle invitation.*
@@ -450,14 +452,14 @@ or
 **TEAM:**
 __**1st Position**__
 - **Sawk** | **Galarian-Zapdos** | **Marshadow** | **Terrakion** | **Urshifu**
-> Equip: `Choice Band | Choice Cloak`
+> Equip: `Choice_Band | Choice_Cloak`
 > Moves: `Superpower`
 > EVs: `ATK 252` `SPE 252`
 > Stats: `ATK 394` `SPE 322`
 
 __**2nd Position**__
 - **Jirachi**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Charm`
 > EVs: `SPE 128`
 > Stats: `SPE 306`
@@ -465,23 +467,23 @@ __**2nd Position**__
 __**3rd Position**__
 - **Magearna**
 > Equip: `Leftovers`
-> Moves: `Iron Defense` `Agility` `Calm Mind` `Stored Power`
+> Moves: `Iron-Defense` `Agility` `Calm-Mind` `Stored-Power`
 > EVs: `HP 144`
 > Stats: `SPE 306`
 __OR__
 - **Bronzong**
 > Equip: `Leftovers`
-> Moves: `Iron Defense` `Rock Polish` `Calm Mind` `Stored Power`
+> Moves: `Iron-Defense` `Rock-Polish` `Calm-Mind` `Stored-Power`
 > EVs: `HP 252` `DEF 152` `SPE 80`
 > Stats: `SPE 114`
 
 **STRATEGY:**
 - [First Mon] Superpower spam
 - [Jirachi] Charm -6
-- [Magearna | Bronzong] Iron Defense +6
-- [Magearna | Bronzong] Agility +4 | Rock Polish +6
-- [Magearna | Bronzong] Calm Mind +4
-- [Magearna | Bronzong] Stored Power spam"""
+- [Magearna | Bronzong] Iron-Defense +6
+- [Magearna | Bronzong] Agility +4 | Rock-Polish +6
+- [Magearna | Bronzong] Calm-Mind +4
+- [Magearna | Bronzong] Stored-Power spam"""
 
     leg3 = f"""# LEGEND: STEVEN
 **COMMAND:**
@@ -490,22 +492,22 @@ __OR__
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
 - **Arceus Dark**
 > Equip: `Leftovers`
-> Moves: `Iron Defense`  `Calm Mind`  `Judgment`  `Recover`
+> Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
 __OR__
 - **Gmax Corviknight**
 > Equip: `Leftovers`
-> Moves: `Power Trip`  `Bulk Up`  `Max Airstream`  `Roost`
+> Moves: `Power-Trip`  `Bulk-Up`  `Max-Airstream`  `Roost`
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus | Corvi] Iron Defense +6 | Bulk Up +6
-- [Arceus | Corvi] Calm Mind +6 | Max Airstream +6
+- [Arceus | Corvi] Iron-Defense +6 | Bulk-Up +6
+- [Arceus | Corvi] Calm-Mind +6 | Max-Airstream +6
 - [Arceus | Corvi] Judgment  | Powertrip spam
 - [Arceus | Corvi] Recover | Roost when low hp
 
@@ -515,40 +517,40 @@ __OR__
 ### TEAM C
 
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
 - ** Eternamax Eternatus**
 > Equip: `Leftovers`
-> Moves: `Cosmic Power` `Recover` `Max Darkness` `Max Ooze`
+> Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
 > Evs: `HP 252` `SPA 252` `SPE 6`
 - **Arceus Electric**
 > Equip: `Leftovers`
-> Moves: `Calm Mind` `Iron Defense` `Recover` `Flamethrower`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 **STRATEGY:**
-- [Zacian] : Noble Roar -6
-- [Eternatus] : Cosmic Power +6, Max Ooze +6, then spam Max Darkness, Recover when low hp.
-- [Arceus]: +6 Calm Mind, +6 Iron Defense, then Flamethrower Spam, Recover when low hp.
+- [Zacian] Noble-Roar -6
+- [Eternatus] Cosmic-Power +6, Max-Ooze +6, then spam Max-Darkness, Recover when low hp.
+- [Arceus] Calm-Mind +6, Iron-Defense +6 , then Flamethrower Spam, Recover when low hp.
 
 ### TEAM D
 
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
 - ** GMAX Corvi**
 > Equip: `Leftovers`
-> Moves: `Bulk Up` `Max Airstream` `Roost `Power Trip`
+> Moves: `Bulk-Up` `Max-Airstream` `Roost `Power-Trip`
 > Evs: `HP 252` `SPD 252` `DEF 6`
 - **Arceus Electric**
 > Equip: `Leftovers`
-> Moves: `Calm Mind` `Iron Defense` `Recover` `Flamethrower`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 **STRATEGY:**
-- [Zacian] : Noble Roar -6
-- [Corviknight] : Bulk Up +6, Max Airstream +6, then spam Power Trip, Roost when low hp.
-- [Arceus]: +6 Calm Mind, +6 Iron Defense, then Flamethrower Spam, Recover when low hp."""
+- [Zacian] Noble-Roar -6
+- [Corviknight] Bulk-Up +6, Max-Airstream +6, then spam Power-Trip, Roost when low hp.
+- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp."""
 
     # no cma3
     # ---------------------------
@@ -558,20 +560,20 @@ __OR__
 
 **TEAM:**
 - **Yveltal**
-> Moves: `Oblivion Wing` `Rock Slide`
+> Moves: `Oblivion-Wing` `Rock-Slide`
 - **Kyogre**
 > Moves: `Surf` `Thunderbolt`
 - **Zekrom**
-> Moves: `Fusion Bolt`
+> Moves: `Fusion-Bolt`
 or
 - **Mewtwo**
-> Moves: `Thunderbolt` `Power Gem`
+> Moves: `Thunderbolt` `Power-Gem`
 
 **STRATEGY:**
-- [Yveltal] Oblivion Wing on Venusaur
-- [Yveltal] Rock Slide on Zard
+- [Yveltal] Oblivion-Wing on Venusaur
+- [Yveltal] Rock-Slide on Zard
 - [Kyogre] Thunderbolt on Zard
-- [3rd] spam Electric on Blastoise"""
+- [3rd] Spam Electric on Blastoise"""
 
     cbo4 = f"""# CHALLENGER BOSS: CYRUS
 **COMMAND:**  `;b npc 203`
@@ -579,26 +581,26 @@ or
 
 **TEAM:**
 - **Regigigas**
-> Equip: `Black Belt`
-> Moves: `Drain Punch`
+> Equip: `Black_Belt`
+> Moves: `Drain-Punch`
 - **Metagross**
-> Equip: `Soft Sand`
-> Moves: `Bullet Punch` `Earthquake`
+> Equip: `Soft_Sand`
+> Moves: `Bullet-Punch` `Earthquake`
 or
 - **Dialga**
-> Equip: `Soft Sand`
-> Moves: `Flash Cannon` `Earth Power`
+> Equip: `Soft_Sand`
+> Moves: `Flash-Cannon` `Earth-Power`
 - **Mewtwo**
-> Moves: `Aura Sphere`
+> Moves: `Aura-Sphere`
 or
 - **Groudon**
 > Moves: `Earthquake`
 
 **STRATEGY:**
-- [Regigigas] Drain Punch on Houndoom
-- [Regigigas] Drain Punch on Weaville
-- [Metagross] Bullet Punch on Weaville
-- [Mewtwo] Aura Sphere on Dialga
+- [Regigigas] Drain-Punch on Houndoom
+- [Regigigas] Drain-Punch on Weaville
+- [Metagross] Bullet-Punch on Weaville
+- [Mewtwo] Aura-Sphere on Dialga
 - [Metagross] Earthquake on Dialga"""
     cse4 = f"""# CHALLENGER MASTER: MYSTERY TRAINER
 **COMMAND:**  `;b npc 999`
@@ -607,44 +609,44 @@ or
 **TEAM:**
 __**1st Position**__
 - **Rhyperior**
-> Equip: `Black Belt`
-> Moves: `Focus Punch` `Stealth Rock`
+> Equip: `Black_Belt`
+> Moves: `Focus-Punch` `Stealth-Rock`
 > EVs: `DEF 252` `HP 236` `ATK 20`
 __OR__
 - **Steelix**
-> Equip: `Zoom Lens`
-> Moves: `Dig` `Stealth Rock` `Toxic`
+> Equip: `Zoom_Lens`
+> Moves: `Dig` `Stealth-Rock` `Toxic`
 > EVs: `HP 252` `DEF 172`
 
 __**2nd Position**__
 - **Jirachi**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Charm`
 > EVs: `SPE 252`
 > Stats: `SPE 340`
 __OR__
 - **Magearna**
 > Equip: `Leftovers`
-> Moves: `Eerie Impulse` `Self Destruct`
+> Moves: `Eerie-Impulse` `Self-Destruct`
 > EVs: `HP 252` `SPD 252`
 
 __**3rd Position**__
 - **Incineroar (If using Jirachi)**
 > Equip: `Leftovers`
-> Moves: `Bulk Up` `Trailblaze` `Power Trip`
+> Moves: `Bulk-Up` `Trailblaze` `Power-Trip`
 > EVs: `HP 200`
 __OR__
 - **Wigglytuff (If using Magearna)**
 > Equip: `Leftovers`
-> Moves: `Amnesia` `Trailblaze` `Work Up` `Stored Power`
+> Moves: `Amnesia` `Trailblaze` `Work Up` `Stored-Power`
 > EVs: `SPD 252` `SPA 184` `HP 72`
 
 **STRATEGY:**
-- [Rhyperior | Steelix] 2 Focus Punch | 1 Toxic, 4 Dig, then Stealth Rock spam
-- [Jirachi | Magearna] Charm -6 | Eerie Impulse -6 then Self Destruct
-- [Incineroar | Wigglytuff] Bulk Up +5 | Amnesia +6
+- [Rhyperior | Steelix] 2 Focus-Punch | 1 Toxic, 4 Dig, then Stealth-Rock spam
+- [Jirachi | Magearna] Charm -6 | Eerie Impulse -6 then Self-Destruct
+- [Incineroar | Wigglytuff] Bulk-Up +5 | Amnesia +6
 - [Incineroar | Wigglytuff] Trailblaze +4 | Trailblaze +6 then Work Up +6
-- [Incineroar | Wigglytuff] Power Trip | Stored Power spam
+- [Incineroar | Wigglytuff] Power-Trip | Stored-Power spam
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes**: Use Amnesia again whenever Wigglytuff's SPD drops to +4*"""
 
@@ -655,60 +657,60 @@ __OR__
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Cosmic Power`  `Toxic`  `Body Press`  `Recover`
+> Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Cosmic Power +6
+- [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
-- [Arceus] Body Press spam
+- [Arceus] Body-Press spam
 - [Arceus] Recover when low hp"""
 
     ts4 = f"""## SETUP TEAMS
 ### TEAM C
 
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
 - ** Eternamax Eternatus**
 > Equip: `Leftovers`
-> Moves: `Cosmic Power` `Recover` `Max Darkness` `Max Ooze`
+> Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
 > Evs: `HP 252` `SPA 252` `SPE 6`
 - **Arceus Electric**
 > Equip: `Leftovers`
-> Moves: `Calm Mind` `Iron Defense` `Recover` `Flamethrower`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 **STRATEGY:**
-- [Zacian] : Noble Roar -6
-- [Eternatus] : Cosmic Power +6, Max Ooze +6, then spam Max Darkness, Recover when low hp.
-- [Arceus]: +6 Calm Mind, +6 Iron Defense, then Flamethrower Spam, Recover when low hp.
+- [Zacian] Noble-Roar -6
+- [Eternatus] Cosmic-Power +6, Max-Ooze +6, then spam Max-Darkness, Recover when low hp.
+- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp.
 
 ### TEAM D
 
 - **Golden Zacian**
-> Equip: `Choice Scarf`
-> Moves: `Noble Roar`
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
 - ** GMAX Corvi**
 > Equip: `Leftovers`
-> Moves: `Bulk Up` `Max Airstream` `Roost `Power Trip`
+> Moves: `Bulk-Up` `Max-Airstream` `Roost `Power-Trip`
 > Evs: `HP 252` `SPD 252` `DEF 6`
 - **Arceus Electric**
 > Equip: `Leftovers`
-> Moves: `Calm Mind` `Iron Defense` `Recover` `Flamethrower`
+> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
 **STRATEGY:**
-- [Zacian] : Noble Roar -6
-- [Corviknight] : Bulk Up +6, Max Airstream +6, then spam Power Trip, Roost when low hp.
-- [Arceus]: +6 Calm Mind, +6 Iron Defense, then Flamethrower Spam, Recover when low hp."""
+- [Zacian] Noble-Roar -6
+- [Corviknight] Bulk-Up +6, Max-Airstream +6, then spam Power-Trip, Roost when low hp.
+- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp."""
     # ---------------------------
 
     cba5 = f"""# CHALLENGER BASIC: STEVEN
@@ -717,22 +719,22 @@ __**2nd Position**__
 
 **TEAM:**
 - **Kyogre**
-> Equip: `Mystic Water`
+> Equip: `Mystic_Water`
 > Moves: `Surf` `Earthquake`
 - **Slaking**
-> Equip: `Soft Sand`
+> Equip: `Soft_Sand`
 > Moves: `Earthquake`
 - **Groudon**
-> Equip: `Soft Sand`
+> Equip: `Soft_Sand`
 > Moves: `Earthquake`
 or
 - **Yveltal**
-> Moves: `Sucker Punch`
+> Moves: `Sucker-Punch`
 
 **STRATEGY:**
 - [Kyogre] Surf on Aggron
-- [All] spam Earthquake
-- [Yveltal] Sucker Punch on Metagross"""
+- [All] Spam Earthquake
+- [Yveltal] Sucker-Punch on Metagross"""
 
     cbo5 = f"""# CHALLENGER BOSS: GHETSIS
 **COMMAND:**  `;b npc 204`
@@ -740,17 +742,17 @@ or
 
 **TEAM:**
 - **Xerneas**
-> Moves: `Close Combat` `Moonblast`
+> Moves: `Close-Combat` `Moonblast`
 - **Groudon**
-> Equip: `Soft Sand`
+> Equip: `Soft_Sand`
 > Moves: `Earthquake`
 - **Dialga**
 > Moves: `Outrage`
 
 **STRATEGY:**
-- [Xerneas] Close Combat on Bisharp
+- [Xerneas] Close-Combat on Bisharp
 - [Xerneas] Moonblast on Hydreigon
-- [Xerneas] Close Combat on Reshiram
+- [Xerneas] Close-Combat on Reshiram
 - [Groudon] Earthquake on Reshiram
 - [Dialga] Outrage on Reshiram"""
 
@@ -760,17 +762,17 @@ or
 
 **TEAM:**
 - **Xerneas**
-> Moves: `Close Combat` `Moonblast`
+> Moves: `Close-Combat` `Moonblast`
 - **Groudon**
-> Equip: `Soft Sand`
+> Equip: `Soft_Sand`
 > Moves: `Earthquake`
 - **Dialga**
 > Moves: `Outrage`
 
 **STRATEGY:**
-- [Xerneas] Close Combat on Bisharp
+- [Xerneas] Close-Combat on Bisharp
 - [Xerneas] Moonblast on Hydreigon
-- [Xerneas] Close Combat on Reshiram
+- [Xerneas] Close-Combat on Reshiram
 - [Groudon] Earthquake on Reshiram
 - [Dialga] Outrage on Reshiram"""
 
@@ -781,19 +783,19 @@ or
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus Water**
+- **Arceus-Water**
 > Equip: `Leftovers`
-> Moves: `Iron Defense`  `Calm Mind`  `Judgment`  `Recover`
+> Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
 
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Iron Defense +6
-- [Arceus] Calm Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Calm-Mind +6
 - [Arceus] Judgment spam
 - [Arceus] Recover when low hp
 """
@@ -804,23 +806,23 @@ __**2nd Position**__
 
 **TEAM:**
 - **Kyogre**
-> Equip: `Mystic Water`
+> Equip: `Mystic_Water`
 > Moves: `Surf` `Thunderbolt`
 - **Zekrom**
 > Equip: `Magnet`
-> Moves: `Fusion Bolt`
+> Moves: `Fusion-Bolt`
 - **Xerneas**
 > Moves: `Moonblast`
 or
 - **Tyranitar**
-> Equip: `Hard Stone`
-> Moves: `Rock Slide`
+> Equip: `Hard_Stone`
+> Moves: `Rock-Slide`
 
 **STRATEGY:**
 - [Kyogre] Surf on Pyroar
 - [Kyogre] Thunderbolt on Gyarados
-- [Zekrom] Fusion Bolt on Gyarados
-- [Zekrom] Fusion Bolt on Yveltal
+- [Zekrom] Fusion-Bolt on Gyarados
+- [Zekrom] Fusion-Bolt on Yveltal
 - [Kyogre] Thunderbolt on Yveltal
 - [Xerneas] Moonblast on Yveltal"""
 
@@ -831,20 +833,20 @@ or
 **TEAM:**
 __**1st Position**__
 - **Dugtrio**
-> Equip: `Choice Scarf`
+> Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
 - **Arceus**
 > Equip: `Leftovers`
-> Moves: `Iron Defense`  `Calm Mind`  `Stored Power`  `Recover`
+> Moves: `Iron-Defense`  `Calm-Mind`  `Stored-Power`  `Recover`
 
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Iron Defense +6
-- [Arceus] Calm Mind +6
-- [Arceus] Stored Power spam
+- [Arceus] Iron-Defense +6
+- [Arceus] Calm-Mind +6
+- [Arceus] Stored-Power spam
 - [Arceus] Recover when low hp"""
 
 
