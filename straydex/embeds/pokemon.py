@@ -62,6 +62,7 @@ pokemon_map = {
     "mew4": "mega-mewtwo-y",
     "nec3": "necrozma-duskmane",
     "kyu2": "kyurem-black",
+    "nec4": "necrozma-ultra",
 }
 
 
