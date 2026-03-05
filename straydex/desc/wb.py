@@ -1,3 +1,5 @@
+from constants.aesthetic import Emojis
+
 wb_map = {
     "alc": "alcremie",
     "app": "appletun",
@@ -491,7 +493,7 @@ Equip: `Choice Specs`
 Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-**MVP STRATEGY:** 🌟
+**MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Mega Mewtwo Y**.
@@ -514,7 +516,7 @@ Equip: `Choice Specs`
 Moves: `Stored Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-**MVP STRATEGY:** 🌟
+**MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Necrozma-Ultra**.
@@ -537,7 +539,7 @@ Equip: `Choice Band`
 Moves: `Power Trip`
 EVs: `ATK 252` `SPD 252` `HP 4`
 
-**MVP STRATEGY:** 🌟
+**MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie Impulse`, 2x `Focus Energy`, 3x `Screech`,  then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Incineroar**.
@@ -561,7 +563,7 @@ Equip: `Choice Specs`
 Moves: `Max Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
-**MVP STRATEGY:** 🌟
+**MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use 2x `Eerie Impulse`, 2x `Focus Energy`, `, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Inteleon**.
@@ -584,7 +586,7 @@ Equip: `Metronome`
 Moves: `Max Starfall` `Draining Kiss` `Calm Mind` `Max Darkness`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
-**MVP STRATEGY:** 🌟
+**MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Focus Energy`, 3x `Fake Tears`, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.

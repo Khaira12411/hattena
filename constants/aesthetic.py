@@ -14,6 +14,10 @@ class Emojis:
     right_arrow = "<:right_arrow:1477607388579102821>"
     info = "<:info:1478555278323486740>"
     rewards = "<:rewards:1478595374901104641>"
+    evolution = "<:evolution:1478908308088684711>"
+    battle = "<:battle:1478908213939408947>"
+    general = "<:general:1478908152752640060>"
+    star = "<:star:1478908975335346320>"
 
 
 class Dividers:

@@ -1,7 +1,7 @@
 import discord
 from discord.ui import Button, View
 
-from constants.aesthetic import Dividers
+from constants.aesthetic import Dividers, Emojis
 from straydex.config import SD_CONFIG
 from utils.logs.pretty_log import pretty_log
 
@@ -176,15 +176,15 @@ class ItemListView(View):
 
     # ───────────── Buttons ─────────────
     @discord.ui.button(
-        label="General", style=discord.ButtonStyle.primary, disabled=True
+        label="General", style=discord.ButtonStyle.secondary, disabled=True, emoji=Emojis.general
     )
     async def general_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "General")
 
-    @discord.ui.button(label="Battle", style=discord.ButtonStyle.secondary)
+    @discord.ui.button(label="Battle", style=discord.ButtonStyle.secondary, emoji=Emojis.battle)
     async def battle_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Battle")
 
-    @discord.ui.button(label="Evolution", style=discord.ButtonStyle.secondary)
+    @discord.ui.button(label="Evolution", style=discord.ButtonStyle.secondary, emoji=Emojis.evolution)
     async def evolution_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Evolution")
