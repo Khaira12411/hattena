@@ -377,6 +377,11 @@ Members can show off their collections in <#1298114332583788597>
 - **`!POZAC`**  Pokemon: Zacian
 - **`!POZEK`**  Pokemon: Zekrom"""
 
+    ps = """# STRAYDEX: POWERSTATION
+**COMMANDS:**
+- **`!psi`**  Power Station Info
+- **`!pss`**  Power Station Strategy"""
+
     tr = """# STRAYDEX: TRAINERS
 **COMMANDS:**
 - **`!TRE`**  Trainer: EVs
@@ -563,6 +568,7 @@ Server Owner: <@952071312124313611>
 
 
 class SD_MAIN_IMAGES:
+    ps = "https://media.discordapp.net/attachments/1358029599463968798/1479331652730749040/UBG01_10.png?ex=69aba676&is=69aa54f6&hm=35b87e95e9e74c61348b4e4ea51ca8c4b51604468d6306c30b5587b9824e7224&=&format=webp&quality=lossless&width=901&height=428"
     RPS = "https://media.discordapp.net/attachments/1358029599463968798/1478729622978957423/UBG01_9_1.png?ex=69a975c7&is=69a82447&hm=eb2de51f384a9b23efeda44caaf764034a62326bed86ff7c8c6701d1610e8018&=&format=webp&quality=lossless"
     POWERSTATION = "https://media.discordapp.net/attachments/1358029599463968798/1478596096568852701/Power_Plant_exterior_FRLG.webp?ex=69a8f96c&is=69a7a7ec&hm=46481d033745e3e5523e31b6083cfd25abe35eec10dc0c26a71b8f15e37abbae&=&format=webp"
     TCG = "https://media.discordapp.net/attachments/1358029599463968798/1478558379638001685/UBG01_8.png?ex=69a8d64b&is=69a784cb&hm=765ca4afffbb76883b43555818a4d32749d4b1f6f9403583d616babb1c259d21&=&format=webp&quality=lossless"

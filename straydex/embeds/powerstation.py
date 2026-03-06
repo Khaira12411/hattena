@@ -107,4 +107,91 @@ class PowerStationInfoView(View):
 
     @discord.ui.button(label="Rewards", style=discord.ButtonStyle.secondary, custom_id="rewards", emoji=PS_EMOJIS.rewards)
     async def rewards_button(self, interaction: discord.Interaction, button: Button):
-        await self.switch_embed(interaction, "rewards")        
+        await self.switch_embed(interaction, "rewards")
+
+
+# ❀───────────────────────────────❀
+#       💖  Power Station Strat Embed  💖
+# ❀───────────────────────────────❀
+async def build_sd_ps_main_strat_embed(
+    guild: discord.Guild,
+    user_display_name: str,
+    user_id: int,
+):
+    strat_one_embed = build_sd_ps_info_embed(guild, user_display_name, "strat_one")
+    strat_two_embed = build_sd_ps_info_embed(guild, user_display_name, "strat_two")
+
+    try:
+        view = PowerStationInfoView(guild, user_id, strat_one_embed, strat_two_embed)
+        return strat_one_embed, view, None
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Error building Power Station main info embed: {e}",
+            include_trace=True,
+        )
+        fallback_embed = discord.Embed(
+            title="Power Station Info",
+            description="An error occurred while loading the Power Station information. Please try again later.",
+            color=SD_CONFIG.error_color,
+        )
+        return fallback_embed, None, None
+
+class PowerStationStratView(View):
+    def __init__(
+        self,
+        guild: discord.Guild,
+        user_id: int,
+        strat_one_embed: discord.Embed,
+        strat_two_embed: discord.Embed,
+    ):
+        super().__init__(timeout=None)
+        self.guild = guild
+        self.user_id = user_id
+        self.strat_one_embed = strat_one_embed
+        self.strat_two_embed = strat_two_embed
+        self.current_embed = "strat_one"  # Track which embed is currently displayed
+
+        self.update_button_states()
+
+    def update_button_states(self):
+        for child in self.children:
+            if isinstance(child, Button):
+                child.disabled = child.custom_id == self.current_embed
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.user_id:
+            await interaction.response.send_message(
+                "⚠️ Only the original requester can use these buttons.",
+                ephemeral=True,
+            )
+            return False
+        return True
+
+    async def switch_embed(self, interaction: discord.Interaction, target_embed: str):
+        try:
+            # Update state before editing the message so the correct button is disabled
+            self.current_embed = target_embed
+            self.update_button_states()
+            if target_embed == "strat_one":
+                await interaction.response.edit_message(embed=self.strat_one_embed, view=self)
+            elif target_embed == "strat_two":
+                await interaction.response.edit_message(embed=self.strat_two_embed, view=self)
+        except Exception as e:
+            pretty_log(
+                tag="error",
+                message=f"Error switching Power Station strat embed: {e}",
+                include_trace=True,
+            )
+            await interaction.response.send_message(
+                "❌ An error occurred while switching the strategy information. Please try again later.",
+                ephemeral=True,
+            )
+    # Buttons for switching between strat one and strat two
+    @discord.ui.button(label="Strat 1", style=discord.ButtonStyle.secondary, custom_id="strat_one", emoji=Emojis.battle)
+    async def strat_one_button(self, interaction: discord.Interaction, button: Button):
+        await self.switch_embed(interaction, "strat_one")
+
+    @discord.ui.button(label="Strat 2", style=discord.ButtonStyle.secondary, custom_id="strat_two", emoji=Emojis.battle)
+    async def strat_two_button(self, interaction: discord.Interaction, button: Button):
+        await self.switch_embed(interaction, "strat_two")

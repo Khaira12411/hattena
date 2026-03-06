@@ -48,3 +48,67 @@ class PS_DESC:
 - **Item Drops**
 > - *Station NPCs (300 - 306): 1/50 chance to drop <:rocky_helmet:1478585825674531039> Rocky Helmet or <:safety_goggles:1478585823808065778> Safety Goggles.*
 > - *Master Electrician: 1/50 chance to drop <:light_ball:1478585821601988729> Light Ball or <:heavy_duty_boots:1478585819244662813> Heavy-Duty Boots.*"""
+
+    strat_one = f"""**TEAM:**
+- **Mimikyu**
+> Ability: `Disguise`
+> Equip: `Ability_Shield`
+> Moves: `Trick-Room` `Destiny-Bond` `Magic-Room`
+> EVs: `N/A`
+- **Shiny Mimikyu**
+> Ability: `Disguise`
+> Equip: `Ability_Shield`
+> Moves: `Trick-Room` `Destiny-Bond` `Magic-Room`
+> EVs: `N/A`
+- **Donphan**
+> Ability: `Sturdy`
+> Equip: `Ability_Shield`
+> Moves: `Protect` `Endeavor` `Ice-Shard`
+> EVs: `N/A`
+
+**STRATEGY:**
+- [Mimikyu] Trick-Room
+- [Mimikyu] Destiny-Bond
+- [Shiny Mimikyu] Magic-Room
+- [Shiny Mimikyu] Destiny-Bond
+- [Donphan] Protect
+- [Donphan] Endeavor
+- [Donphan] Ice-Shard
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+- For NPC IDS: 300 - 306
+- This strat is for enemy teams with Leftovers/Sitrus Berries.
+- If Donphan can't learn Ice-Shard, just evolve a Phanphy with Ice-Shard as its 3rd move.
+- Ability Shield is only a necessity for when you are up against Zekrom, Reshiram or Pokemons with Mold Breaker Ability.
+- If the enemy spam switches just keep on using Destiny-Bond until trick room fades. Use Trick-Room again and just do the strat above."""
+
+    strat_two = f"""**TEAM:**
+- **Mega Banette**
+> Ability: `Prankster`
+> Equip: `Ability_Shield`
+> Moves: `Destiny-Bond`
+> EVs: `N/A`
+- **Sableye**
+> Ability: `Prankster`
+> Equip: `Ability_Shield`
+> Moves: `Destiny-Bond`
+> EVs: `N/A`
+- **Donphan**
+> Ability: `Sturdy`
+> Equip: `Ability_Shield`
+> Moves: `Protect` `Endeavor` `Ice-Shard`
+> EVs: `N/A`
+
+**STRATEGY:**
+- [Mega Banette] Destiny-Bond
+- Sableye] Destiny-Bond
+- [Donphan] Protect
+- [Donphan] Endeavor
+- [Donphan] Ice-Shard
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+- For NPC IDS: 300 - 306
+- This strat is for enemy teams without Leftovers/Sitrus Berries.
+- You need to set Sableye's ability to Prankster
+- If Donphan can't learn Ice-Shard, just evolve a Phanphy with Ice-Shard as its 3rd move.
+- Ability Shield is only a necessity for when you are up against Zekrom, Reshiram or Pokemons with Mold Breaker Ability."""

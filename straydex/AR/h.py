@@ -120,7 +120,9 @@ straydex_ar = {
     },
     "ps": {
         "": {
-            "function": build_sd_ps_main_info_embed,
+            "text": SD_MAIN_DESC.ps,
+            "image_url": SD_MAIN_IMAGES.ps,
+            "function": build_sd_main_embed,
         }
     },
     "rps": {
@@ -166,7 +168,6 @@ straydex_ar = {
             "function": build_sd_tcg_main_info_embed,
         }
     },
-
     "straymon": {
         "": {
             "text": SD_STRAYMON_DESC.sm1,
