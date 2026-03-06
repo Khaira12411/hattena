@@ -165,7 +165,7 @@ class StatsCalculator(commands.Cog):
             return
 
         debug_log("Building embed and preparing response.")
-        display_name = get_display_name(pokemon)
+        display_name = get_display_name(pokemon, dex=True)
         debug_log(f"Display name resolved: {display_name}")
         desc = (
             f"> - **Stat:** {stat.replace('-', ' ').title()}\n"
@@ -193,7 +193,12 @@ class StatsCalculator(commands.Cog):
 
         await loader.success(content="", embed=embed)
 
-    debug_log("Embed response sent successfully.")
+        debug_log("Embed response sent successfully.")
+
+        pretty_log(
+            "success",
+            f"{interaction.user.name} used stats-calculator for {pokemon} - Stat: {stat}, IVs: {ivs}, EVs: {evs}, Level: {level}, Result: {calculated_stat}",
+        )
 
 
 async def setup(bot):

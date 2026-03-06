@@ -12,8 +12,8 @@ from utils.functions.pokemon_func import is_mon_exclusive
 from utils.logs.debug_log import debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
-enable_debug(f"{__name__}.market_view_listener")
-enable_debug(f"{__name__}.parse_first_market_listing")
+#enable_debug(f"{__name__}.market_view_listener")
+#enable_debug(f"{__name__}.parse_first_market_listing")
 
 
 def extract_pokemon_name_from_author(author_name: str) -> str | None:

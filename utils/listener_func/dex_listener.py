@@ -6,6 +6,7 @@ from typing import Optional, Tuple
 
 import discord
 
+from utils.cache.cache_list import processed_dex_message_ids_cache
 from utils.cache.market_value_cache import (
     fetch_dex_number_cache,
     fetch_emoji_id_cache,
@@ -28,9 +29,9 @@ from utils.functions.pokemon_func import (
 )
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
-from utils.cache.cache_list import processed_dex_message_ids_cache
+
 #enable_debug(f"{__name__}.dex_listener")
-#enable_debug(f"{__name__}.parse_stats_and_abilities_from_embed_and_update")
+# enable_debug(f"{__name__}.parse_stats_and_abilities_from_embed_and_update")
 # enable_debug(f"{__name__}.extract_emoji_id_from_evolution_line")
 # enable_debug(f"{__name__}.extract_rarity_from_embed")
 emoji_map = {
@@ -120,12 +121,29 @@ async def parse_stats_and_abilities_from_embed_and_update(
             "base_spe",
         ]
         stat_diff = any(stats.get(key) != old_data.get(key) for key in stat_keys)
-        abilities_diff = stats.get("abilities") != old_data.get("ability", "").split(
-            ","
+        debug_log(f"Stat diff for {pokemon_name}: {stat_diff}")
+        debug_log(
+            f"About to calculate abilities_diff for {pokemon_name}. Parsed abilities: {stats.get('abilities')}, Cached ability: {old_data.get('ability')}"
+        )
+        old_abilities = old_data.get("ability")
+        if old_abilities is None:
+            old_abilities_list = []
+        else:
+            old_abilities_list = old_abilities.split(",")
+        abilities_diff = stats.get("abilities") != old_abilities_list
+        debug_log(
+            f"Calculated abilities_diff for {pokemon_name}: {abilities_diff}. Parsed abilities: {stats.get('abilities')}, Cached abilities list: {old_abilities_list}"
+        )
+        pretty_log(
+            "debug",
+            f"Comparing new stats and abilities with cache for {pokemon_name}. Stat diff: {stat_diff}, Abilities diff: {abilities_diff}",
         )
         emoji_id_diff = stats.get("emoji_id") != old_data.get("emoji_id")
         debug_log(
             f"Stat diff: {stat_diff}, Abilities diff: {abilities_diff}, Emoji ID diff: {emoji_id_diff}"
+        )
+        debug_log(
+            f"About to check stat/abilities/emoji diff for {pokemon_name}: stat_diff={stat_diff}, abilities_diff={abilities_diff}, emoji_id_diff={emoji_id_diff}"
         )
         if stat_diff or abilities_diff or emoji_id_diff:
             debug_log(f"Updating stats for {pokemon_name} with {stats}")
@@ -234,12 +252,17 @@ async def dex_listener(bot, message: discord.Message):
     pokemon_name = format_names_for_market_value_lookup(pokemon_name)
     key = f"{pokemon_name}, {message.id}"
     if key in processed_dex_message_ids_cache:
-        debug_log(f"Message ID {message.id} for {pokemon_name} already processed. Skipping.")
+        debug_log(
+            f"Message ID {message.id} for {pokemon_name} already processed. Skipping."
+        )
         return
     processed_dex_message_ids_cache.add(key)
-    
+
     embed_image_url = embed.image.url if embed.image else None
     image_link_cache = fetch_image_link_cache(pokemon_name)
+    debug_log(
+        f"dex_listener: embed_image_url={embed_image_url}, image_link_cache={image_link_cache}"
+    )
     existing_exclusive_status = fetch_pokemon_exclusivity_cache(pokemon_name)
     is_exclusive = is_mon_exclusive(pokemon_name)
     if existing_exclusive_status != is_exclusive and is_exclusive == False:
@@ -267,7 +290,6 @@ async def dex_listener(bot, message: discord.Message):
         await update_rarity(bot, pokemon_name, rarity)
         debug_log(f"Updated rarity for {pokemon_name} to {rarity}.")
 
-
     old_emoji_id = fetch_emoji_id_cache(pokemon_name)
     if not old_emoji_id:
         emoji_id = extract_emoji_id_from_evolution_line(embed.description or "")
@@ -283,7 +305,10 @@ async def dex_listener(bot, message: discord.Message):
                 )
 
     try:
-
+        pretty_log(
+            "info",
+            f"Parsing stats and abilities for {pokemon_name} from dex command embed.",
+        )
         await parse_stats_and_abilities_from_embed_and_update(bot, embed, pokemon_name)
     except Exception as e:
         debug_log(
