@@ -75,7 +75,7 @@ class PS_DESC:
 - [Donphan] Endeavor
 - [Donphan] Ice-Shard
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+<a:fidough_wow:1283739703140679703> ***FidNotes***:
 - For NPC IDS: 300 - 306
 - This strat is for enemy teams with Leftovers/Sitrus Berries.
 - If Donphan can't learn Ice-Shard, just evolve a Phanphy with Ice-Shard as its 3rd move.
@@ -106,7 +106,7 @@ class PS_DESC:
 - [Donphan] Endeavor
 - [Donphan] Ice-Shard
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+<a:fidough_wow:1283739703140679703> ***FidNotes***:
 - For NPC IDS: 300 - 306
 - This strat is for enemy teams without Leftovers/Sitrus Berries.
 - You need to set Sableye's ability to Prankster

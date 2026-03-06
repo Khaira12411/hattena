@@ -7,7 +7,7 @@ from straydex.desc import PS_DESC, PS_EMOJIS, SD_MAIN_IMAGES
 from straydex.functions.main import get_default_footer
 from utils.logs.pretty_log import pretty_log
 
-
+PS_CONTENT = f" # STRAYDEX POWER STATION"
 # ❀───────────────────────────────❀
 #       💖  Power Station Embeds  💖
 # ❀───────────────────────────────❀
@@ -21,7 +21,7 @@ async def build_sd_ps_main_info_embed(
 
     try:
         view = PowerStationInfoView(guild, user_id, info_embed, rewards_embed)
-        return info_embed, view, None
+        return info_embed, view, PS_CONTENT
     except Exception as e:
         pretty_log(
             tag="error",
@@ -105,7 +105,7 @@ class PowerStationInfoView(View):
         label="Info",
         style=discord.ButtonStyle.secondary,
         custom_id="i",
-        emoji=PS_EMOJIS.info,
+        emoji=PS_EMOJIS.i,
     )
     async def info_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "i")
@@ -127,8 +127,8 @@ async def build_sd_ps_main_strat_embed(
     strat_two_embed = build_sd_ps_info_embed(guild, user_display_name, "strat_two")
 
     try:
-        view = PowerStationInfoView(guild, user_id, strat_one_embed, strat_two_embed)
-        return strat_one_embed, view, None
+        view = PowerStationStratView(guild, user_id, strat_one_embed, strat_two_embed)
+        return strat_one_embed, view, PS_CONTENT
     except Exception as e:
         pretty_log(
             tag="error",
@@ -193,7 +193,12 @@ class PowerStationStratView(View):
                 ephemeral=True,
             )
     # Buttons for switching between strat one and strat two
-    @discord.ui.button(label="Strat 1", style=discord.ButtonStyle.secondary, custom_id="strat_one", emoji=Emojis.battle)
+    @discord.ui.button(
+        label="Strat 1",
+        style=discord.ButtonStyle.secondary,
+        custom_id="s",
+        emoji=Emojis.battle,
+    )
     async def strat_one_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "s")
 

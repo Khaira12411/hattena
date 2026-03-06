@@ -583,10 +583,14 @@ for sub in it_sub:
 
 ps_sub = ["i", "s"]
 for sub in ps_sub:
-    straydex_ar["ps"][sub] = {
-        "text": getattr(PS_DESC, sub),
-        "function": build_sd_ps_main_info_embed,
-    }
+    if sub == "i":
+        straydex_ar["ps"][sub] = {
+            "function": build_sd_ps_main_info_embed,
+        }
+    else:
+        straydex_ar["ps"][sub] = {
+            "function": build_sd_ps_main_strat_embed,
+        }
 # Icon AR
 ic_sub = ["fa", "mc"]
 for sub in ic_sub:
