@@ -59,8 +59,7 @@ class SD_AC:
 **COMMAND:**  `;ach`
 
 - **TIPS:**
-> - *Most  `Fire`  &  `Grass`  starters can only be found in  `;explore`  (Patreon feature).*
-> - *Most  `Water`  starters can now only be bought from  `;market`.*
+> - *Most  `Fire`, `Water` &  `Grass`  starters can only be found in  `;explore`  (Patreon feature).*
 > - *While most of the Pokemons are caught from  `;p`, there are others that you can only be gotten from egg hatches  `;excl egg`, and by evolving their pre-line [Evolution Exclusives chart](https://discord.com/channels/664509279251726363/670140339180404757/809633104809558056 ).*
 > - *For research shard legendaries  `;u`. It would be best to buy all of them from  `;market`, with the exception of Rayquaza. Rather than wasting your research points purchasing the Red, Blue, Yellow shards.*
 > - *Go to  <#1176807489786888282>  for assistance on "dex-ing" rare Pokemons.*"""
@@ -82,9 +81,7 @@ class SD_AC:
 > - *Use  `!Incense`  or fish in a server with an active Incense. Command:  `;inc`.*
 
 - **FISH & CATCH A  <:Golden11:1147776276510281818>  GOLDEN POKEMON**
-> - *<:Golden11:1147776276510281818>  Golden Pokemon only spawns during <@&1232861519012958300> when fishing.*
-> - *Check if there is an active Golden Fishing Spawn Bonus with   `;bo`.*
-
+> - *Fish during Golden hour, or during an active Golden Fishing Spawn Bonus. Command:  `;bo`.*
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** For more info about items and how to get them. Use the StrayDex command  `!UBGFIS`  to access the item codex.*"""
 
@@ -107,17 +104,20 @@ class SD_AC:
 - **EARN 25 CODES**
 > - *Don't forget to use your  `;codes`  before they expire.*
 
-> **YOU CAN GET CODES FROM:**
+**YOU CAN GET CODES FROM:**
 > - *Completing  `;ach`  pages.*
 > - *Completing event checklist  `;e cl`.*
 > - *Defeating Challengers  `;ch`.*
 > - *Defeating Mega Chamber Final Round  `;mc`.*
 > - *Defeating Special Event NPCs.*
 > - *Finishing 1st, 2nd, or 3rd place in Battle Tower.*
+> - *Winning 1st place in `;lotto`.*
+> - *Getting the Active Trainer Role in Pokemeow Official Server.*
+> - *Winning special contests.*
 
 - **WIN IN THE LOTTERY 3 TIMES**
 > - *Try to buy one lottery ticket everyday. Command:  `;lot buy 1`  which is <:PokeCoin:1166253401546436648>  10K each.*"""
-    ite = f""""# ACHIEVEMENT: ITEM
+    ite = f"""# ACHIEVEMENT: ITEM
 **COMMAND:**  `;ach`
 
 - **GIVE 100 FUN ITEMS TO PLAYER' S FOR THEIR QUESTS**
@@ -128,7 +128,6 @@ class SD_AC:
 > - ***LOOTBOX** is catch streak rewards  `!ubgcas`.*
 > - ***GRAZZ** & **REPELS** are lootbox rewards.*
 > - ***SHINY BOX** & **INCUBATOR** are World Boss rewards  `!wb`.*
-
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:** For more info about items and how to get them. Use the StrayDex command  `!IT`  to access the item codex.*"""
     res = f"""# ACHIEVEMENT: RESEARCH
@@ -141,6 +140,5 @@ class SD_AC:
 > - *Only buy green shards to unlock the chance to encounter  `Celebi`  &  `Rayquaza`.*
 > - *You can always sell  `Rayquaza`  for extra profit.*
 > - *You would need a total of 1,250 Res Points to complete this achievement.*
-
 
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:** Unlock  `Research Fossils`  first before buying anything from the  `;res shop`. Exchanging fossils gives you additional research points!*"""

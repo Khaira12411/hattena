@@ -8,7 +8,7 @@ class SD_UBG:
 You have 5 attempts within **1 min 30 sec** per CAPTCHA. Check carefully before answering.
 
 **Server Help & Safety**
-- React on the CAPTCHA message to ping <@&1113046418307944510> for help.
+- React on the CAPTCHA message to ping <@&1113046418307944510> for help (Only for Straymons clan members).
 - **Critical:** 5 bans = coins & Pokémon lost permanently.
 - To unban a permanently banned account, you need 30,000 <:patreon_token:1296818113735819405>
 - For more info, check PokéMeow’s `;captcha` command.
