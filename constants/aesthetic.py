@@ -73,6 +73,7 @@ class Dividers:
 
 
 class Thumbnails:
+    sd_logs = "https://media.discordapp.net/attachments/1394913073520967680/1479445745537908826/image.png?ex=69ac10b8&is=69aabf38&hm=f0aeb8eaa04930ab63caffb11e943f133931ae3f011099a00e9b5c8dd3d74efa&=&format=webp&quality=lossless"
     macaron = "https://media.discordapp.net/attachments/1394913073520967680/1448094264738189474/image.png?ex=693a0261&is=6938b0e1&hm=e6773b2ea1523c2aa23b0aba1882606238ef822bb67f4f251a5bfe136d113a83&=&format=webp&quality=lossless"
     bank_log = "https://media.discordapp.net/attachments/1394913073520967680/1446172152993681488/chatgpt-image-dec-5--2025--12-10-00-am-preview-1764864679375.png?ex=69330445&is=6931b2c5&hm=77f063db6e6b65a926def5cbcf4bb2708086147e81c412cb2ab93bd9297af06a&=&format=webp&quality=lossless"
     treasury_log = "https://media.discordapp.net/attachments/1394913073520967680/1442084134242615317/image.png?ex=6932a582&is=69315402&hm=dd5019d9ebd112efa1e54415f7c344dadeeb8dcc33c78599e8e5b38d485541ff&=&format=webp&quality=lossless"

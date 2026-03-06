@@ -5,7 +5,7 @@ from straydex.config import SD_CONFIG
 from utils.cache.global_variables import TESTING
 from utils.functions.webhook import send_webhook
 from utils.logs.pretty_log import pretty_log
-
+from constants.aesthetic import Thumbnails
 
 async def send_sd_logs(
     bot: discord.Client,
@@ -30,13 +30,19 @@ async def send_sd_logs(
     url = message.jump_url if message else None
     # Build and return your embed here (example)
     text = (
-        f"- **User:** {user.mention} (ID: {user.id})\n"
+        f"- **User:** {user.mention}\n"
         f"{question_str}"
         f"{commands_str}"
-        f"- **Guild:** {channel.guild.name} (ID: {channel.guild.id})\n"
-        f"- **Channel:** {channel.mention} (ID: {channel.id})"
+        f"- **Guild:** {channel.guild.name})\n"
+        f"- **Channel:** {channel.name}"
     )
-    embed = discord.Embed(title=title_str,url=url,  description=text, color=SD_CONFIG.default_color)
+    guild = channel.guild
+    embed = discord.Embed(
+        title=title_str, url=url, description=text, color=SD_CONFIG.default_color
+    )
+    embed.set_thumbnail(url=Thumbnails.sd_logs)
+    footer_text = f"Guild ID: {channel.guild.id} | User ID: {user.id}"
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     embed.set_author(name=user.name, icon_url=user.avatar.url if user.avatar else None)
     straymon_guild = bot.get_guild(STRAYMONS_GUILD_ID)
     if not straymon_guild:
