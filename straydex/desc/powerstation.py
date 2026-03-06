@@ -2,12 +2,12 @@ from constants.aesthetic import Emojis
 
 
 class PS_EMOJIS:
-    info = Emojis.info
+    i = Emojis.info
     rewards = Emojis.rewards
 
 
 class PS_DESC:
-    info = f"""# POWER STATION INFO
+    i = f"""# POWER STATION INFO
 
 - **What is the Power Station?**
 > - *A weekly event where teams battle NPC trainers to generate <:power:1478570462928699633> Power.*

@@ -16,7 +16,7 @@ async def build_sd_ps_main_info_embed(
     user_display_name: str,
     user_id: int,
 ):
-    info_embed = build_sd_ps_info_embed(guild, user_display_name, "info")
+    info_embed = build_sd_ps_info_embed(guild, user_display_name, "i")
     rewards_embed = build_sd_ps_info_embed(guild, user_display_name, "rewards")
 
     try:
@@ -43,7 +43,7 @@ def build_sd_ps_info_embed(guild: discord.Guild, user_display_name: str, sub: st
     icon_url = guild.icon.url if guild.icon else None
     embed.set_footer(text=footer_text, icon_url=icon_url)
     image_url = Dividers.SD_Alternate
-    if sub == "info":
+    if sub == "i":
         image_url = SD_MAIN_IMAGES.POWERSTATION
     embed.set_image(url=image_url)
     embed.set_author(name="STRAYDEX")
@@ -62,7 +62,7 @@ class PowerStationInfoView(View):
         self.user_id = user_id
         self.info_embed = info_embed
         self.rewards_embed = rewards_embed
-        self.current_embed = "info"  # Track which embed is currently displayed
+        self.current_embed = "i"  # Track which embed is currently displayed
 
         self.update_button_states()
 
@@ -85,7 +85,7 @@ class PowerStationInfoView(View):
             # Update state before editing the message so the correct button is disabled
             self.current_embed = target_embed
             self.update_button_states()
-            if target_embed == "info":
+            if target_embed == "i":
                 await interaction.response.edit_message(embed=self.info_embed, view=self)
             elif target_embed == "rewards":
                 await interaction.response.edit_message(embed=self.rewards_embed, view=self)
@@ -101,9 +101,14 @@ class PowerStationInfoView(View):
             )
 
     # Buttons for switching between info and rewards
-    @discord.ui.button(label="Info", style=discord.ButtonStyle.secondary, custom_id="info", emoji=PS_EMOJIS.info)
+    @discord.ui.button(
+        label="Info",
+        style=discord.ButtonStyle.secondary,
+        custom_id="i",
+        emoji=PS_EMOJIS.info,
+    )
     async def info_button(self, interaction: discord.Interaction, button: Button):
-        await self.switch_embed(interaction, "info")
+        await self.switch_embed(interaction, "i")
 
     @discord.ui.button(label="Rewards", style=discord.ButtonStyle.secondary, custom_id="rewards", emoji=PS_EMOJIS.rewards)
     async def rewards_button(self, interaction: discord.Interaction, button: Button):
