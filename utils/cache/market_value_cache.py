@@ -83,6 +83,18 @@ def fetch_lowest_market_value_cache(pokemon_name: str):
         return pokemon_data.get("lowest_market", 0)
     return 0
 
+
+def fetch_pokemon_exclusivity_cache(pokemon_name: str):
+    """
+    Get exclusivity status for a Pokémon from cache.
+    Returns False if not found or no data.
+    """
+    pokemon_data = market_value_cache.get(pokemon_name.lower())
+    if pokemon_data:
+        return pokemon_data.get("is_exclusive", False)
+    return False
+
+
 def fetch_emoji_id_cache(pokemon_name: str):
     """
     Get emoji ID for a Pokémon from cache.

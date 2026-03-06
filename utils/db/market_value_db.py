@@ -258,6 +258,7 @@ async def update_market_value_via_listener(
     current_listing: int = None,
     image_link: str = None,
     is_exclusive: bool = None,
+    emoji_id: str = None,
 ):
     """
     Update market value data for a Pokémon based on market view listener input.if exists, else insert new record with minimal data
@@ -268,7 +269,33 @@ async def update_market_value_via_listener(
         current_listing = lowest_market
     try:
         async with bot.pg_pool.acquire() as conn:
-            if image_link is not None and is_exclusive is not None:
+            # Always upsert emoji_id if provided
+            if emoji_id is not None:
+                await conn.execute(
+                    """
+                    INSERT INTO market_value (
+                        pokemon_name, lowest_market, listing_seen, last_updated, current_listing, image_link, is_exclusive, emoji_id
+                    )
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+                    ON CONFLICT (pokemon_name) DO UPDATE SET
+                        lowest_market = $2,
+                        listing_seen = $3,
+                        last_updated = $4,
+                        current_listing = $5,
+                        image_link = $6,
+                        is_exclusive = $7,
+                        emoji_id = $8
+                    """,
+                    pokemon_name,
+                    lowest_market,
+                    listing_seen,
+                    datetime.utcnow(),
+                    current_listing,
+                    image_link,
+                    is_exclusive,
+                    emoji_id,
+                )
+            elif image_link is not None and is_exclusive is not None:
                 await conn.execute(
                     """
                     INSERT INTO market_value (
@@ -361,11 +388,14 @@ async def update_market_value_via_listener(
                     market_value_cache[pokemon_name]["image_link"] = image_link
                 if is_exclusive is not None:
                     market_value_cache[pokemon_name]["is_exclusive"] = is_exclusive
+                if emoji_id is not None:
+                    market_value_cache[pokemon_name]["emoji_id"] = emoji_id
                 pretty_log(
                     tag="cache",
                     message=f"Updated market value for {pokemon_name} via listener: lowest_market={lowest_market:,}, listing_seen={listing_seen}, current_listing={current_listing:,}"
                     + (f", image_link updated" if image_link is not None else "")
-                    + (f", is_exclusive updated" if is_exclusive is not None else ""),
+                    + (f", is_exclusive updated" if is_exclusive is not None else "")
+                    + (f", emoji_id updated" if emoji_id is not None else ""),
                 )
             else:
                 market_value_cache[pokemon_name] = {
@@ -375,18 +405,21 @@ async def update_market_value_via_listener(
                     "current_listing": current_listing,
                     "image_link": image_link if image_link is not None else None,
                     "is_exclusive": is_exclusive if is_exclusive is not None else False,
+                    "emoji_id": emoji_id if emoji_id is not None else None,
                 }
                 pretty_log(
                     tag="cache",
                     message=f"Added new market value for {pokemon_name} via listener: lowest_market={lowest_market:,}, listing_seen={listing_seen}, current_listing={current_listing:,}"
                     + (f", image_link set" if image_link is not None else "")
-                    + (f", is_exclusive set" if is_exclusive is not None else ""),
+                    + (f", is_exclusive set" if is_exclusive is not None else "")
+                    + (f", emoji_id set" if emoji_id is not None else ""),
                 )
         pretty_log(
             tag="db",
             message=f"Updated market value for {pokemon_name} via listener: lowest_market={lowest_market:,}, listing_seen={listing_seen}, current_listing={current_listing:,}"
             + (f", image_link updated" if image_link is not None else "")
-            + (f", is_exclusive updated" if is_exclusive is not None else ""),
+            + (f", is_exclusive updated" if is_exclusive is not None else "")
+            + (f", emoji_id updated" if emoji_id is not None else ""),
         )
     except Exception as e:
         pretty_log(

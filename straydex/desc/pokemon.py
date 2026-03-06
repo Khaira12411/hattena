@@ -1684,7 +1684,7 @@ __**WORLD BOSS**__
 - **Moves:**
 > `Stored-Power`
 - **Equip:**
-> `Choice_Specs
+> `Choice_Specs`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`"""
 

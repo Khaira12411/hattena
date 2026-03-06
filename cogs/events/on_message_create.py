@@ -4,12 +4,14 @@ import discord
 from discord.ext import commands
 
 from constants.ask_hattena.overall import STOPWORDS, TOPICS
-from constants.straymons_constants import POKEMEOW_APPLICATION_ID
+from constants.straymons_constants import POKEMEOW_APPLICATION_ID, MH_APP_ID
 from utils.functions.ask_hattena import match_topic
 from utils.listener_func.dex_listener import dex_listener
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
+from utils.listener_func.market_view_listener import market_view_listener
+from utils.listener_func.mh_lookup_listener import lookup_listener
 
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
 ignore_prefix_commands = [
@@ -64,6 +66,18 @@ class MessageCreateListener(commands.Cog):
         guild = message.guild
         if not guild:
             return  # Skip DMs
+
+        # ————————————————————————————————
+        # 🩵 MH Lookup Listener
+        # ————————————————————————————————
+        if message.author.bot and message.author.id == MH_APP_ID:
+            if message.embeds and message.embeds[0]:
+                if embed_has_field_name(message.embeds[0], "Lowest Market"):
+                    pretty_log(
+                        "info",
+                        f"Detected MH lookup embed with 'Lowest Market' field. Triggering MH lookup listener.",
+                    )
+                    await lookup_listener(self.bot, message)
         if message.author.bot and message.author.id != POKEMEOW_APPLICATION_ID:
             return  # Ignore other bots except PokéMeow
 
@@ -80,7 +94,9 @@ class MessageCreateListener(commands.Cog):
         embed_footer_text = (
             first_embed.footer.text if first_embed and first_embed.footer else ""
         )
-
+        first_embed_author = (
+            first_embed.author.name if first_embed and first_embed.author else ""
+        )
         # ————————————————————————————————
         # 🩷 Straydex Handler
         # ————————————————————————————————
@@ -146,7 +162,20 @@ class MessageCreateListener(commands.Cog):
             if embed_has_field_name(first_embed, "Dex Number"):
                 await dex_listener(self.bot, message)
 
-
+        # ————————————————————————————————
+        # 🩷 MARKET VIEW LISTENER
+        # ————————————————————————————————
+        if (
+            first_embed
+            and "PokeMeow Global Market" in first_embed_author
+            and not "Recent" in first_embed_author
+            and not "Rarity" in first_embed_author
+        ):
+            pretty_log(
+                tag="info",
+                message=f"Processing market view message with embed author: {first_embed_author}",
+            )
+            await market_view_listener(self.bot, message)
 # 🌈────────────────────────────────────────────
 #        🛠️ Setup function to add cog to bot
 # 🌈────────────────────────────────────────────
