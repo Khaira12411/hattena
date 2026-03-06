@@ -123,7 +123,7 @@ async def build_sd_ps_main_strat_embed(
     user_display_name: str,
     user_id: int,
 ):
-    strat_one_embed = build_sd_ps_info_embed(guild, user_display_name, "strat_one")
+    strat_one_embed = build_sd_ps_info_embed(guild, user_display_name, "s")
     strat_two_embed = build_sd_ps_info_embed(guild, user_display_name, "strat_two")
 
     try:
@@ -155,7 +155,7 @@ class PowerStationStratView(View):
         self.user_id = user_id
         self.strat_one_embed = strat_one_embed
         self.strat_two_embed = strat_two_embed
-        self.current_embed = "strat_one"  # Track which embed is currently displayed
+        self.current_embed = "s"  # Track which embed is currently displayed
 
         self.update_button_states()
 
@@ -178,7 +178,7 @@ class PowerStationStratView(View):
             # Update state before editing the message so the correct button is disabled
             self.current_embed = target_embed
             self.update_button_states()
-            if target_embed == "strat_one":
+            if target_embed == "s":
                 await interaction.response.edit_message(embed=self.strat_one_embed, view=self)
             elif target_embed == "strat_two":
                 await interaction.response.edit_message(embed=self.strat_two_embed, view=self)
@@ -195,7 +195,7 @@ class PowerStationStratView(View):
     # Buttons for switching between strat one and strat two
     @discord.ui.button(label="Strat 1", style=discord.ButtonStyle.secondary, custom_id="strat_one", emoji=Emojis.battle)
     async def strat_one_button(self, interaction: discord.Interaction, button: Button):
-        await self.switch_embed(interaction, "strat_one")
+        await self.switch_embed(interaction, "s")
 
     @discord.ui.button(label="Strat 2", style=discord.ButtonStyle.secondary, custom_id="strat_two", emoji=Emojis.battle)
     async def strat_two_button(self, interaction: discord.Interaction, button: Button):

@@ -49,7 +49,7 @@ class PS_DESC:
 > - *Station NPCs (300 - 306): 1/50 chance to drop <:rocky_helmet:1478585825674531039> Rocky Helmet or <:safety_goggles:1478585823808065778> Safety Goggles.*
 > - *Master Electrician: 1/50 chance to drop <:light_ball:1478585821601988729> Light Ball or <:heavy_duty_boots:1478585819244662813> Heavy-Duty Boots.*"""
 
-    strat_one = f"""**TEAM:**
+    s = f"""**TEAM:**
 - **Mimikyu**
 > Ability: `Disguise`
 > Equip: `Ability_Shield`
