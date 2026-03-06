@@ -581,6 +581,12 @@ for sub in it_sub:
         "function": build_sd_item_embed,
     }
 
+ps_sub = ["i", "s"]
+for sub in ps_sub:
+    straydex_ar["ps"][sub] = {
+        "text": getattr(PS_DESC, sub),
+        "function": build_sd_ps_main_info_embed,
+    }
 # Icon AR
 ic_sub = ["fa", "mc"]
 for sub in ic_sub:
