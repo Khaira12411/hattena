@@ -33,7 +33,7 @@ async def send_sd_logs(
         f"- **User:** {user.mention}\n"
         f"{question_str}"
         f"{commands_str}"
-        f"- **Guild:** {channel.guild.name})\n"
+        f"- **Guild:** {channel.guild.name}\n"
         f"- **Channel:** {channel.name}"
     )
     guild = channel.guild
