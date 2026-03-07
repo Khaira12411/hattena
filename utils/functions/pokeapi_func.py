@@ -10,10 +10,10 @@ from utils.functions.pokemon_func import format_names_for_market_value_lookup
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
-#enable_debug(f"{__name__}.get_pokemon_stats")
-#enable_debug(f"{__name__}.fetch_pokemon_base_stats_cache")
+enable_debug(f"{__name__}.get_pokemon_stats")
+enable_debug(f"{__name__}.fetch_pokemon_base_stats_cache")
 enable_debug(f"{__name__}.get_pokemon_weight")
-#enable_debug(f"{__name__}.fetch_pokemon_stats_from_api")
+enable_debug(f"{__name__}.fetch_pokemon_stats_from_api")
 enable_debug(f"{__name__}.fetch_pokemon_weight_from_api")
 enable_debug(f"{__name__}.format_name_for_api_lookup")
 
