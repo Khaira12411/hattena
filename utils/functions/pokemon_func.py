@@ -148,8 +148,8 @@ def get_display_name(pokemon_name: str, dex: bool = False) -> str:
     rarity = get_rarity(pokemon_name)
     rarity_emoji = rarity_meta.get(rarity, {}).get("emoji", "") if rarity else ""
 
-    pokemon_name = strip_prefixes(pokemon_name)
-    display_name = f"{rarity_emoji} {pokemon_name}".strip()
+    stripped_name = strip_prefixes(pokemon_name)
+    display_name = f"{rarity_emoji} {stripped_name}".strip()
 
     if dex:
         dex_number = get_dex_number_by_name(pokemon_name)
