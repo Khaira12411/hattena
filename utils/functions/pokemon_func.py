@@ -13,7 +13,7 @@ from utils.logs.pretty_log import pretty_log
 # ✨───────────────────────────────────────────────
 #            📦 Precomputed Lookup Sets
 # ✨───────────────────────────────────────────────
-
+7
 legendary_set = {mon.lower() for mon in legendary_mons}
 superrare_set = {mon.lower() for mon in superrare_mons}
 rare_set = {mon.lower() for mon in rare_mons}
@@ -183,16 +183,16 @@ def get_rarity(pokemon: str):
         return "golden"
 
     if "shiny" in name and "gigantamax" in name:
-        return "sgmax"
+        return "shiny gigantamax"
 
     if "shiny" in name and "mega" in name:
-        return "smega"
+        return "shiny mega"
 
     if "shiny" in name:
         return "shiny"
 
     if "gigantamax" in name:
-        return "gmax"
+        return "gigantamax"
 
     if "mega" in name and "yanmega" not in name and "meganium" not in name:
         return "mega"
