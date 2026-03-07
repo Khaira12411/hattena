@@ -10,7 +10,7 @@ from discord.ext import commands
 BOT_INSTANCE: commands.Bot | None = None
 
 
-def set_hattena_bot(bot: commands.Bot):
+def set_hatenna_bot(bot: commands.Bot):
     global BOT_INSTANCE
     BOT_INSTANCE = bot
 

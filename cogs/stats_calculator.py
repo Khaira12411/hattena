@@ -199,7 +199,7 @@ class StatsCalculator(commands.Cog):
             "success",
             f"{interaction.user.name} used stats-calculator for {pokemon} - Stat: {stat}, IVs: {ivs}, EVs: {evs}, Level: {level}, Result: {calculated_stat}",
         )
-
+    stats_calculator.extras = {"category": "Public"}
 
 async def setup(bot):
     await bot.add_cog(StatsCalculator(bot))

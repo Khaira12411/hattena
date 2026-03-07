@@ -2,7 +2,10 @@ import discord
 
 from constants.straydex import SD_EMOJIS
 from constants.weakness_chart import weakness_chart
+from utils.functions.pokemon_func import (get_dex_number_by_name,
+                                          get_display_name, get_name_via_dex)
 from utils.logs.pretty_log import pretty_log
+from utils.visuals.get_pokemon_gifs import get_pokemon_gif
 
 TYPE_EMOJIS = {
     "grass": SD_EMOJIS.grasstype,
@@ -68,7 +71,7 @@ def get_type_embed_color(pokemon_name: str) -> int:
 
 
 # -------------------- Reusable Parsing Functions --------------------
-def parse_normal_pokemon(dex_int: int, first_index: str, dex_count: int):
+def parse_normal_pokemon(dex_int: int, first_index: str, dex_count: int, is_digit: bool):
     """Handles regular Pokemon input (1-6999, or weighted 1001/9001 style for shiny/golden)"""
 
     # If first digit is 7 and dex has 4 digits, use it as-is
@@ -109,7 +112,7 @@ def parse_normal_pokemon(dex_int: int, first_index: str, dex_count: int):
             f"Failed to resolve normal Pokemon for dex {dex_int}",
         )
 
-    return variant_name, shiny_golden_tag, base_dex
+    return variant_name, shiny_golden_tag, base_dex, is_digit
 
 
 # -------------------- Resolver --------------------
@@ -117,7 +120,7 @@ def get_pokemon_from_input(pokemon_input: str):
     """Main resolver function: handles name, normal dex, and forms"""
     pokemon = pokemon_input.lower().strip()
     shiny_golden_tag = ""
-
+    is_digit = False
     for prefix, tag in [("shiny ", "Shiny"), ("golden ", "Golden")]:
         if pokemon.startswith(prefix):
             pokemon = pokemon[len(prefix) :].strip()
@@ -129,7 +132,8 @@ def get_pokemon_from_input(pokemon_input: str):
     # Name lookup
     if normalized_name in weakness_chart:
         dex_val = int(weakness_chart[normalized_name]["dex"])
-        return normalized_name, shiny_golden_tag, dex_val
+        # Always return 4 values for consistency
+        return normalized_name, shiny_golden_tag, dex_val, False
 
     # Dex input
     if pokemon.isdigit():
@@ -137,18 +141,19 @@ def get_pokemon_from_input(pokemon_input: str):
         first_index = dex_str[0]
         dex_int = int(pokemon)
         dex_count = len(dex_str)
+        is_digit = True
 
-        return parse_normal_pokemon(dex_int, first_index, dex_count)
+        return parse_normal_pokemon(dex_int, first_index, dex_count, is_digit)
 
     pretty_log(
         "error",
         f"Unresolved Pokemon input: '{pokemon_input}'",
     )
-    return None, None, None
+    return None, None, None, None
 
 # -------------------- Embed Builder --------------------
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
-    variant_name, shiny_golden_tag, base_dex = get_pokemon_from_input(pokemon_input)
+    variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(pokemon_input)
 
     if not variant_name:
         return None
@@ -172,9 +177,14 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         if tag:
             display_name = f"{tag} {display_name}"
         return display_name
-
+    dex_number = pokemon_input if is_digit else get_dex_number_by_name(pokemon_input)
     display_name = clean_display_name(variant_name, shiny_golden_tag)
-    embed_title = f"{display_name} {SD_EMOJISs_str}"
+    embed_title = f"{SD_EMOJISs_str} {display_name} #{dex_number}"
+    image_lookup_name = (
+        pokemon_input
+        if not is_digit
+        else get_name_via_dex(str(pokemon_input))
+    )
 
     embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
 
@@ -187,9 +197,13 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
             ]
             description_lines.append(f"**{mult}**: {', '.join(types_with_emoji)}")
 
+    image_url = get_pokemon_gif(image_lookup_name)
     embed = discord.Embed(
         title=embed_title,
         description="\n\n".join(description_lines),
         color=embed_color,
     )
+    if image_url:
+        embed.set_thumbnail(url=image_url)
     return embed, description_lines, embed_title
+

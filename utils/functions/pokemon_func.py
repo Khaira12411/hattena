@@ -48,6 +48,18 @@ IN_GAME_MONS_LIST = (
 exclusive_mons_list = list(exclusive_mons.keys())
 
 
+def get_name_via_dex(dex_number: str | int) -> str | None:
+    """Returns the Pokémon name for a given dex number in IN_GAME_MONS_LIST, or None if not found."""
+    try:
+        dex_number = int(dex_number)
+    except (ValueError, TypeError):
+        return None
+    for pokemon in IN_GAME_MONS_LIST:
+        if get_dex_number_by_name(pokemon) == dex_number:
+            return pokemon
+    return None
+
+
 def strip_prefixes(pokemon_name: str):
     """
     Strip form prefixes from a Pokémon name to get the base name for market value lookup.

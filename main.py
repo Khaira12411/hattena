@@ -14,10 +14,11 @@ from discord import app_commands
 from discord.ext import commands, tasks
 from dotenv import load_dotenv
 
+from utils.cache.cache_list import clear_processed_ids_cache
 from utils.cache.central_cache_loader import load_all_caches
 from utils.db.get_pg_pool import *
-from utils.logs.pretty_log import pretty_log, set_hattena_bot
-from utils.cache.cache_list import clear_processed_ids_cache
+from utils.logs.pretty_log import pretty_log, set_hatenna_bot
+
 # ❀───────────────────────────────❀
 #       💖  Suppress Logs  💖
 # ❀───────────────────────────────❀
@@ -42,7 +43,7 @@ intents.message_content = True
 intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
-set_hattena_bot(bot)
+set_hatenna_bot(bot)
 
 
 # ❀───────────────────────────────❀
@@ -127,9 +128,7 @@ async def on_ready():
     await startup_checklist(bot)
 
     await bot.change_presence(
-        activity=discord.Activity(
-            type=discord.ActivityType.watching, name=" 💜 !h"
-        )
+        activity=discord.Activity(type=discord.ActivityType.watching, name=" 💜 !h")
     )
 
 
@@ -173,9 +172,7 @@ async def main():
             break
         except Exception as e:
             pretty_log("error", f"Bot crashed: {e}", include_trace=True)
-            pretty_log(
-                "ready", f"Restarting Hattena Bot in {retry_delay} seconds..."
-            )
+            pretty_log("ready", f"Restarting Hattena Bot in {retry_delay} seconds...")
             await asyncio.sleep(retry_delay)
             retry_delay = min(retry_delay * 2, 60)
 
