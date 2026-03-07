@@ -3,16 +3,16 @@ from constants.pokemon_gifs import GOLDEN_MEGA_POKEMON_URL
 
 class SD_MC_REG_STRAT:
     abo = f"""**TEAM:**
-- **Zacian Crowned**
+- **Zacian-Crowned #7891**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar` `Behemoth-Blade`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Abomasnow**
-> Equip: `Luck Incense`
+- **Abomasnow #460**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -25,16 +25,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Golden Arceus with Leftovers and Stored-Power. But use Close-Combat/Behemoth-Blade if you encountered a Weavile with Zacian.*"""
 
     abs = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Houndoom**
-> Equip: `Luck Incense`
+- **Absol #359**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -45,16 +45,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     aer = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus | Arceus Steel | Electric | Normal **
+- **Golden Arceus #9493 | Arceus Steel #7609 | Electric #7588 | Normal #493**
 > Equip: `Leftovers`
-> Moves: `Surf` `Recover` `Calm-Mind` `Iron-Defense`
+> Moves: `Power-Gem` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP2 52` `DEF 128` `SPD 128`
-- **Aerodactyl**
-> Equip: `Luck Incense`
+- **Aerodactyl #142**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -65,16 +65,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     agg = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Aggron**
-> Equip: `Luck Incense`
+- **Aggron #306**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -87,22 +87,22 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***  *You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
     ala = f"""**WARM UPS TEAM:**
-- **Whimsicott**
+- **Whimsicott #547**
 > Equip: `Flame_Orb`
 > Moves: `Memento` `Switcheroo` `Toxic`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Alakazam**
-> Equip: `Luck Incense`
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **FINALS TEAM:**
-- **Whimsicott**
+- **Whimsicott #547**
 > Equip: `Flame_Orb`
 > Moves: `Memento` `Switcheroo` `Toxic`
-- **Zacian-Crowned**
+- **Zacian-Crowned #7891**
 > Equip: `Choice_Cloak`
 > Moves: `Crunch`
 > EVs: `SPE 252` `HP 252`
@@ -125,16 +125,16 @@ class SD_MC_REG_STRAT:
 - Fully Heal Arceus before facing Lunala."""
 
     alt = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Altaria**
-> Equip: `Luck Incense`
+- **Altaria #334**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -147,16 +147,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *Crowned Zacian, and Arceus-Electric/Tapu-Koko are best for finals. Since C Zacian is neutral to Steel Wing and Electric/Tapu-Koko is neutral to thunderbolt's paralyze*"""
 
     amp = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric | Arceus-Ground**
+- **Arceus-Electric #7588 | Arceus-Ground #7597**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Ampharos**
-> Equip: `Luck Incense`
+- **Ampharos #181**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -167,16 +167,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     aud = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Audino**
-> Equip: `Luck Incense`
+- **Audino #531**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -187,16 +187,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     ban = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Dark**
+- **Arceus-Dark #7576**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Banette**
-> Equip: `Luck Incense`
+- **Banette #354**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -207,16 +207,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     bee = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Beedrill**
-> Equip: `Luck Incense`
+- **Beedrill #15**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -227,16 +227,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     bla = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Blastoise**
-> Equip: `Luck Incense`
+- **Blastoise #9**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -249,16 +249,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *Arceus Electric is better for warm up as it is immune to Paralyze. Arceus-Grass for final.*"""
 
     blz = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Blaziken**
-> Equip: `Luck Incense`
+- **Blaziken #257**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -269,16 +269,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     cam = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Camerupt**
-> Equip: `Luck Incense`
+- **Camerupt #323**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -289,16 +289,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     chx = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Charizard**
-> Equip: `Luck Incense`
+- **Charizard #6**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -311,16 +311,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Water/Fire as replacement for Golden Arceus.*"""
 
     chy = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Charizard**
-> Equip: `Luck Incense`
+- **Charizard #6**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -333,16 +333,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
 
     dia = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Diancie**
-> Equip: `Luck Incense`
+- **Diancie #719**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -353,16 +353,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     gal = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gallade**
-> Equip: `Luck Incense`
+- **Gallade #475**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -373,15 +373,15 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     gar = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Garchomp**
+- **Garchomp #445**
 > Equip: `Choice_Scarf`
 > Moves: `Bulldoze`
 
@@ -395,16 +395,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf` | `Choice_Cloak`
 > Moves: `Noble-Roar` `Crunch` `Iron-Head`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gardevoir**
-> Equip: `Luck Incense`
+- **Gardevoir #282**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -419,15 +419,15 @@ class SD_MC_REG_STRAT:
 - Swap to Gardevoir, let it die and go back to Zacian to do 6x Noble-Roar then proceed with the rest of the strat."""
 
     gen = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar` `Dig` `Crunch` `Iron-Head`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Gengar**
+- **Golden Gengar #9094**
 > Equip: `Choice_Scarf`
 > Moves: `Icy Wind` `Zap Cannon` `Psychic` `Shadow-Ball`
 
@@ -441,16 +441,16 @@ class SD_MC_REG_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *Avoid setting up against Nick's Mimikyu, Nicki's Nihelego, Gengar. Both Chandelure & Rotom can Paralyze. Try your best to keep G Zacian alive if enemy has Chandelure in 2nd or 3rd.*"""
 
     gla = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Glalie**
-> Equip: `Luck Incense`
+- **Glalie #362**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -461,16 +461,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     gya = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Grass**
+- **Arceus-Grass #7570**
 > Equip: `Miracle Seed | Leftovers`
 > Moves: `Giga-Drain | Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gyarados**
-> Equip: `Luck Incense`
+- **Gyarados #130**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -481,16 +481,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     her = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Heracross**
-> Equip: `Luck Incense`
+- **Heracross #214**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -501,16 +501,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     hou = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Houndoom**
-> Equip: `Luck Incense`
+- **Houndoom #229**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -521,16 +521,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     kan = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Kangaskhan**
-> Equip: `Luck Incense`
+- **Kangaskhan #113**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -541,16 +541,16 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     laa = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Gmax Corviknight**
+- **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
-- **Latias**
-> Equip: `Luck Incense`
+- **Latias #380**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -561,16 +561,16 @@ class SD_MC_REG_STRAT:
 - [Corvi] Roost on Low HP"""
 
     lao = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Dark**
+- **Arceus-Dark #7576**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Latios**
-> Equip: `Luck Incense`
+- **Latios #381**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -585,12 +585,12 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Lopunny**
-> Equip: `Luck Incense`
+- **Lopunny #428**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -604,26 +604,26 @@ class SD_MC_REG_STRAT:
 
     luc = f"""**TEAM:**
 **__1st Position__**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 
 **__2nd Position__**
-- **Arceus-Fire | Arceus-Water | Arceus-Ground**
+- **Arceus-Fire #7549| Arceus-Water #7555 | Arceus-Ground #7597**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 __Or__
-- **Gmax Corviknight**
+- **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Bulk-Up` `Max-Quake` `Roost`
 > EVs: `DEF 252` `HP 252` `SPD 4`
 
 **__3rd Position__**
-- **Lucario**
-> Equip: `Luck Incense`
+- **Lucario #448**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -636,16 +636,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***  *Arceus-Ground is the best option for finals!.*"""
 
     man = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Manectric**
-> Equip: `Luck Incense`
+- **Manectric #310**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -658,16 +658,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Golden Arceus/Arceus-Ground with Leftovers and Stored-Power.*"""
 
     maw = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Mawile**
-> Equip: `Luck Incense`
+- **Mawile #303**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -678,16 +678,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     med = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Medicham**
-> Equip: `Luck Incense`
+- **Medicham #308**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -700,16 +700,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Flying as alternative for Fairy.*"""
 
     met = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Dark #7576**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Metagross**
-> Equip: `Luck Incense`
+- **Metagross #376**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -720,15 +720,15 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     mmx = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Zap Cannon` `Bulldoze`
 > Moves: `Choice_Scarf`
 
@@ -742,15 +742,15 @@ __Or__
 > <a:fidough_wow:1283739703140679703> If you encounter any normal type with Arceus-Ghost.. Congrats! You're cooked. Worry not *dough* since this still has the highest win rate.*"""
 
     mmy = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **GMAX-Corviknight**
+- **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
-- **Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Warmups: Choice-Scarf` `Finals: Assault_Vest`
 > Moves: `Zap-Cannon` `Bulldoze` `Self-Destruct` `Icy-Wind`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -766,16 +766,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     pid = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Pidgeot**
-> Equip: `Luck Incense`
+- **Pidgeot #18**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -783,19 +783,21 @@ __Or__
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Electric/Ice/Rock with Leftovers and Judgment.*"""
 
     pin = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Flamethrower` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Pinsir**
-> Equip: `Luck Incense`
+- **Pinsir #127**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -806,17 +808,17 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     ray = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Cloak`
 > Moves: `Noble-Roar` `Play-Rough`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Ice-Beam` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Rayquaza**
+- **Golden Rayquaza #9384**
 > Equip: `Choice_Scarf`
-> Moves: `Thunder-Wave` `Breaking Swipe` `Confide` `Icy Wind`
+> Moves: `Thunder-Wave` `Breaking-Swipe` `Confide` `Icy Wind`
 > EVs: `SPE 252`
 
 **STRATEGY:**
@@ -827,16 +829,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     sab = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Sableye**
-> Equip: `Luck Incense`
+- **Sableye #302**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -848,26 +850,26 @@ __Or__
 
     sal = f"""**TEAM:**
 **__1st Position__**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
 
 **__2nd Position__**
-- **Arceus | Golden Arceus**
+- **Arceus #493 | Golden Arceus #9493**
 > Equip: `Leftovers` | `Silk Scarf`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 __Or__
-- **Arceus-Electric** (Finals Only)
+- **Arceus-Electric #7588** (Finals Only)
 > Equip: `Leftovers`
 > Moves: `Power-Gem` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **__3rd Position__**
-- **Salamence**
-> Equip: `Luck Incense`
+- **Salamence #373**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -878,16 +880,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     sce = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Psychic**
+- **Arceus-Psychic #7654**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
-- **Sceptile**
-> Equip: `Luck Incense`
+- **Sceptile #254**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -900,16 +902,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *There is no Dark type in this MC so don't worry!*"""
 
     sci = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
-- **Scizor**
-> Equip: `Luck Incense`
+- **Scizor #212**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -920,16 +922,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     sha = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Sharpedo**
-> Equip: `Luck Incense`
+- **Sharpedo #319**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -940,16 +942,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     slo = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Dark**
+- **Arceus-Dark #7576**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Slowbro**
-> Equip: `Luck Incense`
+- **Slowbro #80**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -960,16 +962,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     ste = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Steelix**
-> Equip: `Luck Incense`
+- **Steelix #208**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -982,16 +984,16 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus-Grass for slot 2.*"""
 
     swa = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Grass**
+- **Arceus-Grass #7570**
 > Equip: `Leftovers`
 > Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Swampert**
-> Equip: `Luck Incense`
+- **Swampert #260**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1002,17 +1004,17 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     tyr = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Tyranitar**
+- **Golden Tyranitar #9248**
 > Equip: `Assault_Vest`
-> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body-Slam`
+> Moves: `Snarl` `Breaking-Swipe` `Mud Slap` `Body-Slam`
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
@@ -1022,16 +1024,16 @@ __Or__
 - [Arceus] Recover on Low HP"""
 
     ven = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Venusaur**
-> Equip: `Luck Incense`
+- **Venusaur #3**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1046,16 +1048,16 @@ __Or__
 
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
-- **Zacian Crowned**
+- **Zacian-Crowned #7891**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar` `Behemoth-Blade`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Abomasnow**
-> Equip: `Luck Incense`
+- **Abomasnow #460**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1069,16 +1071,16 @@ class SD_MC_GOLD_STRAT:
 > <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     abs = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Houndoom**
-> Equip: `Luck Incense`
+- **Absol #359**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -1091,16 +1093,16 @@ class SD_MC_GOLD_STRAT:
     aer = None
 
     agg = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Aggron**
-> Equip: `Luck Incense`
+- **Aggron #306**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1119,16 +1121,16 @@ class SD_MC_GOLD_STRAT:
     amp = SD_MC_REG_STRAT.amp
 
     aud = """**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Audino**
-> Equip: `Luck Incense`
+- **Audino #531**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1141,16 +1143,16 @@ class SD_MC_GOLD_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fire/Ground/Normal/Golden.*"""
 
     ban = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Banette**
-> Equip: `Luck Incense`
+- **Banette #354**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -1163,11 +1165,11 @@ class SD_MC_GOLD_STRAT:
     bee = None
 
     bla = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Grass**
+- **Arceus-Grass #7570**
 > Equip: `Miracle Seed` `Leftovers`
 > Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -1183,16 +1185,16 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     blz = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Blaziken**
-> Equip: `Luck Incense` | `Quick Claw` | `Focus_Band`
+- **Blaziken #257**
+> Equip: `Luck_Incense` | `Quick Claw` | `Focus_Band`
 > Moves: `Feather Dance` `Confide` `Low Sweep`
 
 **STRATEGY:**
@@ -1205,20 +1207,20 @@ class SD_MC_GOLD_STRAT:
     cam = None
 
     chx = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Charizard**
-> Equip: `Luck Incense`
-> Moves: `Breaking Swipe` `Mystical-Fire`
+- **Charizard #6**
+> Equip: `Luck_Incense`
+> Moves: `Breaking-Swipe` `Mystical-Fire`
 
 **STRATEGY:**
-- [Charizard] Use Breaking Swipe to lower attack or Mystical Fire to lower sp. attack til it dies
+- [Charizard] Use Breaking-Swipe to lower attack or Mystical-Fire to lower sp. attack til it dies
 - [Zacian] Noble-Roar -6 or til it dies
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
@@ -1226,21 +1228,21 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     chy = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Cosmic-Power` `Body-Press`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Charizard**
+- **Charizard #6**
 > Equip: `Choice_Scarf`
-> Moves: `Will o Wisp`
+> Moves: `Will-o-Wisp`
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
-- [Charizard] Use Will o Wisp against Gmax Corviknight before you setup with Arceus
+- [Charizard] Use Will-o-Wisp against GMAX-Corviknight before you setup with Arceus
 - [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
 - [Arceus] Body-Press spam
@@ -1251,16 +1253,16 @@ class SD_MC_GOLD_STRAT:
     dia = None
 
     gal = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Psychic**
+- **Arceus-Psychic #7654**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gallade**
-> Equip: `Luck Incense`
+- **Gallade #475**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1273,15 +1275,15 @@ class SD_MC_GOLD_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Ghost for slot 2.*"""
 
     gar = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Garchomp**
+- **Garchomp #445**
 > Equip: `Choice_Scarf`
 > Moves: `Mud Slap`
 
@@ -1295,14 +1297,14 @@ class SD_MC_GOLD_STRAT:
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = f"""**TEAM:**
-- **Gardevoir**
+- **Gardevoir #282**
 > Equip: `Quick_Claw`
 > Moves: `Memento` `Destiny-Bond` `Captivate` `Charm`
 > EVs: `SPE 252` `HP 252`
-- **Whimsicott**
-> Equip: `Luck Incense`
+- **Whimsicott #547**
+> Equip: `Luck_Incense`
 > Moves: `Memento` `Charm`
-- **Arceus-Steel**
+- **Arceus-Steel #7609**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -1319,15 +1321,15 @@ class SD_MC_GOLD_STRAT:
 - Use Destiny Bond if the leading pokemon is Gmax-Hatterene, Golden Mewtwo, Golden MMX, and Golden MMY."""
 
     gen = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ground**
+- **Arceus-Ground #7597**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Gengar**
+- **Golden Gengar #9094**
 > Equip: `Choice_Scarf`
 > Moves: `Zap Cannon` `Icy Wind`
 
@@ -1344,16 +1346,16 @@ class SD_MC_GOLD_STRAT:
     gla = None
 
     gya = f"""**WARM UPS TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar` `Play-Rough`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Grass**
+- **Arceus-Grass #7570**
 > Equip: `Miracle Seed`
 > Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gyarados**
-> Equip: `Luck Incense`
+- **Gyarados #130**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **WARM UPS STRATEGY:**
@@ -1364,15 +1366,15 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP
 
 **FINALS TEAM:**
-- **Whimsicott**
+- **Whimsicott #547**
 > Equip: `Choice_Scarf`
 > Moves: `Switcheroo`
-- **Arceus-Grass**
+- **Arceus-Grass #7570**
 > Equip: `Miracle Seed`
 > Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Gyarados**
-> Equip: `Luck Incense`
+- **Gyarados #130**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
@@ -1384,16 +1386,16 @@ class SD_MC_GOLD_STRAT:
 - If Mega Gyarados leads, switch to Gyarados to intimidate then switch to Arceus and use 3x Iron-Defense, and 6x Calm-Mind before attack move spam"""
 
     her = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Heracross**
-> Equip: `Luck Incense`
+- **Heracross #214**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -1404,16 +1406,16 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     hou = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Houndoom**
-> Equip: `Luck Incense`
+- **Houndoom #229**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -1426,11 +1428,11 @@ class SD_MC_GOLD_STRAT:
     kan = None
 
     laa = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Gmax Corviknight**
+- **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
@@ -1449,15 +1451,15 @@ class SD_MC_GOLD_STRAT:
     lao = None
 
     lop = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar` `Psychic-Fangs`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Lopunny**
+- **Lopunny #428**
 > Equip: `Choice_Scarf`
 > Moves: `Thunder-Wave`
 
@@ -1481,15 +1483,15 @@ class SD_MC_GOLD_STRAT:
     met = None
 
     mmx = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Ghost**
+- **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Zap Cannon` `Bulldoze`
 > Moves: `Choice_Scarf`
 
@@ -1501,15 +1503,15 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     mmy = f"""**TEAM:**
-- **Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Assault_Vest`
 > Moves: `Zap-Cannon` `Bulldoze` `Self-Destruct` `Icy-Wind`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **GMAX-Corviknight**
+- **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
@@ -1529,17 +1531,17 @@ class SD_MC_GOLD_STRAT:
     pin = None
 
     ray = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Cloak`
 > Moves: `Noble-Roar` `Play-Rough`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Rayquaza**
+- **Golden Rayquaza #9384**
 > Equip: `Choice_Scarf`
-> Moves: `Thunder-Wave` `Breaking Swipe` `Confide` Icy Wind`
+> Moves: `Thunder-Wave` `Breaking-Swipe` `Confide` Icy Wind`
 > EVs: `SPE 252`
 
 **STRATEGY:**
@@ -1553,7 +1555,7 @@ class SD_MC_GOLD_STRAT:
 
     sal = f"""**TEAM:**
 **__1st Position__**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
@@ -1565,8 +1567,8 @@ class SD_MC_GOLD_STRAT:
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **__3rd Position__**
-- **Salamence**
-> Equip: `Luck Incense`
+- **Salamence #373**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1577,16 +1579,16 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     sce = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Sceptile**
-> Equip: `Luck Incense`
+- **Sceptile #254**
+> Equip: `Luck_Incense`
 > Moves: `N/A`
 
 **STRATEGY:**
@@ -1597,16 +1599,16 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     sci = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fire**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128``
-- **Scizor**
-> Equip: `Luck Incense`
+- **Scizor #212**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1619,16 +1621,16 @@ class SD_MC_GOLD_STRAT:
     sha = None
 
     slo = """**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Dark**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Audino**
-> Equip: `Luck Incense`
+- **Slowbro #80**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1639,17 +1641,17 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Recover on Low HP"""
 
     ste = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Water**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Steelix**
+- **Steelix #208**
 > Equip: `Quick Claw`
-> Moves: `Confide` `Breaking Swipe` `Dragon Breath`
+> Moves: `Confide` `Breaking-Swipe` `Dragon Breath`
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
@@ -1662,16 +1664,16 @@ class SD_MC_GOLD_STRAT:
 """
 
     swa = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus**
+- **Golden Arceus #9493**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Swampert**
-> Equip: `Luck Incense`
+- **Swampert #260**
+> Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
@@ -1684,17 +1686,17 @@ class SD_MC_GOLD_STRAT:
 >  <a:fidough_wow:1283739703140679703> ***FidNotes:*** *If you are using Arceus-Grass just use the setup strat!!*"""
 
     tyr = f"""**TEAM:**
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Golden Tyranitar**
+- **Golden Tyranitar #9248**
 > Equip: `Assault_Vest`
-> Moves: `Snarl` `Breaking Swipe` `Mud Slap` `Body-Slam`
+> Moves: `Snarl` `Breaking-Swipe` `Mud Slap` `Body-Slam`
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies

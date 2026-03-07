@@ -50,17 +50,17 @@ class PS_DESC:
 > - *Master Electrician: 1/50 chance to drop <:light_ball:1478585821601988729> Light Ball or <:heavy_duty_boots:1478585819244662813> Heavy-Duty Boots.*"""
 
     s = f"""**TEAM:**
-- **Mimikyu**
+- **Mimikyu #778**
 > Ability: `Disguise`
 > Equip: `Ability_Shield`
 > Moves: `Trick-Room` `Destiny-Bond` `Magic-Room`
 > EVs: `N/A`
-- **Shiny Mimikyu**
+- **Shiny Mimikyu #1778**
 > Ability: `Disguise`
 > Equip: `Ability_Shield`
 > Moves: `Trick-Room` `Destiny-Bond` `Magic-Room`
 > EVs: `N/A`
-- **Donphan**
+- **Donphan #1232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
 > Moves: `Protect` `Endeavor` `Ice-Shard`
@@ -83,17 +83,17 @@ class PS_DESC:
 - If the enemy spam switches just keep on using Destiny-Bond until trick room fades. Use Trick-Room again and just do the strat above."""
 
     strat_two = f"""**TEAM:**
-- **Mega Banette**
+- **Mega Banette #7124**
 > Ability: `Prankster`
 > Equip: `Ability_Shield`
 > Moves: `Destiny-Bond`
 > EVs: `N/A`
-- **Sableye**
+- **Sableye #302**
 > Ability: `Prankster`
 > Equip: `Ability_Shield`
 > Moves: `Destiny-Bond`
 > EVs: `N/A`
-- **Donphan**
+- **Donphan #1232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
 > Moves: `Protect` `Endeavor` `Ice-Shard`
@@ -101,7 +101,7 @@ class PS_DESC:
 
 **STRATEGY:**
 - [Mega Banette] Destiny-Bond
-- Sableye] Destiny-Bond
+- [Sableye] Destiny-Bond
 - [Donphan] Protect
 - [Donphan] Endeavor
 - [Donphan] Ice-Shard

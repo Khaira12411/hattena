@@ -407,17 +407,17 @@ In order to participate in World Boss, players will have to register their team.
 Lastly, you can also track your world boss statistics by typing `;wb stats`."""
 
     gri = f"""**TEAM:**
-- **Grimer**
+- **Grimer #88**
 Equip: NA
 Moves: `Memento`
 EVs: -
 
-- **Muk**
+- **Muk #89**
 Equip: `Loaded_Dice`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Gardevoir**
+- **Mega Gardevoir #7022**
 Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
 Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -430,17 +430,17 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - Use `Draining-Kiss` to heal."""
 
     uss = f"""**TEAM:**
-- **Grimer**
+- **Grimer #88**
 Equip: NA
 Moves: `Memento`
 EVs: -
 
-- **Muk**
+- **Muk #89**
 Equip: `Loaded_Dice`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Gardevoir**
+- **Mega Gardevoir #7022**
 Equip: `Metronome`
 Moves: `Moonblast` `Draining-Kiss` `Calm-Mind`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -453,17 +453,17 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - Use `Draining-Kiss` to heal."""
 
     mewtwo_strat = f"""**TEAM:**
-- **Grimer**
+- **Grimer #88**
 Equip: NA
 Moves: `Memento`
 EVs: -
 
-- **Muk**
+- **Muk #89**
 Equip: `Loaded_Dice`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Mewtwo Y**
+- **Mega Mewtwo Y #7121**
 Equip: `Metronome`
 Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -475,17 +475,17 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - After the set-up above, spam `Stored-Power`
 - Use `Recover` to heal."""
     steel_type_strat = f"""**TEAM:**
-- **Grimer**
+- **Grimer #88**
 Equip: NA
 Moves: `Memento`
 EVs: -
 
-- **Ninetales**
+- **Ninetales #38**
 Equip: `Loaded_Dice`
 Moves: `Fake-Tears` `Memento`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Mewtwo Y**
+- **Mega Mewtwo Y #7121**
 Equip: `Metronome`
 Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -498,18 +498,18 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - Use `Recover` to heal."""
 
     incineroar = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Incineroar**
+- **Incineroar #727**
 Equip: `Metronome`
 Moves: `Power-Trip` `Leech-Life` `Bulk-Up` `Nasty-Plot`
 EVs: `ATK 252` `SPD 252` `HP 4`
@@ -522,18 +522,18 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Mewtwo Y**
+- **Mega Mewtwo Y #7121**
 Equip: `Choice_Specs`
 Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
@@ -545,18 +545,18 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
 
     necorzma_ultra = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Necrozma-Ultra**
+- **Necrozma-Ultra #7693**
 Equip: `Choice_Specs`
 Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
@@ -568,18 +568,18 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Necrozma-Ultra**, spam `Store Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Incineroar**
+- **Incineroar #727**
 Equip: `Choice_Band`
 Moves: `Power-Trip`
 EVs: `ATK 252` `SPD 252` `HP 4`
@@ -591,18 +591,18 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
     inteleon = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Gmax Inteleon**
+- **Gmax-Inteleon #7217**
 *Needs Sniper Ability*
 Equip: `Choice_Specs`
 Moves: `Max Geyser`
@@ -615,18 +615,18 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Gmax Inteleon** spam `Max Geyser`, and use Max Potions to heal."""
 
     gri = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Gmax Hatterene**
+- **Gmax-Hatterene #7238**
 Equip: `Metronome`
 Moves: `Max Starfall` `Draining-Kiss` `Calm-Mind` `Max-Darkness`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -638,18 +638,18 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining-Kiss` and if enemy sp def went up use `Max-Darkness`."""
 
     uss = f"""**TEAM:**
-- **Mew**
+- **Mew #151**
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar**
+- **Malamar #687**
 *Remove Contrary Ability*
 Equip: Loaded_Dice
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Gardevoir**
+- **Mega Gardevoir #7022**
 Equip: `Metronome`
 Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind`
 EVs: `SPA 252` `SPD 252` `HP 6`
