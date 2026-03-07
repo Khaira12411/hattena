@@ -22,7 +22,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Golden Arceus with Leftovers and Stored-Power. But use Close-Combat/Behemoth-Blade if you encountered a Weavile with Zacian.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Golden Arceus with Leftovers and Stored-Power. But use Close-Combat/Behemoth-Blade if you encountered a Weavile with Zacian.*"""
 
     abs = f"""**TEAM:**
 - **Golden Zacian**
@@ -84,7 +84,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***  *You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
     ala = f"""**WARM UPS TEAM:**
 - **Whimsicott**
@@ -118,7 +118,7 @@ class SD_MC_REG_STRAT:
 - [Whimsicott] Memento
 - [Zacian] spam Crunch
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes for Warmups**:
+> <a:fidough_wow:1283739703140679703> ***FidNotes for Warmups***:
 - If Solgaleo leads, use Switcheroo to burn Solgaleo and cut down its attack, then setup with Arceus.
 - If Mega Gardevoir leads, use Toxic first. If it uses Future-Sight after whimsicott used toxic,  swap to Alakazam so Arceus won't get hit by Future-Sight after using Memento, then setup with Arceus and spam Judgment. If it doesn't use Future-Sight, just setup with Arceus and spam Judgment.
 - Against Hoopa, use Iron-Defense first instead of Calm-Mind.
@@ -144,7 +144,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: Crowned Zacian, and Arceus-Electric/Tapu-Koko are best for finals. Since C Zacian is neutral to Steel Wing and Electric/Tapu-Koko is neutral to thunderbolt's paralyze*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *Crowned Zacian, and Arceus-Electric/Tapu-Koko are best for finals. Since C Zacian is neutral to Steel Wing and Electric/Tapu-Koko is neutral to thunderbolt's paralyze*"""
 
     amp = f"""**TEAM:**
 - **Golden Zacian**
@@ -246,7 +246,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** Arceus Electric is better for warm up as it is immune to Paralyze. Arceus-Grass for final.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *Arceus Electric is better for warm up as it is immune to Paralyze. Arceus-Grass for final.*"""
 
     blz = f"""**TEAM:**
 - **Golden Zacian**
@@ -308,7 +308,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Water/Fire as replacement for Golden Arceus.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Water/Fire as replacement for Golden Arceus.*"""
 
     chy = f"""**TEAM:**
 - **Golden Zacian**
@@ -330,7 +330,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
 
     dia = f"""**TEAM:**
 - **Golden Zacian**
@@ -392,7 +392,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = f"""**TEAM:**
 - **Golden Zacian**
@@ -414,7 +414,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
 - If Espeon/Diancie leads, use Crunch/Iron-Head on Zacian to kill them.
 - Swap to Gardevoir, let it die and go back to Zacian to do 6x Noble-Roar then proceed with the rest of the strat."""
 
@@ -438,7 +438,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** Avoid setting up against Nick's Mimikyu, Nicki's Nihelego, Gengar. Both Chandelure & Rotom can Paralyze. Try your best to keep G Zacian alive if enemy has Chandelure in 2nd or 3rd.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *Avoid setting up against Nick's Mimikyu, Nicki's Nihelego, Gengar. Both Chandelure & Rotom can Paralyze. Try your best to keep G Zacian alive if enemy has Chandelure in 2nd or 3rd.*"""
 
     gla = f"""**TEAM:**
 - **Golden Zacian**
@@ -600,7 +600,7 @@ class SD_MC_REG_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You will only lose if `Scrafty` is in the line-up because Dark is immune to  `Stored-Power`  which is a Psychic move. You can replace  `Stored-Power`  with  `Flamethrower`. Arceus-Ghost is immune to Fighting & Normal moves.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You will only lose if `Scrafty` is in the line-up because Dark is immune to  `Stored-Power`  which is a Psychic move. You can replace  `Stored-Power`  with  `Flamethrower`. Arceus-Ghost is immune to Fighting & Normal moves.*"""
 
     luc = f"""**TEAM:**
 **__1st Position__**
@@ -633,7 +633,7 @@ __Or__
 - [Arceus | Corvi] Judgment | Power-Trip spam
 - [Arceus | Corvi] Recover | Roost on low hp
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : Arceus-Ground is the best option for finals!.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***  *Arceus-Ground is the best option for finals!.*"""
 
     man = f"""**TEAM:**
 - **Golden Zacian**
@@ -655,7 +655,7 @@ __Or__
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Golden Arceus/Arceus-Ground with Leftovers and Stored-Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Golden Arceus/Arceus-Ground with Leftovers and Stored-Power.*"""
 
     maw = f"""**TEAM:**
 - **Golden Zacian**
@@ -697,7 +697,7 @@ __Or__
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Flying as alternative for Fairy.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Flying as alternative for Fairy.*"""
 
     met = f"""**TEAM:**
 - **Golden Zacian**
@@ -763,7 +763,7 @@ __Or__
 - [Corvi] Power-Trip spam
 - [Corvi] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Fire with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     pid = f"""**TEAM:**
 - **Golden Zacian**
@@ -897,7 +897,7 @@ __Or__
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** There is no Dark type in this MC so don't worry!*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *There is no Dark type in this MC so don't worry!*"""
 
     sci = f"""**TEAM:**
 - **Golden Zacian**
@@ -979,7 +979,7 @@ __Or__
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus-Grass for slot 2.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus-Grass for slot 2.*"""
 
     swa = f"""**TEAM:**
 - **Golden Zacian**
@@ -1041,7 +1041,7 @@ __Or__
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** G Mewtwo will be better than Arceus-Fire if it's in the budget.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *G Mewtwo will be better than Arceus-Fire if it's in the budget.*"""
 
 
 class SD_MC_GOLD_STRAT:
@@ -1066,7 +1066,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Fire with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Fire with Leftovers and Judgment.*"""
 
     abs = f"""**TEAM:**
 - **Golden Zacian**
@@ -1110,7 +1110,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***  *You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
     ala = None
 
@@ -1138,7 +1138,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground/Normal/Golden.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fire/Ground/Normal/Golden.*"""
 
     ban = f"""**TEAM:**
 - **Golden Zacian**
@@ -1246,7 +1246,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Water/Fire/Ground/Electric as replacement for Arceus.*"""
 
     dia = None
 
@@ -1270,7 +1270,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Ghost for slot 2.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Ghost for slot 2.*"""
 
     gar = f"""**TEAM:**
 - **Golden Zacian**
@@ -1292,7 +1292,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Stored-Power  spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
     gav = f"""**TEAM:**
 - **Gardevoir**
@@ -1315,7 +1315,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - Use Destiny Bond if the leading pokemon is Gmax-Hatterene, Golden Mewtwo, Golden MMX, and Golden MMY."""
 
     gen = f"""**TEAM:**
@@ -1363,7 +1363,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Stored-Power spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus-Fairy with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy with Leftovers and Judgment.*"""
 
     her = f"""**TEAM:**
 - **Golden Zacian**
@@ -1450,7 +1450,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:** You can also use Arceus-Fairy/Psychic with the same moveset.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy/Psychic with the same moveset.*"""
 
     luc = None
 
@@ -1504,7 +1504,7 @@ class SD_MC_GOLD_STRAT:
 - [Corvi] Power-Trip spam
 - [Corvi] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes**: When using Golden Mewtwo, If you are against run ending threats, use zap cannon instead then self destruct.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *When using Golden Mewtwo, If you are against run ending threats, use zap cannon instead then self destruct.*"""
 
     pid = None
 
@@ -1640,7 +1640,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus/Arceus-Flying for slot 2.*
+> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Gmax-Rillaboom with Leftovers and Noble-Roar for G Zacian, and Arceus/Arceus-Flying for slot 2.*
 """
 
     swa = f"""**TEAM:**
@@ -1663,7 +1663,7 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
->  <a:fidough_wow:1283739703140679703> ***FidNotes**: If you are using Arceus-Grass just use the setup strat!!*"""
+>  <a:fidough_wow:1283739703140679703> ***FidNotes:*** *If you are using Arceus-Grass just use the setup strat!!*"""
 
     tyr = f"""**TEAM:**
 - **Golden Zacian**
