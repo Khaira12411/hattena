@@ -1343,10 +1343,10 @@ class SD_MC_GOLD_STRAT:
 
     gla = None
 
-    gya = f"""**TEAM:**
+    gya = f"""**WARM UPS TEAM:**
 - **Golden Zacian**
 > Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+> Moves: `Noble-Roar` `Play-Rough`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Grass**
 > Equip: `Miracle Seed`
@@ -1356,14 +1356,32 @@ class SD_MC_GOLD_STRAT:
 > Equip: `Luck Incense`
 > Moves: NA
 
-**STRATEGY:**
+**WARM UPS STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
-- [Arceus] Stored-Power spam
+- [Arceus] Giga-Drain spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Fairy with Leftovers and Judgment.*"""
+**FINALS TEAM:**
+- **Whimsicott**
+> Equip: `Choice_Scarf`
+> Moves: `Switcheroo`
+- **Arceus-Grass**
+> Equip: `Miracle Seed`
+> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Gyarados**
+> Equip: `Luck Incense`
+> Moves: NA
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- You can also use Arceus-Fairy with Leftovers and Judgment for slot 2.
+- For warmups, if Darkrai leads, spam Play-rough with Zacian then switch to Gyarados, to able to use Noble-Roar on Zacian and proceed with setup with Arceus.
+- For warmups, if Weaville leads, spam Close-Combat with Zacian then follow the same strat above.
+- For finals, if Darkrai leads, switch to Arceus and spam Giga-drain/Judgment and use 2x Iron-Defense and 2x Calm-Mind to setup when Darkai uses Rest.
+- If Kyogre leads, use Switcheroo with Whimsicoot to lock kyogre into Calm-Mind then switch to Arceus and use 2x Iron-Defense and 2x Calm-Mind to setup then spam Giga-Drain/Judgment.
+- If Mega Gyarados leads, switch to Gyarados to intimidate then switch to Arceus and use 3x Iron-Defense, and 6x Calm-Mind before attack move spam"""
 
     her = f"""**TEAM:**
 - **Golden Zacian**
