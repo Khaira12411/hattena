@@ -28,15 +28,20 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
         header_text = f"GMAX URSHIFU SINGLE STRIKE #{dex_number}"
         strat = WB_ConsitentStrat.uss
 
-    if boss_name == "urs":
+    elif boss_name == "urs":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/urshifu-rapid-strike-gmax.png"
         header_text = f"GMAX URSHIFU RAPID STRIKE #{dex_number}"
+        strat = WB_ConsitentStrat.mewtwo_strat
 
-    if boss_name == "eet":
+    elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/eternatus-eternamax.png"
 
-    if boss_name == "gri" or boss_name == "uss":
+    elif boss_name == "gri":
         strat = WB_ConsitentStrat.gri
+    elif boss_name in ["mel", "cop", "dur", "cor"]:
+        strat = WB_ConsitentStrat.steel_type_strat
+    elif boss_name == "orb":
+        strat = WB_ConsitentStrat.incineroar
     else:
         strat = WB_ConsitentStrat.mewtwo_strat
     color = getattr(WBColors, full_boss_name)
@@ -62,7 +67,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     if boss_name == "uss":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-gmax.png"
         header_text = f"SHINY GMAX URSHIFU SINGLE STRIKE #{dex_number}"
-        strat = WB_MVPStrat.gri
+        strat = WB_MVPStrat.uss
 
     # MMY METRONOME FOR URS AND GRI
     elif boss_name == "urs":

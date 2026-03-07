@@ -474,6 +474,50 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - With **Mega Mewtwo Y** use `Calm-Mind` 6x then `Bulk-Up` atleast once. The amount of `Bulk-Ups` may change depending on how many people participate and how fast the boss dies.
 - After the set-up above, spam `Stored-Power`
 - Use `Recover` to heal."""
+    steel_type_strat = f"""**TEAM:**
+- **Grimer**
+Equip: NA
+Moves: `Memento`
+EVs: -
+
+- **Ninetales**
+Equip: `Loaded_Dice`
+Moves: `Fake-Tears` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Mewtwo Y**
+Equip: `Metronome`
+Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**STRATEGY:**
+- **Grimer** can be used at lvl 1. Use `Memento` first turn.
+- With **Ninetales**, use `Fake-tears` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Mega Mewtwo Y** use `Calm-Mind` 6x then `Bulk-Up` atleast once. The amount of `Bulk-Ups` may change depending on how many people participate and how fast the boss dies.
+- After the set-up above, spam `Stored-Power`
+- Use `Recover` to heal."""
+
+    incineroar = f"""**TEAM:**
+- **Mew**
+Equip: Loaded_Dice
+Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Malamar**
+*Remove Contrary Ability*
+Equip: Loaded_Dice
+Moves: `Fake Tears` `Acupressure` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Incineroar**
+Equip: `Metronome`
+Moves: `Power-Trip` `Leech-Life` `Bulk-Up` `Nasty-Plot`
+EVs: `ATK 252` `SPD 252` `HP 4`
+
+**STRATEGY:**
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus Energy`, 3x `Screech`,  then `Baton Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton Pass` to **Incineroar**.
+- With **Incineroar**, use 6x `Bulk-Up`, 1x `Nasty-Plot` then spam `Power-Trip`, and use `Leech-Life` to heal."""
 
 
 class WB_MVPStrat:
@@ -589,6 +633,29 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Focus Energy`, 3x `Fake Tears`, then `Baton Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
 - With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining-Kiss` and if enemy sp def went up use `Max-Darkness`."""
+
+    uss = f"""**TEAM:**
+- **Mew**
+Equip: Loaded_Dice
+Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Malamar**
+*Remove Contrary Ability*
+Equip: Loaded_Dice
+Moves: `Fake Tears` `Acupressure` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Gardevoir**
+Equip: `Metronome`
+Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
+- With **Mega Gardevoir**,  spam `Hypervoice`, and heal with `Draining-Kiss`."""
