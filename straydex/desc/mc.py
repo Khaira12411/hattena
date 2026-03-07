@@ -86,12 +86,11 @@ class SD_MC_REG_STRAT:
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes** : You can also use Arceus-Fire/Ground with Leftovers and Judgment/Flamethrower.*"""
 
-    ala = f"""**TEAM:**
-- **Dugtrio**
-> Equip: `Choice_Scarf`
-> Moves: `Memento`
-> EVs: `SPE 252` `HP 252`
-- **Arceus-Dark or Ghost**
+    ala = f"""**WARM UPS TEAM:**
+- **Whimsicott**
+> Equip: `Flame_Orb`
+> Moves: `Memento` `Switcheroo` `Toxic`
+- **Arceus-Ghost**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -99,12 +98,31 @@ class SD_MC_REG_STRAT:
 > Equip: `Luck Incense`
 > Moves: NA
 
-**STRATEGY:**
-- [Dugtrio] Memento -6 or until it dies
+**FINALS TEAM:**
+- **Whimsicott**
+> Equip: `Flame_Orb`
+> Moves: `Memento` `Switcheroo` `Toxic`
+- **Zacian-Crowned**
+> Equip: `Choice_Cloak`
+> Moves: `Crunch`
+> EVs: `SPE 252` `HP 252`
+
+**WARM UPS STRATEGY:**
+- [Whimsicott] Memento
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+**FINALS STRATEGY:**
+- [Whimsicott] Memento
+- [Zacian] spam Crunch
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes for Warmups**:
+- If Solgaleo leads, use Switcheroo to burn Solgaleo and cut down its attack, then setup with Arceus.
+- If Mega Gardevoir leads, use Toxic first. If it uses Future-Sight after whimsicott used toxic,  swap to Alakazam so Arceus won't get hit by Future-Sight after using Memento, then setup with Arceus and spam Judgment. If it doesn't use Future-Sight, just setup with Arceus and spam Judgment.
+- Against Hoopa, use Iron-Defense first instead of Calm-Mind.
+- Fully Heal Arceus before facing Lunala."""
 
     alt = f"""**TEAM:**
 - **Golden Zacian**
@@ -378,8 +396,8 @@ class SD_MC_REG_STRAT:
 
     gav = f"""**TEAM:**
 - **Golden Zacian**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+> Equip: `Choice_Scarf` | `Choice_Cloak`
+> Moves: `Noble-Roar` `Crunch` `Iron-Head`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Steel**
 > Equip: `Leftovers`
@@ -394,7 +412,11 @@ class SD_MC_REG_STRAT:
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+- If Espeon/Diancie leads, use Crunch/Iron-Head on Zacian to kill them.
+- Swap to Gardevoir, let it die and go back to Zacian to do 6x Noble-Roar then proceed with the rest of the strat."""
 
     gen = f"""**TEAM:**
 - **Golden Zacian**
@@ -1272,7 +1294,29 @@ class SD_MC_GOLD_STRAT:
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes**: You can also use Arceus-Fairy/Regular Arceus with Leftovers and Stored-Power.*"""
 
-    gav = None
+    gav = f"""**TEAM:**
+- **Gardevoir**
+> Equip: `Quick_Claw`
+> Moves: `Memento` `Destiny-Bond` `Captivate` `Charm`
+> EVs: `SPE 252` `HP 252`
+- **Whimsicott**
+> Equip: `Luck Incense`
+> Moves: `Memento` `Charm`
+- **Arceus-Steel**
+> Equip: `Leftovers`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+
+**STRATEGY:**
+- [Gardevoir] Memento
+- [Whimsicott] Memento
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Judgment spam
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes**:
+- Use Destiny Bond if the leading pokemon is Gmax-Hatterene, Golden Mewtwo, Golden MMX, and Golden MMY."""
 
     gen = f"""**TEAM:**
 - **Golden Zacian**
