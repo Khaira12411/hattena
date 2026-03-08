@@ -1,3 +1,4 @@
+SKIP_FIRST_GUILD = False  # Set to False to send to all guilds
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -72,8 +73,14 @@ class ChangeLogModal(discord.ui.Modal, title="Straydex Update Log"):
 
         updated_guilds = []  # moved outside loop
 
+        # Optionally skip the first guild (for testing/debugging)
+
+        guilds_list = list(guilds_with_channels.values())
+        if SKIP_FIRST_GUILD:
+            guilds_list = guilds_list[1:]
+
         # Send the update log to each guild's designated channel
-        for guild_info in guilds_with_channels.values():
+        for guild_info in guilds_list:
             channel_id = guild_info["update_channel_id"]
             channel_name = guild_info["update_channel_name"]
             debug_log(
@@ -175,8 +182,12 @@ class StraydexUpdateLog(commands.Cog):
     @app_commands.guilds(discord.Object(id=STRAYMONS_GUILD_ID))  # Straymons Guild ID
     async def straydex_update_log(self, interaction: discord.Interaction):
         try:
+            # Set skip_first_guild=True to skip the first guild, False to send to all
             modal = ChangeLogModal(self.bot)
+            # Pass skip_first_guild as needed (set to True to skip first guild)
             await interaction.response.send_modal(modal)
+            # To actually use the flag, you would need to modify how the modal is submitted/handled.
+            # For now, the flag is available in on_submit, set to False by default.
         except Exception as e:
             pretty_log(
                 "error",
@@ -193,4 +204,3 @@ class StraydexUpdateLog(commands.Cog):
 
 async def setup(bot):
     await bot.add_cog(StraydexUpdateLog(bot))
-

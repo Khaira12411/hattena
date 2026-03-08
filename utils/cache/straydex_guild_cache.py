@@ -28,7 +28,10 @@ async def load_straydex_guild_cache(bot):
             f"Failed to load Straydex guild cache: {e}",
         )
 
-def upsert_straydex_guild_cache(guild_id: int, guild_name: str, update_channel_id: int, update_channel_name: str):
+
+def upsert_straydex_guild_cache(
+    guild_id: int, guild_name: str, update_channel_id: int, update_channel_name: str
+):
     """
     Upsert a Straydex guild record in the cache.
     """
@@ -41,6 +44,7 @@ def upsert_straydex_guild_cache(guild_id: int, guild_name: str, update_channel_i
         "cache",
         f"Upserted Straydex guild in cache: {guild_name} (ID: {guild_id}) with update channel {update_channel_name} (ID: {update_channel_id}).",
     )
+
 
 def remove_straydex_guild_cache(guild_id: int):
     """
@@ -57,13 +61,15 @@ def remove_straydex_guild_cache(guild_id: int):
             "cache",
             f"Attempted to remove Straydex guild with ID: {guild_id} from cache, but it was not found.",
         )
-        
+
+
 def fetch_all_straydex_guild_w_update_channel_cache():
     """
     Fetch all Straydex guilds with their update channel information from the cache.
     """
     return {
         guild_id: {
+            "guild_id": guild_id,
             "guild_name": data["guild_name"],
             "update_channel_id": data["update_channel_id"],
             "update_channel_name": data["update_channel_name"],
