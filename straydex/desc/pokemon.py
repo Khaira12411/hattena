@@ -563,7 +563,7 @@ __**WORLD BOSS**__
 
 __**WORLD BOSS**__
 - **Moves:**
-> `Moonblast` `Draining-Kiss` `Calm-Mind`
+> `Hyper-Beam` `Draining-Kiss` `Calm-Mind`
 - **Equip:**
 > `Choice_Specs | Metronome | Fairy_Feather | Expert_Belt`
 - **EVs:**
