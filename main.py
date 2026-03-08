@@ -18,6 +18,7 @@ from utils.cache.cache_list import clear_processed_ids_cache
 from utils.cache.central_cache_loader import load_all_caches
 from utils.db.get_pg_pool import *
 from utils.logs.pretty_log import pretty_log, set_hatenna_bot
+from constants.straymons_constants import DEFAULT_EMBED_COLOR, STRAYMONS_GUILD_ID
 
 # ❀───────────────────────────────❀
 #       💖  Suppress Logs  💖
@@ -85,12 +86,14 @@ async def startup_checklist(bot: commands.Bot):
         market_value_cache,
         straymon_member_cache,
         webhook_url_cache,
+        straydex_guild_cache
     )
 
     total_market_values = len(market_value_cache)
     # ❀ This divider stays untouched ❀
     print("\n୨୧ ⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔♡⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔⏔ ୨୧")
     print(f"✅ {len(bot.cogs)} 🌷 Cogs Loaded")
+    print(f"✅ {len(straydex_guild_cache)} 🍓 Straydex Guilds")
     print(f"✅ {len(straymon_member_cache)} 🌸 Straymon Members")
     print(f"✅ {total_market_values:,} 💎 Market Values")
     print(f"✅ {len(webhook_url_cache)} 🍧 Webhook Urls")
@@ -116,6 +119,10 @@ async def on_ready():
     total_commands = len(bot.tree.get_commands())
     pretty_log("ready", f"Synced {total_commands} slash commands.")
 
+    # Sync Straymons guild too
+    await bot.tree.sync(guild=discord.Object(id=STRAYMONS_GUILD_ID))
+    pretty_log("ready", f"Synced slash commands to Straymons guild (ID: {STRAYMONS_GUILD_ID}).")
+    
     # Load all caches immediately on startup
     await load_all_caches(bot)
 

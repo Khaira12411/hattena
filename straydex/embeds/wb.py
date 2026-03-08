@@ -35,6 +35,7 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
 
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/eternatus-eternamax.png"
+        strat = WB_ConsitentStrat.mewtwo_strat
 
     elif boss_name == "gri":
         strat = WB_ConsitentStrat.gri
@@ -42,8 +43,10 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
         strat = WB_ConsitentStrat.steel_type_strat
     elif boss_name == "orb":
         strat = WB_ConsitentStrat.incineroar
+
     else:
         strat = WB_ConsitentStrat.mewtwo_strat
+
     color = getattr(WBColors, full_boss_name)
     embed = discord.Embed(description=strat, color=color)
     embed.set_thumbnail(url=thumbnail_icon_link)

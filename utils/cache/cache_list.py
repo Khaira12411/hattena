@@ -51,6 +51,20 @@ webhook_url_cache: dict[int, dict] = {}
 #   ...
 
 # 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+#       🌸 Straydex Guild Cache 🌸
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+straydex_guild_cache: dict[int, str] = {}
+# Structure:
+# {
+#   guild_id: {
+#       "guild_name": str,
+#       "update_channel_id": int,
+#       "update_channel_name": str,
+#   },
+#   ...
+
+
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
 #       🌸 Processed IDS Cache
 # 💫━━━━━━━━━━━━━━━━━━━━━━━━━
 # Cache to store pokemon name, and message_id
@@ -62,4 +76,3 @@ processed_dex_message_ids_cache: set[str] = set()
 
 def clear_processed_ids_cache():
     processed_dex_message_ids_cache.clear()
-    

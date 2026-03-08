@@ -52,7 +52,7 @@ class SD_MC_REG_STRAT:
 - **Golden Arceus #9493 | Arceus Steel #7609 | Electric #7588 | Normal #493**
 > Equip: `Leftovers`
 > Moves: `Power-Gem` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP2 52` `DEF 128` `SPD 128`
+> EVs: `HP 252` `DEF 128` `SPD 128`
 - **Aerodactyl #142**
 > Equip: `Luck_Incense`
 > Moves: NA

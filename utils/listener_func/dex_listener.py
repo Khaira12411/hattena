@@ -270,7 +270,16 @@ async def dex_listener(bot, message: discord.Message):
         await update_is_exclusive(bot, pokemon_name, new_exclusive)
     else:
         new_exclusive = existing_exclusive_status
-    if embed_image_url and image_link_cache != embed_image_url:
+    if image_link_cache is None and embed_image_url:
+        await upsert_image_link(bot, pokemon_name, embed_image_url, new_exclusive)
+        debug_log(
+            f"Inserted new image link for {pokemon_name}: {embed_image_url} with exclusivity {new_exclusive}."
+        )
+        pretty_log(
+            "info",
+            f"Inserted new image link for {pokemon_name}: {embed_image_url} with exclusivity {new_exclusive}.",
+        )
+    elif embed_image_url and image_link_cache != embed_image_url:
         await upsert_image_link(bot, pokemon_name, embed_image_url, new_exclusive)
         debug_log(f"Updated image link for {pokemon_name} to {embed_image_url}.")
         pretty_log(

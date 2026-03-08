@@ -22,6 +22,8 @@ class Emojis:
 
 
 class Dividers:
+    purple_flowers = "https://media.discordapp.net/attachments/1393740397905313912/1480036408860213311/image.png?ex=69ae36d1&is=69ace551&hm=beb96520457cd89c530d7c3cbdf1aa881912dfd119b859f60caca5c9773ae55b&=&format=webp&quality=lossless"
+
     blue_sun_star = "https://media.discordapp.net/attachments/1393740397905313912/1411603999551127602/image.png?ex=68b5422b&is=68b3f0ab&hm=984eb9560ccba76a153bd4a3eafce60412a36238f6841ff48c11cac57c4c3e44&=&format=webp&quality=lossless&width=1806&height=144"
     PURPLE_HEARTS_DIVIDER = "https://media.discordapp.net/attachments/1393740397905313912/1395569839438827642/image.png?ex=687aed32&is=68799bb2&hm=83ca1a2feae4b6c49595caef4301f5d0e416b7cd3c44667e6143ad82a564f12f&=&format=webp&quality=lossless&width=1350&height=113"
     Blue_Star_Divider = "https://media.discordapp.net/attachments/1393740397905313912/1393881191744016405/image.png"
@@ -73,6 +75,8 @@ class Dividers:
 
 
 class Thumbnails:
+    moon = "https://media.discordapp.net/attachments/1394913073520967680/1480043815321604156/BCO.3c9424eb-ca58-4b03-922f-fb57a6a951aa.png?ex=69ae3db7&is=69acec37&hm=1ff8d6aa306e7bec01b731a6b18222187894c6261e872aa206a86b5f5c6307e8&=&format=webp&quality=lossless&width=843&height=843"
+    magic_book = "https://media.discordapp.net/attachments/1394913073520967680/1480043855717077013/BCO.e7fe1cd1-0040-4792-b49e-06d40b6ad802-removebg-preview.png?ex=69ae3dc1&is=69acec41&hm=b861910b4eb244acacfff3435657423939529d454ff0be23b9be9cd9ebf6c574&=&format=webp&quality=lossless"
     sd_logs = "https://media.discordapp.net/attachments/1394913073520967680/1479445745537908826/image.png?ex=69ac10b8&is=69aabf38&hm=f0aeb8eaa04930ab63caffb11e943f133931ae3f011099a00e9b5c8dd3d74efa&=&format=webp&quality=lossless"
     macaron = "https://media.discordapp.net/attachments/1394913073520967680/1448094264738189474/image.png?ex=693a0261&is=6938b0e1&hm=e6773b2ea1523c2aa23b0aba1882606238ef822bb67f4f251a5bfe136d113a83&=&format=webp&quality=lossless"
     bank_log = "https://media.discordapp.net/attachments/1394913073520967680/1446172152993681488/chatgpt-image-dec-5--2025--12-10-00-am-preview-1764864679375.png?ex=69330445&is=6931b2c5&hm=77f063db6e6b65a926def5cbcf4bb2708086147e81c412cb2ab93bd9297af06a&=&format=webp&quality=lossless"

@@ -34,47 +34,51 @@ async def get_pokemon_stats(
 
     cache_name = format_names_for_market_value_lookup(name)
     debug_log(f"Cache lookup name: {cache_name}")
+
     stats = fetch_pokemon_base_stats_cache(cache_name)
     if stats and all(v is not None for v in stats.values()):
         debug_log(f"Stats found in cache: {stats}")
-
-        return stats
-    # Fallback to get base form stats and then adjust for golden if needed
-    if is_golden:
-        base_name = get_base_name(name)
-        debug_log(f"Base name for golden Pokémon: {base_name}")
-        base_cache_name = format_names_for_market_value_lookup(base_name)
-        debug_log(f"Cache lookup name for base form: {base_cache_name}")
-        base_stats = fetch_pokemon_base_stats_cache(base_cache_name)
-        if base_stats and all(v is not None for v in base_stats.values()):
-            debug_log(f"Base stats found in cache for golden Pokémon: {base_stats}")
-            # Add 15 to all base stats for golden Pokémon
-            adjusted_stats = {
-                "base_hp": base_stats.get("base_hp", 0) + 15,
-                "base_atk": base_stats.get("base_atk", 0) + 15,
-                "base_spe": base_stats.get("base_spe", 0) + 15,
-                "base_spa": base_stats.get("base_spa", 0) + 15,
-                "base_def": base_stats.get("base_def", 0) + 15,
-                "base_spd": base_stats.get("base_spd", 0) + 15,
-                "ability": base_stats.get("ability"),
-            }
-            debug_log(f"Adjusted stats for golden Pokémon: {adjusted_stats}")
-            await update_pokemon_stats(
-                bot=bot,
-                pokemon_name=cache_name,
-                base_atk=adjusted_stats["base_atk"],
-                base_def=adjusted_stats["base_def"],
-                base_hp=adjusted_stats["base_hp"],
-                base_spa=adjusted_stats["base_spa"],
-                base_spd=adjusted_stats["base_spd"],
-                base_spe=adjusted_stats["base_spe"],
-                ability=adjusted_stats["ability"],
-            )
-            return adjusted_stats
+        # If golden, check if stats are already golden (by comparing to base form)
+        if is_golden:
+            base_name = get_base_name(name)
+            base_cache_name = format_names_for_market_value_lookup(base_name)
+            base_stats = fetch_pokemon_base_stats_cache(base_cache_name)
+            # Only add +15 if the cached stats are not already golden
+            if base_stats and all(v is not None for v in base_stats.values()):
+                # If the cached HP is exactly 15 higher than the base, it's already golden
+                if stats.get("base_hp") == base_stats.get("base_hp", 0) + 15:
+                    debug_log("Cached stats are already golden, returning as is.")
+                    return stats
+                else:
+                    debug_log("Adjusting base stats for golden Pokémon from cache.")
+                    adjusted_stats = {
+                        "base_hp": base_stats.get("base_hp", 0) + 15,
+                        "base_atk": base_stats.get("base_atk", 0) + 15,
+                        "base_spe": base_stats.get("base_spe", 0) + 15,
+                        "base_spa": base_stats.get("base_spa", 0) + 15,
+                        "base_def": base_stats.get("base_def", 0) + 15,
+                        "base_spd": base_stats.get("base_spd", 0) + 15,
+                        "ability": base_stats.get("ability"),
+                    }
+                    debug_log(f"Adjusted stats for golden Pokémon: {adjusted_stats}")
+                    await update_pokemon_stats(
+                        bot=bot,
+                        pokemon_name=cache_name,
+                        base_atk=adjusted_stats["base_atk"],
+                        base_def=adjusted_stats["base_def"],
+                        base_hp=adjusted_stats["base_hp"],
+                        base_spa=adjusted_stats["base_spa"],
+                        base_spd=adjusted_stats["base_spd"],
+                        base_spe=adjusted_stats["base_spe"],
+                        ability=adjusted_stats["ability"],
+                    )
+                    return adjusted_stats
+            else:
+                debug_log(
+                    f"Base stats not found in cache for golden Pokémon: {base_cache_name}"
+                )
         else:
-            debug_log(
-                f"Base stats not found in cache for golden Pokémon: {base_cache_name}"
-            )
+            return stats
 
     # Fallback to API if not in cache or cache is invalid
     debug_log(f"Stats not found in cache or cache is invalid, fetching from API.")
@@ -135,9 +139,10 @@ async def fetch_pokemon_stats_from_api(
         debug_log(f"Parsed stats: {stats}")
         abilities = [a["ability"]["name"] for a in data["abilities"]]
         debug_log(f"Parsed abilities: {abilities}")
-        # If is_golden, add 15 to all base stats
+        # If is_golden, add 15 to all base stats including HP
         if is_golden:
             debug_log("Adding 15 to all base stats for golden Pokémon.")
+            stats["hp"] = stats.get("hp", 0) + 15
             stats["attack"] = stats.get("attack", 0) + 15
             stats["speed"] = stats.get("speed", 0) + 15
             stats["special-attack"] = stats.get("special-attack", 0) + 15
