@@ -88,6 +88,7 @@ class SD_PO_THUMBNAIL:
 
     gro2 = "https://play.pokemonshowdown.com/sprites/xyani/groudon-primal.gif"
 
+    gar = "https://cdn.discordapp.com/attachments/1466666170970275935/1473905030816862299/7024.gif?ex=69ae5207&is=69ad0087&hm=9cde7a01678e93991a7e63f68fa998652351dd777728d493ece86d8395f21d40"
     deb = None
     deb2 = None
 
