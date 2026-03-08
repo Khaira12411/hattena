@@ -8,21 +8,27 @@ from straydex.desc.pokemon import *
 from straydex.functions.main import get_default_footer
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.type_embed import build_weakness_embed_from_input
+from utils.visuals.type_embed import get_type_embed_color
 
 no_weakness_embed_list = [
     "deb",
+    "deb2",
     "nor",
     "set",
     "wor",
-    "deb2",
+    "wor3",
     "nor2",
     "set2",
     "wor2",
     "nor3",
-    "set3",
-    "nor4",
     "arc4",
+    "nic",
+    "sup",
+    "nor4",
     "nor5",
+    "nor6",
+    "nor7",
+
 ]
 pokemon_map = {
     "mew": "mew",
@@ -30,32 +36,19 @@ pokemon_map = {
     "cor": "gigantamax-corviknight",
     "ete": "eternamax-eternatus",
     "gro": "groudon",
+    "gro2": "primal-groudon",
     "hat": "gigantamax-hatterene",
     "kyo": "kyogre",
     "inc": "incineroar",
-    "lao": "latios",
-    "met": "metagross",
-    "ray": "rayquaza",
-    "tyr": "tyranitar",
-    "yve": "yveltal",
-    "sol": "solgaleo",
-    "zek": "zekrom",
-    "res": "reshiram",
-    "lug": "lugia",
     "gar": "gardevoir",
     "xer": "xerneas",
-    "gir": "giratina",
     "arc": "arceus",
     "zac": "zacian",
-    "pal": "palkia",
-    "dia": "dialga",
     "kyu": "kyurem",
     "arc2": "arceus-fairy",
     "zac2": "zacian-crowned",
-    "pal2": "palkia-origin",
     "mew2": "mewtwo",
     "nec2": "necrozma-dawnwings",
-    "dia2": "dialga-origin",
     "kyu3": "kyurem-white",
     "arc3": "arceus-steel",
     "mew3": "mega-mewtwo-x",
@@ -82,8 +75,10 @@ async def build_sd_po_embed(
     desc = getattr(SD_PO_DESC, sub_cmd, None)
     full_name = pokemon_map.get(sub_cmd, sub_cmd)
 
+
     if sub_cmd not in no_weakness_embed_list:
         # Add WEAKNESS CHART section with blockquote style and blank lines exactly as screenshot
+        color = get_type_embed_color(full_name) or color  # fallback to default if not found
         _, weakness_desc, _ = build_weakness_embed_from_input(full_name)
         if weakness_desc:
             # All lines in a single >>> blockquote, blank lines between groups
@@ -152,13 +147,10 @@ class SDPokemonView(View):
                 "nor3",
                 "nor4",
                 "nor5",
-                "set",
-                "set2",
-                "set3",
+                "nor6",
+                "nor7",
                 "zac",
                 "zac2",
-                "pal",
-                "pal2",
                 "mew",
                 "mew2",
                 "mew3",
@@ -167,17 +159,20 @@ class SDPokemonView(View):
                 "nec2",
                 "nec3",
                 "nec4",
-                "dia",
-                "dia2",
                 "kyu",
                 "kyu2",
                 "kyu3",
                 "wor",
                 "wor2",
+                "wor3",
                 "arc",
                 "arc2",
                 "arc3",
                 "arc4",
+                "gro",
+                "gro2",
+                "set",
+                "set2",
             ]
 
             # 💙 Get all variant keys for this faction, sorted so base comes first

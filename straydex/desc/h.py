@@ -344,38 +344,25 @@ Members can show off their collections in <#1298114332583788597>
     po = """# STRAYDEX: POKEMONS
 **CATEGORIES:**
 - **`!PODEB`**  Pokemon: Debuffers
+- **`!PONIC`**  Pokemon: Niche
 - **`!PONOR`**  Pokemon: Normal Battle
 - **`!POSET`**  Pokemon: Setup Sweepers
+- **`!POSUP`**  Pokemon: Support
 - **`!POWOR`**  Pokemon: World Boss
 
 **BATTLEMONS:**
 - **`!POARC`**  Pokemon: Arceus
 - **`!POCOR`**  Pokemon: Corviknight
-- **`!PODIA`**  Pokemon: Dialga
 - **`!POETE`**  Pokemon: Eternatus
 - **`!POGAR`**  Pokemon: Gardevoir
-- **`!POGIR`**  Pokemon: Giratina
 - **`!POGRO`**  Pokemon: Groudon
 - **`!POHAT`**  Pokemon: Hatterene
 - **`!POINC`**  Pokemon: Incineroar
 - **`!POKYO`**  Pokemon: Kyogre
 - **`!POKYU`**  Pokemon: Kyurem
-- **`!POLAO`**  Pokemon: Latios
-- **`!POLUG`**  Pokemon: Lugia
-- **`!POMET`**  Pokemon: Metagross
 - **`!POMEW`**  Pokemon: Mewtwo
-- **`!POMUK`**  Pokemon: Muk
 - **`!PONEC`**  Pokemon: Necrozma
-- **`!POPAL`**  Pokemon: Palkia
-- **`!PORAY`**  Pokemon: Rayquaza
-- **`!PORES`**  Pokemon: Reshiram
-- **`!POSLA`**  Pokemon: Slaking
-- **`!POSOL`**  Pokemon: Solgaleo
-- **`!POTYR`**  Pokemon: Tyranitar
-- **`!POXER`**  Pokemon: Xerneas
-- **`!POYVE`**  Pokemon: Yveltal
-- **`!POZAC`**  Pokemon: Zacian
-- **`!POZEK`**  Pokemon: Zekrom"""
+- **`!POZAC`**  Pokemon: Zacian"""
 
     ps = """# STRAYDEX: POWERSTATION
 **COMMANDS:**

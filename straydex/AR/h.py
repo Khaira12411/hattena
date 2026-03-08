@@ -200,38 +200,29 @@ for sub in safari_zone_sub:
 
 # Pokemon AR
 po_sub_no_buttons = [
-    "gro",
     "inc",
-    "lao",
-    "met",
-    "sla",
-    "yve",
-    "sol",
-    "zek",
     "res",
-    "lug",
-    "gar",
-    "xer",
-    "gir",
     "ete",
-    "tyr",
     "hat",
     "cor",
+    "kyo",
+    "nic",
+    "sup" ,
+
 ]
 po_sub_w_buttons = [
-    "pal",
     "nec",
-    "deb",
     "kyu",
     "mew",
-    "kyo",
     "dia",
     "ray",
     "nor",
-    "set",
     "arc",
     "zac",
     "wor",
+    "gro",
+    "deb",
+    "set",
 ]
 for sub in po_sub_no_buttons:
     straydex_ar["po"][sub] = {
