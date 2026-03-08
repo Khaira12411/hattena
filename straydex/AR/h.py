@@ -207,6 +207,7 @@ po_sub_no_buttons = [
     "cor",
     "kyo",
     "nic",
+    "gar",
     "sup" ,
 
 ]
