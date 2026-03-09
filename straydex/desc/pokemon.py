@@ -400,7 +400,7 @@ VARIANT: `LATIOS #381`
 - **Equip:**
 > `Ability_Shield | Covert_Cloak`
 - **EVs:**
-> `ATK 252` `SPE 252`
+> `ATKt 252` `SPE 252`
 
 **Mimikyu #778**
 - **Ability:**

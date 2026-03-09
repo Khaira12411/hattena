@@ -52,6 +52,3 @@ class WeaknessChart(commands.Cog):
 async def setup(bot):
     await bot.add_cog(WeaknessChart(bot))
 
-
-async def setup(bot):
-    await bot.add_cog(WeaknessChart(bot))
