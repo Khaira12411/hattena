@@ -2,8 +2,14 @@ import discord
 
 from constants.straydex import SD_EMOJIS
 from constants.weakness_chart import weakness_chart
-from utils.functions.pokemon_func import (get_dex_number_by_name,
-                                          get_display_name, get_name_via_dex)
+from utils.functions.pokemon_func import (
+    get_dex_number_by_name,
+    get_display_name,
+    get_name_via_dex,
+)
+from utils.functions.stats_and_abilities_functions import (
+    get_immunities_based_on_abilities,
+)
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.get_pokemon_gifs import get_pokemon_gif
 
@@ -50,6 +56,45 @@ TYPE_COLOR = {
 }
 
 
+import re
+POKEMON_ALIASES = {
+    # Only unique/abbreviation aliases not covered by dynamic normalization
+    "mmy": "mega-mewtwo-y",
+    "mmx": "mega-mewtwo-x",
+    "mcx": "mega-charizard-x",
+    "mcz": "mega-charizard-z",  # if you have this form
+    # Add more as needed for your community's special nicknames
+}
+
+
+def normalize_pokemon_alias(name):
+    n = name.lower().replace("_", " ").replace("-", " ").strip()
+
+    # Dynamic Gmax (Gigantamax) forms
+    gmax_match = re.match(r"gmax[ -]?(\w+)", n)
+    if gmax_match:
+        return f"gigantamax-{gmax_match.group(1)}"
+
+    # Dynamic Arceus forms
+    arc_match = re.match(r"(arc|arceus)[ -]?(\w+)", n)
+    if arc_match and arc_match.group(2) != "arceus":
+        return f"arceus-{arc_match.group(2)}"
+
+    # Dynamic Mega forms
+    mega_match = re.match(r"mm([xy])", n)
+    if mega_match:
+        return f"mega-mewtwo-{mega_match.group(1)}"
+    if n == "mcx":
+        return "mega-charizard-x"
+    if n == "mcz":
+        return "mega-charizard-z"
+    if n.startswith("mega "):
+        return n.replace(" ", "-")
+
+    # Fallback to static aliases if needed
+    return POKEMON_ALIASES.get(n, n)
+
+
 def get_type_embed_color(pokemon_name: str) -> int:
     weaknesses = weakness_chart.get(pokemon_name.lower())
     if not weaknesses:
@@ -71,7 +116,9 @@ def get_type_embed_color(pokemon_name: str) -> int:
 
 
 # -------------------- Reusable Parsing Functions --------------------
-def parse_normal_pokemon(dex_int: int, first_index: str, dex_count: int, is_digit: bool):
+def parse_normal_pokemon(
+    dex_int: int, first_index: str, dex_count: int, is_digit: bool
+):
     """Handles regular Pokemon input (1-6999, or weighted 1001/9001 style for shiny/golden)"""
 
     # If first digit is 7 and dex has 4 digits, use it as-is
@@ -128,12 +175,17 @@ def get_pokemon_from_input(pokemon_input: str):
             break
 
     normalized_name = pokemon.replace(" ", "-")
+    normalized_alias_name = normalize_pokemon_alias(normalized_name)
+    pretty_log(
+        "debug",
+        f"Resolving Pokemon input: '{pokemon_input}' -> normalized: '{normalized_name}', alias normalized: '{normalized_alias_name}'",
+    )
 
     # Name lookup
-    if normalized_name in weakness_chart:
-        dex_val = int(weakness_chart[normalized_name]["dex"])
+    if normalized_alias_name in weakness_chart:
+        dex_val = int(weakness_chart[normalized_alias_name]["dex"])
         # Always return 4 values for consistency
-        return normalized_name, shiny_golden_tag, dex_val, False
+        return normalized_alias_name, shiny_golden_tag, dex_val, False
 
     # Dex input
     if pokemon.isdigit():
@@ -143,6 +195,24 @@ def get_pokemon_from_input(pokemon_input: str):
         dex_count = len(dex_str)
         is_digit = True
 
+        # Check if this dex directly matches a shiny/golden form in weakness_chart
+        direct_match = next(
+            (
+                name
+                for name, data in weakness_chart.items()
+                if int(data["dex"]) == dex_int
+            ),
+            None,
+        )
+        if direct_match:
+            # Try to infer tag from the name if present
+            tag = ""
+            if direct_match.startswith("shiny "):
+                tag = "Shiny"
+            elif direct_match.startswith("golden "):
+                tag = "Golden"
+            return direct_match, tag, dex_int, True
+
         return parse_normal_pokemon(dex_int, first_index, dex_count, is_digit)
 
     pretty_log(
@@ -151,10 +221,18 @@ def get_pokemon_from_input(pokemon_input: str):
     )
     return None, None, None, None
 
+
 # -------------------- Embed Builder --------------------
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
-    variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(pokemon_input)
+    # normalized first
 
+    variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
+        pokemon_input
+    )
+    pretty_log(
+        "debug",
+        f"Resolved Pokemon input '{pokemon_input}' to variant_name: '{variant_name}', shiny_golden_tag: '{shiny_golden_tag}', base_dex: '{base_dex}', is_digit: {is_digit}",
+    )
     if not variant_name:
         return None
 
@@ -174,16 +252,18 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         display_name = raw_name.title()
         if "mega-" in raw_name.lower():
             display_name = display_name.replace("Mega-", "Mega ").replace("-", " ")
+        # Avoid double tag if already present
         if tag:
-            display_name = f"{tag} {display_name}"
+            lowered = display_name.lower()
+            if not lowered.startswith(tag.lower()):
+                display_name = f"{tag} {display_name}"
         return display_name
-    dex_number = pokemon_input if is_digit else get_dex_number_by_name(pokemon_input)
+
+    dex_number = pokemon_input if is_digit else get_dex_number_by_name(variant_name)
     display_name = clean_display_name(variant_name, shiny_golden_tag)
     embed_title = f"{SD_EMOJISs_str} {display_name} #{dex_number}"
     image_lookup_name = (
-        pokemon_input
-        if not is_digit
-        else get_name_via_dex(str(pokemon_input))
+        variant_name if not is_digit else get_name_via_dex(str(pokemon_input))
     )
 
     embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
@@ -205,5 +285,8 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     )
     if image_url:
         embed.set_thumbnail(url=image_url)
-    return embed, description_lines, embed_title
 
+    notes = get_immunities_based_on_abilities(variant_name)
+    if notes and notes[2]:  # Check if note string is present
+        embed.add_field(name="Notes:", value=notes[2], inline=False)
+    return embed, description_lines, embed_title

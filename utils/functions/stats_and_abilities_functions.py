@@ -1,3 +1,4 @@
+from constants.new_abilities import abilities as abilities_dict
 from constants.new_pokemons import pokemons
 
 immunity_abilities = {
@@ -9,22 +10,155 @@ immunity_abilities = {
     "motor-drive": ["electric"],
     "sap-sipper": ["grass"],
     "storm-drain": ["water"],
-    "thick-fat": ["fire", "ice"], # Only half damage from both
-    "volt-absorb": ["electric"], # restores hp by 25%  when hit by electric move, but still immune to it
-    "water-absorb": ["water"], # restores hp by 25% when hit by water move, but still immune to it
-    "well-baked-body": ["fire"], # Immune to fire , raises defenses by 2 stages when hit by fire move
+    "thick-fat": ["fire", "ice"],  # Only half damage from both
+    "volt-absorb": [
+        "electric"
+    ],  # restores hp by 25%  when hit by electric move, but still immune to it
+    "water-absorb": [
+        "water"
+    ],  # restores hp by 25% when hit by water move, but still immune to it
+    "well-baked-body": [
+        "fire"
+    ],  # Immune to fire , raises defenses by 2 stages when hit by fire move
+    "wonder-guard": [
+        "normal",
+    ],  # Shedinja's Wonder Guard only allows super effective moves to hit it, making it immune to all non super effective types
 }
 
+# Map for custom immunity descriptions (honoring the comments in immunity_abilities)
+immunity_ability_custom_desc = {
+    "thick-fat": "Only half damage from Fire and Ice moves.",
+    "volt-absorb": "Restores HP by 25% when hit by an Electric move, but still immune to it.",
+    "water-absorb": "Restores HP by 25% when hit by a Water move, but still immune to it.",
+    "well-baked-body": "Immune to Fire; raises defenses by 2 stages when hit by a Fire move.",
+    "wonder-guard": "Shedinja's Wonder Guard only allows super effective moves to hit it, making it immune to all non super effective types.",
+}
+
+
+def get_ability_effect(ability_name):
+    """
+    Return the effect description for the given ability name from the abilities dict.
+    ability_name: str - The name of the ability (case-insensitive).
+    abilities_dict: dict - The abilities dictionary (like your sample above).
+    """
+    ability = abilities_dict.get(ability_name.lower())
+    if ability:
+        return ability.get("effect")
+    return None
+
+
 def get_immunities_based_on_abilities(pokemon_name):
-    """Return a list of types that the given Pokémon is immune to based on its abilities."""
+    """
+    Return a list of types that the given Pokémon is immune to based on its abilities.
+    Uses custom descriptions when available, otherwise falls back to generic immunity phrasing.
+    Hidden abilities are marked explicitly.
+    Special cases:
+      - Thick Fat halves damage instead of granting immunity.
+      - Wonder Guard: only super effective moves can hit.
+    """
     immunities = set()
+    ability_effects = {}
+    notes = []
     abilities = get_pokemon_abilities(pokemon_name)
     if not abilities:
-        return []
-    for ability in abilities.get("standard", []) + abilities.get("hidden", []):
-        types = immunity_abilities.get(ability, [])
-        immunities.update(types)
-    return list(immunities)
+        return [], {}, None
+
+    standard = abilities.get("standard", [])
+    hidden = abilities.get("hidden", [])
+    all_abilities = standard + hidden
+    multiple = len(all_abilities) > 1
+
+    for ability in all_abilities:
+        if ability in immunity_abilities:
+            types = immunity_abilities[ability]
+            immunities.update(types)
+            effect = immunity_ability_custom_desc.get(ability)
+            if effect:
+                clean_effect = effect.replace(", but still immune to it.", "").strip()
+                ability_effects[ability] = clean_effect
+            else:
+                ability_effects[ability] = None
+
+    if not ability_effects:
+        note = None
+    else:
+        note_lines = []
+        for ability, desc in ability_effects.items():
+            types = immunity_abilities[ability]
+            type_str = (
+                " and ".join([t.title() for t in types])
+                if len(types) > 1
+                else types[0].title()
+            )
+            ability_name = ability.replace("-", " ").title()
+            ability_label = f"**__{ability_name} Ability__**"
+
+            if ability == "thick-fat":
+                # Special case: Thick Fat halves damage
+                if multiple:
+                    if ability in hidden:
+                        note_lines.append(
+                            f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} takes only half damage from {type_str} moves."
+                        )
+                    else:
+                        note_lines.append(
+                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} takes only half damage from {type_str} moves."
+                        )
+                else:
+                    note_lines.append(
+                        f"> - {pokemon_name.title()} takes only half damage from {type_str} moves."
+                    )
+
+            elif ability == "wonder-guard":
+                # Special case: Wonder Guard
+                if multiple:
+                    if ability in hidden:
+                        note_lines.append(
+                            f"> - If {ability_label} (Hidden Ability) is its active ability then only super effective moves can hit {pokemon_name.title()}."
+                        )
+                    else:
+                        note_lines.append(
+                            f"> - If {ability_label} is its active ability then only super effective moves can hit {pokemon_name.title()}."
+                        )
+                else:
+                    note_lines.append(
+                        f"> - Only super effective moves can hit {pokemon_name.title()} because of its Wonder Guard Ability."
+                    )
+
+            else:
+                # Normal immunity phrasing
+                if multiple:
+                    if ability in hidden:
+                        if desc:
+                            note_lines.append(
+                                f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                            )
+                        else:
+                            note_lines.append(
+                                f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                            )
+                    else:
+                        if desc:
+                            note_lines.append(
+                                f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                            )
+                        else:
+                            note_lines.append(
+                                f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                            )
+                else:
+                    if desc:
+                        note_lines.append(
+                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                        )
+                    else:
+                        note_lines.append(
+                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                        )
+        note = "\n".join(note_lines)
+
+    return list(immunities), ability_effects, note
+
 
 # Add a special note for shedinja's Wonder Guard only fire , flying, rock, ghost, and dark can hit it
 def normalize_pokemon_name(name):
@@ -113,4 +247,5 @@ def pretty_print_pokemon(name):
     if not data:
         print(f"No data for {name}")
         return
+    print(f"{name.title()}\nStats: {data['stats']}\nAbilities: {data['abilities']}")
     print(f"{name.title()}\nStats: {data['stats']}\nAbilities: {data['abilities']}")

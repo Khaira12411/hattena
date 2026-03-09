@@ -43,7 +43,20 @@ IN_GAME_MONS_LIST = (
 
 IN_GAME_MONS_SET = {mon.lower() for mon in IN_GAME_MONS_LIST}
 
-
+# Combine all the mons dictionaries into one lookup
+ALL_MONS = {}
+ALL_MONS.update(common_mons)
+ALL_MONS.update(uncommon_mons)
+ALL_MONS.update(rare_mons)
+ALL_MONS.update(superrare_mons)
+ALL_MONS.update(legendary_mons)
+ALL_MONS.update(mega_mons)
+ALL_MONS.update(gigantamax_mons)
+ALL_MONS.update(shiny_mons)
+ALL_MONS.update(shiny_mega_mons)
+ALL_MONS.update(shiny_gigantamax_mons)
+ALL_MONS.update(golden_mons)
+ALL_MONS.update(exclusive_mons)
 # ✨───────────────────────────────────────────────
 #            🔎 Dex Lookup
 # ✨───────────────────────────────────────────────
@@ -53,11 +66,11 @@ def get_dex_number_by_name(name: str) -> int | None:
     Returns the dex number for a given Pokémon name.
     Example: get_dex_number_by_name("flutter-mane") -> 987
     """
-    name = name.lower().strip()
 
-    for num, poke_name in dex.items():
-        if poke_name.lower() == name:
-            return num
+    name = name.lower().strip()
+    mon = ALL_MONS.get(name)
+    if mon and "dex" in mon:
+        return mon["dex"]
 
     formatted_name = format_names_for_market_value_lookup(name)
     return fetch_dex_number_cache(formatted_name)
