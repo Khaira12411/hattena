@@ -390,7 +390,7 @@ VARIANT: `LATIOS #381`
 - **Equip:**
 > `Ability_Shield | Covert_Cloak`
 - **EVs:**
-> `HP 252` `SPE 252`
+> `ATK 252` `SPE 252`
 
 **SUDOWOODO #547**
 - **Ability:**
@@ -400,7 +400,7 @@ VARIANT: `LATIOS #381`
 - **Equip:**
 > `Ability_Shield | Covert_Cloak`
 - **EVs:**
-> `HP 252` `SPE 252`
+> `ATK 252` `SPE 252`
 
 **Mimikyu #778**
 - **Ability:**
@@ -686,7 +686,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 - **EVs:**
 > `HP 252` `DEF 252` `SPD 4`
 
-**Garganacl #934**
+**GARGANACL #934**
 - **Ability:**
 > `Study | Clear Body`
 - **Moves:**
@@ -694,7 +694,7 @@ VARIANT: `GOLDEN ARCEUS #9493`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
-> `HP 252` `SPD 180` `DEF 76"""
+> `HP 252` `SPD 180` DEF 76`"""
 
     arc = f"""# BATTLEMON: ARCEUS #493
 **VERSIONS:**  `Golden Arceus #9493`
