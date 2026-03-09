@@ -999,7 +999,7 @@ class SD_IT:
 - Automatically applied on purchase. Each Pokemon encounter has a small chance for the active fluffy tail to lose its effect until another fluffy tail is purchased.
 
 **METHOD TO OBTAIN:**
-- `;s`  Research Shop (<:res_point:1385394741465845843> 125)"""
+- `;s`  Research Shop (<:research_point:1480518449795956787> 125)"""
 
     focusband = f"""# FOCUS BAND
 **INFO:**
@@ -1260,7 +1260,7 @@ class SD_IT:
 - Automatically applied on purchase. Each Pokemon encounter has a small chance for the active pokedoll to lose its effect until another pokedoll is purchased.
 
 **METHOD TO OBTAIN:**
-- `;s`  Research Shop (<:res_point:1385394741465845843> 150)"""
+- `;s`  Research Shop (<:research_point:1480518449795956787> 150)"""
 
     pokelure = f"""# POKELURE
 **COMMAND:**  `;pl <amount>`
@@ -1287,7 +1287,7 @@ class SD_IT:
 - Automatically applied on purchase. Each Pokemon encounter has a small chance for the active poketoiy to lose its effect until another poketoy is purchased.
 
 **METHOD TO OBTAIN:**
-- `;s`  Research Shop (<:res_point:1385394741465845843> 200)"""
+- `;s`  Research Shop (<:research_point:1480518449795956787> 200)"""
 
     pomegberry = f"""# POMEG BERRY
 **COMMAND:**  `;bud eat <berry> <amount>`
