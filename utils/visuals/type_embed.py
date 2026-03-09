@@ -57,13 +57,17 @@ TYPE_COLOR = {
 
 
 import re
+
 POKEMON_ALIASES = {
     # Only unique/abbreviation aliases not covered by dynamic normalization
     "mmy": "mega-mewtwo-y",
     "mmx": "mega-mewtwo-x",
     "mcx": "mega-charizard-x",
-    "mcz": "mega-charizard-z",  # if you have this form
-    # Add more as needed for your community's special nicknames
+    "mcz": "mega-charizard-z",
+    "mray": "mega-rayquaza",
+    "mgard": "mega-gardevoir",
+    "caly shadow": "calyrex-shadow",
+    "calyrex shadow": "calyrex-shadow",
 }
 
 
@@ -76,9 +80,12 @@ def normalize_pokemon_alias(name):
         return f"gigantamax-{gmax_match.group(1)}"
 
     # Dynamic Arceus forms
-    arc_match = re.match(r"(arc|arceus)[ -]?(\w+)", n)
+    # Only match if there is a form after 'arceus' or 'arc'
+    arc_match = re.match(r"(arc|arceus)[ -]+(\w+)", n)
     if arc_match and arc_match.group(2) != "arceus":
         return f"arceus-{arc_match.group(2)}"
+    if n == "arceus" or n == "arc":
+        return "arceus"
 
     # Dynamic Mega forms
     mega_match = re.match(r"mm([xy])", n)
@@ -174,18 +181,18 @@ def get_pokemon_from_input(pokemon_input: str):
             shiny_golden_tag = tag
             break
 
-    normalized_name = pokemon.replace(" ", "-")
-    normalized_alias_name = normalize_pokemon_alias(normalized_name)
+    normalized_alias_name = normalize_pokemon_alias(pokemon)
+
+    normalized_name = normalized_alias_name.replace(" ", "-")
     pretty_log(
         "debug",
-        f"Resolving Pokemon input: '{pokemon_input}' -> normalized: '{normalized_name}', alias normalized: '{normalized_alias_name}'",
+        f"Attempting to resolve Pokemon input '{pokemon_input}' -> normalized_alias_name: '{normalized_alias_name}', normalized_name: '{normalized_name}'",
     )
-
     # Name lookup
-    if normalized_alias_name in weakness_chart:
-        dex_val = int(weakness_chart[normalized_alias_name]["dex"])
+    if normalized_name in weakness_chart:
+        dex_val = int(weakness_chart[normalized_name]["dex"])
         # Always return 4 values for consistency
-        return normalized_alias_name, shiny_golden_tag, dex_val, False
+        return normalized_name, shiny_golden_tag, dex_val, False
 
     # Dex input
     if pokemon.isdigit():

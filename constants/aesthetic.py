@@ -19,7 +19,12 @@ class Emojis:
     general = "<:general:1478908152752640060>"
     star = "<:star:1478908975335346320>"
     toggle = "<:toggle:1479041594156908574>"
-
+    flower2 = "<:flower2:1480546976008503346>"
+    star2 = "<:star2:1480546974045442163>"
+    heart = "<:heart:1480546972095217684>"
+    ribbon = "<:purple_bow:1480547499327623218>"
+    cupcake = "<:cupcake:1480552415697698857>"
+    home = "<:home:1480553382338101308>"
 
 class Dividers:
     purple_flowers = "https://media.discordapp.net/attachments/1393740397905313912/1480036408860213311/image.png?ex=69ae36d1&is=69ace551&hm=beb96520457cd89c530d7c3cbdf1aa881912dfd119b859f60caca5c9773ae55b&=&format=webp&quality=lossless"
@@ -75,6 +80,8 @@ class Dividers:
 
 
 class Thumbnails:
+    heart = "https://media.discordapp.net/attachments/1394913073520967680/1480045723985641615/Copilot_20260308_113250.png?ex=69af90fe&is=69ae3f7e&hm=8f85a657834e293c2d09b2983727a78d885f32badb31669e778d9a3d4a489bbb&=&format=webp&quality=lossless&width=350&height=350"
+    star = "https://media.discordapp.net/attachments/1394913073520967680/1480045158119637135/Copilot_20260308_113044.png?ex=69af9077&is=69ae3ef7&hm=0aaa56a870e00a84911fa301ef80505aa393a0361494a15a00a6bbe999a9aecf&=&format=webp&quality=lossless&width=739&height=739"
     moon = "https://media.discordapp.net/attachments/1394913073520967680/1480043815321604156/BCO.3c9424eb-ca58-4b03-922f-fb57a6a951aa.png?ex=69ae3db7&is=69acec37&hm=1ff8d6aa306e7bec01b731a6b18222187894c6261e872aa206a86b5f5c6307e8&=&format=webp&quality=lossless&width=843&height=843"
     magic_book = "https://media.discordapp.net/attachments/1394913073520967680/1480043855717077013/BCO.e7fe1cd1-0040-4792-b49e-06d40b6ad802-removebg-preview.png?ex=69ae3dc1&is=69acec41&hm=b861910b4eb244acacfff3435657423939529d454ff0be23b9be9cd9ebf6c574&=&format=webp&quality=lossless"
     sd_logs = "https://media.discordapp.net/attachments/1394913073520967680/1479445745537908826/image.png?ex=69ac10b8&is=69aabf38&hm=f0aeb8eaa04930ab63caffb11e943f133931ae3f011099a00e9b5c8dd3d74efa&=&format=webp&quality=lossless"

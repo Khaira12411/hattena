@@ -122,7 +122,7 @@ async def on_ready():
     # Sync Straymons guild too
     await bot.tree.sync(guild=discord.Object(id=STRAYMONS_GUILD_ID))
     pretty_log("ready", f"Synced slash commands to Straymons guild (ID: {STRAYMONS_GUILD_ID}).")
-    
+
     # Load all caches immediately on startup
     await load_all_caches(bot)
 
@@ -135,7 +135,9 @@ async def on_ready():
     await startup_checklist(bot)
 
     await bot.change_presence(
-        activity=discord.Activity(type=discord.ActivityType.watching, name=" 💜 !h")
+        activity=discord.Activity(
+            type=discord.ActivityType.watching, name=" 💜 !h |💜 /commands"
+        )
     )
 
 

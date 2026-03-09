@@ -4,19 +4,22 @@ from discord.ext import commands
 
 from constants.aesthetic import *
 from constants.straymons_constants import (
-    DEFAULT_EMBED_COLOR
+    DEFAULT_EMBED_COLOR,
+    KHY_USER_ID,
+    STRAYMONS_GUILD_ID,
 )
 from utils.logs.pretty_log import pretty_log
 
-
-STAFF_THUMBNAIL = Thumbnails.penguin
+KHY_THUMBNAIL = Thumbnails.heart
+STAFF_THUMBNAIL = Thumbnails.star
 START_THUMBNAIL = Thumbnails.magic_book
-PUBLIC_THUMBNAIL = Thumbnails.magic_book
-PUBLIC_EMOJI = "❄️"
-STAFF_EMOJI = "☃️"
+PUBLIC_THUMBNAIL = Thumbnails.moon
+PUBLIC_EMOJI = Emojis.cupcake
+STAFF_EMOJI = Emojis.star2
 MAIN_DIVIDER = Dividers.purple_flowers
-TITLE_EMOJI = "🐧"
-FOOTER_EMOJI = "🍧"
+TITLE_EMOJI = Emojis.ribbon
+FOOTER_EMOJI = "🪻"
+KHY_EMOJI = Emojis.heart
 # 🍭──────────────────────────────
 #   🎀 Category Settings
 # 🍭──────────────────────────────
@@ -32,6 +35,12 @@ CATEGORY_CONFIG = {
         "label": "Staff",
         "color": DEFAULT_EMBED_COLOR,
         "thumbnail": STAFF_THUMBNAIL,
+    },
+    "Khy": {
+        "emoji": KHY_EMOJI,
+        "label": "Khy",
+        "color": DEFAULT_EMBED_COLOR,
+        "thumbnail": KHY_THUMBNAIL,
     },
 }
 
@@ -72,9 +81,9 @@ class PaginatedCategoryView(discord.ui.View):
     def add_navigation_buttons(self):
         self.clear_items()
         if self.page > 0:
-            self.add_item(PageNavButton("⬅️", self, -1))
+            self.add_item(PageNavButton(Emojis.left_arrow, self, -1))
         if self.page < self.max_page:
-            self.add_item(PageNavButton("➡️", self, 1))
+            self.add_item(PageNavButton(Emojis.right_arrow, self, 1))
         # ✅ Always show home button
         self.add_item(BackHomeButton(self.user, self.command_map))
 
@@ -99,7 +108,7 @@ class PaginatedCategoryView(discord.ui.View):
                 command_name = getattr(cmd, "full_name", "/" + cmd.name)
                 embed.add_field(
                     name=command_name,
-                    value=cmd.description or "No description",
+                    value=f"> - {cmd.description}" or "No description",
                     inline=False,
                 )
             embed.set_image(url=MAIN_DIVIDER)
@@ -107,11 +116,12 @@ class PaginatedCategoryView(discord.ui.View):
                 text=f"📄 Page {self.page + 1} of {self.max_page + 1} • {FOOTER_EMOJI} {len(self.commands)} commands"
             )
 
-
             self.add_navigation_buttons()
             await self.message.edit(embed=embed, view=self)
         except Exception as e:
             pretty_log("error", f"[PaginatedCategoryView] send_page failed: {e}")
+
+
 # 💠───────────────────────────────────────────────────────────────
 # [🔘 BUTTONS] Navigation
 # ────────────────────────────────────────────────────────────────
@@ -133,7 +143,7 @@ class PageNavButton(discord.ui.Button):
 
 class BackHomeButton(discord.ui.Button):
     def __init__(self, user, command_map):
-        super().__init__(emoji="🏠", style=discord.ButtonStyle.primary)
+        super().__init__(emoji=Emojis.home, style=discord.ButtonStyle.secondary)
         self.user = user
         self.command_map = command_map
 
@@ -217,28 +227,42 @@ class CommandsView(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name="commands", description="View Iron Bundle's commands!")
-
+    @app_commands.command(name="commands", description="View Hatenna's commands!")
     async def commands(self, interaction: discord.Interaction):
         try:
             await interaction.response.defer(thinking=True)
-            guild = self.bot.get_guild(VNA_SERVER_ID)
             user = interaction.user
-            guild_obj = discord.Object(id=VNA_SERVER_ID)
+            is_khy = user.id == KHY_USER_ID
+            has_guild_perms = (
+                user.guild_permissions.administrator
+                or user.guild_permissions.manage_guild
+            )
 
-            # Staff check
             # Flatten commands
-            all_commands = flatten_commands(self.bot.tree.get_commands(guild=guild_obj))
-            command_map = {"Public": [], "Staff": []}
+            all_commands = flatten_commands(self.bot.tree.get_commands())
+            command_map = {"Public": [], "Staff": [], "Khy": []}
+
+            # Only show Khy commands if user is Khy and in Straymons guild
+            if (
+                interaction.guild
+                and interaction.guild.id == STRAYMONS_GUILD_ID
+                and is_khy
+            ):
+                guild_obj = discord.Object(id=STRAYMONS_GUILD_ID)
+                khy_commands = flatten_commands(
+                    self.bot.tree.get_commands(guild=guild_obj)
+                )
+                for cmd in khy_commands:
+                    category = getattr(cmd, "extras", {}).get("category", "Public")
+                    if category == "Khy":
+                        command_map["Khy"].append(cmd)
 
             for cmd in all_commands:
                 category = getattr(cmd, "extras", {}).get("category", "Public")
-
-                # 👑 Staff Only
                 if category == "Staff":
-                    if is_staff_member(user):
+                    if has_guild_perms:
                         command_map["Staff"].append(cmd)
-                else:
+                elif category == "Public":
                     command_map["Public"].append(cmd)
 
             view = CommandCategoryMenuView(user, command_map)
@@ -260,6 +284,8 @@ class CommandsView(commands.Cog):
             pretty_log("error", f"[CommandsView] Command failed: {e}")
 
     commands.extras = {"category": "Public"}
+
+
 # 💠───────────────────────────────────────────────────────────────
 # [📦 SETUP]
 # ────────────────────────────────────────────────────────────────
