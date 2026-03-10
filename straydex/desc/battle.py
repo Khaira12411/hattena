@@ -30,11 +30,11 @@ class SD_BATTLE_DESC:
 - Kalos: `;b npc 78`
 
 **TEAM:**
-- **Mewtwo**
+- **Mewtwo #150**
   Moves: `Psychic`  `Ice-Beam`  `Aura-Sphere`  `Shadow-Ball`
-- **Yveltal**
+- **Yveltal #717**
   Moves: `Oblivion-Wing`  `Sucker-Punch`  `Rock-Slide`  `Heat-Wave`
-- **Xerneas**
+- **Xerneas #716**
   Moves: `Moonblast`  `Close-Combat`  `Horn-Leech`
 
 ---
@@ -84,11 +84,11 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **REQ:** *Receive a battle invitation from Trainer Jessie.*
 
 **TEAM:**
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Psychic`
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Oblivion-Wing`
-- **Groudon**
+- **Groudon #383**
 > Moves: `Earthquake`
 
 **STRATEGY:**
@@ -101,12 +101,12 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **REQ:** *Defeat all Kanto NPCs (first 13 NPCs) and receive a Boss Giovanni battle invitation.*
 
 **TEAM:**
-- **Mewtwo**
+- **Mewtwo #150**
 > Equip: `Twisted_Spoon`
 > Moves: `Psychic` `Energy-Ball` `Dark-Pulse`
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Psychic` `Sucker-Punch`
-- **Golisopod**
+- **Golisopod #768**
 > Moves: `First-Impression`
 
 **STRATEGY:**
@@ -123,7 +123,7 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618316129865769)
 
 **TEAM:**
-- **Shedinja**
+- **Shedinja #292**
 > Ability: `Wonder Guard`
 > Equip: `Spell_Tag`
 > Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw`
@@ -140,20 +140,20 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **REQ:** *Receive a Basic or Boss battle invitation.*
 
 **TEAM:**
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252`
-- **Whimsicott** | **Latios**
+- **Whimsicott #547** | **Latios #381**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 > EVs: `SPE 252`
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense` `Calm-Mind` `Judgment` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 or
-- **Mew**
+- **Mew #151**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense` `Calm-Mind` `Dragon-Pulse` `Roost`
 > EVs: `HP 150` `DEF 180` `SPD 180`
@@ -174,12 +174,12 @@ or
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
@@ -194,24 +194,24 @@ __**2nd Position**__
     ts = f"""# BATTLE TOWER STRAT
 ## NON-SETUP TEAM
 ### TEAM A:
-- **Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Choice_Cloak` or `Choice_Specs`
 > Moves: `Psychic` `Ice-Beam` `Energy-Ball` `Shadow-Ball`
 > EVs: `SPA 252` `SPE 128` `SPD 128`
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Cloak` or `Choice_Band`
 > Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
 > EVs: `ATK 252` `HP 252` `SPE 6`
-- **Golden Zekrom**
+- **Golden Zekrom #9644**
 > Equip: `Choice_Cloak` or `Choice_Scarf`
 > Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
 > EVs: `ATK 252` `HP 128` `SPE 130`
 ### TEAM B:
-- **Golden Zekrom**
+- **Golden Zekrom #9644**
 > Equip: `Choice_Cloak` or `Choice_Scarf`
 > Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
 > EVs: `ATK 252` `HP 128` `SPE 130`
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Cloak` or `Choice_Band`
 > Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
 > EVs: `ATK 252` `HP 252` `SPE 6`
@@ -229,11 +229,11 @@ __**2nd Position**__
 **REQ:** *Receive a battle invitation from Trainer James.*
 
 **TEAM:**
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Psychic`
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Oblivion-Wing`
-- **Groudon**
+- **Groudon #383**
 > Moves: `Earthquake`
 
 **STRATEGY:**
@@ -246,11 +246,11 @@ __**2nd Position**__
 **REQ:** *Defeat all Kanto, Johto and Hoenn NPCs (first 39 NPCs) and receive a Boss Maxie battle invitation.*
 
 **TEAM:**
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Moonblast` `Horn-Leech` `Psychic`
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Psychic` `Ice-Beam`
-- **Kyogre**
+- **Kyogre #382**
 > Equip: `Mystic_Water`
 > Moves: `Surf`
 
@@ -267,17 +267,17 @@ __**2nd Position**__
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618386053365770)
 
 **TEAM:**
-- **Hawlucha**
+- **Hawlucha #701**
 > Ability: `Limber`
 > Equip: `N/A`
 > Moves: `Tailwind` `Close-Combat`
 > EVs: `DEF 180`
-- **Mienshao**
+- **Mienshao #620**
 > Ability `Inner Focus`
 > Equip: `N/A`
 > Moves: `Close-Combat`
 > EVs: `ATK 252` `SPD 236`
-- **Shedinja**
+- **Shedinja #292**
 > Ability: `Wonder Guard`
 > Equip: `Silver_Powder`
 > Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw` `Leech-Life`
@@ -296,7 +296,7 @@ __**2nd Position**__
 **REQ:** *Defeat all 78 NPCs and receive a Professor Oak battle invitation.*
 
 **TEAM:**
-- **Corviknight**
+- **Corviknight #823**
 > Equip: `Leftovers`
 > Moves: `Bulk-Up` `Agility` `Roost` `Power-Trip`
 
@@ -312,12 +312,12 @@ __**2nd Position**__
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
 
@@ -332,20 +332,20 @@ __**2nd Position**__
 
     ts2 = f"""## SETUP TEAMS
 ### TEAM A:
-- **Zacian-Crowned / Golden Zacian / Zekrom**
+- **Zacian-Crowned #7891 / Golden Zacian #9888 / Golden Zekrom #9644**
 > Equip: `Choice_Cloak` or `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `HP 252` `DEF 130` `SPD 128`
-- **Gigantamax-Corviknight**
+- **Gmax-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Bulk-Up` `Max-Airstream` `Power-Trip` `Roost`
 > EVs: `HP 252` `SPD 252` `DEF 6`
 OR
-- ** Golden Arceus / Arceus-Ground / Arceus-Electric**
+- **Golden Arceus #9493 / Arceus-Ground #7597 / Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
 > EVs: `HP 252` `SPD 130` `DEF 128`
-- **Arceus-Fairy**
+- **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
 > EVs: `HP 252` `SPD 130` `DEF 128`
@@ -357,19 +357,19 @@ OR
 <a:fidough_wow:1283739703140679703> ***Fidnotes:*** *When using Arceus and you see a dark type on the enemy's team, set up the fairy type pokemon and let it be your attacking mon.*
 
 ### TEAM B:
-- **Zacian-Crowned**
+- **Zacian-Crowned #7891**
 > Equip: `Choice_Cloak` or `Choice_Scarf`
 > Moves: `Noble-Roar` `Behemoth-Blade` `Play-Rough` `Crunch`
 > EVs: `HP 252` `DEF 130` `SPD 128`
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Cloak` or `Choice_Scarf`
 > Moves: `Noble-Roar` `Wild-Charge` `Play-Rough` `Crunch`
 > EVs: `HP 252` `DEF 130` `SPD 128`
-- ** Golden Mewtwo**
+- **Golden Mewtwo #9150**
 > Equip: `Leftovers`
 > Moves: `Calm-Mind` `Bulk-Up` `Stored-Power` `Earth-Power`
 > EVs: `DEF 200` `SPD 200` `HP 110`
-**STRATEGY: **
+**STRATEGY:**
 - [1st Pokemon] Noble-Roar -6
 - [Golden Mewtwo] +6 Calm-Mind, +6 Bulk-Up, then Stored-Power Spam, Use Earth-Power when Enemy is immune to Psychic attacks or  has Resistance to it.
 
@@ -381,14 +381,14 @@ OR
 **REQ:** *Receive a battle invitation from Trainer Wes.*
 
 **TEAM:**
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Sucker-Punch` `Rock-Slide`
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Moonblast`
-- **Tyranitar**
+- **Tyranitar #248**
 > Moves: `Rock-Slide`
 or
-- **Zekrom**  |  **Mewtwo**
+- **Zekrom #644**  |  **Mewtwo #150**
 > Moves: `Fusion-Bolt`  |  `Power-Gem`
 
 **STRATEGY:**
@@ -401,11 +401,11 @@ or
 **REQ:** *Defeat all Kanto, Johto and Hoenn NPCs (first 39 NPCs) and receive a Boss Archie battle invitation.*
 
 **TEAM:**
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Moonblast` `Horn-Leech` `Psychic`
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Psychic` `Thunderbolt`
-- **Zekrom**
+- **Zekrom #644**
 > Moves: `Fusion-Bolt`
 
 **STRATEGY:**
@@ -422,17 +422,17 @@ or
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1355279147156635778)
 
 **TEAM:**
-- **Sneasel**
+- **Sneasel #215**
 > Ability `Inner Focus`
 > Equip: `N/A`
 > Moves: `Scary-Face` `Fake-Out`
 > EVs: `HP 252`
-- **Mienshao**
+- **Mienshao #620**
 > Ability `Inner Focus`
 > Equip: `N/A`
 > Moves: `Close-Combat` `Swords-Dance` `Vacuum-Wave`
 > EVs: `ATK 252` `SPD 236`
-- **Shedinja**
+- **Shedinja #292**
 > Ability: `Wonder Guard`
 > Equip: `Silver_Powder`
 > Moves: `Hone-Claw` `Heal-Block` `Shadow-Claw` `Leech-Life`
@@ -451,27 +451,27 @@ or
 
 **TEAM:**
 __**1st Position**__
-- **Sawk** | **Galarian-Zapdos** | **Marshadow** | **Terrakion** | **Urshifu**
+- **Sawk #539** | **Galarian-Zapdos #7753** | **Marshadow #802** | **Terrakion #639** | **Urshifu #892**
 > Equip: `Choice_Band | Choice_Cloak`
 > Moves: `Superpower`
 > EVs: `ATK 252` `SPE 252`
 > Stats: `ATK 394` `SPE 322`
 
 __**2nd Position**__
-- **Jirachi**
+- **Jirachi #385**
 > Equip: `Choice_Scarf`
 > Moves: `Charm`
 > EVs: `SPE 128`
 > Stats: `SPE 306`
 
 __**3rd Position**__
-- **Magearna**
+- **Magearna #801**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense` `Agility` `Calm-Mind` `Stored-Power`
 > EVs: `HP 144`
 > Stats: `SPE 306`
 __OR__
-- **Bronzong**
+- **Bronzong #437**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense` `Rock-Polish` `Calm-Mind` `Stored-Power`
 > EVs: `HP 252` `DEF 152` `SPE 80`
@@ -491,16 +491,16 @@ __OR__
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus Dark**
+- **Arceus-Dark #7576**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
 __OR__
-- **Gmax Corviknight**
+- **Gmax-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip`  `Bulk-Up`  `Max-Airstream`  `Roost`
 
@@ -516,15 +516,15 @@ __OR__
     ts3 = f"""## SETUP TEAMS
 ### TEAM C
 
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
-- ** Eternamax Eternatus**
+- **Eternamax-Eternatus #7244**
 > Equip: `Leftovers`
 > Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
 > Evs: `HP 252` `SPA 252` `SPE 6`
-- **Arceus Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
@@ -535,15 +535,15 @@ __OR__
 
 ### TEAM D
 
-- **Golden Zacian**
+- **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > Evs: `HP 252` `DEF 130` `SPD 128`
-- ** GMAX Corvi**
+- **Gmax-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Bulk-Up` `Max-Airstream` `Roost `Power-Trip`
 > Evs: `HP 252` `SPD 252` `DEF 6`
-- **Arceus Electric**
+- **Arceus-Electric #7588**
 > Equip: `Leftovers`
 > Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
 > EVs: `HP 252` `DEF 130` `SPD 128`
@@ -559,14 +559,14 @@ __OR__
 **REQ:** *Receive a battle invitation from Trainer Red.*
 
 **TEAM:**
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Oblivion-Wing` `Rock-Slide`
-- **Kyogre**
+- **Kyogre #382**
 > Moves: `Surf` `Thunderbolt`
-- **Zekrom**
+- **Zekrom #644**
 > Moves: `Fusion-Bolt`
 or
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Thunderbolt` `Power-Gem`
 
 **STRATEGY:**
@@ -590,10 +590,10 @@ or
 - **Dialga**
 > Equip: `Soft_Sand`
 > Moves: `Flash-Cannon` `Earth-Power`
-- **Mewtwo**
+- **Mewtwo #150**
 > Moves: `Aura-Sphere`
 or
-- **Groudon**
+- **Groudon #383**
 > Moves: `Earthquake`
 
 **STRATEGY:**
@@ -619,13 +619,13 @@ __OR__
 > EVs: `HP 252` `DEF 172`
 
 __**2nd Position**__
-- **Jirachi**
+- **Jirachi #385**
 > Equip: `Choice_Scarf`
 > Moves: `Charm`
 > EVs: `SPE 252`
 > Stats: `SPE 340`
 __OR__
-- **Magearna**
+- **Magearna #801**
 > Equip: `Leftovers`
 > Moves: `Eerie-Impulse` `Self-Destruct`
 > EVs: `HP 252` `SPD 252`
@@ -656,12 +656,12 @@ __OR__
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
@@ -673,44 +673,6 @@ __**2nd Position**__
 - [Arceus] Body-Press spam
 - [Arceus] Recover when low hp"""
 
-    ts4 = f"""## SETUP TEAMS
-### TEAM C
-
-- **Golden Zacian**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> Evs: `HP 252` `DEF 130` `SPD 128`
-- ** Eternamax Eternatus**
-> Equip: `Leftovers`
-> Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
-> Evs: `HP 252` `SPA 252` `SPE 6`
-- **Arceus Electric**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-**STRATEGY:**
-- [Zacian] Noble-Roar -6
-- [Eternatus] Cosmic-Power +6, Max-Ooze +6, then spam Max-Darkness, Recover when low hp.
-- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp.
-
-### TEAM D
-
-- **Golden Zacian**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> Evs: `HP 252` `DEF 130` `SPD 128`
-- ** GMAX Corvi**
-> Equip: `Leftovers`
-> Moves: `Bulk-Up` `Max-Airstream` `Roost `Power-Trip`
-> Evs: `HP 252` `SPD 252` `DEF 6`
-- **Arceus Electric**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-**STRATEGY:**
-- [Zacian] Noble-Roar -6
-- [Corviknight] Bulk-Up +6, Max-Airstream +6, then spam Power-Trip, Roost when low hp.
-- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp."""
     # ---------------------------
 
     cba5 = f"""# CHALLENGER BASIC: STEVEN
@@ -718,17 +680,17 @@ __**2nd Position**__
 **REQ:** *Receive a battle invitation from Trainer Steven.*
 
 **TEAM:**
-- **Kyogre**
+- **Kyogre #382**
 > Equip: `Mystic_Water`
 > Moves: `Surf` `Earthquake`
 - **Slaking**
 > Equip: `Soft_Sand`
 > Moves: `Earthquake`
-- **Groudon**
+- **Groudon #383**
 > Equip: `Soft_Sand`
 > Moves: `Earthquake`
 or
-- **Yveltal**
+- **Yveltal #717**
 > Moves: `Sucker-Punch`
 
 **STRATEGY:**
@@ -741,9 +703,9 @@ or
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh and Unova NPCs (first 65 NPCs) and receive a Boss Ghetsis battle invitation.*
 
 **TEAM:**
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Close-Combat` `Moonblast`
-- **Groudon**
+- **Groudon #383**
 > Equip: `Soft_Sand`
 > Moves: `Earthquake`
 - **Dialga**
@@ -761,9 +723,9 @@ or
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh and Unova NPCs (first 65 NPCs) and receive a Boss Ghetsis battle invitation.*
 
 **TEAM:**
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Close-Combat` `Moonblast`
-- **Groudon**
+- **Groudon #383**
 > Equip: `Soft_Sand`
 > Moves: `Earthquake`
 - **Dialga**
@@ -782,7 +744,7 @@ or
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
@@ -805,16 +767,16 @@ __**2nd Position**__
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh, Unova and Kalos NPCs (all NPCs except NPC 78) and receive a Boss Lysandre battle invitation.*
 
 **TEAM:**
-- **Kyogre**
+- **Kyogre #382**
 > Equip: `Mystic_Water`
 > Moves: `Surf` `Thunderbolt`
-- **Zekrom**
+- **Zekrom #644**
 > Equip: `Magnet`
 > Moves: `Fusion-Bolt`
-- **Xerneas**
+- **Xerneas #716**
 > Moves: `Moonblast`
 or
-- **Tyranitar**
+- **Tyranitar #248**
 > Equip: `Hard_Stone`
 > Moves: `Rock-Slide`
 
@@ -832,12 +794,12 @@ or
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio**
+- **Dugtrio #51**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus**
+- **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense`  `Calm-Mind`  `Stored-Power`  `Recover`
 
@@ -930,7 +892,6 @@ class SD_BATTLE_BUTTON_LABELS:
     ts = "Non-Setup"
     ts2 = "Setup Team 1"
     ts3 = "Setup Team 2"
-    ts4 = "Setup Team 3"
 
 
 class SD_BATTLE_BUTTON_EMOJIS:
@@ -967,7 +928,6 @@ class SD_BATTLE_BUTTON_EMOJIS:
     ts = "🚫"
     ts2 = "🛠️"
     ts3 = "🧰"
-    ts4 = "🪛"
 
 
 sd_battle_dict = {
@@ -1139,10 +1099,5 @@ sd_battle_dict = {
         "button_label": SD_BATTLE_BUTTON_LABELS.ts3,
         "button_emoji": SD_BATTLE_BUTTON_EMOJIS.ts3,
     },
-    "ts4": {
-        "desc": SD_BATTLE_DESC.ts4,
-        "thumbnail_url": None,
-        "button_label": SD_BATTLE_BUTTON_LABELS.ts4,
-        "button_emoji": SD_BATTLE_BUTTON_EMOJIS.ts4,
-    },
+
 }

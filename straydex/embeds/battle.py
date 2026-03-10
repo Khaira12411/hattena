@@ -95,7 +95,7 @@ class SDBattleView(View):
                 button = Button(
                     label=data["button_label"],
                     emoji=data["button_emoji"],
-                    style=discord.ButtonStyle.primary,
+                    style=discord.ButtonStyle.secondary,
                     custom_id=key,
                     disabled=(idx == 0),  # disable the first button initially
                 )

@@ -1,5 +1,105 @@
 from constants.pokemon_gifs import GOLDEN_MEGA_POKEMON_URL
 
+class SD_MC_ID:
+    ven = 500
+    chx = 501
+    chy = 502
+    bla = 503
+    sce = 504
+    blz = 505
+    swa = 506
+    gav = 507
+    bee = 508
+    amp = 509
+    sab = 510
+    gar = 511
+    pid = 512
+    gen = 513
+    ste = 514
+    lop = 515
+    ala = 516
+    sci = 517
+    maw = 518
+    luc = 519
+    slo = 520
+    her = 521
+    agg = 522
+    abo = 523
+    kan = 524
+    hou = 525
+    med = 526
+    gal = 527
+    pin = 528
+    tyr = 529
+    man = 530
+    aud = 532
+    gya = 533
+    aer = 534
+    sha = 535
+    dia = 536
+    mmx = 537
+    cam = 538
+    alt = 539
+    ray = 540
+    mmy = 541
+    ban = 542
+    abs = 543
+    gla = 544
+    sal = 545
+    met = 546
+    laa = 547
+    lao = 548
+
+
+class SD_MC_NPC_IDS:
+    ven = "600 - 602"
+    chx = "603 - 605"
+    chy = "606 - 608"
+    bla = "609 - 611"
+    sce = "612 - 614"
+    blz = "615 - 617"
+    swa = "618 - 620"
+    gav = "621 - 623"
+    bee = "624 - 626"
+    amp = "627 - 629"
+    sab = "630 - 632"
+    gar = "633 - 635"
+    pid = "636 - 638"
+    gen = "639 - 641"
+    ste = "642 - 644"
+    lop = "645 - 647"
+    ala = "648 - 650"
+    sci = "651 - 653"
+    maw = "654 - 656"
+    luc = "657 - 659"
+    slo = "660 - 662"
+    her = "663 - 665"
+    agg = "666 - 668"
+    abo = "669 - 671"
+    kan = "672 - 674"
+    hou = "675 - 677"
+    med = "678 - 680"
+    gal = "681 - 683"
+    pin = "684 - 686"
+    tyr = "687 - 689"
+    man = "690 - 692"
+    aud = "693 - 695"
+    gya = "696 - 698"
+    aer = "699 - 701"
+    sha = "702 - 704"
+    dia = "705 - 707"
+    mmx = "708 - 710"
+    cam = "711 - 713"
+    alt = "714 - 716"
+    ray = "717 - 719"
+    mmy = "720 - 722"
+    ban = "723 - 725"
+    abs = "726 - 728"
+    gla = "729 - 731"
+    sal = "732 - 734"
+    met = "735 - 737"
+    laa = "738 - 740"
+    lao = "741 - 743"
 
 class SD_MC_REG_STRAT:
     abo = f"""**TEAM:**
@@ -1043,10 +1143,7 @@ __Or__
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
-    ven = f"""**MC ID:** `500`
-**NPC IDS:** `600 - 603`
-
-**TEAM:**
+    ven = f"""**TEAM:**
 - **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
@@ -1217,8 +1314,8 @@ class SD_MC_GOLD_STRAT:
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Blaziken #257**
-> Equip: `Luck_Incense` | `Quick Claw` | `Focus_Band`
-> Moves: `Feather Dance` `Confide` `Low Sweep`
+> Equip: `Luck_Incense` | `Quick_Claw` | `Focus_Band`
+> Moves: `Feather-Dance` `Confide` `Low-Sweep`
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
@@ -1655,7 +1752,7 @@ class SD_MC_GOLD_STRAT:
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Steelix #208**
-> Equip: `Quick Claw`
+> Equip: `Quick_Claw`
 > Moves: `Confide` `Breaking-Swipe` `Dragon Breath`
 
 **STRATEGY:**
@@ -2000,7 +2097,6 @@ class MC_GOLD_BUTTON_EMOJI:
     tyr = "<:7090:1478741536387629117>"
     ven = None
 
-
 mc_dict = {
     "abo": {
         "reg_start": SD_MC_REG_STRAT.abo,
@@ -2010,3 +2106,39 @@ mc_dict = {
         "whole_name": SD_MC_WHOLE_NAME,
     },
 }
+
+class MC_ENEMY_REGULAR_FINALS:
+    abo = None
+    aer = f"""**TEAM:**
+- **Terrakion #639**
+> Ability: `Justified`
+> HP: `637`
+> Equip: `Zoom_Lens`
+> Moves: `Superpower` `Giga-Impact` `Swords-Dance` `Stealth-Rock`
+- **Lugia #249**
+> Ability: `Multiscale`
+> HP: `698`
+> Equip: `Expert_Belt`
+> Moves: `Future-Sight` `Sky-Attack` `Calm-Mind`
+- **Mega-Aerodactyl #7100**
+> Ability: `Tough Claws`
+> HP: `570`
+> Equip: `Choice_Specs`
+> Moves: `Sky-Attack` `Giga-Impact`"""
+    ala = f"""**TEAM:**
+- **
+> Ability:
+> HP:
+> Equip:
+> Moves:
+- **
+> Ability:
+> HP:
+> Equip:
+> Moves:
+- **
+> Ability:
+> HP:
+> Equip:
+> Moves:
+"""

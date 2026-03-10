@@ -1,5 +1,5 @@
-mc_regular_finals_teams = {
-    "aerodactyl": {
+mc_regular_finals_teams_map = {
+    "aer": {
         "terrakion": {
             "Ability": "pressure",
             "Item": "zoom lens",
@@ -16,7 +16,7 @@ mc_regular_finals_teams = {
             "Moves": ["stone-edge", "earthquake", "aerial-ace", "fire-blast"],
         },
     },
-    "blaziken": {
+    "blz": {
         "terrakion": {
             "Ability": "",
             "Item": "None",
@@ -33,7 +33,7 @@ mc_regular_finals_teams = {
             "Moves": [],
         },
     },
-    "alakazam": {
+    "ala": {
         "deoxys-defense": {
             "Ability": "pressure",
             "Item": "expert belt",
@@ -50,7 +50,7 @@ mc_regular_finals_teams = {
             "Moves": ["Future-Sight", "focus-punch", "dazzling-gleam", "energy-ball"],
         },
     },
-    "gyarados": {
+    "gya": {
         "darkrai": {
             "Ability": "",
             "Item": "quick claw",
@@ -62,7 +62,7 @@ mc_regular_finals_teams = {
             "Moves": ["skull-bash","aqua-tail", ""],
         },
         "kyogre": {
-            "Ability": "zoom lens",
+            "Ability": "Drizzle",
             "Item": "zoom lens",
             "Moves": ["Hyper Beam", "Water Spout", "Rest"],
         },

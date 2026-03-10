@@ -95,7 +95,11 @@ async def build_sd_reg_mc_embed(
     else:
         color = rare_color
 
-    embed = discord.Embed(description=reg_strat, color=color)
+    mc_id = getattr(SD_MC_ID, shrt_boss_name, "N/A")
+    npc_ids = getattr(SD_MC_NPC_IDS, shrt_boss_name, "N/A")
+    top_line = f"**MC ID:** `{mc_id}`\n**NPC IDS:** `{npc_ids}`\n\n"
+    desc = top_line + reg_strat
+    embed = discord.Embed(description=desc, color=color)
     upper_name = whole_name.upper()
     header_name = f"MEGA {upper_name} #{dex_num}"
 
@@ -128,7 +132,10 @@ async def build_sd_golden_mc_embed(
         dex_num = int(getattr(SD_MC_DEX_NUM, shrt_boss_name))
         golden_thumbnail = getattr(SD_MC_GOLD_THUMBNAIL, shrt_boss_name)
         golden_dex_num = dex_num + 2
-
+        mc_id = getattr(SD_MC_ID, shrt_boss_name, "N/A")
+        npc_ids = getattr(SD_MC_NPC_IDS, shrt_boss_name, "N/A")
+        top_line = f"**MC ID:** `{mc_id}`\n**NPC IDS:** `{npc_ids}`\n\n"
+        desc = top_line + (strat if strat is not None else "## Not available yet!")
         golden_color = 0xFDDC2B
         upper_name = whole_name.upper()
         header_name = f"GOLDEN MEGA {upper_name} #{golden_dex_num}"
@@ -139,7 +146,7 @@ async def build_sd_golden_mc_embed(
 
         # 🟦 Create embed
         try:
-            embed = discord.Embed(description=golden_strat, color=golden_color)
+            embed = discord.Embed(description=desc, color=golden_color)
             debug_log(f"Embed created for {shrt_boss_name}")
             pretty_log(
                 tag="info",
