@@ -948,11 +948,11 @@ VARIANT: `GOLDEN MEGA-MEWTWO-Y #7123`
 - **Ability:**
 > `Refrigerate`
 - **Moves:**
-> `Hyper-Beam` `Ice-Spinner`
+> `Ice-Ball` `Ice-Spinner` `Defense-Curl`
 - **Equip:**
-> `Choice_Specs | Metronome | Nevermeltice`
+> `Choice_Specs | Metronome | Nevermeltice | Expert_Belt`
 - **EVs:**
-> `SPA 252` `SPD 252` `HP 4`
+> `ATK 252` `SPD 252` `HP 4`
 - **WBs used in:**
 > `Gmax Butterfree` `Gmax-Rillaboom` `Gmax-Venusaur`
 
@@ -960,13 +960,13 @@ VARIANT: `GOLDEN MEGA-MEWTWO-Y #7123`
 - **Ability:**
 > `Tinted-Lens`
 - **Moves:**
-> `Expanding-Force` `Psychic-Terrain` `Calm-Mind`
+> `Stored-Power` `Calm-Mind` `Agility | Roost` `Psychic-Terrain`
 - **Equip:**
-> `Metronome | Expert_Belt`
+> `Metronome | Expert_Belt | Twisted_Spoon`
 - **EVs:**
 > `SPA 252` `SPD 252` `HP 4`
 - **WBs used in:**
-> `All except GMAX-Grimmsnarl and GMAX-Urshifu-Singlestrike (As alternative to MMY).`
+> `All except GMAX-Grimmsnarl and GMAX-Urshifu-Singlestrike or for WBs that has resistant to psychic (As alternative to MMY).`
 
 **PANGORO #675**
 - **Moves:**
