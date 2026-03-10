@@ -201,7 +201,6 @@ for sub in safari_zone_sub:
 # Pokemon AR
 po_sub_no_buttons = [
     "inc",
-    "res",
     "ete",
     "hat",
     "cor",
@@ -215,8 +214,6 @@ po_sub_w_buttons = [
     "nec",
     "kyu",
     "mew",
-    "dia",
-    "ray",
     "nor",
     "arc",
     "zac",

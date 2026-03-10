@@ -17,6 +17,7 @@ async def straydex_command_handler(
         tag="info",
         message=f"Received Straydex command: '{command}' from user: '{message.author}' in guild: '{guild.name}'",
     )
+
     try:
         response = await handle_exact_command(
             guild=guild,

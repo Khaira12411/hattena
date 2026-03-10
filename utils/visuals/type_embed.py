@@ -241,7 +241,7 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         f"Resolved Pokemon input '{pokemon_input}' to variant_name: '{variant_name}', shiny_golden_tag: '{shiny_golden_tag}', base_dex: '{base_dex}', is_digit: {is_digit}",
     )
     if not variant_name:
-        return None
+        return None, None, None
 
     weaknesses = weakness_chart.get(variant_name)
     if not weaknesses:
@@ -249,7 +249,7 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
             "warn",
             f"No weaknesses found for {variant_name}",
         )
-        return None
+        return None, None, None
 
     types = weaknesses.get("types", [])
     SD_EMOJISs_str = "".join(TYPE_EMOJIS.get(t, "") for t in types)
