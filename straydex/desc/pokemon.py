@@ -355,7 +355,17 @@ VARIANT: `LATIOS #381`
 - **Equip:**
 > `Choice_Scarf | `Choice_Cloak`
 - **EVs:**
-> `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`"""
+> `HP 252` `SPE 252` `SPD 4` or `HP 252` `DEF 128` `SPD 128`
+
+**GMAX-RILLABOOM #7205**
+- **Ability:**
+> `Overgrow | Grassy-Surge`
+- **Moves:**
+> `Noble-Roar` `Leech Seed`
+- **Equip:**
+> `Big Root (Optional)`
+- **EVs:**
+> `HP 252` `SPD 164` `DEF 92`"""
 
     nic = f"""# BATTLEMON: NICHE BATTLEMONS
 **SPREADSHEET LINK:** [LINK](https://docs.google.com/spreadsheets/d/1kuA4AVjayKNsdQxJPFl-T3Y-zhxtZwUhGgOabV3p3Hs/edit?gid=11196967#gid=11196967)
