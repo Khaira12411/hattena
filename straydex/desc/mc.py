@@ -72,7 +72,7 @@ class SD_MC_REG_STRAT:
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Aggron #306**
 > Equip: `Luck_Incense`
 > Moves: NA
@@ -93,7 +93,7 @@ class SD_MC_REG_STRAT:
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Alakazam**
 > Equip: `Luck_Incense`
 > Moves: NA
@@ -608,7 +608,7 @@ class SD_MC_REG_STRAT:
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Lopunny #428**
 > Equip: `Luck_Incense`
 > Moves: NA
@@ -747,7 +747,7 @@ __Or__
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Golden Mewtwo #9150**
 > Equip: `Zap Cannon` `Bulldoze`
 > Moves: `Choice_Scarf`
@@ -1043,7 +1043,10 @@ __Or__
 - [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
-    ven = f"""**TEAM:**
+    ven = f"""**MC ID:** `500`
+**NPC IDS:** `600 - 603`
+
+**TEAM:**
 - **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
@@ -1460,7 +1463,7 @@ class SD_MC_GOLD_STRAT:
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Toxic` `Recover` `Body-Press` `Cosmic-Power`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Lopunny #428**
 > Equip: `Choice_Scarf`
 > Moves: `Thunder-Wave`
@@ -1492,7 +1495,7 @@ class SD_MC_GOLD_STRAT:
 - **Arceus-Ghost #7627**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `HP 252` `SPD 252` `DEF 4`
 - **Golden Mewtwo #9150**
 > Equip: `Zap Cannon` `Bulldoze`
 > Moves: `Choice_Scarf`

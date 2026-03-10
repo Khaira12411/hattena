@@ -640,7 +640,7 @@ VARIANT: `GOLDEN MEGA-MEWTWO-Y #7123`
 - **Equip:**
 > `Leftovers`
 - **EVs:**
-> `HP 252` `DEF 128` `SPD 128`
+> `HP 252` `SPD 252` `DEF 4`
 
 **ARCEUS-GRASS #7570**
 - **Moves:**
@@ -1287,7 +1287,9 @@ __**SETUP SWEEPER**__
 
 - **Equip:**
 > `Leftovers`
-- **EVs:**
+- **Arceus-Ghost EVs:**
+> `HP 252` `SPD 252` `DEF 4`
+- **Other form EVs:**
 > `HP 252` `DEF 128` `SPD 128`"""
 
     mew4 = f"""# BATTLEMON: MEGA-MEWTWO-Y #7121
