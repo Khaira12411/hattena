@@ -406,7 +406,7 @@ VARIANT: `LATIOS #381`
 - **Ability:**
 > `Sturdy`
 - **Moves:**
-> `Endeavor` `Sucker-Punch` `Sandstorm` `Stealth-Rock | Protect`
+> `Endeavor` `Sucker-Punch (Teach Bonsly then evolve)` `Sandstorm` `Stealth-Rock | Protect`
 - **Equip:**
 > `Ability_Shield | Covert_Cloak`
 - **EVs:**
