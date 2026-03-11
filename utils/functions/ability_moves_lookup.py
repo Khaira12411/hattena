@@ -2,17 +2,18 @@ import itertools
 
 import discord
 
-from constants.pokemons import *
+from constants.aesthetic import Emojis
 from constants.new_abilities import abilities
 from constants.new_moves_preview import moves
+from constants.pokemons import *
+from constants.straymons_constants import DEFAULT_EMBED_COLOR
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
-from constants.aesthetic import Emojis
-from constants.straymons_constants import DEFAULT_EMBED_COLOR
+from straydex.functions.main import send_sd_logs
 
-enable_debug(f"{__name__}.get_move_learned_by_pokemon")
-enable_debug(f"{__name__}.get_ability_learned_by_pokemon")
-enable_debug(f"{__name__}.ability_moves_lookup")
+#enable_debug(f"{__name__}.get_move_learned_by_pokemon")
+#enable_debug(f"{__name__}.get_ability_learned_by_pokemon")
+#enable_debug(f"{__name__}.ability_moves_lookup")
 # Combine all the mons dictionaries into one lookup
 
 ALL_MONS = {}
@@ -211,7 +212,17 @@ def format_combo_field(combo, pokes):
     if not pokes:
         value = "❌ No matches"
     else:
-        value = ", ".join([format_pokemon_name(p) for p in sorted(pokes)])
+        filtered = []
+        for p in sorted(pokes):
+            formatted = format_pokemon_name(p)
+            # Validation: check if formatted (lowercase) is in ALL_MONS (lowercase keys)
+            # ALL_MONS keys are already lowercase, so just lower the formatted name
+            if formatted.lower() in ALL_MONS:
+                filtered.append(formatted)
+        if not filtered:
+            value = "❌ No matches"
+        else:
+            value = ", ".join(filtered)
     return {"name": name, "value": value, "inline": False}
 
 
@@ -230,31 +241,40 @@ def get_info_descriptions(ability_name, move_names):
             if m in moves[dmg_class]:
                 move = moves[dmg_class][m]
                 # Use render_effect_text for effect_full and effect_short
-                desc = move.get("effect_full") or move.get("effect_short") or move.get("desc") or "No description found."
+                desc = (
+                    move.get("effect_full")
+                    or move.get("effect_short")
+                    or move.get("desc")
+                    or "No description found."
+                )
                 desc = render_effect_text(desc, move.get("effect_chance"))
                 damage_class = move.get("damage_class", "?")
                 move_type = move.get("type", "?")
                 priority = move.get("priority", "?")
                 power = move.get("power", "?")
-                move_infos.append({
-                    "name": m.title(),
-                    "desc": desc,
-                    "damage_class": damage_class,
-                    "type": move_type,
-                    "priority": priority,
-                    "power": power
-                })
+                move_infos.append(
+                    {
+                        "name": m.title(),
+                        "desc": desc,
+                        "damage_class": damage_class,
+                        "type": move_type,
+                        "priority": priority,
+                        "power": power,
+                    }
+                )
                 found = True
                 break
         if not found:
-            move_infos.append({
-                "name": m.title(),
-                "desc": "No description found.",
-                "damage_class": "?",
-                "type": "?",
-                "priority": "?",
-                "power": "?"
-            })
+            move_infos.append(
+                {
+                    "name": m.title(),
+                    "desc": "No description found.",
+                    "damage_class": "?",
+                    "type": "?",
+                    "priority": "?",
+                    "power": "?",
+                }
+            )
     return ability_effect, move_infos
 
 
@@ -318,7 +338,10 @@ class AbilityMovesLookupView(discord.ui.View):
 class NextButton(discord.ui.Button):
     def __init__(self, parent, disabled=False):
         super().__init__(
-            style=discord.ButtonStyle.secondary,emoji=Emojis.right_arrow, label="Next", disabled=disabled
+            style=discord.ButtonStyle.secondary,
+            emoji=Emojis.right_arrow,
+            label="Next",
+            disabled=disabled,
         )
         self.parent = parent
 
@@ -336,7 +359,10 @@ class NextButton(discord.ui.Button):
 class PreviousButton(discord.ui.Button):
     def __init__(self, parent, disabled=False):
         super().__init__(
-            style=discord.ButtonStyle.secondary, emoji=Emojis.left_arrow, label="Previous", disabled=disabled
+            style=discord.ButtonStyle.secondary,
+            emoji=Emojis.left_arrow,
+            label="Previous",
+            disabled=disabled,
         )
         self.parent = parent
 
@@ -353,7 +379,9 @@ class PreviousButton(discord.ui.Button):
 
 class InfoButton(discord.ui.Button):
     def __init__(self, parent):
-        super().__init__(style=discord.ButtonStyle.secondary, label="Info", emoji=Emojis.info)
+        super().__init__(
+            style=discord.ButtonStyle.secondary, label="Info", emoji=Emojis.info
+        )
         self.parent = parent
 
     async def callback(self, interaction: discord.Interaction):
@@ -369,7 +397,11 @@ class InfoButton(discord.ui.Button):
 
 class PokemonsButton(discord.ui.Button):
     def __init__(self, parent):
-        super().__init__(style=discord.ButtonStyle.secondary, label="Pokémons", emoji=Emojis.purple_ball)
+        super().__init__(
+            style=discord.ButtonStyle.secondary,
+            label="Pokémons",
+            emoji=Emojis.purple_ball,
+        )
         self.parent = parent
 
     async def callback(self, interaction: discord.Interaction):
@@ -392,12 +424,22 @@ async def ability_moves_lookup(
     show_info=False,
     requester=None,
 ):
+    pretty_log(
+        "debug",
+        f"[ability_moves_lookup] Called with ability_name='{ability_name}', move_names={move_names}, page={page}, show_info={show_info}",
+        label="AbilityMovesLookup",
+    )
     ability_name = normalize_ability_name(ability_name)
     move_names = [normalize_move_name(m) for m in move_names]
     standard_pokemon, hidden_pokemon = get_ability_learned_by_pokemon(ability_name)
     ability_pokemon_set = set(standard_pokemon + hidden_pokemon)
 
     if not ability_pokemon_set:
+        pretty_log(
+            "debug",
+            f"[ability_moves_lookup] No Pokémon found for ability '{ability_name}'",
+            label="AbilityMovesLookup",
+        )
         embed = discord.Embed(
             title=f"Pokémon with Ability '{ability_name}'",
             description="⚠️ No Pokémon found with this ability.",
@@ -407,6 +449,11 @@ async def ability_moves_lookup(
             await interaction_or_message.response.edit_message(embed=embed, view=None)
         else:
             await interaction_or_message.reply(embed=embed)
+        pretty_log(
+            "debug",
+            f"[ability_moves_lookup] Sent 'no Pokémon found' embed.",
+            label="AbilityMovesLookup",
+        )
         return
 
     combos = get_move_combinations(move_names)
@@ -416,6 +463,11 @@ async def ability_moves_lookup(
         )
         for combo in combos
     ]
+
+    # Check if all fields are '❌ No matches'
+    all_no_matches = (
+        all(f["value"] == "❌ No matches" for f in fields) if fields else True
+    )
 
     fields_per_page = 5
     total_pages = (len(fields) + fields_per_page - 1) // fields_per_page
@@ -436,23 +488,63 @@ async def ability_moves_lookup(
             other_info_str = f"- **Type:** {move['type'].title()} | **Class:** {move['damage_class'].title()} | **Power:** {move['power']} | **Priority:** {move['priority']}"
             move_value = f"{other_info_str}\n>>> {move['desc']}"
             embed.add_field(
-                name=f"{Emojis.flower2} {move['name']} (Move)", value=move_value, inline=False
+                name=f"{Emojis.flower2} {move['name']} (Move)",
+                value=move_value,
+                inline=False,
             )
         embed.set_footer(text=f"Info page")
     else:
-        embed = discord.Embed(
-            title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
-            color=DEFAULT_EMBED_COLOR,
-        )
-        for f in paged_fields:
-            embed.add_field(**f)
-        embed.set_footer(text=f"Page {page+1}/{total_pages}")
+        if all_no_matches:
+            try:
+                await interaction_or_message.reply(
+                    "No possible combination for ability and moves."
+                )
+                pretty_log(
+                    "debug",
+                    f"[ability_moves_lookup] Sent plain text 'no possible combination' message.",
+                    label="AbilityMovesLookup",
+                )
+            except Exception as e:
+                pretty_log(
+                    "error",
+                    f"[ability_moves_lookup] Exception sending plain text: {e}",
+                    label="AbilityMovesLookup",
+                    include_trace=True,
+                )
+            return
+        else:
+            embed = discord.Embed(
+                title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
+                color=DEFAULT_EMBED_COLOR,
+            )
+            for f in paged_fields:
+                embed.add_field(**f)
+            embed.set_footer(text=f"Page {page+1}/{total_pages}")
 
     view = AbilityMovesLookupView(
         ability_name, move_names, page, total_pages, show_info, requester
     )
 
-    if isinstance(interaction_or_message, discord.Interaction):
-        await interaction_or_message.response.edit_message(embed=embed, view=view)
-    else:
-        await interaction_or_message.reply(embed=embed, view=view)
+
+    try:
+        if isinstance(interaction_or_message, discord.Interaction):
+            await interaction_or_message.response.edit_message(embed=embed, view=view)
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] Sent embed via interaction.edit_message.",
+                label="AbilityMovesLookup",
+            )
+        else:
+            await interaction_or_message.reply(embed=embed, view=view)
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] Sent embed via message.reply.",
+                label="AbilityMovesLookup",
+            )
+    except Exception as e:
+        pretty_log(
+            "error",
+            f"[ability_moves_lookup] Exception sending embed: {e}",
+            label="AbilityMovesLookup",
+            include_trace=True,
+        )

@@ -6,10 +6,10 @@ from discord.ext import commands
 
 from constants.ask_hattena.overall import TOPICS
 from constants.straymons_constants import PREFIX
+from utils.functions.ability_moves_lookup import ability_moves_lookup
 from utils.functions.ask_hattena import match_topic
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
-from utils.functions.ability_moves_lookup import ability_moves_lookup
 
 
 async def mention_listener(bot: commands.Bot, message: discord.Message):
@@ -97,5 +97,13 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
             ability = match.group(2).strip()
             moves = match.group(3).strip().replace(",", " ").replace(";", " ")
             move_list = [m for m in moves.split() if m]
+            pretty_log(
+                "debug",
+                f"Calling ability_moves_lookup with ability='{ability}', moves={move_list}",
+                label="MentionListener",
+            )
             await ability_moves_lookup(message, ability, move_list)
+            pretty_log(
+                "debug", "Returned from ability_moves_lookup", label="MentionListener"
+            )
             return

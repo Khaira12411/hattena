@@ -60,7 +60,7 @@ class PS_DESC:
 > Equip: `Ability_Shield`
 > Moves: `Trick-Room` `Destiny-Bond` `Magic-Room`
 > EVs: `N/A`
-- **Donphan #1232**
+- **Donphan #232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
 > Moves: `Protect` `Endeavor` `Ice-Shard`
@@ -93,7 +93,7 @@ class PS_DESC:
 > Equip: `Ability_Shield`
 > Moves: `Destiny-Bond`
 > EVs: `N/A`
-- **Donphan #1232**
+- **Donphan #232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
 > Moves: `Protect` `Endeavor` `Ice-Shard`

@@ -14,6 +14,7 @@ async def send_sd_logs(
     channel: discord.TextChannel,
     cmd: str = None,
     message: discord.Message = None,
+
 ):
     if TESTING:
         return  # Skip logging in testing mode
@@ -24,6 +25,7 @@ async def send_sd_logs(
         question_str = f"- **Question:** `{question}`\n"
         commands_str = f"- **Command:** `{cmd}`\n"
         title_str = f"Question Asked"
+
     else:
         commands_str = f"- **Command:** `{main_cmd}`\n"
         title_str = f"Command Used"
