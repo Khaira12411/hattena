@@ -348,6 +348,38 @@ class SD_EVOI_IMAGE:
 
 
 class SD_IT_IMAGES:
+    lumberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283045104419010/1480097618838421576.png?ex=69b2bfd6&is=69b16e56&hm=5563c4945e0c4ec849cd883c00cc2e64aada7f458c85d58fa0816f312fc7fae7&=&format=webp&quality=lossless"
+
+    chestoberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283117233737788/1480226743024488492.png?ex=69b2bfe8&is=69b16e68&hm=577358cc2fae6fbe52d700ad156558ad51e93d9ca2b5781257286dbfcb6dff26&=&format=webp&quality=lossless"
+
+    occaberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283214596243699/1480228087403643213.png?ex=69b2bfff&is=69b16e7f&hm=2804826e749a8cebaf8d8e5b305ce9ea598967c8eb84aee471c953b3c07f704e&=&format=webp&quality=lossless"
+
+    persimberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283254765228183/1480228135680086027.png?ex=69b2c008&is=69b16e88&hm=4ab3063bbcbc6654ded7cd24d5d07c281ed4d3b8e31c097bea99a8c0897c3a04&=&format=webp&quality=lossless"
+
+    yacheberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283309433782354/1480229340137652286.png?ex=69b2c015&is=69b16e95&hm=6b43837db6c725f806fa89687878c5abd2336efc05091e7b96db8578c744d487&=&format=webp&quality=lossless"
+
+    salacberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283359580749985/1480229849435082853.png?ex=69b2c021&is=69b16ea1&hm=3e999df214ba8b57e1a33a8d77f9a57d2887b87eafa53d76d01b3bc4a47d1902&=&format=webp&quality=lossless"
+
+    shucaberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283405860569149/1480229338430443742.png?ex=69b2c02c&is=69b16eac&hm=d4923fdd3656ced3fea6f87c7f5265203a02459651461147b0d23c61dde167ef&=&format=webp&quality=lossless"
+
+    atkmint = "https://media.discordapp.net/attachments/1385288189714894953/1481283449271750797/1480293969526128846.png?ex=69b2c037&is=69b16eb7&hm=79510a92b9a9e2e1b2a4080546881c879238eb5f585c41cb981caf98beec0585&=&format=webp&quality=lossless"
+
+    defmint = "https://media.discordapp.net/attachments/1385288189714894953/1481283504498016307/1480293967492026528.png?ex=69b2c044&is=69b16ec4&hm=26204d3dcedb5b5f7e6579235e007fba7a9d93a712b5ba4d1f64767f6230a210&=&format=webp&quality=lossless"
+
+    spamint = "https://media.discordapp.net/attachments/1385288189714894953/1481283559653380148/1480294538370093169.png?ex=69b2c051&is=69b16ed1&hm=adc28cc73cb7d7df74b476ec9985dfbc5254261ca20c4a457c8de90aaa32a419&=&format=webp&quality=lossless"
+
+    spdmint = "https://media.discordapp.net/attachments/1385288189714894953/1481283632365830234/1480294870806691921.png?ex=69b2c062&is=69b16ee2&hm=739b3a006f6faee9d111f192bebdabd66192f315ed0491da18c55807902915f7&=&format=webp&quality=lossless"
+
+    spemint = "https://media.discordapp.net/attachments/1385288189714894953/1481283679207555174/1480295197710749697.png?ex=69b2c06e&is=69b16eee&hm=6aed78f32eb141994d33317f69e6b913c528ebb7ec72570cf6145e848b1d5748&=&format=webp&quality=lossless"
+
+    seriousmint = "https://media.discordapp.net/attachments/1385288189714894953/1481283780013457418/1480297349447155712.png?ex=69b2c086&is=69b16f06&hm=0394f6b5891bb16990c25f21322247462caf31b4e2ed8b190f2261cca959c870&=&format=webp&quality=lossless"
+
+    whiteherb = "https://media.discordapp.net/attachments/1385288189714894953/1481283908246044703/1480356468996837518.png?ex=69b2c0a4&is=69b16f24&hm=62a7cc7ace814eada62201d6d0d7c0c07d5cf46b410b2a36998cf415969d171e&=&format=webp&quality=lossless"
+
+    brightpowder = "https://media.discordapp.net/attachments/1385288189714894953/1481284493951242403/1480356032676102194.png?ex=69b2c130&is=69b16fb0&hm=0710f671fc44c9e1b26bc4f4153737367063b4fc4ee74dc8f5175a8b5f75240c&=&format=webp&quality=lossless"
+
+    clearamulet = "https://media.discordapp.net/attachments/1385288189714894953/1481284522384293958/1473482184185745613.png?ex=69b2c137&is=69b16fb7&hm=c31eff7afe1ed944d1b92cb9e4ab7efc9dc86258482f5d816c942c110f769607&=&format=webp&quality=lossless"
+
     auspiciousarmor = "https://media.discordapp.net/attachments/1383053804529778720/1383057191912738968/84b380fde6aa0dbc7f81f122cc4475e5845cee906de2afc502edfcf78a732bda.png?ex=689a87a2&is=68993622&hm=499b8759c847509c0787c1d1bfe002d1f90821f9adfbb46e80112d1539310f84&=&format=webp&quality=lossless&width=144&height=127"
 
     deepseascale = "https://media.discordapp.net/attachments/1383053804529778720/1383058241432322179/811a6a4e5dfb89f018125ae13cbd319336ab125a26ceaa1685cba8485b36b1d0.png?ex=689a889c&is=6899371c&hm=8997e5b5070fddf133241dcc70d10bdd9cfda834537159e030006d2acee143d1&=&format=webp&quality=lossless&width=70&height=62"
@@ -1905,3 +1937,101 @@ class SD_IT:
 - ✅ Yes
 - `;team give toxicorb <mon>`"""
 
+    # Battle Frontier Items
+    lumberry =f"""# LUM BERRY
+**INFO:**
+- Automatically cures any major status condition or confusion. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+    chestoberry = f"""# CHESTO BERRY
+**INFO:**
+- Automatically wakes the holder up if it falls asleep. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    occaberry = f"""# OCCA BERRY
+**INFO:**
+- Weakens one super-effective Fire-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    persimberry = f"""# PERSIM BERRY
+**INFO:**
+- Automatically cures confusion. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    yacheberry = f"""# YACHE BERRY
+**INFO:**
+- Weakens one super-effective Ice-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    yacheberry = f"""# YACHE BERRY
+**INFO:**
+- Weakens one super-effective Ice-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    salacberry = f"""# SALAC BERRY
+**INFO:**
+Automatically raises the holder's Speed when it is low on HP. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    shucaberry = f"""# SHUCA BERRY
+**INFO:**
+Weakens one super-effective Ground-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    atkmint = f"""# ATK MINT
+**INFO:**
+Changes a Pokémon's nature to a random Attack-boosting nature (Lonely, Adamant, Naughty, or Brave).
+
+**USAGE:**
+- ;bud set nature atk <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""

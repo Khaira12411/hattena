@@ -145,24 +145,36 @@ class SD_MC_REG_STRAT:
 - [Arceus] Recover on Low HP"""
 
     aer = f"""**TEAM:**
-- **Golden Zacian #9888**
+- **Aerodactyl #142**
 > Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+> Moves: `Reflect` `Tailwind` `Scary-Face`
+> EVs: `SPE 252` `HP 252`
+- **Latios #381**
+> Equip: `Choice_Scarf`
+> Moves: `Power-Split` `Memento`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Water #7555**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Aerodactyl #142**
-> Equip: `Luck_Incense`
-> Moves: NA
+
 
 **STRATEGY:**
-- [Zacian] Noble-Roar -6 or until it dies
+- [Aerodactyl] Reflect until it dies
+- [Latios] Memento
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- For Tornadus/Aerodactyl lead, spam Tailwind with Aerodactyl til dead so that Latios can outspeed them and use Memento.
+- For Shaymin-Sky/Articuno/Crobat/Zapdos/Thundurus-Therian/Ho-Oh, spam Scary-Face until dead. This is done to let Latios/Arceus outspeed them.
+- When using Latios against Diancie/Tornadus spam Power-Split until dead, since their stats can't/should not be lowered. Diancie's Clear Body ability will prevent the stat drop, while a Tornadus with Defiant would make raise its attack by 2 if latios use memento against it.
+- Don't switch to Latios against Terrakion holding a Choice_Band, as using Memento will make it switch to another mon. Using Power-Split while Terrakion is spamming Superpower will mess up with the stat drop that comes with Superpower, and make it harder to setup with Arceus.
+- When setting up against Thundurus-Therian/Zapdos, max Iron-Defense first but with Zapdos use Calm-Mind when it start using special attack moves.
+- Arceus-Psychic (Stored-Power) with G Zacian as the debuffer is best to use in the final battle.
+"""
 
     agg = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -566,27 +578,27 @@ class SD_MC_REG_STRAT:
 > Moves: `Noble-Roar` `Play-Rough`
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Grass #7570**
-> Equip: `Miracle_Seed`
-> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
+> Equip: `Covert_Cloak | Leftovers`
+> Moves: `Toxic` `Body-Press` `Cosmic-Power` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gyarados #130**
 > Equip: `Luck_Incense`
 > Moves: NA
 
-**WARM UPS STRATEGY:**
+**STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
-- [Arceus] Calm-Mind +6
-- [Arceus] Iron-Defense +6
-- [Arceus] Giga-Drain spam
+- [Arceus] Cosmic-Power +6
+- [Arceus] Toxic for every enemy
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-**FINALS TEAM:**
+**ALTERNATIVE FINALS TEAM:**
 - **Whimsicott #547**
 > Equip: `Choice_Scarf`
 > Moves: `Switcheroo`
-- **Arceus-Grass #7570**
-> Equip: `Miracle_Seed`
-> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
+- **Arceus-Fairy #7570**
+> Equip: `Leftovers`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Gyarados #130**
 > Equip: `Luck_Incense`
@@ -596,9 +608,10 @@ class SD_MC_REG_STRAT:
 - You can also use Arceus-Fairy with Leftovers and Judgment for slot 2.
 - For warmups, if Darkrai leads, spam Play-rough with Zacian then switch to Gyarados, to able to use Noble-Roar on Zacian and proceed with setup with Arceus.
 - For warmups, if Weaville leads, spam Close-Combat with Zacian then follow the same strat above.
+> <a:fidough_wow:1283739703140679703> ***FidNotes for Alternative Finals Team:***
 - For finals, if Darkrai leads, switch to Arceus and spam Giga-drain/Judgment and use 2x Iron-Defense and 2x Calm-Mind to setup when Darkai uses Rest.
-- If Kyogre leads, use Switcheroo with Whimsicoot to lock kyogre into Calm-Mind then switch to Arceus and use 2x Iron-Defense and 2x Calm-Mind to setup then spam Giga-Drain/Judgment.
-- If Mega Gyarados leads, switch to Gyarados to intimidate then switch to Arceus and use 3x Iron-Defense, and 6x Calm-Mind before attack move spam"""
+- If Kyogre leads, use Switcheroo with Whimsicott to lock kyogre into Calm-Mind then switch to Arceus and use 2x Iron-Defense and 2x Calm-Mind to setup then spam Giga-Drain/Judgment.
+- If Mega-Gyarados leads, switch to Gyarados to intimidate then switch to Arceus and use 3x Iron-Defense, and 6x Calm-Mind before attack move spam"""
 
     her = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -1424,21 +1437,22 @@ class SD_MC_GOLD_STRAT:
 - **Whimsicott #547**
 > Equip: `Luck_Incense`
 > Moves: `Memento` `Charm`
-- **Arceus-Steel #7609**
+- **Necrozma-Duskmane #7687**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
+> Moves: `Sunsteel-Strike` `Moonlight` `Cosmic-Power` `Swords-Dance`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
 **STRATEGY:**
 - [Gardevoir] Memento
 - [Whimsicott] Memento
-- [Arceus] Calm-Mind +6
-- [Arceus] Iron-Defense +6
-- [Arceus] Judgment spam
-- [Arceus] Recover on Low HP
+- [Duskmane] Cosmic-Power +6
+- [Duskmane] Swords-Dance +6
+- [Duskmane] Sunsteel-Strike spam
+- [Duskmane] Moonlight on Low HP
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
-- Use Destiny Bond if the leading pokemon is Gmax-Hatterene, Golden Mewtwo, Golden MMX, and Golden MMY."""
+- Use Destiny Bond if the leading pokemon is Gmax-Hatterene, Golden Mewtwo, Golden MMX, and Golden MMY.
+- If using Eternamax-Eternatus, use Gmax-Grimmsnarl Gmax-Snooze to finish off GMega-Gardevoir."""
 
     gen = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -1470,7 +1484,7 @@ class SD_MC_GOLD_STRAT:
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Arceus Grass #7570**
+- **Arceus-Grass #7570**
 > Equip: `Miracle_Seed`
 > Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
