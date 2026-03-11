@@ -548,22 +548,27 @@ async def ability_moves_lookup(
 
     try:
         if isinstance(interaction_or_message, discord.Interaction):
-            await interaction_or_message.response.edit_message(embed=embed, view=view)
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] Sent embed via interaction.edit_message.",
+                f"[ability_moves_lookup] About to send embed via interaction.edit_message WITHOUT view.",
+                label="AbilityMovesLookup",
+            )
+            await interaction_or_message.response.edit_message(embed=embed, view=None)
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] Sent embed via interaction.edit_message WITHOUT view.",
                 label="AbilityMovesLookup",
             )
         else:
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] About to send embed via message.reply.",
+                f"[ability_moves_lookup] About to send embed via message.reply WITHOUT view.",
                 label="AbilityMovesLookup",
             )
-            await interaction_or_message.reply(embed=embed, view=view)
+            await interaction_or_message.reply(embed=embed, view=None)
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] Sent embed via message.reply.",
+                f"[ability_moves_lookup] Sent embed via message.reply WITHOUT view.",
                 label="AbilityMovesLookup",
             )
     except Exception as e:
