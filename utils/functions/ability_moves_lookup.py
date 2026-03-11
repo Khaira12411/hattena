@@ -7,13 +7,13 @@ from constants.new_abilities import abilities
 from constants.new_moves_preview import moves
 from constants.pokemons import *
 from constants.straymons_constants import DEFAULT_EMBED_COLOR
+from straydex.functions.main import send_sd_logs
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
-from straydex.functions.main import send_sd_logs
 
-#enable_debug(f"{__name__}.get_move_learned_by_pokemon")
-#enable_debug(f"{__name__}.get_ability_learned_by_pokemon")
-#enable_debug(f"{__name__}.ability_moves_lookup")
+# enable_debug(f"{__name__}.get_move_learned_by_pokemon")
+# enable_debug(f"{__name__}.get_ability_learned_by_pokemon")
+# enable_debug(f"{__name__}.ability_moves_lookup")
 # Combine all the mons dictionaries into one lookup
 
 ALL_MONS = {}
@@ -525,7 +525,6 @@ async def ability_moves_lookup(
         ability_name, move_names, page, total_pages, show_info, requester
     )
 
-
     try:
         if isinstance(interaction_or_message, discord.Interaction):
             await interaction_or_message.response.edit_message(embed=embed, view=view)
@@ -535,6 +534,11 @@ async def ability_moves_lookup(
                 label="AbilityMovesLookup",
             )
         else:
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] About to send embed via message.reply.",
+                label="AbilityMovesLookup",
+            )
             await interaction_or_message.reply(embed=embed, view=view)
             pretty_log(
                 "debug",
@@ -548,3 +552,6 @@ async def ability_moves_lookup(
             label="AbilityMovesLookup",
             include_trace=True,
         )
+        import traceback
+
+        print(traceback.format_exc())
