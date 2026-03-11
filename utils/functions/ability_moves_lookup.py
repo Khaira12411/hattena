@@ -325,8 +325,7 @@ class AbilityMovesLookupView(discord.ui.View):
         self.requester = requester
 
         if show_info:
-            # On info page: show Info + Pokémons button
-            self.add_item(InfoButton(self))
+            # On info page: show only Pokémons button
             self.add_item(PokemonsButton(self))
         else:
             # On results page: show Prev/Next + Info
