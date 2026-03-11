@@ -158,7 +158,6 @@ class SD_MC_REG_STRAT:
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
-
 **STRATEGY:**
 - [Aerodactyl] Reflect until it dies
 - [Latios] Memento

@@ -291,6 +291,8 @@ Members can show off their collections in <#1298114332583788597>
 - !razorfang"""
 
     mc = """# STRAYDEX: MEGA CHAMBER
+**OS MEGA CHAMBER STRAT LINK:** [LINK](https://docs.google.com/spreadsheets/d/1frm707a6QLgvsSkdWI5SJ4aRgCmI77ZLNrZ-efleSMQ/edit?gid=0#gid=0)
+
 **COMMANDS:**
 - **`!MCABO`**  MC: Mega Abomasnow
 - **`!MCABS`**  MC: Mega Absol
@@ -394,6 +396,8 @@ Members can show off their collections in <#1298114332583788597>
 - **`!STEEL`**  Steel Strength & Weakness
 - **`!WATER`**  Water Strength & Weakness"""
     wb = """# STRAYDEX: WORLD BOSS
+**OS WORLD BOSS STRAT LINK:** [LINK](https://docs.google.com/spreadsheets/d/1MX2j_fISaFrSpjnDqru2B8teIbMvlSeyrnkiRqf64Gk/edit?gid=0#gid=0)
+
 **COMMANDS:**
 - **`!WBI`**  World Boss Info
 - **`!WBALC`**  WB Gmax-Alcremie
