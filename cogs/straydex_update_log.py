@@ -50,7 +50,7 @@ class ChangeLogModal(discord.ui.Modal, title="Straydex Update Log"):
 
         # Build the embed for the update log
         embed = discord.Embed(
-            title=f"{Emojis.blue_flower_two} Straydex Update",
+            title=f"{Emojis.blue_flower_two} Changelog Update",
             description=log_message,
             color=DEFAULT_EMBED_COLOR,
         )
