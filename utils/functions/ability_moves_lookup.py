@@ -468,7 +468,7 @@ async def ability_moves_lookup(
         )
         # Ability as first field, bolded name
         embed.add_field(
-            name=f"{Emojis.ability} {ability_name.title()} (Ability)",
+            name=f"{Emojis.star2} {ability_name.title()} (Ability)",
             value=f">>> {ability_effect}",
             inline=False,
         )
