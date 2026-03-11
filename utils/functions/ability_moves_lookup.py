@@ -469,6 +469,12 @@ async def ability_moves_lookup(
         all(f["value"] == "❌ No matches" for f in fields) if fields else True
     )
 
+    pretty_log(
+        "debug",
+        f"[ability_moves_lookup] all_no_matches={all_no_matches}, fields={fields}",
+        label="AbilityMovesLookup",
+    )
+
     fields_per_page = 5
     total_pages = (len(fields) + fields_per_page - 1) // fields_per_page
     page = max(0, min(page, total_pages - 1))
@@ -494,7 +500,17 @@ async def ability_moves_lookup(
             )
         embed.set_footer(text=f"Info page")
     else:
+        pretty_log(
+            "debug",
+            f"[ability_moves_lookup] Entering else branch, all_no_matches={all_no_matches}",
+            label="AbilityMovesLookup",
+        )
         if all_no_matches:
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] About to send plain text 'no possible combination' message.",
+                label="AbilityMovesLookup",
+            )
             try:
                 await interaction_or_message.reply(
                     "No possible combination for ability and moves."
@@ -513,6 +529,11 @@ async def ability_moves_lookup(
                 )
             return
         else:
+            pretty_log(
+                "debug",
+                f"[ability_moves_lookup] About to build and send embed with paged_fields={paged_fields}",
+                label="AbilityMovesLookup",
+            )
             embed = discord.Embed(
                 title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
                 color=DEFAULT_EMBED_COLOR,
