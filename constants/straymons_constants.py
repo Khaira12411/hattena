@@ -4,6 +4,7 @@ POKEMEOW_APPLICATION_ID = 664508672713424926
 STRAYMONS_GUILD_ID = 1047856017121214555
 DEFAULT_EMBED_COLOR = 0xc295f3  # Light Purple
 MH_APP_ID = 833428629705719828
+PREFIX = "!"
 # 💦☁────────────────────────────────────────────💦☁
 #       STRAYMONS__TEXT_CHANNELS
 # 💦☁────────────────────────────────────────────💦☁

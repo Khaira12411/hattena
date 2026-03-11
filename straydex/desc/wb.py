@@ -499,13 +499,13 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
     incineroar = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -523,13 +523,13 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -546,13 +546,13 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
     necorzma_ultra = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -569,13 +569,13 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
     incineroar = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -592,13 +592,13 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
     inteleon = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Eerie-Impulse` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -616,13 +616,13 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
     gri = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -639,13 +639,13 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
     uss = f"""**TEAM:**
 - **Mew #151**
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: Loaded_Dice
+Equip: `Loaded_Dice`
 Moves: `Fake Tears` `Acupressure` `Baton Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -659,3 +659,56 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake Tears`, then `Baton Pass` to **Gmax Hatterene**.
 - With **Mega Gardevoir**,  spam `Hypervoice`, and heal with `Draining-Kiss`."""
+
+    pg_glalie = f"""**TEAM:**
+- **Mew #151**
+Equip: `Loaded_Dice | Wise_Glasses`
+Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Latios #381**
+Equip: `Loaded_Dice`
+Moves: `Hone-Claws` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Primal-Groudon #7573 | Groudon #383**
+Equip: `Metronome`
+Moves: `Defense-Curl` `Rollout` `Hone-Claws`
+EVs: `ATK 252` `SPD 252` `HP 6`
+Or
+- **Mega-Glalie #7130**
+Equip: `Metronome`
+Moves: `Defense-Curl` `Ice-Ball`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP PRIMAL-GROUDON STRATEGY:** {Emojis.star}
+- Use 2x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton Pass` to **Primal-Groudon**.
+- With **Primal-Groudon**, use 1x `Hone-Claws`, 1x `Defense-Curl`, 1x Aux Powerguard, then spam `Rollout`.
+
+**MVP MEGA-GLALIE STRATEGY:** {Emojis.star}
+- Use 2x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,3x `Screech` then `Baton Pass`to **Latios**.
+- With **Latios**, use 1x `Hone-Claws` then `Baton Pass` to **Mega-Glalie**
+- With **Mega-Glalie**, use 1x `Defense-Curl`, 1x Aux Powerguard, then spam `Ice-Ball`."""
+
+    pg = f"""**TEAM:**
+- **Mew #151**
+Equip: `Loaded_Dice | Wise_Glasses`
+Moves: `Fake Tears` `Focus Energy` `Screech` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Latios #381**
+Equip: `Loaded_Dice`
+Moves: `Hone-Claws` `Baton Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Primal-Groudon #7573 | Groudon #383**
+Equip: `Metronome`
+Moves: `Defense-Curl` `Rollout` `Hone-Claws`
+EVs: `ATK 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 2x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton Pass` to **Primal-Groudon**.
+- With **Primal-Groudon**, use 1x `Hone-Claws`, `1x Defense-Curl`, 1x Aux Powerguard, then spam `Rollout`."""

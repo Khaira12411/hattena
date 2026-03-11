@@ -91,6 +91,12 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     elif boss_name in ("cor", "cop", "orb"):
         strat = WB_MVPStrat.incineroar
 
+    elif boss_name  in ("app", "fla",  "but"):
+        strat = WB_MVPStrat.pg_glalie
+        
+    elif boss_name in ("cen", "cha", "cin"):
+        strat = WB_MVPStrat.pg
+
     elif boss_name in ("ven", "mac", "gen", "gab", "tox"):
         strat = WB_MVPStrat.necorzma_ultra
 

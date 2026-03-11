@@ -149,9 +149,9 @@ class SD_MC_REG_STRAT:
 > Equip: `Choice_Scarf`
 > Moves: `Noble-Roar`
 > EVs: `SPE 252` `HP 252`
-- **Golden Arceus #9493 | Arceus Steel #7609 | Electric #7588 | Normal #493**
+- **Arceus-Water #7555**
 > Equip: `Leftovers`
-> Moves: `Power-Gem | `Surf (Normal Arceus)` `Recover` `Calm-Mind` `Iron-Defense`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Aerodactyl #142**
 > Equip: `Luck_Incense`
@@ -161,7 +161,7 @@ class SD_MC_REG_STRAT:
 - [Zacian] Noble-Roar -6 or until it dies
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
-- [Arceus] Surf spam
+- [Arceus] Judgment spam
 - [Arceus] Recover on Low HP"""
 
     agg = f"""**TEAM:**

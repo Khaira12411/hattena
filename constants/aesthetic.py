@@ -25,6 +25,7 @@ class Emojis:
     ribbon = "<:purple_bow:1480547499327623218>"
     cupcake = "<:cupcake:1480552415697698857>"
     home = "<:home:1480553382338101308>"
+    purple_ball = "<:purple_ball:1481103832246390969>"
 
 class Dividers:
     purple_flowers = "https://media.discordapp.net/attachments/1393740397905313912/1480036408860213311/image.png?ex=69ae36d1&is=69ace551&hm=beb96520457cd89c530d7c3cbdf1aa881912dfd119b859f60caca5c9773ae55b&=&format=webp&quality=lossless"

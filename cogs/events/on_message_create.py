@@ -4,13 +4,14 @@ import discord
 from discord.ext import commands
 
 from constants.ask_hattena.overall import STOPWORDS, TOPICS
-from constants.straymons_constants import MH_APP_ID, POKEMEOW_APPLICATION_ID
+from constants.straymons_constants import MH_APP_ID, POKEMEOW_APPLICATION_ID, PREFIX
 from utils.functions.ask_hattena import match_topic
 from utils.listener_func.dex_listener import dex_listener
 from utils.listener_func.market_view_listener import market_view_listener
 from utils.listener_func.mh_lookup_listener import lookup_listener
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
+from utils.listener_func.mention_listener import mention_listener
 from utils.logs.pretty_log import pretty_log
 
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
@@ -100,7 +101,7 @@ class MessageCreateListener(commands.Cog):
         # ————————————————————————————————
         # 🩷 Straydex Handler
         # ————————————————————————————————
-        PREFIX = "!"
+
         cmd_word = message.content.split()[0] if message.content else ""
         if cmd_word.startswith(PREFIX) and cmd_word.lower() not in [
             c.lower() for c in ignore_prefix_commands
@@ -121,72 +122,8 @@ class MessageCreateListener(commands.Cog):
         HATTENA_MENTION = f"<@{self.bot.user.id}>"
         if HATTENA_MENTION in content:
             # Check for weakness question pattern
-            import re
+            await mention_listener(self.bot, message)
 
-            weakness_patterns = [
-                r"what is ([\w\-'. ]+) weak to",
-                r"weakness(?:es)? of ([\w\-'. ]+)",
-                r"([\w\-'. ]+) weakness(?:es)?",
-                r"([\w\-'. ]+) type weakness",
-                r"what type is ([\w\-'. ]+) weak to",
-                r"weakness for ([\w\-'. ]+)",
-                r"what is (?:super|2x|4x|0x|1x|1/2x|1/4x) effective against ([\w\-'. ]+)",
-                r"which types are (?:super|2x|4x|0x|1x|1/2x|1/4x) effective against ([\w\-'. ]+)",
-                r"what is (?:super|2x|4x|0x|1x|1/2x|1/4x) effective on ([\w\-'. ]+)",
-                r"([\w\-'. ]+) (?:super|2x|4x|0x|1x|1/2x|1/4x) weakness",
-                r"what is effective against ([\w\-'. ]+)",
-                r"what are effective against ([\w\-'. ]+)",
-            ]
-            matched_pokemon = None
-            for pattern in weakness_patterns:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    matched_pokemon = match.group(1).strip()
-                    break
-            if matched_pokemon:
-                from utils.visuals.type_embed import build_weakness_embed_from_input
-
-                try:
-                    embed_result = build_weakness_embed_from_input(matched_pokemon)
-                    if embed_result is None:
-                        await message.reply(
-                            f"Could not find weakness information for '{matched_pokemon}'."
-                        )
-                    else:
-                        weakness_embed, _, _ = embed_result
-                        await message.reply(embed=weakness_embed)
-                    return
-                except Exception as e:
-                    pretty_log(
-                        "error",
-                        f"Error building weakness embed for '{matched_pokemon}': {e}",
-                        include_trace=True,
-                    )
-                    await message.reply(
-                        f"Sorry, I had trouble fetching weakness information for '{matched_pokemon}'."
-                    )
-                    return
-            # Fallback to topic matching if not a weakness question
-            topic = match_topic(content)
-            if topic:
-                pretty_log(
-                    "info",
-                    f"User message matched topic '{topic}'. Triggering Straydex handler with topic command.",
-                )
-                topic_cmd = TOPICS[topic]["cmd"]
-                topic_cmd = f"{PREFIX}{topic_cmd}"
-                try:
-                    await straydex_command_handler(
-                        bot=self.bot,
-                        message=message,
-                        cmd=topic_cmd,
-                    )
-                except Exception as e:
-                    pretty_log(
-                        "error",
-                        f"Error handling Straydex command for topic '{topic}': {e}",
-                        include_trace=True,
-                    )
         # ————————————————————————————————
         # 🩷 Perks Listener
         # ————————————————————————————————
