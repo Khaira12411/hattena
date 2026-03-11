@@ -470,7 +470,7 @@ async def ability_moves_lookup(
                 value=move_value,
                 inline=False,
             )
-        embed.set_footer(text=f"Info page")
+        embed.set_footer(text=f"Info page")
     else:
         embed = discord.Embed(
             title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
