@@ -160,13 +160,20 @@ def get_immunities_based_on_abilities(pokemon_name):
     return list(immunities), ability_effects, note
 
 
-# Add a special note for shedinja's Wonder Guard only fire , flying, rock, ghost, and dark can hit it
 def normalize_pokemon_name(name):
     """
     Convert user input like 'mega-absol' or 'gigantamax-alcremie' to PokéAPI key.
     Handles Mega, Gigantamax, Primal, and regional forms.
+    Also strips 'golden' or 'shiny' prefix if present.
+
+    Special note: For Shedinja's Wonder Guard, only fire, flying, rock, ghost, and dark can hit it.
     """
     name = name.lower().replace(" ", "-")
+    # Remove golden or shiny prefix
+    if name.startswith("golden-"):
+        name = name[7:]
+    elif name.startswith("shiny-"):
+        name = name[6:]
     # Mega forms
     if name.startswith("mega-"):
         base = name[5:]

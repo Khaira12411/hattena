@@ -45,8 +45,14 @@ def normalize_pokemon_name(name: str) -> str:
     Normalize Pokémon names consistently:
     - Lowercase everything
     - Strip whitespace
+    - Remove 'golden ' or 'shiny ' prefix if present
     """
-    return name.strip().lower()
+    n = name.strip().lower()
+    if n.startswith("golden "):
+        n = n[7:]
+    elif n.startswith("shiny "):
+        n = n[6:]
+    return n
 
 
 def normalize_ability_name(ability_name: str) -> str:
@@ -531,3 +537,8 @@ async def ability_moves_lookup(
 
         print(traceback.format_exc())
 
+        print(traceback.format_exc())
+        print(traceback.format_exc())
+
+        print(traceback.format_exc())
+        print(traceback.format_exc())
