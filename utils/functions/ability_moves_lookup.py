@@ -336,82 +336,82 @@ class AbilityMovesLookupView(discord.ui.View):
 
 
 class NextButton(discord.ui.Button):
-    def __init__(self, parent, disabled=False):
+    def __init__(self, lookup_view, disabled=False):
         super().__init__(
             style=discord.ButtonStyle.secondary,
             emoji=Emojis.right_arrow,
             label="Next",
             disabled=disabled,
         )
-        self.parent = parent
+        self.lookup_view = lookup_view
 
     async def callback(self, interaction: discord.Interaction):
         await ability_moves_lookup(
             interaction,
-            self.parent.ability_name,
-            self.parent.move_names,
-            self.parent.page + 1,
+            self.lookup_view.ability_name,
+            self.lookup_view.move_names,
+            self.lookup_view.page + 1,
             False,
-            self.parent.requester,
+            self.lookup_view.requester,
         )
 
 
 class PreviousButton(discord.ui.Button):
-    def __init__(self, parent, disabled=False):
+    def __init__(self, lookup_view, disabled=False):
         super().__init__(
             style=discord.ButtonStyle.secondary,
             emoji=Emojis.left_arrow,
             label="Previous",
             disabled=disabled,
         )
-        self.parent = parent
+        self.lookup_view = lookup_view
 
     async def callback(self, interaction: discord.Interaction):
         await ability_moves_lookup(
             interaction,
-            self.parent.ability_name,
-            self.parent.move_names,
-            self.parent.page - 1,
+            self.lookup_view.ability_name,
+            self.lookup_view.move_names,
+            self.lookup_view.page - 1,
             False,
-            self.parent.requester,
+            self.lookup_view.requester,
         )
 
 
 class InfoButton(discord.ui.Button):
-    def __init__(self, parent):
+    def __init__(self, lookup_view):
         super().__init__(
             style=discord.ButtonStyle.secondary, label="Info", emoji=Emojis.info
         )
-        self.parent = parent
+        self.lookup_view = lookup_view
 
     async def callback(self, interaction: discord.Interaction):
         await ability_moves_lookup(
             interaction,
-            self.parent.ability_name,
-            self.parent.move_names,
-            self.parent.page,
+            self.lookup_view.ability_name,
+            self.lookup_view.move_names,
+            self.lookup_view.page,
             True,  # switch to info view
-            self.parent.requester,
+            self.lookup_view.requester,
         )
 
 
 class PokemonsButton(discord.ui.Button):
-    def __init__(self, parent):
+    def __init__(self, lookup_view):
         super().__init__(
             style=discord.ButtonStyle.secondary,
             label="Pokémons",
             emoji=Emojis.purple_ball,
         )
-        self.parent = parent
+        self.lookup_view = lookup_view
 
     async def callback(self, interaction: discord.Interaction):
         await ability_moves_lookup(
             interaction,
-            self.parent.ability_name,
-            self.parent.move_names,
-            self.parent.page,
+            self.lookup_view.ability_name,
+            self.lookup_view.move_names,
+            self.lookup_view.page,
             False,  # back to results view
-            self.parent.requester,
+            self.lookup_view.requester,
         )
 
 
