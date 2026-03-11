@@ -384,14 +384,25 @@ class InfoButton(discord.ui.Button):
         self.lookup_view = lookup_view
 
     async def callback(self, interaction: discord.Interaction):
-        await ability_moves_lookup(
-            interaction,
-            self.lookup_view.ability_name,
-            self.lookup_view.move_names,
-            self.lookup_view.page,
-            True,  # switch to info view
-            self.lookup_view.requester,
-        )
+        try:
+            await ability_moves_lookup(
+                interaction,
+                self.lookup_view.ability_name,
+                self.lookup_view.move_names,
+                self.lookup_view.page,
+                True,  # switch to info view
+                self.lookup_view.requester,
+            )
+        except Exception as e:
+            pretty_log(
+                "error",
+                f"[InfoButton] Exception in callback: {e}",
+                label="AbilityMovesLookup",
+                include_trace=True,
+            )
+            import traceback
+
+            print(traceback.format_exc())
 
 
 class PokemonsButton(discord.ui.Button):
@@ -518,4 +529,6 @@ async def ability_moves_lookup(
         )
         import traceback
 
+        print(traceback.format_exc())
+        print(traceback.format_exc())
         print(traceback.format_exc())
