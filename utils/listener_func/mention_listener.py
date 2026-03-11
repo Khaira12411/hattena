@@ -102,8 +102,19 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
                 f"Calling ability_moves_lookup with ability='{ability}', moves={move_list}",
                 label="MentionListener",
             )
-            await ability_moves_lookup(message, ability, move_list)
-            pretty_log(
-                "debug", "Returned from ability_moves_lookup", label="MentionListener"
-            )
+            try:
+                await ability_moves_lookup(message, ability, move_list)
+                pretty_log(
+                    "debug", "Returned from ability_moves_lookup", label="MentionListener"
+                )
+            except Exception as e:
+                pretty_log(
+                    "error",
+                    f"Error in ability_moves_lookup: {e}",
+                    include_trace=True,
+                    label="MentionListener",
+                )
+                await message.reply(
+                    f"Sorry, I had trouble looking up that ability and moves. Please make sure the format is correct and try again."
+                )
             return

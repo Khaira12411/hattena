@@ -423,72 +423,39 @@ async def ability_moves_lookup(
     page=0,
     show_info=False,
     requester=None,
+    # test_mode argument removed, always normal behavior
 ):
-    pretty_log(
-        "debug",
-        f"[ability_moves_lookup] Called with ability_name='{ability_name}', move_names={move_names}, page={page}, show_info={show_info}",
-        label="AbilityMovesLookup",
-    )
-    ability_name = normalize_ability_name(ability_name)
-    move_names = [normalize_move_name(m) for m in move_names]
-    standard_pokemon, hidden_pokemon = get_ability_learned_by_pokemon(ability_name)
-    ability_pokemon_set = set(standard_pokemon + hidden_pokemon)
+    # --- Build embed and view ---
+    # Get ability and move info
+    ability_key = normalize_ability_name(ability_name)
+    move_keys = [normalize_move_name(m) for m in move_names]
+    ability_effect, move_infos = get_info_descriptions(ability_key, move_keys)
 
-    if not ability_pokemon_set:
-        pretty_log(
-            "debug",
-            f"[ability_moves_lookup] No Pokémon found for ability '{ability_name}'",
-            label="AbilityMovesLookup",
-        )
-        embed = discord.Embed(
-            title=f"Pokémon with Ability '{ability_name}'",
-            description="⚠️ No Pokémon found with this ability.",
-            color=discord.Color.red(),
-        )
-        if isinstance(interaction_or_message, discord.Interaction):
-            await interaction_or_message.response.edit_message(embed=embed, view=None)
-        else:
-            await interaction_or_message.reply(embed=embed)
-        pretty_log(
-            "debug",
-            f"[ability_moves_lookup] Sent 'no Pokémon found' embed.",
-            label="AbilityMovesLookup",
-        )
-        return
-
-    combos = get_move_combinations(move_names)
-    fields = [
-        format_combo_field(
-            combo, get_pokemon_with_ability_and_moves(ability_pokemon_set, combo)
-        )
-        for combo in combos
-    ]
-
-    # Check if all fields are '❌ No matches'
-    all_no_matches = (
-        all(f["value"] == "❌ No matches" for f in fields) if fields else True
-    )
-
-    pretty_log(
-        "debug",
-        f"[ability_moves_lookup] all_no_matches={all_no_matches}, fields={fields}",
-        label="AbilityMovesLookup",
-    )
-
-    fields_per_page = 5
-    total_pages = (len(fields) + fields_per_page - 1) // fields_per_page
+    # Pagination: each page shows up to 10 combos
+    combos = get_move_combinations(move_keys)
+    total_pages = max(1, (len(combos) + 9) // 10)
     page = max(0, min(page, total_pages - 1))
-    paged_fields = fields[page * fields_per_page : (page + 1) * fields_per_page]
+    paged_combos = combos[page * 10 : (page + 1) * 10]
 
+    # Get Pokémon with ability
+    std, hid = get_ability_learned_by_pokemon(ability_key)
+    ability_pokemon_set = set(std + hid)
+
+    paged_fields = []
+    all_no_matches = True
+    for combo in paged_combos:
+        pokes = get_pokemon_with_ability_and_moves(ability_pokemon_set, combo)
+        field = format_combo_field(combo, pokes)
+        if field["value"] != "❌ No matches":
+            all_no_matches = False
+        paged_fields.append(field)
+
+    # Build embed
     if show_info:
-        ability_desc, move_infos = get_info_descriptions(ability_name, move_names)
         embed = discord.Embed(
-            title="Ability and Move(s) Info", color=DEFAULT_EMBED_COLOR
-        )
-        embed.add_field(
-            name=f"{Emojis.star} {ability_name.title()} (Ability)",
-            value=f">>> {ability_desc}",
-            inline=False,
+            title=f"{Emojis.info} Info: {ability_name.title()} & Moves",
+            color=DEFAULT_EMBED_COLOR,
+            description=ability_effect,
         )
         for move in move_infos:
             other_info_str = f"- **Type:** {move['type'].title()} | **Class:** {move['damage_class'].title()} | **Power:** {move['power']} | **Priority:** {move['priority']}"
@@ -500,47 +467,13 @@ async def ability_moves_lookup(
             )
         embed.set_footer(text=f"Info page")
     else:
-        pretty_log(
-            "debug",
-            f"[ability_moves_lookup] Entering else branch, all_no_matches={all_no_matches}",
-            label="AbilityMovesLookup",
+        embed = discord.Embed(
+            title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
+            color=DEFAULT_EMBED_COLOR,
         )
-        if all_no_matches:
-            pretty_log(
-                "debug",
-                f"[ability_moves_lookup] About to send plain text 'no possible combination' message.",
-                label="AbilityMovesLookup",
-            )
-            try:
-                await interaction_or_message.reply(
-                    "No possible combination for ability and moves."
-                )
-                pretty_log(
-                    "debug",
-                    f"[ability_moves_lookup] Sent plain text 'no possible combination' message.",
-                    label="AbilityMovesLookup",
-                )
-            except Exception as e:
-                pretty_log(
-                    "error",
-                    f"[ability_moves_lookup] Exception sending plain text: {e}",
-                    label="AbilityMovesLookup",
-                    include_trace=True,
-                )
-            return
-        else:
-            pretty_log(
-                "debug",
-                f"[ability_moves_lookup] About to build and send embed with paged_fields={paged_fields}",
-                label="AbilityMovesLookup",
-            )
-            embed = discord.Embed(
-                title=f"{Emojis.cupcake} Pokémon with Ability '{ability_name.title()}'",
-                color=DEFAULT_EMBED_COLOR,
-            )
-            for f in paged_fields:
-                embed.add_field(**f)
-            embed.set_footer(text=f"Page {page+1}/{total_pages}")
+        for f in paged_fields:
+            embed.add_field(**f)
+        embed.set_footer(text=f"Page {page+1}/{total_pages}")
 
     view = AbilityMovesLookupView(
         ability_name, move_names, page, total_pages, show_info, requester
@@ -550,25 +483,25 @@ async def ability_moves_lookup(
         if isinstance(interaction_or_message, discord.Interaction):
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] About to send embed via interaction.edit_message WITHOUT view.",
+                f"[ability_moves_lookup] About to send embed via interaction.edit_message WITH view.",
                 label="AbilityMovesLookup",
             )
-            await interaction_or_message.response.edit_message(embed=embed, view=None)
+            await interaction_or_message.response.edit_message(embed=embed, view=view)
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] Sent embed via interaction.edit_message WITHOUT view.",
+                f"[ability_moves_lookup] Sent embed via interaction.edit_message WITH view.",
                 label="AbilityMovesLookup",
             )
         else:
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] About to send embed via message.reply WITHOUT view.",
+                f"[ability_moves_lookup] About to send embed via message.reply WITH view.",
                 label="AbilityMovesLookup",
             )
-            await interaction_or_message.reply(embed=embed, view=None)
+            await interaction_or_message.reply(embed=embed, view=view)
             pretty_log(
                 "debug",
-                f"[ability_moves_lookup] Sent embed via message.reply WITHOUT view.",
+                f"[ability_moves_lookup] Sent embed via message.reply WITH view.",
                 label="AbilityMovesLookup",
             )
     except Exception as e:
