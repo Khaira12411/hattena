@@ -453,13 +453,19 @@ async def ability_moves_lookup(
     # Build embed
     if show_info:
         embed = discord.Embed(
-            title=f"{Emojis.info} Info: {ability_name.title()} & Moves",
+            title="Ability and Move(s) Info",
             color=DEFAULT_EMBED_COLOR,
-            description=ability_effect,
         )
+        # Ability as first field, bolded name
+        embed.add_field(
+            name=f"{Emojis.ability} {ability_name.title()} (Ability)",
+            value=f">>> {ability_effect}",
+            inline=False,
+        )
+        # Moves as additional fields
         for move in move_infos:
             other_info_str = f"- **Type:** {move['type'].title()} | **Class:** {move['damage_class'].title()} | **Power:** {move['power']} | **Priority:** {move['priority']}"
-            move_value = f"{other_info_str}\n>>> {move['desc']}"
+            move_value = f"{other_info_str}\n{move['desc']}"
             embed.add_field(
                 name=f"{Emojis.flower2} {move['name']} (Move)",
                 value=move_value,
