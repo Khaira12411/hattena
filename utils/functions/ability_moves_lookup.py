@@ -474,7 +474,7 @@ async def ability_moves_lookup(
         )
         # Moves as additional fields
         for move in move_infos:
-            other_info_str = f"- **Type:** {move['type'].title()} | **Class:** {move['damage_class'].title()} | **Power:** {move['power']} | **Priority:** {move['priority']}"
+            other_info_str = f"**Type:** {move['type'].title()} | **Class:** {move['damage_class'].title()} | **Power:** {move['power']} | **Priority:** {move['priority']}"
             move_value = f"- {other_info_str}\n>>> {move['desc']}"
             embed.add_field(
                 name=f"{Emojis.flower2} {move['name']} (Move)",
