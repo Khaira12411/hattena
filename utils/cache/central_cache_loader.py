@@ -10,6 +10,7 @@ from utils.logs.pretty_log import pretty_log
 from utils.cache.webhook_url_cache import load_webhook_url_cache
 from .straymon_member_cache import load_straymon_member_cache
 from .straydex_guild_cache import load_straydex_guild_cache
+from .abilities_cache import load_abilities_cache
 
 # 💜────────────────────────────────────────────
 #     🟣 Load Everything in One Go
@@ -32,6 +33,9 @@ async def load_all_caches(bot):
 
         # 🗺️ Load Straydex Guild Cache
         await load_straydex_guild_cache(bot)
+
+        """# 🌸 Load Abilities Cache
+        await load_abilities_cache(bot)"""
 
         # 🎀 Unified summary log
         pretty_log(

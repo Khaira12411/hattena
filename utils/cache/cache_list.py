@@ -62,7 +62,19 @@ straydex_guild_cache: dict[int, str] = {}
 #       "update_channel_name": str,
 #   },
 #   ...
-
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+#       🌸 Abilities Cache 🌸
+# 💫━━━━━━━━━━━━━━━━━━━━━━━━━
+abilities_cache: dict[str, dict] = {}
+# Structure:
+# {
+#   "ability_name": {
+#       "description": str,
+#       "standard": list[str],
+#       "secondary": list[str],
+#       "hidden": list[str],
+#   },
+#   ...
 
 # 💫━━━━━━━━━━━━━━━━━━━━━━━━━
 #       🌸 Processed IDS Cache

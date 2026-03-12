@@ -561,6 +561,23 @@ it_sub = [
     "lightball",
     "rockyhelmet",
     "safetygoogles",
+    # Battle Frontier Items
+    "lumberry",
+    "chestoberry",
+    "occaberry",
+    "persimberry",
+    "yacheberry",
+    "salacberry",
+    "shucaberry",
+    "atkmint",
+    "defmint",
+    "spamint",
+    "spdmint",
+    "spemint",
+    "seriousmint",
+    "whiteherb",
+    "brightpowder",
+    "clearamulet",
 ]
 
 for sub in it_sub:

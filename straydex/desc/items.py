@@ -2005,7 +2005,7 @@ class SD_IT:
 
     salacberry = f"""# SALAC BERRY
 **INFO:**
-Automatically raises the holder's Speed when it is low on HP. Single use.
+- Automatically raises the holder's Speed when it is low on HP. Single use.
 
 **USAGE:**
 - Give to a Pokemon on your team to use.
@@ -2016,7 +2016,7 @@ Automatically raises the holder's Speed when it is low on HP. Single use.
 
     shucaberry = f"""# SHUCA BERRY
 **INFO:**
-Weakens one super-effective Ground-type hit against the holder. Single use.
+- Weakens one super-effective Ground-type hit against the holder. Single use.
 
 **USAGE:**
 - Give to a Pokemon on your team to use.
@@ -2027,7 +2027,7 @@ Weakens one super-effective Ground-type hit against the holder. Single use.
 
     atkmint = f"""# ATK MINT
 **INFO:**
-Changes a Pokémon's nature to a random Attack-boosting nature (Lonely, Adamant, Naughty, or Brave).
+- Changes a Pokémon's nature to a random Attack-boosting nature (Lonely, Adamant, Naughty, or Brave).
 
 **USAGE:**
 - ;bud set nature atk <pokemon>
@@ -2035,3 +2035,91 @@ Changes a Pokémon's nature to a random Attack-boosting nature (Lonely, Adamant,
 **METHOD TO OBTAIN:**
 `;s`  Shop for <:battle_points:1481286613261746198> 10
 `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    defmint = f"""# DEF MINT
+**INFO:**
+- Changes a Pokémon's nature to a random Defense-boosting nature (Bold, Impish, Lax, or Relaxed).
+
+**USAGE:**
+- ;bud set nature def <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    spamint = f"""# SPA MINT
+**INFO:**
+- Changes a Pokémon's nature to a random Sp. Atk-boosting nature (Modest, Mild, Rash, or Quiet).
+
+**USAGE:**
+- ;bud set nature spa <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    spdmint = f"""# SPD MINT
+**INFO:**
+- Changes a Pokémon's nature to a random Sp. Def-boosting nature (Calm, Gentle, Careful, or Sassy).
+
+**USAGE:**
+- ;bud set nature spd <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    spemint = f"""# SPE MINT
+**INFO:**
+- Changes a Pokémon's nature to a random Speed-boosting nature (Timid, Hasty, Jolly, or Naive).
+
+**USAGE:**
+- ;bud set nature spe <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    seriousmint = f"""# SERIOUS MINT
+**INFO:**
+- Changes a Pokémon's nature to a random neutral nature (Hardy, Docile, Serious, Bashful, or Quirky).
+
+**USAGE:**
+- ;bud set nature serious <pokemon>
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 10
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+
+    whiteherb = f"""# WHITE HERB
+**INFO:**
+- Restores all of the holder's lowered stat stages back to normal after one of its stats is lowered. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 25
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 25"""
+
+    brightpowder = f"""# BRIGHT POWDER
+**INFO:**
+- Lowers the accuracy of moves used against the holder by 10%.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 100
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 100"""
+
+    clearamulet = f"""# CLEAR AMULET
+**INFO:**
+- Prevents the holder's stats from being lowered by opponents' moves or abilities (does not block self-inflicted stat drops).
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 500
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 500"""

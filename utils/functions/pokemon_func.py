@@ -9,7 +9,6 @@ from utils.cache.market_value_cache import (
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
-
 # ✨───────────────────────────────────────────────
 #            📦 Precomputed Lookup Sets
 # ✨───────────────────────────────────────────────
@@ -61,6 +60,7 @@ ALL_MONS.update(exclusive_mons)
 #            🔎 Dex Lookup
 # ✨───────────────────────────────────────────────
 
+
 def get_dex_number_by_name(name: str) -> int | None:
     """
     Returns the dex number for a given Pokémon name.
@@ -93,6 +93,7 @@ def get_name_via_dex(dex_number: str | int) -> str | None:
 # ✨───────────────────────────────────────────────
 #            🧹 Name Formatting
 # ✨───────────────────────────────────────────────
+
 
 def format_names_for_market_value_lookup(pokemon_name: str) -> str:
     """Format Pokémon name for market value lookup."""
@@ -146,7 +147,7 @@ def strip_prefixes(pokemon_name: str) -> str:
         for sep in (" ", "-"):
             full = prefix + sep
             if name_lower.startswith(full):
-                return pokemon_name[len(full):].strip().title()
+                return pokemon_name[len(full) :].strip().title()
 
     return pokemon_name.strip().title()
 
@@ -154,6 +155,7 @@ def strip_prefixes(pokemon_name: str) -> str:
 # ✨───────────────────────────────────────────────
 #            🎨 Display Helpers
 # ✨───────────────────────────────────────────────
+
 
 def get_display_name(pokemon_name: str, dex: bool = False) -> str:
     """Returns display name with rarity emoji."""
@@ -186,6 +188,7 @@ def format_price_w_coin(n: int) -> str:
 # ✨───────────────────────────────────────────────
 #            ⭐ Rarity Detection
 # ✨───────────────────────────────────────────────
+
 
 def get_rarity(pokemon: str):
     """Determines Pokémon rarity from its name."""
@@ -232,6 +235,7 @@ def get_rarity(pokemon: str):
 #            🔒 Exclusivity Checks
 # ✨───────────────────────────────────────────────
 
+
 def is_mon_exclusive(pokemon: str) -> bool:
     """Checks if a Pokémon is exclusive."""
 
@@ -256,6 +260,7 @@ def is_mon_exclusive(pokemon: str) -> bool:
 # ✨───────────────────────────────────────────────
 #            🎮 In-Game Check
 # ✨───────────────────────────────────────────────
+
 
 def is_mon_in_game(pokemon_name: str) -> bool:
     """Check if a Pokémon exists in the game."""

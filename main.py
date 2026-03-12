@@ -86,7 +86,8 @@ async def startup_checklist(bot: commands.Bot):
         market_value_cache,
         straymon_member_cache,
         webhook_url_cache,
-        straydex_guild_cache
+        straydex_guild_cache,
+        abilities_cache,
     )
 
     total_market_values = len(market_value_cache)
@@ -96,6 +97,7 @@ async def startup_checklist(bot: commands.Bot):
     print(f"✅ {len(straydex_guild_cache)} 🍓 Straydex Guilds")
     print(f"✅ {len(straymon_member_cache)} 🌸 Straymon Members")
     print(f"✅ {total_market_values:,} 💎 Market Values")
+    #print(f"✅ {len(abilities_cache)} 🎀 Abilities")
     print(f"✅ {len(webhook_url_cache)} 🍧 Webhook Urls")
     pg_status = "Ready" if hasattr(bot, "pg_pool") else "Not Ready"
     print(f"✅ {pg_status} 🧁  PostgreSQL Pool")

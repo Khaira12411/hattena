@@ -174,7 +174,22 @@ Members can show off their collections in <#1298114332583788597>
 - `;I INFO RESEARCH` — Research Items Description
 
 **BATTLE FRONTIER REWARDS:**
+- !atkmint
+- !brightpowder
+- !chestoberry
 - !clearamulet
+- !defmint
+- !lumberry
+- !occaberry
+- !persimberry
+- !salacberry
+- !seriousmint
+- !shucaberry
+- !spamint
+- !spdmint
+- !spemint
+- !whiteherb
+- !yacheberry
 
 **BATTLE SHOP ITEMS:**
 - !choiceband
