@@ -63,7 +63,13 @@ class PS_DESC:
 - **Donphan #232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
-> Moves: `Protect` `Endeavor` `Ice-Shard`
+> Moves: `Protect` `Endeavor` `Ice-Shard (Teach Phanphy then evolve)`
+> EVs: `N/A`
+OR
+- **Sudowoodo #185**
+> Ability: `Sturdy`
+> Equip: `Ability_Shield`
+> Moves: `Protect` `Endeavor` `Sucker-Punch (Teach Bonsly then evolve)`
 > EVs: `N/A`
 
 **STRATEGY:**
@@ -71,14 +77,13 @@ class PS_DESC:
 - [Mimikyu] Destiny-Bond
 - [Shiny Mimikyu] Magic-Room
 - [Shiny Mimikyu] Destiny-Bond
-- [Donphan] Protect
-- [Donphan] Endeavor
-- [Donphan] Ice-Shard
+- [Donphan | Sudowoodo] Protect
+- [Donphan | Sudowoodo] Endeavor
+- [Donphan | Sudowoodo] Ice-Shard | Sucker-Punch
 
 <a:fidough_wow:1283739703140679703> ***FidNotes***:
 - For NPC IDS: 300 - 306
 - This strat is for enemy teams with Leftovers/Sitrus Berries.
-- If Donphan can't learn Ice-Shard, just evolve a Phanphy with Ice-Shard as its 3rd move.
 - Ability Shield is only a necessity for when you are up against Zekrom, Reshiram or Pokemons with Mold Breaker Ability.
 - If the enemy spam switches just keep on using Destiny-Bond until trick room fades. Use Trick-Room again and just do the strat above."""
 
@@ -96,19 +101,23 @@ class PS_DESC:
 - **Donphan #232**
 > Ability: `Sturdy`
 > Equip: `Ability_Shield`
-> Moves: `Protect` `Endeavor` `Ice-Shard`
+> Moves: `Protect` `Endeavor` `Ice-Shard (Teach Phanphy then evolve)`
+> EVs: `N/A`
+OR
+- **Sudowoodo #185**
+> Ability: `Sturdy`
+> Equip: `Ability_Shield`
+> Moves: `Protect` `Endeavor` `Sucker-Punch (Teach Bonsly then evolve)`
 > EVs: `N/A`
 
 **STRATEGY:**
 - [Mega Banette] Destiny-Bond
 - [Sableye] Destiny-Bond
-- [Donphan] Protect
-- [Donphan] Endeavor
-- [Donphan] Ice-Shard
+- [Donphan | Sudowoodo] Endeavor
+- [Donphan | Sudowoodo] Ice-Shard | Sucker-Punch
 
 <a:fidough_wow:1283739703140679703> ***FidNotes***:
 - For NPC IDS: 300 - 306
 - This strat is for enemy teams without Leftovers/Sitrus Berries.
 - You need to set Sableye's ability to Prankster
-- If Donphan can't learn Ice-Shard, just evolve a Phanphy with Ice-Shard as its 3rd move.
 - Ability Shield is only a necessity for when you are up against Zekrom, Reshiram or Pokemons with Mold Breaker Ability."""
