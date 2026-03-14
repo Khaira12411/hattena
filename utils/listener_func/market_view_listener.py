@@ -7,13 +7,35 @@ from typing import Optional, Tuple
 import discord
 
 from utils.cache.market_value_cache import fetch_pokemon_exclusivity_cache
-from utils.db.market_value_db import update_market_value_via_listener
+from utils.db.market_value_db import (fetch_emoji_id_cache, update_emoji_id,
+                                      update_market_value_via_listener)
 from utils.functions.pokemon_func import is_mon_exclusive
 from utils.logs.debug_log import debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
-#enable_debug(f"{__name__}.market_view_listener")
-#enable_debug(f"{__name__}.parse_first_market_listing")
+# enable_debug(f"{__name__}.market_view_listener")
+# enable_debug(f"{__name__}.parse_first_market_listing")
+
+
+def extract_emoji_after_zero(description: str) -> str | None:
+    """
+    Extracts the emoji tag (e.g., <:7982:1481437212812771469>) that appears after '0' in the description.
+    Returns the emoji tag as a string, or None if not found.
+    """
+    # Look for the phrase 'there are currently 0', then the emoji, then the name (case-insensitive)
+    match = re.search(
+        r"there are currently 0\s*(<:[^:]+:\d+>)\s*([^!\n]+)",
+        description,
+        re.IGNORECASE,
+    )
+    if match:
+        emoji = match.group(1)
+        # Extract name, strip trailing 'listings' or similar words and whitespace
+        name = match.group(2).strip()
+        # Remove trailing words like 'listings' (case-insensitive)
+        name = re.sub(r"\s*listings.*$", "", name, flags=re.IGNORECASE).strip()
+        return emoji, name
+    return None, None
 
 
 def extract_pokemon_name_from_author(author_name: str) -> str | None:
@@ -196,4 +218,17 @@ async def market_view_listener(bot: discord.Client, message: discord.Message):
 
     else:
         debug_log("No valid market listing found in the embed description.")
+        # Extract emoji after '0' as fallback
+        emoji_id, pokemon_name = extract_emoji_after_zero(embed_description)
+        if emoji_id:
+            old_emoji_id = fetch_emoji_id_cache(pokemon_name)
+            if old_emoji_id != emoji_id:
+                await update_emoji_id(bot, pokemon_name, emoji_id)
+                pretty_log(
+                    tag="success",
+                    message=f"Updated emoji for {pokemon_name} with ID {emoji_id} from market view.",
+                )
+
+
     debug_log("Exiting market_view_listener.")
+

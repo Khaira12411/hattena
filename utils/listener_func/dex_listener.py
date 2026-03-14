@@ -7,26 +7,18 @@ from typing import Optional, Tuple
 import discord
 
 from utils.cache.cache_list import processed_dex_message_ids_cache
-from utils.cache.market_value_cache import (
-    fetch_dex_number_cache,
-    fetch_emoji_id_cache,
-    fetch_image_link_cache,
-    fetch_market_value_cache,
-    fetch_pokemon_exclusivity_cache,
-    fetch_rarity_cache,
-)
-from utils.db.market_value_db import (
-    update_dex_number,
-    update_emoji_id,
-    update_is_exclusive,
-    update_pokemon_stats,
-    update_rarity,
-    upsert_image_link,
-)
-from utils.functions.pokemon_func import (
-    format_names_for_market_value_lookup,
-    is_mon_exclusive,
-)
+from utils.cache.market_value_cache import (fetch_dex_number_cache,
+                                            fetch_emoji_id_cache,
+                                            fetch_image_link_cache,
+                                            fetch_market_value_cache,
+                                            fetch_pokemon_exclusivity_cache,
+                                            fetch_rarity_cache)
+from utils.db.market_value_db import (update_dex_number, update_emoji_id,
+                                      update_is_exclusive,
+                                      update_pokemon_stats, update_rarity,
+                                      upsert_image_link)
+from utils.functions.pokemon_func import (format_names_for_market_value_lookup,
+                                          is_mon_exclusive)
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
@@ -301,7 +293,7 @@ async def dex_listener(bot, message: discord.Message):
 
     old_emoji_id = fetch_emoji_id_cache(pokemon_name)
     if not old_emoji_id:
-        emoji_id = extract_emoji_id_from_evolution_line(embed.description or "")
+        emoji_id = extract_emoji_id_from_evolution_line(description=embed.description or "", pokemon_name=pokemon_name)
         if emoji_id and old_emoji_id != emoji_id:
             try:
                 await update_emoji_id(bot, pokemon_name, emoji_id)
@@ -331,7 +323,7 @@ async def dex_listener(bot, message: discord.Message):
         )
 
 
-def extract_emoji_id_from_evolution_line(description: str) -> str | None:
+def extract_emoji_id_from_evolution_line(description: str, pokemon_name: str) -> str | None:
     """
     Extracts the first emoji tag before any bolded Pokémon name in the evolution line from a description string.
     Returns the emoji tag as a string, or None if not found.
@@ -344,13 +336,16 @@ def extract_emoji_id_from_evolution_line(description: str) -> str | None:
     if evo_line_match:
         evo_line = evo_line_match.group(1)
         debug_log(f"Evolution line found: {evo_line!r}")
-        # Now extract the emoji tag before the bolded name
-        emoji_match = re.search(r"(<:[^:]+:\d+>) \*\*.+?\*\*", evo_line)
+        # Escape pokemon_name for regex
+        escaped_name = re.escape(pokemon_name)
+        # Regex: emoji before **pokemon_name** (with optional whitespace)
+        pattern = rf"(<:[^:]+:\d+>) \*\*\s*{escaped_name}\s*\*\*"
+        emoji_match = re.search(pattern, evo_line, re.IGNORECASE)
         if emoji_match:
             emoji_tag = emoji_match.group(1)
             debug_log(f"Found emoji tag: {emoji_tag}")
             return emoji_tag
-        debug_log("No emoji tag found in evolution line.")
+        debug_log("No emoji tag found in evolution line for given pokemon_name.")
     else:
         debug_log("No evolution line found in description.")
     return None

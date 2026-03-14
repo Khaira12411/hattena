@@ -1166,7 +1166,7 @@ legendary_mons = {
     "miraidon": {"dex": 7970},
     "missingno.": {"dex": 7997},
     "walking-wake": {"dex": 7975},
-    "shadow-mewtwo" :{"dex": 7982},
+    "shadow mewtwo": {"dex": 7982},
 }
 
 
@@ -2659,7 +2659,7 @@ shiny_gigantamax_mons = {
     "shiny gigantamax-venusaur": {"dex": 7164},
 }
 exclusive_mons = {
-    "shadow-mewtwo" :{"dex": 7982},
+    "shadow mewtwo": {"dex": 7982},
     "aegislash-blade": {"dex": 7777},
     "alolan-diglett": {"dex": 7675},
     "alolan-dugtrio": {"dex": 7678},

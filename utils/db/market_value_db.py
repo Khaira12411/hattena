@@ -9,6 +9,18 @@ import discord
 from utils.cache.cache_list import market_value_cache
 from utils.logs.pretty_log import pretty_log
 
+def fetch_emoji_id_cache(pokemon_name: str) -> str | None:
+    """
+    Fetch the emoji_id for a Pokémon from the market value cache.
+    Returns the emoji_id as a string, or None if not found.
+    """
+    from utils.functions.pokemon_func import format_names_for_market_value_lookup
+
+    formatted_name = format_names_for_market_value_lookup(pokemon_name)
+    pokemon_data = market_value_cache.get(formatted_name)
+    if pokemon_data and "emoji_id" in pokemon_data:
+        return pokemon_data["emoji_id"]
+    return None
 
 async def update_pokemon_stats(bot: discord.Client, pokemon_name: str, base_atk: int, base_def: int, base_hp: int, base_spa: int, base_spd: int, base_spe: int, ability: str, weight: int = None):
     """
