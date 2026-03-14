@@ -236,15 +236,18 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
         pokemon_input
     )
+    if variant_name == "shadow-mewtwo":
+        variant_name = "shadow mewtwo"  # Fix for space in name not matching keys in weakness_chart
+        variant_name = variant_name.strip()  # Remove any accidental whitespace
 
-    # Try both hyphen and space versions, always lowercase
-    lookup_keys = [variant_name.lower(), variant_name.lower().replace("-", " ")]
-    weaknesses = None
-    for key in lookup_keys:
-        weaknesses = weakness_chart.get(key)
-        if weaknesses:
-            variant_name = key  # update to the found key for downstream use
-            break
+    pretty_log(
+        "debug",
+        f"Resolved Pokemon input '{pokemon_input}' to variant_name: '{variant_name}', shiny_golden_tag: '{shiny_golden_tag}', base_dex: '{base_dex}', is_digit: {is_digit}",
+    )
+    if not variant_name:
+        return None, None, None
+
+    weaknesses = weakness_chart.get(variant_name)
     if not weaknesses:
         pretty_log(
             "warn",
