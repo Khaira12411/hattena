@@ -32887,7 +32887,7 @@ weakness_chart = {   'abomasnow': {   '1/2x': ['water', 'electric', 'grass', 'gr
                   '2x': ['bug', 'ghost', 'dark'],
                   'dex': '0150',
                   'types': ['psychic']},
-    'shadow-mewtwo': {   '1/2x': ['fighting', 'psychic'],
+    'shadow mewtwo': {   '1/2x': ['fighting', 'psychic'],
                   '1x': [   'normal',
                             'fire',
                             'water',

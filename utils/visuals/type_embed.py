@@ -189,6 +189,9 @@ def get_pokemon_from_input(pokemon_input: str):
         f"Attempting to resolve Pokemon input '{pokemon_input}' -> normalized_alias_name: '{normalized_alias_name}', normalized_name: '{normalized_name}'",
     )
     # Name lookup
+    if normalized_name == "shadow-mewtwo":
+        normalized_name = "shadow mewtwo"  # Fix for space in name not matching keys in weakness_chart
+
     if normalized_name in weakness_chart:
         dex_val = int(weakness_chart[normalized_name]["dex"])
         # Always return 4 values for consistency
@@ -236,9 +239,6 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
         pokemon_input
     )
-    if variant_name == "shadow-mewtwo":
-        variant_name = "shadow mewtwo"  # Fix for space in name not matching keys in weakness_chart
-        variant_name = variant_name.strip()  # Remove any accidental whitespace
 
     pretty_log(
         "debug",

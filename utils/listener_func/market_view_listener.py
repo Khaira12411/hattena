@@ -7,8 +7,11 @@ from typing import Optional, Tuple
 import discord
 
 from utils.cache.market_value_cache import fetch_pokemon_exclusivity_cache
-from utils.db.market_value_db import (fetch_emoji_id_cache, update_emoji_id,
-                                      update_market_value_via_listener)
+from utils.db.market_value_db import (
+    fetch_emoji_id_cache,
+    update_emoji_id,
+    update_market_value_via_listener,
+)
 from utils.functions.pokemon_func import is_mon_exclusive
 from utils.logs.debug_log import debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
@@ -229,6 +232,4 @@ async def market_view_listener(bot: discord.Client, message: discord.Message):
                     message=f"Updated emoji for {pokemon_name} with ID {emoji_id} from market view.",
                 )
 
-
     debug_log("Exiting market_view_listener.")
-
