@@ -393,7 +393,7 @@ class WB_ConsitentStrat:
 In order to participate in World Boss, players will have to register their team.
 
 - **How do players register for World Boss?**
-> ***STEP 1:** Registration for battles occurs only on the official server. Type  `;wb`.*
+> ***STEP 1:** Battle registration is available across all servers. Use `;wb` to join.*
 > ***STEP 2:** Click either  `Register Current Team`  or  `Register Previous Team`  to register.*
 > ***STEP 3:** The battle begins 5 min after the boss appears in https://discord.com/channels/664509279251726363/1249091913189949470.*
 > ***STEP 4:** Type  `;wb fight`  to start battling.*
