@@ -82,7 +82,6 @@ Members can show off their collections in <#1298114332583788597>
     fa = """# STRAYDEX: FACTIONS
 **COMMANDS:**
 - **`!FAI`**  Faction Info
-- **`!FAIC`**  Faction Icons
 - **`!FAAQ`**  Faction: Aqua
 - **`!FAFL`**  Faction: Flare
 - **`!FAGA`**  Faction: Galactic

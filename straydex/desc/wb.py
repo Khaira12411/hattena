@@ -31,7 +31,7 @@ wb_map = {
     "ril": "rillaboom",
     "san": "sandaconda",
     "sno": "snorlax",
-    "tox": "toxel",
+    "tox": "toxtricity",
     "urs": "urs",
     "uss": "uss",
     "ven": "venusaur",
