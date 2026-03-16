@@ -348,6 +348,14 @@ class SD_EVOI_IMAGE:
 
 
 class SD_IT_IMAGES:
+    shellbell = "https://media.discordapp.net/attachments/1385288189714894953/1483084472894226462/1479651732492521492.png?ex=69b94d8c&is=69b7fc0c&hm=0702e96d16c3fd64db3bc164baeb5d1ddc8f2f2e44c4d14b1517cfd4e4bf4346&=&format=webp&quality=lossless"
+    weaknesspolicy = "https://media.discordapp.net/attachments/1385288189714894953/1483084431144255570/1479650171250933852.png?ex=69b94d82&is=69b7fc02&hm=662f17785f5817dfc7c6251c60879c7e49e8730445b9ab94408db8f72934d2b2&=&format=webp&quality=lossless"
+    throatspray = "https://media.discordapp.net/attachments/1385288189714894953/1483084334557692028/1479654460933410989.png?ex=69b94d6b&is=69b7fbeb&hm=4899425fa692df0390358cb3bd81d24a4347d2006766d338b2e6df63be3c6b87&=&format=webp&quality=lossless"
+    blacksludge = "https://media.discordapp.net/attachments/1385288189714894953/1483084293008789555/1479653838406422579.png?ex=69b94d61&is=69b7fbe1&hm=fdc15479962dc5758fd700b687603c3972bb2382172fc060ae46b1425378835a&=&format=webp&quality=lossless"
+    scopelens = "https://media.discordapp.net/attachments/1385288189714894953/1483084174096334848/1479652080862887997.png?ex=69b94d45&is=69b7fbc5&hm=cb823cfed819009ad73a1fc86228cd76695c79b402bf247282e55b529dd4c0b8&=&format=webp&quality=lossless"
+    adrenalineorb = "https://media.discordapp.net/attachments/1385288189714894953/1483084131981070388/1479651200508104945.png?ex=69b94d3b&is=69b7fbbb&hm=e47f9ce7ab200040dbbbc55b272e915eb12b29bb73073e79b027dc104133878f&=&format=webp&quality=lossless"
+    blunderpolicy = "https://media.discordapp.net/attachments/1385288189714894953/1483084082803113994/1479647919945814097.png?ex=69b94d2f&is=69b7fbaf&hm=a658e005491958c7b9b545806a23613d8e7c31f14a15244525da5c40be0a54a0&=&format=webp&quality=lossless"
+    lightclay = "https://media.discordapp.net/attachments/1385288189714894953/1483083938002898984/1479653159818231850.png?ex=69b94d0d&is=69b7fb8d&hm=6731be2c192aed94c5d5eb935de43d8e58a9b662443076b7e6271f27888c7c1a&=&format=webp&quality=lossless"
     lumberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283045104419010/1480097618838421576.png?ex=69b2bfd6&is=69b16e56&hm=5563c4945e0c4ec849cd883c00cc2e64aada7f458c85d58fa0816f312fc7fae7&=&format=webp&quality=lossless"
 
     chestoberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283117233737788/1480226743024488492.png?ex=69b2bfe8&is=69b16e68&hm=577358cc2fae6fbe52d700ad156558ad51e93d9ca2b5781257286dbfcb6dff26&=&format=webp&quality=lossless"
@@ -558,6 +566,7 @@ class SD_IT_IMAGES:
 
 
 class SD_IT:
+
     auspiciousarmor = f"""# AUSPICIOUS ARMOR
 **METHOD TO OBTAIN:**
 - 6% Chance upon receiving any ;battle quest (approx. 1/67 for a specific item on ;b quest)
@@ -2123,3 +2132,84 @@ class SD_IT:
 **METHOD TO OBTAIN:**
 `;s`  Shop for <:battle_points:1481286613261746198> 500
 `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 500"""
+
+    lightclay = f"""# LIGHT CLAY
+**INFO:**
+- Extends the duration of the holder's Reflect, Light Screen, and Aurora Veil from 5 turns to 8 turns.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+`;s`  Shop for <:battle_points:1481286613261746198> 250
+`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 250"""
+
+    blunderpolicy = f"""# BLUNDER POLICY
+**INFO:**
+- Raises the holder's Speed sharply if one of its moves misses.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 6, Battle 7 in Battle Factory."""
+
+    adrenalineorb = f"""# ADRENALINE ORB
+**INFO:**
+- Raises the holder's Speed when one of its stats is lowered by an opposing effect.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 8, Battle 7 in Battle Arena."""
+
+    scopelens = f"""# SCOPE LENS
+**INFO:**
+- Raises the holder's critical-hit stage by 1.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 10, Battle 4 in Battle Dome."""
+
+    blacksludge = f"""# BLACK SLUDGE
+**INFO:**
+- Heals Poison-type holders each turn, but damages non-Poison holders each turn.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 10, Room 7 in Battle Pike."""
+
+    throatspray = f"""# THROAT SPRAY
+**INFO:**
+- Raises the holder's Sp. Atk after it successfully uses a sound-based move. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 6, Battle 7 in Battle Palace."""
+
+    weaknesspolicy = f"""# WEAKNESS POLICY
+**INFO:**
+- Sharply raises the holder's Attack and Sp. Atk when it is hit by a super-effective move. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 10, Floor 7 in Battle Pyramid."""
+
+    shellbell = f"""# SHELL BELL
+**INFO:**
+- Restores a small amount of HP after the holder deals damage.
+
+**USAGE:**
+- Give to a Pokemon on your team to use
+
+**METHOD TO OBTAIN:**
+- `;bf` - Defeat Round 10, Battle 7 in Battle Tower."""

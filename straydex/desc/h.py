@@ -172,12 +172,13 @@ Members can show off their collections in <#1298114332583788597>
 - `;I INFO BATTLE` — Battle Items Description
 - `;I INFO RESEARCH` — Research Items Description
 
-**BATTLE FRONTIER REWARDS:**
+**BATTLE FRONTIER SHOP ITEMS:**
 - !atkmint
 - !brightpowder
 - !chestoberry
 - !clearamulet
 - !defmint
+- !lightclay
 - !lumberry
 - !occaberry
 - !persimberry
@@ -189,6 +190,15 @@ Members can show off their collections in <#1298114332583788597>
 - !spemint
 - !whiteherb
 - !yacheberry
+
+**BATTLE FRONTIER GOLD SYMBOL REWARD ITEMS:**
+- !adrenalineorb
+- !blacksludge
+- !blunderpolicy
+- !scopelens
+- !shellbell
+- !throatspray
+- !weaknesspolicy
 
 **BATTLE SHOP ITEMS:**
 - !choiceband

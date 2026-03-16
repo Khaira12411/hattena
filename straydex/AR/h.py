@@ -578,6 +578,16 @@ it_sub = [
     "whiteherb",
     "brightpowder",
     "clearamulet",
+    "lightclay",
+    # Gold symbol reward
+    "adrenalineorb",
+    "scopelens",
+    "blacksludge",
+    "throatspray",
+    "weaknesspolicy",
+    "shellbell",
+    "blunderpolicy",
+
 ]
 
 for sub in it_sub:
