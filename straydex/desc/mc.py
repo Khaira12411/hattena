@@ -1575,7 +1575,7 @@ B. For Kangaskhan w/ Sash
 - Make Kangaskhan your leading pokemon.
 - If leading enemy is hard to setup on than the second one, do Endeavor + Sucker-Punch. Otherwise use Confide if special attacker, or Growl if physical attacker.
 - If its just normal finals, switch to Whimsicott and try to do Memento, if it can't use 3x Iron-Defense with Arceus-Electric First to tank Focus-Punch from Regigigas/Mega-Kangaskhan."""
-    
+
     laa = f"""**TEAM:**
 - **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
@@ -2119,7 +2119,7 @@ class MC_GOLD_BUTTON_EMOJI:
     gya = "<:7099:1478741532864544893>"
     her = "<:7066:1478741543916408853>"
     hou = "<:7078:1478741540569481359>"
-    kan = None
+    kan = "<:7075:1483760547106131978>"
     laa = "<:7141:1478741520583753851>"
     lao = None
     lop = "<:7048:1478741549960532101>"
