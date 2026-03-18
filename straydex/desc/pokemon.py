@@ -164,7 +164,7 @@ class SD_PO_DESC:
 - **Moves:**
 > `Light-Screen` `Reflect` `Trick | Foul-Play` `Will-O-Wisp | Thunder-Wave | Destiny-Bond | Disable`
 - **Equip:**
-> `Choice_Scarf`
+> `Choice_Scarf | Light_Clay`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4`
 
@@ -175,7 +175,7 @@ class SD_PO_DESC:
 - **Moves:**
 > `Light-Screen` `Reflect` `Trick | Foul-Play` `Burning-Jealousy | Gmax-Snooze | Thunder-Wave`
 - **Equip:**
-> `Choice_Scarf`
+> `Choice_Scarf | Light_Clay`
 - **EVs:**
 > `HP 252` `DEF 128` `SPD 128`
 
@@ -186,7 +186,7 @@ class SD_PO_DESC:
 - **Moves:**
 > `Light-Screen` `Reflect` `Trick | Foul-Play` `Burning-Jealousy | Thunder-Wave`
 - **Equip:**
-> `Choice_Scarf`
+> `Choice_Scarf | Light_Clay`
 - **EVs:**
 > `HP 252` `SPE 252` `SPD 4`
 
@@ -197,7 +197,7 @@ class SD_PO_DESC:
 - **Moves:**
 > `Light-Screen` `Reflect` `Trick-Room` `Recycle | Life-Dew`
 - **Equip:**
-> `Sitrus_Berry`
+> `Sitrus_Berry | Light_Clay`
 - **EVs:**
 > `HP 252` `SPD 128` `SPD 128`
 
@@ -208,7 +208,7 @@ class SD_PO_DESC:
 - **Moves:**
 > `Reflect` `Light-Screen` `Thunder-Wave | Toxic` `Recycle | Moonlight`
 - **Equip:**
-> `Sitrus_Berry`
+> `Sitrus_Berry | Light_Clay`
 - **EVs:**
 > `HP 252` `SPD 128` `SPD 128`
 

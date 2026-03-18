@@ -670,7 +670,13 @@ class SD_MC_REG_STRAT:
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Stored-Power spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Arceus-Poison/Arceus/Arceus-Ghost can be used as replacement for Arceus-Electric.
+- Arceus-Electric is the best option for it is immune to any types of Paralysis and has resistance to steel beam.
+- If you are using Normal Arceus, try getting more atleast 2 Charms before using Memento with Whimsicott then switch to Arcues and proceed with setup.
+- In finals, the enemy Arceus is most likely to use steel-beam. Do 2x Calm-Mind first to be able to survive the steel-beam, then do 3x Iron-Defense to be ready for Regigigas/Mega-Kangaskhan then do the usual strategy"""
 
     laa = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -1540,8 +1546,36 @@ class SD_MC_GOLD_STRAT:
 - [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP"""
 
-    kan = None
+    kan = f"""**TEAM:**
+- **Whimsicott #547**
+> Equip: `N/A`
+> Moves: `Memento` `Charm`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Arceus-Electric #7588**
+> Equip: `Leftovers`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Kangaskhan #115**
+> Equip: `N/A | Focus_Sash`
+> Moves: `Confide` `Growl` `Endeavor` `Sucker-Punch`
 
+**STRATEGY:**
+- [Whimsicott] Memento
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Stored-Power spam
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+A. For Sashless Kangakhan
+- Use 2x Charm on Physical Attackers like (Regigigas, Snorlax, M Kanga etc.) then Memento, and switch to Arceus-Electric.
+- Do 6x Calm-Mind first when setting up against Gmaxes and Special Attackers.
+- Recover to Full Health before KOing the opponent.
+B. For Kangaskhan w/ Sash
+- Make Kangaskhan your leading pokemon.
+- If leading enemy is hard to setup on than the second one, do Endeavor + Sucker-Punch. Otherwise use Confide if special attacker, or Growl if physical attacker.
+- If its just normal finals, switch to Whimsicott and try to do Memento, if it can't use 3x Iron-Defense with Arceus-Electric First to tank Focus-Punch from Regigigas/Mega-Kangaskhan."""
+    
     laa = f"""**TEAM:**
 - **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
@@ -1918,7 +1952,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     hou = GOLDEN_MEGA_POKEMON_URL.mega_houndoom
 
-    kan = None
+    kan = GOLDEN_MEGA_POKEMON_URL.mega_kangaskhan
 
     laa = GOLDEN_MEGA_POKEMON_URL.mega_latias
 

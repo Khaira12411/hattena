@@ -102,7 +102,7 @@ class SD_MR_DESC:
 
     cur = f"""# MEOWROGUE: CURRENT META
  - **Arceus Electric**
-> Power Moves: `Meteor Beam` `Stored-Power`
+> Power Moves: `Meteor-Beam` `Stored-Power`
 > Status Moves: `Cosmic-Power` `Recover`
  - **Gmax Corviknight**
 > Power Moves: `Power-Trip` `Max-Quake`

@@ -37,6 +37,7 @@ class REGULAR_POKEMON_URL:
 
 
 class GOLDEN_MEGA_POKEMON_URL:
+    mega_kangaskhan = "https://media.discordapp.net/attachments/1481447344523317372/1481775071709368381/7075.gif?ex=69bb2193&is=69b9d013&hm=400b71cd40d2a5df92477a6afc4a2ff8cef504ebbe52541c1403f346e09d8589&="
     mega_gardevoir = "https://media.discordapp.net/attachments/1466666170970275935/1473905030816862299/7024.gif?ex=69a12307&is=699fd187&hm=22cc6d2e4933b85afcd961e32365835fab438026cdace644b9fbba0e2f494d98&="
     mega_blaziken = "https://media.discordapp.net/attachments/1451369765393141913/1458815330687254548/257-mega.gif?ex=69679aa6&is=69664926&hm=d2893eb4ea4239d5b02514cbbab588d23d836dc0b61fb953eb45f897660b0bf1&=&width=111&height=100"
     mega_swampert = "https://media.discordapp.net/attachments/677400893758373930/1354974559480057956/260-mega.gif?ex=696833e5&is=6966e265&hm=d0c71d0c6ad0bd8b83fb632e81240d0066a5cba4e63c0f93c11e8754abbd2ade&=&width=114&height=75"
