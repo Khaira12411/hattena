@@ -437,6 +437,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!WBDRE`**  WB Gmax-Drednaw
 - **`!WBDUR`**  WB Gmax-Duraludon
 - **`!WBEEV`**  WB Gmax-Eevee
+- **`!WBEET`**  WB Emax-Eternatus
 - **`!WBFLA`**  WB Gmax-Flapple
 - **`!WBGAR`**  WB Gmax-Garbodor
 - **`!WBGEN`**  WB Gmax-Gengar
