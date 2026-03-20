@@ -592,8 +592,8 @@ Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
-- Use 3x Aux Powerguard.
 - Use Simple-Beam with **Latios** to change Gengar's ability to Simple, then use `Memento`.
+- Use 3x Aux Powerguard.
 - With **Umbreon** use 3x `Captivate`, 3x `Fake-Tears`, 2x `Focus-Energy`then `Baton-Pass` to **Mega Mewtwo Y**.
 - With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
 
