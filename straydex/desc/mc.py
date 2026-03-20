@@ -661,7 +661,7 @@ class SD_MC_REG_STRAT:
 > Equip: `Leftovers`
 > Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-- **Kangaskhan #113**
+- **Kangaskhan #115**
 > Equip: `Luck_Incense`
 > Moves: NA
 
