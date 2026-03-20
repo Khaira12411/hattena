@@ -1,3 +1,6 @@
+from constants.straydex import SD_EMOJIS
+
+
 class SD_MAIN_DESC:
 
     h = f"""# WELCOME TO STRAYDEX
@@ -15,6 +18,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!MC`**  Mega Chamber Codex
 - **`!MH`**  Meowhelper Codex
 - **`!MR`**  Meowrogue Codex
+- **`!NA`**  Nature Codex
 - **`!PA`**  Patreon Codex
 - **`!PO`**  Pokemon Codex
 - **`!PS`**  Power Station Codex
@@ -367,6 +371,53 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCTYR`**  MC: Mega Tyranitar
 - **`!MCVEN`**  MC: Mega Venusaur"""
 
+    na = f"""# STRAYDEX: NATURE
+- Nature is a mechanic that influences how a Pokémon’s stats grow and also affects its personality traits.
+- There are 25 different natures, each with its own unique combination of stat changes.
+- Most natures increase one stat by 10% and decrease another by 10%
+- The five neutral natures (Hardy, Docile, Serious, Bashful, and Quirky) do not affect any stats.
+- Nature can be modified by using Nature Mints, which can be bought in `;shop` or `;bf shop` for 10 <:battle_points:1481286613261746198> Battle Points each.
+
+**COMMAND:**
+- `;bud set nature <atk/def/spd/spe/serious>`- Set the nature for your Buddy.
+
+**{SD_EMOJIS.atk_mint} ATTACK BOOSTING NATURES**
+- **Adamant**: `+Atk -SpA`
+- **Brave**: `+Atk -Spe`
+- **Lonely**: `+Atk -Def`
+- **Naughty**: `+Atk -SpD`
+
+**{SD_EMOJIS.spa_mint} SPECIAL ATTACK BOOSTING NATURES**
+- **Modest**: `+SpA -Atk`
+- **Mild**: `+SpA -Def`
+- **Rash**: `+SpA -SpD`
+- **Quiet**: `+SpA -Spe`
+
+**{SD_EMOJIS.def_mint} DEFENSE BOOSTING NATURES**
+- **Bold**: `+Def -Atk`
+- **Relaxed**: `+Def -Spe`
+- **Impish**: `+Def -SpA`
+- **Lax**: `+Def -SpD`
+
+**{SD_EMOJIS.spd_mint} SPECIAL DEFENSE BOOSTING NATURES**
+- **Calm**: `+SpD -Atk`
+- **Gentle**: `+SpD -Def`
+- **Careful**: `+SpD -SpA`
+- **Sassy**: `+SpD -Spe`
+
+**{SD_EMOJIS.spe_mint} SPEED BOOSTING NATURES**
+- **Timid**: `+Spe -Atk`
+- **Hasty**: `+Spe -Def`
+- **Jolly**: `+Spe -SpA`
+- **Naive**: `+Spe -SpD`
+
+**{SD_EMOJIS.serious_mint} SERIOUS NATURE**
+- **Bashful**: `Neutral`
+- **Docile**: `Neutral`
+- **Hardy**: `Neutral`
+- **Quirky**: `Neutral`
+- **Serious**: `Neutral`"""
+
     po = """# STRAYDEX: POKEMONS
 **CATEGORIES:**
 - **`!PODEB`**  Pokemon: Debuffers
@@ -584,6 +635,7 @@ Server Owner: <@952071312124313611>
 
 
 class SD_MAIN_IMAGES:
+    nature = "https://media.discordapp.net/attachments/1358029599463968798/1484423378155737168/UBG01_13.png?ex=69be2c80&is=69bcdb00&hm=ee47174841cea80d17efb9ac2fa5074c9a6d4618430fbac1cc5c204c62bbd5ca&=&format=webp&quality=lossless"
     ps = "https://media.discordapp.net/attachments/1358029599463968798/1479331652730749040/UBG01_10.png?ex=69aba676&is=69aa54f6&hm=35b87e95e9e74c61348b4e4ea51ca8c4b51604468d6306c30b5587b9824e7224&=&format=webp&quality=lossless&width=901&height=428"
     RPS = "https://media.discordapp.net/attachments/1358029599463968798/1478729622978957423/UBG01_9_1.png?ex=69a975c7&is=69a82447&hm=eb2de51f384a9b23efeda44caaf764034a62326bed86ff7c8c6701d1610e8018&=&format=webp&quality=lossless"
     POWERSTATION = "https://media.discordapp.net/attachments/1358029599463968798/1478596096568852701/Power_Plant_exterior_FRLG.webp?ex=69a8f96c&is=69a7a7ec&hm=46481d033745e3e5523e31b6083cfd25abe35eec10dc0c26a71b8f15e37abbae&=&format=webp"

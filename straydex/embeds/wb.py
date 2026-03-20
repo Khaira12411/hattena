@@ -33,6 +33,9 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
         header_text = f"GMAX URSHIFU RAPID STRIKE #{dex_number}"
         strat = WB_ConsitentStrat.mewtwo_strat
 
+    elif boss_name == "gen":
+        strat = WB_ConsitentStrat.gengar_strat
+
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/eternatus-eternamax.png"
         strat = WB_ConsitentStrat.mewtwo_strat
@@ -78,6 +81,9 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         header_text = f"SHINY GMAX URSHIFU RAPID STRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
 
+    elif boss_name == "gen":
+        strat = WB_MVPStrat.gengar
+
     elif boss_name == "gri":
         strat = WB_MVPStrat.gri
 
@@ -93,7 +99,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
 
     elif boss_name  in ("app", "fla",  "but"):
         strat = WB_MVPStrat.pg_glalie
-        
+
     elif boss_name in ("cen", "cha", "cin"):
         strat = WB_MVPStrat.pg
 

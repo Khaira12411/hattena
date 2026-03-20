@@ -105,6 +105,13 @@ straydex_ar = {
             "function": build_sd_main_embed,
         }
     },
+    "na": {
+        "": {
+            "text": SD_MAIN_DESC.na,
+            "image_url": SD_MAIN_IMAGES.nature,
+            "function": build_sd_main_embed,
+        }
+    },
     "pa": {
         "": {
             "patreon": "COMMON",

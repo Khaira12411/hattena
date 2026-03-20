@@ -85,7 +85,12 @@ class SD_EMOJIS:
     professor_oak = "<:professor_oak:1477260178939187320>"
     mystery_trainer = "<:mystery_trainer:1477260153278562525>"
     safariball = "<:safariball:1478161902281687090>"
-
+    atk_mint = "<:atk_mint:1484419732831731802>"
+    def_mint = "<:def_mint:1484419730700898304>"
+    spd_mint = "<:spd_mint:1484419728393900143>"
+    spe_mint = "<:spe_mint:1484419725806141542>"
+    serious_mint = "<:serious_mint:1484419723696537610>"
+    spa_mint = "<:spa_mint:1484427552230477904>"
 
 class SD_THUMBNAILS:
     bronze = "https://media.discordapp.net/attachments/1476377156308439041/1476377627504808121/1298631434390470707.png?ex=69a0e750&is=699f95d0&hm=3008d8e58ce11d303b42601f44b0b16d33958ad9147cafc5f2506079bb88793c&=&format=webp&quality=lossless"

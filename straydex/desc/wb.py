@@ -413,11 +413,12 @@ Moves: `Memento`
 EVs: -
 
 - **Muk #89**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir #7022**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
 Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -436,11 +437,12 @@ Moves: `Memento`
 EVs: -
 
 - **Muk #89**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir #7022**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
 Moves: `Moonblast` `Draining-Kiss` `Calm-Mind`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -459,11 +461,12 @@ Moves: `Memento`
 EVs: -
 
 - **Muk #89**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Acid-Spray` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
 Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -474,6 +477,31 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - With **Mega Mewtwo Y** use `Calm-Mind` 6x then `Bulk-Up` atleast once. The amount of `Bulk-Ups` may change depending on how many people participate and how fast the boss dies.
 - After the set-up above, spam `Stored-Power`
 - Use `Recover` to heal."""
+
+    gengar_strat = f"""**TEAM:**
+- **Latios #381**
+Equip: NA
+Moves: `Simple-Beam` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Muk #89**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Acid-Spray` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Mewtwo Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Metronome`
+Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**STRATEGY:**
+- Use Simple-Beam with **Latios** to change Gengar's ability to Simple, then use `Memento`.
+- With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
+- With **Mega Mewtwo Y** use `Calm-Mind` 6x then `Bulk-Up` atleast once. The amount of `Bulk-Ups` may change depending on how many people participate and how fast the boss dies.
+- After the set-up above, spam `Stored-Power`
+- Use `Recover` to heal."""
+
     steel_type_strat = f"""**TEAM:**
 - **Grimer #88**
 Equip: NA
@@ -481,11 +509,12 @@ Moves: `Memento`
 EVs: -
 
 - **Ninetales #38**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Memento`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
 Moves: `Stored-Power` `Recover` `Calm-Mind` `Bulk-Up`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -499,13 +528,13 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
     incineroar = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -523,17 +552,18 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
 Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
@@ -544,19 +574,43 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega Mewtwo Y**.
 - With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
 
+    gengar = f"""**TEAM:**
+- **Latios #381**
+Equip: NA
+Moves: `Simple-Beam` `Memento`
+EVs: `HP 252` `SPD 252`
+
+- **Umbreon #197**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Fake-Tears` `Captivate` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Mewtwo Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- Use Simple-Beam with **Latios** to change Gengar's ability to Simple, then use `Memento`.
+- With **Umbreon** use 3x `Captivate`, 3x `Fake-Tears`, 2x `Focus-Energy`then `Baton-Pass` to **Mega Mewtwo Y**.
+- With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
+
     necorzma_ultra = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Necrozma-Ultra #7693**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
 Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
@@ -569,13 +623,13 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
     incineroar = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -592,18 +646,19 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
     inteleon = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Gmax-Inteleon #7217**
 *Needs Sniper Ability*
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
 Moves: `Max Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
@@ -616,17 +671,18 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
     gri = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Gmax-Hatterene #7238**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
 Moves: `Max Starfall` `Draining-Kiss` `Calm-Mind` `Max-Darkness`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -639,17 +695,18 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
     uss = f"""**TEAM:**
 - **Mew #151**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
 *Remove Contrary Ability*
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir #7022**
+Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
 Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind`
 EVs: `SPA 252` `SPD 252` `HP 6`
@@ -667,7 +724,7 @@ Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Latios #381**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Hone-Claws` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
@@ -699,7 +756,7 @@ Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Latios #381**
-Equip: `Loaded_Dice`
+Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Hone-Claws` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
