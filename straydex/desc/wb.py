@@ -641,7 +641,7 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`,  then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
+- With **Malamar** use 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
     inteleon = f"""**TEAM:**
