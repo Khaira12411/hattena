@@ -2534,6 +2534,7 @@ shiny_mega_mons = {
     "shiny mega-venusaur": {"dex": 7002},
 }
 mega_mons = {
+    "mega-victreebel": {"dex": 7302},
     "mega-abomasnow": {"dex": 7070},
     "mega-absol": {"dex": 7127},
     "mega-aerodactyl": {"dex": 7100},

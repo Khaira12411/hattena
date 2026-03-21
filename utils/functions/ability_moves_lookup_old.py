@@ -10,7 +10,6 @@ from constants.straymons_constants import DEFAULT_EMBED_COLOR
 from straydex.functions.main import send_sd_logs
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
-from utils.db.pokemon_moves_db import get_pokemon_learned_by
 
 # enable_debug(f"{__name__}.get_move_learned_by_pokemon")
 # enable_debug(f"{__name__}.get_ability_learned_by_pokemon")
