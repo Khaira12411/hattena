@@ -42,6 +42,13 @@ straydex_ar = {
             "function": build_sd_main_embed,
         }
     },
+    "bf": {
+        "": {
+            "text": SD_MAIN_DESC.bf,
+            "image_url": SD_MAIN_IMAGES.bf,
+            "function": build_sd_main_embed,
+        }
+    },
     "ac": {
         "": {
             "text": SD_MAIN_DESC.ac,
@@ -205,6 +212,14 @@ for sub in safari_zone_sub:
             "function": build_sd_sz_secrets_main_embed,
         }
 
+# Battle Frontier AR
+battle_frontier_sub = ["pal"]
+for sub in battle_frontier_sub:
+    straydex_ar["bf"][sub] = {
+        "sub_cmd": sub,
+        "function": build_sd_bf_main_info_embed,
+    }
+    
 # Pokemon AR
 po_sub_no_buttons = [
     "inc",

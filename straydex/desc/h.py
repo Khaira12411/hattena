@@ -9,6 +9,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 **COMMANDS:**
 - **`!AC`**  Achievement Codex
 - **`!BA`**  Battle Codex
+- **`!BF`**  Battle Frontier Codex
 - **`!CO`**  Collection Codex
 - **`!EV`**  Event Codex
 - **`!EX`**  Explore Codex
@@ -22,7 +23,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!PA`**  Patreon Codex
 - **`!PO`**  Pokemon Codex
 - **`!PS`**  Power Station Codex
-- **`!RPS`**  RPS Game Codex
+- **`!RPS`** RPS Game Codex
 - **`!SZ`**  Safari Zone Codex
 - **`!TCG`** TCG Codex
 - **`!TR`**  Trainer Codex
@@ -43,6 +44,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 
     ba = """# STRAYDEX: BATTLE
 **COMMANDS:**
+
 - **`!BAREG`**  Battle: Gym Regions
 - **`!BALEG`**  Battle: Legends
 - **`!BACBA`**  Battle: Challenger Basic
@@ -51,6 +53,14 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!BAIC`**  Battle: Icon
 - **`!BATI`**  Battle: Tower Info
 - **`!BATS`**  Battle: Tower Strategy"""
+
+    bf = """# STRAYDEX: BATTLE FRONTIER
+**COMMANDS:**
+- **`;BF`** Battle Frontier Info
+- **`;B NPC BF`** Challenge NPCs in Battle Frontier
+
+**STRAYDEX COMMANDS:**
+- **`!BFPAL`**  Battle Palace Guide"""
 
     co = """# STRAYDEX: COLLECTION
 Collection is a bunch of Pokémons which players actively or passively collect/buy.
@@ -635,6 +645,7 @@ Server Owner: <@952071312124313611>
 
 
 class SD_MAIN_IMAGES:
+    bf = "https://media.discordapp.net/attachments/1358029599463968798/1484897501541826621/UBG01_16.png?ex=69bfe610&is=69be9490&hm=5df127e73813bd824dcaba1c9ab6f5e6830a307b468becee4c43e702657e3726&=&format=webp&quality=lossless"
     nature = "https://media.discordapp.net/attachments/1358029599463968798/1484423378155737168/UBG01_13.png?ex=69be2c80&is=69bcdb00&hm=ee47174841cea80d17efb9ac2fa5074c9a6d4618430fbac1cc5c204c62bbd5ca&=&format=webp&quality=lossless"
     ps = "https://media.discordapp.net/attachments/1358029599463968798/1479331652730749040/UBG01_10.png?ex=69aba676&is=69aa54f6&hm=35b87e95e9e74c61348b4e4ea51ca8c4b51604468d6306c30b5587b9824e7224&=&format=webp&quality=lossless&width=901&height=428"
     RPS = "https://media.discordapp.net/attachments/1358029599463968798/1478729622978957423/UBG01_9_1.png?ex=69a975c7&is=69a82447&hm=eb2de51f384a9b23efeda44caaf764034a62326bed86ff7c8c6701d1610e8018&=&format=webp&quality=lossless"
