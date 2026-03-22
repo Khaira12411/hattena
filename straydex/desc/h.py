@@ -61,7 +61,8 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 
 **STRAYDEX COMMANDS:**
 - **`!BFARE`**  Battle Arena Guide
-- **`!BFPAL`**  Battle Palace Guide"""
+- **`!BFPAL`**  Battle Palace Guide
+- **`!BFTOW`**  Battle Tower Guide"""
 
     co = """# STRAYDEX: COLLECTION
 Collection is a bunch of Pokémons which players actively or passively collect/buy.

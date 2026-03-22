@@ -7,6 +7,7 @@ from straydex.functions.main import get_default_footer
 abbrv_map = {
     "pal": "palace",
     "are": "arena",
+    "tow": "tower",
 }
 
 
