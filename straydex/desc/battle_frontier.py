@@ -84,9 +84,6 @@ class BF_DESC:
 - **Metagross #376**
 > Equip: `Choice_Band`
 > Moves: `Iron-Head` `Ice-Punch` `Shadow-Claw` `Earthquake`
-- **Salamence #373**
-> Equip: `Choice_Cloak`
-> Moves: `Outrage` `Fly`
 - **Tyranitar #248**
 > Equip: `Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
