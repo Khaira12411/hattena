@@ -213,13 +213,13 @@ for sub in safari_zone_sub:
         }
 
 # Battle Frontier AR
-battle_frontier_sub = ["pal"]
+battle_frontier_sub = ["pal", "are"]
 for sub in battle_frontier_sub:
     straydex_ar["bf"][sub] = {
         "sub_cmd": sub,
         "function": build_sd_bf_main_info_embed,
     }
-    
+
 # Pokemon AR
 po_sub_no_buttons = [
     "inc",
