@@ -22,7 +22,7 @@ class BF_DESC:
 - <:gold_luck_symbol:1485420466377064608> **Gold Symbol:** Round 10, Battle 7
 
 **EXTRA ITEM REWARD FOR GOLD SYMBOL:**
-- **1x <:black_sludge:1485420464145694760> Black Sludge* - Heals Poison-type holders each turn, but damages non-Poison holders each turn.
+- **1x <:black_sludge:1485420464145694760> Black Sludge** - Heals Poison-type holders each turn, but damages non-Poison holders each turn.
 
 **DOOR INFO:**
 - 👂
