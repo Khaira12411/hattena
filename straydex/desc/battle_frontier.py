@@ -59,14 +59,14 @@ class BF_DESC:
 > Equip: `Shell_Bell | Sitrus_Berry | Black_Belt`
 > Moves: `Body-Press` `Iron-Defense` `Sleep-Talk` `Rest`
 > EVs: `HP 252` `DEF 252` `SPD 4`
-**Salamence #373**
+- **Salamence #373**
 > Nature: `Adamant +Atk, -SpA`
 > Ability: `Intimidate | Moxie`
 > Equip: `Choice_Cloak`
 > Moves: `Dragon-Claw` `Earthquake` `Aerial-Ace`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 
-> **STRATEGY:**
+**STRATEGY:**
 - With Blissey, use Toxic to wear down opponents. If your team gets a status condition, use Heal Bell. For damage, spam Seismic Toss, and heal Blissey with Soft-Boiled when its HP is low.
 - Against physical attackers, switch to Registeel. Use Iron Defense 3x to boost Defense, then spam Body Press for damage. If Registeel is low on HP or statused, use Rest and 2 Sleep-Talk.
 - Switch to Salamence if you expect Earthquake or Fire-type moves. Use Earthquake.
@@ -111,6 +111,31 @@ class BF_DESC:
 {Emojis.star} **Credits to:** Ramsay and arandomcat for this team."""
 
     arena = f"""# BATTLE ARENA GUIDE
+**MILESTONES:**
+- <:silver_guts_symbol:1485092097173491925> **Silver Symbol:** Round 4, Battle 7
+- <:gold_guts_symbol:1485092094967156907> **Gold Symbol:** Round 8, Battle 7
+
+**EXTRA ITEM REWARD FOR GOLD SYMBOL:**
+- **1x <:adrenaline_orb:1485090545973072013> Adrenaline Orb** - Raises the holder's Speed when one of its stats is lowered by an opposing effect.
+
+**TEAM:**
+- **Latios #381**
+> Equip: `Choice_Cloak`
+> Moves: `Dragon-Pulse` `Psychic` `Shadow-Ball` `Energy-Ball`
+- **Metagross #376**
+> Equip: `Choice_Band`
+> Moves: `Iron-Head` `Ice-Punch` `Shadow-Claw` `Earthquake`
+- **Tyranitar #248**
+> Equip: `Assault_Vest`
+> Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Use Effective moves against opponents.
+- If you are unsure about what move to initially use, go for a move type that doesn't have a type immunity against the opponent's Pokémon. For example, Ice-Punch.
+
+{Emojis.star} **Credits to:** Yuki for this team."""
+
+    dome = f"""# BATTLE DOME GUIDE
 **MILESTONES:**
 - <:silver_guts_symbol:1485092097173491925> **Silver Symbol:** Round 4, Battle 7
 - <:gold_guts_symbol:1485092094967156907> **Gold Symbol:** Round 8, Battle 7
