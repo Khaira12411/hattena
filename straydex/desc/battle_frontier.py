@@ -46,7 +46,7 @@ class BF_DESC:
 - Pick 🕰️ if you’re low on health and 🌿 isn’t an option.
 - Picking 👥 can give you a battle or full team heal. When it’s battle, aim to win with minimal damage.
 
-**TEAM A:**
+**TEAM:**
 - **Blissey #242**
 > Ability: `Natural Cure`
 > Nature: `Bold +Def, -Atk`
@@ -65,25 +65,8 @@ class BF_DESC:
 > Equip: `Choice_Cloak`
 > Moves: `Dragon-Claw` `Earthquake` `Aerial-Ace`
 > EVs: `HP 252` `DEF 128` `SPD 128`
-OR
-**TEAM B:**
-- **Starmie #121**
-> Nature: `Timid +Spe, -Atk`
-> Ability: `Optional: Natural Cure`
-> Equip: `Choice_Specs`
-> Moves: `Surf` `Psychic` `Ice-Beam` `Thunderbolt`
-- **Heracross #214**
-> Nature: `Adamant +Atk, -Spd`
-> Ability: `Guts`
-> Equip: `Choice_Band`
-> Moves: `Megahorn` `Brick-Break` `Close-Combat` `Rock-Slide`
-- **Blissey #242**
-> Ability: `Natural Cure`
-> Nature: `Bold +Def, -Atk`
-> Equip: `Leftovers`
-> Moves: `Seismic-Toss` `Soft-Boiled` `Heal-Bell` `Double-Team`
 
-> **Team A Strategy:**
+> **STRATEGY:**
 - With Blissey, use Toxic to wear down opponents. If your team gets a status condition, use Heal Bell. For damage, spam Seismic Toss, and heal Blissey with Soft-Boiled when its HP is low.
 - Against physical attackers, switch to Registeel. Use Iron Defense 3x to boost Defense, then spam Body Press for damage. If Registeel is low on HP or statused, use Rest and 2 Sleep-Talk.
 - Switch to Salamence if you expect Earthquake or Fire-type moves. Use Earthquake.
@@ -96,7 +79,7 @@ OR
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - All Pokémon must have atleast more than 12 IVs for optimal results.
 
-{Emojis.star} **Credits to:** Misery for team B."""
+{Emojis.star} **Credits to:** Misery for Blissey."""
 
     palace = f"""# BATTLE PALACE GUIDE
 **MILESTONES:**

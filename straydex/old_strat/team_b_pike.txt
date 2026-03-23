@@ -1,0 +1,17 @@
+OR
+**TEAM B:**
+- **Starmie #121**
+> Nature: `Timid +Spe, -Atk`
+> Ability: `Optional: Natural Cure`
+> Equip: `Choice_Specs`
+> Moves: `Surf` `Psychic` `Ice-Beam` `Thunderbolt`
+- **Heracross #214**
+> Nature: `Adamant +Atk, -Spd`
+> Ability: `Guts`
+> Equip: `Choice_Band`
+> Moves: `Megahorn` `Brick-Break` `Close-Combat` `Rock-Slide`
+- **Blissey #242**
+> Ability: `Natural Cure`
+> Nature: `Bold +Def, -Atk`
+> Equip: `Leftovers`
+> Moves: `Seismic-Toss` `Soft-Boiled` `Heal-Bell` `Double-Team`
