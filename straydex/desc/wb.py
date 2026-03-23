@@ -544,7 +544,7 @@ Moves: `Power-Trip` `Leech-Life` `Bulk-Up` `Nasty-Plot`
 EVs: `ATK 252` `SPD 252` `HP 4`
 
 **STRATEGY:**
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`,  then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
 - With **Incineroar**, use 6x `Bulk-Up`, 1x `Nasty-Plot` then spam `Power-Trip`, and use `Leech-Life` to heal."""
 
@@ -570,7 +570,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega Mewtwo Y**.
 - With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
 
@@ -595,9 +595,9 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Hisuian-Braviary**.
-- With **Hisuian-Braviary**, use `Psychic-Terrain then spam `Stored-Power`, and use `Roost` to heal. Reapply `Psychic-Terrain` every 5 turns."""
+- With **Hisuian-Braviary**, use `Psychic-Terrain` then spam `Stored-Power`, and use `Roost` to heal. Reapply `Psychic-Terrain` every 5 turns."""
 
     gengar = f"""**TEAM:**
 - **Latios #381**
@@ -642,7 +642,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
 - With **Necrozma-Ultra**, spam `Stored-Power`, and use Max Potions to heal."""
 
@@ -665,7 +665,7 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`,  then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
