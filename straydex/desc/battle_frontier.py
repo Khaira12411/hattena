@@ -1,13 +1,16 @@
 from constants.aesthetic import *
 class BF_THUMBNAIL:
+    pike = "https://media.discordapp.net/attachments/1484878359929557174/1485419725700989058/pike_queen_lucy.png?ex=69c1cc6c&is=69c07aec&hm=f3f6eaaf7d4fd3577e06620a470ccc5971a5108e9e2ee354f1f7747d294b318d&=&format=webp&quality=lossless"
     tower = "https://media.discordapp.net/attachments/1484878359929557174/1485249092425879582/salon_maiden_anabel.png?ex=69c12d82&is=69bfdc02&hm=d353d8e85b614898a2b112a6dd6f42b9f5cd00225278d02d62110149e5adf7cd&=&format=webp&quality=lossless"
     palace = "https://media.discordapp.net/attachments/1484878359929557174/1484901318631096430/palace_maven_spenser.png?ex=69bfe99e&is=69be981e&hm=2d9de5f1f6b3ffe341e86d42309c0bbafe1c1cd90ada9a37fb87860105bf389f&=&format=webp&quality=lossless"
     arena = "https://media.discordapp.net/attachments/1484878359929557174/1485101559300886618/arena_tycoon_greta.png?ex=69c0a41b&is=69bf529b&hm=40841088b674957363aa438db2b2621d6612ba02d8062c00ef54b6bc043a1df1&=&format=webp&quality=lossless"
 class BF_IMAGE_URL:
+    pike = "https://media.discordapp.net/attachments/1358029599463968798/1485441972297793596/UBG01_19.png?ex=69c1e124&is=69c08fa4&hm=3da9357eb9b52da2133bc56ba0b11cb2b1da4c43bdc97a30df07b64c5a496eac&=&format=webp&quality=lossless"
     palace = "https://media.discordapp.net/attachments/1358029599463968798/1484886376854982787/UBG01_14_1.png?ex=69bfdbb4&is=69be8a34&hm=7ccb2ae30a445d94143e739333cac3287f6370fd5daa03200aca5a55ebcd3f6f&=&format=webp&quality=lossless"
     arena = "https://media.discordapp.net/attachments/1358029599463968798/1485089744504492162/UBG01_17.png?ex=69c0991a&is=69bf479a&hm=5351ab1e580e0a5fa1323ecddbe3458d178d4529dfe02651e626ab60663ca710&=&format=webp&quality=lossless"
     tower = " https://media.discordapp.net/attachments/1358029599463968798/1485252925000253593/UBG01_18.png?ex=69c13113&is=69bfdf93&hm=f0af25164bcbb1254dbeec4f4d9a6183666291b89d5cf2985f74866a5b3cde3b&=&format=webp&quality=lossless"
 class BF_AUTHOR_IMAGE_URL:
+    pike = "https://media.discordapp.net/attachments/1484878359929557174/1485419726078345319/1480698198640168991.png?ex=69c1cc6c&is=69c07aec&hm=1426b6cc4894e7ef88a82ae567698b780a8110bdfaca3cef24be7a7161aaf9f3&=&format=webp&quality=lossless"
     tower = "https://media.discordapp.net/attachments/1484878359929557174/1485249092102656093/1480696620835410183.png?ex=69c12d82&is=69bfdc02&hm=1d1f59c2b8595f5b6e5dbd7864b04e2cf45744d1e566d6093aa9e26acd7ba91c&=&format=webp&quality=lossless"
     palace = "https://media.discordapp.net/attachments/1484878359929557174/1484878389830619357/1480698205636136990.png?ex=69bfd443&is=69be82c3&hm=bd2f3a8439fb04edffd9c911c9f57a783b01107be02acb796eb3528859938289&=&format=webp&quality=lossless"
     arena = "https://media.discordapp.net/attachments/1484878359929557174/1485101868735660253/1480698203694301204.png?ex=69c0a465&is=69bf52e5&hm=425669e7bd62595e460a075cf2fb30dbda449b4f4434eb2947dd14b9e46d7f42&=&format=webp&quality=lossless"
@@ -15,10 +18,55 @@ class BF_AUTHOR_IMAGE_URL:
 class BF_DESC:
     pike = f"""# BATTLE PIKE GUIDE
 **MILESTONES:**
-- <:silver_spirits_symbol:1484879573177995344> **Silver Symbol:** Round 3, Battle 7
-- <:gold_spirits_symbol:1484879654668992667> **Gold Symbol:** Round 6, Battle 7
+- <:silver_luck_symbol:1485420468864286790> **Silver Symbol:** Round 2, Battle 7
+- <:gold_luck_symbol:1485420466377064608> **Gold Symbol:** Round 10, Battle 7
 
-**TEAM:**
+**EXTRA ITEM REWARD FOR GOLD SYMBOL:**
+- **1x <:black_sludge:1485420464145694760> Black Sludge* - Heals Poison-type holders each turn, but damages non-Poison holders each turn.
+
+**DOOR INFO:**
+- 👂
+> Free Pass
+- 👑
+> Boss Battle with no full team recovery reward.
+- 🌿:
+> Pro: Hard Battles with full Team recovery Reward
+> Con: Chip damage on your 1st Slot and leaves it with or without a status condition.
+- 🕰️:
+> Pro: Fully heals 1 to 2 Pokemon on your team.
+> Con: Inflicts random status on 1 to 2 Pokemon on your team.
+- 👥:
+> Pro: Fully recovers your whole team.
+> Con: Hard Battle with no full team recovery reward.
+
+**DOOR STRAT:**
+- 👂 > 🌿 > 🕰️ > 👥
+- Always choose the 👂 door when available, provided your team isn’t low on health.
+- If 👂 isn’t available, choose 🌿 — having a fully healed team is more valuable, and the chip damage is usually manageable.
+- Pick 🕰️ if you’re low on health and 🌿 isn’t an option.
+- Picking 👥 can give you a battle or full team heal. When it’s battle, aim to win with minimal damage.
+
+**TEAM A:**
+- **Blissey #242**
+> Ability: `Natural Cure`
+> Nature: `Bold +Def, -Atk`
+> Equip: `Leftovers`
+> Moves: `Seismic-Toss` `Soft-Boiled` `Heal-Bell` `Toxic`
+> EVs: `HP 252` `DEF 252` `SPD 4`
+- **Registeel #379**
+> Ability: `Clear Body`
+> Nature: `Impish +Def, -SpA`
+> Equip: `Shell_Bell | Sitrus_Berry | Black_Belt`
+> Moves: `Body-Press` `Iron-Defense` `Sleep-Talk` `Rest`
+> EVs: `HP 252` `DEF 252` `SPD 4`
+**Salamence #373**
+> Nature: `Adamant +Atk, -SpA`
+> Ability: `Intimidate | Moxie`
+> Equip: `Choice_Cloak`
+> Moves: `Dragon-Claw` `Earthquake` `Aerial-Ace`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+OR
+**TEAM B:**
 - **Starmie #121**
 > Nature: `Timid +Spe, -Atk`
 > Ability: `Optional: Natural Cure`
@@ -35,13 +83,20 @@ class BF_DESC:
 > Equip: `Leftovers`
 > Moves: `Seismic-Toss` `Soft-Boiled` `Heal-Bell` `Double-Team`
 
-> <a:fidough_wow:1283739703140679703> ***FidNotes:***
-- All Pokémon must have atleast more than 12 IVs for optimal results
-- Adding EV is optional but it would be better if its 252 Hp, 128 Def and 128 Sp. Def.
-- Make sure that Salamence only has Outrage, and Fly as its moveset.
-- If Metagross dies switch to Salamence, if Salamence dies switch to Swampert.
+> **Team A Strategy:**
+- With Blissey, use Toxic to wear down opponents. If your team gets a status condition, use Heal Bell. For damage, spam Seismic Toss, and heal Blissey with Soft-Boiled when its HP is low.
+- Against physical attackers, switch to Registeel. Use Iron Defense 3x to boost Defense, then spam Body Press for damage. If Registeel is low on HP or statused, use Rest and 2 Sleep-Talk.
+- Switch to Salamence if you expect Earthquake or Fire-type moves. Use Earthquake.
+- If you expect the opponent to use an Ice-type move, switch Salamence out into Registeel or Blissey and follow the strategy outlined above.
+- With Salamence, use Dragon Claw for steady damage, Earthquake against Steel and Fire types, and Aerial Ace to handle Fighting and Bug types.
+- Against Breloom, switch into Salamence and hit with Aerial Ace. Breloom’s Fighting moves can easily knock out Blissey in one hit and usually 2HKO Registeel.
 
-{Emojis.star} **Credits to:** Misery and Tesla for this team."""
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- EVs are optional.
+- The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
+- All Pokémon must have atleast more than 12 IVs for optimal results.
+
+{Emojis.star} **Credits to:** Misery for team B."""
 
     palace = f"""# BATTLE PALACE GUIDE
 **MILESTONES:**
@@ -64,6 +119,7 @@ class BF_DESC:
 > Moves: `Liquidation` `Earthquake` `Toxic` `Ice-Punch`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - All Pokémon must have atleast more than 12 IVs for optimal results
 - Adding EV is optional but it would be better if its 252 Hp, 128 Def and 128 Sp. Def.
 - Make sure that Salamence only has Outrage, and Fly as its moveset.
@@ -116,6 +172,7 @@ class BF_DESC:
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - Use Effective moves against opponents.
 A. Latios
 - Against Ice types, switch to Metagross and use Iron-Head.

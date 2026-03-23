@@ -8,6 +8,7 @@ abbrv_map = {
     "pal": "palace",
     "are": "arena",
     "tow": "tower",
+    "pik": "pike",
 }
 
 
