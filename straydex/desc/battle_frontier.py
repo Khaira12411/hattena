@@ -93,7 +93,7 @@ class BF_DESC:
 - **1x <:throat_spray:1485090544131637268> Throat Spray** - Raises the holder's Sp. Atk after it successfully uses a sound-based move. Single use.
 
 **TEAM:**
-> Nature for whole team: `Any Atk+ except Lonely/Naughty`
+> Nature for whole team: `Sassy`
 - **Metagross #376**
 > Equip: `Life_Orb`
 > Moves: `Iron-Head` `Ice-Punch` `Thunder-Punch` `Earthquake`
