@@ -176,7 +176,7 @@ class BF_DESC:
 **TEAM:**
 - **Latios #381**
 > Equip: `Choice_Cloak`
-> Moves: `Dragon-Pulse` `Psychic` `Shadow-Ball` `Energy-Ball`
+> Moves: `Dragon-Pulse` `Psychic` `Aura-Sphere` `Energy-Ball`
 - **Metagross #376**
 > Equip: `Choice_Band`
 > Moves: `Iron-Head` `Ice-Punch` `Thunder-Punch` `Earthquake`
