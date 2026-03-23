@@ -94,7 +94,10 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
         strat = WB_MVPStrat.necorzma_ultra
 
-    elif boss_name in ("cor", "cop", "orb"):
+    elif boss_name in ["mel", "cop", "dur", "cor"]:
+        strat = WB_MVPStrat.steel
+
+    elif boss_name == "orb":
         strat = WB_MVPStrat.incineroar
 
     elif boss_name  in ("app", "fla",  "but"):

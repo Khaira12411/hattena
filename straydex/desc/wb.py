@@ -572,7 +572,32 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega Mewtwo Y**.
-- With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
+- With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
+
+    steel = f"""**TEAM:**
+- **Mew #151**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Malamar #687**
+*Remove Contrary Ability*
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Hisuian-Braviary #7816**
+*Get Tinted Lens Ability*
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Metronome`
+Moves: `Stored-Power` `Psychic-Terrain` `Roost`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Hisuian-Braviary**.
+- With **Hisuian-Braviary**, use `Psychic-Terrain then spam `Stored-Power`, and use `Roost` to heal. Reapply `Psychic-Terrain` every 5 turns."""
 
     gengar = f"""**TEAM:**
 - **Latios #381**
@@ -595,7 +620,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - Use Simple-Beam with **Latios** to change Gengar's ability to Simple, then use `Memento`.
 - Use 3x Aux Powerguard.
 - With **Umbreon** use 3x `Captivate`, 3x `Fake-Tears`, 2x `Focus-Energy`then `Baton-Pass` to **Mega Mewtwo Y**.
-- With **Mega Mewtwo Y**, spam `Store Power`, and use Max Potions to heal."""
+- With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
 
     necorzma_ultra = f"""**TEAM:**
 - **Mew #151**
@@ -619,7 +644,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,  then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
-- With **Necrozma-Ultra**, spam `Store Power`, and use Max Potions to heal."""
+- With **Necrozma-Ultra**, spam `Stored-Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
 - **Mew #151**
