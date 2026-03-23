@@ -60,6 +60,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`;B NPC BF`** Challenge NPCs in Battle Frontier
 
 **STRAYDEX COMMANDS:**
+- **`!BFDOM`**  Battle Dome Guide
 - **`!BFARE`**  Battle Arena Guide
 - **`!BFPAL`**  Battle Palace Guide
 - **`!BFPIK`**  Battle Pike Guide

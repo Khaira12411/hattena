@@ -213,7 +213,7 @@ for sub in safari_zone_sub:
         }
 
 # Battle Frontier AR
-battle_frontier_sub = ["pal", "are", "tow", "pik"]
+battle_frontier_sub = ["pal", "are", "tow", "pik", "dom"]
 for sub in battle_frontier_sub:
     straydex_ar["bf"][sub] = {
         "sub_cmd": sub,

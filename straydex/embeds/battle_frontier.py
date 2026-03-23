@@ -9,6 +9,7 @@ abbrv_map = {
     "are": "arena",
     "tow": "tower",
     "pik": "pike",
+    "dom": "dome",
 }
 
 
