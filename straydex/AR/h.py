@@ -229,8 +229,7 @@ po_sub_no_buttons = [
     "kyo",
     "nic",
     "gar",
-    "sup" ,
-
+    "sup",
 ]
 po_sub_w_buttons = [
     "nec",
@@ -374,7 +373,7 @@ for boss in wb_bosses:
     else:
         straydex_ar["wb"][boss] = {
             "function": build_sd_wb_embed,
-    }
+        }
 # Achievement AR
 ac_sub = ["bat", "cat", "dex", "fis", "gen", "ite", "res"]
 for sub in ac_sub:
@@ -554,7 +553,7 @@ it_sub = [
     "icestone",
     "leafstone",
     "moonstone",
-    "opalstone",
+    "ovalstone",
     "shinystone",
     "sunstone",
     "thunderstone",
@@ -609,7 +608,6 @@ it_sub = [
     "weaknesspolicy",
     "shellbell",
     "blunderpolicy",
-
 ]
 
 for sub in it_sub:

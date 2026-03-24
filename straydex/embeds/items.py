@@ -18,14 +18,30 @@ CANT_BE_HELD_ITEM_LIST = [
     "pokeradar",
     "scubagear",
 ]
+EVOLUTION_ITEM_LIST = {
+    "dawnstone": "dawn_stone",
+    "duskstone": "dusk_stone",
+    "firestone": "fire_stone",
+    "icestone": "ice_stone",
+    "leafstone": "leaf_stone",
+    "moonstone": "moon_stone",
+    "opalstone": "opal_stone",
+    "shinystone": "shiny_stone",
+    "sunstone": "sun_stone",
+    "thunderstone": "thunder_stone",
+    "waterstone": "water_stone",
+}
 
 
 def add_can_be_held_info(text: str, item_name: str) -> str:
     """Appends a note about the item being holdable if not already present."""
-    held_line = f"- ✅ Yes\n- `;team give {item_name} <mon>`"
-
     if "**CAN BE HELD BY POKEMON?**" not in text:
         if item_name not in CANT_BE_HELD_ITEM_LIST:
+            if item_name in EVOLUTION_ITEM_LIST:
+                evo_item = EVOLUTION_ITEM_LIST[item_name]
+                held_line = f"- ✅ Yes\n- `;team give {evo_item} <mon>`"
+            else:
+                held_line = f"- ✅ Yes\n- `;team give {item_name} <mon>`"
             text += f"\n\n**CAN BE HELD BY POKEMON?**\n{held_line}"
         else:
             text += "\n\n**CAN BE HELD BY POKEMON?**\n- ❌ No"
@@ -177,15 +193,22 @@ class ItemListView(View):
 
     # ───────────── Buttons ─────────────
     @discord.ui.button(
-        label="General", style=discord.ButtonStyle.secondary, disabled=True, emoji=Emojis.general
+        label="General",
+        style=discord.ButtonStyle.secondary,
+        disabled=True,
+        emoji=Emojis.general,
     )
     async def general_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "General")
 
-    @discord.ui.button(label="Battle", style=discord.ButtonStyle.secondary, emoji=Emojis.battle)
+    @discord.ui.button(
+        label="Battle", style=discord.ButtonStyle.secondary, emoji=Emojis.battle
+    )
     async def battle_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Battle")
 
-    @discord.ui.button(label="Evolution", style=discord.ButtonStyle.secondary, emoji=Emojis.evolution)
+    @discord.ui.button(
+        label="Evolution", style=discord.ButtonStyle.secondary, emoji=Emojis.evolution
+    )
     async def evolution_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Evolution")

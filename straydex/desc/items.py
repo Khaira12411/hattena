@@ -162,7 +162,7 @@ class SD_EVOI_DESC:
 - `Skitty to Delcatty`
 - `Munna to Musharna`"""
 
-    opalstone = f"""# OPAL STONE
+    ovalstone = f"""# OVAL STONE
 **METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
@@ -323,7 +323,7 @@ class SD_EVOI_IMAGE:
 
     moonstone = "https://media.discordapp.net/attachments/1383053804529778720/1383109964746461224/75ed1767f01120db98815c4757bb0f63881a408cfaf444a3ce67477dbbd3f980.png?ex=689b6188&is=689a1008&hm=ebb5593ffa2caa7c2d66c19136eae8f50eac51f53d7a1f22d39450994316554a&=&format=webp&quality=lossless&width=144&height=136"
 
-    opalstone = "https://media.discordapp.net/attachments/1383053804529778720/1383110778982498366/dfcf05e1cca071f7e555d526b6a0ffa0cbfd198c670b2d9175f1c7b77d2aa2fd.png?ex=689b624a&is=689a10ca&hm=00a1bb20544c63dbe43bc1a6d7c5653cbb0c0e989548cabee8db36c8278395c6&=&format=webp&quality=lossless&width=140&height=144"
+    ovalstone = "https://media.discordapp.net/attachments/1383053804529778720/1383110778982498366/dfcf05e1cca071f7e555d526b6a0ffa0cbfd198c670b2d9175f1c7b77d2aa2fd.png?ex=689b624a&is=689a10ca&hm=00a1bb20544c63dbe43bc1a6d7c5653cbb0c0e989548cabee8db36c8278395c6&=&format=webp&quality=lossless&width=140&height=144"
 
     shinystone = "https://media.discordapp.net/attachments/1383053804529778720/1383111067881705583/bd24672cd43e29fa9d7bacebe2def4162b6c9b93e2defb273ccb1317e1751884.png?ex=689b628f&is=689a110f&hm=e852287af90d385880b04e10ccc71122b98a5d3b076c884fa15d40ab5749aae2&=&format=webp&quality=lossless&width=144&height=141"
 
@@ -426,7 +426,7 @@ class SD_IT_IMAGES:
 
     moonstone = "https://media.discordapp.net/attachments/1383053804529778720/1383109964746461224/75ed1767f01120db98815c4757bb0f63881a408cfaf444a3ce67477dbbd3f980.png?ex=689b6188&is=689a1008&hm=ebb5593ffa2caa7c2d66c19136eae8f50eac51f53d7a1f22d39450994316554a&=&format=webp&quality=lossless&width=144&height=136"
 
-    opalstone = "https://media.discordapp.net/attachments/1383053804529778720/1383110778982498366/dfcf05e1cca071f7e555d526b6a0ffa0cbfd198c670b2d9175f1c7b77d2aa2fd.png?ex=689b624a&is=689a10ca&hm=00a1bb20544c63dbe43bc1a6d7c5653cbb0c0e989548cabee8db36c8278395c6&=&format=webp&quality=lossless&width=140&height=144"
+    ovalstone = "https://media.discordapp.net/attachments/1383053804529778720/1383110778982498366/dfcf05e1cca071f7e555d526b6a0ffa0cbfd198c670b2d9175f1c7b77d2aa2fd.png?ex=689b624a&is=689a10ca&hm=00a1bb20544c63dbe43bc1a6d7c5653cbb0c0e989548cabee8db36c8278395c6&=&format=webp&quality=lossless&width=140&height=144"
 
     shinystone = "https://media.discordapp.net/attachments/1383053804529778720/1383111067881705583/bd24672cd43e29fa9d7bacebe2def4162b6c9b93e2defb273ccb1317e1751884.png?ex=689b628f&is=689a110f&hm=e852287af90d385880b04e10ccc71122b98a5d3b076c884fa15d40ab5749aae2&=&format=webp&quality=lossless&width=144&height=141"
 
@@ -726,7 +726,7 @@ class SD_IT:
 - `Skitty to Delcatty`
 - `Munna to Musharna`"""
 
-    opalstone = f"""# OPAL STONE
+    ovalstone = f"""# OVAL STONE
 **METHOD TO OBTAIN:**
 - 14% chance upon receiving any quest (approx. 1/79 for a specific stone)
 
@@ -1947,7 +1947,7 @@ class SD_IT:
 - `;team give toxicorb <mon>`"""
 
     # Battle Frontier Items
-    lumberry =f"""# LUM BERRY
+    lumberry = f"""# LUM BERRY
 **INFO:**
 - Automatically cures any major status condition or confusion. Single use.
 

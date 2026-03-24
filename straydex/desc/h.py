@@ -317,7 +317,7 @@ Members can show off their collections in <#1298114332583788597>
 - !icestone
 - !leafstone
 - !moonstone
-- !opalstone
+- !ovalstone
 - !shinystone
 - !sunstone
 - !thunderstone
@@ -607,7 +607,7 @@ Server Owner: <@952071312124313611>
 - !icestone
 - !leafstone
 - !moonstone
-- !opalstone
+- !ovalstone
 - !shinystone
 - !sunstone
 - !thunderstone
