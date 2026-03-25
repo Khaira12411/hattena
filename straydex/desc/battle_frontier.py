@@ -126,6 +126,7 @@ class BF_DESC:
 
 **TEAM:**
 - **Sableye #302**
+> Ability: `Prankster`
 > Nature: `Bold +Def, -Atk`
 > Moves: `Thief` `Light-Screen` `Moonlight` `Reflect`
 > EVs: `HP 252` `DEF 128` `SPD 128`
