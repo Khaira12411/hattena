@@ -215,10 +215,16 @@ for sub in safari_zone_sub:
 # Battle Frontier AR
 battle_frontier_sub = ["pal", "are", "tow", "pik", "dom", "pyr"]
 for sub in battle_frontier_sub:
-    straydex_ar["bf"][sub] = {
-        "sub_cmd": sub,
-        "function": build_sd_bf_main_info_embed,
-    }
+    if sub == "pyr":
+        straydex_ar["bf"][sub] = {
+            "sub_cmd": sub,
+            "function": build_sd_main_pyramid_info_embed,
+        }
+    else:
+        straydex_ar["bf"][sub] = {
+                "sub_cmd": sub,
+                "function": build_sd_bf_main_info_embed,
+            }
 
 # Pokemon AR
 po_sub_no_buttons = [

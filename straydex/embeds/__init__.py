@@ -13,4 +13,4 @@ from .safarizone import build_sd_sz_main_info_embed, build_sd_sz_secrets_main_em
 from .tcg import build_sd_tcg_main_info_embed, build_sd_tcg_info_embed
 from .powerstation import build_sd_ps_main_info_embed, build_sd_ps_info_embed, build_sd_ps_main_strat_embed
 from .rps import build_sd_rps_main_info_embed
-from .battle_frontier import build_sd_bf_main_info_embed
+from .battle_frontier import build_sd_bf_main_info_embed, build_sd_main_pyramid_info_embed

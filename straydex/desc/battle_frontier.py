@@ -167,6 +167,32 @@ class BF_DESC:
 
 {Emojis.star} **Credits to:** Yuki for this team."""
 
+    pyramid_2 = f"""# BATTLE PYRAMID ITEM GUIDE
+**HEALING ITEMS:**
+- **Hyper Potion** - Restores 200 HP to one Pokémon.
+- **Full Restore** - Fully restores one Pokémon's HP and cures it of any status conditions.
+- **Revive** - Revives one fainted Pokémon with half of its maximum HP.
+- **Max Revive** - Revives one fainted Pokémon with full HP.
+- **Sacred Ash** - Revives all fainted Pokémon in the party with full HP and cures them of any status conditions.
+
+**SINGLE USE BERRIES:**
+- **Sitrus Berry** - Restores 25% of the holder's maximum HP when its HP drops below 50%.
+- **Lum Berry** - Cures the holder of any status condition when it is inflicted.
+- **Pecha Berry** - Cures the holder of poison status.
+- **Cheri Berry** - Cures the holder of paralysis status.
+- **Chesto Berry** - Cures the holder of sleep status.
+- **Rawst Berry** - Cures the holder of burn status.
+
+**STAT ITEMS:**
+- **Guard Spec** - Prevents stat reductions for 5 turns.
+- **X Attack** - Raises the target Pokémon's Attack by 1 stage.
+- **X Defense** - Raises the target Pokémon's Defense by 1 stage.
+- **X Sp. Atk** - Raises the target Pokémon's Special Attack by 1 stage.
+- **X Sp. Def** - Raises the target Pokémon's Special Defense by 1 stage.
+- **X Speed** - Raises the target Pokémon's Speed by 1 stage.
+- **Dire Hit** - Raises the target Pokémon's critical hit ratio by 1.
+"""
+
     arena = f"""# BATTLE ARENA GUIDE
 **MILESTONES:**
 - <:silver_guts_symbol:1485092097173491925> **Silver Symbol:** Round 4, Battle 7
