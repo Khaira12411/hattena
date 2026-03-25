@@ -137,7 +137,7 @@ class BF_DESC:
 > IVs: `HP 13` `DEF 13` `SPD 13`
 - **Latias #380**
 > Nature: `Modest +SpA, -Atk`
-> Moves: `Stored-Power` `Calm-Mind` `Aura-Sphere` `Recover`
+> Moves: `Stored-Power` `Shadow-Ball` `Aura-Sphere` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 > IVs: `HP 13` `DEF 13` `SPD 13` `SPA 13`
 
@@ -154,15 +154,15 @@ class BF_DESC:
   - Heal with Moonlight if necessary.
   - Baton Pass the boosts to Latias.
 - **Latias**
-  - Set up with six Calm Mind boosts.
   - Attack with Stored Power unless the opponent is a Dark type, in which case use Aura Sphere.
-  - Use Recover to stay healthy during setup or prolonged battles.
+  - Use Recover to heal.
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - Pay attention to Hex Maniac’s hints before choosing a path.
 - Use Lum Berries to cure status conditions.
 - If you see Ditto as the lead in battle, switch to Clefable in case it uses Transform, and start your usual setup.
+- Use X Items to boost stats and, to free up space on your bag.
 - Recommended Items for Sableye are Leftovers or Sitrus Berry, for Clefable is Leftovers, and for Latias is Leftovers or Shell Bell.
 
 {Emojis.star} **Credits to:** Yuki for this team."""
@@ -191,6 +191,9 @@ class BF_DESC:
 - **X Sp. Def** - Raises the target Pokémon's Special Defense by 1 stage.
 - **X Speed** - Raises the target Pokémon's Speed by 1 stage.
 - **Dire Hit** - Raises the target Pokémon's critical hit ratio by 1.
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Healing and stat items can only be used during battle, and using them may leave your Pokémon vulnerable to the opponent’s attacks. Use them when your Pokémon still has a decent amount of HP.
 """
 
     arena = f"""# BATTLE ARENA GUIDE
