@@ -1,17 +1,20 @@
 from constants.aesthetic import *
 class BF_THUMBNAIL:
+    pyramid = "https://media.discordapp.net/attachments/1484878359929557174/1486167767206989824/pyramid_king_brandon.png?ex=69c48517&is=69c33397&hm=d59282848784745787111102bbb128899becff3f10bc91214b19f77df7fcbd5c&=&format=webp&quality=lossless"
     dome = "https://media.discordapp.net/attachments/1484878359929557174/1485446324156629214/dome_ace_tucker.png?ex=69c1e531&is=69c093b1&hm=e83315d20a2a120ffd7288e016147c23c988976b63baae1cf8d0cf8d7c93c95a&=&format=webp&quality=lossless"
     pike = "https://media.discordapp.net/attachments/1484878359929557174/1485419725700989058/pike_queen_lucy.png?ex=69c1cc6c&is=69c07aec&hm=f3f6eaaf7d4fd3577e06620a470ccc5971a5108e9e2ee354f1f7747d294b318d&=&format=webp&quality=lossless"
     tower = "https://media.discordapp.net/attachments/1484878359929557174/1485249092425879582/salon_maiden_anabel.png?ex=69c12d82&is=69bfdc02&hm=d353d8e85b614898a2b112a6dd6f42b9f5cd00225278d02d62110149e5adf7cd&=&format=webp&quality=lossless"
     palace = "https://media.discordapp.net/attachments/1484878359929557174/1484901318631096430/palace_maven_spenser.png?ex=69bfe99e&is=69be981e&hm=2d9de5f1f6b3ffe341e86d42309c0bbafe1c1cd90ada9a37fb87860105bf389f&=&format=webp&quality=lossless"
     arena = "https://media.discordapp.net/attachments/1484878359929557174/1485101559300886618/arena_tycoon_greta.png?ex=69c0a41b&is=69bf529b&hm=40841088b674957363aa438db2b2621d6612ba02d8062c00ef54b6bc043a1df1&=&format=webp&quality=lossless"
 class BF_IMAGE_URL:
+    pyramid = "https://media.discordapp.net/attachments/1358029599463968798/1486171030983671858/UBG01_21.png?ex=69c48821&is=69c336a1&hm=207741528c7d54c68da39c84ae550d3752edf75033f3b56e1a6243311b9ac90d&=&format=webp&quality=lossless"
     dome = "https://media.discordapp.net/attachments/1358029599463968798/1485455523888365578/UBG01_20.png?ex=69c1edc3&is=69c09c43&hm=0de27c41d86738da06b84cfef64f41792287b7c7f9cc92ebb5dfec33f8b8a11f&=&format=webp&quality=lossless"
     pike = "https://media.discordapp.net/attachments/1358029599463968798/1485441972297793596/UBG01_19.png?ex=69c1e124&is=69c08fa4&hm=3da9357eb9b52da2133bc56ba0b11cb2b1da4c43bdc97a30df07b64c5a496eac&=&format=webp&quality=lossless"
     palace = "https://media.discordapp.net/attachments/1358029599463968798/1484886376854982787/UBG01_14_1.png?ex=69bfdbb4&is=69be8a34&hm=7ccb2ae30a445d94143e739333cac3287f6370fd5daa03200aca5a55ebcd3f6f&=&format=webp&quality=lossless"
     arena = "https://media.discordapp.net/attachments/1358029599463968798/1485089744504492162/UBG01_17.png?ex=69c0991a&is=69bf479a&hm=5351ab1e580e0a5fa1323ecddbe3458d178d4529dfe02651e626ab60663ca710&=&format=webp&quality=lossless"
     tower = " https://media.discordapp.net/attachments/1358029599463968798/1485252925000253593/UBG01_18.png?ex=69c13113&is=69bfdf93&hm=f0af25164bcbb1254dbeec4f4d9a6183666291b89d5cf2985f74866a5b3cde3b&=&format=webp&quality=lossless"
 class BF_AUTHOR_IMAGE_URL:
+    pyramid = "https://media.discordapp.net/attachments/1484878359929557174/1486167766296956948/1480698196924698804.png?ex=69c48517&is=69c33397&hm=0d21b7029fe7328cb036cff34b9012aaa9e3f9e9f7c748fe7e894f80e69cd092&=&format=webp&quality=lossless"
     dome = "https://media.discordapp.net/attachments/1484878359929557174/1485446323871154256/1480698207313985677.png?ex=69c1e531&is=69c093b1&hm=96fa5099362fe49fa5c229962bd6670f35492ee6f405f5c77ce59e4d638d18bf&=&format=webp&quality=lossless"
     pike = "https://media.discordapp.net/attachments/1484878359929557174/1485419726078345319/1480698198640168991.png?ex=69c1cc6c&is=69c07aec&hm=1426b6cc4894e7ef88a82ae567698b780a8110bdfaca3cef24be7a7161aaf9f3&=&format=webp&quality=lossless"
     tower = "https://media.discordapp.net/attachments/1484878359929557174/1485249092102656093/1480696620835410183.png?ex=69c12d82&is=69bfdc02&hm=1d1f59c2b8595f5b6e5dbd7864b04e2cf45744d1e566d6093aa9e26acd7ba91c&=&format=webp&quality=lossless"
@@ -112,6 +115,56 @@ class BF_DESC:
 - If Metagross dies switch to Salamence, if Salamence dies switch to Swampert.
 
 {Emojis.star} **Credits to:** Ramsay and arandomcat for this team."""
+
+    pyramid = f"""# BATTLE PYRAMID GUIDE
+**MILESTONES:**
+- <:silver_brave_symbol:1486168407408775188> **Silver Symbol:** Round 3, Battle 7
+- <:gold_brave_symbol:1486168403847811174> **Gold Symbol:** Round 10, Battle 7
+
+**EXTRA ITEM REWARD FOR GOLD SYMBOL:**
+- **1x <:weakness_policy:1486168401524031590> Weakness Policy** - Sharply raises the holder's Attack and Sp. Atk when it is hit by a super-effective move. Single use.
+
+**TEAM:**
+- **Sableye #302**
+> Nature: `Bold +Def, -Atk`
+> Moves: `Thief` `Light-Screen` `Moonlight` `Reflect`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+> IVs: `HP 13` `DEF 13` `SPD 13`
+- **Clefable #36**
+> Nature: `Bold +Def, -Atk`
+> Moves: `Minimize` `Cosmic-Power` `Moonlight` `Baton-Pass`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+> IVs: `HP 13` `DEF 13` `SPD 13`
+- **Latias #380**
+> Nature: `Modest +SpA, -Atk`
+> Moves: `Stored-Power` `Calm-Mind` `Aura-Sphere` `Recover`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+> IVs: `HP 13` `DEF 13` `SPD 13` `SPA 13`
+
+**STRATEGY:**
+- **Sableye**
+  - Use Reflect against physical attackers, or Light Screen against special attackers.
+  - Heal with Moonlight afterwards..
+  - Use Thief only if Sableye is not holding an item and you want to steal one from the opponent.
+  - Keep Sableye above 80 HP before switching to Clefable.
+- **Clefable**
+  - Begin with Minimize.
+  - Stack Cosmic Power six times.
+  - Follow with two more Minimize uses.
+  - Heal with Moonlight if necessary.
+  - Baton Pass the boosts to Latias.
+- **Latias**
+  - Set up with six Calm Mind boosts.
+  - Attack with Stored Power unless the opponent is a Dark type, in which case use Aura Sphere.
+  - Use Recover to stay healthy during setup or prolonged battles.
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
+- Pay attention to Hex Maniac’s hints before choosing a path.
+- Use Lum Berries to cure status conditions.
+- Recommended Items for Sableye are Leftovers or Sitrus Berry, for Clefable is Leftovers, and for Latias is Leftovers or Shell Bell.
+
+{Emojis.star} **Credits to:** Yuki for this team."""
 
     arena = f"""# BATTLE ARENA GUIDE
 **MILESTONES:**

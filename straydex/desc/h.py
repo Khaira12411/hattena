@@ -64,6 +64,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!BFARE`**  Battle Arena Guide
 - **`!BFPAL`**  Battle Palace Guide
 - **`!BFPIK`**  Battle Pike Guide
+- **`!BFPYR`**  Battle Pyramid Guide
 - **`!BFTOW`**  Battle Tower Guide"""
 
     co = """# STRAYDEX: COLLECTION

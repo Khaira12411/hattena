@@ -10,6 +10,7 @@ abbrv_map = {
     "tow": "tower",
     "pik": "pike",
     "dom": "dome",
+    "pyr": "pyramid",
 }
 
 
