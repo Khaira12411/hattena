@@ -162,6 +162,7 @@ class BF_DESC:
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - Pay attention to Hex Maniac’s hints before choosing a path.
 - Use Lum Berries to cure status conditions.
+- If you see Ditto as the lead in battle, switch to Clefable in case it uses Transform, and start your usual setup.
 - Recommended Items for Sableye are Leftovers or Sitrus Berry, for Clefable is Leftovers, and for Latias is Leftovers or Shell Bell.
 
 {Emojis.star} **Credits to:** Yuki for this team."""

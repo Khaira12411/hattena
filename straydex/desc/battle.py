@@ -135,6 +135,8 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 - [Shedinja] Use Heal-Block when Gyarados/Mewtwo first enters
 - [Shedinja] Spam Shadow-Claw till Gyarados/Mewtwo dies"""
 
+    cet = f"""# CHALLENGER ENEMY TEAMS:"""
+
     cse = f"""# CHALLENGER BASIC & BOSS
 **COMMAND:**  `;b npc 200`to `;b npc 210`
 **REQ:** *Receive a Basic or Boss battle invitation.*
