@@ -882,26 +882,33 @@ __Or__
     mmy = f"""**TEAM:**
 - **Golden Zacian #9888**
 > Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+> Moves: `Noble-Roar` `Crunch` `Sacred-Sword`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **GMAX-Corviknight #7184**
 > Equip: `Leftovers`
 > Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
 > EVs: `HP 252` `SPD 252` `DEF 4`
-- **Golden Mewtwo #9150**
-> Equip: `Warmups: Choice-Scarf` `Finals: Assault_Vest`
-> Moves: `Zap-Cannon` `Bulldoze` `Self-Destruct` `Icy-Wind`
+- **Mewtwo #150**
+> Equip: `Choice-Scarf`
+> Moves: `Will-O-Wisp` `Thunder-Wave` `Gravity`
 > EVs: `HP 252` `DEF 128` `SPD 128`
+> IVs: `atleast 12 each stat`
 
 **STRATEGY:**
-- [Mewtwo] (Finals Only) Put Mewtwo in 1st Slot, Icy wind until it dies
 - [Zacian] Noble-Roar -6 or until it dies
+- [Mewtwo] Thunder-Wave/Gravity/Will-O-Wisp
 - [Corvi] Bulk-Up +6
 - [Corvi] Max-Quake +6
 - [Corvi] Power-Trip spam
 - [Corvi] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Fire with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:***
+- If enemy is a flying type or has the Levitate ability, after doing Noble-Roar with Zacian, switch to Mewtwo and use Gravity then switch to Corviknight and do max-quake should be able to get it atleast 3+ sp def then do 6x Bulk-Up, spam Power-Trip.
+- If against Solgaleo lead, use sacred-sword with Zacian then Will-O-Wisp with Mewtwo to burn it then the usual setup with Corviknight.
+- If against Deoxys Attack, use Will-O-Wisp with Mewtwo before setting up with Corviknight
+- Use Will-O-Wisp against hoopa-unbound,  if it uses rest try to do bulk-up if just in case it uses focus punch then proceed to finishing your setup.
+- In finals, use thunder-wave against MMY after Zacian debuff, for Lugia refer to the first note.
+"""
 
     pid = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -1891,8 +1898,8 @@ class SD_MC_DEX_NUM:
     maw = 7055  # mawile
     med = 7079  # medicham
     met = 7136  # metagross
-    mmx = 7109  # mewtwo x
-    mmy = 7121  # mewtwo y
+    mmx = 7109  # Mewtwo x
+    mmy = 7121  # Mewtwo y
     pid = 7037  # pidgeot
     pin = 7085  # pinsir
     ray = 7118  # rayquaza (update if different)
@@ -1970,8 +1977,8 @@ class SD_MC_GOLD_THUMBNAIL:
 
     met = None
 
-    mmx = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_x
-    mmy = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_y
+    mmx = GOLDEN_MEGA_POKEMON_URL.mega_Mewtwo_x
+    mmy = GOLDEN_MEGA_POKEMON_URL.mega_Mewtwo_y
     pid = None
 
     pin = None
@@ -2026,8 +2033,8 @@ class SD_MC_WHOLE_NAME:
     maw = "mawile"
     med = "medicham"
     met = "metagross"
-    mmx = "mewtwo"
-    mmy = "mewtwo"
+    mmx = "Mewtwo"
+    mmy = "Mewtwo"
     pid = "pidgeot"
     pin = "pinsir"
     ray = "rayquaza"

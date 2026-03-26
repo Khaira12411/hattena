@@ -83,6 +83,9 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **COMMAND:**  `;b npc 206`
 **REQ:** *Receive a battle invitation from Trainer Jessie.*
 
+**ENEMY TEAM:**
+- **Seviper #336**, **Yanmega #469**, **Shiny Arbok #1024**
+
 **TEAM:**
 - **Mewtwo #150**
 > Moves: `Psychic`
@@ -99,6 +102,9 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
     cbo = f"""# CHALLENGER BOSS: GIOVANNI
 **COMMAND:**  `;b npc 200`
 **REQ:** *Defeat all Kanto NPCs (first 13 NPCs) and receive a Boss Giovanni battle invitation.*
+
+**ENEMY TEAM:**
+- **Nidoking #34**, **Rhyperior #464**, **Shiny Mewtwo #1150**
 
 **TEAM:**
 - **Mewtwo #150**
@@ -122,6 +128,9 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
 **REQ:** *Defeat all 78 NPCs and receive a Professor Oak battle invitation.*
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618316129865769)
 
+**ENEMY TEAM:**
+- **Golden Venusaur #9003**, **Golden Gyarados #9130**, **Golden Mewtwo #9150**
+
 **TEAM:**
 - **Shedinja #292**
 > Ability: `Wonder Guard`
@@ -140,6 +149,9 @@ A battle icon is the sprite next to your name in `;stats` or when you are catchi
     cse = f"""# CHALLENGER BASIC & BOSS
 **COMMAND:**  `;b npc 200`to `;b npc 210`
 **REQ:** *Receive a Basic or Boss battle invitation.*
+
+**ENEMY TEAM:**
+- **Aggron #306**, **Armaldo #348**, **Metagross #376**
 
 **TEAM:**
 - **Dugtrio #51**
@@ -230,6 +242,9 @@ __**2nd Position**__
 **COMMAND:**  `;b npc 207`
 **REQ:** *Receive a battle invitation from Trainer James.*
 
+**ENEMY TEAM:**
+- **Victreebel #71**, **Carnivine #455**, **Shiny Weezing #1110**
+
 **TEAM:**
 - **Mewtwo #150**
 > Moves: `Psychic`
@@ -246,6 +261,9 @@ __**2nd Position**__
     cbo2 = f"""# CHALLENGER BOSS: MAXIE
 **COMMAND:**  `;b npc 201`
 **REQ:** *Defeat all Kanto, Johto and Hoenn NPCs (first 39 NPCs) and receive a Boss Maxie battle invitation.*
+
+**ENEMY TEAM:**
+- **Mightyena #262**, **Crobat #169**, **Shiny Groundon #1383**
 
 **TEAM:**
 - **Xerneas #716**
@@ -267,6 +285,9 @@ __**2nd Position**__
 **COMMAND:**  `;b npc 998`
 **REQ:** *Defeat all 78 NPCs and receive a Cipher Head Evice battle invitation.*
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1269618386053365770)
+
+**ENEMY TEAM:**
+- **Golden Tyranitar #9248**, **Golden Salamence #9373** , **Golden Slaking #9289**
 
 **TEAM:**
 - **Hawlucha #701**
@@ -296,6 +317,9 @@ __**2nd Position**__
 # CHALLENGER MASTER: PROFESSOR OAK
 **COMMAND:**  `;b npc 904`
 **REQ:** *Defeat all 78 NPCs and receive a Professor Oak battle invitation.*
+
+**ENEMY TEAM:**
+- **Golden Venusaur #9003**, **Golden Gyarados #9130**, **Golden Mewtwo #9150**
 
 **TEAM:**
 - **Corviknight #823**
@@ -382,6 +406,9 @@ OR
 **COMMAND:**  `;b npc 208`
 **REQ:** *Receive a battle invitation from Trainer Wes.*
 
+**ENEMY TEAM:**
+- **Espeon #196**, **Umbreon #197**, **Shiny Ho-oh #1250**
+
 **TEAM:**
 - **Yveltal #717**
 > Moves: `Sucker-Punch` `Rock-Slide`
@@ -401,6 +428,9 @@ or
     cbo3 = f"""# CHALLENGER BOSS: ARCHIE
 **COMMAND:**  `;b npc 202`
 **REQ:** *Defeat all Kanto, Johto and Hoenn NPCs (first 39 NPCs) and receive a Boss Archie battle invitation.*
+
+**ENEMY TEAM:**
+- **Mightyena #262**, **Muk #89**, **Shiny Kyogre #1382**
 
 **TEAM:**
 - **Xerneas #716**
@@ -422,6 +452,9 @@ or
 **COMMAND:**  `;b npc 999`
 **REQ:** *Defeat all 78 NPCs and receive a Mystery Trainer battle invitation.*
 **OS STRAT LINK:** [Link](https://discord.com/channels/664509279251726363/775663491385131009/1355279147156635778)
+
+**ENEMY TEAM:**
+- **Golden Darkrai #9491**, **Golden Latios #381** , **Golden Kyogre #9382**
 
 **TEAM:**
 - **Sneasel #215**
@@ -450,6 +483,9 @@ or
     cse3 = f"""# CHALLENGER MASTER: CIPHER HEAD EVICE
 **COMMAND:**  `;b npc 998`
 **REQ:** *Defeat all 78 NPCs and receive a Cipher Head Evice battle invitation.*
+
+**ENEMY TEAM:**
+- **Golden Tyranitar #9248**, **Golden Salamence #9373** , **Golden Slaking #9289**
 
 **TEAM:**
 __**1st Position**__
@@ -560,6 +596,9 @@ __OR__
 **COMMAND:**  `;b npc 209`
 **REQ:** *Receive a battle invitation from Trainer Red.*
 
+**ENEMY TEAM:**
+- **Venusaur #3**, **Charizard #6**, **Blastoise #9**
+
 **TEAM:**
 - **Yveltal #717**
 > Moves: `Oblivion-Wing` `Rock-Slide`
@@ -580,6 +619,9 @@ or
     cbo4 = f"""# CHALLENGER BOSS: CYRUS
 **COMMAND:**  `;b npc 203`
 **REQ:** *Defeat all Kanto, Johto, Hoenn and Sinnoh NPCs (first 52 NPCs) and receive a Boss Cyrus battle invitation.*
+
+**ENEMY TEAM:**
+- **Houndoom #229**, **Weavile #461**, **Shiny Dialga #1483**
 
 **TEAM:**
 - **Regigigas**
@@ -607,6 +649,9 @@ or
     cse4 = f"""# CHALLENGER MASTER: MYSTERY TRAINER
 **COMMAND:**  `;b npc 999`
 **REQ:** *Defeat all 78 NPCs and receive a Mystery Trainer battle invitation.*
+
+**ENEMY TEAM:**
+- **Golden Darkrai #9491**, **Golden Latios #381** , **Golden Kyogre #9382**
 
 **TEAM:**
 __**1st Position**__
@@ -681,6 +726,9 @@ __**2nd Position**__
 **COMMAND:**  `;b npc 210`
 **REQ:** *Receive a battle invitation from Trainer Steven.*
 
+**ENEMY TEAM:**
+- **Aggron #306**, **Armaldo #348**, **Metagross #376**
+
 **TEAM:**
 - **Kyogre #382**
 > Equip: `Mystic_Water`
@@ -704,6 +752,9 @@ or
 **COMMAND:**  `;b npc 204`
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh and Unova NPCs (first 65 NPCs) and receive a Boss Ghetsis battle invitation.*
 
+**ENEMY TEAM:**
+- **Bisharp #625**, **Hydreigon #635**, **Shiny Reshiram #1643**
+
 **TEAM:**
 - **Xerneas #716**
 > Moves: `Close-Combat` `Moonblast`
@@ -723,6 +774,9 @@ or
     cma5 = f"""# CHALLENGER BOSS: GHETSIS
 **COMMAND:**  `;b npc 204`
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh and Unova NPCs (first 65 NPCs) and receive a Boss Ghetsis battle invitation.*
+
+**ENEMY TEAM:**
+- **Bisharp #625**, **Hydreigon #635**, **Shiny Reshiram #1643**
 
 **TEAM:**
 - **Xerneas #716**
@@ -767,6 +821,9 @@ __**2nd Position**__
     cbo6 = f"""# CHALLENGER BOSS: LYSANDRE
 **COMMAND:**  `;b npc 205`
 **REQ:** *Defeat all Kanto, Johto, Hoenn, Sinnoh, Unova and Kalos NPCs (all NPCs except NPC 78) and receive a Boss Lysandre battle invitation.*
+
+**ENEMY TEAM:**
+- **Pyroar #668**, **Gyarados #130**, **Shiny Yveltal #1717**
 
 **TEAM:**
 - **Kyogre #382**
