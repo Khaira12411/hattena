@@ -238,7 +238,7 @@ class BF_DESC:
 > Equip: `Choice_Cloak`
 > Moves: `Iron-Head` `Thunder-Punch` `Shadow-Claw` `Earthquake`
 - **Tyranitar #248**
-> Equip: `Assault_Vest`
+> Equip: `Life-Orb | Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
@@ -265,7 +265,7 @@ class BF_DESC:
 > Equip: `Choice_Band`
 > Moves: `Iron-Head` `Ice-Punch` `Thunder-Punch` `Earthquake`
 - **Tyranitar #248**
-> Equip: `Assault_Vest`
+> Equip: `Life-Orb | Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
