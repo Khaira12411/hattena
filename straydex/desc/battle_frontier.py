@@ -145,7 +145,7 @@ class BF_DESC:
 
 {Emojis.star} **Credits to:** Yuki for this team."""
 
-    pyramid_3 = f"""# BATTLE PYRAMID GUIDE
+    pyramid_2 = f"""# BATTLE PYRAMID GUIDE
 
 **STRATEGY:**
 - **Sableye**
