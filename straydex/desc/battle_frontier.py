@@ -138,7 +138,7 @@ class BF_DESC:
 > IVs: `HP 13` `DEF 13` `SPD 13`
 - **Latias #380**
 > Nature: `Modest +SpA, -Atk`
-> Moves: `Stored-Power` `Shadow-Ball` `Aura-Sphere` `Recover`
+> Moves: `Stored-Power` `Energy-Ball` `Aura-Sphere` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 > IVs: `HP 13` `DEF 13` `SPD 13` `SPA 13`
 
