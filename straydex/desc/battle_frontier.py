@@ -116,7 +116,7 @@ class BF_DESC:
 
 {Emojis.star} **Credits to:** Ramsay and arandomcat for this team."""
 
-    pyramid = f"""# BATTLE PYRAMID GUIDE
+    pyramid = f"""# BATTLE PYRAMID TEAM
 **MILESTONES:**
 - <:silver_brave_symbol:1486168407408775188> **Silver Symbol:** Round 3, Battle 7
 - <:gold_brave_symbol:1486168403847811174> **Gold Symbol:** Round 10, Battle 7
@@ -132,6 +132,7 @@ class BF_DESC:
 > EVs: `HP 252` `DEF 128` `SPD 128`
 > IVs: `HP 13` `DEF 13` `SPD 13`
 - **Clefable #36**
+> Ability: `Magic Guard`
 > Nature: `Bold +Def, -Atk`
 > Moves: `Minimize` `Cosmic-Power` `Moonlight` `Baton-Pass`
 > EVs: `HP 252` `DEF 128` `SPD 128`
@@ -141,6 +142,10 @@ class BF_DESC:
 > Moves: `Stored-Power` `Dragon-Pulse` `Aura-Sphere` `Recover`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 > IVs: `HP 13` `DEF 13` `SPD 13` `SPA 13`
+
+{Emojis.star} **Credits to:** Yuki for this team."""
+
+    pyramid_3 = f"""# BATTLE PYRAMID GUIDE
 
 **STRATEGY:**
 - **Sableye**
@@ -158,17 +163,41 @@ class BF_DESC:
   - Attack with Stored Power unless the opponent is a Dark type, in which case use Aura Sphere.
   - Use Recover to heal.
 
+**ENEMY AND MOVES TO WATCH OUT FOR:**
+- A. Stallers which take almost forever to kill:
+  - __Shuckle:__ Toxic + Attract + Double-Team + Subsitute
+- B. OHKO Move users:
+  - __Sheer Cold:__ Dewgong, Lapras, Sealeo, Walrein
+  - __Horn Drill:__ Dewgong
+  - __Fissure:__ Lapras, Walrein, Rhyhorn-line, Slowbro-line, Wailord, Piloswine, Wiscash
+- C. Run Enders:
+  - __Heracross:__ Megahorn + Earthquake
+  - __Metagross:__ Psych-Up + Swagger
+  - __Mukrow:__ Mean-Look + Perish-Song
+  - __Wobuffet:__ Shadow-tag ability + mirror coat + destiny bond + encore
+  - __Blissey/Wigglytuff/Clefairy:__ Attract, minimize, toxic, sing
+- D. Anti-Setup Users:
+  - __Ninetales/Skarmoory/Flareon/Zangoose:__ Roar
+  - __Solrock/Torkoal:__ Fire-Spin
+  - __Mudkip:__ Whirlpool
+  - __Onix:__ Bind
+  - __Steelix:__ Block
+  - __Koffing:__ Haze
+
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - Pay attention to Hex Maniac’s hints before choosing a path.
 - Use Lum Berries to cure status conditions.
-- If you see Ditto as the lead in battle, switch to Clefable in case it uses Transform, and start your usual setup.
 - Use X Items to boost stats and, to free up space on your bag.
 - Recommended Items for Sableye are Leftovers or Sitrus Berry, for Clefable is Leftovers, and for Latias is Leftovers or Shell Bell.
+- If your Clefable has Magic Guard, avoid curing it when it’s poisoned or burned, since those statuses won’t cause damage and will prevent it from being afflicted with another status condition.
+- If you see Ditto as the lead in battle, switch to Clefable in case it uses Transform, and start your usual setup.
+- Use Aura Sphere against Mons with +6 Evasion
+- For Anti-Setup Users, try to switch to Latias and kill them immediately before proceeding to usual setup.
+- For heavy hitters like Heracross, try to heal after each hit to ensure Clefable doesn’t faint while setting up."""
 
-{Emojis.star} **Credits to:** Yuki for this team."""
 
-    pyramid_2 = f"""# BATTLE PYRAMID ITEM GUIDE
+    pyramid_3 = f"""# BATTLE PYRAMID ITEM GUIDE
 **HEALING ITEMS:**
 - **Hyper Potion** - Restores 200 HP to one Pokémon.
 - **Full Restore** - Fully restores one Pokémon's HP and cures it of any status conditions.
