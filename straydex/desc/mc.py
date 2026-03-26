@@ -1977,8 +1977,8 @@ class SD_MC_GOLD_THUMBNAIL:
 
     met = None
 
-    mmx = GOLDEN_MEGA_POKEMON_URL.mega_Mewtwo_x
-    mmy = GOLDEN_MEGA_POKEMON_URL.mega_Mewtwo_y
+    mmx = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_x
+    mmy = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_y
     pid = None
 
     pin = None
