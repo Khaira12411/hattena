@@ -226,7 +226,7 @@ def get_pokemon_from_input(pokemon_input: str):
         return parse_normal_pokemon(dex_int, first_index, dex_count, is_digit)
 
     pretty_log(
-        "error",
+        "info",
         f"Unresolved Pokemon input: '{pokemon_input}'",
     )
     return None, None, None, None

@@ -5,6 +5,11 @@ import discord
 from utils.cache.cache_list import market_value_cache
 from utils.logs.pretty_log import pretty_log
 
+def get_pokemon_names_cache():
+    """
+    Get a list of all Pokémon names currently in the market value cache.
+    """
+    return list(market_value_cache.keys())
 
 # 💠────────────────────────────────────────────
 # [📜 UPDATE] Market Value Cache for a Pokémon

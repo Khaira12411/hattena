@@ -3,11 +3,12 @@ import re
 
 import discord
 from discord.ext import commands
-
+from constants.aesthetic import Emojis
 from constants.ask_hattena.overall import TOPICS
 from constants.straymons_constants import PREFIX
 from utils.functions.ability_moves_lookup import ability_moves_lookup
 from utils.functions.ask_hattena import match_topic
+from utils.functions.fuzzy_search import fuzzy_search
 from utils.listener_func.straydex_handler import straydex_command_handler
 from utils.logs.pretty_log import pretty_log
 
@@ -41,13 +42,40 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
 
         try:
             embed_result = build_weakness_embed_from_input(matched_pokemon)
-            if embed_result is None:
-                await message.reply(
-                    f"Could not find weakness information for '{matched_pokemon}'."
+            # Debug: Log the value and type of embed_result
+
+            if not embed_result or embed_result[0] is None:
+                # Try Fuzzy Search as a fallback
+                pretty_log(
+                    "info",
+                    f"Exact match not found for '{matched_pokemon}'. Attempting fuzzy search.",
+                    label="MentionListener",
                 )
+                fuzzy_result = fuzzy_search(matched_pokemon)
+                if fuzzy_result:
+                    pretty_log(
+                        "info",
+                        f"Fuzzy search found a match: '{fuzzy_result}' for input '{matched_pokemon}'. Attempting to build embed for fuzzy match.",
+                        label="MentionListener",
+                    )
+                    embed_result = build_weakness_embed_from_input(fuzzy_result)
+                    weakness_embed, _, _ = embed_result
+                    content = f"{Emojis.purple_magnifying_glass} Did you mean `{fuzzy_result.title()}`? Here's the weakness information for it:"
+                    await message.reply(content=content, embed=weakness_embed)
+                    if embed_result is None:
+                        pretty_log(
+                            "error",
+                            f"Even after fuzzy search, no embed could be built for '{fuzzy_result}'.",
+                            label="MentionListener",
+                        )
+                        await message.reply(
+                            f"Could not find weakness information for '{matched_pokemon}' or its closest match '{fuzzy_result}'."
+                        )
+                        return
             else:
                 weakness_embed, _, _ = embed_result
-                await message.reply(embed=weakness_embed)
+                if weakness_embed:
+                    await message.reply(embed=weakness_embed)
             return
         except Exception as e:
             pretty_log(
@@ -105,7 +133,9 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
             try:
                 await ability_moves_lookup(message, ability, move_list)
                 pretty_log(
-                    "debug", "Returned from ability_moves_lookup", label="MentionListener"
+                    "debug",
+                    "Returned from ability_moves_lookup",
+                    label="MentionListener",
                 )
             except Exception as e:
                 pretty_log(
@@ -117,4 +147,5 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
                 await message.reply(
                     f"Sorry, I had trouble looking up that ability and moves. Please make sure the format is correct and try again."
                 )
+            return
             return
