@@ -173,20 +173,22 @@ class BF_DESC:
 - C. Run Enders:
   - __Heracross:__ Megahorn + Earthquake
   - __Metagross:__ Psych-Up + Swagger
+  - __Taurous:__ Thrash + Earthquake
   - __Mukrow:__ Mean-Look + Perish-Song
   - __Wobuffet:__ Shadow-tag ability + mirror coat + destiny bond + encore
   - __Blissey/Wigglytuff/Clefairy:__ Attract, minimize, toxic, sing
 - D. Anti-Setup Users:
-  - __Ninetales/Skarmoory/Flareon/Zangoose:__ Roar
+  - __Ninetales/Skarmoory/Flareon/Zangoose/Steelix/Houndoom/Aerodactyl:__ Roar
   - __Solrock/Torkoal:__ Fire-Spin
   - __Mudkip:__ Whirlpool
+  - __Tropius:__ Whirlwind
   - __Onix:__ Bind
   - __Steelix:__ Block
   - __Koffing:__ Haze
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
-- Pay attention to Hex Maniac’s hints before choosing a path.
+- Pay attention to Hex Maniac’s hints before choosing a path — but if she tells you to go left or right while wearing a mischievous smile, it actually means you should go the opposite way
 - Use Lum Berries to cure status conditions.
 - Use X Items to boost stats and, to free up space on your bag.
 - Recommended Items for Sableye are Leftovers or Sitrus Berry, for Clefable is Leftovers, and for Latias is Leftovers or Shell Bell.
@@ -194,8 +196,8 @@ class BF_DESC:
 - If you see Ditto as the lead in battle, switch to Clefable in case it uses Transform, and start your usual setup.
 - Use Aura Sphere against Mons with +6 Evasion
 - For Anti-Setup Users, try to switch to Latias and kill them immediately before proceeding to usual setup.
-- For heavy hitters like Heracross, try to heal after each hit to ensure Clefable doesn’t faint while setting up."""
-
+- For heavy hitters like Heracross, try to heal after each hit to ensure Clefable doesn’t faint while setting up.
+- For Taurous lead, try to let it use Thrash and damage itself then hit it with Thief to kill it."""
 
     pyramid_3 = f"""# BATTLE PYRAMID ITEM GUIDE
 **HEALING ITEMS:**
