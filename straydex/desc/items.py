@@ -563,7 +563,18 @@ class SD_IT_IMAGES:
     lureball = "https://media.discordapp.net/attachments/1385288189714894953/1440635034125074532/1438646929176268840.png?ex=691edf6d&is=691d8ded&hm=ee9952ecbb83374f2c58fc5de91ab32c0d65a178d43f4178ac207ae6022265a9&=&format=webp&quality=lossless&width=107&height=107"
     luxuryball = "https://media.discordapp.net/attachments/1385288189714894953/1440635033802248192/1437856768167514276.png?ex=691edf6d&is=691d8ded&hm=2ab3cc5727fd4b64f0d6c135439188ef52cdfe32708435ef6cf44f18701a7455&=&format=webp&quality=lossless&width=107&height=107"
     moonball = "https://media.discordapp.net/attachments/1385288189714894953/1440635034380795924/1440082824232177765.png?ex=691edf6d&is=691d8ded&hm=750fff19e2e51d23e4d4170e86cecd740f3a5b1de573e1fdb5f94b1efaaac6b7&=&format=webp&quality=lossless&width=105&height=105"
-
+    oranberry ="https://media.discordapp.net/attachments/1385288189714894953/1488044790674362508/1486507100648640563.png?ex=69cb5934&is=69ca07b4&hm=9e76b74b8100da5f0dfcec1590f621863d3fc689876f88fb1bfed607d3374dda&=&format=webp&quality=lossless&width=90&height=82"
+    cheriberry = "https://media.discordapp.net/attachments/1385288189714894953/1488044841068662935/1486507099415384255.png?ex=69cb5940&is=69ca07c0&hm=30db9b848901a7c391a25f618af2b86358421aee4de2fda6f36011639bf42277&=&format=webp&quality=lossless&width=90&height=85"
+    rawstberry = "https://media.discordapp.net/attachments/1385288189714894953/1488044893170565211/1486507098211881080.png?ex=69cb594d&is=69ca07cd&hm=9bfab6a849a192405a1d796a7e0bd898150e7c8b5829c271f20890c33ce39906&=&format=webp&quality=lossless&width=90&height=88"
+    pechaberry = "https://media.discordapp.net/attachments/1385288189714894953/1488045132933632030/1486507097096196206.png?ex=69cb5986&is=69ca0806&hm=871e57f74b144de523dd02b7960bc4249db0f45d88d2b469872d7cf697bdc2d9&=&format=webp&quality=lossless&width=90&height=78"
+    aspearberry = "https://media.discordapp.net/attachments/1385288189714894953/1488045162260074578/1486507095049375926.png?ex=69cb598d&is=69ca080d&hm=4463dc1fce6beb8834549eed79e77c7a5175e908317b2126753dfe28aa6b5fca&=&format=webp&quality=lossless&width=79&height=90"
+    wailmerpail  = "https://media.discordapp.net/attachments/1385288189714894953/1488045338144145459/1486261601622425680.png?ex=69cb59b7&is=69ca0837&hm=4b5b58c03f5c4a951394a0155cbc52cb99260d1c23e77aad05c79fb2e9b80bb1&=&format=webp&quality=lossless&width=66&height=53"
+    spraylotad = "https://media.discordapp.net/attachments/1385288189714894953/1488045371434205214/1486869964861345873.png?ex=69cb59bf&is=69ca083f&hm=6e809abe189a6ff92eee4c9f8ffe4fbcf62276ca986790dfc154f11ab2684057&=&format=webp&quality=lossless&width=84&height=84"
+    sprayduck = "https://media.discordapp.net/attachments/1385288189714894953/1488045482000515114/1486261599827398728.png?ex=69cb59d9&is=69ca0859&hm=e8e178a36812a82cb8b06c2ed3ae2d21c99cc7d966afe241707cd52d8ca6b99d&=&format=webp&quality=lossless&width=66&height=66"
+    growthmulch = "https://media.discordapp.net/attachments/1385288189714894953/1488045553928372294/1486261019025080371.png?ex=69cb59ea&is=69ca086a&hm=84e01cf7f501ad4b989295c09ca6a5c8538374777817a19172915e50889f2347&=&format=webp&quality=lossless&width=66&height=69"
+    dampmulch  = "https://media.discordapp.net/attachments/1385288189714894953/1488045589110198333/1486261015657185281.png?ex=69cb59f2&is=69ca0872&hm=b59de27506c5f5e31b3b0894d3a143b72f89a82308cf421d69b1f0d852a22737&=&format=webp&quality=lossless&width=66&height=69"
+    stablemulch = "https://media.discordapp.net/attachments/1385288189714894953/1488045623050637332/1486261016747577364.png?ex=69cb59fb&is=69ca087b&hm=b0719527769f70f869362e593b45822be390fa0609423505ecdef4141ac88092&=&format=webp&quality=lossless&width=66&height=69"
+    gooeymulch = "https://media.discordapp.net/attachments/1385288189714894953/1488045659935215717/1486261017691557919.png?ex=69cb5a03&is=69ca0883&hm=05a195568ac6d3243cddd41d79dbcb634591d0c01072fe92c595d5b897cbbd58&=&format=webp&quality=lossless&width=66&height=69"
 
 class SD_IT:
 
@@ -1087,9 +1098,14 @@ class SD_IT:
 **INFO:**
 - Reduce the SPD EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)
+"""
 
     hardstone = f"""# HARD STONE
 **INFO:**
@@ -1104,9 +1120,13 @@ class SD_IT:
 **INFO:**
 - Reduce the SPA EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     honey = f"""# HONEY
 **COMMAND:**  `;honey <amount>`
@@ -1160,9 +1180,13 @@ class SD_IT:
 **INFO:**
 - Reduce the ATK EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     largepack = f"""# LARGE PACK
 **PASSIVE EFFECT:**  `Permanent Boost`
@@ -1335,9 +1359,13 @@ class SD_IT:
 **INFO:**
 - Reduce the HP EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     poweranklet = f"""# POWER ANKLET
 **INFO:**
@@ -1402,9 +1430,13 @@ class SD_IT:
 **INFO:**
 - Reduce the DEF EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     quickclaw = f"""# QUICK CLAW
 **INFO:**
@@ -1502,10 +1534,17 @@ class SD_IT:
 **INFO:**
 - Automatically restores 1/4 max HP when at 1/2 max HP or less. Single use.
 
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
 **METHOD TO OBTAIN:**
 - `;q`  Quest Reward
 - `;wb` <:worldboss:1476564758848213106> World Boss Drop Reward
-- Battle Shop (<:votecoin:1476557282535014420> 5)"""
+- Battle Shop (<:votecoin:1476557282535014420> 5)
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     softsand = f"""# SOFT SAND
 **INFO:**
@@ -1553,9 +1592,13 @@ class SD_IT:
 **INFO:**
 - Reduce the SPE EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
+**GROWTH DURATION:**
+- 4h/stage, 5 stages total (20 hours total)
+
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
-- Requires Faction Rank: Admin to unlock"""
+- Requires Faction Rank: Admin to unlock
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     teamboost = f"""# TEAM BOOST
 **PASSIVE EFFECT:**  `Permanent Boost`
@@ -1954,9 +1997,13 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 5h/stage, 5 stages total (25 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
     chestoberry = f"""# CHESTO BERRY
 **INFO:**
 - Automatically wakes the holder up if it falls asleep. Single use.
@@ -1964,9 +2011,13 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 3h/stage, 5 stages total (15 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     occaberry = f"""# OCCA BERRY
 **INFO:**
@@ -1975,9 +2026,13 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 5h/stage, 5 stages total (25 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     persimberry = f"""# PERSIM BERRY
 **INFO:**
@@ -1986,9 +2041,28 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 3h/stage, 5 stages total (15 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    yacheberry = f"""# YACHE BERRY
+**INFO:**
+- Weakens one super-effective Ice-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 5h/stage, 5 stages total (25 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     yacheberry = f"""# YACHE BERRY
 **INFO:**
@@ -1998,19 +2072,9 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
-
-    yacheberry = f"""# YACHE BERRY
-**INFO:**
-- Weakens one super-effective Ice-type hit against the holder. Single use.
-
-**USAGE:**
-- Give to a Pokemon on your team to use.
-
-**METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     salacberry = f"""# SALAC BERRY
 **INFO:**
@@ -2019,9 +2083,13 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 6h/stage, 5 stages total (30 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     shucaberry = f"""# SHUCA BERRY
 **INFO:**
@@ -2030,9 +2098,13 @@ class SD_IT:
 **USAGE:**
 - Give to a Pokemon on your team to use.
 
+**GROWTH DURATION:**
+- 5h/stage, 5 stages total (25 hours total)
+
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     atkmint = f"""# ATK MINT
 **INFO:**
@@ -2042,8 +2114,8 @@ class SD_IT:
 - ;bud set nature atk <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     defmint = f"""# DEF MINT
 **INFO:**
@@ -2053,8 +2125,8 @@ class SD_IT:
 - ;bud set nature def <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     spamint = f"""# SPA MINT
 **INFO:**
@@ -2064,8 +2136,8 @@ class SD_IT:
 - ;bud set nature spa <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     spdmint = f"""# SPD MINT
 **INFO:**
@@ -2075,8 +2147,8 @@ class SD_IT:
 - ;bud set nature spd <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     spemint = f"""# SPE MINT
 **INFO:**
@@ -2086,8 +2158,8 @@ class SD_IT:
 - ;bud set nature spe <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     seriousmint = f"""# SERIOUS MINT
 **INFO:**
@@ -2097,8 +2169,8 @@ class SD_IT:
 - ;bud set nature serious <pokemon>
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 10
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10"""
 
     whiteherb = f"""# WHITE HERB
 **INFO:**
@@ -2108,8 +2180,8 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 25
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 25"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 25
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 25"""
 
     brightpowder = f"""# BRIGHT POWDER
 **INFO:**
@@ -2119,8 +2191,8 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 100
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 100"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 100
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 100"""
 
     clearamulet = f"""# CLEAR AMULET
 **INFO:**
@@ -2130,8 +2202,8 @@ class SD_IT:
 - Give to a Pokemon on your team to use
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 500
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 500"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 500
+`- ;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 500"""
 
     lightclay = f"""# LIGHT CLAY
 **INFO:**
@@ -2141,8 +2213,8 @@ class SD_IT:
 - Give to a Pokemon on your team to use
 
 **METHOD TO OBTAIN:**
-`;s`  Shop for <:battle_points:1481286613261746198> 250
-`;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 250"""
+- `;s`  Shop for <:battle_points:1481286613261746198> 250
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 250"""
 
     blunderpolicy = f"""# BLUNDER POLICY
 **INFO:**
@@ -2213,3 +2285,160 @@ class SD_IT:
 
 **METHOD TO OBTAIN:**
 - `;bf` - Defeat Round 10, Battle 7 in Battle Tower."""
+
+    oranberry = f"""# ORAN BERRY
+**INFO:**
+- A berry that restores 10 HP in battle when held.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    cheriberry = f"""# CHERI BERRY
+**INFO:**
+- A berry that cures paralysis when held.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    rawstberry = f"""# RAWST BERRY
+**INFO:**
+- A berry that cures burn when held.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    pechaberry = f"""# PECHA BERRY
+**INFO:**
+- A berry that cures poison when held.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    aspearberry = f"""# ASPEAR BERRY
+**INFO:**
+- A berry that cures freeze when held.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 2h/stage, 5 stages total (10 hours total)
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:battle_points:1481286613261746198> 10
+- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    wailmerpail = f"""# WAILMER PAIL
+**INFO:**
+- A watering can shaped like a Wailmer.
+- Required to water planted berries.
+- Not consumed on use.
+- Waters soil only after it dries out.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+- `;s`  Shop for <:pokecoin:1477168709305892874> 1,000,000"""
+
+    spraylotad = f"""# SPRAY LOTAD
+**INFO:**
+- A premium watering can shaped like a Lotad.
+- It can water planted berries before the soil dries out, but does not make the soil permanently moist
+- Not consumed on use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+- `;fish shop`  Shop for <:fish_coin:1477168707250819216> 10,000"""
+
+    sprayduck = f"""# SPRAY DUCK
+**INFO:**
+- A premium watering can shaped like a Psyduck
+- Water once and the soil stays moist for the entire growth cycle.
+- Not consumed on use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**METHOD TO OBTAIN:**
+- `;vote shop`  Shop for <:votecoin:1476557282535014420> 500"""
+
+    growthmulch = f"""# GROWTH MULCH
+**INFO:**
+- Mulch that speeds up berry growth by 25%.
+- Apply to a planted berry slot.
+
+**USAGE:**
+- ;berry mulch growth_mulch <slot>
+
+**METHOD TO OBTAIN:**
+- `;berry craft` Randomly obtained from crafting berries
+- `;shop buy growth_mulch` Shop for <:pokecoin:1477168709305892874> 100,000"""
+
+    dampmulch = f"""# DAMP MULCH
+**INFO:**
+- Mulch that halves the soil dry rate, keeping berries moist 2x longer.
+
+**USAGE:**
+- ;berry mulch damp_mulch <slot>
+
+**METHOD TO OBTAIN:**
+- `;berry craft` Randomly obtained from crafting berries
+- `;shop buy damp_mulch` Shop for <:pokecoin:1477168709305892874> 100,000"""
+
+    stablemulch = f"""# STABLE MULCH
+**INFO:**
+- Mulch that doubles the time before a ripe berry wilts.
+
+**USAGE:**
+- ;berry mulch stable_mulch <slot>
+
+**METHOD TO OBTAIN:**
+- `;berry craft` Randomly obtained from crafting berries
+- `;shop buy stable_mulch` Shop for <:pokecoin:1477168709305892874> 100,000"""
+
+    gooeymulch = f"""# GOOEY MULCH
+**INFO:**
+- Mulch that increases the maximum berry yield by 2 at harvest.
+
+**USAGE:**
+- ;berry mulch gooey_mulch <slot>
+
+**METHOD TO OBTAIN:**
+- `;berry craft` Randomly obtained from crafting berries
+- `;shop buy gooey_mulch` Shop for <:pokecoin:1477168709305892874> 100,000"""

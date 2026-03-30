@@ -17,6 +17,13 @@ CANT_BE_HELD_ITEM_LIST = [
     "largepack",
     "pokeradar",
     "scubagear",
+    "sprayduck",
+    "spraylotad",
+    "wailmerpail",
+    "growthmulch",
+    "dampmulch",
+    "stablemulch",
+    "richmulch",
 ]
 EVOLUTION_ITEM_LIST = {
     "dawnstone": "dawn_stone",
@@ -110,12 +117,21 @@ async def build_sd_main_item_embed(
         image_url=SD_MAIN_IMAGES.EVOI,
     )
 
+    berry_item_embed = await build_sd_main_embed(
+        guild=guild,
+        main_cmd="it",
+        text=SD_MAIN_DESC.it_four,
+        user_display_name=user_display_name,
+        image_url=SD_MAIN_IMAGES.berries,
+    )
+
     view = ItemListView(
         guild=guild,
         user_id=user_id,
         general_item_embed=general_item_embed,
         battle_item_embed=battle_item_embed,
         evolution_item_embed=evolution_item_embed,
+        berry_item_embed=berry_item_embed,
     )
     return general_item_embed, view, None
 
@@ -131,6 +147,7 @@ class ItemListView(View):
         general_item_embed,
         battle_item_embed,
         evolution_item_embed,
+        berry_item_embed,
     ):
         super().__init__(timeout=300)  # 5 min timeout
         self.guild = guild
@@ -138,6 +155,7 @@ class ItemListView(View):
         self.general_item_embed = general_item_embed
         self.battle_item_embed = battle_item_embed
         self.evolution_item_embed = evolution_item_embed
+        self.berry_item_embed = berry_item_embed
         self.current_embed = "General"
         self.iphone_copy = (
             False  # False = Android (no backticks), True = iPhone (with backticks)
@@ -165,6 +183,8 @@ class ItemListView(View):
                         child.disabled = embed_name == "Battle"
                     elif child.label == "Evolution":
                         child.disabled = embed_name == "Evolution"
+                    elif child.label == "Berries":
+                        child.disabled = embed_name == "Berries"
 
             # Then edit the message with the new embed and updated buttons
             if embed_name == "General":
@@ -178,6 +198,10 @@ class ItemListView(View):
             elif embed_name == "Evolution":
                 await interaction.response.edit_message(
                     embed=self.evolution_item_embed, view=self
+                )
+            elif embed_name == "Berries":
+                await interaction.response.edit_message(
+                    embed=self.berry_item_embed, view=self
                 )
 
             self.current_embed = embed_name
@@ -212,3 +236,9 @@ class ItemListView(View):
     )
     async def evolution_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "Evolution")
+
+    @discord.ui.button(
+        label="Berries", style=discord.ButtonStyle.secondary, emoji=Emojis.berries
+    )
+    async def berry_button(self, interaction: discord.Interaction, button: Button):
+        await self.switch_embed(interaction, "Berries")

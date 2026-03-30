@@ -332,7 +332,54 @@ Members can show off their collections in <#1298114332583788597>
 - !metalcoat
 - !razorclaw
 - !razorfang"""
+    it_four = """# STRAYDEX: BERRIES
+**COMMANDS:**
+- **`;BERRY`** BERRY GARDEN OVERVIEW
+- **`;BERRY WATER <SLOT_NUMBER>`** Water a berry
+- **`;BERRY MULCH MULCH_NAME <SLOT_NUMBER>`** Apply mulch to a berry
+- **`;BERRY HARVEST <SLOT_NUMBER>`** Harvest a berry
 
+**COMMON BERRIES:**
+- !oranberry
+- !cheriberry
+- !rawstberry
+- !pechaberry
+- !aspearberry
+- !sitrusberry
+
+**UNCOMMON BERRIES:**
+- !chestoberry
+- !persimberry
+- !pomegberry
+- !kelpsyberry
+- !qualotberry
+- !hondewberry
+- !grepaberry
+- !tamatoberry
+
+**RARE BERRIES:**
+- !lumberry
+- !occaberry
+- !yacheberry
+- !shucaberry
+
+**VERY RARE BERRIES:**
+- !salacberry
+
+**OTHER BERRIES:**
+- !grazzberry
+
+**MULCHES:**
+- !growthmulch
+- !dampmulch
+- !stablemulch
+- !gooeymulch
+
+**WATERING TOOLS:**
+- !wailmerpail
+- !spraylotad
+- !sprayduck
+"""
     mc = """# STRAYDEX: MEGA CHAMBER
 **OS MEGA CHAMBER STRAT LINK:** [LINK](https://docs.google.com/spreadsheets/d/1frm707a6QLgvsSkdWI5SJ4aRgCmI77ZLNrZ-efleSMQ/edit?gid=0#gid=0)
 
@@ -650,6 +697,7 @@ Server Owner: <@952071312124313611>
 
 
 class SD_MAIN_IMAGES:
+    berries = "https://media.discordapp.net/attachments/1358029599463968798/1488084980604080280/UBG01_22.png?ex=69cb7ea2&is=69ca2d22&hm=f1bb90c83b2e7421aa812904f5fa4002d62f73e2df7343a329b323ecf7e206f8&=&format=webp&quality=lossless&width=389&height=163"
     bf = "https://media.discordapp.net/attachments/1358029599463968798/1484897501541826621/UBG01_16.png?ex=69bfe610&is=69be9490&hm=5df127e73813bd824dcaba1c9ab6f5e6830a307b468becee4c43e702657e3726&=&format=webp&quality=lossless"
     nature = "https://media.discordapp.net/attachments/1358029599463968798/1484423378155737168/UBG01_13.png?ex=69be2c80&is=69bcdb00&hm=ee47174841cea80d17efb9ac2fa5074c9a6d4618430fbac1cc5c204c62bbd5ca&=&format=webp&quality=lossless"
     ps = "https://media.discordapp.net/attachments/1358029599463968798/1479331652730749040/UBG01_10.png?ex=69aba676&is=69aa54f6&hm=35b87e95e9e74c61348b4e4ea51ca8c4b51604468d6306c30b5587b9824e7224&=&format=webp&quality=lossless&width=901&height=428"

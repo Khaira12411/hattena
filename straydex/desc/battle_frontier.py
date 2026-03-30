@@ -175,12 +175,12 @@ class BF_DESC:
   - __Heracross:__ Megahorn + Earthquake
   - __Metagross:__ Psych-Up + Swagger
   - __Taurous:__ Thrash + Earthquake
-  - __Mukrow:__ Mean-Look + Perish-Song
+  - __Mukrow/Misdreavus:__ Mean-Look + Perish-Song
   - __Pinsir:__ Swords-Dance + Flail + Guillotine
   - __Wobuffet:__ Shadow-tag ability + mirror coat + destiny bond + encore
   - __Blissey/Wigglytuff/Clefairy:__ Attract, minimize, toxic, sing
 - D. Anti-Setup Users:
-  - __Ninetales/Skarmoory/Flareon/Zangoose/Steelix/Houndoom/Aerodactyl:__ Roar
+  - __Ninetales/Skarmoory/Flareon/Zangoose/Steelix/Houndoom/Aerodactyl/Aggron:__ Roar
   - __Solrock/Torkoal:__ Fire-Spin
   - __Mudkip:__ Whirlpool
   - __Tropius:__ Whirlwind

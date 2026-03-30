@@ -614,6 +614,19 @@ it_sub = [
     "weaknesspolicy",
     "shellbell",
     "blunderpolicy",
+    # berries
+    "oranberry",
+    "cheriberry",
+    "rawstberry",
+    "pechaberry",
+    "aspearberry",
+    "wailmerpail",
+    "spraylotad",
+    "Sprayduck",
+    "growthmulch",
+    "dampmulch",
+    "stablemulch",
+    "gooeymulch",
 ]
 
 for sub in it_sub:
