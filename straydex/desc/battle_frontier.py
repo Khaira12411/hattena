@@ -170,7 +170,7 @@ class BF_DESC:
   - __Sheer Cold:__ Dewgong, Lapras, Sealeo, Walrein
   - __Horn Drill:__ Dewgong
   - __Fissure:__ Lapras, Walrein, Rhyhorn-line, Slowbro-line, Wailord, Piloswine, Wiscash
-  -__Guillotine:__ Pinsir
+  - __Guillotine:__ Pinsir
 - C. Run Enders:
   - __Heracross:__ Megahorn + Earthquake
   - __Metagross:__ Psych-Up + Swagger
