@@ -95,6 +95,7 @@ class SD_PAT_DESC:
 - 🛒  +5 extra  `;market`  listings.
 - 🔒  +5 additional locks in  `;release locks`.
 - 🗺️ 4,000 daily explore steps limit.
+- <:berries:1488087469999132672> 4 Berry Slots in  `;berry`
 - <:Rare:1142668430634393610>  Rare Patreon role in the official PokeMeow Discord Server."""
 
     SUPERRARE = f"""# PATREON: SUPER RARE
@@ -155,6 +156,7 @@ class SD_PAT_DESC:
 - 🔒 +5 additional locks in  `;release locks`.
 - 👀  Access to the #legendary-patreon channel in the official PokeMeow Discord server, where you can communicate with other Legendary Patrons, Moderators/Administrators & Owner.
 - 🗺️ 5,000 daily explore steps limit.
+- <:berries:1488087469999132672> 5 Berry Slots in  `;berry`
 - <:Legendary:1090640224125718570>  Legendary Patreon role in the official PokeMeow Discord Server."""
 
     SHINY = f"""# PATREON: SHINY
@@ -217,6 +219,7 @@ class SD_PAT_DESC:
 - <:Golden11:1147776276510281818>  +25% increased Golden Explore/Fishing/Swap odds.
 - ✨  Ability to set a custom role icon (approved by staff) for your custom server role.
 - 🗺️ 6,000 daily explore steps limit.
+- <:berries:1488087469999132672> 6 Berry Slots in  `;berry`
 - <:Golden11:1147776276510281818>  Golden Patreon role in the official PokeMeow Discord Server."""
 
 
