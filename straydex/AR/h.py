@@ -622,7 +622,7 @@ it_sub = [
     "aspearberry",
     "wailmerpail",
     "spraylotad",
-    "Sprayduck",
+    "sprayduck",
     "growthmulch",
     "dampmulch",
     "stablemulch",
