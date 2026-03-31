@@ -88,7 +88,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.gri
 
     elif boss_name == "coa":
-        strat = WB_MVPStrat.inteleon
+        strat = WB_MVPStrat.coa
 
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"

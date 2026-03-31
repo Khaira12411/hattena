@@ -669,30 +669,28 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 - With **Malamar** use 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
-    inteleon = f"""**TEAM:**
+    coa = f"""**TEAM:**
 - **Mew #151**
 Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar #687**
-*Remove Contrary Ability*
+- **Vaporeon #134**
 Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+Moves: `Fake-Tears` `Aqua-Ring` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Gmax-Inteleon #7217**
-*Needs Sniper Ability*
+- **Primal-Kyogre #7583**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
-Moves: `Max Geyser`
+Moves: `Water-Spout`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use 2x `Eerie-Impulse`, 2x `Focus-Energy`, `, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Gmax Inteleon**.
-- With **Gmax Inteleon** spam `Max Geyser`, and use Max Potions to heal."""
+- With **Mew** use 2x `Eerie-Impulse`, 2x `Focus-Energy`, `, then `Baton-Pass` to **Vaporeon**.
+- With **Vaporeon** use 1x `Aqua-Ring`, 3x `Fake-Tears`, then `Baton-Pass` to **Primal-Kyogre**.
+- With **Primal-Kyogre** spam `Water-Spout`, and use Max Potions to heal."""
 
     gri = f"""**TEAM:**
 - **Mew #151**
