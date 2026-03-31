@@ -62,7 +62,7 @@ class SD_AC:
 > - *Most  `Fire`, `Water` &  `Grass`  starters can only be found in  `;explore`  (Patreon feature).*
 > - *While most of the Pokemons are caught from  `;p`, there are others that you can only be gotten from egg hatches  `;excl egg`, and by evolving their pre-line [Evolution Exclusives chart](https://discord.com/channels/664509279251726363/670140339180404757/809633104809558056 ).*
 > - *For research shard legendaries  `;u`. It would be best to buy all of them from  `;market`, with the exception of Rayquaza. Rather than wasting your research points purchasing the Red, Blue, Yellow shards.*
-> - *Go to  <#1176807489786888282>  for assistance on "dex-ing" rare Pokemons.*"""
+> - *(In Straymons Server only) Go to  <#1176807489786888282>  for assistance on "dex-ing" rare Pokemons.*"""
 
     fis = f"""# ACHIEVEMENT: FISHING
 **COMMAND:**  `;ach`
