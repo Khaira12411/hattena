@@ -2297,9 +2297,7 @@ class SD_IT:
 - 2h/stage, 5 stages total (10 hours total)
 
 **METHOD TO OBTAIN:**
-- `;s`  Shop for <:battle_points:1481286613261746198> 10
-- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
-- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     cheriberry = f"""# CHERI BERRY
 **INFO:**
@@ -2312,9 +2310,7 @@ class SD_IT:
 - 2h/stage, 5 stages total (10 hours total)
 
 **METHOD TO OBTAIN:**
-- `;s`  Shop for <:battle_points:1481286613261746198> 10
-- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
-- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     rawstberry = f"""# RAWST BERRY
 **INFO:**
@@ -2327,9 +2323,7 @@ class SD_IT:
 - 2h/stage, 5 stages total (10 hours total)
 
 **METHOD TO OBTAIN:**
-- `;s`  Shop for <:battle_points:1481286613261746198> 10
-- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
-- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     pechaberry = f"""# PECHA BERRY
 **INFO:**
@@ -2342,9 +2336,7 @@ class SD_IT:
 - 2h/stage, 5 stages total (10 hours total)
 
 **METHOD TO OBTAIN:**
-- `;s`  Shop for <:battle_points:1481286613261746198> 10
-- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
-- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     aspearberry = f"""# ASPEAR BERRY
 **INFO:**
@@ -2357,9 +2349,7 @@ class SD_IT:
 - 2h/stage, 5 stages total (10 hours total)
 
 **METHOD TO OBTAIN:**
-- `;s`  Shop for <:battle_points:1481286613261746198> 10
-- `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
-- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch) when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     wailmerpail = f"""# WAILMER PAIL
 **INFO:**
