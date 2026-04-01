@@ -1099,7 +1099,7 @@ class SD_IT:
 - Reduce the SPD EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1121,7 +1121,7 @@ class SD_IT:
 - Reduce the SPA EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1181,7 +1181,7 @@ class SD_IT:
 - Reduce the ATK EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1360,7 +1360,7 @@ class SD_IT:
 - Reduce the HP EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1431,7 +1431,7 @@ class SD_IT:
 - Reduce the DEF EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1538,7 +1538,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;q`  Quest Reward
@@ -1593,7 +1593,7 @@ class SD_IT:
 - Reduce the SPE EV of your buddy Pokemon by 10, or 100 if EV is above 100.
 
 **GROWTH DURATION:**
-- 4h/stage, 5 stages total (20 hours total)
+- 4h/stage, 4 stages (16 hours total)
 
 **METHOD TO OBTAIN:**
 - `;fa`  Faction Shop (500,000 Faction Points)
@@ -1998,7 +1998,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 5h/stage, 5 stages total (25 hours total)
+- 5h/stage, 4 stages (20 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2012,7 +2012,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 3h/stage, 5 stages total (15 hours total)
+- 3h/stage, 4 stages (12 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2027,7 +2027,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 5h/stage, 5 stages total (25 hours total)
+- 5h/stage, 4 stages (20 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2042,7 +2042,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 3h/stage, 5 stages total (15 hours total)
+- 3h/stage, 4 stages (12 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2057,7 +2057,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 5h/stage, 5 stages total (25 hours total)
+- 5h/stage, 4 stages (20 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2084,7 +2084,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 6h/stage, 5 stages total (30 hours total)
+- 6h/stage, 4 stages (25 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2099,7 +2099,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 5h/stage, 5 stages total (25 hours total)
+- 5h/stage, 4 stages (20 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2294,7 +2294,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
@@ -2307,7 +2307,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
@@ -2320,7 +2320,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
@@ -2333,7 +2333,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
@@ -2346,7 +2346,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 2h/stage, 5 stages total (10 hours total)
+- 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
