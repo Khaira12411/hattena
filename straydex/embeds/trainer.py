@@ -93,6 +93,11 @@ async def build_sd_trl_embed(
         inline=False,
     )
     embed.add_field(
+        name=f"{Emojis.blue_arrow}  For lvl 56 to 100 (Alternate ID Credits to Yuki)",
+        value=";b user 705447976658665552",
+        inline=False,
+    )
+    embed.add_field(
         name=f"{Emojis.blue_pawprint}  Recommended Mons and Moves",
         value=(f"> {Emojis.blue_star}  Marshadow + Close-Combat\n"),
         inline=False,
@@ -104,8 +109,10 @@ async def build_sd_trl_embed(
 > - Let the pokemon that you are going to level up knock LVL 1 Chansey/ LVL 100 Blissey, using any physical or figthing move.
 > - Switch to Marshadow then spam Close-Combat
 __With EXP Share__
-> - Using Marshadow/Slaking spam Close-Combat
-__Remember to EV train your mons before leveling them up__"""
+> - Using Marshadow spam Close-Combat
+__Remember to EV train your mons before leveling them up__
+__Notes:__
+> - You can use toxic for Yuki's training ID."""
         ),
         inline=False,
     )
