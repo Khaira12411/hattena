@@ -3,7 +3,7 @@ import asyncio
 import discord
 from discord.ext import commands
 
-from constants.straymons_constants import POKEMEOW_APPLICATION_ID
+from constants.straymons_constants import POKEMEOW_APPLICATION_ID, ALLOWED_SERVER_IDS
 from utils.listener_func.dex_listener import dex_listener
 
 from utils.logs.pretty_log import pretty_log
@@ -51,7 +51,7 @@ class MessageEditListener(commands.Cog):
         # ✨───────────────────────────────────────────────✨
         # 🪻 DEX LISTENER
         # ✨───────────────────────────────────────────────✨
-        if first_embed:
+        if first_embed and after.message.guild.id in ALLOWED_SERVER_IDS:
             if embed_has_field_name(first_embed, "Dex Number"):
                 await dex_listener(self.bot, after)
 

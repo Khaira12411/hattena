@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 
 from constants.ask_hattena.overall import STOPWORDS, TOPICS
-from constants.straymons_constants import MH_APP_ID, POKEMEOW_APPLICATION_ID, PREFIX
+from constants.straymons_constants import MH_APP_ID, POKEMEOW_APPLICATION_ID, PREFIX, ALLOWED_SERVER_IDS
 from utils.functions.ask_hattena import match_topic
 from utils.listener_func.dex_listener import dex_listener
 from utils.listener_func.market_view_listener import market_view_listener
@@ -71,7 +71,7 @@ class MessageCreateListener(commands.Cog):
         # ————————————————————————————————
         # 🩵 MH Lookup Listener
         # ————————————————————————————————
-        if message.author.bot and message.author.id == MH_APP_ID:
+        if message.author.bot and message.author.id == MH_APP_ID and  message.guild.id in ALLOWED_SERVER_IDS:
             if message.embeds and message.embeds[0]:
                 if embed_has_field_name(message.embeds[0], "Lowest Market"):
                     pretty_log(
@@ -125,41 +125,45 @@ class MessageCreateListener(commands.Cog):
             await mention_listener(self.bot, message)
 
         # ————————————————————————————————
-        # 🩷 Perks Listener
+        # 🩷 Data Gather only in Allowed Servers
         # ————————————————————————————————
-        if "perks" in embed_author_text.lower() and not any(
-            phrase in embed_author_text for phrase in PERK_BANNED_PHRASES
-        ):
-            try:
-                await perks_listener(
-                    bot=self.bot,
-                    message=message,
-                )
-            except Exception as e:
-                pretty_log(
-                    "error", f"Error handling perks listener: {e}", include_trace=True
-                )
-        # ————————————————————————————————
-        # 🩷 Dex Listener
-        # ————————————————————————————————
-        if first_embed:
-            if embed_has_field_name(first_embed, "Dex Number"):
-                await dex_listener(self.bot, message)
+        if message.guild.id in ALLOWED_SERVER_IDS:
+            # ————————————————————————————————
+            # 🩷 Perks Listener
+            # ————————————————————————————————
+            if "perks" in embed_author_text.lower() and not any(
+                phrase in embed_author_text for phrase in PERK_BANNED_PHRASES
+            ):
+                try:
+                    await perks_listener(
+                        bot=self.bot,
+                        message=message,
+                    )
+                except Exception as e:
+                    pretty_log(
+                        "error", f"Error handling perks listener: {e}", include_trace=True
+                    )
+            # ————————————————————————————————
+            # 🩷 Dex Listener
+            # ————————————————————————————————
+            if first_embed:
+                if embed_has_field_name(first_embed, "Dex Number"):
+                    await dex_listener(self.bot, message)
 
-        # ————————————————————————————————
-        # 🩷 MARKET VIEW LISTENER
-        # ————————————————————————————————
-        if (
-            first_embed
-            and "PokeMeow Global Market" in first_embed_author
-            and not "Recent" in first_embed_author
-            and not "Rarity" in first_embed_author
-        ):
-            pretty_log(
-                tag="info",
-                message=f"Processing market view message with embed author: {first_embed_author}",
-            )
-            await market_view_listener(self.bot, message)
+            # ————————————————————————————————
+            # 🩷 MARKET VIEW LISTENER
+            # ————————————————————————————————
+            if (
+                first_embed
+                and "PokeMeow Global Market" in first_embed_author
+                and not "Recent" in first_embed_author
+                and not "Rarity" in first_embed_author
+            ):
+                pretty_log(
+                    tag="info",
+                    message=f"Processing market view message with embed author: {first_embed_author}",
+                )
+                await market_view_listener(self.bot, message)
 
 
 # 🌈────────────────────────────────────────────

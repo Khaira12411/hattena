@@ -5,6 +5,8 @@ STRAYMONS_GUILD_ID = 1047856017121214555
 DEFAULT_EMBED_COLOR = 0xc295f3  # Light Purple
 MH_APP_ID = 833428629705719828
 PREFIX = "!"
+VNA_SERVER_ID = 909880511701352488
+ALLOWED_SERVER_IDS = [STRAYMONS_GUILD_ID, VNA_SERVER_ID]
 # 💦☁────────────────────────────────────────────💦☁
 #       STRAYMONS__TEXT_CHANNELS
 # 💦☁────────────────────────────────────────────💦☁
