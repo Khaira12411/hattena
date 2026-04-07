@@ -420,7 +420,7 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
-Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss`
+Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
@@ -444,7 +444,7 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
-Moves: `Moonblast` `Draining-Kiss` `Calm-Mind`
+Moves: `Moonblast` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
@@ -731,7 +731,7 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
-Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind`
+Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
