@@ -26,7 +26,7 @@ class MessageEditListener(commands.Cog):
         if (
             after.author.bot
             and after.author.id != POKEMEOW_APPLICATION_ID
-            and not after.webhook_id
+            and not after.webhook_id and after.guild.id not in ALLOWED_SERVER_IDS
         ):
             return
 
