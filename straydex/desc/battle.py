@@ -188,22 +188,19 @@ or
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio #51**
-> Equip: `Choice_Scarf`
-> Moves: `Memento`
+- **Primal-Kyogre #7583**
+> Equip: `Choice_Cloak`
+> Moves: `Water-Spout`
 
 __**2nd Position**__
-- **Arceus #493**
-> Equip: `Leftovers`
-> Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
+- **Zacian-Crowned #7891**
+> Equip: `Choice_Cloak`
+> Moves: `Crunch`
 
 **STRATEGY:**
-- [Dugtrio] Memento -2
-- [Arceus] Cosmic-Power +6
-- [Arceus] Toxic
-- [Arceus] Body-Press spam
-- [Arceus] Recover when low hp
-"""
+- [Primal-Kyogre] Water-Spout spam
+- [Zacian] Crunch when spam  against Mega-Metagross, Deoxys-Defense, and Mega-Rayquaza, or when Kyogre is low hp against other enemies."""
+
 
     ts = f"""# BATTLE TOWER STRAT
 ## NON-SETUP TEAM
@@ -346,7 +343,6 @@ __**2nd Position**__
 - **Arceus-Fairy #7618**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
-
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
@@ -703,7 +699,7 @@ __OR__
 
 **TEAM:**
 __**1st Position**__
-- **Dugtrio #51**
+- **Zacian-Crowned #7891**
 > Equip: `Choice_Scarf`
 > Moves: `Memento`
 
@@ -712,9 +708,8 @@ __**2nd Position**__
 > Equip: `Leftovers`
 > Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
-
 **STRATEGY:**
-- [Dugtrio] Memento -2
+- [Zacian] Noble-Roar -6
 - [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
 - [Arceus] Body-Press spam
@@ -805,17 +800,22 @@ __**1st Position**__
 > Moves: `Memento`
 
 __**2nd Position**__
-- **Arceus-Water**
-> Equip: `Leftovers`
-> Moves: `Iron-Defense`  `Calm-Mind`  `Judgment`  `Recover`
+- **Zacian #888**
+> Equip: `Choice_Scarf`
+> Moves: `Noble-Roar`
 
+__**2nd Position**__
+- **Gigantamax-Alcremie #7193**
+> Equip: `Leftovers`
+> Moves: `Acid-Armor`  `Calm-Mind`  `Gmax-Finale`  `Recover`
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
-- [Arceus] Iron-Defense +6
-- [Arceus] Calm-Mind +6
-- [Arceus] Judgment spam
-- [Arceus] Recover when low hp
+- [Zacian] Noble-Roar -6
+- [Gigantamax-Alcremie] Acid-Armor +6
+- [Gigantamax-Alcremie] Calm-Mind +6
+- [Gigantamax-Alcremie] Gmax-Finale spam
+- [Gigantamax-Alcremie] Recover when low hp
 """
     # ---------------------------
     cbo6 = f"""# CHALLENGER BOSS: LYSANDRE
@@ -861,7 +861,6 @@ __**2nd Position**__
 - **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Iron-Defense`  `Calm-Mind`  `Stored-Power`  `Recover`
-
 
 **STRATEGY:**
 - [Dugtrio] Memento -2
