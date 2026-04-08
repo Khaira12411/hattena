@@ -420,14 +420,14 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
-Moves: `Moonblast` `Calm-Mind` ` Draining-Kiss` `Safeguard/Snore`
+Moves: `Hyper-Beam` `Calm-Mind` ` Draining-Kiss` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
 - With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
 - With **Mega Gardevoir** use `Calm-Mind` 6x.
-- After the set-up above, spam `Moonblast`
+- After the set-up above, spam `Hyper-Beam`.
 - Use `Draining-Kiss` to heal."""
 
     uss = f"""**TEAM:**
@@ -444,14 +444,14 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
-Moves: `Moonblast` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
+Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
 - With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
 - With **Mega Gardevoir** use `Calm-Mind` 6x times.
-- After the set-up above, spam `Moonblast`.
+- After the set-up above, spam `Hyper-Beam`.
 - Use `Draining-Kiss` to heal."""
 
     mewtwo_strat = f"""**TEAM:**
@@ -738,7 +738,7 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Gmax Hatterene**.
-- With **Mega Gardevoir**,  spam `Hypervoice`, and heal with `Draining-Kiss`."""
+- With **Mega Gardevoir**,  spam `Hyper-Beam`, and heal with `Draining-Kiss`."""
 
     pg_glalie = f"""**TEAM:**
 - **Mew #151**
