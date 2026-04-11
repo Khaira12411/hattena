@@ -163,3 +163,13 @@ def fetch_image_link_cache(pokemon_name: str):
     if pokemon_data:
         return pokemon_data.get("image_link", None)
     return None
+
+def fetch_pokemon_name_by_dex_cache(dex_number: int):
+    """
+    Get Pokémon name by dex number from cache.
+    Returns None if not found or no data.
+    """
+    for name, data in market_value_cache.items():
+        if data.get("dex_number") == dex_number:
+            return name
+    return None

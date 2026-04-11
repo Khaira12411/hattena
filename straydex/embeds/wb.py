@@ -82,11 +82,8 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         header_text = f"SHINY GIGANTAMAX-URSHIFU-RAPIDSTRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
 
-    elif boss_name == "gen":
-        strat = WB_MVPStrat.gengar
-
     elif boss_name == "gri":
-        strat = WB_MVPStrat.gri
+        strat = WB_MVPStrat.zac_crowned
 
     elif boss_name == "coa":
         strat = WB_MVPStrat.coa
@@ -96,17 +93,17 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.necorzma_ultra
         header_text = f"SHINY ETERNAMAX-ETERNATUS #{dex_number}"
 
-    elif boss_name in ["mel", "cop", "dur", "cor"]:
-        strat = WB_MVPStrat.steel
+    elif boss_name in ["mel", "cop", "dur", "cor", "hat"]:
+        strat = WB_MVPStrat.braviary
 
     elif boss_name == "orb":
         strat = WB_MVPStrat.incineroar
 
-    elif boss_name  in ("app", "fla",  "but"):
-        strat = WB_MVPStrat.pg_glalie
+    elif boss_name  in ("app", "fla"):
+        strat = WB_MVPStrat.glalie
 
-    elif boss_name in ("cen", "cha", "cin"):
-        strat = WB_MVPStrat.pg
+    elif boss_name in ("cen", "cha", "but"):
+        strat = WB_MVPStrat.shuckle
 
     elif boss_name in ("ven", "mac", "gen", "gab", "tox"):
         strat = WB_MVPStrat.necorzma_ultra

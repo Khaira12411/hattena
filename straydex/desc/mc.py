@@ -50,6 +50,10 @@ class SD_MC_ID:
     laa = 547
     lao = 548
 
+    # New Megas
+    vic = 549
+    dra = 550
+
 
 class SD_MC_NPC_IDS:
     ven = "600 - 602"
@@ -1190,7 +1194,62 @@ __Or__
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *G Mewtwo will be better than Arceus-Fire if it's in the budget.*"""
 
+    # NEW MEGAS
+    vic = f"""**TEAM:**
+- **Mimikyu #778**
+> Equip: `Zoom_Lens`
+> Moves: `Thunder-Wave` `Destiny-Bond` `Charm` `Trick`
+- **GMAX-Corviknight #7184**
+> Equip: `Safety_Goggles`
+> Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+- **Victreebel #71**
+> Equip: `Luck_Incense`
+> Moves: NA
 
+**STRATEGY:**
+- [Mimikyu] Thunder-Wave
+- [GMAX-Corviknight] Bulk-Up +6
+- [GMAX-Corviknight] Max-Quake +6
+- [GMAX-Corviknight] Power-Trip spam
+- [GMAX-Corviknight] Roost on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- If Alolan-Muk is lead, use Thunder-wave then Charm til it has -6 attack.
+- If Amoonguss/Roserade is lead, swap to Corviknight and do the usual setup.
+- If Mega-Beedril is lead, swap to Corviknight. If it uses a move with no effect, swap back to Mimikyu otherwise do the usual setup. If it uses a super effective move, swap back to Mimikyu and use Destiny-Bond then swap to Corviknight and do the usual setup.
+- Trick is optionally used to remove healing items from opponents.
+- If you face Arceus-Poison in the back spamming Recover, swap to Victreebel and sacrifice it then spam Destiny-Bond with Mimikyu.
+"""
+
+    dra = f"""**TEAM:**
+- **Illumise #314**
+> Ability: `Prankster`
+> Equip: `NA`
+> Moves: `Charm` `Captivate` `Thunder-Wave` `Wish`
+- **Arceus-Fairy #7618**
+> Nature: `Bold`
+> Equip: `Leftovers`
+> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+- **Dragonite #149**
+> Equip: `Luck_Incense`
+> Moves: NA
+
+**STRATEGY:**
+- [Illumise] -Charm/Captivate -6 or until it dies (Charm if physical attacker, otherwise use Captivate)
+- [Arceus] Calm-Mind +6
+- [Arceus] Iron-Defense +6
+- [Arceus] Judgment spam
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- If Gyarados/Dragonite is lead, use Charm.
+- You can optionally use Wish with Illumise whenever gyarados "bounces up high".
+- If lead enemy locks a dragon move against Illumise, swap to Arceus and do Iron-Defense first, then alternate between that and, Calm-Mind.
+- Heal to full HP when Salamence/Mega-Salamence enters since their moves deal heavy damage.
+- After setting up against Noivern, stall until you are taunted then kill using Judgment with taunt ending so you can use Recover for the next enemy.
+"""
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
 - **Zacian-Crowned #7891**
@@ -1862,7 +1921,9 @@ B. For Kangaskhan w/ Sash
 - [Arceus] Recover on Low HP"""
 
     ven = None
-
+    # New Megas
+    vic = None
+    dra = None
 
 class SD_MC_DEX_NUM:
     abo = 7070  # abomasnow
@@ -1913,7 +1974,9 @@ class SD_MC_DEX_NUM:
     swa = 7019  # swampert
     tyr = 7088  # tyranitar
     ven = 7001  # venusaur
-
+    # New Megas
+    vic = 7302 # victreebel
+    dra = 7305 # dragonite
 
 class SD_MC_GOLD_THUMBNAIL:
     abo = GOLDEN_MEGA_POKEMON_URL.mega_abomasnow
@@ -1998,6 +2061,9 @@ class SD_MC_GOLD_THUMBNAIL:
     tyr = GOLDEN_MEGA_POKEMON_URL.mega_tyranitar
     ven = None
 
+    # NEW MEGAS
+    vic = None
+    dra = None
 
 class SD_MC_WHOLE_NAME:
     abo = "abomasnow"
@@ -2049,6 +2115,10 @@ class SD_MC_WHOLE_NAME:
     tyr = "tyranitar"
     ven = "venusaur"
 
+    # New Megas
+    vic = "victreebel"
+    dra = "dragonite"
+
 
 class MC_REGULAR_BUTTON_EMOJI:
     abo = "<:7070:1478741619145441331>"
@@ -2099,6 +2169,8 @@ class MC_REGULAR_BUTTON_EMOJI:
     swa = "<:7019:1478741656009445610>"
     tyr = "<:7088:1478741606050955485>"
     ven = "<:7001:1478741675512696882>"
+    vic = "<:7302:1492321292073041931>"
+    dra = "<:7305:1492321916101595186>"
 
 
 class MC_GOLD_BUTTON_EMOJI:
@@ -2150,6 +2222,10 @@ class MC_GOLD_BUTTON_EMOJI:
     swa = "<:7021:1478741560731504732>"
     tyr = "<:7090:1478741536387629117>"
     ven = None
+
+    # New Megas
+    vic = None
+    dra = None
 
 mc_dict = {
     "abo": {

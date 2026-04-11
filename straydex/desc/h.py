@@ -400,6 +400,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCCHX`**  MC: Mega Charizard X
 - **`!MCCHY`**  MC: Mega Charizard Y
 - **`!MCDIA`**  MC: Mega Diancie
+- **`!MCDRA`**  MC: Mega Dragonite
 - **`!MCGAL`**  MC: Mega Gallade
 - **`!MCGAR`**  MC: Mega Garchomp
 - **`!MCGAV`**  MC: Mega Gardevoir
@@ -431,7 +432,8 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCSTE`**  MC: Mega Steelix
 - **`!MCSWA`**  MC: Mega Swampert
 - **`!MCTYR`**  MC: Mega Tyranitar
-- **`!MCVEN`**  MC: Mega Venusaur"""
+- **`!MCVEN`**  MC: Mega Venusaur
+- **`!MCVIC`**  MC: Mega Victreebel"""
 
     na = f"""# STRAYDEX: NATURE
 - Nature is a mechanic that influences how a Pokémon’s stats grow and also affects its personality traits.

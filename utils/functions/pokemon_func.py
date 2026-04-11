@@ -86,8 +86,24 @@ def get_name_via_dex(dex_number: str | int) -> str | None:
     for pokemon in IN_GAME_MONS_LIST:
         if get_dex_number_by_name(pokemon) == dex_number:
             return pokemon
+    from utils.cache.market_value_cache import fetch_pokemon_name_by_dex_cache
 
-    return None
+    pretty_log(
+        "debug",
+        f"Name not found in IN_GAME_MONS_LIST for dex {dex_number}, checking market value cache.",
+    )
+    fallback_name = fetch_pokemon_name_by_dex_cache(dex_number)
+    if fallback_name:
+        pretty_log(
+            "debug",
+            f"Found name '{fallback_name}' in market value cache for dex {dex_number}.",
+        )
+    else:
+        pretty_log(
+            "warn",
+            f"Failed to find Pokémon name for dex {dex_number} in both IN_GAME_MONS_LIST and market value cache.",
+        )
+    return fetch_pokemon_name_by_dex_cache(dex_number)
 
 
 # ✨───────────────────────────────────────────────

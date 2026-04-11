@@ -277,6 +277,8 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         variant_name if not is_digit else get_name_via_dex(str(pokemon_input))
     )
 
+
+
     embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
 
     mult_order = ["4x", "2x", "1x", "1/2x", "1/4x", "0x"]

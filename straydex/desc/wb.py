@@ -551,18 +551,17 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar #687**
-*Remove Contrary Ability*
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Mega Mewtwo Y #7121**
+- **Mega-Mewtwo-Y #7121**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
 Moves: `Stored-Power`
@@ -570,34 +569,33 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  3x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega Mewtwo Y**.
-- With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
+- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, spam `Stored-Power`, and use Max Potions to heal."""
 
-    steel = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
+    braviary = f"""**TEAM:**
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar #687**
-*Remove Contrary Ability*
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Hisuian-Braviary #7816**
 *Get Tinted Lens Ability*
 Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Metronome`
-Moves: `Stored-Power` `Psychic-Terrain` `Roost`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  3x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Hisuian-Braviary**.
-- With **Hisuian-Braviary**, use `Psychic-Terrain` then spam `Stored-Power`, and use `Roost` to heal. Reapply `Psychic-Terrain` every 5 turns."""
+- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Hisuian-Braviary**.
+- With **Hisuian-Braviary**, spam `Stored-Power`, and use Max Potions to heal."""
 
     gengar = f"""**TEAM:**
 - **Latios #381**
@@ -623,15 +621,14 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
 
     necorzma_ultra = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar #687**
-*Remove Contrary Ability*
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Necrozma-Ultra #7693**
@@ -642,20 +639,19 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  3x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
+- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
 - With **Necrozma-Ultra**, spam `Stored-Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Screech` `Eerie-Impulse` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Malamar #687**
-*Remove Contrary Ability*
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Incineroar #727**
@@ -665,8 +661,8 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  3x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 9x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
+- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Screech`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Incineroar**.
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
     coa = f"""**TEAM:**
@@ -692,10 +688,10 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Vaporeon** use 1x `Aqua-Ring`, 3x `Fake-Tears`, then `Baton-Pass` to **Primal-Kyogre**.
 - With **Primal-Kyogre** spam `Water-Spout`, and use Max Potions to heal."""
 
-    gri = f"""**TEAM:**
+    zac_crowned = f"""**TEAM:**
 - **Mew #151**
 Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
+Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Malamar #687**
@@ -704,17 +700,17 @@ Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Gmax-Hatterene #7238**
-Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Metronome`
-Moves: `Max Starfall` `Draining-Kiss` `Calm-Mind` `Max-Darkness`
-EVs: `SPA 252` `SPD 252` `HP 6`
+- **Zacian-Crowned #7891**
+Nature: `+Atk (Any +Atk Nature except Naughty)`
+Equip: `Choice_Band`
+Moves: `Behemoth-Blade`
+EVs: `ATK 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Gmax Hatterene**.
-- With **Gmax Hatterene**,  spam `Max Starfall`, heal with `Draining-Kiss` and if enemy sp def went up use `Max-Darkness`."""
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Screech`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Zacian-Crowned**.
+- With **Zacian-Crowned**,  spam `Behemoth-Blade`. Use Max Potions to heal."""
 
     uss = f"""**TEAM:**
 - **Mew #151**
@@ -740,7 +736,7 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 - With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Gmax Hatterene**.
 - With **Mega Gardevoir**,  spam `Hyper-Beam`, and heal with `Draining-Kiss`."""
 
-    pg_glalie = f"""**TEAM:**
+    glalie = f"""**TEAM:**
 - **Mew #151**
 Equip: `Loaded_Dice | Wise_Glasses`
 Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
@@ -751,26 +747,17 @@ Equip: `Loaded_Dice | Clear_Amulet`
 Moves: `Hone-Claws` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Primal-Groudon #7573 | Groudon #383**
-Equip: `Metronome`
-Moves: `Defense-Curl` `Rollout` `Hone-Claws`
-EVs: `ATK 252` `SPD 252` `HP 6`
-Or
 - **Mega-Glalie #7130**
+Nature: `+Atk (Any +Atk Nature except Naughty)`
 Equip: `Metronome`
 Moves: `Defense-Curl` `Ice-Ball`
 EVs: `ATK 252` `SPD 252` `HP 6`
 
-**MVP PRIMAL-GROUDON STRATEGY:** {Emojis.star}
-- Use 2x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Primal-Groudon**.
-- With **Primal-Groudon**, use 1x `Hone-Claws`, 1x `Defense-Curl`, 1x Aux Powerguard, then spam `Rollout`.
-
-**MVP MEGA-GLALIE STRATEGY:** {Emojis.star}
-- Use 2x Aux Powerguard.
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`,3x `Screech` then `Baton-Pass`to **Latios**.
 - With **Latios**, use 1x `Hone-Claws` then `Baton-Pass` to **Mega-Glalie**
-- With **Mega-Glalie**, use 1x `Defense-Curl`, 1x Aux Powerguard, then spam `Ice-Ball`."""
+- With **Mega-Glalie**, use 1x `Defense-Curl`, then spam `Ice-Ball`. Use Max Potions to heal."""
 
     pg = f"""**TEAM:**
 - **Mew #151**
@@ -792,3 +779,26 @@ EVs: `ATK 252` `SPD 252` `HP 6`
 - Use 2x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Primal-Groudon**.
 - With **Primal-Groudon**, use 1x `Hone-Claws`, `1x Defense-Curl`, 1x Aux Powerguard, then spam `Rollout`."""
+
+    shuckle = f"""**TEAM:**
+- **Mew #151**
+Equip: `Loaded_Dice | Wise_Glasses | Clear_Amulet`
+Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Latios #381**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Hone-Claws` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shuckle #213**
+Nature: `+Def (Any +Def Nature except Lax)`
+Equip: `Metronome`
+Moves: `Defense-Curl` `Rollout` `Power-Trick`
+EVs: `ATK 252` `DEF 252` `SPD 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Latios*.
+- With **Latios**, use 1x `Hone-Claws` then `Baton-Pass` to **Shuckle**.
+- With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
