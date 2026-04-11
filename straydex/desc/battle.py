@@ -701,7 +701,7 @@ __OR__
 __**1st Position**__
 - **Zacian-Crowned #7891**
 > Equip: `Choice_Scarf`
-> Moves: `Memento`
+> Moves: `Noble-Roar`
 
 __**2nd Position**__
 - **Arceus #493**
