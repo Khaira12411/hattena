@@ -139,7 +139,7 @@ straydex_ar = {
             "function": build_sd_main_embed,
         }
     },
-    "rps": {
+    "rpsg": {
         "": {
             "function": build_sd_rps_main_info_embed,
         }

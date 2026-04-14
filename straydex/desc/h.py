@@ -23,7 +23,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!PA`**  Patreon Codex
 - **`!PO`**  Pokemon Codex
 - **`!PS`**  Power Station Codex
-- **`!RPS`** RPS Game Codex
+- **`!RPSG`** RPS Game Codex
 - **`!SZ`**  Safari Zone Codex
 - **`!TCG`** TCG Codex
 - **`!TR`**  Trainer Codex
