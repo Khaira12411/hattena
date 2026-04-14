@@ -255,4 +255,4 @@ def pretty_print_pokemon(name):
         print(f"No data for {name}")
         return
     print(f"{name.title()}\nStats: {data['stats']}\nAbilities: {data['abilities']}")
-    print(f"{name.title()}\nStats: {data['stats']}\nAbilities: {data['abilities']}")
+

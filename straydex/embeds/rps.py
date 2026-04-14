@@ -17,11 +17,19 @@ async def build_sd_rps_main_info_embed(
     user_display_name: str,
     user_id: int,
 ):
-    desc = RPS_DESC.info
-    embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
-    footer_text = get_default_footer(user_display_name)
-    icon_url = guild.icon.url if guild.icon else None
-    embed.set_footer(text=footer_text, icon_url=icon_url)
-    embed.set_image(url=SD_MAIN_IMAGES.RPS)
-    embed.set_author(name="STRAYDEX")
-    return embed, None, None 
+    try:
+        desc = RPS_DESC.info
+        embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
+        footer_text = get_default_footer(user_display_name)
+        icon_url = guild.icon.url if guild.icon else None
+        embed.set_footer(text=footer_text, icon_url=icon_url)
+        embed.set_image(url=SD_MAIN_IMAGES.RPS)
+        embed.set_author(name="STRAYDEX")
+        return embed, None, None
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Error building RPS main info embed: {e}",
+            include_trace=True,
+        )
+        return None, None, None
