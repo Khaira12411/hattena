@@ -18,7 +18,7 @@ async def build_sd_type_embed(
 ):
 
     try:
-        type_name = main_cmd.capitalize()
+        type_name = main_cmd.upper() 
         emoji = TYPE_EMOJIS.get(main_cmd.lower(), "")
         display_type = f"{emoji} {type_name}" if emoji else type_name
         display_type_str = f"# {display_type} TYPE\n"
