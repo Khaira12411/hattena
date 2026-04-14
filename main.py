@@ -22,7 +22,7 @@ from constants.straymons_constants import DEFAULT_EMBED_COLOR, STRAYMONS_GUILD_I
 
 # ❀───────────────────────────────❀
 #       💖  Suppress Logs  💖
-# ❀───────────────────────────────❀Unresolved Pokemon input:
+# ❀───────────────────────────────❀
 """logging.basicConfig(level=logging.CRITICAL)
 for logger_name in [
     "discord",

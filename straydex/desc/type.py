@@ -1,5 +1,4 @@
-SD_TYPE_DESC = """# BUG TYPE
-<a:fidough_wow:1283739703140679703>  ***FidNotes:** For Pokemon specific weakness chart, use the command:*
+SD_TYPE_DESC = """<a:fidough_wow:1283739703140679703>  ***FidNotes:** For Pokemon specific weakness chart, use the command:*
 `/LOOKUP WEAKNESS <pokemon>`."""
 
 type_info = {
