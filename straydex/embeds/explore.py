@@ -172,7 +172,7 @@ class SecretSelectionView(View):
     """
 
     def __init__(self, sd_helper, explore_map: str, current_secret: str, user_id: int):
-        super().__init__(timeout=None)  # persistent view, no timeout
+        super().__init__(timeout=300)  # persistent view, no timeout
         self.sd_helper = sd_helper
         self.map_key = explore_map
         self.current_secret = current_secret

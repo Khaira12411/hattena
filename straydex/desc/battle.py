@@ -201,7 +201,6 @@ __**2nd Position**__
 - [Primal-Kyogre] Water-Spout spam
 - [Zacian] Crunch when spam  against Mega-Metagross, Deoxys-Defense, and Mega-Rayquaza, or when Kyogre is low hp against other enemies."""
 
-
     ts = f"""# BATTLE TOWER STRAT
 ## NON-SETUP TEAM
 ### TEAM A:
@@ -699,21 +698,31 @@ __OR__
 
 **TEAM:**
 __**1st Position**__
-- **Zacian-Crowned #7891**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+- **Shuckle #213**
+> Equip: `Ability_Shield | None`
+> Moves: `Power-Split`
 
 __**2nd Position**__
+- **Whimsicott #547**
+> Equip: `None`
+> Moves: `Memento` `Leech-Seed`
+
+__**3rd Position**__
 - **Arceus #493**
 > Equip: `Leftovers`
 > Moves: `Cosmic-Power`  `Toxic`  `Body-Press`  `Recover`
 
 **STRATEGY:**
-- [Zacian] Noble-Roar -6
+- [Shuckle] Power-Split
+- [Whimsicott] Memento/Leech-Seed
 - [Arceus] Cosmic-Power +6
 - [Arceus] Toxic
 - [Arceus] Body-Press spam
-- [Arceus] Recover when low hp"""
+- [Arceus] Recover when low hp
+
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:***
+- If Togekiss used an attacking move, use Memento. If it used Amnesia, use Leech-Seed then Memento.
+"""
 
     # ---------------------------
 
@@ -878,7 +887,9 @@ class SD_BATTLE_THUMBNAIL:
 
     cma = "https://media.discordapp.net/attachments/1382540357123965029/1382562850299711600/e855c128ee6d18c291c6135a056ac3312f914e89ed4ac40310ffb7576f7c575f.png?ex=689cafbe&is=689b5e3e&hm=09dd886519eb012460a120b375cb91a6fd6115f91db03e0f4e536c7afdf857f3&=&format=webp&quality=lossless&width=203&height=432"
 
-    leg = "https://media.discordapp.net/attachments/1382540357123965029/1384213535499882767/1373280913013870622.png?ex=689cc250&is=689b70d0&hm=5ed3d852dfda3031e6507aa816405523ffed8cb8a19502c2cd12aeae79b2278e&=&format=webp&quality=lossless&width=68&height=101"
+
+    leg = "https://media.discordapp.net/attachments/1382540357123965029/1493970445651935403/kanto_champ_blue.png?ex=69e0e7e6&is=69df9666&hm=f9b3857bc111fee5969856926ff0186123a71db33866c4c35804d7c15920a20e&=&format=webp&quality=lossless&width=70&height=70"
+
     # ---------------------------
     cba2 = "https://media.discordapp.net/attachments/1382540357123965029/1382545849657331784/236471e7ce1886bbcc37d371b24bb17e99c8a47e57043f8b8198a5bad768c06c.png?ex=689c9fe9&is=689b4e69&hm=59a79417b18ccf6b939a423ea24e3169647ddf60570a00e574f212aafea75487&=&format=webp&quality=lossless&width=179&height=498"
 
@@ -886,8 +897,7 @@ class SD_BATTLE_THUMBNAIL:
 
     cma2 = "https://media.discordapp.net/attachments/1382540357123965029/1382562936828072046/9629ff5f2cb5d69d0911073904b0901c14d9c12ec6c1ef0357d0f7916a72cc56.png?ex=689cafd2&is=689b5e52&hm=dacb1fadb3f6ee435668f664976d2661d70ca320c8ec51c67bbe2ee3d61b0e9d&=&format=webp&quality=lossless&width=90&height=268"
 
-    leg2 = "https://media.discordapp.net/attachments/1382540357123965029/1384213656103030884/1373013775803744388.png?ex=689cc26d&is=689b70ed&hm=c0610ea321e7d9372860b5d43432dfa9110a6fa2400db5c61bd9e2ac8da3d469&=&format=webp&quality=lossless&width=68&height=104"
-
+    leg2 = "https://media.discordapp.net/attachments/1382540357123965029/1493973933458853918/legend_lance.png?ex=69e0eb26&is=69df99a6&hm=7be68b81cf567ccea5fcd9c0b68ae29351d8fd7f8de81616f0ee7a077275b2a9&=&format=webp&quality=lossless&width=70&height=70"
     # --------------------------
 
     cba3 = "https://media.discordapp.net/attachments/1382540357123965029/1382545849950797824/c0b36978ca221a84f04cc4bc61aa4bb44fa45c9551f441939422a5dbca8bd434.png?ex=689c9fe9&is=689b4e69&hm=e958ef4540b46931b3349cd78ac8bd4c299a9043cdebd4f487cbcdfa899292b1&=&format=webp&quality=lossless&width=281&height=369"
@@ -896,24 +906,30 @@ class SD_BATTLE_THUMBNAIL:
 
     cma3 = "https://media.discordapp.net/attachments/1382540357123965029/1382563263002316863/eb4d2231fc850910668424f2fc14b1bddfd3343369c4258487333167321c984b.png?ex=689cb020&is=689b5ea0&hm=9521bceb343cb0ddf93f965a56f4c792fec4e54a769800cd7fd751df3e6e824d&=&format=webp&quality=lossless&width=169&height=341"
 
-    leg3 = "https://media.discordapp.net/attachments/1382540357123965029/1384213736067301466/1373288124599369960.png?ex=689cc280&is=689b7100&hm=f7cab752611eb6fb3cbd5d98b49daecd12cf081020e689a3e8d8ac56e12e262d&=&format=webp&quality=lossless&width=68&height=88"
+
+    leg3 = "https://media.discordapp.net/attachments/1382540357123965029/1493970149621895330/legend_steven.png?ex=69e0e7a0&is=69df9620&hm=5022fad308609e965a27416a85853f1649c5a956c0dfe1e43eba30f0c1d00e48&=&format=webp&quality=lossless&width=70&height=70"
+
     # --------------------------
     cba4 = "https://media.discordapp.net/attachments/1382540357123965029/1382545850236145754/e3d11f3c392d81275458e6398c841cb7c313081f0b4f9c432fd5053e9ba2fc98.png?ex=689c9fe9&is=689b4e69&hm=cdae33b46299bfc168943edd202adceb15b10975ff69fffdad7e6bc40d0ebd32&=&format=webp&quality=lossless&width=281&height=395"
 
     cbo4 = "https://media.discordapp.net/attachments/1382540357123965029/1382559214844641330/6caffeb11db19c9d3b9e872eae74d4db97d45895c39dcd77aa92554ccf762560.png?ex=689cac5b&is=689b5adb&hm=deecfa806c6175908882f37c6bf4bfb5162bb32aefb73888ee88c25c9a92ec25&=&format=webp&quality=lossless&width=203&height=367"
 
-    leg4 = "https://media.discordapp.net/attachments/1382540357123965029/1384213827209662568/1373300473087397972.png?ex=689cc295&is=689b7115&hm=8dc6c7107ccc761f73f2c5f88ba3a180b787e9ae6a53862e9e7292d69b381c9b&=&format=webp&quality=lossless&width=118&height=144"
+    leg4 = "https://media.discordapp.net/attachments/1382540357123965029/1493970595837247488/legend_cynthia.png?ex=69e0e80a&is=69df968a&hm=04bb59c830842b510bb270c4c81191bb3fc396f7e3445a6c2732394fe98ccacd&=&format=webp&quality=lossless&width=70&height=70"
+
     # --------------------------
     cba5 = "https://media.discordapp.net/attachments/1382540357123965029/1382545850575753368/d3702cd61aecd3bcaf572af3f1c63f82a049de26d3f22fdce53175989c038a6b.png?ex=689c9fe9&is=689b4e69&hm=377973c16ee3913c6ed00e8633e1335f063da2c019a546d58845b515c34941a4&=&format=webp&quality=lossless&width=225&height=414"
 
     cbo5 = "https://media.discordapp.net/attachments/1382540357123965029/1382559309124206592/cd494e44a20dc9ff5be2498fa89e4e3047b7fad7f3908dd806fdea0183194177.png?ex=689cac72&is=689b5af2&hm=fbf7b08fe74e4d5ba35b0271564e765daba989a5ba0f7d0ff3a6f906603dc2fc&=&format=webp&quality=lossless&width=208&height=334"
 
-    leg5 = "https://media.discordapp.net/attachments/1382540357123965029/1384213898391064810/1373308056196223146.png?ex=689cc2a6&is=689b7126&hm=072aa71e1d098b3a1397821a04b46e91c641b918a2e1cf896c26cd4469d1dceb&=&format=webp&quality=lossless&width=68&height=82"
+
+    leg5 = "https://media.discordapp.net/attachments/1382540357123965029/1493970810724155504/legend_alder.png?ex=69e0e83d&is=69df96bd&hm=fc71a942c2b04362ee23231de720ebcd1158b76221ad7b51c7b46696d7dd996c&=&format=webp&quality=lossless&width=70&height=70"
 
     # --------------------------
     cbo6 = "https://media.discordapp.net/attachments/1382540357123965029/1382559425218351124/0ce9fc7d74fad4dc6608043f77e71557a1aa3d31a064631ddad1f5cf2d800b6c.png?ex=689cac8d&is=689b5b0d&hm=928139e963a3ffc07ddb2db5e081e109bf7a1c3bbab671db379fa5d272821ad7&=&format=webp&quality=lossless&width=138&height=394"
 
-    leg6 = "https://media.discordapp.net/attachments/1382540357123965029/1384214017605632180/1373306559865688195.png?ex=689cc2c3&is=689b7143&hm=0fbd020602d5081feb0661b096fced4dbe05cd29ecee893cbc2441ae846f6732&=&format=webp&quality=lossless&width=68&height=80"
+
+    leg6 = "https://media.discordapp.net/attachments/1382540357123965029/1493970961156804850/legend_sycamore.png?ex=69e0e861&is=69df96e1&hm=eb6f5d98db73b1c3e3d50edf142d41360bb45d8e375440a60b7a9466962c87ee&=&format=webp&quality=lossless&width=70&height=70"
+
 
 
 class SD_BATTLE_BUTTON_LABELS:
@@ -976,12 +992,12 @@ class SD_BATTLE_BUTTON_EMOJIS:
     cse3 = "🧥"
     cse4 = "🎭"
     # --- LEG ---
-    leg = "🔵"
-    leg2 = "🐉"
-    leg3 = "💠"
-    leg4 = "🗡️"
-    leg5 = "🪶"
-    leg6 = "🌿"
+    leg = "<:legend_blue:1493968991092473906>"
+    leg2 = "<:legend_lance:1493969665486225500>"
+    leg3 = "<:legend_steven:1493969662914990193>"
+    leg4 = "<:legend_cynthia:1493969660046213331>"
+    leg5 = "<:legend_alder:1493969657961644174>"
+    leg6 = "<:legend_sycamore:1493969655746924625>"
     # --- TS ---
     ts = "🚫"
     ts2 = "🛠️"

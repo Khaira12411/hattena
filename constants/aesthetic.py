@@ -29,6 +29,7 @@ class Emojis:
     purple_bag = "<:purple_bag:1486269011439259731>"
     purple_magnifying_glass = "<:purple_magnifying_glass:1487356868044001371>"
     berries = "<:berries:1488087469999132672>"
+    notes = "<:notes:1493981222622203934>"
 
 class Dividers:
     purple_flowers = "https://media.discordapp.net/attachments/1393740397905313912/1480036408860213311/image.png?ex=69ae36d1&is=69ace551&hm=beb96520457cd89c530d7c3cbdf1aa881912dfd119b859f60caca5c9773ae55b&=&format=webp&quality=lossless"

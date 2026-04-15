@@ -33,6 +33,28 @@ immunity_ability_custom_desc = {
     "well-baked-body": "Immune to Fire; raises defenses by 2 stages when hit by a Fire move.",
     "wonder-guard": "Shedinja's Wonder Guard only allows super effective moves to hit it, making it immune to all non super effective types.",
 }
+abilities_to_watch_out_for = {
+    # Prevent stat drops
+    "Clear Body": "Prevents stat reduction caused by other Pokémon’s moves or abilities.",
+    "White Smoke": "Prevents stat reduction caused by other Pokémon’s moves or abilities.",
+    "Full Metal Body": "Prevents stat reduction caused by other Pokémon’s moves or abilities.",
+    "Hyper Cutter": "Prevents Attack stat reduction.",
+    "Keen Eye": "Prevents Accuracy stat reduction.",
+    "Big Pecks": "Prevents Defense stat reduction.",
+    "Flower Veil": "Prevents stat drops to Grass-type allies.",
+    "Mirror Armor": "Reflects stat-lowering effects back to the user.",
+    # Punish debuffs
+    "Competitive": "Raises Sp. Atk sharply when any stat is lowered.",
+    "Defiant": "Raises Attack sharply when any stat is lowered.",
+    "Contrary": "Inverts stat changes (so debuffs become buffs, and buffs become debuffs).",
+    # Status power-up
+    "Guts": "Increases Attack by 50% when the Pokémon has a major status condition (burn, paralysis, poison, sleep, freeze).",
+    "Quick Feet": "Increases Speed when statused (ignores Speed drop from paralysis).",
+    "Marvel Scale": "Increases Defense by 50% when statused.",
+    "Flare Boost": "Increases Special Attack by 50% when burned.",
+    "Toxic Boost": "Increases Attack by 50% when poisoned.",
+    "Poison Heal": "When poisoned, the Pokémon heals HP instead of taking damage each turn.",
+}
 
 
 def get_ability_effect(ability_name):
@@ -56,6 +78,8 @@ def get_immunities_based_on_abilities(pokemon_name):
       - Thick Fat halves damage instead of granting immunity.
       - Wonder Guard: only super effective moves can hit.
     """
+    from utils.visuals.type_embed import TYPE_EMOJIS
+
     immunities = set()
     ability_effects = {}
     notes = []
@@ -78,35 +102,61 @@ def get_immunities_based_on_abilities(pokemon_name):
                 ability_effects[ability] = clean_effect
             else:
                 ability_effects[ability] = None
+        watch_effect = abilities_to_watch_out_for.get(ability)
+        if not watch_effect:
+            watch_effect = abilities_to_watch_out_for.get(
+                ability.replace("-", " ").title()
+            )
+        if watch_effect:
+            effect = watch_effect
+            ability_effects[ability] = effect
 
     if not ability_effects:
         note = None
     else:
         note_lines = []
         for ability, desc in ability_effects.items():
-            types = immunity_abilities[ability]
-            type_str = (
-                " and ".join([t.title() for t in types])
-                if len(types) > 1
-                else types[0].title()
-            )
             ability_name = ability.replace("-", " ").title()
             ability_label = f"**__{ability_name} Ability__**"
+
+            if ability not in immunity_abilities:
+                # Keep watch-out descriptions exactly as-is.
+                if multiple:
+                    if ability in hidden:
+                        note_lines.append(
+                            f"- If {ability_label} (Hidden Ability) is active: {desc}"
+                        )
+                    else:
+                        note_lines.append(f"- If {ability_label} is active: {desc}")
+                else:
+                    note_lines.append(f"- {ability_label}: {desc}")
+
+                continue
+
+            types = immunity_abilities[ability]
+            formatted_types = [
+                f"{TYPE_EMOJIS.get(t, '')} {t.title()}".strip() for t in types
+            ]
+            type_str = (
+                " and ".join(formatted_types)
+                if len(formatted_types) > 1
+                else formatted_types[0]
+            )
 
             if ability == "thick-fat":
                 # Special case: Thick Fat halves damage
                 if multiple:
                     if ability in hidden:
                         note_lines.append(
-                            f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} takes only half damage from {type_str} moves."
+                            f"- If {ability_label} (Hidden Ability) is active, {pokemon_name.title()} takes only half damage from {type_str} moves."
                         )
                     else:
                         note_lines.append(
-                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} takes only half damage from {type_str} moves."
+                            f"- If {ability_label} is active, {pokemon_name.title()} takes only half damage from {type_str} moves."
                         )
                 else:
                     note_lines.append(
-                        f"> - {pokemon_name.title()} takes only half damage from {type_str} moves."
+                        f"- {pokemon_name.title()} takes only half damage from {type_str} moves."
                     )
 
             elif ability == "wonder-guard":
@@ -114,15 +164,15 @@ def get_immunities_based_on_abilities(pokemon_name):
                 if multiple:
                     if ability in hidden:
                         note_lines.append(
-                            f"> - If {ability_label} (Hidden Ability) is its active ability then only super effective moves can hit {pokemon_name.title()}."
+                            f"- If {ability_label} (Hidden Ability) is active, only super effective moves can hit {pokemon_name.title()}."
                         )
                     else:
                         note_lines.append(
-                            f"> - If {ability_label} is its active ability then only super effective moves can hit {pokemon_name.title()}."
+                            f"- If {ability_label} is active, only super effective moves can hit {pokemon_name.title()}."
                         )
                 else:
                     note_lines.append(
-                        f"> - Only super effective moves can hit {pokemon_name.title()} because of its Wonder Guard Ability."
+                        f"- Only super effective moves can hit {pokemon_name.title()}, thanks to Wonder Guard."
                     )
 
             else:
@@ -131,29 +181,29 @@ def get_immunities_based_on_abilities(pokemon_name):
                     if ability in hidden:
                         if desc:
                             note_lines.append(
-                                f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                                f"- If {ability_label} (Hidden Ability) is active, {pokemon_name.title()} is immune to {type_str}, and {desc}"
                             )
                         else:
                             note_lines.append(
-                                f"> - If {ability_label} (Hidden Ability) is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                                f"- If {ability_label} (Hidden Ability) is active, {pokemon_name.title()} is immune to {type_str}."
                             )
                     else:
                         if desc:
                             note_lines.append(
-                                f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                                f"- If {ability_label} is active, {pokemon_name.title()} is immune to {type_str}, and {desc}"
                             )
                         else:
                             note_lines.append(
-                                f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                                f"- If {ability_label} is active, {pokemon_name.title()} is immune to {type_str}."
                             )
                 else:
                     if desc:
                         note_lines.append(
-                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str} and {desc}"
+                            f"- {ability_label}: {pokemon_name.title()} is immune to {type_str}, and {desc}"
                         )
                     else:
                         note_lines.append(
-                            f"> - If {ability_label} is its active ability then {pokemon_name.title()} is immune to {type_str}."
+                            f"- {ability_label}: {pokemon_name.title()} is immune to {type_str}."
                         )
         note = "\n".join(note_lines)
 
@@ -209,6 +259,29 @@ def get_pokemon_abilities(name):
     return pokemons.get(key, {}).get("abilities")
 
 
+def format_pokemon_abilities(name) -> str | None:
+    """
+    Return a formatted ability string for the given Pokémon name.
+
+    Examples:
+      Single  -> 'Ability: Levitate'
+            Multiple -> 'Abilities: Levitate | Chlorophyll'
+    """
+    abilities = get_pokemon_abilities(name)
+    if not abilities:
+        return None
+
+    all_abilities = abilities.get("standard", []) + abilities.get("hidden", [])
+    if not all_abilities:
+        return None
+
+    formatted = [a.replace("-", " ").title() for a in all_abilities]
+
+    if len(formatted) == 1:
+        return f"Ability: {formatted[0]}"
+    return f"Abilities: {' | '.join(formatted)}"
+
+
 def get_pokemons_with_ability(ability_name):
     """Return a list of Pokémon names that have the given ability (standard or hidden)."""
     result = []
@@ -255,4 +328,3 @@ def pretty_print_pokemon(name):
         print(f"No data for {name}")
         return
     print(f"{name.title()}\nStats: {data['stats']}\nAbilities: {data['abilities']}")
-

@@ -77,7 +77,7 @@ async def build_sd_main_battle_embed(
 
 class SDBattleView(View):
     def __init__(self, guild: discord.Guild, base_key: str, user_id: int):
-        super().__init__(timeout=None)
+        super().__init__(timeout=300)  # 5 minute timeout
         self.guild = guild
         self.base_key = base_key
         self.user_id = user_id

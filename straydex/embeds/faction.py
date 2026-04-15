@@ -86,7 +86,7 @@ async def build_sd_main_fa_embed(
 
 class SDFactionView(View):
     def __init__(self, guild: discord.Guild, sub_cmd: str, user_id: int):
-        super().__init__(timeout=None)
+        super().__init__(timeout=300)
         self.guild = guild
         self.sub_cmd = sub_cmd
         self.user_id = user_id

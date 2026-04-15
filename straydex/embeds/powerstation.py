@@ -57,7 +57,7 @@ class PowerStationInfoView(View):
         info_embed: discord.Embed,
         rewards_embed: discord.Embed,
     ):
-        super().__init__(timeout=None)
+        super().__init__(timeout=120)
         self.guild = guild
         self.user_id = user_id
         self.info_embed = info_embed
@@ -150,7 +150,7 @@ class PowerStationStratView(View):
         strat_one_embed: discord.Embed,
         strat_two_embed: discord.Embed,
     ):
-        super().__init__(timeout=None)
+        super().__init__(timeout=120)
         self.guild = guild
         self.user_id = user_id
         self.strat_one_embed = strat_one_embed

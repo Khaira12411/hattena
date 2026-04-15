@@ -12,7 +12,7 @@ from utils.functions.stats_and_abilities_functions import (
 )
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.get_pokemon_gifs import get_pokemon_gif
-
+from constants.aesthetic import Emojis
 TYPE_EMOJIS = {
     "grass": SD_EMOJIS.grasstype,
     "fire": SD_EMOJIS.firetype,
@@ -301,5 +301,5 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
 
     notes = get_immunities_based_on_abilities(variant_name)
     if notes and notes[2]:  # Check if note string is present
-        embed.add_field(name="Notes:", value=notes[2], inline=False)
+        embed.add_field(name=f"{Emojis.notes} Notes:", value=notes[2], inline=False)
     return embed, description_lines, embed_title
