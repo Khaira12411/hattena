@@ -4,6 +4,7 @@ import discord
 
 from straydex.AR.h import straydex_ar
 from straydex.desc import type_info
+from utils.functions.retry_function import _retry_discord_send
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
@@ -60,6 +61,10 @@ async def send_response(message_or_interaction, response):
         )
         raise TypeError("Expected discord.Message or discord.Interaction")
 
+    async def send_with_retry(**kwargs):
+        debug_log(f"Sending with retry: {kwargs}")
+        await _retry_discord_send(send_func, **kwargs)
+
     # Now send the response content
     debug_log(f"Preparing to send response of type: {type(response)}")
     if isinstance(response, tuple) and len(response) == 3:
@@ -68,41 +73,41 @@ async def send_response(message_or_interaction, response):
             f"Tuple (3): embeds_or_embed={embeds_or_embed}, view={view}, content={content}"
         )
         if isinstance(embeds_or_embed, list):
-            await send_func(embeds=embeds_or_embed, view=view, content=content)
+            await send_with_retry(embeds=embeds_or_embed, view=view, content=content)
             debug_log("Sent list of embeds with view and content.")
         else:
-            await send_func(embed=embeds_or_embed, view=view, content=content)
+            await send_with_retry(embed=embeds_or_embed, view=view, content=content)
             debug_log("Sent single embed with view and content.")
 
     elif isinstance(response, tuple) and len(response) == 2:
         embeds_or_embed, content = response
         debug_log(f"Tuple (2): embeds_or_embed={embeds_or_embed}, content={content}")
         if isinstance(embeds_or_embed, list):
-            await send_func(embeds=embeds_or_embed, content=content)
+            await send_with_retry(embeds=embeds_or_embed, content=content)
             debug_log("Sent list of embeds with content.")
         else:
-            await send_func(embed=embeds_or_embed, content=content)
+            await send_with_retry(embed=embeds_or_embed, content=content)
             debug_log("Sent single embed with content.")
 
     elif isinstance(response, dict) and "embed" in response and "content" in response:
         # New condition: dict with embed and content
         debug_log(f"Dict: embed={response['embed']}, content={response['content']}")
-        await send_func(embed=response["embed"], content=response["content"])
+        await send_with_retry(embed=response["embed"], content=response["content"])
         debug_log("Sent dict embed and content.")
 
     elif isinstance(response, list):
         debug_log(f"List of embeds: {response}")
-        await send_func(embeds=response)
+        await send_with_retry(embeds=response)
         debug_log("Sent list of embeds.")
 
     elif isinstance(response, discord.Embed):
         debug_log(f"Single embed: {response}")
-        await send_func(embed=response)
+        await send_with_retry(embed=response)
         debug_log("Sent single embed.")
 
     elif isinstance(response, str):
         debug_log(f"String response: {response}")
-        await send_func(content=response)
+        await send_with_retry(content=response)
         debug_log("Sent string response.")
 
     else:
@@ -110,7 +115,7 @@ async def send_response(message_or_interaction, response):
             f"Unknown response type: {type(response)}, value: {response}",
             highlight=True,
         )
-        await send_func(content=str(response))
+        await send_with_retry(content=str(response))
         debug_log("Sent fallback string response.")
 
 
