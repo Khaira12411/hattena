@@ -6,6 +6,7 @@ from utils.functions.pokemon_func import (
     get_dex_number_by_name,
     get_display_name,
     get_name_via_dex,
+    strip_number_tag
 )
 from utils.functions.stats_and_abilities_functions import (
     get_immunities_based_on_abilities,
@@ -13,6 +14,9 @@ from utils.functions.stats_and_abilities_functions import (
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.get_pokemon_gifs import get_pokemon_gif
 from constants.aesthetic import Emojis
+
+
+
 TYPE_EMOJIS = {
     "grass": SD_EMOJIS.grasstype,
     "fire": SD_EMOJIS.firetype,
@@ -235,7 +239,8 @@ def get_pokemon_from_input(pokemon_input: str):
 # -------------------- Embed Builder --------------------
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     # normalized first
-
+    pokemon_input = strip_number_tag(pokemon_input)  # Clean up any trailing dex tags for better matching
+    
     variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
         pokemon_input
     )

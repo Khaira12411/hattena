@@ -8,6 +8,7 @@ from utils.cache.market_value_cache import (
 )
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
+import re
 
 # ✨───────────────────────────────────────────────
 #            📦 Precomputed Lookup Sets
@@ -140,6 +141,11 @@ def format_names_for_market_value_lookup(pokemon_name: str) -> str:
         return pokemon_name.replace("-", " ")
 
     return pokemon_name
+
+
+def strip_number_tag(name: str) -> str:
+    # Removes a space + # + digits at the end of the string
+    return re.sub(r"\s*#\d+$", "", name)
 
 
 def strip_prefixes(pokemon_name: str) -> str:
