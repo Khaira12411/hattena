@@ -365,6 +365,12 @@ Members can show off their collections in <#1298114332583788597>
 
 **VERY RARE BERRIES:**
 - !salacberry
+- !chopleberry
+- !wacanberry
+- !rindoberry
+- !passhoberry
+- !liechiberry
+- !petayaberry
 
 **OTHER BERRIES:**
 - !grazzberry

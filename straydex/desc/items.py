@@ -368,7 +368,13 @@ class SD_IT_IMAGES:
 
     salacberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283359580749985/1480229849435082853.png?ex=69b2c021&is=69b16ea1&hm=3e999df214ba8b57e1a33a8d77f9a57d2887b87eafa53d76d01b3bc4a47d1902&=&format=webp&quality=lossless"
 
-    shucaberry = "https://media.discordapp.net/attachments/1385288189714894953/1481283405860569149/1480229338430443742.png?ex=69b2c02c&is=69b16eac&hm=d4923fdd3656ced3fea6f87c7f5265203a02459651461147b0d23c61dde167ef&=&format=webp&quality=lossless"
+    shucaberry = "https://cdn.discordapp.com/emojis/1480229338430443742.png"
+    chopleberry = "https://cdn.discordapp.com/emojis/1489465706020999279.png"
+    wacanberry = "https://cdn.discordapp.com/emojis/1489466798955823114.png"
+    rindoberry = "https://cdn.discordapp.com/emojis/1489466797509054494.png"
+    passhoberry = "https://cdn.discordapp.com/emojis/1489466796032655550.png"
+    liechiberry = "https://cdn.discordapp.com/emojis/1489466794706997259.png"
+    petayaberry = "https://cdn.discordapp.com/emojis/1489466792353992734.png"
 
     atkmint = "https://media.discordapp.net/attachments/1385288189714894953/1481283449271750797/1480293969526128846.png?ex=69b2c037&is=69b16eb7&hm=79510a92b9a9e2e1b2a4080546881c879238eb5f585c41cb981caf98beec0585&=&format=webp&quality=lossless"
 
@@ -2084,7 +2090,7 @@ class SD_IT:
 - Give to a Pokemon on your team to use.
 
 **GROWTH DURATION:**
-- 6h/stage, 4 stages (25 hours total)
+- 6h/stage, 4 stages (24 hours total)
 
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
@@ -2104,6 +2110,90 @@ class SD_IT:
 **METHOD TO OBTAIN:**
 - `;s`  Shop for <:battle_points:1481286613261746198> 10
 - `;bf shop`  Battle Frontier Shop for <:battle_points:1481286613261746198> 10
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    chopleberry = f"""# CHOPLE BERRY
+**INFO:**
+- Weakens one super-effective Fighting-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    wacanberry = f"""# WACAN BERRY
+**INFO:**
+- Weakens one super-effective Electric-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    rindoberry = f"""# RINDO BERRY
+**INFO:**
+- Weakens one super-effective Grass-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    passhoberry = f"""# PASSHO BERRY
+**INFO:**
+- Weakens one super-effective Water-type hit against the holder. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    liechiberry = f"""# LIECHI BERRY
+**INFO:**
+- Automatically raises Attack when the holder is low on HP. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
+- `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
+
+    petayaberry = f"""# PETAYA BERRY
+**INFO:**
+- Automatically raises Sp. Atk when the holder is low on HP. Single use.
+
+**USAGE:**
+- Give to a Pokemon on your team to use.
+
+**GROWTH DURATION:**
+- 6h/stage, 4 stages (24 hours total)
+
+**METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a **Very Rare** berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     atkmint = f"""# ATK MINT
@@ -2297,6 +2387,7 @@ class SD_IT:
 - 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     cheriberry = f"""# CHERI BERRY
@@ -2310,6 +2401,7 @@ class SD_IT:
 - 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     rawstberry = f"""# RAWST BERRY
@@ -2323,6 +2415,7 @@ class SD_IT:
 - 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     pechaberry = f"""# PECHA BERRY
@@ -2336,6 +2429,7 @@ class SD_IT:
 - 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
+- Bonus drop: may appear as an extra berry reward when harvesting a berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     aspearberry = f"""# ASPEAR BERRY
@@ -2349,6 +2443,7 @@ class SD_IT:
 - 2h/stage, 4 stages (8 hours total)
 
 **METHOD TO OBTAIN:**
+- Bonus drop only: may appear as an extra berry reward when harvesting a berry using `;berry`.
 - `;berry` Plant and harvest when fully grown for 2-5 berries (+2 max with <:gooey_mulch:1488056865857208421> Gooey Mulch)"""
 
     wailmerpail = f"""# WAILMER PAIL

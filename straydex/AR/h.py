@@ -624,6 +624,14 @@ it_sub = [
     "rawstberry",
     "pechaberry",
     "aspearberry",
+    "chopleberry",
+    "wacanberry",
+    "rindoberry",
+    "passhoberry",
+    "liechiberry",
+    "petayaberry",
+
+    # Berry Misc
     "wailmerpail",
     "spraylotad",
     "sprayduck",
