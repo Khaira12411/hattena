@@ -1320,7 +1320,28 @@ class SD_MC_GOLD_STRAT:
 
     ala = None
 
-    alt = None
+    alt = """**TEAM:**
+- **Altaria #334**
+> Equip: `Quick_Claw`
+> Moves: `Captivate` `Feather-Dance` `Endure` `Endeavor`
+
+- **Shuckle #213**
+> Equip: `Quick_Claw`
+> Moves: `Power-Split` `Captivate`
+
+- **Golden Arceus #9493**
+> Nature: `Calm`
+> Equip: `Leftovers`
+> Moves: `Stored-Power` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+
+**STRATEGY:**
+- [Altaria] Captivate/Feather-Dance
+- [Shuckle] Power-Split
+- [Shuckle] Captivate
+- [Arceus] Cosmic-Power +6
+- [Arceus] Toxic
+- [Arceus] Whirlpool"""
 
     amp = SD_MC_REG_STRAT.amp
 
@@ -1989,7 +2010,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     ala = None
 
-    alt = None
+    alt = GOLDEN_MEGA_POKEMON_URL.mega_altaria
 
     amp = GOLDEN_MEGA_POKEMON_URL.mega_ampharos
 
@@ -2179,7 +2200,7 @@ class MC_GOLD_BUTTON_EMOJI:
     aer = None
     agg = "<:7069:1478741542205395157>"
     ala = None
-    alt = None
+    alt = "<:7117:1494538453319160001>"
     amp = "<:7030:1478741557128462398>"
     aud = "<:7096:1478741534626156564>"
     ban = "<:7126:1478741524551438356>"
