@@ -588,6 +588,7 @@ it_sub = [
     "covertcloak",
     "eviolite",
     "flameorb",
+    "toxicorb",
     "heavydutyboots",
     "lightball",
     "rockyhelmet",
