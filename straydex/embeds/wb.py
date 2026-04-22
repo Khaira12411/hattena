@@ -93,10 +93,10 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.necorzma_ultra
         header_text = f"SHINY ETERNAMAX-ETERNATUS #{dex_number}"
 
-    elif boss_name in ["mel", "cop", "dur", "cor", "hat"]:
+    elif boss_name in ["mel", "cop", "dur", "cor"]:
         strat = WB_MVPStrat.braviary
 
-    elif boss_name == "orb":
+    elif boss_name in ("orb", "hat"):
         strat = WB_MVPStrat.incineroar
 
     elif boss_name  in ("app", "fla"):
