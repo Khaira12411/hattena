@@ -733,8 +733,8 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Gmax Hatterene**.
-- With **Mega Gardevoir**,  spam `Hyper-Beam`, and heal with `Draining-Kiss`."""
+- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Mega-Gardevoir**.
+- With **Mega Gardevoir**,  spam `Hyper-Beam`, and heal with `Draining-Kiss`. Use `Safeguard` to prevent from getting statused every 5 turns."""
 
     glalie = f"""**TEAM:**
 - **Mew #151**
