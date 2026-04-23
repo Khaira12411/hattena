@@ -915,26 +915,27 @@ __Or__
 """
 
     pid = f"""**TEAM:**
-- **Golden Zacian #9888**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> EVs: `SPE 252` `HP 252`
+- **Whimsicott #547**
+> Equip: `Luck_Incense`
+> Moves: `Memento` `Charm` `Protect`
 - **Golden Arceus #9493**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
+> Moves: `Iron-Defense` `Recover` `Toxic` `Cosmic-Power`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Pidgeot #18**
 > Equip: `Luck_Incense`
 > Moves: NA
 
 **STRATEGY:**
-- [Zacian] Noble-Roar -6 or until it dies
-- [Arceus] Calm-Mind +6
-- [Arceus] Iron-Defense +6
-- [Arceus] Judgment spam
+- [Whimsicott] Memento -2
+- [Arceus] Cosmic-Power +6
+- [Arceus] Toxic
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703>  ***FidNotes:*** *You can also use Arceus-Electric/Ice/Rock with Leftovers and Judgment.*"""
+> <a:fidough_wow:1283739703140679703>  ***FidNotes:***
+- You can also use Arceus-Electric/Ice/Rock.
+- Use Iron-Defense first instead of Cosmic-Power if you are against a strong physical attacker first then  do Cosmic-Power after.
+- In finals against Arceus lead, use Protect then swap to Pidgeot let it die then use protect again to bait V-Create then do the usual setup with Arceus."""
 
     pin = f"""**TEAM:**
 - **Golden Zacian #9888**
