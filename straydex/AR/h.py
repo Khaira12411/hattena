@@ -220,6 +220,11 @@ for sub in battle_frontier_sub:
             "sub_cmd": sub,
             "function": build_sd_main_pyramid_info_embed,
         }
+    elif sub == "pal":
+        straydex_ar["bf"][sub] = {
+            "sub_cmd": sub,
+            "function": build_sd_main_palace_info_embed,
+        }
     else:
         straydex_ar["bf"][sub] = {
                 "sub_cmd": sub,
