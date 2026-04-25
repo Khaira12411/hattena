@@ -37,6 +37,53 @@ async def build_sd_bf_main_info_embed(
     return embed, content
 
 
+def build_sd_battle_palace_2_embed(
+    guild: discord.Guild,
+    user_display_name: str,
+):
+    guide_abv = "palace_2"
+    main_palace = "palace"
+    desc = getattr(BF_DESC, guide_abv)
+    author_image_url = getattr(BF_AUTHOR_IMAGE_URL, main_palace)
+    thumbnail_url = getattr(BF_THUMBNAIL, main_palace)
+    image_url = getattr(BF_IMAGE_URL, main_palace)
+    embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
+    footer_text = get_default_footer(user_display_name)
+    icon_url = guild.icon.url if guild.icon else None
+    embed.set_footer(text=footer_text, icon_url=icon_url)
+    embed.set_image(url=image_url)
+    embed.set_thumbnail(url=thumbnail_url)
+    embed.set_author(name="STRAYDEX", icon_url=author_image_url)
+    content = f" # STRAYDEX BATTLE FRONTIER"
+    return embed, content
+
+async def build_sd_main_palace_info_embed(
+    guild: discord.Guild, user_display_name: str, user_id: int, sub_cmd: str
+):
+    content = f" # STRAYDEX BATTLE FRONTIER"
+    palace_embed, _ = await build_sd_bf_main_info_embed(guild, user_display_name, "pal")
+    palace_2_embed, _ = build_sd_battle_palace_2_embed(guild, user_display_name)
+    try:
+        view = SD_PALACE(
+            guild=guild,
+            user_id=user_id,
+            palace_embed=palace_embed,
+            palace_2_embed=palace_2_embed,
+        )
+        return palace_embed, view, content
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Error building Battle Palace main embed: {e}",
+            include_trace=True,
+        )
+        fallback_embed = discord.Embed(
+            title="Battle Palace",
+            description="An error occurred while loading the Battle Palace information. Please try again later.",
+            color=SD_CONFIG.error_color,
+        )
+        return fallback_embed, None, content
+    
 async def build_sd_main_pyramid_info_embed(
     guild: discord.Guild, user_display_name: str, user_id: int, sub_cmd: str
 ):
@@ -185,3 +232,84 @@ class SD_PYRAMID(View):
     )
     async def items_button(self, interaction: discord.Interaction, button: Button):
         await self.switch_embed(interaction, "items")
+
+    async def on_timeout(self):
+        for child in self.children:
+            if isinstance(child, Button):
+                child.disabled = True
+        try:
+            await self.message.edit(view=self)
+        except Exception as e:
+            pass
+
+class SD_PALACE(View):
+    def __init__(
+        self,
+        guild: discord.Guild,
+        user_id: int,
+        palace_embed: discord.Embed,
+        palace_2_embed: discord.Embed,
+    ):
+        super().__init__(timeout=300)
+        self.guild = guild
+        self.user_id = user_id
+        self.palace_embed = palace_embed
+        self.palace_2_embed = palace_2_embed
+        self.current_embed = "palace"
+
+        self.update_button_states()
+    def update_button_states(self):
+        for child in self.children:
+            if isinstance(child, Button):
+                child.disabled = child.custom_id == self.current_embed
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.user_id:
+            await interaction.response.send_message(
+                "⚠️ Only the original user can use these buttons.",
+                ephemeral=True,
+            )
+            return False
+        return True
+    async def switch_embed(self, interaction: discord.Interaction, embed_name: str):
+        try:
+            if embed_name == "palace":
+                embed = self.palace_embed
+            elif embed_name == "palace_2":
+                embed = self.palace_2_embed
+            else:
+                return
+
+            self.current_embed = embed_name
+            self.update_button_states()
+            await interaction.response.edit_message(embed=embed, view=self)
+        except Exception as e:
+            pretty_log(message=f"Error switching embed: {e}", tag="error")
+
+    # ───────────── Buttons ─────────────
+    @discord.ui.button(
+        label="Guide A",
+        style=discord.ButtonStyle.secondary,
+        custom_id="palace",
+        emoji=Emojis.battle,
+    )
+    async def palace_button(self, interaction: discord.Interaction, button: Button):
+        await self.switch_embed(interaction, "palace")
+
+    @discord.ui.button(
+        label="Guide B",
+        style=discord.ButtonStyle.secondary,
+        custom_id="palace_2",
+        emoji=Emojis.battle,
+    )
+    async def palace_2_button(self, interaction: discord.Interaction, button: Button):
+        await self.switch_embed(interaction, "palace_2")
+
+    async def on_timeout(self):
+        for child in self.children:
+            if isinstance(child, Button):
+                child.disabled = True
+        try:
+            await self.message.edit(view=self)
+        except Exception as e:
+            pass

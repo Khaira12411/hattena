@@ -87,7 +87,7 @@ class BF_DESC:
 
 {Emojis.star} **Credits to:** Misery for Blissey."""
 
-    palace = f"""# BATTLE PALACE GUIDE
+    palace = f"""# BATTLE PALACE GUIDE A
 **MILESTONES:**
 - <:silver_spirits_symbol:1484879573177995344> **Silver Symbol:** Round 3, Battle 7
 - <:gold_spirits_symbol:1484879654668992667> **Gold Symbol:** Round 6, Battle 7
@@ -95,7 +95,7 @@ class BF_DESC:
 **EXTRA ITEM REWARD FOR GOLD SYMBOL:**
 - **1x <:throat_spray:1485090544131637268> Throat Spray** - Raises the holder's Sp. Atk after it successfully uses a sound-based move. Single use.
 
-**TEAM:**
+**TEAM A:**
 > Nature for whole team: `Sassy`
 - **Metagross #376**
 > Equip: `Life_Orb`
@@ -115,6 +115,35 @@ class BF_DESC:
 - If Metagross dies switch to Salamence, if Salamence dies switch to Swampert.
 
 {Emojis.star} **Credits to:** Ramsay and arandomcat for this team."""
+
+    palace_2 = f"""# BATTLE PALACE GUIDE B
+**MILESTONES:**
+- <:silver_spirits_symbol:1484879573177995344> **Silver Symbol:** Round 3, Battle 7
+- <:gold_spirits_symbol:1484879654668992667> **Gold Symbol:** Round 6, Battle 7
+
+**EXTRA ITEM REWARD FOR GOLD SYMBOL:**
+- **1x <:throat_spray:1485090544131637268> Throat Spray** - Raises the holder's Sp. Atk after it successfully uses a sound-based move. Single use.
+
+**TEAM A:**
+> Nature for whole team: `Sassy`
+- **Latios #381**
+> Equip: `Choice_Scarf`
+> Moves: `Surf` `Aura-Sphere` `Psychic` `Dragon-Pulse`
+- **Salamence #373**
+> Equip: `Lum_Berry`
+> Moves: `Outrage` `Thunder-Fang` `Aerial-Ace` `Earthquake`
+- **Metagross #376**
+> Equip: `Sitrus_Berry`
+> Moves: `Meteor-Mash` `Knock-Off` `Earthquake` `Psychic-Fangs`
+
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
+- All Pokémon must have atleast more than 12 IVs for optimal results
+- Adding EV is optional but it would be better if its 252 Hp, 128 Def and 128 Sp. Def.
+- After Latios faints, switch to Metagross — unless the opponent is a Fire or Ground-type, in which case switch to Salamence instead.
+
+{Emojis.star} **Credits to:** Yuki for this team."""
 
     pyramid = f"""# BATTLE PYRAMID TEAM
 **MILESTONES:**
