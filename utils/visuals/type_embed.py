@@ -240,7 +240,7 @@ def get_pokemon_from_input(pokemon_input: str):
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     # normalized first
     pokemon_input = strip_number_tag(pokemon_input)  # Clean up any trailing dex tags for better matching
-    
+
     variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
         pokemon_input
     )
@@ -307,4 +307,10 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     notes = get_immunities_based_on_abilities(variant_name)
     if notes and notes[2]:  # Check if note string is present
         embed.add_field(name=f"{Emojis.notes} Notes:", value=notes[2], inline=False)
+
+    from utils.functions.stats_and_abilities_functions import format_pokemon_abilities
+    footer_text = format_pokemon_abilities(variant_name)
+    if footer_text:
+        embed.set_footer(text=footer_text)
+
     return embed, description_lines, embed_title
