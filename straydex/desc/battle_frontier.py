@@ -124,7 +124,7 @@ class BF_DESC:
 **EXTRA ITEM REWARD FOR GOLD SYMBOL:**
 - **1x <:throat_spray:1485090544131637268> Throat Spray** - Raises the holder's Sp. Atk after it successfully uses a sound-based move. Single use.
 
-**TEAM A:**
+**TEAM B:**
 > Nature for whole team: `Sassy`
 - **Latios #381**
 > Equip: `Choice_Scarf`
