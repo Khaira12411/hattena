@@ -1301,6 +1301,7 @@ __Or__
 - When using Whirlpool and it misses, Recover to full HP then repeat procedure again.
 - Don't panic when taunted by Galarian Weezing in finals, just keep spamming Whirlpool until it faints and your taunt runs out. Recover then P song the Mega Clefable.
 - Arceus Poison is usable for all rounds, but will lose to Gmax Hatterene lead in Round 1 due to Excadrill being too strong.
+- If you don't have Covert Cloak, you can use Leftovers, but it has worse winrate for the Gmax Hatterene and Garbodor lineups in Finals. In place of Arceus Fire in round 1, you can use a special defense invested Arceus Ghost with the Stored power set. Only downside is it loses to the Gmax Hatterene lineup.
 - Credits to Tesla for the whole strategy, and to Yuki for Mimikyu."""
 
 
