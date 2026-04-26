@@ -319,6 +319,7 @@ mc_sub = [
     # NEW MEGAS
     "vic",
     "dra",
+    "cle",
 ]
 for sub in mc_sub:
     straydex_ar["mc"][sub] = {

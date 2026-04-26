@@ -405,6 +405,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCCAM`**  MC: Mega Camerupt
 - **`!MCCHX`**  MC: Mega Charizard X
 - **`!MCCHY`**  MC: Mega Charizard Y
+- **`!MCCLE`**  MC: Mega Clefable
 - **`!MCDIA`**  MC: Mega Diancie
 - **`!MCDRA`**  MC: Mega Dragonite
 - **`!MCGAL`**  MC: Mega Gallade
