@@ -1279,21 +1279,21 @@ __Or__
 
 **STRATEGY:**
 - Round 1:
--- Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, setup and Perish-Song Heatran.
--- Gmax-Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and Perish-Song G Clefable.
--- Gmax-Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus setup and use Perish-Song Clefable.
--- Galarian-Weezing Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and when M Scizor enters: Whirl + Recover + Whirl + Perish-Song + Recover, then swap to Clefable and back to Arceus for Gmax Alcremie. Recover spam, setup CP and Recover until you get +3 DEF/SPD then Perish-Song and Recover.
+  • Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, setup and Perish-Song Heatran.
+  • Gmax-Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and Perish-Song G Clefable.
+  • Gmax-Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus setup and use Perish-Song Clefable.
+  • Galarian-Weezing Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and when M Scizor enters: Whirl + Recover + Whirl + Perish-Song + Recover, then swap to Clefable and back to Arceus for Gmax Alcremie. Recover spam, setup CP and Recover until you get +3 DEF/SPD then Perish-Song and Recover.
 - Round 2:
--- Mega-Gengar Lead: Trick-Room + Light-Screen, with Clefable use Trick + Captivate then swap to Arceus, setup and spam Whirlpool. Don't use Perish-Song against Gmax Urshifu-SingleStrike.
--- Gmax-Grimmsnarl Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and spam Whirlpool. Optional to Perish-Song against Gmax Melmetal.
--- Gmax Copperajah Lead: Burning-Jealousy + Light-Screen, then swap to Arceus, setup and Perish-Song Heatran.
--- Gmax Duraludon Lead: Trick-Room + Light-Screen, with Clefable use Captivate then Swap to Arceus, setup and Perish-Song G Scizor.
+  • Mega-Gengar Lead: Trick-Room + Light-Screen, with Clefable use Trick + Captivate then swap to Arceus, setup and spam Whirlpool. Don't use Perish-Song against Gmax Urshifu-SingleStrike.
+  • Gmax-Grimmsnarl Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and spam Whirlpool. Optional to Perish-Song against Gmax Melmetal.
+  • Gmax Copperajah Lead: Burning-Jealousy + Light-Screen, then swap to Arceus, setup and Perish-Song Heatran.
+  • Gmax Duraludon Lead: Trick-Room + Light-Screen, with Clefable use Captivate then Swap to Arceus, setup and Perish-Song G Scizor.
 - Finals:
--- Use Perish-Song against Mega-Clefable.
--- Gmax Melmetal Lead: Burning-Jealousy, then swap to Arceus and setup.
--- Gmax Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, and setup.
--- Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, and setup.
--- Gmax Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus, and setup.
+  • Use Perish-Song against Mega-Clefable.
+  • Gmax Melmetal Lead: Burning-Jealousy, then swap to Arceus and setup.
+  • Gmax Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, and setup.
+  • Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, and setup.
+  • Gmax Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus, and setup.
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - Use Thunder-Wave with Mimikyu if it still hasn't fainted yet after doing its job.
