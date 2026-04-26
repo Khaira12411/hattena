@@ -53,7 +53,7 @@ class SD_MC_ID:
     # New Megas
     vic = 549
     dra = 550
-    clef = 551
+    cle = 551
 
 
 class SD_MC_NPC_IDS:
@@ -1278,27 +1278,30 @@ __Or__
 **Round 2 & Finals:** Mimikyu + Clefable + Arceus-Poison
 
 **STRATEGY:**
-> Round 1:
-- Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, setup and Perish-Song Heatran.
-- Gmax-Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and Perish-Song G Clefable.
-- Gmax-Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus setup and use Perish-Song Clefable.
-- Galarian-Weezing Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and when M Scizor enters: Whirl + Recover + Whirl + Perish-Song + Recover, then swap to Clefable and back to Arceus for Gmax Alcremie. Recover spam, setup CP and Recover until you get +3 DEF/SPD then Perish-Song and Recover.
-> Round 2:
-- Mega-Gengar Lead: Trick-Room + Light-Screen, with Clefable use Trick + Captivate then swap to Arceus, setup and spam Whirlpool. Don't use Perish-Song against Gmax Urshifu-SingleStrike.
-- Gmax-Grimmsnarl Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and spam Whirlpool. Optional to Perish-Song against Gmax Melmetal.
-- Gmax Copperajah Lead: Burning-Jealousy + Light-Screen, then swap to Arceus, setup and Perish-Song Heatran.
-- Gmax Duraludon Lead: Trick-Room + Light-Screen, with Clefable use Captivate then Swap to Arceus, setup and Perish-Song G Scizor.
-> Finals:
-- Use Perish-Song against Mega-Clefable.
-- Gmax Melmetal Lead: Buring-Jealousy, then swap to Arceus and setup.
-- Gmax Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, and setup.
-- Magerna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, and setup.
-- Gmax Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus, and setup.
+- Round 1:
+-- Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, setup and Perish-Song Heatran.
+-- Gmax-Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and Perish-Song G Clefable.
+-- Gmax-Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus setup and use Perish-Song Clefable.
+-- Galarian-Weezing Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and when M Scizor enters: Whirl + Recover + Whirl + Perish-Song + Recover, then swap to Clefable and back to Arceus for Gmax Alcremie. Recover spam, setup CP and Recover until you get +3 DEF/SPD then Perish-Song and Recover.
+- Round 2:
+-- Mega-Gengar Lead: Trick-Room + Light-Screen, with Clefable use Trick + Captivate then swap to Arceus, setup and spam Whirlpool. Don't use Perish-Song against Gmax Urshifu-SingleStrike.
+-- Gmax-Grimmsnarl Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, setup and spam Whirlpool. Optional to Perish-Song against Gmax Melmetal.
+-- Gmax Copperajah Lead: Burning-Jealousy + Light-Screen, then swap to Arceus, setup and Perish-Song Heatran.
+-- Gmax Duraludon Lead: Trick-Room + Light-Screen, with Clefable use Captivate then Swap to Arceus, setup and Perish-Song G Scizor.
+- Finals:
+-- Use Perish-Song against Mega-Clefable.
+-- Gmax Melmetal Lead: Burning-Jealousy, then swap to Arceus and setup.
+-- Gmax Garbordor Lead: Trick-Room + Light-Screen, with Clefable use Trick then swap to Arceus, and setup.
+-- Magearna Lead: Trick-Room + Light-Screen, with Clefable use Captivate then swap to Arceus, and setup.
+-- Gmax Hatterene Lead: Light-Screen, with Clefable use Mystical-Fire then swap to Arceus, and setup.
+
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - Use Thunder-Wave with Mimikyu if it still hasn't fainted yet after doing its job.
 - Recover to Full HP after setup.
+- When using Whirlpool and it misses, Recover to full HP then repeat procedure again.
+- Don't panic when taunted by Galarian Weezing in finals, just keep spamming Whirlpool until it faints and your taunt runs out. Recover then P song the Mega Clefable.
+- Arceus Poison is usable for all rounds, but will lose to Gmax Hatterene lead in Round 1 due to Excadrill being too strong.
 - Credits to Tesla for the whole strategy, and to Yuki for Mimikyu."""
-
 
 
 class SD_MC_GOLD_STRAT:
