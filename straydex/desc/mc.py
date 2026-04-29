@@ -1259,17 +1259,19 @@ __Or__
 > Equip: `Light_Clay`
 > Moves: `Trick-Room` `Thunder-Wave` `Light-Screen` `Burning-Jealousy`
 > EVs: `HP 252` `SPD 252` `DEF 4`
-> IVs: `SPE 292`
+> Stats: `SPE 292`
 - **Clefable #35**
 > Nature: `Any +SPD except -SPE/-DEF`
 > Equip: `Choice_Scarf`
 > Moves: `Trick` `Captivate` `Mystical-Fire`
 > EVs: `HP 252` `SPD 252` `DEF 4`
-> IVs: `SPE 194`
+> Stats: `SPE 194`
 - **Arceus-Fire #7549 | Arceus-Poison #7561**
 > Equip: `Covert_Cloak | Leftovers`
 > Moves: `Whirlpool` `Recover` `Perish-Song` `Cosmic-Power`
-> EVs: `HP 252` `DEF 252` `SPD 4`
+> EVs:
+> Arceus-Fire: `HP 252` `DEF 252` `SPD 4`
+> Arceus-Poison: `HP 252` `SPD 252` `DEF 4`
 > Natures:
 > Arceus-Fire: `Any +DEF except -SPD`
 > Arceus-Poison: `Any +SPD except -DEF`
