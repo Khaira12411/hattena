@@ -575,11 +575,13 @@ Members can show off their collections in <#1298114332583788597>
 - **`!WBPIK`**  WB Gmax-Pikachu
 - **`!WBRIL`**  WB Gmax-Rillaboom
 - **`!WBSAN`**  WB Gmax-Sandaconda
+- **`!WBSKE`**  WB Sketch IDs
 - **`!WBSNO`**  WB Gmax-Snorlax
 - **`!WBTOX`**  WB Gmax-Toxtricity
 - **`!WBURS`**  WB Gmax-Urshifu Rapid Strike
 - **`!WBUSS`**  WB Gmax-Urshifu Single Strike
 - **`!WBVEN`** WB Gmax-Venusaur"""
+
     ubg = """# ULTIMATE BEGINNER GUIDE
 **COMMANDS:**
 - **`!UBGCAP`**  Captcha Guide

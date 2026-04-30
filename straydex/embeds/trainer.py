@@ -163,7 +163,7 @@ class TrainerInfoView(View):
         """Restrict button presses to the original user."""
         if interaction.user.id != self.user_id:
             await interaction.response.send_message(
-                "⚠️ Only the original requester can use these buttons.", ephemeral=True
+                "⚠️ Only the original user can use these buttons.", ephemeral=True
             )
             return False
         return True

@@ -5,8 +5,8 @@ from straydex.config import SD_CONFIG
 from straydex.desc.wb import *
 from straydex.functions.main import (
     get_default_footer,
-
 )
+from constants.aesthetic import Dividers, Emojis
 from utils.logs.pretty_log import pretty_log
 
 wb_map["alc"]
@@ -99,7 +99,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     elif boss_name in ("orb", "hat"):
         strat = WB_MVPStrat.incineroar
 
-    elif boss_name  in ("app", "fla"):
+    elif boss_name in ("app", "fla"):
         strat = WB_MVPStrat.glalie
 
     elif boss_name in ("cen", "cha", "but"):
@@ -263,3 +263,106 @@ async def build_sd_wb_embed(
     )  # pass user_id so you can restrict button presses
     wb_content = "# STRAYDEX: WORLD BOSS"
     return embed, view, wb_content
+
+
+async def build_sd_wb_sketch_embed(
+    guild: discord.Guild, boss_name: str, user_display_name: str, user_id: int
+):
+    #
+    desc = "# WORLD BOSS: SKETCH IDS"
+    embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
+    embed.add_field(
+        name=f"{Emojis.purple_arrow} For Smeargle 1",
+        value=";b user 797775586038513674",
+        inline=False,
+    )
+    embed.add_field(
+        name=f"{Emojis.purple_arrow} For Smeargle 2",
+        value=";b user 788960681814261850",
+        inline=False,
+    )
+    info = f"""
+**Smeargle 1 Team:**
+- Psyduck - `Simple-Beam`
+- Jolteon - `Fake-Tears` `Eerie-Impulse`
+- Ninetales - `Baton-Pass`
+**Smeargle 2 Team:**
+- Igglybuff - `Role-Play`
+- Arrokuda - `Focus-Energy` `Acupressure`
+- Ninetales - `Baton-Pass`
+
+**Notes:**
+- After the Pokemon uses the move you need, press Sketch.
+- You can only sketch once per battle, so you will need to finish the battle or forfeit. (If you haven't trained Smeargle's EVs then forfeit so you don't mess up Evs or turn off your exp share `;t disable expshare`)
+- Buy the Sketch move again. In the next battle, use another Pokemon to knock out the Pokemon whose move you already sketched, then just swap to Smeargle and use Sketch on the next move that you want.
+- For Jolteon and Arrokuda, you have to wait until it uses the move you want before you press Sketch.
+- You need to have two of these for the strategy: Smeargle, Shiny Smeargle, or Golden Smeargle.
+- Credits to OS for this guide."""
+
+    embed.add_field(name=f"{Emojis.info} Info", value=info, inline=False)
+    footer_text = get_default_footer(user_display_name)
+    embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
+    thumbnail_url = "https://graphics.tppcrpg.net/xy/golden/235M.gif"
+
+    embed.set_thumbnail(url=thumbnail_url)
+    embed.set_image(url=Dividers.SD_Alternate)
+    embed.set_author(name="STRAYDEX")
+    view = WBSKETCHVIEW(
+        guild=guild, user_id=user_id, embed=embed
+    )  # pass user_id so you can restrict button presses
+    return embed, view, None
+
+
+class WBSKETCHVIEW(View):
+    def __init__(self, guild, user_id, embed):
+        super().__init__(timeout=120)  # 2 minutes timeout
+        self.guild = guild
+        self.user_id = user_id
+        self.embed = embed
+        self.iphone_copy = False
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        """Restrict button presses to the original user."""
+        if interaction.user.id != self.user_id:
+            await interaction.response.send_message(
+                "⚠️ Only the original user can use these buttons.", ephemeral=True
+            )
+            return False
+        return True
+
+    @discord.ui.button(
+        label="Toggle Iphone Copy",
+        style=discord.ButtonStyle.secondary,
+        emoji=Emojis.toggle,
+    )
+    async def toggle_iphone_copy(
+        self, interaction: discord.Interaction, button: Button
+    ):
+        # Toggle the copy mode
+        self.iphone_copy = not self.iphone_copy
+        # Update button label to reflect the NEXT toggle
+        button.label = (
+            "Toggle Android Copy" if self.iphone_copy else "Toggle Iphone Copy"
+        )
+
+        # Helper to add or remove backticks
+        def toggle_backticks(text, add):
+            if add:
+                if not text.strip().startswith("`"):
+                    return f"`{text.strip()}`"
+                return text
+            else:
+                return text.replace("`", "")
+
+        # Update embed fields if current view is Levels
+        embed = self.embed.copy()
+        for i, field in enumerate(embed.fields):
+            if "Smeargle 1" in field.name or "Smeargle 2" in field.name:
+                embed.set_field_at(
+                    i,
+                    name=field.name,
+                    value=toggle_backticks(field.value, self.iphone_copy),
+                    inline=field.inline,
+                )
+        self.trl_embed = embed
+        await interaction.response.edit_message(embed=self.trl_embed, view=self)

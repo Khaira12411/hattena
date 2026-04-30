@@ -378,6 +378,8 @@ wb_bosses = [
     "tox",
     "urs",
     "ven",
+    # Sketch
+    "ske"
 ]
 for boss in wb_bosses:
     if boss == "i":
@@ -385,6 +387,10 @@ for boss in wb_bosses:
             "text": WB_ConsitentStrat.i,
             "function": build_sd_main_embed,
             "image_url": SD_MAIN_IMAGES.WB,
+        }
+    elif boss == "ske":
+        straydex_ar["wb"][boss] = {
+            "function": build_sd_wb_sketch_embed,
         }
     else:
         straydex_ar["wb"][boss] = {
