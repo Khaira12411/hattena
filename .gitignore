@@ -8,3 +8,4 @@ key.txt
 /database/
 /silhouette/
 /.vscode/
+.venv/

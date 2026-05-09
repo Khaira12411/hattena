@@ -147,7 +147,10 @@ class SD_MC_REG_STRAT:
 - [Arceus] Cosmic-Power +6
 - [Arceus] Toxic for every enemy
 - [Arceus] Body-Press spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- Avoid using Toxic against Mega-Absol since it has the ability Magic Bounce, which will reflect the status move back to Arceus."""
 
     aer = f"""**TEAM:**
 - **Aerodactyl #142**
@@ -391,7 +394,7 @@ class SD_MC_REG_STRAT:
 > EVs: `SPE 252` `HP 252`
 - **Arceus-Water #7555**
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
+> Moves: `Cosmic-Power` `Recover` `Toxic` `Whirlpool`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Camerupt #323**
 > Equip: `Luck_Incense`
@@ -399,10 +402,12 @@ class SD_MC_REG_STRAT:
 
 **STRATEGY:**
 - [Zacian] Noble-Roar -6 or until it dies
-- [Arceus] Calm-Mind +6
-- [Arceus] Iron-Defense +6
-- [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Cosmic-Power +6
+- [Arceus] Toxic
+- [Arceus] Whirlpool spam
+- [Arceus] Recover on Low HP
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- Against Primal-Groudon, use Toxic instead of Whirlpool since it is immune to water moves due to its Desolate Land ability."""
 
     chx = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -843,24 +848,35 @@ __Or__
 > <a:fidough_wow:1283739703140679703> ***FidNotes:*** *You can also use Arceus-Flying as alternative for Fairy.*"""
 
     met = f"""**TEAM:**
-- **Golden Zacian #9888**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
+- **Whimsicott #547**
+> Equip: `Flame_Orb`
+> Moves: `Memento` `Switcheroo` `Light-Screen` `Leech-Seed`
 > EVs: `SPE 252` `HP 252`
-- **Arceus-Dark #7576**
+- **Arceus-Fire #7549**
 > Equip: `Leftovers`
 > Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
 > EVs: `HP 252` `DEF 128` `SPD 128`
 - **Metagross #376**
-> Equip: `Luck_Incense`
-> Moves: NA
+> Equip: `Light_Clay`
+> Moves: `Reflect` `Light-Screen` `Scary-Face`
 
 **STRATEGY:**
-- [Zacian] Noble-Roar -6 or until it dies
+- [Whimsicott] Memento -2
 - [Arceus] Calm-Mind +6
 - [Arceus] Iron-Defense +6
 - [Arceus] Judgment spam
-- [Arceus] Recover on Low HP"""
+- [Arceus] Recover on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- Against Solgaleo/Metagross/Cobalion/Melmetal leads, use Switcheroo with Whimsicott to burn them halving their attack damage then proceed with the usual strategy.
+- Against Scarf Mewtwo lead, use Light-Screen til Mewtwo swaps then use Memento.
+- Against Jirachi lead, use Leech-Seed then Memento.
+- Against Hoopa-Unbound lead, use Light-Screen til Whimsicott dies since you can't use other status moves due to Hoopa-Unbound's dark typing which blocks Whimsicott's Prankster ability.
+- After Whimsicott dies, switch to Metagross to use Reflect if the enemy is physical attacker or Light-Screen if the enemy is special attacker.
+- Against Solgaleo, use Calm-Mind first to protect against Psychic.
+- Against Jirachi, max Calm-Mind first then use one Iron-Defense since Jirachi will stall you with Calm-Mind and Rest.
+- For Finals if you are using Gmax-Corviknight, Do not damage Dialga below half HP with Max-Quake in case it kills itself with Steel-Beam.
+"""
 
     mmx = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -1773,7 +1789,34 @@ B. For Kangaskhan w/ Sash
 
     med = None
 
-    met = None
+    met = f"""**TEAM:**
+- **Mimikyu #778**
+> Equip: `Light_Clay`
+> Moves: `Trick-Room` `Light-Screen` `Confide` `Charm`
+- **Gmax-Corviknight #7184**
+> Equip: `Leftovers/Covert_Cloak`
+> Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Metagross #376**
+> Equip: `Light_Clay`
+> Moves: `Reflect` `Light-Screen` `Scary-Face` `Gravity`
+
+**STRATEGY:**
+- [Mimikyu] Trick-Room
+- [Mimikyu] Charm/Confide
+- [Metagross] Reflect/Light-Screen
+- [Corviknight] Bulk-Up +6
+- [Corviknight] Max-Quake +6
+- [Corviknight] Power-Trip spam
+- [Corviknight] Roost on Low HP
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- For Mimikyu, Use Charm if the leading pokemon is a physical attacker, and use Confide if its a special attacker.
+- For Metagross, use Reflect if the leading pokemon is a physical attacker, and use Light-Screen if its a special attacker.
+- Against G Lugia/Gmax-Corviknight lead, use Trick-room then Light-Screen then spam Confide til Mimikyu dies. Swap to Metagross, use Gravity then swap to Corviknight and spam Max-Quake first.
+- Against Choice item lead, use Charm after Trick-Room since opponent will swap to Golden Mega Metagross.
+- Against G lucario in any position, use Max-Quake to lower it to 200 Hp before finishing it off with Power-Trip. This is to prevent its ability Justified from activating.
+"""
 
     mmx = f"""**TEAM:**
 - **Golden Zacian #9888**
@@ -2118,7 +2161,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     med = None
 
-    met = None
+    met = GOLDEN_MEGA_POKEMON_URL.mega_metagross
 
     mmx = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_x
     mmy = GOLDEN_MEGA_POKEMON_URL.mega_mewtwo_y
@@ -2289,7 +2332,7 @@ class MC_GOLD_BUTTON_EMOJI:
     man = None
     maw = None
     med = None
-    met = None
+    met = "<:7138:1502559729782882457>"
     mmx = "<:7111:1478741530700156928>"
     mmy = "<:7123:1478741526208184371>"
     pid = None
