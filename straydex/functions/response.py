@@ -35,10 +35,24 @@ async def send_response(message_or_interaction, response):
             debug_log(
                 f"send_func (Message): id={getattr(message_or_interaction, 'id', None)}, kwargs={kwargs}"
             )
-            await message_or_interaction.reply(mention_author=False, **kwargs)
-            debug_log(
-                f"Reply sent to Message: {getattr(message_or_interaction, 'id', None)}"
-            )
+            try:
+                await message_or_interaction.reply(mention_author=False, **kwargs)
+                debug_log(
+                    f"Reply sent to Message: {getattr(message_or_interaction, 'id', None)}"
+                )
+            except discord.HTTPException as e:
+                # Discord occasionally returns transient 5xx errors on reply.
+                # Fall back to channel.send so the user still gets a response.
+                if e.status in {500, 502, 503, 504}:
+                    debug_log(
+                        f"Reply failed with {e.status}; falling back to channel.send for message id={getattr(message_or_interaction, 'id', None)}"
+                    )
+                    await message_or_interaction.channel.send(**kwargs)
+                    debug_log(
+                        f"Fallback channel.send succeeded for message id={getattr(message_or_interaction, 'id', None)}"
+                    )
+                else:
+                    raise
 
     elif isinstance(message_or_interaction, discord.Interaction):
         responded = message_or_interaction.response.is_done()
