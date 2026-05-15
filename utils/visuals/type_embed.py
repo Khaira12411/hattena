@@ -1,21 +1,19 @@
 import discord
 
+from constants.aesthetic import Emojis
 from constants.straydex import SD_EMOJIS
 from constants.weakness_chart import weakness_chart
 from utils.functions.pokemon_func import (
     get_dex_number_by_name,
     get_display_name,
     get_name_via_dex,
-    strip_number_tag
+    strip_number_tag,
 )
 from utils.functions.stats_and_abilities_functions import (
     get_immunities_based_on_abilities,
 )
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.get_pokemon_gifs import get_pokemon_gif
-from constants.aesthetic import Emojis
-
-
 
 TYPE_EMOJIS = {
     "grass": SD_EMOJIS.grasstype,
@@ -194,7 +192,9 @@ def get_pokemon_from_input(pokemon_input: str):
     )
     # Name lookup
     if normalized_name == "shadow-mewtwo":
-        normalized_name = "shadow mewtwo"  # Fix for space in name not matching keys in weakness_chart
+        normalized_name = (
+            "shadow mewtwo"  # Fix for space in name not matching keys in weakness_chart
+        )
 
     if normalized_name in weakness_chart:
         dex_val = int(weakness_chart[normalized_name]["dex"])
@@ -239,7 +239,9 @@ def get_pokemon_from_input(pokemon_input: str):
 # -------------------- Embed Builder --------------------
 def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     # normalized first
-    pokemon_input = strip_number_tag(pokemon_input)  # Clean up any trailing dex tags for better matching
+    pokemon_input = strip_number_tag(
+        pokemon_input
+    )  # Clean up any trailing dex tags for better matching
 
     variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
         pokemon_input
@@ -252,11 +254,14 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     if not variant_name:
         return None, None, None
 
-    weaknesses = weakness_chart.get(variant_name)
+    weakness_lookup_name = (
+        "unown" if variant_name.lower().startswith("unown") else variant_name
+    )
+    weaknesses = weakness_chart.get(weakness_lookup_name)
     if not weaknesses:
         pretty_log(
             "warn",
-            f"No weaknesses found for {variant_name}",
+            f"No weaknesses found for {weakness_lookup_name}",
         )
         return None, None, None
 
@@ -281,8 +286,6 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
     image_lookup_name = (
         variant_name if not is_digit else get_name_via_dex(str(pokemon_input))
     )
-
-
 
     embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
 
@@ -309,6 +312,7 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         embed.add_field(name=f"{Emojis.notes} Notes:", value=notes[2], inline=False)
 
     from utils.functions.stats_and_abilities_functions import format_pokemon_abilities
+
     footer_text = format_pokemon_abilities(variant_name)
     if footer_text:
         embed.set_footer(text=footer_text)
