@@ -149,4 +149,4 @@ class SDBattleView(View):
                 )
 
         return callback
-        return callback
+

@@ -1322,6 +1322,58 @@ __Or__
 - If you don't have Covert Cloak, you can use Leftovers, but it has worse winrate for the Gmax Hatterene and Garbodor lineups in Finals. In place of Arceus Fire in round 1, you can use a special defense invested Arceus Ghost with the Stored power set. Only downside is it loses to the Gmax Hatterene lineup.
 - Credits to Tesla for the whole strategy, and to Yuki for Mimikyu."""
 
+    sta = f"""**TEAM:**
+- **Mimikyu #778**
+> Nature: `Any +SPD except -SPE`
+> Equip: `Light_Clay |Ability_Shield`
+> Moves: `Trick-Room` `Confide` `Light-Screen` `Charm`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+- **Starmie #121**
+> Nature: `Any +DEF except -SPD`
+> Equip: `Choice_Scarf`
+> Moves: `Trick` `Confide` `Reflect` `Skill-Swap`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+- **Arceus-Grass #7570**
+> Nature: `Any +SPD except -DEF/SPA`
+> Equip: `Covert_Cloak | Leftovers`
+> Moves: `Giga-Drain` `Recover` `Calm-Mind` `Iron-Defense`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+__OR__
+- **Arceus-Water #7555**
+> Nature: `Any +SPD except -DEF/SPA`
+> Equip: `Covert_Cloak | Leftovers`
+> Moves: `Body-Press` `Recover` `Toxic` `Cosmic-Power`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+__OR__
+- ** Gmax Corviknight #7184**
+> Nature: `Any +SPD except -DEF/ATK`
+> Equip: `Covert_Cloak | Leftovers`
+> Moves: `Power-Trip` `Roost` `Bulk-Up` `Max-Quake`
+> EVs: `HP 252` `SPD 252` `DEF 4`
+
+**STRATEGY**
+### Round 1
+- **Specs Politoed** → Trick Room → Confide on Vaporeon → Light Screen → Confide spam → Trick → setup & sweep.
+- **Slowbro** → Confide → Light Screen → Confide spam → Trick → setup & sweep.
+- **Other leads (Suicune/Alakazam)** → Trick Room → Light Screen → Confide spam → Trick → setup & sweep.
+### Round 2
+- **Mega Gyarados** → Trick Room → Charm spam → Trick + Reflect (skip Trick if using G‑Max Corv) → setup & sweep. Recover before KOing Espeon for Palkia.
+- **Specs Kyogre** → Light Screen → Confide on Latios → Trick Room → Confide spam → Trick + Skill Swap if using G‑Max Corv → setup & sweep. Recover before KOing Latios; stall rain with Roost spam/Giga Drain.
+- **Mega Slowbro** → Confide → Light Screen → Confide spam → Trick → setup & sweep. Recover before KOing Latias for Starmie.
+- **MMY** → Trick Room → Light Screen → Confide spam → Trick → setup & sweep.
+### Final Round
+- **Mega Latios** → Trick Room → Light Screen → Confide spam → Trick + Skill Swap if using G‑Max Corv → setup & sweep. Recover before KOing Latios; stall rain with Roost/Giga Drain.
+- **Other leads (MMY/Mewtwo/Mega Alakazam)** → Trick Room → Light Screen → Confide spam → Trick → setup & sweep. Recover before KOing Mega Alakazam for Latios.
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- **Recover first** — Always heal to full before attacking or KOing.
+- **Switch to setup** — If Starmie is alive and foe is at ‑6 SpA, pivot to your setup mon.
+- **Defense priority** — Use Bulk Up/Iron Defense first vs Mega Gyarados or Psyshock users.
+- **Body Press vs Magic Guard** — Hit Alakazam/Espeon with Body Press (ignore Toxic).
+- **Specs Kyogre plan** — Recover spam, chip with Power Trip/Giga Drain. With Arceus‑Water, stall rain and hope for misses.
+- **IVs & items** — At least 2 star IVs in boosted stats + ATK. Ability Shield mandatory vs Mold Breaker Gyara; Light Clay optional final round.
+- **Arceus builds** — Arceus‑Water (252 HP/Def) helps vs Mewtwo/MMY but loses to Specs Kyogre. Arceus‑Grass unreliable without Covert Cloak due to Ice Beam; Water variant still vulnerable to Thunder users.
+- Credits to Tesla for the whole strat"""
 
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
@@ -2046,6 +2098,7 @@ B. For Kangaskhan w/ Sash
     vic = None
     dra = None
     cle = None
+    sta = None
 
 class SD_MC_DEX_NUM:
     abo = 7070  # abomasnow
@@ -2100,6 +2153,7 @@ class SD_MC_DEX_NUM:
     vic = 7302 # victreebel
     dra = 7305 # dragonite
     cle = 7308 # clefable
+    sta = 7311 # starmie
 
 class SD_MC_GOLD_THUMBNAIL:
     abo = GOLDEN_MEGA_POKEMON_URL.mega_abomasnow
@@ -2120,7 +2174,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     ban = None
 
-    bee = None
+    bee = GOLDEN_MEGA_POKEMON_URL.mega_beedrill
 
     bla = GOLDEN_MEGA_POKEMON_URL.mega_blastoise
 
@@ -2188,6 +2242,7 @@ class SD_MC_GOLD_THUMBNAIL:
     vic = None
     dra = None
     cle = None
+    sta = None
 
 class SD_MC_WHOLE_NAME:
     abo = "abomasnow"
@@ -2243,6 +2298,7 @@ class SD_MC_WHOLE_NAME:
     vic = "victreebel"
     dra = "dragonite"
     cle = "clefable"
+    sta = "starmie"
 
 
 class MC_REGULAR_BUTTON_EMOJI:
@@ -2297,7 +2353,7 @@ class MC_REGULAR_BUTTON_EMOJI:
     vic = "<:7302:1492321292073041931>"
     dra = "<:7305:1492321916101595186>"
     cle = "<:7308:1497877049950601396>"
-
+    sta = "<:7311:1508329469935358003>"
 
 class MC_GOLD_BUTTON_EMOJI:
     abo = "<:7072:1478741682068525169>"
@@ -2309,7 +2365,7 @@ class MC_GOLD_BUTTON_EMOJI:
     amp = "<:7030:1478741557128462398>"
     aud = "<:7096:1478741534626156564>"
     ban = "<:7126:1478741524551438356>"
-    bee = None
+    bee = "<:7027:1508329748454178906>"
     bla = "<:7012:1478741568335777955>"
     blz = "<:7018:1478741563793215701>"
     cam = None
@@ -2353,6 +2409,7 @@ class MC_GOLD_BUTTON_EMOJI:
     vic = None
     dra = None
     cle = None
+    sta = None
 
 mc_dict = {
     "abo": {

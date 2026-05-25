@@ -320,6 +320,7 @@ mc_sub = [
     "vic",
     "dra",
     "cle",
+    "sta",
 ]
 for sub in mc_sub:
     straydex_ar["mc"][sub] = {
@@ -407,7 +408,7 @@ for sub in ac_sub:
 # 🐾 Battle AR Subcommand Setup
 
 # 🌸 Standard battle subcommands → use normal embed (cute and simple!)
-standard_battle_sub = ["reg", "ti", "ic"]
+standard_battle_sub = ["reg", "ti", "ic", "cun"]
 
 # ✨ Special battle subcommands → use battle-specific embed (extra flair!)
 special_battle_sub = ["cba", "cbo", "cma", "cse", "leg", "ts"]

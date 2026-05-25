@@ -90,7 +90,7 @@ class GOLDEN_MEGA_POKEMON_URL:
     mega_ampharos = "https://media.discordapp.net/attachments/1323758555605631001/1436230286353629274/181-mega.gif?ex=690f81f0&is=690e3070&hm=d42199b333fb6b0172d50c7178595cfe0258eb8d6d6e58e53d0279528f480baa&=&width=111&height=126"
     mega_sceptile = "https://media.discordapp.net/attachments/1448840751793307660/1451082691268051035/254-mega.gif?ex=69463311&is=6944e191&hm=c77542f5bf47d3fe36bbead225a069f959f556e0b113d752fdaf39eafa07d8cf&="
     mega_houndoom = "https://media.discordapp.net/attachments/1451369765393141913/1465896459869098185/7078.gif?ex=697e11b7&is=697cc037&hm=40f3bf41a33868a08d5b233021dcd14dcc088a3e7cbecf31ffa28dc130913528&="
-
+    mega_beedrill = "https://cdn.discordapp.com/attachments/1489468497032646749/1504618609572319232/7027.gif?ex=6a14d3c6&is=6a138246&hm=08ce5ef2c9a9be90de6c8d2a39e3329c3dc0f5de74a17f4d959cc92e848eb1a6"
 
 class SHINY_POKEMON_URL:
     # 🌌 Arceus Forms

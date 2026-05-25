@@ -2,6 +2,24 @@ from constants.straydex import SD_EMOJIS
 
 
 class SD_BATTLE_DESC:
+    cun = f"""# UNOWN RUINS
+**COMMAND:**  `;b npc 970`
+
+**POKEMON:**
+- **Primal-Groudon #7573**
+> Equip: `Silver_Powder`
+> Moves: `Fury-Cutter` `Stealth-Rock` `Hone-Claw` `Swords-Dance`
+> EVs: `ATK 252`
+**OR**
+- **Mega-Mewtwo-Y #7121**
+> Min XP: `30m`
+> Equip: `Twisted_Spoon | Leftovers`
+> Moves: `Stored-Power` `Agility` `Calm-Mind` `Bulk-Up`
+> EVs: `SPA 252` `SPD 252`
+
+**STRATEGY:**
+- [Primal-Groudon] 1x Stealth Rock, 1x Hone-Claws, 3x Swords-Dance then spam Fury-Cutter.
+- [MMY] 6x Calm-Mind, 3x Agility, 6x Bulk-up, then spam Stored-Power."""
     reg = f"""# BATTLE REGION
 
 **COMMAND:**
@@ -201,37 +219,32 @@ __**2nd Position**__
 - [Primal-Kyogre] Water-Spout spam
 - [Zacian] Crunch when spam  against Mega-Metagross, Deoxys-Defense, and Mega-Rayquaza, or when Kyogre is low hp against other enemies."""
 
-    ts = f"""# BATTLE TOWER STRAT
-## NON-SETUP TEAM
-### TEAM A:
-- **Golden Mewtwo #9150**
-> Equip: `Choice_Cloak` or `Choice_Specs`
-> Moves: `Psychic` `Ice-Beam` `Energy-Ball` `Shadow-Ball`
-> EVs: `SPA 252` `SPE 128` `SPD 128`
-- **Golden Zacian #9888**
-> Equip: `Choice_Cloak` or `Choice_Band`
-> Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
-> EVs: `ATK 252` `HP 252` `SPE 6`
-- **Golden Zekrom #9644**
-> Equip: `Choice_Cloak` or `Choice_Scarf`
-> Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
-> EVs: `ATK 252` `HP 128` `SPE 130`
-### TEAM B:
-- **Golden Zekrom #9644**
-> Equip: `Choice_Cloak` or `Choice_Scarf`
-> Moves: `Outrage` `Fusion-Bolt` `Crunch` `Earth-Power`
-> EVs: `ATK 252` `HP 128` `SPE 130`
-- **Golden Zacian #9888**
-> Equip: `Choice_Cloak` or `Choice_Band`
-> Moves: `Play-Rough` `Close-Combat` `Crunch` `Wild-Charge`
-> EVs: `ATK 252` `HP 252` `SPE 6`
-- **Golden Yveltal**
-> Equip: `Choice_Band`
-> Moves: `Sucker-Punch` `Oblivion-Wing` `Foul-Play` `Knock-Off`
-> EVs: `ATK 252` `SPA 128` `SPD 128`
-
-<a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Non Setup Strats are the fastest to clear Battle Tower Floors but would require you to pay extra attention to every battle, memorize the enemies' weakness, do smart switching, and lots of thinking.*"""
-
+    ts = f"""## BATTLE TOWER TEAMS
+### TEAM A
+__**FIRST POSITION**__
+- **Deoxys-Speed #7507**
+> Nature: `Any +Spe`
+> Equip: `Choice_Scarf`
+> Moves: `Toxic` `Protect` `Sunny-Day` `Trick`
+> Evs: `SPE 252`
+__OR__
+- **Sableye #302 | Grimmsnar #861 | Gmax-Grimmsnarl  #7202**
+> Nature: ` Any +Def/Spd`
+> Equip: `Light_Clay`
+> Moves: `Reflect` `Light-Screen` `Taunt` `Pain-Split | Destiny-Bond`
+> Evs: `HP 252` `DEF 126` `SPD 126`
+__**SECOND POSITION**__
+- **Gmax-Inteleon #7217**
+> Nature: `Any +Spe`
+> Equip: `Choice_Scarf`
+> Moves: `Soak` `Max-Geyser` `Icy-Wind` `Max-Darkness`
+> Evs: `SPE 252`
+__**THIRD POSITION**__
+- **Eternamax-Eternatus #7244**
+> Nature: `Any +Spa`
+> Equip: `Leftovers | Black_Sludge | Covert_Cloak`
+> Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
+> Evs: `HP 252` `SPA 252` `SPE 6`"""
     # -------------------------------------
 
     cba2 = f"""# CHALLENGER BASIC: JAMES
@@ -351,51 +364,26 @@ __**2nd Position**__
 - [Arceus] Recover when low hp
 """
 
-    ts2 = f"""## SETUP TEAMS
-### TEAM A:
-- **Zacian-Crowned #7891 / Golden Zacian #9888 / Golden Zekrom #9644**
-> Equip: `Choice_Cloak` or `Choice_Scarf`
-> Moves: `Noble-Roar`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-- **Gmax-Corviknight #7184**
-> Equip: `Leftovers`
-> Moves: `Bulk-Up` `Max-Airstream` `Power-Trip` `Roost`
-> EVs: `HP 252` `SPD 252` `DEF 6`
-OR
-- **Golden Arceus #9493 / Arceus-Ground #7597 / Arceus-Electric #7588**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Stored-Power`
-> EVs: `HP 252` `SPD 130` `DEF 128`
-- **Arceus-Fairy #7618**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Judgment`
-> EVs: `HP 252` `SPD 130` `DEF 128`
-**STRATEGY: **
-- [1st Pokemon] Noble-Roar -6
-- [GMAX Corviknight] +6 Bulk-Up, +6 Max-Airstream, Spam Power-Trip, Roost when low hp.
-- [Arceus/Arceus-Forms] +6 Calm-Mind, +6 Iron-Defense, then Stored-Power/Judgment Spam, Recover when low hp.
-
-<a:fidough_wow:1283739703140679703> ***Fidnotes:*** *When using Arceus and you see a dark type on the enemy's team, set up the fairy type pokemon and let it be your attacking mon.*
-
-### TEAM B:
-- **Zacian-Crowned #7891**
-> Equip: `Choice_Cloak` or `Choice_Scarf`
-> Moves: `Noble-Roar` `Behemoth-Blade` `Play-Rough` `Crunch`
-> EVs: `HP 252` `DEF 130` `SPD 128`
+    ts2= f"""## BATTLE TOWER TEAMS
+### TEAM B
+__**FIRST POSITION**__
+- **Golden Primal-Kyogre #7585**
+> Nature: `Any +Spa except Def/Spd`
+> Equip: `Choice_Cloak`
+> Moves: `Water-Spout` `Thunder` `Surf` `Ice-Beam`
+> Evs: `SPA 252` `SPE 252`
+__**SECOND POSITION**__
+- **Calyrex-Shadow #7873**
+> Nature: `Any +Spa`
+> Equip: `Choice_Cloak`
+> Moves: `Astral-Barrage` `Psychic` `Energy-Ball` `Pollen-Puff`
+> Evs: `SPA 252` `SPE 252`
+__**THIRD POSITION**__
 - **Golden Zacian #9888**
-> Equip: `Choice_Cloak` or `Choice_Scarf`
-> Moves: `Noble-Roar` `Wild-Charge` `Play-Rough` `Crunch`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-- **Golden Mewtwo #9150**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Bulk-Up` `Stored-Power` `Earth-Power`
-> EVs: `DEF 200` `SPD 200` `HP 110`
-**STRATEGY:**
-- [1st Pokemon] Noble-Roar -6
-- [Golden Mewtwo] +6 Calm-Mind, +6 Bulk-Up, then Stored-Power Spam, Use Earth-Power when Enemy is immune to Psychic attacks or  has Resistance to it.
-
-<a:fidough_wow:1283739703140679703> ***Fidnotes:*** *Only use one Zacian for Noble-Roar as the other would finish off dark type enemies when Golden Mewtwo couldn't.*"""
-
+> Nature: `Any +Atk`
+> Equip: `Choice_Cloak`
+> Moves: `Play-Rough` `Close-Combat` `Ice-fang` `Wild-Charge`
+> Evs: `HP 252` `ATK 252` `SPE 6`"""
     # ---------------------------
     cba3 = f"""# CHALLENGER BASIC: WES
 **COMMAND:**  `;b npc 208`
@@ -545,45 +533,6 @@ __OR__
 - [Arceus | Corvi] Recover | Roost when low hp
 
 """
-
-    ts3 = f"""## SETUP TEAMS
-### TEAM C
-
-- **Golden Zacian #9888**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> Evs: `HP 252` `DEF 130` `SPD 128`
-- **Eternamax-Eternatus #7244**
-> Equip: `Leftovers`
-> Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
-> Evs: `HP 252` `SPA 252` `SPE 6`
-- **Arceus-Electric #7588**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-**STRATEGY:**
-- [Zacian] Noble-Roar -6
-- [Eternatus] Cosmic-Power +6, Max-Ooze +6, then spam Max-Darkness, Recover when low hp.
-- [Arceus] Calm-Mind +6, Iron-Defense +6 , then Flamethrower Spam, Recover when low hp.
-
-### TEAM D
-
-- **Golden Zacian #9888**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> Evs: `HP 252` `DEF 130` `SPD 128`
-- **Gmax-Corviknight #7184**
-> Equip: `Leftovers`
-> Moves: `Bulk-Up` `Max-Airstream` `Roost `Power-Trip`
-> Evs: `HP 252` `SPD 252` `DEF 6`
-- **Arceus-Electric #7588**
-> Equip: `Leftovers`
-> Moves: `Calm-Mind` `Iron-Defense` `Recover` `Flamethrower`
-> EVs: `HP 252` `DEF 130` `SPD 128`
-**STRATEGY:**
-- [Zacian] Noble-Roar -6
-- [Corviknight] Bulk-Up +6, Max-Airstream +6, then spam Power-Trip, Roost when low hp.
-- [Arceus] +6 Calm-Mind, +6 Iron-Defense, then Flamethrower Spam, Recover when low hp."""
 
     # no cma3
     # ---------------------------
@@ -881,12 +830,12 @@ __**2nd Position**__
 
 #
 class SD_BATTLE_THUMBNAIL:
+    cun = "https://cdn.discordapp.com/attachments/1050645885844987904/1508295481347014686/alph_scientist.png?ex=6a150521&is=6a13b3a1&hm=305adbed88fbeead4b4ca86b8c4f25ecf7f83d7153e7d8cb992242bd4165c9b9"
     cba = "https://media.discordapp.net/attachments/1382540357123965029/1405503297053392909/300aa3900f11fcca84207ad6dd2e6ffa8fdaed9ac18195a138e3d692a6e23b95.png?ex=689f1073&is=689dbef3&hm=a95088c1cc53bb008ea032d484fc03e31c1b7bf0564e9167fe535a3863461283&=&format=webp&quality=lossless&width=210&height=446"
 
     cbo = "https://media.discordapp.net/attachments/1382540357123965029/1382553462629208164/1081fe7e7981ec228c62a58b8302a7a00346b6052b1edcec4334cd0908e7ff9d.png?ex=689ca700&is=689b5580&hm=193074e9f134dae35dca05c58a55dd54f32bfbae937ff69cef84f1681aefc9c2&=&format=webp&quality=lossless&width=248&height=320"
 
     cma = "https://media.discordapp.net/attachments/1382540357123965029/1382562850299711600/e855c128ee6d18c291c6135a056ac3312f914e89ed4ac40310ffb7576f7c575f.png?ex=689cafbe&is=689b5e3e&hm=09dd886519eb012460a120b375cb91a6fd6115f91db03e0f4e536c7afdf857f3&=&format=webp&quality=lossless&width=203&height=432"
-
 
     leg = "https://media.discordapp.net/attachments/1382540357123965029/1493970445651935403/kanto_champ_blue.png?ex=69e0e7e6&is=69df9666&hm=f9b3857bc111fee5969856926ff0186123a71db33866c4c35804d7c15920a20e&=&format=webp&quality=lossless&width=70&height=70"
 
@@ -906,7 +855,6 @@ class SD_BATTLE_THUMBNAIL:
 
     cma3 = "https://media.discordapp.net/attachments/1382540357123965029/1382563263002316863/eb4d2231fc850910668424f2fc14b1bddfd3343369c4258487333167321c984b.png?ex=689cb020&is=689b5ea0&hm=9521bceb343cb0ddf93f965a56f4c792fec4e54a769800cd7fd751df3e6e824d&=&format=webp&quality=lossless&width=169&height=341"
 
-
     leg3 = "https://media.discordapp.net/attachments/1382540357123965029/1493970149621895330/legend_steven.png?ex=69e0e7a0&is=69df9620&hm=5022fad308609e965a27416a85853f1649c5a956c0dfe1e43eba30f0c1d00e48&=&format=webp&quality=lossless&width=70&height=70"
 
     # --------------------------
@@ -921,15 +869,12 @@ class SD_BATTLE_THUMBNAIL:
 
     cbo5 = "https://media.discordapp.net/attachments/1382540357123965029/1382559309124206592/cd494e44a20dc9ff5be2498fa89e4e3047b7fad7f3908dd806fdea0183194177.png?ex=689cac72&is=689b5af2&hm=fbf7b08fe74e4d5ba35b0271564e765daba989a5ba0f7d0ff3a6f906603dc2fc&=&format=webp&quality=lossless&width=208&height=334"
 
-
     leg5 = "https://media.discordapp.net/attachments/1382540357123965029/1493970810724155504/legend_alder.png?ex=69e0e83d&is=69df96bd&hm=fc71a942c2b04362ee23231de720ebcd1158b76221ad7b51c7b46696d7dd996c&=&format=webp&quality=lossless&width=70&height=70"
 
     # --------------------------
     cbo6 = "https://media.discordapp.net/attachments/1382540357123965029/1382559425218351124/0ce9fc7d74fad4dc6608043f77e71557a1aa3d31a064631ddad1f5cf2d800b6c.png?ex=689cac8d&is=689b5b0d&hm=928139e963a3ffc07ddb2db5e081e109bf7a1c3bbab671db379fa5d272821ad7&=&format=webp&quality=lossless&width=138&height=394"
 
-
     leg6 = "https://media.discordapp.net/attachments/1382540357123965029/1493970961156804850/legend_sycamore.png?ex=69e0e861&is=69df96e1&hm=eb6f5d98db73b1c3e3d50edf142d41360bb45d8e375440a60b7a9466962c87ee&=&format=webp&quality=lossless&width=70&height=70"
-
 
 
 class SD_BATTLE_BUTTON_LABELS:
@@ -963,11 +908,11 @@ class SD_BATTLE_BUTTON_LABELS:
     leg5 = "Alder"
     leg6 = "Sycamore"
     # --- TS ---
-    ts = "Non-Setup"
-    ts2 = "Setup Team 1"
-    ts3 = "Setup Team 2"
+    ts = "Team A"
+    ts2 = "Team B"
 
 
+from constants.aesthetic import Emojis
 class SD_BATTLE_BUTTON_EMOJIS:
     # --- CBA ---
     cba = "🐱"
@@ -999,9 +944,8 @@ class SD_BATTLE_BUTTON_EMOJIS:
     leg5 = "<:legend_alder:1493969657961644174>"
     leg6 = "<:legend_sycamore:1493969655746924625>"
     # --- TS ---
-    ts = "🚫"
-    ts2 = "🛠️"
-    ts3 = "🧰"
+    ts = Emojis.battle
+    ts2 = Emojis.battle
 
 
 sd_battle_dict = {
@@ -1167,11 +1111,6 @@ sd_battle_dict = {
         "button_label": SD_BATTLE_BUTTON_LABELS.ts2,
         "button_emoji": SD_BATTLE_BUTTON_EMOJIS.ts2,
     },
-    "ts3": {
-        "desc": SD_BATTLE_DESC.ts3,
-        "thumbnail_url": None,
-        "button_label": SD_BATTLE_BUTTON_LABELS.ts3,
-        "button_emoji": SD_BATTLE_BUTTON_EMOJIS.ts3,
-    },
+
 
 }

@@ -436,6 +436,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCSCI`**  MC: Mega Scizor
 - **`!MCSHA`**  MC: Mega Sharpedo
 - **`!MCSLO`**  MC: Mega Slowbro
+- **`!MCSTA`**  MC: Mega Starmie
 - **`!MCSTE`**  MC: Mega Steelix
 - **`!MCSWA`**  MC: Mega Swampert
 - **`!MCTYR`**  MC: Mega Tyranitar
