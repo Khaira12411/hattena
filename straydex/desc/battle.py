@@ -228,7 +228,7 @@ __**FIRST POSITION**__
 > Moves: `Toxic` `Protect` `Sunny-Day` `Trick`
 > Evs: `SPE 252`
 __OR__
-- **Sableye #302 | Grimmsnar #861 | Gmax-Grimmsnarl  #7202**
+- **Sableye #302 | Grimmsnarl #861 | Gmax-Grimmsnarl  #7202**
 > Nature: ` Any +Def/Spd`
 > Equip: `Light_Clay`
 > Moves: `Reflect` `Light-Screen` `Taunt` `Pain-Split | Destiny-Bond`
@@ -244,7 +244,10 @@ __**THIRD POSITION**__
 > Nature: `Any +Spa`
 > Equip: `Leftovers | Black_Sludge | Covert_Cloak`
 > Moves: `Cosmic-Power` `Recover` `Max-Darkness` `Max-Ooze`
-> Evs: `HP 252` `SPA 252` `SPE 6`"""
+> Evs: `HP 252` `SPA 252` `SPE 6`
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Credits to Yuki for the team"""
     # -------------------------------------
 
     cba2 = f"""# CHALLENGER BASIC: JAMES
@@ -364,7 +367,7 @@ __**2nd Position**__
 - [Arceus] Recover when low hp
 """
 
-    ts2= f"""## BATTLE TOWER TEAMS
+    ts2 = f"""## BATTLE TOWER TEAMS
 ### TEAM B
 __**FIRST POSITION**__
 - **Golden Primal-Kyogre #7585**
@@ -383,7 +386,9 @@ __**THIRD POSITION**__
 > Nature: `Any +Atk`
 > Equip: `Choice_Cloak`
 > Moves: `Play-Rough` `Close-Combat` `Ice-fang` `Wild-Charge`
-> Evs: `HP 252` `ATK 252` `SPE 6`"""
+> Evs: `HP 252` `ATK 252` `SPE 6`
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Credits to Tesla for the team"""
     # ---------------------------
     cba3 = f"""# CHALLENGER BASIC: WES
 **COMMAND:**  `;b npc 208`
