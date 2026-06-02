@@ -13,12 +13,12 @@ class SD_TR_DESC:
     **How do I increase my EV training rate over 3 per mon?**
     > Power items are from `;factions shop`.
     > Per change log, if held by a Pokemon, it grants that Pokemon 8 extra EVs in the respective stat regardless of any condition
-    - {SD_EMOJIS.powerweight} - Gives HP bonus by 8
-    - {SD_EMOJIS.powerbracer} - Gives ATTACK bonus by 8
-    - {SD_EMOJIS.powerbelt} - Gives DEFENSE bonus by 8
-    - {SD_EMOJIS.powerlens} - Gives SPECIAL ATTACK bonus by 8
-    - {SD_EMOJIS.powerband} - Gives SPECIAL DEFENSE bonus by 8
-    - {SD_EMOJIS.poweranklet} - Gives SPEED EV bonus by 8
+    - {SD_EMOJIS.powerweight} Power Weight - Gives HP bonus by 8
+    - {SD_EMOJIS.powerbracer} Power Bracer - Gives ATTACK bonus by 8
+    - {SD_EMOJIS.powerbelt} Power Belt - Gives DEFENSE bonus by 8
+    - {SD_EMOJIS.powerlens} Power Lens - Gives SPECIAL ATTACK bonus by 8
+    - {SD_EMOJIS.powerband} Power Band - Gives SPECIAL DEFENSE bonus by 8
+    - {SD_EMOJIS.poweranklet} Power Anklet - Gives SPEED EV bonus by 8
 
     **How do I decrease my EVs?**
     > Berry items are from the `;factions shop`.
@@ -26,9 +26,9 @@ class SD_TR_DESC:
     > If your EV is above 100, the first berry will reduce the EV to 100, and then by 10 thereafter.
     > Overall, you'd need to use at most 11 of a berry to set the respective EV to 0.
     > Command to use them is `;bud eat name_berry amount`
-    - {SD_EMOJIS.pomegberry} - Reduces HP EV by 10
-    - {SD_EMOJIS.kelpsyberry} - Reduces ATTACK EV by 10
-    - {SD_EMOJIS.qualotberry} - Reduces DEFENSE EV by 10
-    - {SD_EMOJIS.hondewberry} - Reduces  SPECIAL ATTACK EV by 10
-    - {SD_EMOJIS.grepaberry} - Reduces SPECIAL DEFENSE EV by 10
-    - {SD_EMOJIS.tamatoberry} - Reduces SPEED EV by 10"""
+    - {SD_EMOJIS.pomegberry} Pomeg Berry - Reduces HP EV by 10
+    - {SD_EMOJIS.kelpsyberry} Kelpsy Berry - Reduces ATTACK EV by 10
+    - {SD_EMOJIS.qualotberry} Qualot Berry - Reduces DEFENSE EV by 10
+    - {SD_EMOJIS.hondewberry} Hondew Berry - Reduces  SPECIAL ATTACK EV by 10
+    - {SD_EMOJIS.grepaberry} Grepa Berry - Reduces SPECIAL DEFENSE EV by 10
+    - {SD_EMOJIS.tamatoberry} Tamato Berry - Reduces SPEED EV by 10"""
