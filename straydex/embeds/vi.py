@@ -21,7 +21,8 @@ async def build_sd_vi_main_info_embed(
         footer_text = get_default_footer(user_display_name)
         icon_url = guild.icon.url if guild.icon else None
         embed.set_footer(text=footer_text, icon_url=icon_url)
-        embed.set_image(url=image_url)
+        embed.set_thumbnail(url=image_url)
+        embed.set_image(url=Dividers.SD_Alternate)
         embed.set_author(name="STRAYDEX")
         embed.add_field(name="Tier 1", value=SD_VI_TIER_DESC.one, inline=False)
         embed.add_field(name="Tier 2", value=SD_VI_TIER_DESC.two, inline=False)
