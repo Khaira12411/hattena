@@ -24,7 +24,10 @@ class SD_VI_TIER_DESC:
 > <:8116:1511920042210758766> River • [Server Link](https://discord.gg/MrAUGhtgY2)
 
 > **Scuffed Shop**
-> <:8113:1511920044509102201> Sandstorm • [Server Link](https://discord.gg/8zHgfmAZdQ)"""
+> <:8113:1511920044509102201> Sandstorm • [Server Link](https://discord.gg/8zHgfmAZdQ)
+
+> **Sanski**
+> <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/GaGFxHhSnS)"""
 
     four = """> **Pokémon Legends ZA**
 > <:8128:1511920033931202641> Ocean • [Server Link](https://discord.gg/windsandwaves)
