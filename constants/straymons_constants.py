@@ -8,8 +8,9 @@ PREFIX = "!"
 VNA_SERVER_ID = 909880511701352488
 ALLOWED_SERVER_IDS = [STRAYMONS_GUILD_ID, VNA_SERVER_ID]
 BLACKLISTED_GUILDS = [
-    
+
 ]
+
 # 💦☁────────────────────────────────────────────💦☁
 #       STRAYMONS__TEXT_CHANNELS
 # 💦☁────────────────────────────────────────────💦☁

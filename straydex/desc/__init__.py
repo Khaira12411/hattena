@@ -23,3 +23,4 @@ from .faction import *
 from  .tcg import TCG_DESC, TCG_EMOJIS
 from .powerstation import PS_EMOJIS, PS_DESC
 from .rps import RPS_DESC
+from .vi import SD_VI_TIER_DESC

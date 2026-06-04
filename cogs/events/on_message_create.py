@@ -4,14 +4,21 @@ import discord
 from discord.ext import commands
 
 from constants.ask_hattena.overall import STOPWORDS, TOPICS
-from constants.straymons_constants import MH_APP_ID, POKEMEOW_APPLICATION_ID, PREFIX, ALLOWED_SERVER_IDS
+from constants.straymons_constants import (
+    ALLOWED_SERVER_IDS,
+    KHY_USER_ID,
+    MH_APP_ID,
+    POKEMEOW_APPLICATION_ID,
+    PREFIX,
+)
+from straydex.embeds.vi import build_sd_vi_main_info_embed
 from utils.functions.ask_hattena import match_topic
 from utils.listener_func.dex_listener import dex_listener
 from utils.listener_func.market_view_listener import market_view_listener
+from utils.listener_func.mention_listener import mention_listener
 from utils.listener_func.mh_lookup_listener import lookup_listener
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
-from utils.listener_func.mention_listener import mention_listener
 from utils.logs.pretty_log import pretty_log
 
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
@@ -71,7 +78,11 @@ class MessageCreateListener(commands.Cog):
         # ————————————————————————————————
         # 🩵 MH Lookup Listener
         # ————————————————————————————————
-        if message.author.bot and message.author.id == MH_APP_ID and  message.guild.id in ALLOWED_SERVER_IDS:
+        if (
+            message.author.bot
+            and message.author.id == MH_APP_ID
+            and message.guild.id in ALLOWED_SERVER_IDS
+        ):
             if message.embeds and message.embeds[0]:
                 if embed_has_field_name(message.embeds[0], "Lowest Market"):
                     pretty_log(
@@ -101,6 +112,17 @@ class MessageCreateListener(commands.Cog):
         # ————————————————————————————————
         # 🩷 Straydex Handler
         # ————————————————————————————————
+        # VI Server Info Command
+        if (
+            content.casefold().startswith(f"{PREFIX}vi".casefold())
+            and message.author.id == KHY_USER_ID
+        ):
+            pretty_log(
+                "info",
+                f"Received VI command from {message.author.display_name}. Building and sending VI embed.",
+            )
+            await build_sd_vi_main_info_embed(message)
+            return  # Exit after handling the command to avoid processing it as a regular message
 
         cmd_word = message.content.split()[0] if message.content else ""
         if cmd_word.startswith(PREFIX) and cmd_word.lower() not in [
@@ -141,7 +163,9 @@ class MessageCreateListener(commands.Cog):
                     )
                 except Exception as e:
                     pretty_log(
-                        "error", f"Error handling perks listener: {e}", include_trace=True
+                        "error",
+                        f"Error handling perks listener: {e}",
+                        include_trace=True,
                     )
             # ————————————————————————————————
             # 🩷 Dex Listener
