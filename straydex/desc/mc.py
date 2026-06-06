@@ -879,26 +879,30 @@ __Or__
 """
 
     mmx = f"""**TEAM:**
-- **Golden Zacian #9888**
-> Equip: `Choice_Scarf`
-> Moves: `Noble-Roar`
-> EVs: `SPE 252` `HP 252`
+- **Mimikyu #778**
+> Equip: `Ability_Shield`
+> Moves: `Trick-Room` `Charm` `Confide`
 - **Arceus-Ghost #7627**
+> Nature: `DEF+  or SPD+`
 > Equip: `Leftovers`
-> Moves: `Judgment` `Recover` `Calm-Mind` `Iron-Defense`
-> EVs: `HP 252` `SPD 252` `DEF 4`
-- **Golden Mewtwo #9150**
-> Equip: `Zap Cannon` `Bulldoze`
-> Moves: `Choice_Scarf`
+> Moves: `Body-Press` `Recover` `Cosmic-Power` `Toxic`
+> EVs: `HP 252` `DEF 128` `SPD 128`
+- **Mewtwo #150**
+> Equip: `Choice_Scarf`
+> Moves: `Confide` `Reflect` `Flash` `Thunderwave`
 
 **STRATEGY:**
-- [Zacian] Noble-Roar -6 or until it dies
-- [Arceus] Calm-Mind +6
-- [Arceus] Iron-Defense +6
-- [Arceus] Judgment spam
+- [Mimikyu] Trick Room
+- [Mimikyu] Use Charm if the enemy is a physical attacker, otherwise use Confide
+- [Arceus] Cosmic-Power +6
+- [Arceus] Toxic
+- [Arceus] Body-Press spam
 - [Arceus] Recover on Low HP
 
-> <a:fidough_wow:1283739703140679703> If you encounter any normal type with Arceus-Ghost.. Congrats! You're cooked. Worry not *dough* since this still has the highest win rate.*"""
+> <a:fidough_wow:1283739703140679703> ***FidNotes***:
+- Use Thunderwave if enemies can’t be badly poisoned (e.g., Toxicroak).
+- In Finals, lead Mewtwo first and use Reflect.
+- If MMX starts using Calm-Mind, switch to Arceus → setup → Toxic → Body-Press spam."""
 
     mmy = f"""**TEAM:**
 - **Golden Zacian #9888**
