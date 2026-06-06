@@ -258,7 +258,26 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         "unown" if variant_name.lower().startswith("unown") else variant_name
     )
     weaknesses = weakness_chart.get(weakness_lookup_name)
-    if not weaknesses:
+    if not weaknesses and shiny_golden_tag:
+        # Fall back to base form weakness info while keeping shiny/golden gif/name/dex
+        base_lookup = weakness_lookup_name
+        for prefix in ("shiny ", "golden "):
+            if base_lookup.startswith(prefix):
+                base_lookup = base_lookup[len(prefix) :]
+                break
+        weaknesses = weakness_chart.get(base_lookup)
+        if weaknesses:
+            pretty_log(
+                "info",
+                f"No weakness info for '{weakness_lookup_name}', falling back to base form '{base_lookup}'",
+            )
+        else:
+            pretty_log(
+                "warn",
+                f"No weaknesses found for '{weakness_lookup_name}' or base form '{base_lookup}'",
+            )
+            return None, None, None
+    elif not weaknesses:
         pretty_log(
             "warn",
             f"No weaknesses found for {weakness_lookup_name}",
@@ -280,11 +299,20 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
                 display_name = f"{tag} {display_name}"
         return display_name
 
-    dex_number = pokemon_input if is_digit else get_dex_number_by_name(variant_name)
+    lookup_name_for_media = variant_name
+    if not is_digit and shiny_golden_tag:
+        lookup_name_for_media = f"{shiny_golden_tag.lower()} {variant_name}"
+
+    dex_number = (
+        pokemon_input
+        if is_digit
+        else get_dex_number_by_name(lookup_name_for_media)
+        or get_dex_number_by_name(variant_name)
+    )
     display_name = clean_display_name(variant_name, shiny_golden_tag)
     embed_title = f"{SD_EMOJISs_str} {display_name} #{dex_number}"
     image_lookup_name = (
-        variant_name if not is_digit else get_name_via_dex(str(pokemon_input))
+        lookup_name_for_media if not is_digit else get_name_via_dex(str(pokemon_input))
     )
 
     embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
