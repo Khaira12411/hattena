@@ -408,7 +408,7 @@ for sub in ac_sub:
 # 🐾 Battle AR Subcommand Setup
 
 # 🌸 Standard battle subcommands → use normal embed (cute and simple!)
-standard_battle_sub = ["reg", "ti", "ic", "cun"]
+standard_battle_sub = ["reg", "ti", "ic", "un"]
 
 # ✨ Special battle subcommands → use battle-specific embed (extra flair!)
 special_battle_sub = ["cba", "cbo", "cma", "cse", "leg", "ts"]

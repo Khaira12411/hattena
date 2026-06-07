@@ -2,24 +2,53 @@ from constants.straydex import SD_EMOJIS
 
 
 class SD_BATTLE_DESC:
-    cun = f"""# UNOWN RUINS
+    un = f"""# UNOWN RUINS
 **COMMAND:**  `;b npc 970`
 
-**POKEMON:**
-- **Primal-Groudon #7573**
-> Equip: `Silver_Powder`
-> Moves: `Fury-Cutter` `Stealth-Rock` `Hone-Claw` `Swords-Dance`
-> EVs: `ATK 252`
-**OR**
-- **Mega-Mewtwo-Y #7121**
-> Min XP: `30m`
-> Equip: `Twisted_Spoon | Leftovers`
-> Moves: `Stored-Power` `Agility` `Calm-Mind` `Bulk-Up`
-> EVs: `SPA 252` `SPD 252`
+**EV Guidelines**
+> - **Physical attackers** (Fury Cutter / Power Trip): `ATK 252` `SPE 252`
+> - **Debuffers**: `HP 252` `SPD 252`
+> - **Special attackers** (Stored Power): `SPA 252` `SPE 252`
+> - **Recover sets**: `HP 252` `SPD 252`
+**Item Recommendations**
+> - **Debuffers** → `Leftovers`
+> - **Fury Cutter attackers** → `Silver Powder | Insect Plate | Expert Belt`
+> - **Power Trip attackers** → `Black Glasses | Dread Plate | Expert Belt`
+> - **Stored Power attackers** → `Twisted Spoon | Mind Plate | Shell Bell | Leftovers`
 
-**STRATEGY:**
-- [Primal-Groudon] 1x Stealth Rock, 1x Hone-Claws, 3x Swords-Dance then spam Fury-Cutter.
-- [MMY] 6x Calm-Mind, 3x Agility, 6x Bulk-up, then spam Stored-Power."""
+**Strategies**
+- **A. Fury Cutter**
+> - **Mega Blaziken [Speed Boost]** → Captivate ×3 → Hone Claws ×6 → Focus Energy ×2 → Baton Pass → spam Fury Cutter
+> - **Mega Rayquaza [Delta Stream]** → Confide ×6 → Stealth Rock ×1 → switch → Hone Claws ×1 → Dragon Dance ×6 → Dragon Cheer ×2 → spam Fury Cutter
+> - Alt: Hone Claws ×6 → Dragon Cheer ×2 → Scale Shot ×6
+> - **Durant [Swarm]** → Confide ×6 → switch → Hone Claws ×6 → Agility ×3 → Baton Pass → spam Fury Cutter (Choice Cloak)
+> - **Mega Garchomp** → Captivate ×3 → Stealth Rock ×1 → switch → Hone Claws ×6 → Dragon Cheer ×2 → Scale Shot ×6 → spam Fury Cutter
+> - **Mega Lucario** → Captivate ×3 → switch → Hone Claws ×6 → Agility ×3 → Focus Energy ×2 → spam Fury Cutter
+> - **Mega Salamence** → Captivate ×3 → switch → Hone Claws ×1 → Dragon Dance ×6 → Dragon Cheer ×2 → spam Fury Cutter
+> - **Mega Metagross [Tough Claws]** → Confide ×6 → Stealth Rock ×1 → switch → Hone Claws ×6 → Agility ×3 → spam Fury Cutter
+> - **Primal Groudon [Desolate Land]** → Stealth Rock ×1 → Hone Claws ×1 → Swords Dance ×3 → spam Fury Cutter
+** B. Power Trip**
+> - **Incineroar [Blaze]** → Swords Dance ×3 → Flare Blitz ×1 → Flame Charge ×6 → spam Power Trip
+> - **Zangoose** → Captivate ×3 → switch → Double Team ×6 → Work Up ×6 → Defense Curl ×6 → switch → Agility ×3 → Hone Claws ×2 → spam Power Trip
+> - **Krookodile** → Confide ×6 → Stealth Rock ×1 → switch → Hone Claws ×6 → Focus Energy ×2 → Scale Shot ×6 → spam Power Trip
+> - **Cacturne** → Captivate ×3 → Sunny Day ×1 → switch → Growth ×3 → Double Team ×6 → Trailblaze ×6 → spam Power Trip
+- **C. Stored Power**
+> - **Mewtwo / MMY / MMX / Arceus** → Calm Mind ×6 → Bulk Up ×6 → Agility ×3 → spam Stored Power
+> - **Mewtwo / MMY / MMX** → Calm Mind ×6 → Agility ×3 → Stored Power → Recover
+> - **Arceus** → Calm Mind ×6 → Dragon Dance ×6 → Stored Power → Recover
+
+**Linked Strategy Posts**
+> - [Incineroar](https://discord.com/channels/664509279251726363/775663491385131009/1505853958638538794)
+> - [Zangoose](https://discord.com/channels/664509279251726363/775663491385131009/1508410530858270762)
+> - [Mega Blaziken](https://discord.com/channels/664509279251726363/775663491385131009/1510129902945308773)
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:**
+- EXP requirements are **not tested for all strategies**.
+- Some setups will need **more EXP than others**.
+- When "switch" or **Baton Pass** is mentioned, you’ll need another form of the Pokémon.
+- For **Megas**, you can use the base Pokémon.
+- For others, you’ll need a **Shiny form**.
+- Credits to lucario_ for making and compiling the strats."""
     reg = f"""# BATTLE REGION
 
 **COMMAND:**
@@ -835,7 +864,7 @@ __**2nd Position**__
 
 #
 class SD_BATTLE_THUMBNAIL:
-    cun = "https://cdn.discordapp.com/attachments/1050645885844987904/1508295481347014686/alph_scientist.png?ex=6a150521&is=6a13b3a1&hm=305adbed88fbeead4b4ca86b8c4f25ecf7f83d7153e7d8cb992242bd4165c9b9"
+    un = "https://cdn.discordapp.com/attachments/1050645885844987904/1508295481347014686/alph_scientist.png?ex=6a150521&is=6a13b3a1&hm=305adbed88fbeead4b4ca86b8c4f25ecf7f83d7153e7d8cb992242bd4165c9b9"
     cba = "https://media.discordapp.net/attachments/1382540357123965029/1405503297053392909/300aa3900f11fcca84207ad6dd2e6ffa8fdaed9ac18195a138e3d692a6e23b95.png?ex=689f1073&is=689dbef3&hm=a95088c1cc53bb008ea032d484fc03e31c1b7bf0564e9167fe535a3863461283&=&format=webp&quality=lossless&width=210&height=446"
 
     cbo = "https://media.discordapp.net/attachments/1382540357123965029/1382553462629208164/1081fe7e7981ec228c62a58b8302a7a00346b6052b1edcec4334cd0908e7ff9d.png?ex=689ca700&is=689b5580&hm=193074e9f134dae35dca05c58a55dd54f32bfbae937ff69cef84f1681aefc9c2&=&format=webp&quality=lossless&width=248&height=320"

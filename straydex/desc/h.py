@@ -50,6 +50,7 @@ Straymon's Treasure Trove of *PokéMeow* Knowledge! Use `!H` (help) to access th
 - **`!BACBA`**  Battle: Challenger Basic
 - **`!BACBO`**  Battle: Challenger Boss
 - **`!BACMA`**  Battle: Challenger Master
+- **`!BAUN`**  Battle: Unown Ruins
 - **`!BAIC`**  Battle: Icon
 - **`!BATI`**  Battle: Tower Info
 - **`!BATS`**  Battle: Tower Strategy"""
