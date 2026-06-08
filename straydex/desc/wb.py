@@ -795,7 +795,7 @@ EVs: `HP 252` `SPD 252`
 Nature: `+Def (Any +Def Nature except Lax)`
 Equip: `Metronome`
 Moves: `Defense-Curl` `Rollout` `Power-Trick`
-EVs: `ATK 252` `DEF 252` `SPD 4`
+EVs: `HP 252` `DEF 252` `SPD 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
