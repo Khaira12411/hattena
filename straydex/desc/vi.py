@@ -1,5 +1,8 @@
 class SD_VI_TIER_DESC:
-    one = """- **Clan Wars**
+    one = """
+- **Luv**
+> <:8086:1511920089283301536> Polar • [Server Link](https://discord.gg/UVTRwZTFb)
+- **Clan Wars**
 > <:8083:1511920091279921262> Icy Snow • [Server Link](https://discord.gg/cZ6C9twYTF)
 - **EP Paradise**
 > <:8092:1511920078948667504> Continental • [Server Link](https://discord.gg/uxQvssN99q)
@@ -10,6 +13,8 @@ class SD_VI_TIER_DESC:
 > <:8104:1511920051073323048> Marine • [Server Link](https://discord.gg/sbZ2WrWSUr)
 - **Random Corp**
 > <:8098:1511920055053451365> Elegant • [Server Link](https://discord.gg/T2XRg3t2fY)
+- **MLBB Arena MY**
+> <:8107:1511920048942485636> Archipelago • [Server Link](https://discord.gg/WNpEDm6yn)
 - **BSL**
 > <:8101:1511920053237317753> Modern • [Server Link](https://discord.gg/bslpm)"""
 
@@ -19,6 +24,8 @@ class SD_VI_TIER_DESC:
 > <:8116:1511920042210758766> River • [Server Link](https://discord.gg/MrAUGhtgY2)
 - **Scuffed Shop**
 > <:8113:1511920044509102201> Sandstorm • [Server Link](https://discord.gg/8zHgfmAZdQ)
+- **Catalog Corner**
+> <:8119:1511920040172327112> Monsoon • [Server Link](https://discord.gg/Me972MBuCX)
 - **Sanski**
 > <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/GaGFxHhSnS)"""
 
