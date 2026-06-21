@@ -420,14 +420,14 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome` | `Fairy_Feather` | `Expert_Belt`
-Moves: `Hyper-Beam` `Calm-Mind` ` Draining-Kiss` `Safeguard/Snore`
+Moves: `Echoed-Voice` `Calm-Mind` ` Draining-Kiss` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
 - With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
 - With **Mega Gardevoir** use `Calm-Mind` 6x.
-- After the set-up above, spam `Hyper-Beam`.
+- After the set-up above, spam `Echoed-Voice`.
 - Use `Draining-Kiss` to heal."""
 
     uss = f"""**TEAM:**
@@ -444,14 +444,14 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
-Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
+Moves: `Echoed-Voice` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **STRATEGY:**
 - **Grimer** can be used at lvl 1. Use `Memento` first turn.
 - With **Muk**, use `Acid-Spray` 3x times to get -6 sp defense, then use 1x `Memento`.
 - With **Mega Gardevoir** use `Calm-Mind` 6x times.
-- After the set-up above, spam `Hyper-Beam`.
+- After the set-up above, spam `Echoed-Voice`.
 - Use `Draining-Kiss` to heal."""
 
     mewtwo_strat = f"""**TEAM:**
@@ -572,6 +572,30 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega-Mewtwo-Y**.
 - With **Mega-Mewtwo-Y**, spam `Stored-Power`, and use Max Potions to heal."""
+    ee = f"""**TEAM:**
+- **Octillery #224**
+Ability: `Sniper`
+Equip: `Black Sludge`
+Moves: `Entrainment` `Captivate` `Acid-Spray`
+EVs: `HP 252` `SPD 252`
+
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Fake-Tears` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Mewtwo-Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power` `Role-Play` `Psychic-Terrain` `Mist`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Teach a REMORAID Entrainment first, then evolve it into Octillery.
+- Use 3x Aux Guard.
+- With **Octillery** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Octillery dies swap to **Smeargle**.
+- With **Smeargle** use 3x `Aux Powerguard`, 9x `Acupressure` then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, use `Role-Play` to copy Sniper ability, then spam `Stored-Power`, and use Max Potions to heal. Alternate between `Mist/Psychic-Terrain` to prevent stat reduction/increase damage."""
 
     braviary = f"""**TEAM:**
 - **Smeargle #235**
@@ -727,14 +751,14 @@ EVs: `HP 252` `SPD 252`
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Metronome`
-Moves: `Hyper-Beam` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
+Moves: `Echoed-Voice` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
 - With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Mega-Gardevoir**.
-- With **Mega Gardevoir**,  spam `Hyper-Beam`, and heal with `Draining-Kiss`. Use `Safeguard` to prevent from getting statused every 5 turns."""
+- With **Mega Gardevoir**,  spam `Echoed-Voice`, and heal with `Draining-Kiss`. Use `Safeguard` to prevent from getting statused every 5 turns."""
 
     glalie = f"""**TEAM:**
 - **Mew #151**

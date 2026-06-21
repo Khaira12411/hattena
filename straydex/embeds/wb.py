@@ -90,7 +90,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
 
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
-        strat = WB_MVPStrat.necorzma_ultra
+        strat = WB_MVPStrat.ee
         header_text = f"SHINY ETERNAMAX-ETERNATUS #{dex_number}"
 
     elif boss_name in ["mel", "cop", "dur", "cor"]:
