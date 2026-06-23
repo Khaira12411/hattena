@@ -93,16 +93,20 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.ee
         header_text = f"SHINY ETERNAMAX-ETERNATUS #{dex_number}"
 
-    elif boss_name in ["mel", "cop", "dur", "cor"]:
+    elif boss_name in ["dur", "hat"]:
         strat = WB_MVPStrat.braviary
 
-    elif boss_name in ("orb", "hat"):
+    elif boss_name in ["mel", "ril", "cor", "cop"]:
+        strat = WB_MVPStrat.zard
+
+    elif boss_name in ["dre", "fla", "app"]:
+        strat = WB_MVPStrat.gard2
+
+    elif boss_name in ("orb"):
         strat = WB_MVPStrat.incineroar
 
-    elif boss_name in ("app", "fla"):
-        strat = WB_MVPStrat.glalie
 
-    elif boss_name in ("cen", "cha", "but"):
+    elif boss_name in ("cen", "cha", "but", "lap"):
         strat = WB_MVPStrat.shuckle
 
     elif boss_name in ("ven", "mac", "gen", "gab", "tox"):

@@ -826,3 +826,50 @@ EVs: `HP 252` `DEF 252` `SPD 4`
 - With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Latios*.
 - With **Latios**, use 1x `Hone-Claws` then `Baton-Pass` to **Shuckle**.
 - With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
+
+    zard = f"""**TEAM:**
+- **Sylveon #700**
+Equip: `Loaded_Dice`
+Moves: `Captivate` `Fake-Tears` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Aqua-Ring` `Ingrain` `Tar-Shot` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Gmax Charizard #7145**
+Ability: `Solar-Power`
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Max-Flare`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Sylveon** use 2x `Captivate`, 3x `Fake-Tears`, 2x `Focus-Energy`, then `Baton-Pass` to **Smeargle**.
+- With **Smeargle** use 1x `Aqua-Ring`, 1x `Ingrain`, 1x `Tar-Shot`, then `Baton-Pass` to **Gmax Charizard**.
+- With **Gmax Charizard**, spam `Max-Flare`, and use Max Potions to heal."""
+
+    gard2 = f"""**TEAM:**
+- **Smeargle #235**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Fake-Tears` `Eerie-Impulse` `Simple-Beam` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Role-Play` `Focus-Energy` `Acupressure` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega Gardevoir #7022**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice-Specs`
+Moves: `Stored-Power`
+EVs: `SPA 252` `SPD 252` `HP 6`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Smeargle** use  1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy`, 6x `Acupressure`, then `Baton-Pass` to **Mega Gardevoir**.
+- With **Mega Gardevoir**,  spam `Stored-Power`, and use Max Potions to heal."""
