@@ -870,6 +870,6 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Smeargle** use  1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Smeargle** use  1x `Eerie-Impulse`, 2x `Fake-Tears`, 1x `Simple-Beam`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy`, 6x `Acupressure`, then `Baton-Pass` to **Mega Gardevoir**.
 - With **Mega Gardevoir**,  spam `Stored-Power`, and use Max Potions to heal."""
