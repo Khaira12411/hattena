@@ -1379,6 +1379,55 @@ __OR__
 - **Arceus builds** — Arceus‑Water (252 HP/Def) helps vs Mewtwo/MMY but loses to Specs Kyogre. Arceus‑Grass unreliable without Covert Cloak due to Ice Beam; Water variant still vulnerable to Thunder users.
 - Credits to Tesla for the whole strat"""
 
+    meg = f"""**TEAM:**
+- **Whimsicott #547**
+> Nature: `+SPDEF`
+> Equip: `Choice-Band (Steel matchups) | Choice-Scarf (Fire matchups)`
+> Moves: `Captivate` `Switcheroo` `Light-Screen (optional)`
+> EVs: `HP 252` `SPD 252`
+- **Meganium #154**
+> Nature: `+SPDEF`
+> Equip: `None`
+> Moves: `Protect` `Captivate`
+> EVs: `HP 252` `SPD 252`
+- **Arceus-Steel #7609**
+> Nature: `+SPDEF except -DEF/SPA`
+> Equip: `Covert-Cloak | Leftovers`
+> Moves: `Stored-Power` `Calm-Mind` `Dragon-Dance` `Recover`
+> EVs: `HP 252` `SPD 252`
+__OR__
+- **Arceus-Fire #7549**
+> Nature: `+SPDEF except -DEF/SPA`
+> Equip: `Covert-Cloak | Leftovers`
+> Moves: `Stored-Power` `Work-Up` `Cosmic-Power` `Recover`
+> EVs: `HP 252` `SPD 252`
+
+**STRATEGY**
+### Round 1
+- **Roserade / Whimsicott / Comfey leads** → Switcheroo + Captivate spam → setup & sweep.
+- **Sylveon / Primarina leads** → Captivate spam. Attack Tsareena immediately (OHKOs Steel).
+### Round 2
+- **Sylveon / GMax Alcremie / Gardevoir leads** → Captivate spam → setup & sweep.
+- **Xerneas lead** → Switcheroo if Arceus-Steel, Captivate if Arceus-Fire.
+- **Mega Altaria lead** → Switcheroo → Protect with Meganium → Captivate Togekiss → Recover before KOing Togekiss.
+### Final Round
+- **Togekiss lead** → Captivate spam.
+- **Florges lead** → Switcheroo + Captivate spam → Recover before KOing Florges → KO Primarina → Recover with Arceus-Fire before KOing Gardevoir.
+- **Xerneas lead** → Switcheroo with Arceus-Steel, Captivate with Arceus-Fire.
+- **GMax Hatterene lead** → Arc-Fire or unlevelled Meganium: Light-Screen with Whimsicott → faint.
+  Levelled Meganium + Arc-Steel: Switcheroo → Light-Screen with Meganium → Recover before each setup move.
+  Arc-Fire: Recover before KOing Xerneas.
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- **Steel Cloak = 100% WR**, Fire Cloak ~71/72 WR (loses 1/18 finals vs Comfey/Primarina/Gardevoir crit Hydro Pump).
+- Reliability order: Steel Cloak > Fire Cloak > Steel Leftovers > Fire Leftovers.
+- **Recover first** — Always heal to full before KOing.
+- **Setup priority** — Calm Mind/Cosmic Power first; add Dragon Dance vs Togekiss (cloakless Steel).
+- **Moonblast drops** — Rebuff with Calm Mind/Work Up/Cosmic Power.
+- **IVs** — At least 2 star IVs in boosted stats + ATK.
+- Meganium is mandatory vs Mega Altaria; usable at level 1. Levelled Meganium helps vs GMax Hatterene.
+- Credits: teslacybertrak (strat), .arandomcat (Work Up)"""
+
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
 - **Zacian-Crowned #7891**
@@ -2103,6 +2152,7 @@ B. For Kangaskhan w/ Sash
     dra = None
     cle = None
     sta = None
+    meg = None
 
 class SD_MC_DEX_NUM:
     abo = 7070  # abomasnow
@@ -2158,6 +2208,7 @@ class SD_MC_DEX_NUM:
     dra = 7305 # dragonite
     cle = 7308 # clefable
     sta = 7311 # starmie
+    meg = 7314 # meganium
 
 class SD_MC_GOLD_THUMBNAIL:
     abo = GOLDEN_MEGA_POKEMON_URL.mega_abomasnow
@@ -2207,7 +2258,7 @@ class SD_MC_GOLD_THUMBNAIL:
 
     laa = GOLDEN_MEGA_POKEMON_URL.mega_latias
 
-    lao = None
+    lao = GOLDEN_MEGA_POKEMON_URL.mega_latios
 
     lop = None
 
@@ -2247,6 +2298,7 @@ class SD_MC_GOLD_THUMBNAIL:
     dra = None
     cle = None
     sta = None
+    meg = None
 
 class SD_MC_WHOLE_NAME:
     abo = "abomasnow"
@@ -2303,6 +2355,7 @@ class SD_MC_WHOLE_NAME:
     dra = "dragonite"
     cle = "clefable"
     sta = "starmie"
+    meg = "meganium"
 
 
 class MC_REGULAR_BUTTON_EMOJI:
@@ -2358,6 +2411,7 @@ class MC_REGULAR_BUTTON_EMOJI:
     dra = "<:7305:1492321916101595186>"
     cle = "<:7308:1497877049950601396>"
     sta = "<:7311:1508329469935358003>"
+    meg = "<:7314:1518811435940057222>"
 
 class MC_GOLD_BUTTON_EMOJI:
     abo = "<:7072:1478741682068525169>"
@@ -2414,6 +2468,7 @@ class MC_GOLD_BUTTON_EMOJI:
     dra = None
     cle = None
     sta = None
+    meg = None
 
 mc_dict = {
     "abo": {

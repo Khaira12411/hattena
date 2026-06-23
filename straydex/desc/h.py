@@ -425,6 +425,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCMAN`**  MC: Mega Manectric
 - **`!MCMAW`**  MC: Mega Mawile
 - **`!MCMED`**  MC: Mega Medicham
+- **`!MCMEG`**  MC: Mega Meganium
 - **`!MCMET`**  MC: Mega Metagross
 - **`!MCMMX`**  MC: Mega Mewtwo X
 - **`!MCMMY`**  MC: Mega Mewtwo Y

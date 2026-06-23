@@ -70,7 +70,7 @@ class BF_DESC:
 > Ability: `Intimidate | Moxie`
 > Equip: `Choice_Cloak`
 > Moves: `Dragon-Claw` `Earthquake` `Aerial-Ace`
-> EVs: `HP 252` `DEF 128` `SPD 128`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 **STRATEGY:**
 - With Blissey, use Toxic to wear down opponents. If your team gets a status condition, use Heal Bell. For damage, spam Seismic Toss, and heal Blissey with Soft-Boiled when its HP is low.
@@ -100,17 +100,20 @@ class BF_DESC:
 - **Metagross #376**
 > Equip: `Life_Orb`
 > Moves: `Iron-Head` `Ice-Punch` `Thunder-Punch` `Earthquake`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Salamence #373**
 > Equip: `Choice_Cloak`
 > Moves: `Outrage` `Fly`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Swampert #260**
 > Equip: `Leftovers`
 > Moves: `Liquidation` `Earthquake` `Toxic` `Ice-Punch`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - All Pokémon must have atleast more than 12 IVs for optimal results
-- Adding EV is optional but it would be better if its 252 Hp, 128 Def and 128 Sp. Def.
+- Adding EV is optional.
 - Make sure that Salamence only has Outrage, and Fly as its moveset.
 - If Metagross dies switch to Salamence, if Salamence dies switch to Swampert.
 
@@ -129,18 +132,20 @@ class BF_DESC:
 - **Latios #381**
 > Equip: `Choice_Scarf`
 > Moves: `Surf` `Aura-Sphere` `Psychic` `Dragon-Pulse`
+> EVs: `SPA 252` `SPE 252` `HP 4`
 - **Salamence #373**
 > Equip: `Lum_Berry`
 > Moves: `Outrage` `Thunder-Fang` `Aerial-Ace` `Earthquake`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Metagross #376**
 > Equip: `Sitrus_Berry`
 > Moves: `Meteor-Mash` `Knock-Off` `Earthquake` `Psychic-Fangs`
-
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
 - All Pokémon must have atleast more than 12 IVs for optimal results
-- Adding EV is optional but it would be better if its 252 Hp, 128 Def and 128 Sp. Def.
+- Adding EV is optional.
 - After Latios faints, switch to Metagross — unless the opponent is a Fire or Ground-type, in which case switch to Salamence instead.
 
 {Emojis.star} **Credits to:** Yuki for this team."""
@@ -271,12 +276,15 @@ class BF_DESC:
 - **Latios #381**
 > Equip: `Choice_Cloak`
 > Moves: `Dragon-Pulse` `Psychic` `Shadow-Ball` `Energy-Ball`
+> EVs: `SPA 252` `SPE 252` `HP 4`
 - **Metagross #376**
 > Equip: `Choice_Band`
 > Moves: `Iron-Head` `Ice-Punch` `Shadow-Claw` `Earthquake`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Tyranitar #248**
 > Equip: `Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - Use Effective moves against opponents.
@@ -296,12 +304,15 @@ class BF_DESC:
 - **Latios #381**
 > Equip: `Choice_Scarf`
 > Moves: `Dragon-Pulse` `Psychic` `Shadow-Ball` `Energy-Ball`
+> EVs: `SPA 252` `SPE 252` `HP 4`
 - **Metagross #376**
 > Equip: `Choice_Cloak`
 > Moves: `Iron-Head` `Thunder-Punch` `Shadow-Claw` `Earthquake`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Tyranitar #248**
 > Equip: `Life-Orb | Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - Don’t pick Tyranitar against Fighting-types (Machamp, Breloom, Heracross) or Water-types (Starmie, Milotic, Suicune). It struggles badly in those matchups.
@@ -323,12 +334,15 @@ class BF_DESC:
 - **Latios #381**
 > Equip: `Choice_Cloak`
 > Moves: `Dragon-Pulse` `Psychic` `Aura-Sphere` `Energy-Ball`
+> EVs: `SPA 252` `SPE 252` `HP 4`
 - **Metagross #376**
 > Equip: `Choice_Band`
 > Moves: `Iron-Head` `Ice-Punch` `Thunder-Punch` `Earthquake`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 - **Tyranitar #248**
 > Equip: `Life-Orb | Assault_Vest`
 > Moves: `Rock-Slide` `Earthquake` `Knock-off` `Ice-Punch`
+> EVs: `ATK 252` `SPE 252` `HP 4`
 
 > <a:fidough_wow:1283739703140679703> ***FidNotes:***
 - The Battle Frontier scales all Pokémon to level 50, so there’s no need to raise them to level 100.
