@@ -823,7 +823,7 @@ EVs: `HP 252` `DEF 252` `SPD 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Latios*.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Latios**.
 - With **Latios**, use 1x `Hone-Claws` then `Baton-Pass` to **Shuckle**.
 - With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
 
