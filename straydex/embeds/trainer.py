@@ -56,7 +56,7 @@ async def build_sd_tre_embed(
     embed.add_field(name="💜 For HP", value=";b user 785324709871878154", inline=False)
     embed.add_field(name="💜 For ATT", value=";b user 869722020240293898", inline=False)
     embed.add_field(name="💜 For SPA", value=";b user 496199171330539530", inline=False)
-    embed.add_field(name="💜 For DEF", value=";b user 763621487852519474", inline=False)
+    embed.add_field(name="💜 For DEF", value=";b user 784976984773230602", inline=False)
     embed.add_field(name="💜 For SPD", value=";b user 797773956546560041", inline=False)
     embed.add_field(name="💜 For SPE", value=";b user 383068074242211840", inline=False)
 
