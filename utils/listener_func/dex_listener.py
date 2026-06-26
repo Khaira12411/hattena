@@ -34,7 +34,10 @@ from utils.functions.pokemon_func import (
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
 from utils.logs.pretty_log import pretty_log
 
-# enable_debug(f"{__name__}.dex_listener")
+#enable_debug(f"{__name__}.dex_listener")
+#enable_debug(f"{__name__}.extract_type_from_embed")
+
+#enable_debug(f"{__name__}.fetch_and_update_pokemon_type")
 # enable_debug(f"{__name__}.parse_stats_and_abilities_from_embed_and_update")
 # enable_debug(f"{__name__}.extract_emoji_id_from_evolution_line")
 # enable_debug(f"{__name__}.extract_rarity_from_embed")
@@ -244,18 +247,27 @@ def extract_type_from_embed(embed: discord.Embed) -> Optional[str]:
     Extracts the Pokémon type string from a Discord embed's 'Type' field.
     Returns a string like 'grass' or 'grass_poison', or None if not found.
     """
+    debug_log(f"Starting type extraction from embed.")
     for field in embed.fields:
+        debug_log(f"Checking field: name={field.name!r}, value={field.value!r}")
         if field.name.lower() == "type":
+            debug_log(f"Found 'Type' field with value: {field.value!r}")
             # Extract all emoji names, e.g. <:grasstype:123> -> "grasstype"
             emoji_names = re.findall(r"<:([a-zA-Z0-9_]+):\d+>", field.value)
+            debug_log(f"Extracted emoji names: {emoji_names}")
             types = []
             for name in emoji_names:
                 # Strip trailing "type" suffix (e.g. "grasstype" -> "grass")
                 t = re.sub(r"type$", "", name.lower())
+                debug_log(f"Processed emoji name {name!r} -> type {t!r}")
                 if t:
                     types.append(t)
             if types:
-                return "_".join(types)
+                result = "_".join(types)
+                debug_log(f"Returning type string: {result!r}")
+                return result
+            debug_log("No valid types extracted from emoji names.")
+    debug_log("'Type' field not found in embed.")
     return None
 
 
@@ -263,16 +275,36 @@ async def fetch_and_update_pokemon_type(bot, embed: discord.Embed, pokemon_name:
     """
     Fetches the Pokémon type from the cache or database and updates it if necessary.
     """
+    debug_log(f"fetch_and_update_pokemon_type called for {pokemon_name}.")
     type_from_embed = extract_type_from_embed(embed)
+    debug_log(f"Type extracted from embed for {pokemon_name}: {type_from_embed!r}")
     if type_from_embed:
-        cached_type = await fetch_pokemon_type_cache_first_then_db(bot, pokemon_name)
-        if cached_type != type_from_embed:
-            await update_type(bot, pokemon_name, type_from_embed)
-            debug_log(
-                f"Updated type for {pokemon_name} from {cached_type} to {type_from_embed}."
+        try:
+            cached_type = await fetch_pokemon_type_cache_first_then_db(
+                bot, pokemon_name
             )
-        else:
-            debug_log(f"No update needed for {pokemon_name}. Type matches cache.")
+            debug_log(f"Cached/DB type for {pokemon_name}: {cached_type!r}")
+            if cached_type != type_from_embed:
+                debug_log(
+                    f"Type mismatch for {pokemon_name}: cached={cached_type!r}, embed={type_from_embed!r}. Updating."
+                )
+                await update_type(bot, pokemon_name, type_from_embed)
+                debug_log(
+                    f"Successfully updated type for {pokemon_name} from {cached_type!r} to {type_from_embed!r}."
+                )
+            else:
+                debug_log(
+                    f"No update needed for {pokemon_name}. Type {type_from_embed!r} matches cache."
+                )
+        except Exception as e:
+            debug_log(
+                f"Error while fetching/updating type for {pokemon_name}: {e}", exc=e
+            )
+            pretty_log(
+                "warn",
+                f"⚠️ Failed to fetch/update type for {pokemon_name}: {e}",
+                exc=e,
+            )
     else:
         debug_log(f"No type found in embed for {pokemon_name}. No update performed.")
 

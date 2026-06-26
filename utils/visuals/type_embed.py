@@ -4,7 +4,7 @@ from constants.aesthetic import Emojis
 from constants.straydex import SD_EMOJIS
 from constants.weakness_chart import weakness_chart
 from constants.weakness_type_charts import weakness_type_chart
-from utils.db.market_value_db import fetch_pokemon_type
+from utils.db.market_value_db import fetch_pokemon_name_via_number, fetch_pokemon_type
 from utils.functions.pokemon_func import (
     format_names_for_market_value_lookup,
     get_dex_number_by_name,
@@ -263,8 +263,38 @@ async def build_weakness_embed_from_input(
         "debug",
         f"Resolved Pokemon input '{pokemon_input}' to variant_name: '{variant_name}', shiny_golden_tag: '{shiny_golden_tag}', base_dex: '{base_dex}', is_digit: {is_digit}",
     )
+    resolved_name = None
+    if not variant_name and pokemon_input.strip().isdigit():
+        pretty_log(
+            "info",
+            f"Could not resolve numeric input '{pokemon_input}' via weakness chart. Trying DB lookup.",
+        )
+        resolved_name = await fetch_pokemon_name_via_number(
+            bot, int(pokemon_input.strip())
+        )
+        if resolved_name:
+            pretty_log(
+                "info",
+                f"Resolved dex number '{pokemon_input}' to '{resolved_name}' via DB.",
+            )
+            variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
+                resolved_name
+            )
     if not variant_name:
-        return None, None, None
+        if pokemon_input.strip().isdigit():
+            # DB resolved a name but it's still not in weakness_chart — use it directly
+            # and let the type fallback handle it below
+            if resolved_name:
+                variant_name = resolved_name
+                base_dex = int(pokemon_input.strip())
+                is_digit = True
+            else:
+                return None, None, None
+        else:
+            # Not in weakness_chart — use input directly and let type fallback handle it
+            variant_name = pokemon_input.strip()
+            shiny_golden_tag = shiny_golden_tag or ""
+            is_digit = False
 
     weakness_lookup_name = (
         "unown" if variant_name.lower().startswith("unown") else variant_name
@@ -291,15 +321,15 @@ async def build_weakness_embed_from_input(
             return None, None, None
     elif not weaknesses:
         pretty_log(
-            "warn",
-            f"No weaknesses found for {weakness_lookup_name}",
+            "info",
+            f"'{weakness_lookup_name}' not in weakness chart. Attempting type fallback.",
         )
         # Fall back to get weakness from type function
         weaknesses = await get_weakness_via_type(bot, variant_name)
         if not weaknesses:
             pretty_log(
                 "warn",
-                f"No weaknesses found for {variant_name} via type lookup",
+                f"No weaknesses found for {variant_name} via weakness chart or type lookup.",
             )
             return None, None, None
 

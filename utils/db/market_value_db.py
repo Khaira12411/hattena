@@ -97,6 +97,25 @@ async def fetch_pokemon_type(bot, pokemon_name: str) -> str | None:
         )
         return None
 
+async def fetch_pokemon_name_via_number(bot, number: str) -> str | None:
+    """
+    Fetch the Pokémon name for a given dex number from the market_value table in the database.
+    Returns the Pokémon name as a string, or None if not found.
+    """
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT pokemon_name FROM market_value WHERE dex_number = $1",
+                number,
+            )
+            return row["pokemon_name"] if row and row["pokemon_name"] else None
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Failed to fetch Pokémon name for dex number {number} from database: {e}",
+        )
+        return None
+
 async def fetch_pokemon_type_cache_first_then_db(bot, pokemon_name: str) -> str | None:
     """
     Fetch the type for a Pokémon from the market_value cache first, then database if not found in cache.

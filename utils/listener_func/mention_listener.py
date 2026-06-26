@@ -39,10 +39,10 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
             matched_pokemon = match.group(1).strip()
             break
     if matched_pokemon:
-        from utils.visuals.type_embed import build_weakness_embed_from_input_w_o_bot
+        from utils.visuals.type_embed import build_weakness_embed_from_input
 
         try:
-            embed_result = build_weakness_embed_from_input_w_o_bot(matched_pokemon)
+            embed_result = await build_weakness_embed_from_input(bot, matched_pokemon)
             # Debug: Log the value and type of embed_result
 
             if not embed_result or embed_result[0] is None:
@@ -59,11 +59,10 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
                         f"Fuzzy search found a match: '{fuzzy_result}' for input '{matched_pokemon}'. Attempting to build embed for fuzzy match.",
                         label="MentionListener",
                     )
-                    embed_result = build_weakness_embed_from_input_w_o_bot(fuzzy_result)
-                    weakness_embed, _, _ = embed_result
-                    content = f"{Emojis.purple_magnifying_glass} Did you mean `{fuzzy_result.title()}`? Here's the weakness information for it:"
-                    await message.reply(content=content, embed=weakness_embed)
-                    if embed_result is None:
+                    embed_result = await build_weakness_embed_from_input(
+                        bot, fuzzy_result
+                    )
+                    if not embed_result or embed_result[0] is None:
                         pretty_log(
                             "error",
                             f"Even after fuzzy search, no embed could be built for '{fuzzy_result}'.",
@@ -73,6 +72,9 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
                             f"Could not find weakness information for '{matched_pokemon}' or its closest match '{fuzzy_result}'."
                         )
                         return
+                    weakness_embed, _, _ = embed_result
+                    reply_content = f"{Emojis.purple_magnifying_glass} Did you mean `{fuzzy_result.title()}`? Here's the weakness information for it:"
+                    await message.reply(content=reply_content, embed=weakness_embed)
             else:
                 weakness_embed, _, _ = embed_result
                 if weakness_embed:
