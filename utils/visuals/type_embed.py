@@ -3,7 +3,10 @@ import discord
 from constants.aesthetic import Emojis
 from constants.straydex import SD_EMOJIS
 from constants.weakness_chart import weakness_chart
+from constants.weakness_type_charts import weakness_type_chart
+from utils.db.market_value_db import fetch_pokemon_type
 from utils.functions.pokemon_func import (
+    format_names_for_market_value_lookup,
     get_dex_number_by_name,
     get_display_name,
     get_name_via_dex,
@@ -14,6 +17,13 @@ from utils.functions.stats_and_abilities_functions import (
 )
 from utils.logs.pretty_log import pretty_log
 from utils.visuals.get_pokemon_gifs import get_pokemon_gif
+
+
+def join_types(types: str | list[str]) -> str:
+    if isinstance(types, list):
+        return "_".join(types)
+    return types
+
 
 TYPE_EMOJIS = {
     "grass": SD_EMOJIS.grasstype,
@@ -237,7 +247,128 @@ def get_pokemon_from_input(pokemon_input: str):
 
 
 # -------------------- Embed Builder --------------------
-def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
+async def build_weakness_embed_from_input(
+    bot: discord.Client, pokemon_input: str
+) -> discord.Embed | None:
+    # normalized first
+    pokemon_input = strip_number_tag(
+        pokemon_input
+    )  # Clean up any trailing dex tags for better matching
+
+    variant_name, shiny_golden_tag, base_dex, is_digit = get_pokemon_from_input(
+        pokemon_input
+    )
+
+    pretty_log(
+        "debug",
+        f"Resolved Pokemon input '{pokemon_input}' to variant_name: '{variant_name}', shiny_golden_tag: '{shiny_golden_tag}', base_dex: '{base_dex}', is_digit: {is_digit}",
+    )
+    if not variant_name:
+        return None, None, None
+
+    weakness_lookup_name = (
+        "unown" if variant_name.lower().startswith("unown") else variant_name
+    )
+    weaknesses = weakness_chart.get(weakness_lookup_name)
+    if not weaknesses and shiny_golden_tag:
+        # Fall back to base form weakness info while keeping shiny/golden gif/name/dex
+        base_lookup = weakness_lookup_name
+        for prefix in ("shiny ", "golden "):
+            if base_lookup.startswith(prefix):
+                base_lookup = base_lookup[len(prefix) :]
+                break
+        weaknesses = weakness_chart.get(base_lookup)
+        if weaknesses:
+            pretty_log(
+                "info",
+                f"No weakness info for '{weakness_lookup_name}', falling back to base form '{base_lookup}'",
+            )
+        else:
+            pretty_log(
+                "warn",
+                f"No weaknesses found for '{weakness_lookup_name}' or base form '{base_lookup}'",
+            )
+            return None, None, None
+    elif not weaknesses:
+        pretty_log(
+            "warn",
+            f"No weaknesses found for {weakness_lookup_name}",
+        )
+        # Fall back to get weakness from type function
+        weaknesses = await get_weakness_via_type(bot, variant_name)
+        if not weaknesses:
+            pretty_log(
+                "warn",
+                f"No weaknesses found for {variant_name} via type lookup",
+            )
+            return None, None, None
+
+    types = weaknesses.get("types", [])
+    SD_EMOJISs_str = "".join(TYPE_EMOJIS.get(t, "") for t in types)
+
+    # 🟢 Clean up title (fix Mega hyphen issue)
+    def clean_display_name(raw_name: str, tag: str | None = None) -> str:
+        display_name = raw_name.title()
+        if "mega-" in raw_name.lower():
+            display_name = display_name.replace("Mega-", "Mega ").replace("-", " ")
+        # Avoid double tag if already present
+        if tag:
+            lowered = display_name.lower()
+            if not lowered.startswith(tag.lower()):
+                display_name = f"{tag} {display_name}"
+        return display_name
+
+    lookup_name_for_media = variant_name
+    if not is_digit and shiny_golden_tag:
+        lookup_name_for_media = f"{shiny_golden_tag.lower()} {variant_name}"
+
+    dex_number = (
+        pokemon_input
+        if is_digit
+        else get_dex_number_by_name(lookup_name_for_media)
+        or get_dex_number_by_name(variant_name)
+    )
+    display_name = clean_display_name(variant_name, shiny_golden_tag)
+    embed_title = f"{SD_EMOJISs_str} {display_name} #{dex_number}"
+    image_lookup_name = (
+        lookup_name_for_media if not is_digit else get_name_via_dex(str(pokemon_input))
+    )
+
+    embed_color = TYPE_COLOR.get(types[0], 0x74CEC0) if types else 0x74CEC0
+
+    mult_order = ["4x", "2x", "1x", "1/2x", "1/4x", "0x"]
+    description_lines = []
+    for mult in mult_order:
+        if mult in weaknesses and weaknesses[mult]:
+            types_with_emoji = [
+                f"{TYPE_EMOJIS.get(t, '')} {t.capitalize()}" for t in weaknesses[mult]
+            ]
+            description_lines.append(f"**{mult}**: {', '.join(types_with_emoji)}")
+
+    image_url = get_pokemon_gif(image_lookup_name)
+    embed = discord.Embed(
+        title=embed_title,
+        description="\n\n".join(description_lines),
+        color=embed_color,
+    )
+    if image_url:
+        embed.set_thumbnail(url=image_url)
+
+    notes = get_immunities_based_on_abilities(variant_name)
+    if notes and notes[2]:  # Check if note string is present
+        embed.add_field(name=f"{Emojis.notes} Notes:", value=notes[2], inline=False)
+
+    from utils.functions.stats_and_abilities_functions import format_pokemon_abilities
+
+    footer_text = format_pokemon_abilities(variant_name)
+    if footer_text:
+        embed.set_footer(text=footer_text)
+
+    return embed, description_lines, embed_title
+
+
+# --- without bot---
+def build_weakness_embed_from_input_w_o_bot(pokemon_input: str) -> discord.Embed | None:
     # normalized first
     pokemon_input = strip_number_tag(
         pokemon_input
@@ -346,3 +477,22 @@ def build_weakness_embed_from_input(pokemon_input: str) -> discord.Embed | None:
         embed.set_footer(text=footer_text)
 
     return embed, description_lines, embed_title
+
+
+async def get_weakness_via_type(bot: discord.Client, pokemon_input: str):
+    formatted_input = format_names_for_market_value_lookup(pokemon_input)
+    pokemon_type = await fetch_pokemon_type(bot, formatted_input)
+    if not pokemon_type:
+        pretty_log(
+            "warn",
+            f"No type found for {formatted_input}",
+        )
+        return None
+    type_weaknesses = weakness_type_chart.get(pokemon_type.lower())
+    if not type_weaknesses:
+        pretty_log(
+            "warn",
+            f"No weakness chart found for type {pokemon_type}",
+        )
+        return None
+    return type_weaknesses

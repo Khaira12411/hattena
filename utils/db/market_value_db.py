@@ -78,6 +78,25 @@ async def update_pokemon_stats(bot: discord.Client, pokemon_name: str, base_atk:
             f"Failed to upsert stats for Pokémon {pokemon_name}: {e}",
         )
 
+async def fetch_pokemon_type(bot, pokemon_name: str) -> str | None:
+    """
+    Fetch the type for a Pokémon from the market_value table in the database.
+    Returns the type as a string, or None if not found.
+    """
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            row = await conn.fetchrow(
+                "SELECT type FROM market_value WHERE pokemon_name = $1",
+                pokemon_name.lower(),
+            )
+            return row["type"] if row and row["type"] else None
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Failed to fetch type for {pokemon_name} from database: {e}",
+        )
+        return None
+    
 async def update_emoji_id(bot, pokemon_name: str, emoji_id: str):
     """
     Update the emoji_id for a Pokémon in the market value table.
@@ -117,7 +136,44 @@ async def update_emoji_id(bot, pokemon_name: str, emoji_id: str):
             message=f"Failed to update emoji_id for {pokemon_name}: {e}",
         )
 
+async def update_type(bot, pokemon_name: str, type_str: str):
+    """
+    Update the type for a Pokémon in the market value table.
+    """
+    pokemon_name = pokemon_name.lower()
+    try:
+        async with bot.pg_pool.acquire() as conn:
+            # Only update if row exists
+            row = await conn.fetchrow(
+                "SELECT pokemon_name FROM market_value WHERE pokemon_name = $1",
+                pokemon_name,
+            )
+            if not row:
+                pretty_log(
+                    tag="db",
+                    message=f"No market value row found for {pokemon_name}, skipping type update.",
+                )
+                return
+            await conn.execute(
+                "UPDATE market_value SET type = $1, last_updated = $2 WHERE pokemon_name = $3",
+                type_str,
+                datetime.utcnow(),
+                pokemon_name,
+            )
+            # Update in cache as well
+            if pokemon_name in market_value_cache:
+                market_value_cache[pokemon_name]["type"] = type_str
 
+        pretty_log(
+            tag="db",
+            message=f"Updated type for {pokemon_name} to {type_str}",
+        )
+
+    except Exception as e:
+        pretty_log(
+            tag="error",
+            message=f"Failed to update type for {pokemon_name}: {e}",
+        )
 
 async def update_rarity(bot, pokemon_name: str, rarity: str):
     """
@@ -915,6 +971,8 @@ async def load_market_cache_from_db(bot) -> dict:
                     "base_spe": row.get("base_spe", 0),
                     "weight": row.get("weight", 0),
                     "ability": row.get("ability", ""),
+                    "type": row.get("type", ""),
+                    "emoji_id": row.get("emoji_id", None),
                 }
 
         """pretty_log(
@@ -930,5 +988,4 @@ async def load_market_cache_from_db(bot) -> dict:
             tag="error",
             message=f"Failed to load market cache from database: {e}",
         )
-        return {}
-        return {}
+        return market_value_cache

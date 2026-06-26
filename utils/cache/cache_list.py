@@ -23,6 +23,7 @@ market_value_cache: dict[str, dict] = {}
 #       "base_spe": int,
 #       "weight": int,
 #       "ability": str,
+#       "type" :str,
 #   },
 #   ...
 # }

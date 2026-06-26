@@ -3,6 +3,7 @@ import re
 
 import discord
 from discord.ext import commands
+
 from constants.aesthetic import Emojis
 from constants.ask_hattena.overall import TOPICS
 from constants.straymons_constants import PREFIX
@@ -38,10 +39,10 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
             matched_pokemon = match.group(1).strip()
             break
     if matched_pokemon:
-        from utils.visuals.type_embed import build_weakness_embed_from_input
+        from utils.visuals.type_embed import build_weakness_embed_from_input_w_o_bot
 
         try:
-            embed_result = build_weakness_embed_from_input(matched_pokemon)
+            embed_result = build_weakness_embed_from_input_w_o_bot(matched_pokemon)
             # Debug: Log the value and type of embed_result
 
             if not embed_result or embed_result[0] is None:
@@ -58,7 +59,7 @@ async def mention_listener(bot: commands.Bot, message: discord.Message):
                         f"Fuzzy search found a match: '{fuzzy_result}' for input '{matched_pokemon}'. Attempting to build embed for fuzzy match.",
                         label="MentionListener",
                     )
-                    embed_result = build_weakness_embed_from_input(fuzzy_result)
+                    embed_result = build_weakness_embed_from_input_w_o_bot(fuzzy_result)
                     weakness_embed, _, _ = embed_result
                     content = f"{Emojis.purple_magnifying_glass} Did you mean `{fuzzy_result.title()}`? Here's the weakness information for it:"
                     await message.reply(content=content, embed=weakness_embed)

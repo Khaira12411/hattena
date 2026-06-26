@@ -5,55 +5,98 @@ class SD_AC:
 **COMMAND:**  `;ach`
 
 - **UNLOCK 10 BATTLE ICONS**
-> - *Try to finish atleast 1x Battle Icon quest to get  `!LuckIncense`.*
+> - *Try to finish at least 1x Battle Icon quest to get `!LuckIncense`.*
 > - *You can only get battle icons from NPCs, not other users.*
-> - *Do  `;battle`  during +25% Trainer Icon Bonus  `;bo`.*
+> - *Do `;battle` during +25% Trainer Icon Bonus `;bo`.*
 
 - **WIN 10,000 BATTLES**
-> - *Quick battles are also counted for this achievement.  `;b user quick`  is half the cooldown of regular battles but does not drop battle icons.*
-> - *Do battles with a  `!LuckIncense`  equipped on one of your Pokemon in your team. Equip  `Lucky Egg`  on your attack Pokemon, if you are grinding XP and get icon at the same time.*
+> - *Quick battles are also counted for this achievement. `;b user quick` has half the cooldown of regular battles but does not drop battle icons.*
+> - *Do battles with a `!LuckIncense` equipped on one of your Pokémon in your team.*
+> - *Equip `Lucky Egg` on your attack Pokémon if you are grinding XP and want to get icons at the same time.*
 
 - **COMPLETE 100 MEGA CHAMBERS**
-> - *Go for the chambers with the cheapest sacrifice like  `Mawile`,  `Glalie`,  `Manectric`,  `Sableye`,  `Kangaskhan`,  &  `Pidgeot`.*
-> - *StrayDex has a Mega Chambers guide  `!mc`.*
-> - *Don't forget to lock your mega-lines again after release them for sacrifice,  `;r lock mega-line`.*
+> - *Prepare an Arceus (normal or any form) with HP/SPDEF EVs.*
+> - *Go for chambers with the least complications and cheapest sacrifices, like <:Rare:1142668430634393610> pre‑megas being sold below 1000 each.*
+> - *StrayDex has a Mega Chambers guide `!mc`.*
+> - *Don’t forget to lock your mega‑lines again after releasing them for sacrifice: `;r lock mega-line`.*
 
 - **DEFEAT 5 MASTER CHALLENGERS | ALL CHAMPIONS**
-> - *StrayDex guide available with  `!ba`.*
-> - *You need to defeat all champions  `;champ`  first to unlock master challenges.*
+> - *StrayDex guide available with `!ba`.*
+> - *You need to defeat all champions `;champ` first to unlock master challenges.*
 
 - **BATTLE TOWER**
-> - *StrayDex guide available  `!bati` or `!bats`.*"""
+> - *StrayDex guide available `!bati` or `!bats`.*
+
+- **DEFEAT 7 GOLD SYMBOLS / 50 HIDDEN CHAMBERS**
+> - *StrayDex guide available `!bf` or `!mc`.*
+
+- **1/2/3 IN ;PS WIN**
+> - *Join a push if in Plasma, or join a push when your faction can top the leaderboard.*
+> - *Be mindful if you have enough time for the week.*
+
+- **250 UNIQUE NPCS**
+> - *Do NPCs 1–78, `;ch`, `;bf`, `;mc ch`, `;bt`, 970, and special rotating event NPCs.*
+
+- **100 LIVE BATTLES**
+> - *Do `;b live (@user)` with an alt, or ask someone with time to KO their team in 3 hits.*
+"""
 
     cat = f"""# ACHIEVEMENT: CATCHES
 **COMMAND:**  `;ach`
 
-- **CATCH 20 LEGENDARIES/10 SHINIES**
-> - *Use  `!Grazz`  while spawning Pokemons.*
+- **CATCH 20 LEGENDARIES / 10 SHINIES**
+> - *Use `!Grazz` while spawning Pokémons.*
 > - *Buy/Use `!ShinyCharm`.*
-> - *Use an incense. Command:  `;inc`.*
-> - *Attempt during an active 25% Checklist Shiny Rate Global Bonus. Command:  `;bo`.*
+> - *Use an incense. Command: `;inc`.*
+> - *Attempt during an active 25% Checklist Shiny Rate Global Bonus. Command: `;bo`.*
 
 - **50M POKECOINS FROM CATCHES**
-> - *Invest in 10ea  `!AmuletCoin`.*
+> - *Invest in 10ea `!AmuletCoin`.*
 
 - **HATCH 100 EGGS**
-> - *Only hatch eggs during a special event like Golden Egg Promo, for a chance to get a limited Golden Pokemon from eggs!*
+> - *Only hatch eggs during a special event like Golden Egg Promo for a chance to get a limited Golden Pokémon from eggs!*
 
-- **CATCH 100 POKEMON IN A ROW**
-> **For Non-Patreon**
-> - *Use Ultraball to catch  <:Common:1186968566063435786>  Commons*
-> - *Let  <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon run away.*
+- **CATCH 100 POKÉMON IN A ROW**
+> **For NO CATCH RATE BOOST**
+> - *Use Ultraball to catch <:Common:1186968566063435786> Commons.*
+> - *Let <:Uncommon:1186968571839000606><:Rare:1142668430634393610><:SuperRare:1133025503067000852> Pokémon run away.*
 
-> **For Patreon**
-> - *Use Greatball to catch  <:Common:1186968566063435786>  Common.*
-> - *Use Ultraball to catch  <:Uncommon:1186968571839000606>  Uncommon.*
-> - *Let  <:Rare:1142668430634393610><:SuperRare:1133025503067000852>  Pokemon run away.*
+> **For +5 Catch Rate Boosted via Patreon, Boosted Channel, and/or Sufficient Clan Perk**
+> - *Use Greatball to catch <:Common:1186968566063435786> Common.*
+> - *Use Ultraball to catch <:Uncommon:1186968571839000606> Uncommon.*
+> - *Let <:Rare:1142668430634393610><:SuperRare:1133025503067000852> Pokémon run away.*
 
-> **For Both**
-> - *Use Masterball to catch  <:Legendary:1090640224125718570><:Shiny:1090640278999810079>  Pokemon.*
+> **WITH +15 Catch Rate**
+> - *Use Greatball to catch <:Uncommon:1186968571839000606> Uncommon.*
+
+> **WITH +20 Catch Rate**
+> - *Use Pokéball to catch <:Common:1186968566063435786> Common.*
+
+> **Let Held Item Pokémon Run Away**
+> - *Only catch with Duskball/Netball if certain your perks are enough.*
+
+> **For ANY**
+> - *Use Masterball to catch <:Legendary:1090640224125718570><:Shiny:1090640278999810079> Pokémon.*
 > - *Use `!Honey` when you have it.*
-> - *Check your current streak. Command:  `;st`.*"""
+> - *Check your current streak. Command: `;st`.*
+
+- **BALLDEX FOR 50 POKÉMON**
+> - *Complete in ascending order from Pokéball to Masterball to ensure no Masterball wastage.*
+> - *Buy Premierballs from `;event shop` or obtain from battling.*
+
+- **CATCH A <:Golden11:1147776276510281818> POKÉMON IN ;SZ**
+> - *Use Safari Tickets during `;promo` to take advantage of possible promo items.*
+
+- **10K EXPLORE CATCHES**
+> - *Buy Patreon from reliable sources and use the whole month to spam explore (two months if using common).*
+
+- **CRITICAL CATCH 100 POKÉMON**
+> - *Buy 3–5 Catching Charms from `;fa shop` and use Pokéball always.*
+> - *May opt to go for 10 to return to normal catching.*
+
+- **USE 15 UNIQUE BALL TYPES**
+> - *Buy Patreon from reliable sources and use the whole month to spam explore (two months if using common).*
+"""
 
     dex = f"""# ACHIEVEMENT: DEX
 **COMMAND:**  `;ach`

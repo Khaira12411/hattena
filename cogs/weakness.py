@@ -36,7 +36,7 @@ class WeaknessChart(commands.Cog):
             ephemeral=False,
         )
 
-        result = build_weakness_embed_from_input(pokemon)
+        result = await build_weakness_embed_from_input(self.bot, pokemon)
         if result is None:
             await loader.edit(
                 content=f"Could not find weakness information for '{pokemon}'."

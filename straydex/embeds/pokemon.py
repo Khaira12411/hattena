@@ -7,7 +7,7 @@ from straydex.config import SD_CONFIG
 from straydex.desc.pokemon import *
 from straydex.functions.main import get_default_footer
 from utils.logs.pretty_log import pretty_log
-from utils.visuals.type_embed import build_weakness_embed_from_input
+from utils.visuals.type_embed import build_weakness_embed_from_input_w_o_bot
 from utils.visuals.type_embed import get_type_embed_color
 
 no_weakness_embed_list = [
@@ -75,11 +75,10 @@ async def build_sd_po_embed(
     desc = getattr(SD_PO_DESC, sub_cmd, None)
     full_name = pokemon_map.get(sub_cmd, sub_cmd)
 
-
     if sub_cmd not in no_weakness_embed_list:
         # Add WEAKNESS CHART section with blockquote style and blank lines exactly as screenshot
         color = get_type_embed_color(full_name) or color  # fallback to default if not found
-        _, weakness_desc, _ = build_weakness_embed_from_input(full_name)
+        _, weakness_desc, _ = build_weakness_embed_from_input_w_o_bot(full_name)
         if weakness_desc:
             # All lines in a single >>> blockquote, blank lines between groups
             weakness_block = "**__WEAKNESS CHART__**\n>>> " + "\n\n".join(weakness_desc)
