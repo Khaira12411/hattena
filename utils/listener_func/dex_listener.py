@@ -16,11 +16,15 @@ from utils.cache.market_value_cache import (
     fetch_rarity_cache,
 )
 from utils.db.market_value_db import (
+    fetch_dex_number_from_db,
+    fetch_image_link_from_db,
+    fetch_pokemon_type_cache_first_then_db,
     update_dex_number,
     update_emoji_id,
     update_is_exclusive,
     update_pokemon_stats,
     update_rarity,
+    update_type,
     upsert_image_link,
 )
 from utils.functions.pokemon_func import (
@@ -235,13 +239,50 @@ def extract_rarity_from_embed(embed) -> str:
     return ""
 
 
+def extract_type_from_embed(embed: discord.Embed) -> Optional[str]:
+    """
+    Extracts the Pokémon type string from a Discord embed's 'Type' field.
+    Returns a string like 'grass' or 'grass_poison', or None if not found.
+    """
+    for field in embed.fields:
+        if field.name.lower() == "type":
+            # Extract all emoji names, e.g. <:grasstype:123> -> "grasstype"
+            emoji_names = re.findall(r"<:([a-zA-Z0-9_]+):\d+>", field.value)
+            types = []
+            for name in emoji_names:
+                # Strip trailing "type" suffix (e.g. "grasstype" -> "grass")
+                t = re.sub(r"type$", "", name.lower())
+                if t:
+                    types.append(t)
+            if types:
+                return "_".join(types)
+    return None
+
+
+async def fetch_and_update_pokemon_type(bot, embed: discord.Embed, pokemon_name: str):
+    """
+    Fetches the Pokémon type from the cache or database and updates it if necessary.
+    """
+    type_from_embed = extract_type_from_embed(embed)
+    if type_from_embed:
+        cached_type = await fetch_pokemon_type_cache_first_then_db(bot, pokemon_name)
+        if cached_type != type_from_embed:
+            await update_type(bot, pokemon_name, type_from_embed)
+            debug_log(
+                f"Updated type for {pokemon_name} from {cached_type} to {type_from_embed}."
+            )
+        else:
+            debug_log(f"No update needed for {pokemon_name}. Type matches cache.")
+    else:
+        debug_log(f"No type found in embed for {pokemon_name}. No update performed.")
+
+
 async def dex_listener(bot, message: discord.Message):
     """Listens to dex command and updates the image link in the market value cache if it differs from the one in the command output."""
     embed = message.embeds[0] if message.embeds else None
     if not embed:
         return
 
-    embed_title = embed.title if embed.title else ""
     embed_author_name = embed.author.name if embed.author else ""
     pokemon_name, dex_number = extract_pokemon_name_and_dex(embed_author_name)
     if not pokemon_name:
@@ -258,11 +299,6 @@ async def dex_listener(bot, message: discord.Message):
         return
     processed_dex_message_ids_cache.add(key)
 
-    embed_image_url = embed.image.url if embed.image else None
-    image_link_cache = fetch_image_link_cache(pokemon_name)
-    debug_log(
-        f"dex_listener: embed_image_url={embed_image_url}, image_link_cache={image_link_cache}"
-    )
     existing_exclusive_status = fetch_pokemon_exclusivity_cache(pokemon_name)
     is_exclusive = is_mon_exclusive(pokemon_name)
     if existing_exclusive_status != is_exclusive and is_exclusive == False:
@@ -270,23 +306,19 @@ async def dex_listener(bot, message: discord.Message):
         await update_is_exclusive(bot, pokemon_name, new_exclusive)
     else:
         new_exclusive = existing_exclusive_status
-    if image_link_cache is None and embed_image_url:
-        await upsert_image_link(bot, pokemon_name, embed_image_url, new_exclusive)
-        debug_log(
-            f"Inserted new image link for {pokemon_name}: {embed_image_url} with exclusivity {new_exclusive}."
-        )
-        pretty_log(
-            "info",
-            f"Inserted new image link for {pokemon_name}: {embed_image_url} with exclusivity {new_exclusive}.",
-        )
-    elif embed_image_url and image_link_cache != embed_image_url:
+
+    embed_image_url = embed.image.url if embed.image else None
+    old_image = fetch_image_link_cache(pokemon_name)
+    if old_image is None:
+        old_image = await fetch_image_link_from_db(bot, pokemon_name)
+    if embed_image_url and old_image != embed_image_url:
         await upsert_image_link(bot, pokemon_name, embed_image_url, new_exclusive)
         debug_log(f"Updated image link for {pokemon_name} to {embed_image_url}.")
-        pretty_log(
-            "info",
-            f"Updated image link for {pokemon_name} to {embed_image_url}.",
-        )
+        pretty_log("info", f"Updated image link for {pokemon_name}: {embed_image_url}.")
+
     old_dex_number = fetch_dex_number_cache(pokemon_name)
+    if not old_dex_number:
+        old_dex_number = await fetch_dex_number_from_db(bot, pokemon_name)
     if dex_number and str(old_dex_number) != str(dex_number):
         dex_number = int(dex_number)
         await update_dex_number(bot, pokemon_name, dex_number)
@@ -329,6 +361,19 @@ async def dex_listener(bot, message: discord.Message):
         pretty_log(
             "warn",
             f"⚠️ Failed to parse stats and abilities for {pokemon_name} from embed: {e}",
+            exc=e,
+        )
+    # Check and update Pokémon type
+    try:
+        await fetch_and_update_pokemon_type(bot, embed, pokemon_name)
+    except Exception as e:
+        debug_log(
+            f"Failed to fetch and update Pokémon type for {pokemon_name} from embed: {e}",
+            exc=e,
+        )
+        pretty_log(
+            "warn",
+            f"⚠️ Failed to fetch and update Pokémon type for {pokemon_name} from embed: {e}",
             exc=e,
         )
 

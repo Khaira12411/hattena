@@ -96,7 +96,22 @@ async def fetch_pokemon_type(bot, pokemon_name: str) -> str | None:
             message=f"Failed to fetch type for {pokemon_name} from database: {e}",
         )
         return None
-    
+
+async def fetch_pokemon_type_cache_first_then_db(bot, pokemon_name: str) -> str | None:
+    """
+    Fetch the type for a Pokémon from the market_value cache first, then database if not found in cache.
+    Returns the type as a string, or None if not found.
+    """
+    from utils.cache.market_value_cache import fetch_type_cache
+
+    # Try to fetch from cache first
+    type_from_cache = fetch_type_cache(pokemon_name)
+    if type_from_cache is not None:
+        return type_from_cache
+
+    # If not found in cache, fetch from database
+    return await fetch_pokemon_type(bot, pokemon_name)
+
 async def update_emoji_id(bot, pokemon_name: str, emoji_id: str):
     """
     Update the emoji_id for a Pokémon in the market value table.
