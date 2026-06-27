@@ -4,7 +4,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-from utils.autocomplete.pokemon_autocomplete import pokemon_autocomplete
+from utils.db.market_value_db import pokemon_autocomplete
 from utils.functions.pokeapi_func import get_pokemon_stats
 from utils.functions.pokemon_func import get_display_name
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
@@ -174,7 +174,6 @@ class StatsCalculator(commands.Cog):
         ivs: int,
         evs: int,
         level: int,
-
     ):
         # Defer the response to give us more time to calculate
         loader = await pretty_defer(

@@ -4,7 +4,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-from utils.autocomplete.pokemon_autocomplete import pokemon_autocomplete
+from utils.db.market_value_db import pokemon_autocomplete
 from utils.functions.pokeapi_func import get_pokemon_stats
 from utils.functions.pokemon_func import get_display_name
 from utils.logs.debug_log import debug_enabled, debug_log, enable_debug
@@ -17,7 +17,9 @@ from utils.visuals.type_embed import get_type_embed_color
 enable_debug(f"{__name__}.estimate_level_and_iv_from_hp")"""
 
 
-def estimate_level_and_iv_from_hp(pokemon, hp, base_hp, is_golden=False, max_level=10000):
+def estimate_level_and_iv_from_hp(
+    pokemon, hp, base_hp, is_golden=False, max_level=10000
+):
     """
     Estimate possible level(s) and IV range for a Pokémon given its HP stat.
     Assumes EV = 0. Returns a dict: {level: [possible_ivs]} for all levels up to max_level where the HP matches.
