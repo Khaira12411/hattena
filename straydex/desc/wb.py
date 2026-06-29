@@ -731,7 +731,7 @@ Moves: `Stored-Power` `Role-Play` `Psychic-Terrain` `Mist`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
-- Change Remoraid's ability to Sniper. Get Entrainment on Remoraid before evolving to Octillery.
+- Get Entrainment on Remoraid before evolving to Octillery, then change its ability to Sniper.
 - Use 3x Aux Guard.
 - With **Octillery** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Octillery dies swap to **Smeargle**.
 - With **Smeargle** use 3x `Aux Powerguard`, 9x `Acupressure` then `Baton-Pass` to **Mega-Mewtwo-Y**.
@@ -875,8 +875,8 @@ EVs: `HP 252` `SPD 252`
 
 - **Mega-Mewtwo-Y #7121**
 Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Choice_Specs`
-Moves: `Stored-Power`
+Equip: `Metronome`
+Moves: `Stored-Power` `Wonder-Room` `Recover`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
@@ -884,7 +884,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - Use 3x Aux Powerguard.
 - With **Delcatty** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega-Mewtwo-Y**.
-- With **Mega-Mewtwo-Y**, spam `Stored-Power`, and use Max Potions to heal."""
+- With **Mega-Mewtwo-Y**, use `Wonder-Room` reapply everytime it fades, spam `Stored-Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
 - **Smeargle #235**
