@@ -551,9 +551,10 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 
 class WB_MVPStrat:
     mmy = f"""**TEAM:**
-- **Smeargle #235**
+- **Swoobat #528**
+Ability: `Simple`
 Equip: `Loaded_Dice`
-Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
@@ -568,14 +569,67 @@ Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
+- If possible change Swoobat's ability to Simple to save aux.
+- Learn Captivate on Woobat, then evolve it into Swoobat.
 - Use 3x Aux Powerguard.
-- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega-Mewtwo-Y**.
 - With **Mega-Mewtwo-Y**, spam `Stored-Power`, and use Max Potions to heal."""
+    grimm = f"""**TEAM:**
+- **Swoobat #528**
+Ability: `Simple`
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Vaporeon #134**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Focus-Energy` `Aqua-Ring` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Gardevoir #7022**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Echoed-Voice`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- If possible change Swoobat's ability to Simple to save aux.
+- Learn Captivate on Woobat, then evolve it into Swoobat.
+- Use 3x Aux Powerguard.
+- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Vaporeon** use 1x `Aqua-Ring`, 2x `Focus-Energy`, then `Baton-Pass` to **Mega-Gardevoir**.
+- With **Mega-Gardevoir**, spam `Echoed-Voice`, and use Max Potions to heal."""
+
+    pika = f"""**TEAM:**
+- **Remoraid #223**
+Ability: `Sniper`
+Equip: `Black_Sludge | Toxic_Orb`
+Moves: `Entrainment` `Captivate` `Acid-Spray`
+EVs: `HP 252` `SPD 252`
+
+- **Jolteon #135**
+Equip: `Loaded_Dice`
+Moves: `Captivate` `Fake-Tears` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Mewtwo-Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power` `Role-Play` `Psychic-Terrain` `Recover`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Change Remoraid's ability to Sniper.
+- With **Remoraid** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Remoraid dies swap to **Jolteon**.
+- Use 3x Aux Powerguard.
+- With **Jolteon** use 2x `Captivate` (if necessary), 3x `Fake-Tears` (if necessary), 2x `Focus-Energy`, then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, use `Role-Play` to copy Sniper ability, use `Psychic-Terrain` reapply everytime it fades, spam `Stored-Power`, and use Max Potions to heal."""
+
     ee = f"""**TEAM:**
 - **Octillery #224**
 Ability: `Sniper`
-Equip: `Black Sludge`
+Equip: `Black_Sludge | Toxic_Orb`
 Moves: `Entrainment` `Captivate` `Acid-Spray`
 EVs: `HP 252` `SPD 252`
 
@@ -591,21 +645,47 @@ Moves: `Stored-Power` `Role-Play` `Psychic-Terrain` `Mist`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
-- Teach a REMORAID Entrainment first, then evolve it into Octillery.
+- Change Remoraid's ability to Sniper. Get Entrainment on Remoraid before evolving to Octillery.
 - Use 3x Aux Guard.
 - With **Octillery** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Octillery dies swap to **Smeargle**.
 - With **Smeargle** use 3x `Aux Powerguard`, 9x `Acupressure` then `Baton-Pass` to **Mega-Mewtwo-Y**.
 - With **Mega-Mewtwo-Y**, use `Role-Play` to copy Sniper ability, then spam `Stored-Power`, and use Max Potions to heal. Alternate between `Mist/Psychic-Terrain` to prevent stat reduction/increase damage."""
 
-    braviary = f"""**TEAM:**
-- **Smeargle #235**
-Equip: `Loaded_Dice`
-Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
+    snorlax = f"""**TEAM:**
+- **Octillery #224**
+Ability: `Sniper`
+Equip: `Black_Sludge | Toxic_Orb`
+Moves: `Entrainment` `Captivate` `Acid-Spray`
 EVs: `HP 252` `SPD 252`
 
-- **Shiny Smeargle #1235**
+- **Smeargle #235**
 Equip: `Loaded_Dice`
-Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
+Moves: `Fake-Tears` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Mewtwo-Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power` `Role-Play` `Wonder-Room`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Change Remoraid's ability to Sniper. Get Entrainment on Remoraid before evolving to Octillery.
+- Use 3x Aux Guard.
+- With **Octillery** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Octillery dies swap to **Smeargle**.
+- With **Smeargle** use 3x `Aux Powerguard`, 2x `Focus-Energy`, 6x `Acupressure` then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, use `Role-Play` to copy Sniper ability, use `Wonder-Room` reapply everytime it fades, spam `Stored-Power`, and use Max Potions to heal."""
+
+    braviary = f"""**TEAM:**
+- **Vaporeon #134**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Captivate` `Focus-Energy` `Aqua-Ring` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Malamar #687**
+*Remove Contrary Ability*
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Hisuian-Braviary #7816**
@@ -617,37 +697,40 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
-- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Hisuian-Braviary**.
+- With **Vaporeon** use 1x `Aqua-Ring`, 2x `Captivate`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
+- With **Malamar** use 3x `Fake-Tears`, 1x `Focus-Energy` 9x `Acupressure`, then `Baton-Pass` to **Hisuian-Braviary**.
 - With **Hisuian-Braviary**, spam `Stored-Power`, and use Max Potions to heal."""
 
     gengar = f"""**TEAM:**
-- **Latios #381**
-Equip: NA
-Moves: `Simple-Beam` `Memento`
+- **Remoraid #223**
+Ability: `Sniper`
+Equip: `Black_Sludge | Toxic_Orb`
+Moves: `Entrainment` `Captivate` `Acid-Spray`
 EVs: `HP 252` `SPD 252`
 
-- **Umbreon #197**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Captivate` `Focus-Energy` `Baton-Pass`
+- **Eevee #133**
+Equip: `Loaded_Dice`
+Moves: `Captivate` `Fake-Tears` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y #7121**
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
-Moves: `Stored-Power`
+Moves: `Stored-Power` `Role-Play` `Recover`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
-- Use Simple-Beam with **Latios** to change Gengar's ability to Simple, then use `Memento`.
+- Change Remoraid's ability to Sniper.
+- With **Remoraid** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Remoraid dies swap to **Eevee**.
 - Use 3x Aux Powerguard.
-- With **Umbreon** use 3x `Captivate`, 3x `Fake-Tears`, 2x `Focus-Energy`then `Baton-Pass` to **Mega Mewtwo Y**.
-- With **Mega Mewtwo Y**, spam `Stored-Power`, and use Max Potions to heal."""
+- With **Eevee** use 2x `Captivate` (if necessary), 3x `Fake-Tears` (if necessary), 2x `Focus-Energy`, then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, use `Role-Play` to copy Sniper ability, spam `Stored-Power`, and use Max Potions to heal."""
 
     necorzma_ultra = f"""**TEAM:**
-- **Smeargle #235**
+- **Swoobat #528**
+Ability: `Simple`
 Equip: `Loaded_Dice`
-Moves: `Simple-Beam` `Fake-Tears` `Eerie-Impulse` `Baton-Pass`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
@@ -662,10 +745,60 @@ Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
+- If possible change Swoobat's ability to Simple to save aux.
+- Learn Captivate on Woobat, then evolve it into Swoobat.
 - Use 3x Aux Powerguard.
-- With **Smeargle** use 1x `Simple-Beam`, 1x `Eerie-Impulse`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
 - With **Necrozma-Ultra**, spam `Stored-Power`, and use Max Potions to heal."""
+
+    toxic = f"""**TEAM:**
+- **Delcatty #301**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Necrozma-Ultra #7693**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Learn all moves on Skitty, then evolve it into Delcatty.
+- Use 3x Aux Powerguard.
+- With **Delcatty** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Necrozma-Ultra**.
+- With **Necrozma-Ultra**, spam `Stored-Power`, and use Max Potions to heal."""
+
+    alcremie = f"""**TEAM:**
+- **Delcatty #301**
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Role-Play` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Mewtwo-Y #7121**
+Nature: `+SpA (Any +SpA Nature except Rash)`
+Equip: `Choice_Specs`
+Moves: `Stored-Power`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Learn all moves on Skitty, then evolve it into Delcatty.
+- Use 3x Aux Powerguard.
+- With **Delcatty** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy` 6x `Acupressure` (amount can depend on how fast the wb dies) then `Baton-Pass` to **Mega-Mewtwo-Y**.
+- With **Mega-Mewtwo-Y**, spam `Stored-Power`, and use Max Potions to heal."""
 
     incineroar = f"""**TEAM:**
 - **Smeargle #235**
@@ -690,28 +823,29 @@ EVs: `ATK 252` `SPD 252` `HP 4`
 - With **Incineroar**, spam `Power-Trip`, and use Max Potions to heal."""
 
     coa = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Eerie-Impulse` `Focus-Energy` `Screech` `Baton-Pass`
-EVs: `HP 252` `SPD 252`
-
 - **Vaporeon #134**
 Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Aqua-Ring` `Baton-Pass`
+Moves: `Captivate` `Focus-Energy` `Aqua-Ring` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Primal-Kyogre #7583**
+- **Bellossom #182**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Captivate` `Ingrain` `Acid-Spray` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Gmax-Inteleon #7217**
+Ability: `Sniper`
 Nature: `+SpA (Any +SpA Nature except Rash)`
 Equip: `Choice_Specs`
-Moves: `Water-Spout`
+Moves: `Max-Geyser`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
+- Change Gmax-Inteleon's ability to Sniper.
 - Use 3x Aux Powerguard.
-- With **Mew** use 3x `Eerie-Impulse`, 2x `Focus-Energy`, `, then `Baton-Pass` to **Vaporeon**.
-- With **Vaporeon** use 1x `Aqua-Ring`, 3x `Fake-Tears`, then `Baton-Pass` to **Primal-Kyogre**.
-- With **Primal-Kyogre** spam `Water-Spout`, and use Max Potions to heal."""
-
+- With **Vaporeon** use 2x `Captivate`, 1x `Aqua-Ring`, 2x `Focus-Energy`, then `Baton-Pass` to **Bellossom**.
+- With **Bellossom** use 1x `Ingrain`, 1x `Captivate`, 3x `Acid-Spray`, then `Baton-Pass` to **Gmax-Inteleon**.
+- With **Gmax-Inteleon**, spam `Max-Geyser`, and use Max Potions to heal."""
     zac_crowned = f"""**TEAM:**
 - **Mew #151**
 Equip: `Loaded_Dice | Clear_Amulet`
@@ -739,26 +873,19 @@ EVs: `ATK 252` `SPD 252` `HP 6`
     uss = f"""**TEAM:**
 - **Mew #151**
 Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
-EVs: `HP 252` `SPD 252`
-
-- **Malamar #687**
-*Remove Contrary Ability*
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Acupressure` `Baton-Pass`
+Moves: `Fake-Tears` `Focus-Energy` `Eerie-Impulse` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega Gardevoir #7022**
 Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Metronome`
-Moves: `Echoed-Voice` `Draining-Kiss` `Calm-Mind` `Safeguard/Snore`
+Equip: `Choice-Specs`
+Moves: `Echoed-Voice`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, then `Baton-Pass` to **Malamar**.
-- With **Malamar** use 3x `Fake-Tears`, then `Baton-Pass` to **Mega-Gardevoir**.
-- With **Mega Gardevoir**,  spam `Echoed-Voice`, and heal with `Draining-Kiss`. Use `Safeguard` to prevent from getting statused every 5 turns."""
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Fake-Tears`, then `Baton-Pass` to **Malamar**.
+- With **Mega Gardevoir**,  spam `Echoed-Voice`, and heal with Max Potions."""
 
     glalie = f"""**TEAM:**
 - **Mew #151**
@@ -805,26 +932,26 @@ EVs: `ATK 252` `SPD 252` `HP 6`
 - With **Primal-Groudon**, use 1x `Hone-Claws`, `1x Defense-Curl`, 1x Aux Powerguard, then spam `Rollout`."""
 
     shuckle = f"""**TEAM:**
-- **Mew #151**
-Equip: `Loaded_Dice | Wise_Glasses | Clear_Amulet`
-Moves: `Fake-Tears` `Focus-Energy` `Screech` `Baton-Pass`
+- **Vaporeon #134**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Captivate` `Focus-Energy` `Aqua-Ring` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
-- **Latios #381**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Hone-Claws` `Baton-Pass`
+- **Gliscor #472**
+Equip: `Wise_Glasses`
+Moves: `Hone-Claws` `Screech` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shuckle #213**
 Nature: `+Def (Any +Def Nature except Lax)`
 Equip: `Metronome`
-Moves: `Defense-Curl` `Rollout` `Power-Trick`
+Moves: `Rollout` `Defense-Curl` `Power-Trick`
 EVs: `HP 252` `DEF 252` `SPD 4`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Screech` then `Baton-Pass` to **Latios**.
-- With **Latios**, use 1x `Hone-Claws` then `Baton-Pass` to **Shuckle**.
+- With **Vaporeon** use  2x `Captivate`, 1x `Aqua-Ring`, 2x `Focus-Energy`, then `Baton-Pass` to **Gliscor**.
+- With **Gliscor**, use 1x `Hone-Claws`, 3x `Screech`, then `Baton-Pass` to **Shuckle**.
 - With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
 
     zard = f"""**TEAM:**
@@ -852,9 +979,10 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - With **Gmax Charizard**, spam `Max-Flare`, and use Max Potions to heal."""
 
     gard2 = f"""**TEAM:**
-- **Smeargle #235**
-Equip: `Loaded_Dice | Clear_Amulet`
-Moves: `Fake-Tears` `Eerie-Impulse` `Simple-Beam` `Baton-Pass`
+- **Swoobat #528**
+Ability: `Simple`
+Equip: `Loaded_Dice`
+Moves: `Simple-Beam` `Captivate` `Fake-Tears` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
@@ -869,7 +997,9 @@ Moves: `Stored-Power`
 EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
+- If possible change Swoobat's ability to Simple to save aux.
+- Learn Captivate on Woobat, then evolve it into Swoobat.
 - Use 3x Aux Powerguard.
-- With **Smeargle** use  1x `Eerie-Impulse`, 2x `Fake-Tears`, 1x `Simple-Beam`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
 - With **Shiny Smeargle** use 1x `Role-Play`, 1x `Focus-Energy`, 6x `Acupressure`, then `Baton-Pass` to **Mega Gardevoir**.
 - With **Mega Gardevoir**,  spam `Stored-Power`, and use Max Potions to heal."""

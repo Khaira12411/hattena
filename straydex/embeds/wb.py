@@ -76,24 +76,39 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         header_text = f"SHINY GIGANTAMAX-URSHIFU-SINGLESTRIKE #{dex_number}"
         strat = WB_MVPStrat.uss
 
-    # MMY METRONOME FOR URS AND GRI
+    # MMY METRONOME FOR URS
     elif boss_name == "urs":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/urshifu-rapid-strike-gmax.png"
         header_text = f"SHINY GIGANTAMAX-URSHIFU-RAPIDSTRIKE #{dex_number}"
         strat = WB_MVPStrat.necorzma_ultra
 
+    elif boss_name == "alc":
+        strat = WB_MVPStrat.alcremie
+
     elif boss_name == "gri":
-        strat = WB_MVPStrat.zac_crowned
+        strat = WB_MVPStrat.grimm
 
     elif boss_name == "coa":
         strat = WB_MVPStrat.coa
+
+    elif boss_name == "pik":
+        strat = WB_MVPStrat.pika
+
+    elif boss_name == "gen":
+        strat = WB_MVPStrat.gengar
+
+    elif boss_name == "snor":
+        strat = WB_MVPStrat.snorlax
+
+    elif boss_name == "tox":
+        strat = WB_MVPStrat.toxic
 
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
         strat = WB_MVPStrat.ee
         header_text = f"SHINY ETERNAMAX-ETERNATUS #{dex_number}"
 
-    elif boss_name in ["dur", "hat"]:
+    elif boss_name in ["dur"]:
         strat = WB_MVPStrat.braviary
 
     elif boss_name in ["mel", "ril", "cor", "cop"]:
@@ -102,14 +117,14 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     elif boss_name in ["dre", "fla", "app"]:
         strat = WB_MVPStrat.gard2
 
-    elif boss_name in ("orb"):
+    elif boss_name in ["orb", "hat"]:
         strat = WB_MVPStrat.incineroar
 
 
     elif boss_name in ("cen", "cha", "but", "lap"):
         strat = WB_MVPStrat.shuckle
 
-    elif boss_name in ("ven", "mac", "gen", "gab", "tox"):
+    elif boss_name in ("ven", "mac", "gab"):
         strat = WB_MVPStrat.necorzma_ultra
 
     else:
