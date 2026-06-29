@@ -26,8 +26,11 @@ class SD_VI_TIER_DESC:
 > <:8113:1511920044509102201> Sandstorm • [Server Link](https://discord.gg/8zHgfmAZdQ)
 - **Catalog Corner**
 > <:8119:1511920040172327112> Monsoon • [Server Link](https://discord.gg/Me972MBuCX)
-- **Sanski**
-> <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/GaGFxHhSnS)"""
+- **Zekrom Revolution**
+> <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/yYEr3KrJd)
+- **炎之谷 𝑷𝒐𝒌𝒆́𝒎𝒐𝒏 交流群**
+> <:8095:1511920063299452968> Garden • [Server Link](https://discord.gg/nk7R7eec8)
+"""
 
     four = """- **Pokémon Legends ZA**
 > <:8128:1511920033931202641> Ocean • [Server Link](https://discord.gg/windsandwaves)
