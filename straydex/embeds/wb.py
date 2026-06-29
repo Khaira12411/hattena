@@ -26,30 +26,27 @@ def wb_consistent_strat(guild: discord.Guild, boss_name: str, user_display_name:
     if boss_name == "uss":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/urshifu-gmax.png"
         header_text = f"GIGANTAMAX-URSHIFU-SINGLESTRIKE #{dex_number}"
-        strat = WB_ConsitentStrat.uss
+        strat = WB_BudgetStrat.gard2
 
     elif boss_name == "urs":
         thumbnail_icon_link = f"https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/urshifu-rapid-strike-gmax.png"
         header_text = f"GIGANTAMAX-URSHIFU-RAPIDSTRIKE #{dex_number}"
-        strat = WB_ConsitentStrat.mewtwo_strat
-
-    elif boss_name == "gen":
-        strat = WB_ConsitentStrat.gengar_strat
+        strat = WB_BudgetStrat.gard
 
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/eternatus-eternamax.png"
-        strat = WB_ConsitentStrat.mewtwo_strat
+        strat = WB_BudgetStrat.gard
         header_text = f"ETERNAMAX-ETERNATUS #{dex_number}"
 
     elif boss_name == "gri":
-        strat = WB_ConsitentStrat.gri
-    elif boss_name in ["mel", "cop", "dur", "cor"]:
-        strat = WB_ConsitentStrat.steel_type_strat
-    elif boss_name == "orb":
-        strat = WB_ConsitentStrat.incineroar
+        strat = WB_BudgetStrat.gard2
+    elif boss_name in ["cha", "but", "lap", "cen"]:
+        strat = WB_BudgetStrat.shuckle
+    elif boss_name in ["orb", "hat"]:
+        strat = WB_BudgetStrat.incineroar
 
     else:
-        strat = WB_ConsitentStrat.mewtwo_strat
+        strat = WB_BudgetStrat.gard
 
     color = getattr(WBColors, full_boss_name)
     embed = discord.Embed(description=strat, color=color)
@@ -161,10 +158,10 @@ class WBStratView(View):
 
         # Create buttons
         self.consistency_button = Button(
-            label="Consistency",
+            label="Budget",
             style=discord.ButtonStyle.secondary,
             emoji=consistency_emoji,
-            disabled=True,  # Start with Consistency active
+            disabled=True,  # Start with Budget active
         )
         self.mvp_button = Button(
             label="MVP",

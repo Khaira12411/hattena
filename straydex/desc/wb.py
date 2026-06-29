@@ -381,6 +381,92 @@ class WB_SHINYEMOJI:
     uss = "<:urshifugmax6:1476450040154427533>"
     ven = "<:venusaurgmax6:1476450081132642314>"
 
+class WB_BudgetStrat:
+    gard = f"""**TEAM:**
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Gardevoir #7022**
+Equip: `Metronome`
+Moves: `Stored-Power` `Draining-Kiss`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**STRATEGY:**
+- **Optional** Use 3x Aux Guard.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
+- With **Mega-Gardevoir**, spam `Stored-Power`, and use `Draining-Kiss` to heal."""
+    gard2 = f"""**TEAM:**
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Gardevoir #7022**
+Equip: `Metronome`
+Moves: `Echoed-Voice` `Draining-Kiss`
+EVs: `SPA 252` `SPD 252` `HP 4`
+
+**STRATEGY:**
+- **Optional** Use 3x Aux Guard.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
+- With **Mega-Gardevoir**, spam `Echoed-Voice`, and use `Draining-Kiss` to heal."""
+
+    shuckle = f"""**TEAM:**
+- **Poliwrath #62**
+Equip: `Loaded_Dice`
+Moves: `Captivate` `Amnesia` `Belly-Drum` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mew #151**
+Equip: `Wise_Glasses`
+Moves: `Hone-Claw` `Screech` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shuckle #213**
+Equip: `Metronome`
+Moves: `Rollout` `Power-Trick` `Defense-Curl`
+EVs: `HP 252` `DEF 252` `SPD 4`
+
+**STRATEGY:**
+- With **Poliwrath** use 3x `Captivate`, 2x `Amnesia`, 1x `Belly-Drum`, then `Baton-Pass` to **Mew**.
+- With **Mew** use 2x `Focus-Energy`, 1x `Hone-Claw`, 3x `Screech`, then `Baton-Pass` to **Shuckle**.
+- With **Shuckle**, use 1x `Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
+
+    incineroar = f"""**TEAM:**
+- **Smeargle #235**
+Equip: `Loaded_Dice`
+Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shiny Smeargle #1235**
+Equip: `Loaded_Dice`
+Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Incineroar #727**
+Equip: `Metronome`
+Moves: `Power-Trip` `Leech-Life` `Leer`
+EVs: `ATK 252` `SPD 252` `HP 4`
+
+**STRATEGY:**
+- **Optional** Use 3x Aux Guard.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Incineroar**.
+- With **Incineroar**, spam `Power-Trip`, and use `Leech-Life` to heal."""
 
 class WB_ConsitentStrat:
     i = f"""# WORLDBOSS INFO
