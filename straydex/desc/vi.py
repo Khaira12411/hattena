@@ -13,8 +13,8 @@ class SD_VI_TIER_DESC:
 > <:8104:1511920051073323048> Marine • [Server Link](https://discord.gg/sbZ2WrWSUr)
 - **Random Corp**
 > <:8098:1511920055053451365> Elegant • [Server Link](https://discord.gg/T2XRg3t2fY)
-- **MLBB Arena MY**
-> <:8107:1511920048942485636> Archipelago • [Server Link](https://discord.gg/WNpEDm6yn)
+- **Guild of the Dead**
+> <:8107:1511920048942485636> Archipelago • [Server Link](https://discord.gg/2hxWe7arr)
 - **BSL**
 > <:8101:1511920053237317753> Modern • [Server Link](https://discord.gg/bslpm)"""
 
@@ -27,9 +27,9 @@ class SD_VI_TIER_DESC:
 - **Catalog Corner**
 > <:8119:1511920040172327112> Monsoon • [Server Link](https://discord.gg/Me972MBuCX)
 - **Zekrom Revolution**
-> <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/yYEr3KrJd)
+> <:8122:1511920038297473094> Savanna • [Server Link](https://discord.gg/JT5sDjps43)
 - **炎之谷 𝑷𝒐𝒌𝒆́𝒎𝒐𝒏 交流群**
-> <:8095:1511920063299452968> Garden • [Server Link](https://discord.gg/nk7R7eec8)
+> <:8095:1511920063299452968> Garden • [Server Link](https://discord.gg/3eSe6ayhNA)
 """
 
     four = """- **Pokémon Legends ZA**
