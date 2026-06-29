@@ -94,7 +94,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     elif boss_name == "gen":
         strat = WB_MVPStrat.gengar
 
-    elif boss_name == "snor":
+    elif boss_name == "sno":
         strat = WB_MVPStrat.snorlax
 
     elif boss_name == "tox":

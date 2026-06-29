@@ -756,7 +756,7 @@ Moves: `Stored-Power` `Role-Play` `Wonder-Room`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **MVP STRATEGY:** {Emojis.star}
-- Change Remoraid's ability to Sniper. Get Entrainment on Remoraid before evolving to Octillery.
+- Get Entrainment on Remoraid before evolving to Octillery, then change its ability to Sniper.
 - Use 3x Aux Guard.
 - With **Octillery** use 1x `Entrainment`, 3x `Captivate`, 3x `Acid-Spray`, then when Octillery dies swap to **Smeargle**.
 - With **Smeargle** use 3x `Aux Powerguard`, 2x `Focus-Energy`, 6x `Acupressure` then `Baton-Pass` to **Mega-Mewtwo-Y**.
