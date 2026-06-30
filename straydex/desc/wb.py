@@ -751,7 +751,7 @@ EVs: `HP 252` `SPD 252`
 
 - **Mega-Mewtwo-Y #7121**
 Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Choice_Specs`
+Equip: `Metronome`
 Moves: `Stored-Power` `Role-Play` `Wonder-Room`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
@@ -801,7 +801,7 @@ EVs: `HP 252` `SPD 252`
 
 - **Mega Mewtwo Y #7121**
 Nature: `+SpA (Any +SpA Nature except Rash)`
-Equip: `Choice_Specs`
+Equip: `Metronome`
 Moves: `Stored-Power` `Role-Play` `Recover`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
