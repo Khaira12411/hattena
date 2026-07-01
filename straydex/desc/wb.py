@@ -1041,6 +1041,29 @@ EVs: `HP 252` `DEF 252` `SPD 4`
 - With **Gliscor**, use 1x `Hone-Claws`, 3x `Screech`, then `Baton-Pass` to **Shuckle**.
 - With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
 
+    lapras = f"""**TEAM:**
+- **Umbreon #197**
+Equip: `Loaded_Dice | Clear_Amulet`
+Moves: `Captivate` `Focus-Energy` `Screech` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Mega-Latias #7139**
+Equip: `Loaded_Dice`
+Moves: `Hone-Claws` `Substitute` `Magic-Room` `Baton-Pass`
+EVs: `HP 252` `SPD 252`
+
+- **Shuckle #213**
+Nature: `+Def (Any +Def Nature except Lax)`
+Equip: `Choice_Band`
+Moves: `Rollout` `Defense-Curl` `Power-Trick`
+EVs: `HP 252` `DEF 252` `SPD 4`
+
+**MVP STRATEGY:** {Emojis.star}
+- Use 3x Aux Powerguard.
+- With **Umbreon** use  1x `Captivate`, 2x `Focus-Energy`, 3x `Screech`, then `Baton-Pass` to **Mega-Latias**.
+- With **Mega-Latias**, use 1x `Hone-Claws`, 1x `Substitute`, 1x `Magic-Room`, then `Baton-Pass` to **Shuckle**.
+- With **Shuckle**, use `1x Defense-Curl`, 1x `Power-Trick`, then spam `Rollout`. Use Max Potions to heal."""
+
     zard = f"""**TEAM:**
 - **Sylveon #700**
 Equip: `Loaded_Dice`

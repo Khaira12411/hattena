@@ -328,7 +328,7 @@ async def build_weakness_embed_from_input(
         weaknesses = await get_weakness_via_type(bot, variant_name)
         if not weaknesses:
             pretty_log(
-                "warn",
+                "info",
                 f"No weaknesses found for {variant_name} via weakness chart or type lookup.",
             )
             return None, None, None
@@ -514,7 +514,7 @@ async def get_weakness_via_type(bot: discord.Client, pokemon_input: str):
     pokemon_type = await fetch_pokemon_type(bot, formatted_input)
     if not pokemon_type:
         pretty_log(
-            "warn",
+            "info",
             f"No type found for {formatted_input}",
         )
         return None

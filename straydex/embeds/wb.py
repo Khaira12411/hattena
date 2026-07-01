@@ -100,6 +100,9 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
     elif boss_name == "tox":
         strat = WB_MVPStrat.toxic
 
+    elif boss_name == "lap":
+        strat = WB_MVPStrat.lapras
+
     elif boss_name == "eet":
         thumbnail_icon_link = "https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/eternatus-eternamax.png"
         strat = WB_MVPStrat.ee
@@ -118,7 +121,7 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
         strat = WB_MVPStrat.incineroar
 
 
-    elif boss_name in ("cen", "cha", "but", "lap"):
+    elif boss_name in ("cen", "cha", "but"):
         strat = WB_MVPStrat.shuckle
 
     elif boss_name in ("ven", "mac", "gab"):
