@@ -54,6 +54,9 @@ class SD_MC_ID:
     vic = 549
     dra = 550
     cle = 551
+    sta = 552
+    meg = 553
+    ska = 554
 
 
 class SD_MC_NPC_IDS:
@@ -1428,6 +1431,49 @@ __OR__
 - Meganium is mandatory vs Mega Altaria; usable at level 1. Levelled Meganium helps vs GMax Hatterene.
 - Credits: teslacybertrak (strat), .arandomcat (Work Up)"""
 
+    ska = """**TEAM:**
+- **Skarmory #227 (Lvl. 1)**
+> Ability: `Sturdy`
+> Equip: `N/A`
+> Moves: `Captivate`
+
+- **Whimsicott #547**
+> Equip: `Choice-Scarf`
+> Moves: `Memento` `Charm` `Worry-Seed` `Switcheroo`
+
+- **Golden Lugia #249**
+> Ability: `Multiscale`
+> Equip: `Covert-Cloak`
+> Moves: `Whirlpool` `Calm-Mind` `Curse` `Roost`
+> EVs: `HP 252` `DEF 168` `SPD 90`
+
+**STRATEGY**
+### Round 1
+- **Corviknight lead** → Let Skarmory faint → Whimsicott uses `Memento` → Setup G Lugia → Sweep.
+- **Ferrothorn lead** → Let Skarmory faint → Whimsicott uses `Switcheroo` → Setup G Lugia → Sweep.
+- **Skarmory lead** → Skarmory uses `1× Captivate` → Switch to G Lugia → Setup with `Curse` + `Whirlpool`.
+  One turn before enemy Skarmory faints, switch back to your Skarmory so both faint → Whimsicott uses `Switcheroo` → Setup G Lugia → Sweep.
+- **Celesteela lead** → Skarmory uses `1× Captivate` → Switch to G Lugia → Setup with `Calm-Mind` + `Whirlpool`.
+  When Celesteela faints, let your Skarmory faint → Whimsicott uses `Worry-Seed` → Setup G Lugia → Sweep.
+
+### Round 2
+- **Magnezone lead** → Unwinnable.
+- **Celesteela lead** → Skarmory uses `1× Captivate` → Switch to G Lugia → Setup → Sweep.
+- **Heatran lead** → Skarmory uses `Captivate` until faint → Whimsicott uses `Switcheroo` to lock Heatran → Setup G Lugia → Sweep.
+  *Tip:* Get `2× Calm-Mind` before maxing; if Heatran misses twice it may switch.
+- **Skarmory lead** → Let Skarmory faint → Whimsicott uses `Memento` → Setup G Lugia → Sweep.
+
+### Finals
+- **Ferrothorn lead** → Same as Round 1 Ferrothorn strat.
+- **Celesteela lead** → Skarmory uses `1× Captivate` → Setup G Lugia → Sweep.
+- **Heatran lead** → Same as Round 2 Heatran strat (Thundurus doesn’t Taunt here, safer to Roost).
+- **Magnezone lead** → Unwinnable.
+
+> <a:fidough_wow:1283739703140679703> ***FidNotes:***
+- Despite Magnezone being unwinnable, win rate is very high against all other matchups.
+- Credits: gui_0 (strat + testing), Khy (provided G Lugia).
+"""
+
 class SD_MC_GOLD_STRAT:
     abo = f"""**TEAM:**
 - **Zacian-Crowned #7891**
@@ -2153,6 +2199,7 @@ B. For Kangaskhan w/ Sash
     cle = None
     sta = None
     meg = None
+    ska = None
 
 class SD_MC_DEX_NUM:
     abo = 7070  # abomasnow
@@ -2209,7 +2256,7 @@ class SD_MC_DEX_NUM:
     cle = 7308 # clefable
     sta = 7311 # starmie
     meg = 7314 # meganium
-
+    ska = 7317 # skarmory
 class SD_MC_GOLD_THUMBNAIL:
     abo = GOLDEN_MEGA_POKEMON_URL.mega_abomasnow
 
@@ -2299,6 +2346,7 @@ class SD_MC_GOLD_THUMBNAIL:
     cle = None
     sta = None
     meg = None
+    ska = None
 
 class SD_MC_WHOLE_NAME:
     abo = "abomasnow"
@@ -2356,6 +2404,7 @@ class SD_MC_WHOLE_NAME:
     cle = "clefable"
     sta = "starmie"
     meg = "meganium"
+    ska = "skarmory"
 
 
 class MC_REGULAR_BUTTON_EMOJI:
@@ -2412,6 +2461,7 @@ class MC_REGULAR_BUTTON_EMOJI:
     cle = "<:7308:1497877049950601396>"
     sta = "<:7311:1508329469935358003>"
     meg = "<:7314:1518811435940057222>"
+    ska = "<:7317:1521716094728142950>"
 
 class MC_GOLD_BUTTON_EMOJI:
     abo = "<:7072:1478741682068525169>"
@@ -2440,7 +2490,7 @@ class MC_GOLD_BUTTON_EMOJI:
     hou = "<:7078:1478741540569481359>"
     kan = "<:7075:1483760547106131978>"
     laa = "<:7141:1478741520583753851>"
-    lao = None
+    lao = "<:7144:1521716340912558211>"
     lop = "<:7048:1478741549960532101>"
     luc = None
     man = None
@@ -2449,7 +2499,7 @@ class MC_GOLD_BUTTON_EMOJI:
     met = "<:7138:1502559729782882457>"
     mmx = "<:7111:1478741530700156928>"
     mmy = "<:7123:1478741526208184371>"
-    pid = None
+    pid = "<:7039:1521716092438052914>"
     pin = None
     ray = "<:7120:1478741528267722813>"
     sab = None
@@ -2469,6 +2519,7 @@ class MC_GOLD_BUTTON_EMOJI:
     cle = None
     sta = None
     meg = None
+    ska = None
 
 mc_dict = {
     "abo": {

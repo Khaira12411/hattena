@@ -385,12 +385,12 @@ class WB_BudgetStrat:
     gard = f"""**TEAM:**
 - **Smeargle #235**
 Equip: `Loaded_Dice`
-Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+Moves: `Geomancy` `Eerie-Impulse` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
 Equip: `Loaded_Dice`
-Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+Moves: `Coil` `Acupressure` `Octolock` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega-Gardevoir #7022**
@@ -399,19 +399,20 @@ Moves: `Stored-Power` `Draining-Kiss`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **STRATEGY:**
-- **Optional** Use 3x Aux Guard.
-- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
-- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
+- **Optional** Use 3x Aux Guard with First Smeargle.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 2x `Eerie-Impulse`, 2x `Geomancy`, 2x `Focus-Energy`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Octolock`, 6x `Coil`,  for very long bosses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
 - With **Mega-Gardevoir**, spam `Stored-Power`, and use `Draining-Kiss` to heal."""
+
     gard2 = f"""**TEAM:**
 - **Smeargle #235**
 Equip: `Loaded_Dice`
-Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+Moves: `Geomancy` `Eerie-Impulse` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
 Equip: `Loaded_Dice`
-Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+Moves: `Coil` `Acupressure` `Octolock` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Mega-Gardevoir #7022**
@@ -420,9 +421,9 @@ Moves: `Echoed-Voice` `Draining-Kiss`
 EVs: `SPA 252` `SPD 252` `HP 4`
 
 **STRATEGY:**
-- **Optional** Use 3x Aux Guard.
-- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
-- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
+- **Optional** Use 3x Aux Guard with First Smeargle.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 2x `Eerie-Impulse`, 2x `Geomancy`, 2x `Focus-Energy`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Octolock`, 6x `Coil`,  for very long bosses you can also use 3x `Acupressure`, then `Baton-Pass` to **Mega-Gardevoir**.
 - With **Mega-Gardevoir**, spam `Echoed-Voice`, and use `Draining-Kiss` to heal."""
 
     shuckle = f"""**TEAM:**
@@ -449,12 +450,12 @@ EVs: `HP 252` `DEF 252` `SPD 4`
     incineroar = f"""**TEAM:**
 - **Smeargle #235**
 Equip: `Loaded_Dice`
-Moves: `Geomancy` `Eerie-Impulse` `Octolock` `Baton-Pass`
+Moves: `Geomancy` `Eerie-Impulse` `Focus-Energy` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Shiny Smeargle #1235**
 Equip: `Loaded_Dice`
-Moves: `Coil` `Acupressure` `Focus-Energy` `Baton-Pass`
+Moves: `Coil` `Acupressure` `Octolock` `Baton-Pass`
 EVs: `HP 252` `SPD 252`
 
 - **Incineroar #727**
@@ -463,10 +464,10 @@ Moves: `Power-Trip` `Leech-Life` `Leer`
 EVs: `ATK 252` `SPD 252` `HP 4`
 
 **STRATEGY:**
-- **Optional** Use 3x Aux Guard.
-- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 1x `Eerie-Impulse`, 1x `Octolock`, 2x `Geomancy`, 1x `Eerie-Impulse`, then `Baton-Pass` to **Shiny Smeargle**.
-- With **Shiny Smeargle** use 2x `Focus-Energy`, 6x `Coil`,  for really long boses you can also use 3x `Acupressure`, then `Baton-Pass` to **Incineroar**.
-- With **Incineroar**, spam `Power-Trip`, and use `Leech-Life` to heal."""
+- **Optional** Use 3x Aux Guard with First Smeargle.
+- With **Smeargle** use 1x `Eerie-Impulse`, 1x `Geomancy`, 2x `Eerie-Impulse`, 2x `Geomancy`, 2x `Focus-Energy`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Shiny Smeargle** use 1x `Octolock`, 6x `Coil`,  for very long bosses you can also use 3x `Acupressure`, then `Baton-Pass` to **Incineroar**.
+- With **Incineroar**, spam `Power-Trip`, and use `Leech-Life` to heal. Use `Leer` to lower the Orbettle's defense whenever it uses Max-Steelspike."""
 
 class WB_ConsitentStrat:
     i = f"""# WORLDBOSS INFO

@@ -65,6 +65,7 @@ async def build_sd_reg_mc_embed(
         "swa",  # Swampert
         "dra",  # Dragonite
         "meg", # Meganium
+
     ]
     rare_names = [
         "gya",  # Gyarados
@@ -88,6 +89,7 @@ async def build_sd_reg_mc_embed(
         "slo",  # Slowbro
         "vic",  # Victreebel
         "sta",  # Starmie
+        "ska",  # Skarmory
     ]
 
     rare_color = 16550924

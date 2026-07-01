@@ -390,7 +390,7 @@ Members can show off their collections in <#1298114332583788597>
     mc = """# STRAYDEX: MEGA CHAMBER
 **OS MEGA CHAMBER STRAT LINK:** [LINK](https://docs.google.com/spreadsheets/d/1frm707a6QLgvsSkdWI5SJ4aRgCmI77ZLNrZ-efleSMQ/edit?gid=0#gid=0)
 
-**COMMANDS:**
+**REGULAR CHAMBERS:**
 - **`!MCABO`**  MC: Mega Abomasnow
 - **`!MCABS`**  MC: Mega Absol
 - **`!MCAER`**  MC: Mega Aerodactyl
@@ -406,9 +406,7 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCCAM`**  MC: Mega Camerupt
 - **`!MCCHX`**  MC: Mega Charizard X
 - **`!MCCHY`**  MC: Mega Charizard Y
-- **`!MCCLE`**  MC: Mega Clefable
 - **`!MCDIA`**  MC: Mega Diancie
-- **`!MCDRA`**  MC: Mega Dragonite
 - **`!MCGAL`**  MC: Mega Gallade
 - **`!MCGAR`**  MC: Mega Garchomp
 - **`!MCGAV`**  MC: Mega Gardevoir
@@ -438,12 +436,18 @@ Members can show off their collections in <#1298114332583788597>
 - **`!MCSCI`**  MC: Mega Scizor
 - **`!MCSHA`**  MC: Mega Sharpedo
 - **`!MCSLO`**  MC: Mega Slowbro
-- **`!MCSTA`**  MC: Mega Starmie
 - **`!MCSTE`**  MC: Mega Steelix
 - **`!MCSWA`**  MC: Mega Swampert
 - **`!MCTYR`**  MC: Mega Tyranitar
 - **`!MCVEN`**  MC: Mega Venusaur
-- **`!MCVIC`**  MC: Mega Victreebel"""
+
+**HIDDEN CHAMBERS:**
+- **`!MCCLE`**  MC: Mega Clefable
+- **`!MCDRA`**  MC: Mega Dragonite
+- **`!MCSKA`**  MC: Mega Skarmory
+- **`!MCSTA`**  MC: Mega Starmie
+- **`!MCVIC`**  MC: Mega Victreebel
+"""
 
     na = f"""# STRAYDEX: NATURE
 - Nature is a mechanic that influences how a Pokémon’s stats grow and also affects its personality traits.
