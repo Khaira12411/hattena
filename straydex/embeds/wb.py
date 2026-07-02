@@ -1,12 +1,10 @@
 import discord
 from discord.ui import Button, View
 
+from constants.aesthetic import Dividers, Emojis
 from straydex.config import SD_CONFIG
 from straydex.desc.wb import *
-from straydex.functions.main import (
-    get_default_footer,
-)
-from constants.aesthetic import Dividers, Emojis
+from straydex.functions.main import get_default_footer
 from utils.logs.pretty_log import pretty_log
 
 wb_map["alc"]
@@ -119,7 +117,6 @@ def wb_mvp_strat(guild: discord.Guild, boss_name: str, user_display_name: str):
 
     elif boss_name in ["orb", "hat"]:
         strat = WB_MVPStrat.incineroar
-
 
     elif boss_name in ("cen", "cha", "but"):
         strat = WB_MVPStrat.shuckle
@@ -291,43 +288,28 @@ async def build_sd_wb_sketch_embed(
     desc = "# WORLD BOSS: SKETCH IDS"
     embed = discord.Embed(description=desc, color=SD_CONFIG.default_color)
     embed.add_field(
-        name=f"{Emojis.purple_arrow} For Smeargle 1",
-        value=";b user 797775586038513674",
+        name=";b user 797775586038513674",
+        value="**Smeargle 1 Team:**\n- Psyduck - `Simple-Beam`\n- Jolteon - `Fake-Tears` `Eerie-Impulse`\n- Ninetales - `Baton-Pass`",
         inline=False,
     )
     embed.add_field(
-        name=f"{Emojis.purple_arrow} For Smeargle 2",
-        value=";b user 788960681814261850",
+        name=";b user 788960681814261850",
+        value="**Smeargle 2 Team:**\n- Igglybuff - `Role-Play`\n- Arrokuda - `Focus-Energy` `Acupressure`\n- Grapploct - `Octolock`",
         inline=False,
     )
     embed.add_field(
-        name=f"{Emojis.purple_arrow} For Smeargle 3",
-        value=";b user 763621487852519474",
+        name=";b user 763621487852519474",
+        value="**Smeargle 3 Team:**\n- Xerneas-Neutral - `Geomancy` `Ingrain`\n- Coalossal - `Tar-Shot`\n- Milotic - `Coil` `Aqua-Ring`",
         inline=False,
     )
-    info = f"""
-**Smeargle 1 Team:**
-- Psyduck - `Simple-Beam`
-- Jolteon - `Fake-Tears` `Eerie-Impulse`
-- Ninetales - `Baton-Pass`
-**Smeargle 2 Team:**
-- Igglybuff - `Role-Play`
-- Arrokuda - `Focus-Energy` `Acupressure`
-- Grapploct - `Octolock`
-**Smeargle 3 Team:**
-- Xerneas-Neutral - `Geomancy` `Ingrain`
-- Coalossal - `Tar-Shot`
-- Milotic - `Coil` `Aqua-Ring`
-
-**Notes:**
-- After the Pokemon uses the move you need, press Sketch.
+    notes = """- After the Pokemon uses the move you need, press Sketch.
 - You can only sketch once per battle, so you will need to finish the battle or forfeit. (If you haven't trained Smeargle's EVs then forfeit so you don't mess up Evs or turn off your exp share `;t disable expshare`)
 - Buy the Sketch move again. In the next battle, use another Pokemon to knock out the Pokemon whose move you already sketched, then just swap to Smeargle and use Sketch on the next move that you want.
 - For Jolteon and Arrokuda, you have to wait until it uses the move you want before you press Sketch.
 - You need to have two of these for the strategy: Smeargle, Shiny Smeargle, or Golden Smeargle.
 - Credits to OS for this guide."""
 
-    embed.add_field(name=f"{Emojis.info} Info", value=info, inline=False)
+    embed.add_field(name=f"{Emojis.info} Notes", value=notes, inline=False)
     footer_text = get_default_footer(user_display_name)
     embed.set_footer(text=footer_text, icon_url=guild.icon.url if guild.icon else None)
     thumbnail_url = "https://graphics.tppcrpg.net/xy/golden/235M.gif"
@@ -385,11 +367,11 @@ class WBSKETCHVIEW(View):
         # Update embed fields if current view is Levels
         embed = self.embed.copy()
         for i, field in enumerate(embed.fields):
-            if "Smeargle 1" in field.name or "Smeargle 2" in field.name:
+            if ";b user" in field.name:
                 embed.set_field_at(
                     i,
-                    name=field.name,
-                    value=toggle_backticks(field.value, self.iphone_copy),
+                    name=toggle_backticks(field.name, self.iphone_copy),
+                    value=field.value,
                     inline=field.inline,
                 )
         self.trl_embed = embed
