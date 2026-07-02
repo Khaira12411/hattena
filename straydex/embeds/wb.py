@@ -300,6 +300,11 @@ async def build_sd_wb_sketch_embed(
         value=";b user 788960681814261850",
         inline=False,
     )
+    embed.add_field(
+        name=f"{Emojis.purple_arrow} For Smeargle 3",
+        value=";b user 763621487852519474",
+        inline=False,
+    )
     info = f"""
 **Smeargle 1 Team:**
 - Psyduck - `Simple-Beam`
@@ -308,7 +313,11 @@ async def build_sd_wb_sketch_embed(
 **Smeargle 2 Team:**
 - Igglybuff - `Role-Play`
 - Arrokuda - `Focus-Energy` `Acupressure`
-- Ninetales - `Baton-Pass`
+- Grapploct - `Octolock`
+**Smeargle 3 Team:**
+- Xerneas-Neutral - `Geomancy` `Ingrain`
+- Coalossal - `Tar-Shot`
+- Milotic - `Coil` `Aqua-Ring`
 
 **Notes:**
 - After the Pokemon uses the move you need, press Sketch.
