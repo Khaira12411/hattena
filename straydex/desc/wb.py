@@ -684,7 +684,7 @@ EVs: `SPA 252` `SPD 252` `HP 4`
 - If possible change Swoobat's ability to Simple to save aux.
 - Learn Captivate on Woobat, then evolve it into Swoobat.
 - Use 3x Aux Powerguard.
-- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Shiny Smeargle**.
+- With **Swoobat** use 1x `Simple-Beam`, 1x `Captivate`, 2x `Fake-Tears`, then `Baton-Pass` to **Vaporeon**.
 - With **Vaporeon** use 1x `Aqua-Ring`, 2x `Focus-Energy`, then `Baton-Pass` to **Mega-Gardevoir**.
 - With **Mega-Gardevoir**, spam `Echoed-Voice`, and use Max Potions to heal."""
 
