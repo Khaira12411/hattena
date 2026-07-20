@@ -341,3 +341,29 @@ OR
 - Genesect lead (second encounter): Use Substitute ×2, then Trick-Room → Taunt → Substitute → Destiny-Bond.
 - Genesect second: Taunt ×2 → Destiny-Bond.
 """
+
+    C4_Strat = f"""**NPC IDs:** 306
+**Enemy Team:** Jirachi + Primal Dialga + Zapdos
+
+**TEAM:**
+- **Mimikyu #778**
+> Equip: `Cherri_Berry`
+> Moves: `Trick-Room` `Destiny-Bond` `Burning-Jealousy` `Protect`
+
+- **Shiny Mimikyu #1778**
+> Equip: `Cherri_Berry`
+> Moves: `Trick-Room` `Magic-Room` `Protect` `Destiny-Bond`
+
+- **Sudowoodo #185**
+> Equip: `Cherri_Berry`
+> Moves: `Endeavor` `Protect` `Sucker-Punch`
+
+**PROCEDURE:**
+- Jirachi + P. Dialga + Zapdos: Trick-Room → Burning-Jealousy → Destiny-Bond → Magic-Room → Destiny-Bond → Endeavor → Sucker-Punch.
+- P. Dialga + Zapdos + Jirachi: Trick-Room → Destiny-Bond → Magic-Room → Destiny-Bond → Protect → Endeavor → Sucker-Punch.
+- Zapdos + Jirachi + P. Dialga: Trick-Room → Destiny-Bond → Magic-Room → Destiny-Bond → Protect → Endeavor → Sucker-Punch.
+
+<a:fidough_wow:1283739703140679703> ***FidNotes***:
+- If Zapdos uses Defog against Mimikyu, keep spamming Destiny-Bond.
+- Use Trick-Room once Zapdos reaches -5 evasion, then Protect → Destiny-Bond.
+"""

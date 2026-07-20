@@ -34,10 +34,13 @@ class SD_VI_TIER_DESC:
 
     four = """- **Pokémon Legends ZA**
 > <:8128:1511920033931202641> Ocean • [Server Link](https://discord.gg/windsandwaves)
-- **Pokeden**
-> <:8125:1511920036414226525> Sun • [Server Link](https://discord.gg/TAEnYW4vV4)
+- **DEV GANG**
+> <:8125:1511920036414226525> Sun • [Server Link](https://discord.gg/bXCKrxMeJy)
 - **RPG Army**
 > <:8131:1511920030550458570> Jungle • [Server Link](https://discord.gg/67QE3uwRBw)"""
 
     five = """- **Pokemeow Official Server**
 > <:8134:1511920026926452786> Fancy • [Server Link](https://discord.gg/pokemeow)"""
+
+    six = """- **Chill Heaven**
+> <:8137:1511920023856353301> Pokeball • [Server Link](https://discord.gg/emotes)"""

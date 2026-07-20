@@ -29,6 +29,7 @@ async def build_sd_vi_main_info_embed(
         embed.add_field(name="Tier 3", value=SD_VI_TIER_DESC.three, inline=False)
         embed.add_field(name="Tier 4", value=SD_VI_TIER_DESC.four, inline=False)
         embed.add_field(name="Tier 5", value=SD_VI_TIER_DESC.five, inline=False)
+        embed.add_field(name="Tier 6", value=SD_VI_TIER_DESC.six, inline=False)
         await message.reply(embed=embed)
 
     except Exception as e:
