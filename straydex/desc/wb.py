@@ -971,7 +971,7 @@ EVs: `SPA 252` `SPD 252` `HP 6`
 
 **MVP STRATEGY:** {Emojis.star}
 - Use 3x Aux Powerguard.
-- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Fake-Tears`, then `Baton-Pass` to **Malamar**.
+- With **Mew** use  2x `Eerie-Impulse`, 2x `Focus-Energy`, 3x `Fake-Tears`, then `Baton-Pass` to **Mega Gardevoir**.
 - With **Mega Gardevoir**,  spam `Echoed-Voice`, and heal with Max Potions."""
 
     glalie = f"""**TEAM:**
