@@ -28,7 +28,7 @@ Server Owner: <@952071312124313611>
 > - Having Non-Weekly role for 2 weeks
 > - 3 Accumalative clan warnings"""
     sm2 = f"""# UNLOCK CLAN PERKS
-Straymon is a Diamond Rank clan.
+Straymon is an Amethyst Rank clan.
 
 - `;CLAN PURCHASE BRONZE`
 > Requirement: 2,000 Catches
@@ -43,9 +43,15 @@ Straymon is a Diamond Rank clan.
 - `;CLAN PURCHASE GOLD`
 > Requirement: 50,000 Catches
 > Cost: 500,000 Coin
-> Perks:  `Catch Rate +5%`  `Shiny Rate +5%`  `Event Rate +5%`  `Amulet Boost +1`
+> Perks:  `Catch Rate +5%`  `Shiny Rate +5%`  `Event Rate +5%`  `Amulet Coin Boost +1`
 
 - `;CLAN PURCHASE DIAMOND`
 > Requirement: 100,000 Catches
 > Cost: 1,000,000 Coin
-> Perks:  `Catch Rate +10%`  `Shiny Rate +10%`  `Event Rate +10%`  `Amulet Boost +1`  `Shop Discount -5%`"""
+> Perks:  `Catch Rate +10%`  `Shiny Rate +10%`  `Event Rate +10%` `Shop Discount -5%`
+
+-- `;CLAN PURCHASE AMETHYST`
+> Requirement: 115,384 Catches
+> Cost: 10,000,000 Coin
+> Perks:  `Catch Rate +15%`  `Shiny Rate +15%`  `Event Rate +15%`  `Amulet Coin Boost +2` `Quest Slot +1` `Promo Rate +5%`"""
+
