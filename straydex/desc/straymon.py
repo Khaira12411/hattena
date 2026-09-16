@@ -50,7 +50,7 @@ Straymon is an Amethyst Rank clan.
 > Cost: 1,000,000 Coin
 > Perks:  `Catch Rate +10%`  `Shiny Rate +10%`  `Event Rate +10%` `Shop Discount -5%`
 
--- `;CLAN PURCHASE AMETHYST`
+- `;CLAN PURCHASE AMETHYST`
 > Requirement: 115,384 Catches
 > Cost: 10,000,000 Coin
 > Perks:  `Catch Rate +15%`  `Shiny Rate +15%`  `Event Rate +15%`  `Amulet Coin Boost +2` `Quest Slot +1` `Promo Rate +5%`"""
