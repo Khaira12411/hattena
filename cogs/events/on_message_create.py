@@ -10,6 +10,8 @@ from constants.straymons_constants import (
     MH_APP_ID,
     POKEMEOW_APPLICATION_ID,
     PREFIX,
+    STRAYMONS_GUILD_ID
+
 )
 from straydex.embeds.vi import build_sd_vi_main_info_embed
 from utils.functions.ask_hattena import match_topic
@@ -19,6 +21,7 @@ from utils.listener_func.mention_listener import mention_listener
 from utils.listener_func.mh_lookup_listener import lookup_listener
 from utils.listener_func.perks_listener import perks_listener
 from utils.listener_func.straydex_handler import straydex_command_handler
+from utils.functions.promo import promo_autoresponder
 from utils.logs.pretty_log import pretty_log
 
 PERK_BANNED_PHRASES = {"PokeMeow Clans — Perks Info", "PokeMeow Clans — Rank Info"}
@@ -109,6 +112,13 @@ class MessageCreateListener(commands.Cog):
         first_embed_author = (
             first_embed.author.name if first_embed and first_embed.author else ""
         )
+
+        # ————————————————————————————————
+        # 🩷 !promo
+        # ————————————————————————————————
+        if content.casefold().startswith(f"{PREFIX}promo".casefold()) and message.guild.id != STRAYMONS_GUILD_ID:
+            await promo_autoresponder(self.bot, message)
+
         # ————————————————————————————————
         # 🩷 Straydex Handler
         # ————————————————————————————————
