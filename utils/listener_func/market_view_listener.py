@@ -48,21 +48,39 @@ def extract_pokemon_name_from_author(author_name: str) -> str | None:
     Returns the name between the last '—' (or '-') and 'Listings'.
     Returns None if not found.
     """
-    # Try em dash first, then hyphen
-    import re
-
-    match = re.search(r"[—-]\s*(.*?)\s+Listings", author_name)
+    match = re.search(
+        r"\bMarket\s*[—-]\s*(.*?)\s+Listings\s*$",
+        author_name,
+        re.IGNORECASE,
+    )
+    if not match:
+        match = re.search(
+            r"—\s*(.*?)\s+Listings\s*$",
+            author_name,
+            re.IGNORECASE,
+        )
+    if not match:
+        match = re.search(
+            r"\s-\s*(.*?)\s+Listings\s*$",
+            author_name,
+            re.IGNORECASE,
+        )
     if match:
         return match.group(1).strip().lower()
     return None
 
 
+def _normalize_pokemon_name_for_matching(pokemon_name: str) -> str:
+    return re.sub(r"[‐‑‒–—―\s-]+", "", pokemon_name).casefold()
+
+
 def parse_first_market_listing(
     embed_description: str,
+    expected_pokemon_name: str | None = None,
 ) -> Optional[Tuple[str, int, int, str]]:
     """
-    Parse the first listing from a PokeMeow market embed description.
-    Returns (pokemon_name, price_each, date_listed) or None if not found.
+    Parse the first matching listing from a PokeMeow market embed description.
+    Returns (pokemon_name, price_each, date_listed, emoji_id) or None if not found.
     """
 
     # Regex to capture emojis and pokemon name
@@ -99,6 +117,12 @@ def parse_first_market_listing(
             debug_log(f"Regex matched line {idx}: {line}")
             emoji_block = match.group(1)  # all emojis before name
             pokemon_name = match.group(2)
+            if (
+                expected_pokemon_name is not None
+                and _normalize_pokemon_name_for_matching(pokemon_name)
+                != _normalize_pokemon_name_for_matching(expected_pokemon_name)
+            ):
+                continue
             price_each = int(match.group(3).replace(",", ""))
             date_listed = int(match.group(4))
 
@@ -181,7 +205,12 @@ async def market_view_listener(bot: discord.Client, message: discord.Message):
         f"Embed description: {embed_description[:200]}"
         + ("..." if len(embed_description) > 200 else "")
     )
-    listing = parse_first_market_listing(embed_description)
+    parsed_pokemon_name_from_author = extract_pokemon_name_from_author(
+        getattr(embed.author, "name", "")
+    )
+    listing = parse_first_market_listing(
+        embed_description, parsed_pokemon_name_from_author
+    )
     if listing:
         pokemon_name, price_each, date_listed, pokemon_emoji_id = listing
         debug_log(
